@@ -487,6 +487,162 @@ const portugues = {
                     },
                 ]
             },
+            {
+                titulo: 'Figuras de Sintaxe',
+                figuras: [
+                    {
+                        titulo: 'Elipse',
+                        definicao: [
+                            `Elipse é quando uma ou mais palavras são “escondidas” numa frase, mas a gente entende mesmo assim porque o sentido continua claro.`,
+                            `A elipse é uma figura de linguagem classificada como figura de sintaxe (ou de construção), porque interfere na estrutura sintática dos enunciados.`,
+                            `Um exemplo simples seria na frase: "Estava falando sobre a minha mãe e não sobre à sua.", nessa frase, a palavra mãe foi omitida (estava falando sobre a minha mãe e não sobre à sua mãe.)`
+                        ],
+                        exemplos: {
+                            titulo: 'São alguns exemplos:',
+                            frases: [
+                                {
+                                    frase: '"Fui ao mercado e ela, à farmácia."',
+                                    explicacao: 'O verbo "foi" foi omitido na segunda parte da frase. O correto seria: "ela foi à farmácia", mas "foi" está subentendido. (Fui ao mercado e ela foi à farmácia.)'
+                                },
+                                {
+                                    frase: '"Na sala, apenas dois alunos."',
+                                    explicacao: 'O verbo "havia" está omitido, mas entendido: "Na sala, havia apenas dois alunos."'
+                                },
+                                {
+                                    frase: '"Ele gosta de matemática; eu, de português."',
+                                    explicacao: 'O verbo "gosto" foi omitido na segunda parte: "Eu gosto de português."'
+                                },
+                                {
+                                    frase: '"Comi demais ontem. Hoje, nada."',
+                                    explicacao: 'O verbo "comi" está omitido na segunda frase: "Hoje, (comi) nada."'
+                                },
+                                {
+                                    frase: '"Quando jovem, era muito tímido."',
+                                    explicacao: 'O sujeito "eu" está omitido: "(Eu) quando jovem, era muito tímido."'
+                                },
+                            ]
+                        },
+                        video: {
+                            titulo: `Figuras de Linguagem - Elipse`,
+                            linkDoCanal: 'https://www.youtube.com/@ProfessoraAdrianaFigueiredo',
+                            idVideo: 'qejJjWsnvg8'
+                        }
+                    },
+                    {
+                        titulo: 'Zeugma',
+                        definicao: [
+                            `Zeugma é um tipo de elipse, ou seja, também é quando uma palavra é escondida na frase. A diferença é: no zeugma, a palavra escondida já foi dita antes.`,
+                            `Um exemplo simples seria na frase: "Maria gosta de ler; Paulo, de escrever", nessa frase, o verbo gostar foi omitido na segunda parte (Maria gosta de ler; Paulo gosta de escrever).`
+                        ],
+                        exemplos: {
+                            titulo: 'São alguns exemplos:',
+                            frases: [
+                                {
+                                    frase: '"Ele gosta de futebol; ela, de vôlei."',
+                                    explicacao: 'O verbo “gosta” foi omitido na segunda oração, pois já foi usado antes. Frase completa seria: "Ela gosta de vôlei."'
+                                },
+                                {
+                                    frase: '"João comprou um carro; Maria, uma moto."',
+                                    explicacao: 'O verbo “comprou” é omitido na segunda parte, porque já foi dito. "Maria comprou uma moto.""'
+                                },
+                                {
+                                    frase: '"Pedro fala inglês fluente; Ana, espanhol."',
+                                    explicacao: 'O verbo “fala” está implícito na segunda parte da frase. (Pedro fala inglês fluente; Ana, fala espanhol.)'
+                                },
+                                {
+                                    frase: '"Visitei Paris em julho e, no inverno, Roma."',
+                                    explicacao: 'O verbo “visitei” é usado uma vez e omitido depois, quando se refere a Roma. (Visitei Paris em julho e, no inverno, visitei Roma.)'
+                                },
+                                {
+                                    frase: '"Ela prefere doce; ele, salgado."',
+                                    explicacao: 'O verbo “prefere” já está no início, então é omitido na segunda oração (Ela prefere doce; ele, prefere salgado).'
+                                },
+                            ]
+                        },
+                        video: {
+                            titulo: `Figuras de Linguagem - Zeugma`,
+                            linkDoCanal: 'https://www.youtube.com/@ProfessoraAdrianaFigueiredo',
+                            idVideo: 'zL-6wfCOM8o'
+                        }
+                    },
+                    {
+                        titulo: 'Polissíndeto',
+                        definicao: [
+                            `Polissíndeto é o uso repetido de conjunções (como e, ou, mas, nem) mais do que o normal numa frase. Ele é usado para dar ênfase, ritmo, ou mostrar acúmulo de ideias.`,
+                            `Essa figura de sintaxe é muito utilizada como recurso estilístico, sobretudo nos textos poéticos e musicais. Esse uso repetitivo das conjunções dá uma ideia de acréscimo, sucessão e continuidade, oferecendo mais expressividade ao texto.`,
+                            `Um exemplo simples seria na frase: "Ele gritava e chorava e corria e não parava", veja que o “e” aparece várias vezes. Normalmente, numa frase comum, a gente diria: “Ele gritava, chorava, corria e não parava.”, mas no polissíndeto, a conjunção é repetida de propósito.`
+                        ],
+                        exemplos: {
+                            titulo: 'São alguns exemplos:',
+                            frases: [
+                                {
+                                    frase: '"Correu e gritou e chorou e caiu no chão."',
+                                    explicacao: 'Repetição da conjunção “e” dá ritmo acelerado e mostra intensidade nas ações.'
+                                },
+                                {
+                                    frase: '"Nem falou, nem explicou, nem pediu desculpas."',
+                                    explicacao: 'Repetição de “nem” reforça a ausência total de atitude da pessoa.'
+                                },
+                                {
+                                    frase: '"Chovia e ventava e fazia frio."',
+                                    explicacao: 'A repetição de “e” intensifica a sensação do clima ruim e contínuo.'
+                                },
+                                {
+                                    frase: '"Quero paz, mas quero justiça, mas quero verdade."',
+                                    explicacao: 'Repetição de “mas” reforça o contraste entre desejos simultâneos.'
+                                },
+                                {
+                                    frase: '"Estudava ou lia ou fazia exercícios ou revisava conteúdos."',
+                                    explicacao: 'O uso repetido de “ou” dá ênfase às várias opções de atividades realizadas.'
+                                },
+                            ]
+                        },
+                        video: {
+                            titulo: `Figuras de Linguagem - Polissíndeto`,
+                            linkDoCanal: 'http://youtube.com/@ProfessoraPamba',
+                            idVideo: 'Xm-zjA5c4ts'
+                        }
+                    },
+                    {
+                        titulo: 'Assíndeto',
+                        definicao: [
+                            `Assíndeto é quando a gente tira as conjunções (e, mas, ou...) entre as palavras ou frases que normalmente estariam ligadas.`,
+                            `Ou seja, não usa conjunções onde normalmente usaria, dando um efeito de agilidade, rapidez ou urgência.`,
+                            `Um exemplo simples seria na frase: "Cheguei, vi, venci.", aqui não tem “e” ligando as ações. A frase completa com conjunção seria: “Cheguei, e vi, e venci.”, como tiramos as conjunções, isso é assíndeto.`
+                        ],
+                        exemplos: {
+                            titulo: 'São alguns exemplos:',
+                            frases: [
+                                {
+                                    frase: '"Cheguei, vi, venci."',
+                                    explicacao: 'As ações são ligadas sem conjunções, apenas por vírgulas — exemplo clássico de assíndeto.'
+                                },
+                                {
+                                    frase: '"Abriu a porta, entrou, sentou."',
+                                    explicacao: 'Três ações consecutivas, sem uso de "e" entre elas.'
+                                },
+                                {
+                                    frase: '"O dia amanheceu, o sol apareceu, os pássaros cantaram."',
+                                    explicacao: 'As orações são colocadas em sequência sem conjunção ligando-as.'
+                                },
+                                {
+                                    frase: '"Fome, sede, cansaço tomavam conta de todos."',
+                                    explicacao: 'Lista de sensações, sem “e” ligando os termos — só vírgulas.'
+                                },
+                                {
+                                    frase: '"Veio, falou, foi embora."',
+                                    explicacao: 'Sequência rápida de ações, com ausência total de conjunções.'
+                                },
+                            ]
+                        },
+                        video: {
+                            titulo: `Figuras de Linguagem - Assindeto`,
+                            linkDoCanal: 'http://youtube.com/@ProfessoraPamba',
+                            idVideo: 'Xm-zjA5c4ts'
+                        }
+                    },
+                ]
+            },
         ]
     }
 }

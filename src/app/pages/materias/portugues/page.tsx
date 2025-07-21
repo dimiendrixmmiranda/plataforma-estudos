@@ -1,11 +1,11 @@
-import BotaoAncora from "@/components/botaoAncora/BotaoAncora";
+import MenuInferior from "@/components/menuInferior/MenuInferior";
 import RotaProtegida from "@/components/rotaProtegida/RotaProtegida";
 import portugues from "@/constants/portugues";
 
 export default function Page() {
     return (
         <RotaProtegida>
-            <div className="w-full min-h-screen bg-zinc-300 text-black p-4">
+            <div className="w-full min-h-screen bg-zinc-300 text-black p-4 pb-14">
                 {/* 1º assunto de 5 */}
                 <div className="flex flex-col gap-4">
                     <h2 className="text-2xl font-black">{portugues["figuras-de-linguagem"].titulo}</h2>
@@ -96,8 +96,7 @@ export default function Page() {
                         </ul>
                     </div>
                 </div>
-
-                <BotaoAncora link="/pages/materias" texto="Voltar"/>
+                <MenuInferior linkHome="/" linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias"/>
             </div>
         </RotaProtegida>
 

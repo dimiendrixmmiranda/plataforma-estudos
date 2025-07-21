@@ -1,5 +1,6 @@
 'use client'
 
+import MenuInferior from "@/components/menuInferior/MenuInferior"
 import RotaProtegida from "@/components/rotaProtegida/RotaProtegida"
 import useAuth from "@/data/hook/useAuth"
 import Link from "next/link"
@@ -17,7 +18,7 @@ export default function PaginaMaterias() {
 
     return (
         <RotaProtegida>
-            <div className="bg-zinc-300 text-black min-h-screen p-4 flex flex-col">
+            <div className="bg-zinc-300 text-black min-h-screen p-4 flex flex-col pb-14">
                 <div className="flex flex-col gap-4">
                     <h2 className="uppercase font-black text-2xl leading-6">Selecione um cargo para estudo:</h2>
                     <ul className="grid grid-cols-2 gap-x-4 gap-y-2">
@@ -105,6 +106,8 @@ export default function PaginaMaterias() {
                     </ul>
                 </div>
                 <button onClick={logout} className="mt-auto bg-red-600 uppercase font-bold text-lg text-white max-w-[120px] py-2 ml-auto w-full" style={{textShadow: '1px 1px 2px black'}}>Logout</button>
+
+                <MenuInferior linkHome="/" linkProximo="/pages/materias" linkVoltar="/pages/materias"/>
             </div>
         </RotaProtegida>
     )

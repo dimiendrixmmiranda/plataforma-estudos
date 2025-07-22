@@ -1,6 +1,7 @@
 import MenuInferior from "@/components/menuInferior/MenuInferior";
 import RotaProtegida from "@/components/rotaProtegida/RotaProtegida";
 import portugues from "@/constants/portugues";
+import Link from "next/link";
 
 export default function Page() {
     return (
@@ -83,7 +84,12 @@ export default function Page() {
                                                                     ></iframe>
                                                                 </div>
                                                                 {/* Botao de Exercícios */}
-                                                                <button className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2">Realizar Exercícios</button>
+                                                                <Link
+                                                                    href={`/pages/materias/exercicios`}
+                                                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
+                                                                >
+                                                                    Realizar Exercícios
+                                                                </Link>
                                                             </li>
                                                         )
                                                     })
@@ -96,7 +102,7 @@ export default function Page() {
                         </ul>
                     </div>
                 </div>
-                <MenuInferior linkHome="/" linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias"/>
+                <MenuInferior linkHome="/" linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />
             </div>
         </RotaProtegida>
 

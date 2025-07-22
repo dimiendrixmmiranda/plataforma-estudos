@@ -643,6 +643,122 @@ const portugues = {
                     },
                 ]
             },
+            {
+                titulo: 'Figuras de Som',
+                figuras: [
+                    {
+                        titulo: 'Aliteração',
+                        definicao: [
+                            `Aliteração é a repetição de sons iguais ou parecidos no começo das palavras, principalmente sons de consoantes. Ela é usada para dar ritmo, musicalidade ou enfatizar uma ideia em textos, músicas e poesias.`,
+                            `Ela produz um efeito sonoro interessante, marcando o ritmo e sugerindo alguns sons semelhantes às palavras que compõem o texto. É um recurso linguístico muito utilizado nos textos poéticos para enfatizar determinado som, oferecendo maior expressividade ao texto.`
+                        ],
+                        exemplos: {
+                            titulo: 'São alguns exemplos:',
+                            frases: [
+                                {
+                                    frase: '"O rato roeu a roupa do rei de Roma."',
+                                    explicacao: 'Repetição do som /r/ ao longo da frase — efeito sonoro marcante.'
+                                },
+                                {
+                                    frase: '"Vozes veladas, veludosas vozes..."',
+                                    explicacao: 'Repetição do som /v/ — cria uma sensação de suavidade e mistério. (Verso de Cruz e Sousa)"'
+                                },
+                                {
+                                    frase: '"O vento varria as velhas folhas."',
+                                    explicacao: 'Repetição do som /v/ dá ritmo e reforça a ideia do vento agindo.'
+                                },
+                                {
+                                    frase: '"Gritava, gemia, gargalhava sem parar."',
+                                    explicacao: 'Repetição do som /g/ — transmite intensidade e desespero.'
+                                },
+                                {
+                                    frase: '"Bate-bate o martelo no batente da madeira."',
+                                    explicacao: 'Repetição do som /b/ reforça o som do martelo e dá musicalidade.'
+                                },
+                            ]
+                        },
+                        video: {
+                            titulo: `Figuras de Linguagem - Aliteração`,
+                            linkDoCanal: 'https://www.youtube.com/@adicadeportuguesparavoce',
+                            idVideo: 'uZClZYk9Nac'
+                        }
+                    },
+                    {
+                        titulo: 'Assonância',
+                        definicao: [
+                            `Assonância é a repetição de sons vocálicos (ou seja, sons de vogais) dentro das palavras de uma frase ou verso. Enquanto a aliteração repete consoantes, a assonância repete vogais.`,
+                            `É um recurso estilístico muito utilizado na literatura, na música e nos provérbios populares. Ela oferece maior expressividade ao texto por meio da intensificação da musicalidade e do ritmo.`
+                        ],
+                        exemplos: {
+                            titulo: 'São alguns exemplos:',
+                            frases: [
+                                {
+                                    frase: '"A alma da gente chora e cala."',
+                                    explicacao: 'Repetição do som /a/ em várias palavras, criando um tom melancólico e ritmado.'
+                                },
+                                {
+                                    frase: '"Ouço o som do outro mundo."',
+                                    explicacao: 'Repetição do som /o/ — reforça o clima de mistério ou profundidade.'
+                                },
+                                {
+                                    frase: '"A menina rima e brinca na vida linda."',
+                                    explicacao: 'Repetição dos sons /i/ e /a, dando leveza e musicalidade à frase.'
+                                },
+                                {
+                                    frase: '"Ecoa a voz no corpo oco."',
+                                    explicacao: 'Repetição do som /o/ — transmite sensação de vazio ou ressonância.'
+                                },
+                                {
+                                    frase: '"O tempo é lento, eterno, espesso."',
+                                    explicacao: 'Repetição do som /e/ — cria ritmo arrastado, que combina com o significado da frase.'
+                                },
+                            ]
+                        },
+                        video: {
+                            titulo: `Figuras de Linguagem - Assonância`,
+                            linkDoCanal: 'https://www.youtube.com/@adicadeportuguesparavoce',
+                            idVideo: 'uZClZYk9Nac'
+                        }
+                    },
+                    {
+                        titulo: 'Onomatopéia',
+                        definicao: [
+                            `Onomatopeia é uma palavra que imita um som. Ou seja, é quando escrevemos um som do jeito que ele parece ser ouvido.`,
+                            `Ela reproduz fonemas ou palavras que imitam os sons naturais, quer sejam de objetos, de pessoas ou de animais. Esse recurso aumenta a expressividade do discurso, motivo pelo qual é muito utilizado na literatura e nas histórias em quadrinhos.`
+                        ],
+                        exemplos: {
+                            titulo: 'São alguns exemplos:',
+                            frases: [
+                                {
+                                    frase: '"O relógio fazia tic-tac a noite toda."',
+                                    explicacao: '“Tic-tac” imita o som mecânico dos ponteiros do relógio.'
+                                },
+                                {
+                                    frase: '"O gato miou: miau, miau."',
+                                    explicacao: '“Miau” reproduz o som do miado do gato.'
+                                },
+                                {
+                                    frase: '"De repente, bum!, a porta bateu."',
+                                    explicacao: '“Bum” representa um som forte e repentino, como de algo caindo ou batendo.'
+                                },
+                                {
+                                    frase: '"A abelha passou zumbindo: z-z-z-z..."',
+                                    explicacao: '“Z-z-z-z” imita o som do voo da abelha.'
+                                },
+                                {
+                                    frase: '"O cavalo avançou com um trote toc-toc pelo caminho."',
+                                    explicacao: '“Toc-toc” simula o som dos cascos do cavalo batendo no chão.'
+                                },
+                            ]
+                        },
+                        video: {
+                            titulo: `Figuras de Linguagem - Onomatopéia`,
+                            linkDoCanal: 'https://www.youtube.com/@gramaticacomlaercio',
+                            idVideo: 'DXChEBm0EGI'
+                        }
+                    },
+                ]
+            },
         ]
     }
 }

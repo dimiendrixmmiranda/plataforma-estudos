@@ -135,7 +135,6 @@ export default function PaginaMaterias() {
                         </ul>
                     </div>
                     <button onClick={logout} className="mt-auto bg-red-600 uppercase font-bold text-lg text-white max-w-[120px] py-2 ml-auto w-full" style={{ textShadow: '1px 1px 2px black' }}>Logout</button>
-
                     <MenuInferior linkHome="/" linkProximo="/pages/materias" linkVoltar="/pages/materias" />
                 </div>
             </RotaProtegida>

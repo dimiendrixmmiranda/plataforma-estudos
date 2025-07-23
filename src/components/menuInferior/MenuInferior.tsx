@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight, FaHome } from "react-icons/fa";
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight, FaArrowAltCircleUp, FaHome } from "react-icons/fa";
 
 interface MenuInferiorProps{
     linkHome: string,
@@ -17,8 +17,8 @@ export default function MenuInferior({linkVoltar, linkHome, linkProximo}: MenuIn
                     </Link>
                 </li>
                 <li>
-                    <Link href={'/'} className="flex justify-center items-center w-full h-full text-2xl">
-                        <FaHome />
+                    <Link href={'#topo'} className="flex justify-center items-center w-full h-full text-2xl">
+                        <FaArrowAltCircleUp />
                     </Link>
                 </li>
                 <li>

@@ -1,6 +1,30 @@
 const portugues = {
+    introducao: `Para esse concurso, as principais materias a serem estudadas são:`,
+    materias: [
+        {
+            materia: 'Análise e Interpretação de Texto',
+            id: 'interpretacao-de-texto'
+        },
+        {
+            materia: 'Figuras de Linguagem',
+            id: 'figuras-de-linguagem'
+        },
+        {
+            materia: 'Morfologia',
+            id: 'morfologia'
+        },
+        {
+            materia: 'Sintaxe',
+            id: 'sintaxe'
+        },
+        {
+            materia: 'Pontuação',
+            id: 'pontuacao'
+        },
+    ],
     'figuras-de-linguagem': {
         titulo: 'Figuras de Linguagem',
+        id: 'figuras-de-linguagem',
         introducao: {
             titulo: 'Introdução',
             texto: [
@@ -781,7 +805,226 @@ const portugues = {
                 ]
             },
         ]
+    },
+    morfologia: {
+        titulo: 'Morfologia',
+        id: 'morfologia',
+        introdução: {
+            titulo: 'Introdução',
+            texto: [
+                `A morfologia é a parte da gramática que estuda a estrutura, a formação e a classificação das palavras. Em outras palavras, ela nos ajuda a entender como as palavras são formadas e como se encaixam nas frases. `,
+                `Um dos pontos principais da morfologia é o estudo das classes gramaticais, que são os grupos em que as palavras são organizadas de acordo com sua função na frase.`,
+                `Dividem-se, de forma geral, em 10 principais classes gramaticais:`
+            ],
+            assuntos: [
+                {
+                    titulo: `Substantivo`,
+                    id: 'substantivo',
+                    descricao: `É a palavra que dá nome às coisas, pessoas, lugares, sentimentos etc. (Ex: casa, João, amor, escola.)`
+                },
+                {
+                    titulo: `Adjetivo`,
+                    id: 'adjetivo',
+                    descricao: `É a palavra que caracteriza o substantivo, mostrando uma qualidade ou estado. (Ex: bonito, triste, rápido.)`
+                },
+                {
+                    titulo: `Artigo`,
+                    id: 'artigo',
+                    descricao: `Acompanha o substantivo e define se ele está determinado ou indefinido. (Ex: o, a, os, as, um, uma.)`
+                },
+                {
+                    titulo: `Numeral`,
+                    id: 'numeral',
+                    descricao: `Indica quantidade, ordem, multiplicação ou fração. (Ex: um, dois, primeiro, triplo, metade)`
+                },
+                {
+                    titulo: `Pronome`,
+                    id: 'pronome',
+                    descricao: `Substitui ou acompanha o nome, indicando a pessoa do discurso. (Ex: eu, tu, ele, esse, aquele, meu.)`
+                },
+                {
+                    titulo: `Verbo`,
+                    id: 'verbo',
+                    descricao: `Expressa ações, estados ou fenômenos, geralmente ligados ao tempo. (Ex: correr, ser, estar, chover.)`
+                },
+                {
+                    titulo: `Advérbio`,
+                    id: 'adverbio',
+                    descricao: `Modifica o verbo, o adjetivo ou outro advérbio, indicando circunstâncias (modo, tempo, lugar, intensidade etc). (Ex: rapidamente, ontem, aqui, muito.)`
+                },
+                {
+                    titulo: `Preposição`,
+                    id: 'preposicao',
+                    descricao: `Liga palavras, indicando relações entre elas. (Ex: de, para, com, sobre, em.)`
+                },
+                {
+                    titulo: `Conjunção`,
+                    id: 'conjuncao',
+                    descricao: `Liga orações ou palavras, indicando uma relação lógica entre elas. (Ex: e, mas, porque, embora.)`
+                },
+                {
+                    titulo: `Interjeição`,
+                    id: 'interjeicao',
+                    descricao: `Expressa emoções ou reações. (Ex: ah!, nossa!, ei!, socorro!)`
+                },
+            ]
+        },
+        submaterias: [
+            {
+                titulo: 'Substantivo',
+                id: 'substantivo',
+                definicao: [
+                    `Substantivo é a palavra que dá nome a seres, objetos, lugares, sentimentos, ações, qualidades, entre outros. Em palavras simples, substantivo é o nome das coisas.`,
+                    `Uma dica simples é: se você pode colocar um artigo (o, a, os, as, um, uma) antes da palavra, provavelmente ela é um substantivo!`
+                ],
+                exemplos: {
+                    titulo: 'São alguns exemplos:',
+                    frases: [
+                        {
+                            frase: '"A menina está brincando no parquinho."',
+                            explicacao: '"Menina" é o substantivo, pois é o nome da pessoa.'
+                        },
+                        {
+                            frase: '"Eu gosto de pizza."',
+                            explicacao: '"Pizza" é o substantivo, pois é o nome de um alimento.'
+                        },
+                        {
+                            frase: '"Senti muita alegria com a notícia."',
+                            explicacao: '"Alegria" é o substantivo, pois é o nome de um sentimento.'
+                        },
+                        {
+                            frase: '"O cachorro está dormindo."',
+                            explicacao: '"Cachorro" é o substantivo, pois é o nome de um animal.'
+                        },
+                        {
+                            frase: '"Vamos à praia nas férias."',
+                            explicacao: '"Praia" é o substantivo, pois é o nome de um lugar.'
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Morfologia - Substantivo`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfessorNoslen',
+                    idVideo: '8iXiBgCnGv4'
+                }
+            },
+            {
+                titulo: 'Adjetivo',
+                id: 'adjetivo',
+                definicao: [
+                    `Adjetivo é a palavra que caracteriza o substantivo, ou seja, diz como é o ser, objeto, lugar, etc. Em simples palavras, adjetivo é a palavra que dá uma qualidade, estado, aspecto ou característica a algo.`,
+                    `Uma dica simples é: Se a palavra está dizendo como é ou como está o substantivo (nome), ela é um adjetivo.`
+                ],
+                exemplos: {
+                    titulo: 'São alguns exemplos:',
+                    frases: [
+                        {
+                            frase: '"A menina feliz está cantando."',
+                            explicacao: '"Feliz" é o adjetivo, pois mostra o estado da menina.'
+                        },
+                        {
+                            frase: '"Comprei um carro novo."',
+                            explicacao: '"Novo" é o adjetivo, pois caracteriza o carro.'
+                        },
+                        {
+                            frase: '"A casa grande tem um jardim bonito."',
+                            explicacao: '"Grande" e "bonito" são adjetivos, pois descrevem a casa e o jardim.'
+                        },
+                        {
+                            frase: '"Foi um filme emocionante."',
+                            explicacao: '"Emocionante" é o adjetivo, pois mostra como foi o filme.'
+                        },
+                        {
+                            frase: '"O dia está chuvoso."',
+                            explicacao: '"Chuvoso" é o adjetivo, pois descreve o dia.'
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Morfologia - Adjetivo`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfessorNoslen',
+                    idVideo: 'tgoAZdK4Lro'
+                }
+            },
+            {
+                titulo: 'Artigo',
+                id: 'artigo',
+                definicao: [
+                    `Artigo é a palavra que acompanha o substantivo para determiná-lo ou indicar se é conhecido ou não. Ele vem antes do substantivo e mostra o gênero (masculino ou feminino) e o número (singular ou plural) da palavra.`,
+                    `Existem 2 tipos de artigo: ARTIGOS DEFINIDOS (o, a, os, as), que são usados quando o substantivo é conhecido e ARTIGOS INDEFINIDOS (um, uma, uns, umas), que são usados quando o substantivo é desconhecido ou genérico`
+                ],
+                exemplos: {
+                    titulo: 'São alguns exemplos:',
+                    frases: [
+                        {
+                            frase: '"O menino está brincando."',
+                            explicacao: '"O" é artigo definido, pois fala de um menino conhecido.'
+                        },
+                        {
+                            frase: '"Uma menina entrou na sala."',
+                            explicacao: '"Uma" é artigo indefinido, pois não sabemos quem é a menina.'
+                        },
+                        {
+                            frase: '"As flores do jardim são lindas."',
+                            explicacao: '"As" é artigo definido, acompanha flores (substantivo feminino e plural).'
+                        },
+                        {
+                            frase: '"Comprei uns livros interessantes."',
+                            explicacao: '"Uns" é artigo indefinido, usado de forma mais geral.'
+                        },
+                        {
+                            frase: '"A casa está limpa."',
+                            explicacao: '"A" é artigo definido, acompanha casa (feminino e singular).'
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Morfologia - Artigo`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfessorNoslen',
+                    idVideo: '7zA6LKkx25g'
+                }
+            },
+            {
+                titulo: 'Numeral',
+                id: 'numeral',
+                definicao: [
+                    `Numeral é a palavra que indica uma quantidade exata (número) ou a ordem de algo. Ele serve para dizer quantos (quantidade) ou em que posição algo está.`,
+                    `Uma dica simples para identificar um numeral é: se a palavra estiver relacionada a número, quantidade ou posição, ela é numeral.`
+                ],
+                exemplos: {
+                    titulo: 'São alguns exemplos:',
+                    frases: [
+                        {
+                            frase: '"Eu tenho dois irmãos."',
+                            explicacao: '"Dois" é numeral cardinal, pois mostra a quantidade.'
+                        },
+                        {
+                            frase: '"Ela ficou em primeiro lugar na corrida."',
+                            explicacao: '"Primeiro" é numeral ordinal, mostra a posição.'
+                        },
+                        {
+                            frase: '""Primeiro" é numeral ordinal, mostra a posição."',
+                            explicacao: '""Dobro" é numeral multiplicativo, indica 2 vezes mais.'
+                        },
+                        {
+                            frase: '"Tomei meio copo de suco."',
+                            explicacao: '"Meio" é numeral fracionário, indica uma parte.'
+                        },
+                        {
+                            frase: '"Chegaram cem pessoas na festa."',
+                            explicacao: '"Cem" é numeral cardinal, indica uma quantidade exata.'
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Morfologia - Numeral`,
+                    linkDoCanal: 'https://www.youtube.com/@portuguescomleticia',
+                    idVideo: 'Rxo6xTWgZGI'
+                }
+            },
+        ]
     }
+
 }
 
 export default portugues

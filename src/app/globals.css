@@ -7,17 +7,18 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  
+
   /* Fontes */
   --fonte-primaria: "Open Sans", sans-serif;
   --fonte-secundaria: "Lato", sans-serif;
   --fonte-cursiva: "Parisienne", 'cursive';
-  
+
   /* Cores */
   --azul-escuro: #000627;
   --preto: #1d1e22;
   --laranja: #FF693A;
   --amarelo: #DC7C15;
+  --magenta: #E44576;
 
 }
 
@@ -35,6 +36,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.p-sidebar{
-  background-color: var(--amarelo)!important;
+.p-sidebar {
+  background-color: var(--magenta) !important;
+  color: white !important;
 }

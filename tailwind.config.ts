@@ -15,6 +15,7 @@ export default {
         ["azul-escuro"]: "var(--azul-escuro)",
         laranja: "var(--laranja)",
         preto: "var(--preto)",
+        magenta: "var(--magenta)",
       },
     },
     fontFamily: {

@@ -9,15 +9,33 @@ const portugues = {
                 `Dividem-se, de forma geral, em quatro grupos principais:`
             ],
             assuntos: [
-                `Figuras de palavras (ou semânticas)`,
-                `Figuras de pensamento`,
-                `Figuras de construção (ou sintaxe)`,
-                `Figuras de som (ou harmonia).`
+                {
+                    titulo: `Figuras de palavras (ou semânticas)`,
+                    id: 'figuras-de-palavras',
+                    descricao: `Alteram o significado comum das palavras para criar novas associações de sentido. Exemplo: metáfora, metonímia, catacrese, sinestesia.`
+                },
+                {
+                    titulo: `Figuras de pensamento`,
+                    id: 'figuras-de-pensamento',
+                    descricao: `Envolvem uma ideia ou construção de raciocínio que gera surpresa, contraste ou ironia. Exemplo:  hipérbole, eufemismo, litote, ironia, personificação, antítese, paradoxo, gradação e apóstrofe.`
+                },
+                {
+                    titulo: `Figuras de construção (ou sintaxe)`,
+                    id: 'figuras-de-construcao',
+                    descricao: `Alteram a estrutura da frase ou a ordem das palavras para causar efeito estilístico. Exemplo: elipse, zeugma, pleonasmo, hipérbato.`
+                },
+                {
+                    titulo: `Figuras de som (ou harmonia)`,
+                    id: 'figuras-de-som',
+                    descricao: `Utilizam sons semelhantes ou repetitivos para criar musicalidade ou expressar emoções. Exemplo: aliteração, assonância, onomatopeia.`
+                },
             ]
         },
+        // Figuras
         categoriasDeFiguras: [
             {
                 titulo: 'Figuras de palavras (ou semânticas)',
+                id: 'figuras-de-palavras',
                 figuras: [
                     {
                         titulo: 'Metáfora',
@@ -254,6 +272,7 @@ const portugues = {
             },
             {
                 titulo: 'Figuras de Pensamento',
+                id: 'figuras-de-pensamento',
                 figuras: [
                     {
                         titulo: 'Hipérbole',
@@ -489,6 +508,7 @@ const portugues = {
             },
             {
                 titulo: 'Figuras de Sintaxe',
+                id: 'figuras-de-sintaxe',
                 figuras: [
                     {
                         titulo: 'Elipse',
@@ -645,6 +665,7 @@ const portugues = {
             },
             {
                 titulo: 'Figuras de Som',
+                id: 'figuras-de-som',
                 figuras: [
                     {
                         titulo: 'Aliteração',

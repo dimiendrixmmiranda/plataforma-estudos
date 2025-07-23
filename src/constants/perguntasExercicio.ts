@@ -27,7 +27,7 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
                 correto: false
             },
         ],
-        categoriaDaPergunta: 'figuras-de-linguagem',
+        categoriaDaPergunta: 'figuras-de-pensamento',
         justificativa: `A frase atribui uma característica humana ("não dorme") à cidade, que é um ser inanimado. Isso é típico da prosopopeia ou personificação, figura de linguagem que atribui ações ou sentimentos humanos a seres não humanos.`
     },
     {
@@ -56,7 +56,7 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
                 correto: false
             },
         ],
-        categoriaDaPergunta: 'figuras-de-linguagem',
+        categoriaDaPergunta: 'figuras-de-pensamento',
         justificativa: `A expressão "chorou rios de lágrimas" é um exagero intencional, pois ninguém literalmente chora rios. Isso caracteriza a hipérbole, figura que exagera uma ideia para dar ênfase ou intensidade`
     },
 ]

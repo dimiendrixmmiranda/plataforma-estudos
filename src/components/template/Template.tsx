@@ -7,7 +7,7 @@ interface TemplateProps {
 
 export default function Template({ children }: TemplateProps) {
     return (
-        <>
+        <div className="flex flex-col relative">
             <Header />
             <main>
                 {
@@ -15,6 +15,7 @@ export default function Template({ children }: TemplateProps) {
                 }
             </main>
             <Footer />
-        </>
+        </div>
     )
 }
+

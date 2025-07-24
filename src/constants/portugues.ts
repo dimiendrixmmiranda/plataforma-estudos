@@ -1022,9 +1022,305 @@ const portugues = {
                     idVideo: 'Rxo6xTWgZGI'
                 }
             },
+            {
+                titulo: 'Pronome',
+                id: 'pronome',
+                definicao: [
+                    `Pronome é a palavra que substitui ou acompanha o substantivo, evitando repetições ou dando mais clareza à frase.`,
+                    `Ele pode indicar as pessoas do discurso (quem fala, com quem se fala e de quem se fala), além de mostrar posse, quantidade, identidade, entre outros.`,
+                    `Uma dica simples é se a palavra substitui ou acompanha um nome (substantivo) e evita repetições, ela é PRONOME.`
+                ],
+                exemplos: {
+                    titulo: 'São alguns exemplos:',
+                    frases: [
+                        {
+                            frase: '"Eu gosto de estudar."',
+                            explicacao: '"Eu" é pronome pessoal (quem fala).'
+                        },
+                        {
+                            frase: '"Ela trouxe seu livro."',
+                            explicacao: '"Ela" é pronome pessoal, e "seu" é possessivo (o livro é dela).'
+                        },
+                        {
+                            frase: '"Este caderno é meu."',
+                            explicacao: '"Este" é pronome demonstrativo, mostra algo próximo.'
+                        },
+                        {
+                            frase: '"Alguém bateu na porta."',
+                            explicacao: '"Alguém" é pronome indefinido, pois não se sabe quem é.'
+                        },
+                        {
+                            frase: '"Quem chegou primeiro?"',
+                            explicacao: '"Quem" é pronome interrogativo, usado na pergunta.'
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Morfologia - Pronome`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfessorNoslen',
+                    idVideo: 'yHr9yjKkX_k'
+                }
+            },
+            {
+                titulo: 'Verbo',
+                id: 'verbo',
+                definicao: [
+                    `Verbo é a palavra que indica ação, estado, mudança ou fenômeno da natureza. É o que a pessoa ou coisa faz, sente ou está sendo.`,
+                    `Uma dica simples é se a palavra indica o que alguém faz, é, está ou sente, ela é um verbo. Muitas vezes, a gente consegue conjugar o verbo (eu como, tu comes, ele come...) — isso também ajuda a identificar!`
+                ],
+                exemplos: {
+                    titulo: 'São alguns exemplos:',
+                    frases: [
+                        {
+                            frase: '"Eu estudo todos os dias."',
+                            explicacao: '"Estudo" é o verbo, indica a ação de estudar.'
+                        },
+                        {
+                            frase: '"Ele corre muito rápido."',
+                            explicacao: '"Corre" é o verbo, ação de correr.'
+                        },
+                        {
+                            frase: '"Nós somos amigos."',
+                            explicacao: '"Somos" é o verbo, indica o estado de ser.'
+                        },
+                        {
+                            frase: '"O céu ficou escuro."',
+                            explicacao: '"Ficou" é o verbo, indica uma mudança.'
+                        },
+                        {
+                            frase: '"Hoje choveu bastante."',
+                            explicacao: '"Choveu" é o verbo, fenômeno da natureza.'
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Morfologia - Verbo`,
+                    linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                    idVideo: '7T7DyQe8qbo'
+                }
+            },
+            {
+                titulo: 'Advérbio',
+                id: 'adverbio',
+                definicao: [
+                    `Advérbio é a palavra que modifica o sentido de um verbo, adjetivo ou outro advérbio, indicando como, quando, onde, com que intensidade, etc. Ele dá mais informações sobre a ação ou uma característica.`,
+                    `Se a palavra diz algo sobre o verbo, adjetivo ou outro advérbio (como, quando, onde, quanto...), ela é um advérbio.`
+                ],
+                exemplos: {
+                    titulo: 'São alguns exemplos:',
+                    frases: [
+                        {
+                            frase: '"Ela fala rapidamente."',
+                            explicacao: '"Rapidamente" é advérbio de modo (como ela fala?).'
+                        },
+                        {
+                            frase: '"Ontem choveu bastante."',
+                            explicacao: '"Ontem" é advérbio de tempo (quando choveu?).'
+                        },
+                        {
+                            frase: '"O gato está aqui."',
+                            explicacao: '"Aqui" é advérbio de lugar (onde está o gato?).'
+                        },
+                        {
+                            frase: '"Estou muito cansado."',
+                            explicacao: '"Muito" é advérbio de intensidade (quão cansado?).'
+                        },
+                        {
+                            frase: '"Ele não quer sair."',
+                            explicacao: '"Não" é advérbio de negação (nega a ação).'
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Morfologia - Advérbio`,
+                    linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                    idVideo: 'HAmETXF6Mpc'
+                }
+            },
+            {
+                titulo: 'Preposição',
+                id: 'preposicao',
+                definicao: [
+                    `Preposição é a palavra que liga duas outras palavras na frase, estabelecendo uma relação entre elas (como tempo, lugar, causa, posse, meio...). Ela não tem significado sozinha, mas dá sentido à frase quando usada com outras palavras.`,
+                    `São exemplos de preposições: de (origem, posse), em (lugar), com (companhia, instrumento), para (destino, finalidade), por (causa, meio), a (direcao, tempo), entre (posição entre dois elementos), sem (ausência), sobre (assunto, posição acima).`
+                ],
+                exemplos: {
+                    titulo: 'São alguns exemplos:',
+                    frases: [
+                        {
+                            frase: '"O presente é de Ana."',
+                            explicacao: '"De" mostra posse (o presente pertence à Ana).'
+                        },
+                        {
+                            frase: '"Estou em casa."',
+                            explicacao: '"Em" mostra lugar (onde estou?).'
+                        },
+                        {
+                            frase: '"Escrevi a carta com caneta azul."',
+                            explicacao: '"Com" mostra o instrumento usado.'
+                        },
+                        {
+                            frase: '"Vamos para a escola."',
+                            explicacao: '"Para" mostra destino.'
+                        },
+                        {
+                            frase: '"Lutaram por liberdade."',
+                            explicacao: '"Por" mostra o motivo da luta.'
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Morfologia - Preposição`,
+                    linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                    idVideo: 'KRIE_1XNATY'
+                }
+            },
+            {
+                titulo: 'Conjunção',
+                id: 'conjuncao',
+                definicao: [
+                    `Conjunção é a palavra que liga duas orações ou dois termos semelhantes dentro de uma mesma frase. Ela conecta ideias, mostrando relações como adição, oposição, causa, consequência, comparação, etc.`,
+                    `Uma dica simples é se a palavra está ligando frases ou ideias e explicando a relação entre elas, é uma conjunção.`
+                ],
+                exemplos: {
+                    titulo: 'São alguns exemplos:',
+                    frases: [
+                        {
+                            frase: '"Gosto de estudar e de ler."',
+                            explicacao: '"E" é conjunção aditiva, junta duas ações.'
+                        },
+                        {
+                            frase: '"Estava cansado, mas continuou trabalhando."',
+                            explicacao: '"Mas" é conjunção adversativa, mostra contraste.'
+                        },
+                        {
+                            frase: '"Não fui à escola porque estava doente."',
+                            explicacao: '"Porque" é conjunção causal, mostra o motivo.'
+                        },
+                        {
+                            frase: '"Estava com fome, por isso comeu rápido."',
+                            explicacao: '"Por isso" é conjunção consecutiva, mostra consequência.'
+                        },
+                        {
+                            frase: '"Se chover, não sairemos."',
+                            explicacao: '"Se" é conjunção condicional, mostra uma condição.'
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Morfologia - Preposição`,
+                    linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                    idVideo: 'KRIE_1XNATY'
+                }
+            },
+            {
+                titulo: 'Interjeição',
+                id: 'interjeicao',
+                definicao: [
+                    `Interjeição é a palavra ou expressão usada para expressar emoções, sentimentos, reações ou sons espontâneos. Pode mostrar alegria, dor, medo, surpresa, dúvida, raiva, entre outros sentimentos — sem precisar de uma frase completa.`,
+                    `São exemplos de interjeições: Ah (alívio, tristeza ou surpresa), Ufa! (alívio), Ai! (dor), Eba! (alegria), Puxa! (admiração, decepção), Nossa!	(surpresa), Ih!	(desapontamento ou erro), Credo! (nojo ou susto), Uau! (surpresa boa ou admiração), Socorro! (pedido de ajuda)`
+                ],
+                exemplos: {
+                    titulo: 'São alguns exemplos:',
+                    frases: [
+                        {
+                            frase: '"Eba! Vamos viajar amanhã!"',
+                            explicacao: '"Eba!" mostra alegria espontânea.'
+                        },
+                        {
+                            frase: '"Ai! Isso doeu!"',
+                            explicacao: '"Ai!" expressa dor.'
+                        },
+                        {
+                            frase: '"Ufa! Consegui terminar a prova."',
+                            explicacao: '"Ufa!" mostra alívio.'
+                        },
+                        {
+                            frase: '"Nossa! Que lugar lindo!"',
+                            explicacao: '"Nossa!" expressa surpresa.'
+                        },
+                        {
+                            frase: '"Socorro! Tem alguém preso ali!"',
+                            explicacao: '"Socorro!" é um pedido urgente de ajuda.'
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Morfologia - Interjeição`,
+                    linkDoCanal: 'https://www.youtube.com/@portuguescomleticia',
+                    idVideo: 'fCVBUAt71TA'
+                }
+            },
         ]
+    },
+    pontuacao: {
+        titulo: 'Pontuação',
+        id: 'pontuacao',
+        introducao: {
+            titulo: 'Introdução',
+            texto: [
+                `A pontuação é um dos pilares da escrita eficaz. Ela não apenas organiza as ideias e dá ritmo à leitura, mas também é fundamental para a clareza e a correta interpretação de qualquer texto.`,
+                `No contexto de editais e provas, o domínio da pontuação é um diferencial crucial, pois um sinal mal empregado pode alterar completamente o sentido de uma frase ou, em casos mais graves, comprometer a coerência de um argumento.`
+            ],
+            assuntos: [
+                {
+                    titulo: `Vírgula`,
+                    id: 'virgula',
+                    descricao: `Separa partes da frase para dar clareza, organizar ideias ou indicar uma pausa. Ex: João saiu cedo, mas voltou à tarde.`
+                },
+                {
+                    titulo: `Ponto`,
+                    id: 'ponto',
+                    descricao: `Marca o fim de uma frase ou ideia completa. Ex: Ela foi ao mercado.`
+                },
+                {
+                    titulo: `Aspas`,
+                    id: 'aspas',
+                    descricao: `Usadas para destacar falas, expressões, palavras estrangeiras ou dar ênfase. Ex: Ele disse: “Estou cansado”.`
+                },
+            ],
+            submaterias: [
+                {
+                    titulo: 'Substantivo',
+                    id: 'substantivo',
+                    definicao: [
+                        `Substantivo é a palavra que dá nome a seres, objetos, lugares, sentimentos, ações, qualidades, entre outros. Em palavras simples, substantivo é o nome das coisas.`,
+                        `Uma dica simples é: se você pode colocar um artigo (o, a, os, as, um, uma) antes da palavra, provavelmente ela é um substantivo!`
+                    ],
+                    exemplos: {
+                        titulo: 'São alguns exemplos:',
+                        frases: [
+                            {
+                                frase: '"A menina está brincando no parquinho."',
+                                explicacao: '"Menina" é o substantivo, pois é o nome da pessoa.'
+                            },
+                            {
+                                frase: '"Eu gosto de pizza."',
+                                explicacao: '"Pizza" é o substantivo, pois é o nome de um alimento.'
+                            },
+                            {
+                                frase: '"Senti muita alegria com a notícia."',
+                                explicacao: '"Alegria" é o substantivo, pois é o nome de um sentimento.'
+                            },
+                            {
+                                frase: '"O cachorro está dormindo."',
+                                explicacao: '"Cachorro" é o substantivo, pois é o nome de um animal.'
+                            },
+                            {
+                                frase: '"Vamos à praia nas férias."',
+                                explicacao: '"Praia" é o substantivo, pois é o nome de um lugar.'
+                            },
+                        ]
+                    },
+                    video: {
+                        titulo: `Morfologia - Substantivo`,
+                        linkDoCanal: 'https://www.youtube.com/@ProfessorNoslen',
+                        idVideo: '8iXiBgCnGv4'
+                    }
+                },
+            ]
+        }
     }
-
 }
 
 export default portugues

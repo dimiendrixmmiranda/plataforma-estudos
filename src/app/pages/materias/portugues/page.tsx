@@ -1,40 +1,64 @@
+'use client'
 import MenuInferior from "@/components/menuInferior/MenuInferior";
 import RotaProtegida from "@/components/rotaProtegida/RotaProtegida";
 import Template from "@/components/template/Template";
 import portugues from "@/constants/portugues";
+import useAuth from "@/data/hook/useAuth";
 import { createSlug } from "@/utils/createSlug";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { FaCheckSquare } from "react-icons/fa";
 
 export default function Page() {
+    const [materiasCompletas, setMateriasCompletas] = useState<string[]>([]);
+    const { usuario } = useAuth()
+
+    useEffect(() => {
+        const salvos = localStorage.getItem("materiasCompletas");
+        if (salvos) {
+            setMateriasCompletas(JSON.parse(salvos));
+        }
+    }, []);
+
+    function toggleMateriaCompleta(id: string) {
+        const atualizadas = materiasCompletas.includes(id)
+            ? materiasCompletas.filter((item) => item !== id)
+            : [...materiasCompletas, id];
+
+        setMateriasCompletas(atualizadas);
+        localStorage.setItem("materiasCompletas", JSON.stringify(atualizadas));
+    }
+
     return (
         <Template>
             <RotaProtegida>
-                <div className="w-full min-h-screen bg-zinc-300 text-black p-2 pb-14 relative">
-                    <h2 className="text-3xl font-black uppercase">Português</h2>
-                    <p>{portugues.introducao}</p>
-                    <ul className="list-disc flex flex-col gap-2">
-                        {
-                            portugues.materias.map((materia, i) => {
-                                return (
-                                    <li key={i} className="bg-magenta p-2 text-white">
-                                        <Link href={`#${materia.id}`} className="text-xl font-bold leading-5">{materia.materia}</Link>
-                                    </li>
-                                )
-                            })
-                        }
-                    </ul>
+                <div className="w-full min-h-screen bg-zinc-300 text-black relative">
+                    <div className="flex flex-col p-4">
+                        <h2 className="text-3xl font-black uppercase">Português</h2>
+                        <p>{portugues.introducao}</p>
+                        <ul className="list-disc flex flex-col gap-2 ml-4">
+                            {
+                                portugues.materias.map((materia, i) => {
+                                    return (
+                                        <li key={i} className="bg-magenta text-white p-2">
+                                            <Link href={`#${materia.id}`} className="text-xl font-bold leading-5">{materia.materia}</Link>
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
+                    </div>
                     {/* 1º assunto de 5 */}
-                    <div className="flex flex-col gap-4 p-2" id={`${portugues["figuras-de-linguagem"].id}`}>
-                        <h2 className="text-2xl font-black">{portugues["figuras-de-linguagem"].titulo}</h2>
+                    <div className="flex flex-col gap-4 " id={`${portugues["figuras-de-linguagem"].id}`}>
+                        <h2 className="text-2xl font-black p-4">{portugues["figuras-de-linguagem"].titulo}</h2>
                         {/* Introdução */}
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2 p-4">
                             <h3 className="text-xl font-bold">{portugues["figuras-de-linguagem"].introducao.titulo}</h3>
                             <ul>
                                 {
                                     portugues["figuras-de-linguagem"].introducao.texto.map((texto, i) => {
                                         return (
-                                            <li key={i}>
+                                            <li key={i} className="">
                                                 <p className="indent-8">{texto}</p>
                                             </li>
                                         )
@@ -45,7 +69,7 @@ export default function Page() {
                                 {
                                     portugues["figuras-de-linguagem"].introducao.assuntos.map((ass, i) => {
                                         return (
-                                            <li key={i} className="bg-azul-escuro p-2 text-black">
+                                            <li key={i} className="bg-azul-escuro text-black p-2">
                                                 <Link href={`#${ass.id}`}>
                                                     <p className="text-white"><b>{ass.titulo}</b>: {ass.descricao}</p>
                                                 </Link>
@@ -62,18 +86,27 @@ export default function Page() {
                                     portugues["figuras-de-linguagem"].categoriasDeFiguras.map((categoria, i) => {
                                         return (
                                             <li key={i} className="flex flex-col gap-4 p-2" id={`${categoria.id}`}>
-                                                <div className="grid grid-cols-[1fr_50px]">
+                                                <div className="grid grid-cols-[1fr_50px] p-2">
                                                     <h3 className="text-xl font-black">{categoria.titulo}</h3>
                                                 </div>
                                                 <ul className="flex flex-col gap-8">
                                                     {
                                                         categoria.figuras.map((cat, j) => {
                                                             return (
-                                                                <li key={j} className="flex flex-col gap-2">
+                                                                <li
+                                                                    key={j}
+                                                                    className={`flex flex-col gap-2 p-2 ${materiasCompletas.includes(cat.titulo) ? "bg-green-500" : ""
+                                                                        }`}
+                                                                >
                                                                     {/* Titulo */}
                                                                     <div className="grid grid-cols-[1fr_50px]">
                                                                         <h4 className="font-bold text-xl">{cat.titulo}</h4>
-                                                                        <button className="flex justify-center items-center w-full h-full text-2xl"><FaCheckSquare /></button>
+                                                                        <button
+                                                                            onClick={() => toggleMateriaCompleta(cat.titulo)}
+                                                                            className="flex justify-center items-center w-full h-full text-2xl"
+                                                                        >
+                                                                            <FaCheckSquare />
+                                                                        </button>
                                                                     </div>
                                                                     {/* Definição */}
                                                                     <ul>
@@ -163,9 +196,20 @@ export default function Page() {
                                 {
                                     portugues.morfologia.submaterias.map((categoria, i) => {
                                         return (
-                                            <li key={i} className="flex flex-col gap-4 p-2" id={`${categoria.id}`}>
+                                            <li
+                                                key={i}
+                                                className={`flex flex-col gap-4 p-4 ${materiasCompletas.includes(categoria.titulo) ? "bg-green-500" : ""
+                                                    }`}
+                                                id={`${categoria.id}`}
+                                            >
                                                 <div className="grid grid-cols-[1fr_50px]">
                                                     <h3 className="text-xl font-black">{categoria.titulo}</h3>
+                                                    <button
+                                                        onClick={() => toggleMateriaCompleta(categoria.titulo)}
+                                                        className="flex justify-center items-center w-full h-full text-2xl"
+                                                    >
+                                                        <FaCheckSquare />
+                                                    </button>
                                                 </div>
                                                 {/* Definição */}
                                                 <ul>
@@ -216,7 +260,7 @@ export default function Page() {
                             </Link>
                         </div>
                     </div>
-                    <MenuInferior linkHome="/" linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />
+                    <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias" linkVoltar="/pages/materias" />
                 </div>
             </RotaProtegida>
         </Template>

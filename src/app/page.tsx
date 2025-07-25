@@ -37,8 +37,8 @@ export default function Page() {
 
 	return (
 		<Template>
-			<div className="text-black bg-zinc-300 min-h-[80vh] p-4 flex flex-col justify-center items-center">
-				<div className="flex flex-col gap-4 p-4 border-2 rounded-lg w-full max-w-[300px] bg-amarelo text-white">
+			<div className="text-black bg-zinc-300 min-h-[77vh] p-4 flex flex-col justify-center items-center gap-10">
+				<div className="flex flex-col gap-4 p-4 border border-black rounded-lg w-full max-w-[300px] bg-amarelo text-white" style={{ boxShadow: '1px 1px 2px 1px black' }}>
 					<div className="flex flex-col gap-2 justify-center items-center">
 						<IoPerson className="text-7xl" />
 						<h2 className="uppercase font-black">Entre</h2>
@@ -50,17 +50,19 @@ export default function Page() {
 					)}
 					<div>
 						<fieldset className="flex flex-col gap-1">
-							<label htmlFor="email">Informe seu email:</label>
-							<input type="text" id="email" onChange={(e) => setEmail(e.target.value)} className="px-2 py-1 rounded-lg text-black" />
+							<label style={{textShadow: '1px 1px 2px black'}} htmlFor="email">Informe seu email:</label>
+							<input type="text" id="email" onChange={(e) => setEmail(e.target.value)} className="px-2 py-1 rounded-lg text-black" style={{boxShadow: '0 0 2px 1px black'}}/>
 						</fieldset>
 						<fieldset className="flex flex-col gap-1">
-							<label htmlFor="senha">Informe sua senha:</label>
-							<input type="password" id="senha" onChange={(e) => setSenha(e.target.value)} className="px-2 py-1 rounded-lg text-black" />
+							<label style={{textShadow: '1px 1px 2px black'}} htmlFor="senha">Informe sua senha:</label>
+							<input type="password" id="senha" onChange={(e) => setSenha(e.target.value)} className="px-2 py-1 rounded-lg text-black" style={{boxShadow: '0 0 2px 1px black'}}/>
 						</fieldset>
 					</div>
-					<button className="w-full text-white uppercase font-bold py-2 bg-magenta" style={{textShadow: '1px 1px 2px black', boxShadow: '1px 1px 2px black'}} onClick={submeter}>Entrar</button>
+					<button className="w-full text-white uppercase font-bold py-2 bg-magenta" style={{ textShadow: '1px 1px 2px black', boxShadow: '1px 1px 2px black' }} onClick={submeter}>Entrar</button>
 				</div>
-				<span className="text-black text-center leading-5 mt-auto">Plataforma de estudos em desenvolvimento, somente usuarios credenciados podem acessar o conteúdo</span>
+				<span className="text-black uppercase font-black text-center leading-5">
+					Plataforma de estudos em desenvolvimento, somente usuarios credenciados podem acessar. Conteudos sendo adicionados diariamente.
+				</span>
 			</div>
 		</Template>
 	)

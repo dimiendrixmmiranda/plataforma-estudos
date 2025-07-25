@@ -806,6 +806,208 @@ const portugues = {
             },
         ]
     },
+    sintaxe: {
+        titulo: 'Sintaxe',
+        id: 'sintaxe',
+        introducao: {
+            titulo: 'Introducao',
+            texto: [
+                `A Sintaxe é a parte da gramática que estuda a relação entre as palavras dentro da oração e entre as orações dentro de um período. Em outras palavras, ela mostra como as palavras se organizam para formar frases com sentido.`,
+                `Quando aprendemos sintaxe, estamos aprendendo a montar frases corretamente, respeitando as funções de cada palavra e a lógica do que está sendo dito.`
+            ],
+            assuntos: [
+                {
+                    titulo: `Classificação de Sujeitos`,
+                    id: 'classificacao-de-sujeitos',
+                    descricao: `O sujeito é quem pratica ou sofre a ação do verbo, ou sobre quem se declara algo. Pode ser simples, composto, oculto, indeterminado ou inexistente.`
+                },
+                {
+                    titulo: `Classificação de Verbos`,
+                    id: 'classificacao-de-verbos',
+                    descricao: `Os verbos são classificados conforme a necessidade ou não de complementos. Podem ser intransitivos (não exigem complemento), transitivos (diretos, indiretos ou ambos), de ligação (indicam estado e ligam o sujeito ao predicativo)`
+                },
+                {
+                    titulo: `Predicados`,
+                    id: 'predicados',
+                    descricao: `O predicado é tudo o que se diz sobre o sujeito. Pode ser verbal, nominal ou verbo-nominal, dependendo do tipo de verbo e da presença de predicativo.`
+                },
+                {
+                    titulo: `Vocativos`,
+                    id: 'vocativos',
+                    descricao: `É a palavra ou expressão usada para chamar, interpelar ou se dirigir a alguém. Ex: "João, venha aqui!"`
+                },
+                {
+                    titulo: `Período Composto por Subordinação`,
+                    id: 'periodo-composto-por-subordinacao',
+                    descricao: `É quando há duas ou mais orações, e uma depende da outra para ter sentido completo. Ex: "Se eu estudar, passarei."`
+                },
+                {
+                    titulo: `Período Composto por Coordenação e Subordinação`,
+                    id: 'periodo-composto-por-coordenacao-e-subordinacao',
+                    descricao: `Mistura os dois tipos: há orações independentes e dependentes na mesma frase. Ex: "Fui ao mercado porque precisava de arroz e comprei frutas também."`
+                },
+                {
+                    titulo: `Concordância Nominal`,
+                    id: 'concordancia-nominal',
+                    descricao: `É a harmonia entre substantivos, adjetivos, pronomes e artigos. Ex: "As alunas dedicadas estavam felizes." (Tudo concorda em gênero e número.)`
+                },
+                {
+                    titulo: `Uso da Crase`,
+                    id: 'crase',
+                    descricao: `A crase é a fusão da preposição “a” com o artigo definido “a”. É indicada pelo acento grave (à). Ex: "Fui à escola." → Fui a + a escola.`
+                },
+            ]
+        },
+        "classificacao-de-sujeitos":
+        {
+            titulo: 'Classificacao de Sujeitos',
+            id: 'classificacao-de-sujeitos',
+            definicao: [
+                `O sujeito é o elemento que pratica ou sofre a ação expressa pelo verbo de uma oração. Para identificá-lo, basta fazermos uma pergunta sobre tal ação; observe:`,
+                `“O ajudante da loja correu muito com o veículo.”`,
+                `Ao nos perguntarmos: “Quem correu muito com o carro?”, o que temos como resposta corresponde ao sujeito que, por ter praticado a ação, é classificado como sujeito agente: o ajudante da loja.`,
+                `Em resumo, o sujeito é o termo da oração (frase) que indica quem faz ou sofre a ação, ou de quem se fala algo. Podem ser classificados em:`
+            ],
+            classificacao: [
+                {
+                    titulo: `Sujeito determinado`,
+                    definicao: [
+                        `É quando o sujeito existe e está claro na frase. Pode ser classificado em:`,
+                        `Sujeito simples: Tem apenas um núcleo (palavra principal). Ex: A criança brincava no parquinho. (Só tem um núcleo: criança.)`,
+                        `Sujeito composto: Tem dois ou mais núcleos. Ex: Pedro e João chegaram atrasados. (São dois: Pedro e João.)`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"A menina chorava de emoção."`,
+                            explicacao: `Sujeito = "A menina" → núcleo: menina → simples.`
+                        },
+                        {
+                            frase: `"O cachorro latiu alto durante a noite."`,
+                            explicacao: `Sujeito = "O cachorro" → núcleo: cachorro → simples.`
+                        },
+                        {
+                            frase: `"Pedro viajou para o interior."`,
+                            explicacao: `Sujeito = "Pedro" → núcleo: Pedro (apenas 1) → simples.`
+                        },
+                        {
+                            frase: `"Maria e João foram ao cinema."`,
+                            explicacao: `Sujeito = "Maria e João" → núcleos: Maria e João → composto.`
+                        },
+                        {
+                            frase: `"O vento e a chuva destruíram a barraca."`,
+                            explicacao: `Sujeito = "O vento e a chuva" → núcleos: vento e chuva → composto.`
+                        },
+                        {
+                            frase: `"Meus pais e meus tios viajaram juntos."`,
+                            explicacao: `Sujeito = "Meus pais e meus tios" → núcleos: pais e tios → composto.`
+                        },
+                    ]
+                },
+                {
+                    titulo: `Sujeito oculto (ou elíptico)`,
+                    definicao: [
+                        `O sujeito oculto, também chamado de elíptico, desinencial ou implícito, é aquele que não está declarado na oração. Apesar disso, ele é classificado como determinado porque pode ser identificado pelo contexto e pela conjugação verbal presente na oração.`,
+                        `Em resumo é quando o sujeito está escondido, mas é possível identificá-lo pelo contexto ou pela conjugação verbal. (Ex: "Fui ao mercado. Comprei frutas.", quem foi e comprou? Eu, mesmo sem estar escrito.)`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Estudei muito ontem."`,
+                            explicacao: `O verbo "estudei" está na 1ª pessoa do singular → o sujeito é "eu" (oculto).`
+                        },
+                        {
+                            frase: `"Chegamos tarde à festa."`,
+                            explicacao: `Verbo na 1ª pessoa do plural → o sujeito é "nós", mas não aparece na frase → sujeito oculto.`
+                        },
+                        {
+                            frase: `"Fizemos o trabalho com calma."`,
+                            explicacao: `Verbo "fizemos" indica "nós", que está oculto.`
+                        },
+                        {
+                            frase: `"Está cansado, mas vai continuar tentando."`,
+                            explicacao: `O sujeito de "vai continuar" é ele/ela, que não aparece → sujeito oculto, deduzido pelo contexto.`
+                        },
+                        {
+                            frase: `"Estava chovendo quando saí de casa."`,
+                            explicacao: `O verbo "saí" indica "eu", mas não aparece → sujeito oculto.`
+                        },
+                    ]
+                },
+                {
+                    titulo: `Sujeito Indeterminado`,
+                    definicao: [
+                        `O sujeito indeterminado é aquele que não permite identificar o agente da ação, nem pelo contexto, nem pela terminação verbal do enunciado.`,
+                        `Apesar de o sujeito ser um termo essencial na oração, o sujeito indeterminado pode se manifestar pelo desconhecimento ou desinteresse do agente que executa a ação.`,
+                        `Em resumo, é quando não sabemos quem pratica a ação ou não queremos dizer quem foi. O sujeito não é identificado nem pode ser deduzido pelo contexto.`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Vive-se bem aqui."`,
+                            explicacao: `Verbo na 3ª pessoa do singular + "se". Não se sabe quem vive bem → sujeito indeterminado.`
+                        },
+                        {
+                            frase: `"Dizem que vai chover amanhã."`,
+                            explicacao: `Verbo "dizem" sem indicar quem. Alguém diz, mas o sujeito não é identificado → sujeito indeterminado.`
+                        },
+                        {
+                            frase: `"Precisa-se de funcionários."`,
+                            explicacao: `"Se" + verbo na 3ª pessoa do singular. Alguém precisa, mas não se sabe quem → sujeito indeterminado.`
+                        },
+                        {
+                            frase: `"Bateram na porta de madrugada."`,
+                            explicacao: `Verbo sem sujeito claro. Alguém bateu, mas não sabemos quem → sujeito indeterminado.`
+                        },
+                        {
+                            frase: `"Trabalha-se muito nesta empresa."`,
+                            explicacao: `"Se" + verbo trabalhar. A ação é feita por alguém não identificado → sujeito indeterminado.`
+                        },
+                    ]
+                },
+                {
+                    titulo: `Sujeito inexistente (oração sem sujeito)`,
+                    definicao: [
+                        `O sujeito inexistente ocorre nas chamadas orações sem sujeito, uma vez que elas são constituídas por verbos impessoais, ou seja, não admitem agentes da ação.`,
+                        `É quando não há sujeito, porque o verbo não se refere a ninguém. Isso ocorre quando há verbos impessoais como o verbo haver (com sentido de existir, "Havia muitos alunos na sala.", não é "alguém que havia", e sim uma forma impessoal.), ou o verbo fazer (indicando tempo ou fenômeno natural, "Faz dois anos que nos vimos.", "Chovia muito ontem.")`,
+                        `Em resumo é quando não há um ser praticando a ação. Ou seja, a oração não tem sujeito, e o verbo indica apenas um fenômeno da natureza, existência, tempo, entre outros casos específicos.`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Choveu muito ontem."`,
+                            explicacao: `O verbo "chover" indica fenômeno da natureza → sem sujeito.`
+                        },
+                        {
+                            frase: `"Havia muitos livros na estante."`,
+                            explicacao: `O verbo "haver" com sentido de existir → sujeito inexistente.`
+                        },
+                        {
+                            frase: `"Faz frio nesta cidade."`,
+                            explicacao: `"Fazer" indicando condição climática → sem sujeito.`
+                        },
+                        {
+                            frase: `"Houve um acidente na estrada."`,
+                            explicacao: `"Houve" = forma do verbo "haver" no sentido de acontecer → sujeito inexistente.`
+                        },
+                        {
+                            frase: `"Faz três semanas que não nos vemos."`,
+                            explicacao: `"Faz" indicando tempo decorrido → oração sem sujeito.`
+                        },
+                    ]
+                },
+            ],
+            video: {
+                titulo: `Sintaxe - Classificação de Sujeitos`,
+                linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                idVideo: 'PLEVKgonM0E'
+            }
+        },
+        crase: {
+            titulo: 'Crase',
+            id: 'crase',
+            definicao: [
+                `A crase é o encontro de duas vogais iguais (neste caso, o "a" da preposição com o "a" do artigo definido feminino ou pronomes femininos).`,
+                `Ela é indicada por este sinal: (\`) (acento grave).`
+            ],
+        }
+    },
     morfologia: {
         titulo: 'Morfologia',
         id: 'morfologia',
@@ -1279,47 +1481,160 @@ const portugues = {
                     descricao: `Usadas para destacar falas, expressões, palavras estrangeiras ou dar ênfase. Ex: Ele disse: “Estou cansado”.`
                 },
             ],
-            submaterias: [
-                {
-                    titulo: 'Substantivo',
-                    id: 'substantivo',
-                    definicao: [
-                        `Substantivo é a palavra que dá nome a seres, objetos, lugares, sentimentos, ações, qualidades, entre outros. Em palavras simples, substantivo é o nome das coisas.`,
-                        `Uma dica simples é: se você pode colocar um artigo (o, a, os, as, um, uma) antes da palavra, provavelmente ela é um substantivo!`
-                    ],
-                    exemplos: {
-                        titulo: 'São alguns exemplos:',
-                        frases: [
-                            {
-                                frase: '"A menina está brincando no parquinho."',
-                                explicacao: '"Menina" é o substantivo, pois é o nome da pessoa.'
-                            },
-                            {
-                                frase: '"Eu gosto de pizza."',
-                                explicacao: '"Pizza" é o substantivo, pois é o nome de um alimento.'
-                            },
-                            {
-                                frase: '"Senti muita alegria com a notícia."',
-                                explicacao: '"Alegria" é o substantivo, pois é o nome de um sentimento.'
-                            },
-                            {
-                                frase: '"O cachorro está dormindo."',
-                                explicacao: '"Cachorro" é o substantivo, pois é o nome de um animal.'
-                            },
-                            {
-                                frase: '"Vamos à praia nas férias."',
-                                explicacao: '"Praia" é o substantivo, pois é o nome de um lugar.'
-                            },
-                        ]
-                    },
-                    video: {
-                        titulo: `Morfologia - Substantivo`,
-                        linkDoCanal: 'https://www.youtube.com/@ProfessorNoslen',
-                        idVideo: '8iXiBgCnGv4'
-                    }
+        },
+        submaterias: [
+            {
+                titulo: 'Vírgula',
+                id: 'virgula',
+                definicao: [
+                    `A vírgula (,) é um dos sinais de pontuação mais versáteis e, por isso, um dos que mais geram dúvidas.`,
+                    `Sua principal função é indicar uma pausa breve na leitura e separar termos ou orações que não possuem ligação sintática direta, evitando ambiguidades e facilitando a compreensão do texto`,
+                    `No entanto, seu uso não é arbitrário; ele segue regras gramaticais bem definidas.`
+                ],
+                regras: {
+                    titulo: 'Regras:',
+                    listaDeRegras: [
+                        {
+                            titulo: `Separar elementos de uma enumeração ou sequência:`,
+                            definicao: `Quando há uma lista de itens, a vírgula é utilizada para separá-los, exceto quando o último item é precedido por conjunções aditivas como "e", "nem", "ou" (em alguns casos). Exemplo: "Comprei pão, leite, ovos e café." (Note que não há vírgula antes do "e" quando ele liga os dois últimos elementos de uma enumeração). Exemplo: "Ela é inteligente, dedicada, gentil e muito talentosa."`,
+                        },
+                        {
+                            titulo: `Isolar o vocativo:`,
+                            definicao: `O vocativo é o termo que usamos para chamar ou interpelar o interlocutor. Ele deve sempre vir isolado por vírgulas, independentemente de sua posição na frase. Exemplo: "João, venha aqui!" Exemplo: "Por favor, Maria, preste atenção." Exemplo: "Venha cá, meu amor."`,
+                        },
+                        {
+                            titulo: `Isolar o aposto:`,
+                            definicao: `O aposto é um termo que explica, esclarece ou resume outro termo da oração. Ele também é isolado por vírgulas. Exemplo: "Machado de Assis, o maior escritor brasileiro, nasceu no Rio de Janeiro." Exemplo: "São Paulo a maior cidade do Brasil, tem muitos problemas de trânsito."`,
+                        },
+                        {
+                            titulo: `Isolar expressões explicativas, retificativas ou conclusivas:`,
+                            definicao: `Expressões como "isto é", "ou seja", "por exemplo", "além disso", "assim", "entretanto", "contudo", "no entanto", "portanto", "logo", "enfim", "aliás", "com efeito", entre outras, devem ser isoladas por vírgulas. Exemplo: "Ele estudou muito, isto é, dedicou-se integralmente aos livros." Exemplo: "Não compareceu à reunião, portanto, perdeu a oportunidade." Exemplo: "A situação é grave, aliás, gravíssima."`,
+                        },
+                        {
+                            titulo: `Separar orações coordenadas assindéticas:`,
+                            definicao: `São orações coordenadas que não são ligadas por conjunções. A vírgula é essencial para separá-las. Exemplo: "Cheguei, vi, venci." Exemplo: "Ele correu, pulou, gritou."`,
+                        },
+                        {
+                            titulo: `Separar orações coordenadas sindéticas (exceto as aditivas com "e"):`,
+                            definicao: `As orações coordenadas sindéticas são ligadas por conjunções. A vírgula é usada antes da maioria das conjunções, exceto as aditivas com "e" (a menos que o "e" ligue orações com sujeitos diferentes, ou que a oração iniciada por "e" tenha valor adversativo). Exemplo: "Ele estudou muito, mas não passou no concurso." Exemplo: "Queria ir à festa, porém estava doente." Exemplo: "Ele trabalha muito, e a esposa descansa." (Vírgula antes do "e" porque os sujeitos são diferentes). Exemplo: "Ele caiu, e não se machucou." (Vírgula antes do "e" com valor adversativo, significando "mas não se machucou")`,
+                        },
+                        {
+                            titulo: `Isolar adjuntos adverbiais deslocados:`,
+                            definicao: `Quando o adjunto adverbial (de tempo, lugar, modo, causa, etc.) vem no início ou no meio da frase, e é de longa extensão (três ou mais palavras), a vírgula é obrigatória. Se for de curta extensão, a vírgula é facultativa. Exemplo (obrigatória): "Naquela manhã fria de inverno, todos estavam agasalhados." Exemplo (facultativa): "Ontem, choveu muito." ou "Ontem choveu muito."`,
+                        },
+                        {
+                            titulo: `Isolar orações subordinadas adverbiais deslocadas:`,
+                            definicao: `As orações subordinadas adverbiais, quando vêm antes da oração principal ou intercaladas, devem ser isoladas por vírgula. Exemplo: "Quando ele chegou, todos se calaram." Exemplo: "Embora estivesse cansado, continuou trabalhando."`,
+                        },
+                        {
+                            titulo: `Isolar orações subordinadas adjetivas explicativas:`,
+                            definicao: `As orações adjetivas explicativas adicionam uma informação extra sobre o antecedente, sem restringir seu sentido. Elas são sempre isoladas por vírgulas. Exemplo: "O homem, que é um ser racional, comete erros." Exemplo: "Meu pai, que mora em Brasília, virá nos visitar."`,
+                        },
+                        {
+                            titulo: `Indicar a supressão de um verbo (zeugma ou elipse): `,
+                            definicao: `A vírgula pode ser usada para indicar que um verbo foi omitido, mas pode ser facilmente subentendido pelo contexto. Exemplo: "Eu gosto de café; ele, de chá." (Omitiu-se o verbo "gosta" antes de "de chá"). Exemplo: "Na sala, alegria; no quarto, tristeza." (Omitiu-se o verbo "havia" ou "reinava").`,
+                        },
+                        {
+                            titulo: `NÃO USAR Entre o sujeito e o predicado:`,
+                            definicao: `Esta é a regra mais fundamental e frequentemente desrespeitada. Jamais se separa o sujeito de seu verbo por vírgula. Incorreto: "Os alunos, estudaram para a prova." Correto: "Os alunos estudaram para a prova."`,
+                        },
+                        {
+                            titulo: `NÃO USAR Entre o verbo e seus complementos (objeto direto, objeto indireto):`,
+                            definicao: `O verbo e seus complementos formam uma unidade sintática e não devem ser separados por vírgula. Incorreto: "Ele comprou, um carro novo." Correto: "Ele comprou um carro novo."`,
+                        },
+                        {
+                            titulo: `NÃO USAR Entre o nome e seu complemento nominal ou adjunto adnominal:`,
+                            definicao: `Incorreto: "Tenho necessidade, de ajuda." Correto: "Tenho necessidade de ajuda."`,
+                        },
+                        {
+                            titulo: `NÃO USAR Entre o adjunto adnominal e o nome a que se refere:`,
+                            definicao: `Incorreto: "A casa, branca é linda." Correto: "A casa branca é linda."`,
+                        },
+                    ]
                 },
-            ]
-        }
+                video: {
+                    titulo: `Pontuação - Vírgula`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfessorNoslen',
+                    idVideo: '-uUtlvKifiY'
+                }
+            },
+            {
+                titulo: 'Aspas',
+                id: 'aspas',
+                definicao: [
+                    `As aspas são sinais de pontuação utilizados para diversas finalidades, principalmente para destacar partes de um texto, indicar citações, ironia ou o uso de palavras em sentido figurado.`,
+                    `Existem aspas duplas (") e aspas simples ("), sendo as duplas as mais comuns no português brasileiro. As aspas simples são geralmente usadas para citar algo dentro de uma citação que já está entre aspas duplas.`
+                ],
+                regras: {
+                    titulo: 'Regras:',
+                    listaDeRegras: [
+                        {
+                            titulo: `Citar a fala de alguém ou trechos de outros textos (citação direta):`,
+                            definicao: `Este é o uso mais frequente das aspas. Elas delimitam a reprodução exata da fala de uma pessoa ou de um trecho de uma obra. Exemplo: "A vida é o que acontece enquanto você está ocupado fazendo outros planos", disse John Lennon. Exemplo: O professor pediu: "Leiam o capítulo sobre \'A Revolução Francesa\' para a próxima aula."`,
+                        },
+                        {
+                            titulo: `Indicar ironia, sarcasmo ou sentido figurado:`,
+                            definicao: `Quando uma palavra ou expressão é usada com um sentido diferente do seu significado literal, muitas vezes para expressar ironia ou sarcasmo, as aspas são empregadas para alertar o leitor sobre essa intenção. Exemplo: Ele é um "gênio" da matemática (indicando que ele não é bom em matemática). Exemplo: Que "beleza" de situação! (indicando que a situação é ruim).`,
+                        },
+                        {
+                            titulo: `Destacar neologismos, estrangeirismos, gírias ou expressões populares:`,
+                            definicao: `Palavras novas (neologismos), termos de outras línguas (estrangeirismos) que ainda não foram incorporados ao português, gírias ou expressões informais podem ser colocadas entre aspas para indicar que são termos não padronizados ou que estão sendo usados de forma particular. Exemplo: A empresa adotou o "home office" permanentemente. Exemplo: Ele vive no "zap" o dia inteiro. Exemplo: Aquela ideia é muito "legal" (no sentido de interessante, não de estar dentro da lei).`,
+                        },
+                        {
+                            titulo: `Referir-se a títulos de obras (livros, artigos, capítulos, poemas, músicas), nomes de jornais, revistas, etc.:`,
+                            definicao: `Embora a ABNT e outras normas de formatação sugiram o itálico para títulos de obras, o uso de aspas é comum em textos informais ou quando o itálico não está disponível. Exemplo: Li o artigo "A Importância da Leitura" na revista. Exemplo: A música "Garota de Ipanema" é um clássico da MPB.`,
+                        },
+                        {
+                            titulo: `Destacar palavras ou expressões que são objeto de discussão ou análise:`,
+                            definicao: `Quando se está analisando uma palavra em si, e não seu significado no contexto da frase, ela pode ser destacada com aspas. Exemplo: A palavra "saudade" não tem tradução exata em muitas línguas.`,
+                        },
+                        {
+                            titulo: `Aspas Simples vs. Aspas Duplas:`,
+                            definicao: `No português brasileiro, as aspas duplas (") são as mais utilizadas. As aspas simples (") são reservadas para situações específicas, como na citação dentro de citação (Quando um trecho citado já contém uma citação, a citação interna é marcada com aspas simples. Exemplo: O crítico afirmou: "A obra de arte é um \'espelho da alma\' do artista.") e para deixar em destaque dentro de um destaque (em casos mais raros, para destacar uma palavra ou expressão dentro de um trecho que já está entre aspas duplas.)`,
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Pontuação - Aspas`,
+                    linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                    idVideo: 'fBtQZaJIbqM'
+                }
+            },
+            {
+                titulo: 'Ponto Final',
+                id: 'ponto',
+                definicao: [
+                    `O ponto final (.) é o sinal de pontuação mais comum e fundamental na escrita. Sua principal função é indicar o fim de uma frase declarativa ou imperativa, marcando uma pausa longa e completa na leitura. `,
+                    `Ele sinaliza que a ideia expressa na oração foi concluída, permitindo ao leitor assimilar a informação antes de prosseguir para a próxima.`
+                ],
+                regras: {
+                    titulo: 'Regras:',
+                    listaDeRegras: [
+                        {
+                            titulo: ` Indicar o fim de uma frase declarativa ou imperativa:`,
+                            definicao: `O ponto final é usado para encerrar frases que afirmam, negam ou expressam uma ordem/pedido de forma direta. Exemplo: "O sol nasceu no horizonte." Exemplo: "Feche a porta, por favor." Exemplo: "Não irei à festa hoje."`,
+                        },
+                        {
+                            titulo: `Abreviar palavras:`,
+                            definicao: `O ponto final é utilizado após abreviações de palavras ou expressões. Exemplo: "Sr. (Senhor)" Exemplo: "Dra. (Doutora)" Exemplo: "Exmo. (Excelentíssimo)" Exemplo: "etc. (et cetera)"`,
+                        },
+                        {
+                            titulo: `Em datas:`,
+                            definicao: `É comum o uso do ponto final para separar os elementos numéricos de uma data, embora a barra (/) também seja amplamente aceita. Exemplo: "25.12.2024" ou "25/12/2024"`,
+                        },
+                        {
+                            titulo: `Em números ordinais (em alguns contextos): `,
+                            definicao: ` Embora menos comum em textos corridos, o ponto final pode ser usado após números ordinais, especialmente em listas ou numerações. Exemplo: "1. (primeiro)", "2. (segundo)"`,
+                        },
+                    ]
+                },
+                video: {
+                    titulo: `Pontuação - Ponto final`,
+                    linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                    idVideo: 'KD2TAJyZECc'
+                }
+            },
+        ]
     }
 }
 

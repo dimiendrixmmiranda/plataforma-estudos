@@ -40,7 +40,7 @@ export default function Page() {
                             {
                                 portugues.materias.map((materia, i) => {
                                     return (
-                                        <li key={i} className="bg-magenta text-white p-2">
+                                        <li key={i} className="bg-magenta text-white p-2" style={{ textShadow: '1px 1px 2px black' }}>
                                             <Link href={`#${materia.id}`} className="text-xl font-bold leading-5">{materia.materia}</Link>
                                         </li>
                                     )
@@ -49,7 +49,7 @@ export default function Page() {
                         </ul>
                     </div>
                     {/* 1º assunto de 5 */}
-                    <div className="flex flex-col gap-4 " id={`${portugues["figuras-de-linguagem"].id}`}>
+                    <div className="flex flex-col" id={`${portugues["figuras-de-linguagem"].id}`}>
                         <h2 className="text-2xl font-black p-4">{portugues["figuras-de-linguagem"].titulo}</h2>
                         {/* Introdução */}
                         <div className="flex flex-col gap-2 p-4">
@@ -241,6 +241,232 @@ export default function Page() {
                                                         className="w-full h-full"
                                                         src={`https://www.youtube.com/embed/${categoria.video?.idVideo}`}
                                                         title={`${categoria.video?.titulo}`}
+                                                        frameBorder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                        allowFullScreen
+                                                    ></iframe>
+                                                </div>
+                                            </li>
+                                        )
+                                    })
+                                }
+                            </ul>
+                            {/* Botao de Exercícios */}
+                            <Link
+                                href={`/pages/materias/exercicios/${createSlug(portugues.morfologia.id)}`}
+                                className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
+                            >
+                                Realizar Exercícios
+                            </Link>
+                        </div>
+                    </div>
+                    {/* 4º assunto de 5 */}
+                    <div className="flex flex-col gap-4 p-2" id={`${portugues.sintaxe.id}`}>
+                        <h2 className="text-2xl font-black">{portugues.sintaxe.titulo}</h2>
+                        {/* Introdução */}
+                        <div className="flex flex-col gap-2">
+                            <h3 className="text-xl font-bold">{portugues.sintaxe.introducao.titulo}</h3>
+                            <ul>
+                                {
+                                    portugues.sintaxe.introducao.texto.map((texto, i) => {
+                                        return (
+                                            <li key={i}>
+                                                <p className="indent-8">{texto}</p>
+                                            </li>
+                                        )
+                                    })
+                                }
+                            </ul>
+                            <ul className="list-disc ml-8 gap-2 flex flex-col">
+                                {
+                                    portugues.sintaxe.introducao.assuntos.map((ass, i) => {
+                                        return (
+                                            <li key={i} className="bg-azul-escuro p-2 text-black">
+                                                <Link href={`#${ass.id}`}>
+                                                    <p className="text-white"><b>{ass.titulo}</b>: {ass.descricao}</p>
+                                                </Link>
+                                            </li>
+                                        )
+                                    })
+                                }
+                            </ul>
+                        </div>
+                        {/* submateria individual */}
+                        <div>
+                            {/* submateria 1 */}
+                            <div
+                                className={`flex flex-col gap-4 p-4 ${materiasCompletas.includes(portugues.sintaxe["classificacao-de-sujeitos"].titulo) ? "bg-green-500" : ""
+                                    }`}
+                                id={`${portugues.sintaxe["classificacao-de-sujeitos"].id}`}
+                            >
+                                <div className="grid grid-cols-[1fr_50px]">
+                                    <h3 className="text-xl font-black">{portugues.sintaxe["classificacao-de-sujeitos"].titulo}</h3>
+                                    <button
+                                        onClick={() => toggleMateriaCompleta(portugues.sintaxe["classificacao-de-sujeitos"].titulo)}
+                                        className="flex justify-center items-center w-full h-full text-2xl"
+                                    >
+                                        <FaCheckSquare />
+                                    </button>
+                                </div>
+                                {/* Definição */}
+                                <ul>
+                                    {
+                                        portugues.sintaxe["classificacao-de-sujeitos"].definicao.map((texto, i) => {
+                                            return (
+                                                <li key={i}>{texto}</li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                                {/* Classificação */}
+                                <div>
+                                    <ul className="flex flex-col gap-4">
+                                        {
+                                            portugues.sintaxe["classificacao-de-sujeitos"].classificacao.map((classificacao, i) => {
+                                                return (
+                                                    <li key={i} className="flex flex-col gap-3">
+                                                        <h3 className="uppercase font-black text-xl">{classificacao.titulo}</h3>
+                                                        <ul>
+                                                            {
+                                                                classificacao.definicao.map((def, i) => {
+                                                                    return (
+                                                                        <li key={i}><p>{def}</p></li>
+                                                                    )
+                                                                })
+                                                            }
+                                                        </ul>
+                                                        <div className="flex flex-col gap-2">
+                                                            <h2 className="text-xl font-semibold">Exemplos:</h2>
+                                                            <ul className="flex flex-col gap-4">
+                                                                {
+                                                                    classificacao.exemplos.map((ex, i) => {
+                                                                        return (
+                                                                            <li key={i}>
+                                                                                <p className="italic font-semibold">{ex.frase}</p>
+                                                                                <span>{ex.explicacao}</span>
+                                                                            </li>
+                                                                        )
+                                                                    })
+                                                                }
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                )
+                                            })
+                                        }
+                                    </ul>
+                                </div>
+
+                                {/* Exemplos */}
+                                {/* <div className="flex flex-col gap-2">
+                                    <h5 className="font-black">{categoria.exemplos.titulo}</h5>
+                                    <ul className="list-disc ml-8">
+                                        {categoria.exemplos.frases.map((ex, l) => {
+                                            return (
+                                                <li key={l}>
+                                                    <p className="italic font-semibold">{ex.frase}</p>
+                                                    <span>{ex.explicacao}</span>
+                                                </li>
+                                            )
+                                        })}
+                                    </ul>
+                                </div> */}
+                                {/* Video */}
+                                {/* <div className="w-full aspect-video max-w-3xl mx-auto">
+                                    <iframe
+                                        className="w-full h-full"
+                                        src={`https://www.youtube.com/embed/${categoria.video?.idVideo}`}
+                                        title={`${categoria.video?.titulo}`}
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div> */}
+                            </div>
+                        </div>
+                    </div>
+                    {/* 5º assunto de 5 */}
+                    <div className="flex flex-col gap-4 p-2" id={`${portugues.pontuacao.id}`}>
+                        <h2 className="text-2xl font-black">{portugues.pontuacao.titulo}</h2>
+                        {/* Introdução */}
+                        <div className="flex flex-col gap-2">
+                            <h3 className="text-xl font-bold">{portugues.pontuacao.introducao.titulo}</h3>
+                            <ul>
+                                {
+                                    portugues.pontuacao.introducao.texto.map((texto, i) => {
+                                        return (
+                                            <li key={i}>
+                                                <p className="indent-8">{texto}</p>
+                                            </li>
+                                        )
+                                    })
+                                }
+                            </ul>
+                            <ul className="list-disc ml-8 gap-2 flex flex-col">
+                                {
+                                    portugues.pontuacao.introducao.assuntos.map((ass, i) => {
+                                        return (
+                                            <li key={i} className="bg-azul-escuro p-2 text-black">
+                                                <Link href={`#${ass.id}`}>
+                                                    <p className="text-white"><b>{ass.titulo}</b>: {ass.descricao}</p>
+                                                </Link>
+                                            </li>
+                                        )
+                                    })
+                                }
+                            </ul>
+                        </div>
+                        {/* Submaterias */}
+                        <div>
+                            <ul className="flex flex-col gap-10">
+                                {
+                                    portugues.pontuacao.submaterias.map((pontuacao, i) => {
+                                        return (
+                                            <li
+                                                key={i}
+                                                className={`flex flex-col gap-4 p-4 ${materiasCompletas.includes(pontuacao.titulo) ? "bg-green-500" : ""
+                                                    }`}
+                                                id={`${pontuacao.id}`}
+                                            >
+                                                <div className="grid grid-cols-[1fr_50px]">
+                                                    <h3 className="text-xl font-black">{pontuacao.titulo}</h3>
+                                                    <button
+                                                        onClick={() => toggleMateriaCompleta(pontuacao.titulo)}
+                                                        className="flex justify-center items-center w-full h-full text-2xl"
+                                                    >
+                                                        <FaCheckSquare />
+                                                    </button>
+                                                </div>
+                                                {/* Definição */}
+                                                <ul>
+                                                    {
+                                                        pontuacao.definicao.map((texto, i) => {
+                                                            return (
+                                                                <li key={i}>{texto}</li>
+                                                            )
+                                                        })
+                                                    }
+                                                </ul>
+                                                <div>
+                                                    <h3 className="uppercase font-bold text-2xl">Regras:</h3>
+                                                    <ul className="flex flex-col gap-4">
+                                                        {
+                                                            pontuacao.regras.listaDeRegras.map((regra, i) => {
+                                                                return (
+                                                                    <li key={i}>
+                                                                        <p><b>{regra.titulo}</b> {regra.definicao}</p>
+                                                                    </li>
+                                                                )
+                                                            })
+                                                        }
+                                                    </ul>
+                                                </div>
+                                                {/* Video */}
+                                                <div className="w-full aspect-video max-w-3xl mx-auto">
+                                                    <iframe
+                                                        className="w-full h-full"
+                                                        src={`https://www.youtube.com/embed/${pontuacao.video?.idVideo}`}
+                                                        title={`${pontuacao.video?.titulo}`}
                                                         frameBorder="0"
                                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                         allowFullScreen

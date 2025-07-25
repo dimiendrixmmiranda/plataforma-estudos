@@ -64,3 +64,13 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
 export {
     listaPerguntasExercicios
 }
+
+
+/**
+ * Categorias possíveis:
+ * figuras-de-palavras
+ * figuras-de-pensamento
+ * figuras-de-construcao
+ * figuras-de-som
+ * pontuacao
+ */

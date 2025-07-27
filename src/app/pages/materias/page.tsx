@@ -118,6 +118,7 @@ export default function PaginaMaterias() {
                             </Accordion>
                         </ul>
                     </div>
+                    <Link href={'/pages/simulado'}>Realizar Simulado!</Link >
                     <button onClick={logout} className="mt-auto bg-red-600 uppercase font-bold text-lg text-white max-w-[120px] py-2 ml-auto w-full" style={{ textShadow: '1px 1px 2px black' }}>Logout</button>
                 </div>
                 <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />

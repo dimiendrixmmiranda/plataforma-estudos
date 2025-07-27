@@ -356,37 +356,195 @@ export default function Page() {
                                         }
                                     </ul>
                                 </div>
-
-                                {/* Exemplos */}
-                                {/* <div className="flex flex-col gap-2">
-                                    <h5 className="font-black">{categoria.exemplos.titulo}</h5>
-                                    <ul className="list-disc ml-8">
-                                        {categoria.exemplos.frases.map((ex, l) => {
-                                            return (
-                                                <li key={l}>
-                                                    <p className="italic font-semibold">{ex.frase}</p>
-                                                    <span>{ex.explicacao}</span>
-                                                </li>
-                                            )
-                                        })}
-                                    </ul>
-                                </div> */}
                                 {/* Video */}
-                                {/* <div className="w-full aspect-video max-w-3xl mx-auto">
+                                <div className="w-full aspect-video max-w-3xl mx-auto">
                                     <iframe
                                         className="w-full h-full"
-                                        src={`https://www.youtube.com/embed/${categoria.video?.idVideo}`}
-                                        title={`${categoria.video?.titulo}`}
+                                        src={`https://www.youtube.com/embed/${portugues.sintaxe["classificacao-de-sujeitos"].video.idVideo}`}
+                                        title={`${portugues.sintaxe["classificacao-de-sujeitos"].video.titulo}`}
                                         frameBorder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen
                                     ></iframe>
-                                </div> */}
+                                </div>
+                                {/* Botao de Exercícios */}
+                                <Link
+                                    href={`/pages/materias/exercicios/${createSlug(portugues.sintaxe["classificacao-de-sujeitos"].id)}`}
+                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
+                                >
+                                    Realizar Exercícios
+                                </Link>
+                            </div>
+                            {/* submateria 3 */}
+                            <div
+                                className={`flex flex-col gap-4 p-4 ${materiasCompletas.includes(portugues.sintaxe.predicados.titulo) ? "bg-green-500" : ""
+                                    }`}
+                                id={`${portugues.sintaxe.predicados.id}`}
+                            >
+                                <div className="grid grid-cols-[1fr_50px]">
+                                    <h3 className="text-xl font-black">{portugues.sintaxe.predicados.titulo}</h3>
+                                    <button
+                                        onClick={() => toggleMateriaCompleta(portugues.sintaxe.predicados.titulo)}
+                                        className="flex justify-center items-center w-full h-full text-2xl"
+                                    >
+                                        <FaCheckSquare />
+                                    </button>
+                                </div>
+                                {/* Definição */}
+                                <ul>
+                                    {
+                                        portugues.sintaxe.predicados.definicao.map((texto, i) => {
+                                            return (
+                                                <li key={i}>{texto}</li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                                {/* Categorias */}
+                                <div>
+                                    <ul className="flex flex-col gap-4">
+                                        {
+                                            portugues.sintaxe.predicados.categorias.map((categoria, i) => {
+                                                return (
+                                                    <li key={i} className="flex flex-col gap-3">
+                                                        <h3 className="uppercase font-black text-xl">{categoria.titulo}</h3>
+                                                        <ul>
+                                                            {
+                                                                categoria.definicao.map((def, i) => {
+                                                                    return (
+                                                                        <li key={i}><p>{def}</p></li>
+                                                                    )
+                                                                })
+                                                            }
+                                                        </ul>
+                                                        <div className="flex flex-col gap-2">
+                                                            <h2 className="text-xl font-semibold">Exemplos:</h2>
+                                                            <ul className="flex flex-col gap-4">
+                                                                {
+                                                                    categoria.exemplos.map((ex, i) => {
+                                                                        return (
+                                                                            <li key={i}>
+                                                                                <p className="italic font-semibold">{ex.frase}</p>
+                                                                                <span>{ex.explicacao}</span>
+                                                                            </li>
+                                                                        )
+                                                                    })
+                                                                }
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                )
+                                            })
+                                        }
+                                    </ul>
+                                </div>
+                                {/* Video */}
+                                <div className="w-full aspect-video max-w-3xl mx-auto">
+                                    <iframe
+                                        className="w-full h-full"
+                                        src={`https://www.youtube.com/embed/${portugues.sintaxe.predicados.video.idVideo}`}
+                                        title={`${portugues.sintaxe.predicados.video.titulo}`}
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
+                                {/* Botao de Exercícios */}
+                                <Link
+                                    href={`/pages/materias/exercicios/${createSlug(portugues.sintaxe.predicados.id)}`}
+                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
+                                >
+                                    Realizar Exercícios
+                                </Link>
+                            </div>
+                            {/* submateria 9 */}
+                            <div
+                                className={`flex flex-col gap-4 p-4 ${materiasCompletas.includes(portugues.sintaxe.crase.id) ? "bg-green-500" : ""
+                                    }`}
+                                id={`${portugues.sintaxe.crase.id}`}
+                            >
+                                <div className="grid grid-cols-[1fr_50px]">
+                                    <h3 className="text-xl font-black">{portugues.sintaxe.crase.titulo}</h3>
+                                    <button
+                                        onClick={() => toggleMateriaCompleta(portugues.sintaxe.crase.titulo)}
+                                        className="flex justify-center items-center w-full h-full text-2xl"
+                                    >
+                                        <FaCheckSquare />
+                                    </button>
+                                </div>
+                                {/* Definição */}
+                                <ul>
+                                    {
+                                        portugues.sintaxe.crase.definicao.map((texto, i) => {
+                                            return (
+                                                <li key={i}>{texto}</li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                                <div>
+                                    <h2 className="upperscase font-bold text-2xl">Regras para o uso da crase</h2>
+                                    <ul>
+                                        {
+                                            portugues.sintaxe.crase.regras.map((regra, i) => {
+                                                return (
+                                                    <li key={i} className="flex flex-col gap-2">
+                                                        <h3 className="uppercase font-black text-xl">{regra.titulo}</h3>
+                                                        <ul>
+                                                            <li>
+                                                                {
+                                                                    regra.definicao.map((p, i) => {
+                                                                        return (
+                                                                            <p key={i}>{p}</p>
+                                                                        )
+                                                                    })
+                                                                }
+                                                            </li>
+                                                        </ul>
+                                                        <div>
+                                                            <h4 className="uppercase font-bold text-xl">Exemplos:</h4>
+                                                            <ul className="flex flex-col gap-4">
+                                                                {
+                                                                    regra.exemplos.map((ex, i) => {
+                                                                        return (
+                                                                            <li key={i}>
+                                                                                <p className="italic font-semibold">{ex.frase}</p>
+                                                                                <span>{ex.explicacao}</span>
+                                                                            </li>
+                                                                        )
+                                                                    })
+                                                                }
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                )
+                                            })
+                                        }
+                                    </ul>
+                                </div>
+                                {/* Video */}
+                                <div className="w-full aspect-video max-w-3xl mx-auto">
+                                    <iframe
+                                        className="w-full h-full"
+                                        src={`https://www.youtube.com/embed/${portugues.sintaxe.crase.video.idVideo}`}
+                                        title={`${portugues.sintaxe.crase.video.titulo}`}
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
+                                {/* Botao de Exercícios */}
+                                <Link
+                                    href={`/pages/materias/exercicios/${createSlug(portugues.sintaxe.crase.id)}`}
+                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
+                                >
+                                    Realizar Exercícios
+                                </Link>
                             </div>
                         </div>
                     </div>
                     {/* 5º assunto de 5 */}
-                    <div className="flex flex-col gap-4 p-2" id={`${portugues.pontuacao.id}`}>
+                    <div className="flex flex-col gap-4 p-4" id={`${portugues.pontuacao.id}`}>
                         <h2 className="text-2xl font-black">{portugues.pontuacao.titulo}</h2>
                         {/* Introdução */}
                         <div className="flex flex-col gap-2">

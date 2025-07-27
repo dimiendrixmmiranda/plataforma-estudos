@@ -73,4 +73,7 @@ export {
  * figuras-de-construcao
  * figuras-de-som
  * pontuacao
+ * classificacao-de-sujeito
+ * predicado
+ * crase
  */

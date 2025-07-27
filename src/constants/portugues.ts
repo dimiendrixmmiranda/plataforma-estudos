@@ -1006,6 +1006,354 @@ const portugues = {
                 `A crase é o encontro de duas vogais iguais (neste caso, o "a" da preposição com o "a" do artigo definido feminino ou pronomes femininos).`,
                 `Ela é indicada por este sinal: (\`) (acento grave).`
             ],
+            regras: [
+                {
+                    titulo: 'Crase antes de palavras femininas',
+                    definicao: [
+                        `Use crase quando o verbo pede preposição "a" e a palavra seguinte é feminina (ou seja, começa com "a" e aceita o artigo "a").`,
+                        `Para saber se uma palavra é feminina troque a palavra por uma masculina. Se o "à" virar "ao", tem crase. Um exemplo prático: "Vou 'a' escola", trocando escola por colegio (masculino de escola) temos a frase: "Vou ao colégio", portanto a frase original fica: "Vou à escola", com o uso da crase`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Fui à escola entregar os documentos."`,
+                            explicacao: `O verbo "ir" exige a preposição a + a palavra "escola" é feminina → crase.`
+                        },
+                        {
+                            frase: `"Cheguei à festa por volta das 20h."`,
+                            explicacao: `"Chegar" exige preposição a + "festa" é feminina → crase.`
+                        },
+                        {
+                            frase: `"Obedeceu à professora com respeito."`,
+                            explicacao: `"Obedecer" exige preposição a + "professora" é feminina → crase.`
+                        },
+                        {
+                            frase: `"Escrevi uma carta à diretora da empresa."`,
+                            explicacao: `"Escrever" algo a alguém + "diretora" é feminina → crase.`
+                        },
+                        {
+                            frase: `"Ajudei à vizinha com as sacolas."`,
+                            explicacao: `"Ajudar" exige preposição a + "vizinha" é feminina → crase.`
+                        },
+                    ]
+                },
+                {
+                    titulo: 'Crase antes de palavras como "aquela", "aquele", "aquilo"',
+                    definicao: [
+                        `Se o verbo exige preposição "a" e a palavra seguinte começa com aquela, aquele, aquilo, usa-se crase.`,
+                        `Um teste prático, na frase: "Refiro-me 'aquela' situação", refiro-me a + aquela = crase, portanto a frase original seria: "Refiro-me àquela situação"`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Refiro-me àquela decisão que tomamos."`,
+                            explicacao: `"Referir-se" exige preposição a + "aquela" → crase.`
+                        },
+                        {
+                            frase: `"Entreguei os papéis àquele funcionário."`,
+                            explicacao: `"Entregar" algo a alguém + "àquele" → crase.`
+                        },
+                        {
+                            frase: `"Dei apoio àquelas pessoas necessitadas."`,
+                            explicacao: `"Dar" algo a alguém + "àquelas" → crase.`
+                        },
+                        {
+                            frase: `"Respondeu àquele e-mail com pressa."`,
+                            explicacao: `"Responder" exige preposição a + "àquele" → crase.`
+                        },
+                        {
+                            frase: `"Não me referi àquilo que aconteceu ontem."`,
+                            explicacao: `"Referir-se" exige preposição a + "àquilo" → crase.`
+                        },
+                    ]
+                },
+                {
+                    titulo: 'Crase antes de horas certas',
+                    definicao: [
+                        `Use crase antes das horas exatas (quando o verbo indica tempo).`,
+                        `Nessa regra não tem segredo: Se puder dizer “às 10h”, TEM CRASE. Se for “de manhã”, “à tarde”, “à noite”, também TEM CRASE.`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"A reunião começa às 9h em ponto."`,
+                            explicacao: `"Começa" exige preposição a + "as 9h" → crase.`
+                        },
+                        {
+                            frase: `"Cheguei à 1h da manhã."`,
+                            explicacao: ` "Chegar" exige preposição a + "a 1h" → crase.`
+                        },
+                        {
+                            frase: `"O ônibus saiu às 6h45."`,
+                            explicacao: `"Sair" exige preposição a + "as 6h45" → crase.`
+                        },
+                        {
+                            frase: `"O médico atende às 14h."`,
+                            explicacao: `"Atender" exige preposição a + "as 14h" → crase.`
+                        },
+                        {
+                            frase: `"A loja funciona das 10h às 18h."`,
+                            explicacao: `Indica intervalo de tempo → crase em "às 18h".`
+                        },
+                    ]
+                },
+                {
+                    titulo: 'Crase em expressões femininas (modo, tempo, lugar...)',
+                    definicao: [
+                        `Use crase em expressões formadas por mais de uma palavra que indicam modo, tempo, lugar — e que começam com palavra feminina. Essas expressões são chamadas de locuções adverbiais, prepositivas ou conjuntivas.`,
+                        `Se a expressão indicar modo, tempo ou lugar, e começar com a + palavra feminina, use crase.`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Saiu à noite para caminhar."`,
+                            explicacao: `Expressão de tempo com palavra feminina → crase.`
+                        },
+                        {
+                            frase: `"Estava sentada à esquerda do palco."`,
+                            explicacao: `Expressão de lugar com palavra feminina → crase.`
+                        },
+                        {
+                            frase: `"O ator agiu à vontade na entrevista."`,
+                            explicacao: `Expressão de modo → crase.`
+                        },
+                        {
+                            frase: `"Ficou à espera de boas notícias."`,
+                            explicacao: `Expressão prepositiva → crase.`
+                        },
+                        {
+                            frase: `"À medida que o tempo passava, ele melhorava."`,
+                            explicacao: `Locução conjuntiva → crase.`
+                        },
+                    ]
+                },
+                {
+                    titulo: 'NÃO USAR Antes de palavra masculina',
+                    definicao: [
+                        `Se a palavra é masculina, NUNCA tem crase, pois o artigo seria "o", e não "a".`,
+                        `Na frase:"Voltei "a" cavalo.", cavalo é uma palavra masculina (o cavalo e não a cavalo), portanto NÃO TEM CRASE!`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Fui a pé para o trabalho."`,
+                            explicacao: `"Pé" é palavra masculina → sem crase.`
+                        },
+                        {
+                            frase: `"Voltei a cavalo pelo campo."`,
+                            explicacao: `"Cavalo" é masculino → sem crase.`
+                        },
+                        {
+                            frase: `"Respondi a João sobre o problema."`,
+                            explicacao: `"João" é masculino → sem crase.`
+                        },
+                        {
+                            frase: `"Andou a passo lento pela estrada."`,
+                            explicacao: `"Passo" é masculino → sem crase.`
+                        },
+                        {
+                            frase: `"Estava a serviço da empresa."`,
+                            explicacao: `"Serviço" é masculino → sem crase.`
+                        },
+                    ]
+                },
+                {
+                    titulo: 'NÃO USAR Antes de verbos',
+                    definicao: [
+                        `Se a palavra é masculina, NUNCA tem crase, pois o artigo seria "o", e não "a".`,
+                        `Na frase: "Começou "a" estudar", estudar é um verbo portanto NÃO TEM CRASE!`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Começou a estudar para a prova."`,
+                            explicacao: `"Estudar" é verbo → verbos não aceitam artigo → sem crase.`
+                        },
+                        {
+                            frase: `"Voltou a correr depois da cirurgia."`,
+                            explicacao: `"Correr" é verbo → sem crase.`
+                        },
+                        {
+                            frase: `"Aprendeu a nadar muito cedo."`,
+                            explicacao: ` "Nadar" é verbo → sem crase.`
+                        },
+                        {
+                            frase: `"Vai a trabalhar mesmo doente."`,
+                            explicacao: ` "Trabalhar" é verbo → sem crase.`
+                        },
+                        {
+                            frase: `"Passou a entender o assunto."`,
+                            explicacao: `"Entender" é verbo → sem crase.`
+                        },
+                    ]
+                },
+                {
+                    titulo: 'NÃO USAR Antes de pronomes pessoais e indefinidos',
+                    definicao: [
+                        `Não se usa crase antes de pronomes como: ela, ele, você, todos, alguém, ninguém etc.`,
+                        `Na frase: "Entreguei o presente "a" ela.", tem o pronome "ela", portanto NÃO TEM CRASE!`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Dei o presente a ela com carinho."`,
+                            explicacao: `"Ela" é pronome pessoal → sem crase.`
+                        },
+                        {
+                            frase: `"Respondi a você por e-mail."`,
+                            explicacao: `"Você" é pronome de tratamento → sem crase.`
+                        },
+                        {
+                            frase: `"Ofereci ajuda a alguém."`,
+                            explicacao: `"Alguém" é pronome indefinido → sem crase.`
+                        },
+                        {
+                            frase: `"Falei a todos os alunos."`,
+                            explicacao: `"Todos" é pronome indefinido → sem crase.`
+                        },
+                        {
+                            frase: `"Entreguei o prêmio a vossa excelência."`,
+                            explicacao: `“Vossa excelência” não aceita artigo → sem crase.`
+                        },
+                    ]
+                },
+                {
+                    titulo: 'NÃO USAR Antes de nomes de cidades que NÃO usam artigo',
+                    definicao: [
+                        `Só há crase se o nome da cidade aceitar o artigo "a".`,
+                        `Um teste simples é: Tente dizer "voltei da cidade tal", se o "da" fizer sentido usa-se crase, se for só "de", não tem crase.`,
+                        `Na prática: na frase "fui "a" paris", usando o nosso teste, a frase ficaria "voltei de Paris" (note que o "de" fez mas sentido que da), portanto SEM CRASE!. Já na frase: "Fui à Bahia.",  usando o nosso teste, a frase ficaria "voltei da Bahia (note que o "da" fez mais sentido que o de), portanto TEM CRASE!"`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Viajei a Paris nas férias."`,
+                            explicacao: `Paris não usa artigo → sem crase.`
+                        },
+                        {
+                            frase: `"Cheguei a Roma no verão."`,
+                            explicacao: `Roma não usa artigo → sem crase.`
+                        },
+                        {
+                            frase: `"Voltamos a Londres após o Natal."`,
+                            explicacao: `Londres não usa artigo → sem crase.`
+                        },
+                        {
+                            frase: `"Fui a Berlim a trabalho."`,
+                            explicacao: `Berlim não usa artigo → sem crase.`
+                        },
+                        {
+                            frase: `"Estive a Madri durante o inverno."`,
+                            explicacao: `Madri não usa artigo → sem crase.`
+                        },
+                    ]
+                },
+            ],
+            video: {
+                titulo: `Sintaxe - Uso da crase`,
+                linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                idVideo: 'TxZTrg2FDTU'
+            }
+        },
+        predicados: {
+            titulo: "Predicados",
+            id: "predicados",
+            definicao: [
+                `O predicado pode ser formado por um ou mais verbos, é aquilo que se declara sobre a ação do sujeito, concordando em número e pessoa com ele.`,
+                `Em resumo, é tudo que se diz sobre o sujeito na frase. Um exemplos simples seria na frase: "Lúcia correu no final da semana passada.", na frase, devemos identificar quem é o sujeito da ação para depois determinados o predicado. Para determinar o sujeito devemos fazer a pergunta: Quem correu no final de semana passada? “Lúcia” é o sujeito simples que realiza a ação.`,
+                `Ja o predicado, após identificar o sujeito da ação, todo o restante é o predicado. Trata-se da ação realizada pelo sujeito que, nesse caso, corresponde a “correu a semana passada”.`,
+                `Outro exemplo básico seria na frase: "a menina correu no parque", o sujeito da ação seria "a menina" (quem realizou a ação), o predicado seria "correu no parque", ou seja, o que se diz sobre o sujeito (o resto da frase)`,
+                `Existem 3 tipos de predicados: predicado verbal, predicado nominal e predicado verbo-nominal. O elemento central do predicado é o VERBO, pois ele determina o tipo do predicado.`
+            ],
+            categorias: [
+                {
+                    titulo: `Predicado Verbal`,
+                    definicao: [
+                        `Indica uma ação, sendo constituído por um núcleo, que é um verbo nocional (verbo que indica uma ação).`,
+                        `Em resumo, o verbo é de ação, e o mais importante da frase. Nesse caso, o foco está no que o sujeito faz.`,
+                        `Um exemplo simples seria na frase: "O menino correu na rua", o sujeito seria "o menino", o predicado seria "correu na rua", e o verbo de ação seria "correu". Como o verbo indica uma ação praticada pelo sujeito, é classificado como PREDICADO VERBAL!`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"O cachorro latiu alto."`,
+                            explicacao: `Sujeito: "o cachorro"; predicado: "latiu alto"; verbo de ação → predicado verbal.`
+                        },
+                        {
+                            frase: `"As crianças brincaram no parque."`,
+                            explicacao: `Sujeito: "as crianças"; predicado: "brincaram no parque"; verbo de ação → predicado verbal.`
+                        },
+                        {
+                            frase: `"Meu pai viajou ontem."`,
+                            explicacao: `Sujeito: "meu pai"; predicado: "viajou ontem"; verbo de ação → predicado verbal.`
+                        },
+                        {
+                            frase: `"A menina chorou bastante."`,
+                            explicacao: `Sujeito: "a menina"; predicado: "chorou bastante"; verbo de ação → predicado verbal.`
+                        },
+                        {
+                            frase: `"Eles correram pela praia."`,
+                            explicacao: `Sujeito: "eles"; predicado: "correram pela praia"; verbo de ação → predicado verbal.`
+                        },
+                    ]
+                },
+                {
+                    titulo: `Predicado Nominal`,
+                    definicao: [
+                        `Indica estado ou qualidade, sendo constituído por um verbo de ligação (verbo que indica estado, como: ser, estar, parecer, permanecer, continuar, ficar, tornar-se) e o predicativo do sujeito (complementa o sujeito atribuindo-lhe uma qualidade).`,
+                        `Em resumo, o verbo é de ligação (não indica ação), e o foco está em uma característica ou estado do sujeito. A informação principal está no predicativo do sujeito (uma qualidade).`,
+                        `Um exemplo simples seria na frase: "A menina estava feliz", o sujeito seria "a menina", o predicado seria "esta feliz", o verbo seria estava (um verbo de ligação), nessa frase temos a presença da palavra "feliz", indicando uma qualidade do sujeito, portanto é classificado como PREDICADO NOMINAL`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"A menina estava feliz."`,
+                            explicacao: `Sujeito: "a menina"; predicado: "estava feliz"; verbo de ligação + qualidade → predicado nominal.`
+                        },
+                        {
+                            frase: `"O céu está nublado."`,
+                            explicacao: `Sujeito: "o céu"; predicado: "está nublado"; verbo de ligação + estado → predicado nominal.`
+                        },
+                        {
+                            frase: `"O aluno parecia cansado."`,
+                            explicacao: `Sujeito: "o aluno"; predicado: "parecia cansado"; verbo de ligação + característica → predicado nominal.`
+                        },
+                        {
+                            frase: `"Ela é gentil."`,
+                            explicacao: `Sujeito: "ela"; predicado: "é gentil"; verbo de ligação + qualidade → predicado nominal.`
+                        },
+                        {
+                            frase: `"A cidade continua calma."`,
+                            explicacao: `Sujeito: "a cidade"; predicado: "continua calma"; verbo de ligação + estado → predicado nominal.`
+                        },
+                    ]
+                },
+                {
+                    titulo: `Predicado Verbo-Nominal`,
+                    definicao: [
+                        `O predicado verbo-nominal, ao mesmo tempo que indica ação do sujeito, esse tipo de predicado informa sua qualidade ou estado, sendo constituído por dois núcleos: um nome e um verbo.`,
+                        `Em resumo, tem verbo de ação e predicativo (característica) ao mesmo tempo (o sujeito faz algo e tem uma característica ao mesmo tempo).`,
+                        `Um exemplo simples seria na frase: "O atleta chegou cansado", o sujeito seria "o atleta", o predicado seria "chegou cansado", dentro do predicado temos a presença do verbo de ação "chegou", e uma qualidade do sujeito, no caso "cansado", portanto é classificado como PREDICADO VERBO NOMINAL`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"O atleta chegou cansado."`,
+                            explicacao: `Sujeito: "o atleta"; predicado: "chegou cansado"; verbo de ação + estado → predicado verbo-nominal.`
+                        },
+                        {
+                            frase: `"A professora saiu nervosa."`,
+                            explicacao: `Sujeito: "a professora"; predicado: "saiu nervosa"; ação + característica do sujeito → verbo-nominal.`
+                        },
+                        {
+                            frase: `"Ele entrou apressado na sala."`,
+                            explicacao: `Sujeito: "ele"; predicado: "entrou apressado na sala"; ação + modo como entrou → verbo-nominal.`
+                        },
+                        {
+                            frase: `"Os meninos brincavam alegres."`,
+                            explicacao: `Sujeito: "os meninos"; predicado: "brincavam alegres"; ação + estado → verbo-nominal.`
+                        },
+                        {
+                            frase: `"A atriz saiu do palco emocionada."`,
+                            explicacao: `Sujeito: "a atriz"; predicado: "saiu do palco emocionada"; ação + característica → verbo-nominal.`
+                        },
+                    ]
+                },
+            ],
+            video: {
+                titulo: `Sintaxe - Predicados`,
+                linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                idVideo: 'TN4ABrh8Zjw'
+            }
         }
     },
     morfologia: {

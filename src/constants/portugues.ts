@@ -1354,6 +1354,172 @@ const portugues = {
                 linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
                 idVideo: 'TN4ABrh8Zjw'
             }
+        },
+        vocativo: {
+            titulo: "Vocativos",
+            id: "vocativos",
+            definicao: [
+                `Vocativo é o termo usado para chamar ou interpelar alguém, um animal ou uma coisa. Geralmente, é isolado por vírgulas ou seguido de ponto de exclamação e pode ser usado no início, no meio ou no fim das orações.`,
+                `É um termo da oração usado para chamar, invocar ou interpelar alguém (ou algo personificado). Ele não faz parte do sujeito nem do predicado — ele está "à parte", servindo apenas para dirigir-se a alguém.`,
+                `Como indentificamos um vocativo? Ele não é o sujeito e nem o objeto, pode ser retirado da frase sem alterar a estrutura principal, serve apenas para chamar, interpelar ou invocar e é sempre separado por vírgula(s).`,
+                `É possível ter vocativo no inicio ("Maria, você chegou cedo", Maria seria o vocativo), no meio ("Tudo bem, Lucas, com você?", Lucas seria o vocativo) e no fim ("Volte logo, meu filho.", meu filho seria o vocativo)`,
+                `Vocativos podem ser: nome próprio (João, Ana, Pedro...), pronome de tratamento (senhor, senhora, excelência...),  palavra afetuosa ou irônica (querido, amigo, palhaço...) ou seres personificados (Sol, Deus, Vida...)`,
+                `Em resumo, o vocativo serve para chamar a atenção de alguém na frase. É usado em diálogos, cartas, pedidos, avisos ou quando se quer nomear alguém diretamente.É separado do resto da frase por vírgula(s).`,
+            ],
+            atencao: {
+                explicacao: [
+                    `O vocativo e o sujeito podem parecer parecidos, mas têm funções diferentes na frase.`,
+                    `VOCATIVO é usado para chamar ou interpelar (chamar, questionar, abordar, falar com) alguém, ja o SUJEITO é quem pratica ou sofre a ação do verbo. O vocativo não faz parte da estrutura da oração e é separado por vírgulas. Já o sujeito faz parte da estrutura principal da oração e não tem vírgula.`
+                ],
+                exemplos: [
+                    {
+                        frase: `"Amigos, vamos estudar para a prova."`,
+                        explicacao: `“Amigos” é vocativo: estou chamando ou falando diretamente com eles. Para "amigos" ser sujeito, a frase deveria ser "Os amigos estudaram para a prova.", “Os amigos” é sujeito: são eles que praticaram a ação de estudar.`
+                    },
+                    {
+                        frase: `"Mãe, preparei o jantar."`,
+                        explicacao: `“Mãe” é vocativo: estou chamando ou me dirigindo à mãe. Para mãe ser sujeito a frase deveria ser "Minha mãe preparou o jantar.", “Minha mãe” é sujeito: ela praticou a ação (preparar).`
+                    },
+                    {
+                        frase: `"Senhor juiz, peço a palavra."`,
+                        explicacao: `“Senhor juiz” é vocativo: estou me dirigindo ao juiz. Para "juiz" ser sujeito a frase deveria ser "O juiz concedeu a palavra.", “O juiz” é sujeito: ele realizou a ação.`
+                    },
+                ]
+            },
+            exemplos: [
+                {
+                    frase: `"Lucas, você pode me ajudar?"`,
+                    explicacao: `"Lucas" é vocativo, pois é a pessoa chamada diretamente.`
+                },
+                {
+                    frase: `"Boa tarde, senhores clientes."`,
+                    explicacao: `"Senhores clientes" é vocativo; o aviso é dirigido a eles.`
+                },
+                {
+                    frase: `"Tenha paciência, meu amor."`,
+                    explicacao: `"Meu amor" é vocativo, expressão afetuosa usada na fala.`
+                },
+                {
+                    frase: `"Pessoal, precisamos conversar."`,
+                    explicacao: `"Pessoal" é vocativo; está chamando o grupo.`
+                },
+                {
+                    frase: `"Escute-me, vida ingrata!"`,
+                    explicacao: `"Vida ingrata" é vocativo (personificação).`
+                },
+            ],
+            video: {
+                titulo: `Sintaxe - Vocativos`,
+                linkDoCanal: 'https://www.youtube.com/@Tec.Concursos',
+                idVideo: '-skagvqhAMY'
+            }
+        },
+        "periodo-compostos-por-subordinacao": {
+            titulo: "Periodo Compostos por Subordinacao",
+            id: "periodo-composto-por-subordinacao",
+            definicao: [
+                `É um período que possui duas ou mais orações (ou seja, mais de um verbo) em que uma oração depende da outra para fazer sentido completo.`,
+                `Em outras palavras: Uma oração é principal e a(s) outra(s) é(são) subordinada(s) a ela.`,
+                `Um exemplo simples de período composto por subordinação é a frase: "Embora estivesse cansado, ele foi trabalhar." A oração principal é "ele foi trabalhar", pois tem sentido completo sozinha, enquanto a oração subordinada é "Embora estivesse cansado", que depende da principal para fazer sentido completo, já que expressa uma ideia de concessão (algo que contraria a ação de ir trabalhar). Se disséssemos apenas "Embora estivesse cansado", a frase ficaria incompleta, pois faltaria a ação principal que justifica ou dá propósito à condição apresentada.`,
+                `Período composto por subordinação é quando uma oração depende da outra. São ligadas por conjunções subordinativas ou pronomes relativos. A oração subordinada completa, explica ou modifica a oração principal. Existem 3 tipos de oração subordinada: substantiva, adjetiva e adverbial.`
+            ],
+            categorias: [
+                {
+                    titulo: `Orações Subordinadas Substantivas`,
+                    definicao: [
+                        `São orações que exercem a função de substantivo dentro da oração principal. Ou seja, funcionam como sujeito, objeto ou complemento.`,
+                        `As orações subordinadas substantivas podem ser subjetivas, objetivas diretas, objetivas indiretas, predicativas, completivas nominais ou apositivas.`,
+                        `Para identificar podemos substituir a oração subordinada por “isso” ou “aquilo”, é uma oração substantiva.`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"O cachorro latiu alto."`,
+                            explicacao: `Oração subordinada subjetiva: “que você estude mais” funciona como sujeito da oração principal.`
+                        },
+                        {
+                            frase: `"Desejo que todos estejam presentes."`,
+                            explicacao: `Oração subordinada objetiva direta: “que todos estejam presentes” é o objeto direto do verbo “desejo”.`
+                        },
+                        {
+                            frase: `"Tenho esperança de que tudo dará certo."`,
+                            explicacao: `Oração subordinada completiva nominal: “de que tudo dará certo” completa o sentido do substantivo “esperança”.`
+                        },
+                        {
+                            frase: `"O problema é que ele nunca fala a verdade."`,
+                            explicacao: `Oração subordinada predicativa: “que ele nunca fala a verdade” funciona como predicativo do sujeito “o problema”.`
+                        },
+                        {
+                            frase: `"Só peço uma coisa: que você não desista."`,
+                            explicacao: `Oração subordinada apositiva: “que você não desista” explica o termo “uma coisa” e está em forma de aposto.`
+                        },
+                    ]
+                },
+                {
+                    titulo: `Orações Subordinadas Adjetivas`,
+                    definicao: [
+                        `São orações que têm função de adjetivo, ou seja, caracterizam ou explicam um substantivo da oração principal.`,
+                        `As orações subordinadas adjetivas podem ser explicativas ou restritivas. Essas orações são iniciadas pelos pronomes relativos cujo, onde, o qual, quanto, que, quem e respectivas variantes.`,
+                        `Para indentificar, as orações subordinadas adjetivas geralmente são introduzidas por pronomes relativos: que, quem, o qual, cuja, onde etc.`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"O aluno que estuda passa nas provas."`,
+                            explicacao: `Oração subordinada adjetiva restritiva: “que estuda” restringe o sentido de “o aluno”, especificando qual aluno.`
+                        },
+                        {
+                            frase: `"Os livros que comprei ontem são ótimos."`,
+                            explicacao: `Oração subordinada adjetiva restritiva: “que comprei ontem” limita os livros mencionados, dizendo quais foram comprados.`
+                        },
+                        {
+                            frase: `"Meu pai, que é médico, viaja muito."`,
+                            explicacao: `Oração subordinada adjetiva explicativa: “que é médico” apenas acrescenta uma informação sobre o pai já identificado.`
+                        },
+                        {
+                            frase: `"Visitamos a cidade onde nasci."`,
+                            explicacao: `Oração subordinada adjetiva restritiva: “onde nasci” especifica qual cidade foi visitada.`
+                        },
+                        {
+                            frase: `"Ana, cuja mãe é advogada, passou no concurso."`,
+                            explicacao: `Oração subordinada adjetiva explicativa: “cuja mãe é advogada” adiciona uma informação extra sobre Ana.`
+                        },
+                    ]
+                },
+                {
+                    titulo: `Orações Subordinadas Adverbiais`,
+                    definicao: [
+                        `São orações que funcionam como advérbios, ou seja, indicam uma circunstância da ação (tempo, causa, condição, etc).`,
+                        `Esse tipo de oração substitui um advérbio, de modo que a sua função sintática equivale a do adjunto adverbial.`,
+                        `Para identificarmos, Elas respondem a perguntas como: quando? por quê? para quê? como? em que condição? São introduzidas por conjunções subordinativas: quando, porque, se, embora, conforme, para que, etc.`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Quando cheguei, a aula já havia começado."`,
+                            explicacao: `Oração subordinada adverbial temporal: “quando cheguei” indica o momento em que a ação principal ocorreu.`
+                        },
+                        {
+                            frase: `"Saí porque estava cansado."`,
+                            explicacao: `Oração subordinada adverbial causal: “porque estava cansado” indica a causa/motivo da ação de sair.`
+                        },
+                        {
+                            frase: `"Se chover, ficaremos em casa."`,
+                            explicacao: `Oração subordinada adverbial condicional: “se chover” expressa uma condição para que algo aconteça.`
+                        },
+                        {
+                            frase: `"Estudou tanto que passou na prova."`,
+                            explicacao: `Oração subordinada adverbial consecutiva: “que passou na prova” mostra a consequência do estudo.`
+                        },
+                        {
+                            frase: `"Embora estivesse com medo, entrou na sala."`,
+                            explicacao: `Oração subordinada adverbial concessiva: “embora estivesse com medo” expressa uma contradição em relação à ação principal.`
+                        },
+                    ]
+                },
+            ],
+            video: {
+                titulo: `Sintaxe - Periodo Compostos por Subordinacao`,
+                linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                idVideo: 'QBmeh_m26eQ'
+            }
         }
     },
     morfologia: {

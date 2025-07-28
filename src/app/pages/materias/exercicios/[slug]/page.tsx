@@ -19,8 +19,6 @@ export default function Page() {
         setPerguntas(listaPerguntasExercicios.filter(pergunta => pergunta.categoriaDaPergunta === id))
     }, [listaPerguntasExercicios])
 
-    console.log(id)
-
     return (
         <Template>
             <div className="p-4 bg-zinc-300 min-h-screen w-full text-black relative">

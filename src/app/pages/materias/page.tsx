@@ -14,7 +14,7 @@ export default function PaginaMaterias() {
     return (
         <Template>
             <RotaProtegida>
-                <div className="bg-zinc-300 text-black min-h-[80vh] p-4 flex flex-col pb-14">
+                <div className="bg-zinc-300 text-black min-h-[80vh] p-4 flex flex-col gap-4 pb-14">
                     <div className="flex flex-col gap-4">
                         <h2 className="uppercase font-black text-2xl leading-6">Selecione um cargo para estudo:</h2>
                         <ul className="">
@@ -118,7 +118,7 @@ export default function PaginaMaterias() {
                             </Accordion>
                         </ul>
                     </div>
-                    <Link href={'/pages/simulado'}>Realizar Simulado!</Link >
+                    <Link href={'/pages/simulado'} className="bg-amarelo uppercase font-black text-xl text-white flex justify-center items-center py-2" style={{ textShadow: '1px 1px 2px black' }}>Realizar Simulado!</Link >
                     <button onClick={logout} className="mt-auto bg-red-600 uppercase font-bold text-lg text-white max-w-[120px] py-2 ml-auto w-full" style={{ textShadow: '1px 1px 2px black' }}>Logout</button>
                 </div>
                 <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />

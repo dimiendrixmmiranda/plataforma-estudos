@@ -629,6 +629,312 @@ export default function Page() {
                                     Realizar Exercícios
                                 </Link>
                             </div>
+                            {/* submateria 6 */}
+                            <div
+                                className={`flex flex-col gap-4 p-4 ${materiasCompletas.includes(portugues.sintaxe["periodo-compostos-por-coordenacao"].titulo) ? "bg-green-500" : ""
+                                    }`}
+                                id={`${portugues.sintaxe["periodo-compostos-por-coordenacao"].id}`}
+                            >
+                                <div className="grid grid-cols-[1fr_50px]">
+                                    <h3 className="text-xl font-black">{portugues.sintaxe["periodo-compostos-por-coordenacao"].titulo}</h3>
+                                    <button
+                                        onClick={() => toggleMateriaCompleta(portugues.sintaxe["periodo-compostos-por-coordenacao"].titulo)}
+                                        className="flex justify-center items-center w-full h-full text-2xl"
+                                    >
+                                        <FaCheckSquare />
+                                    </button>
+                                </div>
+                                {/* Definição */}
+                                <ul>
+                                    {
+                                        portugues.sintaxe["periodo-compostos-por-coordenacao"].definicao.map((texto, i) => {
+                                            return (
+                                                <li key={i}>{texto}</li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                                {/* Categorias */}
+                                <div>
+                                    <ul className="flex flex-col gap-4">
+                                        {
+                                            portugues.sintaxe["periodo-compostos-por-coordenacao"].categorias.map((categoria, i) => {
+                                                return (
+                                                    <li key={i} className="flex flex-col gap-3">
+                                                        <h3 className="uppercase font-black text-xl">{categoria.titulo}</h3>
+                                                        <ul>
+                                                            {
+                                                                categoria.definicao.map((def, i) => {
+                                                                    return (
+                                                                        <li key={i}><p>{def}</p></li>
+                                                                    )
+                                                                })
+                                                            }
+                                                        </ul>
+                                                        <div className="flex flex-col gap-2">
+                                                            <h2 className="text-xl font-semibold">Exemplos:</h2>
+                                                            <ul className="flex flex-col gap-4">
+                                                                {
+                                                                    categoria.exemplos.map((ex, i) => {
+                                                                        return (
+                                                                            <li key={i}>
+                                                                                <p className="italic font-semibold">{ex.frase}</p>
+                                                                                <span>{ex.explicacao}</span>
+                                                                            </li>
+                                                                        )
+                                                                    })
+                                                                }
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                )
+                                            })
+                                        }
+                                    </ul>
+                                </div>
+                                {/* Video */}
+                                <div className="w-full aspect-video max-w-3xl mx-auto">
+                                    <iframe
+                                        className="w-full h-full"
+                                        src={`https://www.youtube.com/embed/${portugues.sintaxe["periodo-compostos-por-coordenacao"].video.idVideo}`}
+                                        title={`${portugues.sintaxe["periodo-compostos-por-coordenacao"].video.titulo}`}
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
+                                {/* Botao de Exercícios */}
+                                <Link
+                                    href={`/pages/materias/exercicios/${createSlug(portugues.sintaxe["periodo-compostos-por-coordenacao"].id)}`}
+                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
+                                >
+                                    Realizar Exercícios
+                                </Link>
+                            </div>
+                            {/* submateria 6 */}
+                            <div
+                                className={`flex flex-col gap-4 p-4 ${materiasCompletas.includes(portugues.sintaxe["periodo-compostos-por-subordinacao-e-coordenacao"].titulo) ? "bg-green-500" : ""
+                                    }`}
+                                id={`${portugues.sintaxe["periodo-compostos-por-subordinacao-e-coordenacao"].id}`}
+                            >
+                                <div className="grid grid-cols-[1fr_50px]">
+                                    <h3 className="text-xl font-black">{portugues.sintaxe["periodo-compostos-por-subordinacao-e-coordenacao"].titulo}</h3>
+                                    <button
+                                        onClick={() => toggleMateriaCompleta(portugues.sintaxe["periodo-compostos-por-subordinacao-e-coordenacao"].titulo)}
+                                        className="flex justify-center items-center w-full h-full text-2xl"
+                                    >
+                                        <FaCheckSquare />
+                                    </button>
+                                </div>
+                                {/* Definição */}
+                                <ul>
+                                    {
+                                        portugues.sintaxe["periodo-compostos-por-subordinacao-e-coordenacao"].definicao.map((texto, i) => {
+                                            return (
+                                                <li key={i}>{texto}</li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                                {/* exemplos */}
+                                <div>
+                                    <div className="flex flex-col gap-2">
+                                        <h2 className="text-xl font-semibold">Exemplos:</h2>
+                                        <ul className="flex flex-col gap-4">
+                                            {
+                                                portugues.sintaxe["periodo-compostos-por-subordinacao-e-coordenacao"].exemplos.map((ex, i) => {
+                                                    return (
+                                                        <li key={i}>
+                                                            <p className="italic font-semibold">{ex.frase}</p>
+                                                            <span>{ex.explicacao}</span>
+                                                        </li>
+                                                    )
+                                                })
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                                {/* Video */}
+                                <div className="w-full aspect-video max-w-3xl mx-auto">
+                                    <iframe
+                                        className="w-full h-full"
+                                        src={`https://www.youtube.com/embed/${portugues.sintaxe["periodo-compostos-por-subordinacao-e-coordenacao"].video.idVideo}`}
+                                        title={`${portugues.sintaxe["periodo-compostos-por-subordinacao-e-coordenacao"].video.titulo}`}
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
+                                {/* Botao de Exercícios */}
+                                <Link
+                                    href={`/pages/materias/exercicios/${createSlug(portugues.sintaxe["periodo-compostos-por-subordinacao-e-coordenacao"].id)}`}
+                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
+                                >
+                                    Realizar Exercícios
+                                </Link>
+                            </div>
+                            {/* submateria 7 */}
+                            <div
+                                className={`flex flex-col gap-4 p-4 ${materiasCompletas.includes(portugues.sintaxe["concordancia-nominal"].titulo) ? "bg-green-500" : ""
+                                    }`}
+                                id={`${portugues.sintaxe["concordancia-nominal"].id}`}
+                            >
+                                <div className="grid grid-cols-[1fr_50px]">
+                                    <h3 className="text-xl font-black">{portugues.sintaxe["concordancia-nominal"].titulo}</h3>
+                                    <button
+                                        onClick={() => toggleMateriaCompleta(portugues.sintaxe["concordancia-nominal"].titulo)}
+                                        className="flex justify-center items-center w-full h-full text-2xl"
+                                    >
+                                        <FaCheckSquare />
+                                    </button>
+                                </div>
+                                {/* Definição */}
+                                <ul>
+                                    {
+                                        portugues.sintaxe["concordancia-nominal"].definicao.map((texto, i) => {
+                                            return (
+                                                <li key={i}>{texto}</li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                                {/* casos especiais */}
+                                <div>
+                                    <div className="flex flex-col gap-2">
+                                        <h2 className="text-xl font-semibold">Casos Especiais</h2>
+                                        <p>A concordância nominal, embora geralmente simples, apresenta alguns casos especiais que merecem destaque.</p>
+                                        <ul className="flex flex-col gap-4">
+                                            {
+                                                portugues.sintaxe["concordancia-nominal"].casosEspeciais.map((caso, i) => {
+                                                    return (
+                                                        <li key={i}>
+                                                            <p className="italic font-semibold">{caso.frase}</p>
+                                                            <span>{caso.explicacao}</span>
+                                                        </li>
+                                                    )
+                                                })
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                                {/* exemplos */}
+                                <div>
+                                    <div className="flex flex-col gap-2">
+                                        <h2 className="text-xl font-semibold">Exemplos:</h2>
+                                        <ul className="flex flex-col gap-4">
+                                            {
+                                                portugues.sintaxe["concordancia-nominal"].exemplos.map((ex, i) => {
+                                                    return (
+                                                        <li key={i}>
+                                                            <p className="italic font-semibold">{ex.frase}</p>
+                                                            <span>{ex.explicacao}</span>
+                                                        </li>
+                                                    )
+                                                })
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                                {/* Video */}
+                                <div className="w-full aspect-video max-w-3xl mx-auto">
+                                    <iframe
+                                        className="w-full h-full"
+                                        src={`https://www.youtube.com/embed/${portugues.sintaxe["concordancia-nominal"].video.idVideo}`}
+                                        title={`${portugues.sintaxe["concordancia-nominal"].video.titulo}`}
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
+                                {/* Botao de Exercícios */}
+                                <Link
+                                    href={`/pages/materias/exercicios/${createSlug(portugues.sintaxe["concordancia-nominal"].id)}`}
+                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
+                                >
+                                    Realizar Exercícios
+                                </Link>
+                            </div>
+                            {/* submateria 8 */}
+                            <div
+                                className={`flex flex-col gap-4 p-4 ${materiasCompletas.includes(portugues.sintaxe["concordancia-verbal"].titulo) ? "bg-green-500" : ""
+                                    }`}
+                                id={`${portugues.sintaxe["concordancia-verbal"].id}`}
+                            >
+                                <div className="grid grid-cols-[1fr_50px]">
+                                    <h3 className="text-xl font-black">{portugues.sintaxe["concordancia-verbal"].titulo}</h3>
+                                    <button
+                                        onClick={() => toggleMateriaCompleta(portugues.sintaxe["concordancia-verbal"].titulo)}
+                                        className="flex justify-center items-center w-full h-full text-2xl"
+                                    >
+                                        <FaCheckSquare />
+                                    </button>
+                                </div>
+                                {/* Definição */}
+                                <ul>
+                                    {
+                                        portugues.sintaxe["concordancia-verbal"].definicao.map((texto, i) => {
+                                            return (
+                                                <li key={i}>{texto}</li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                                {/* casos especiais */}
+                                <div>
+                                    <div className="flex flex-col gap-2">
+                                        <h2 className="text-xl font-semibold">Casos Especiais</h2>
+                                        <p>A concordância verbal, embora geralmente simples, apresenta alguns casos especiais que merecem destaque.</p>
+                                        <ul className="flex flex-col gap-4">
+                                            {
+                                                portugues.sintaxe["concordancia-verbal"].casosEspeciais.map((caso, i) => {
+                                                    return (
+                                                        <li key={i}>
+                                                            <p className="italic font-semibold">{caso.frase}</p>
+                                                            <span>{caso.explicacao}</span>
+                                                        </li>
+                                                    )
+                                                })
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                                {/* exemplos */}
+                                <div>
+                                    <div className="flex flex-col gap-2">
+                                        <h2 className="text-xl font-semibold">Exemplos:</h2>
+                                        <ul className="flex flex-col gap-4">
+                                            {
+                                                portugues.sintaxe["concordancia-verbal"].exemplos.map((ex, i) => {
+                                                    return (
+                                                        <li key={i}>
+                                                            <p className="italic font-semibold">{ex.frase}</p>
+                                                            <span>{ex.explicacao}</span>
+                                                        </li>
+                                                    )
+                                                })
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                                {/* Video */}
+                                <div className="w-full aspect-video max-w-3xl mx-auto">
+                                    <iframe
+                                        className="w-full h-full"
+                                        src={`https://www.youtube.com/embed/${portugues.sintaxe["concordancia-verbal"].video.idVideo}`}
+                                        title={`${portugues.sintaxe["concordancia-verbal"].video.titulo}`}
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
+                                {/* Botao de Exercícios */}
+                                <Link
+                                    href={`/pages/materias/exercicios/${createSlug(portugues.sintaxe["concordancia-verbal"].id)}`}
+                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
+                                >
+                                    Realizar Exercícios
+                                </Link>
+                            </div>
                             {/* submateria 9 */}
                             <div
                                 className={`flex flex-col gap-4 p-4 ${materiasCompletas.includes(portugues.sintaxe.crase.id) ? "bg-green-500" : ""

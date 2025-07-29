@@ -842,14 +842,24 @@ const portugues = {
                     descricao: `É quando há duas ou mais orações, e uma depende da outra para ter sentido completo. Ex: "Se eu estudar, passarei."`
                 },
                 {
-                    titulo: `Período Composto por Coordenação e Subordinação`,
-                    id: 'periodo-composto-por-coordenacao-e-subordinacao',
+                    titulo: `Período Composto por Coordenação`,
+                    id: 'periodo-composto-por-coordenacao',
+                    descricao: `É quando uma frase possui duas ou mais orações independentes, ou seja, que têm sentido completo sozinhas, ligadas por conjunções coordenativas (como “e”, “mas”, “ou”).`
+                },
+                {
+                    titulo: `Período Composto por Subordinação e Coordenação`,
+                    id: 'periodo-composto-por-subordinacao-e-coordenacao',
                     descricao: `Mistura os dois tipos: há orações independentes e dependentes na mesma frase. Ex: "Fui ao mercado porque precisava de arroz e comprei frutas também."`
                 },
                 {
                     titulo: `Concordância Nominal`,
                     id: 'concordancia-nominal',
                     descricao: `É a harmonia entre substantivos, adjetivos, pronomes e artigos. Ex: "As alunas dedicadas estavam felizes." (Tudo concorda em gênero e número.)`
+                },
+                {
+                    titulo: `Concordância verbal`,
+                    id: 'concordancia-verbal',
+                    descricao: `Concordância verbal é a relação estabelecida de forma harmônica entre sujeito e verbo.`
                 },
                 {
                     titulo: `Uso da Crase`,
@@ -1519,6 +1529,230 @@ const portugues = {
                 titulo: `Sintaxe - Periodo Compostos por Subordinacao`,
                 linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
                 idVideo: 'QBmeh_m26eQ'
+            }
+        },
+        "periodo-compostos-por-coordenacao": {
+            titulo: "Periodo Compostos por Coordenação",
+            id: "periodo-composto-por-coordenacao",
+            definicao: [
+                `Período Composto por Coordenação é aquele cujas orações não dependem sintaticamente umas das outras porque são independentes.`,
+                `Em resumo, é aquele que reúne duas ou mais orações independentes entre si, ligadas por conjunções coordenativas ou apenas pela pontuação. Diferente da subordinação, aqui nenhuma oração depende sintaticamente da outra: cada uma tem sentido próprio.`,
+                `Um período composto por coordenação pode ser formado por - Orações coordenadas sindéticas (ligadas por conjunções) ou Orações coordenadas assindéticas (ligadas por pontuação, geralmente vírgulas).`
+            ],
+            categorias: [
+                {
+                    titulo: `Orações coordenadas sindéticas`,
+                    definicao: [
+                        `É aquela que está ligada à anterior por uma conjunção coordenativa — uma palavrinha que mostra a relação lógica entre as ideias.`,
+                        `Elas podem ser aditivas (geralmente usa as conjunções "e", "nem", "mas também", tem sentido de adicionar ideias), adversativa (geralmente usa as conjunções "mas", "porém", "contudo", "todavia", tem sentido de oposição ou contraste), alternativa (geralmente usa as conjunções "ou", "ora...ora", "já...já", tem sentido de alternância ou escolha), conclusiva (geralmente usa as conjunções "logo", "portanto", "assim", tem sentido de conclusão da ideia anterior) e explicativa (geralmente usa as conjunções "porque", "pois", "que", tem sentido de justificação ou explicação)`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"Ela acordou cedo e foi caminhar na praça."`,
+                            explicacao: `Duas ações que se somam — “acordou cedo” + “foi caminhar”. A conjunção “e” indica adição de ideias. (Oração Coordenada Assindética Aditiva)`
+                        },
+                        {
+                            frase: `"Estava com fome, mas não quis comer."`,
+                            explicacao: `A conjunção “mas” mostra um contraste entre o desejo e a ação. Isso caracteriza uma oração coordenada adversativa. (Oração Coordenada Assindética Adversativa)`
+                        },
+                        {
+                            frase: `"Ou você estuda agora, ou se prepara para repetir o semestre."`,
+                            explicacao: `Apresenta duas possibilidades alternadas. A conjunção “ou... ou” indica uma oração alternativa. (Oração Coordenada Assindética Alter nativa)`
+                        },
+                        {
+                            frase: `"Chegou atrasado diversas vezes, portanto foi demitido."`,
+                            explicacao: `A conjunção “portanto” indica conclusão da ideia anterior. A segunda oração resume a consequência. (Oração Coordenada Assindética Conclusiva)`
+                        },
+                        {
+                            frase: `"Feche as janelas, porque vai chover forte."`,
+                            explicacao: `Aqui, a oração explica o motivo da ação anterior. A conjunção “porque” marca a relação explicativa. (Oração Coordenada Assindética Explicativa)`
+                        },
+                    ]
+                },
+                {
+                    titulo: `Orações coordenadas assindéticas`,
+                    definicao: [
+                        `É aquela que se junta à anterior sem conjunção, apenas por pontuação — geralmente vírgulas ou ponto e vírgula.`,
+                        `Um exemplo pratico seria na frase: "Abriu a janela, respirou fundo, sorriu.", note que todas essas orações têm sentido completo por si só, e estão apenas separadas por vírgulas.`
+                    ],
+                    exemplos: [
+                        {
+                            frase: `"O professor chegou, os alunos se levantaram."`,
+                            explicacao: `As duas orações têm sentido completo e estão ligadas por vírgula, sem conjunção. Isso caracteriza a coordenação assindética.`
+                        },
+                        {
+                            frase: `"Ela abriu o livro, folheou as páginas, começou a ler."`,
+                            explicacao: `Três orações independentes, conectadas por vírgulas. Nenhuma depende da outra sintaticamente — são todas assindéticas.`
+                        },
+                        {
+                            frase: `"A tempestade passou; o céu clareou."`,
+                            explicacao: `Duas orações completas separadas por ponto e vírgula — outro tipo de pontuação que também indica coordenação assindética.`
+                        },
+                        {
+                            frase: `"Ele correu, caiu, levantou e continuou."`,
+                            explicacao: `Sequência de ações conectadas por vírgula. Apesar de parecer uma narrativa contínua, cada oração tem seu sentido próprio e está ligada por pontuação — por isso é assindética.`
+                        },
+                        {
+                            frase: `"Fechou a porta, apagou a luz, saiu em silêncio."`,
+                            explicacao: `As orações não têm conjunções — estão apenas pontuadas com vírgulas. Isso confirma que são orações coordenadas assindéticas.`
+                        },
+                    ]
+                },
+            ],
+            video: {
+                titulo: `Sintaxe - Periodo Compostos por Coordenação`,
+                linkDoCanal: 'https://www.youtube.com/@ProfessoraPamba',
+                idVideo: 'hxuDXYwWSzU'
+            }
+        },
+        "periodo-compostos-por-subordinacao-e-coordenacao": {
+            titulo: "Periodo Compostos por Subordinação e Coordenação",
+            id: "periodo-composto-por-subordinacao-e-coordenacao",
+            definicao: [
+                `Nesse caso, temos orações coordenadas entre si e também orações subordinadas ligadas a outras. É como se a frase estivesse montando um quebra-cabeça com peças diferentes, mas que se encaixam perfeitamente!`,
+                `Um exemplo simples seria na frase: "Fiquei triste porque você não veio, mas entendi seus motivos.", “Fiquei triste porque você não veio” é uma oração principal com uma oração subordinada causal. “mas entendi seus motivos”, oração coordenada adversativa em relação à primeira. Portanto esse período tem subordinação (oração dependente: “porque você não veio”) e coordenação (ligada por “mas”).`
+            ],
+            exemplos: [
+                {
+                    frase: `"Quando o sinal tocou, os alunos saíram correndo, mas alguns ainda estavam terminando a tarefa."`,
+                    explicacao: `Essa frase tem uma estrutura mista: a primeira parte “Quando o sinal tocou” é uma oração subordinada temporal, pois indica o momento em que a ação principal ocorreu. A segunda oração “os alunos saíram correndo” funciona como a principal, já que traz a ação central. Em seguida, temos “mas alguns ainda estavam terminando a tarefa”, que é uma oração coordenada adversativa, ligada por “mas”, expressando oposição ou contraste à ideia anterior.`
+                },
+                {
+                    frase: `"Embora estivesse nervoso, ele apresentou o trabalho com firmeza, e os colegas aplaudiram."`,
+                    explicacao: `Aqui, temos uma oração subordinada concessiva: “Embora estivesse nervoso”, que mostra uma situação contrária à ação seguinte. A oração principal “ele apresentou o trabalho com firmeza” traz o fato central, e “e os colegas aplaudiram” aparece como uma oração coordenada aditiva, somando uma consequência ao que foi feito. O uso de “e” liga essas duas ideias com naturalidade.`
+                },
+                {
+                    frase: `"Porque havia trânsito, chegamos atrasados, mas o evento ainda não havia começado."`,
+                    explicacao: `Nesse período, a expressão “Porque havia trânsito” introduz uma oração subordinada causal, que explica a razão do atraso mencionado na oração principal: “chegamos atrasados”. Em seguida, surge “mas o evento ainda não havia começado” como uma oração coordenada adversativa, contrastando com o problema do atraso, já que ele não trouxe prejuízo real.`
+                },
+                {
+                    frase: `"Se você se esforçar, terá bons resultados, e poderá conquistar seus objetivos."`,
+                    explicacao: `A oração “Se você se esforçar” é uma subordinada condicional, indicando que os resultados dependem dessa condição. A oração “terá bons resultados” é a principal, mostrando o efeito esperado. Já “e poderá conquistar seus objetivos” é uma oração coordenada aditiva, ampliando os benefícios da ação anterior com um complemento ligado por “e”.`
+                },
+                {
+                    frase: `"Depois que terminar o relatório, envie para o gestor, ou guarde no sistema até amanhã."`,
+                    explicacao: `Começamos com uma oração subordinada temporal: “Depois que terminar o relatório”, que determina quando a ação principal deve acontecer. Em seguida, a oração principal “envie para o gestor” apresenta a primeira opção. Já “ou guarde no sistema até amanhã” representa uma oração coordenada alternativa, oferecendo uma segunda possibilidade ligada pela conjunção “ou”.`
+                },
+            ],
+            video: {
+                titulo: `Sintaxe - Periodo Compostos por Subordinação e Coordenação`,
+                linkDoCanal: 'https://www.youtube.com/@profalvaroferreira',
+                idVideo: 'zRYeauBptu4'
+            }
+        },
+        "concordancia-nominal": {
+            titulo: "Concordância Nominal",
+            id: "concordancia-nominal",
+            definicao: [
+                `A concordância nominal é a harmonia entre os termos de uma frase que pertencem às classes nominais: substantivos, adjetivos, pronomes, artigos e numerais. Eles devem concordar em gênero (masculino/feminino) e número (singular/plural).`,
+                `Um exemplos simples seria na frase: "Essas duas lindas flores estão na mesa", “Essas” (pronome), “duas” (numeral) e “lindas” (adjetivo) concordam com “flores” (substantivo feminino plural).`,
+                `A concordância nominal segue regras simples: o adjetivo deve concordar com o substantivo em gênero e número. Quando há mais de um substantivo, ele pode concordar com o termo mais próximo ou assumir o plural para concordar com todos.`
+            ],
+            casosEspeciais: [
+                {
+                    frase: `"O pai e a mãe estavam orgulhosos dos filhos."`,
+                    explicacao: `Quando o adjetivo vem depois de dois substantivos de gêneros diferentes, o mais comum é que ele vá para o masculino plural, como neste exemplo (Adjetivo pós-posto a dois substantivos de gêneros diferentes)`
+                },
+                {
+                    frase: `"Lindas casa e chácara foram vendidas."`,
+                    explicacao: ` Se o adjetivo vem antes de dois substantivos do mesmo gênero, ele deve concordar com o plural e o gênero desses substantivos. Neste caso, feminino plural. (Adjetivo anteposto a dois substantivos do mesmo genero)`
+                },
+                {
+                    frase: `"Bonito apartamento e cozinha foram alugados."`,
+                    explicacao: `Quando o adjetivo vem antes de substantivos de gêneros diferentes, pode-se usar o masculino singular, concordando com o substantivo mais próximo. (Adjetivo anteposto a dois substantivos de generos diferentes)`
+                },
+                {
+                    frase: `"Esperança, força e fé — tudo isso é fundamental."`,
+                    explicacao: `Aqui, o adjetivo concorda com o pronome “tudo isso”, que resume os substantivos anteriores. Por isso, fica no masculino singular (adjetivo que se refere a substantivos resumidos por um pronome)`
+                },
+                {
+                    frase: `"A maioria dos alunos estava motivada para o projeto."`,
+                    explicacao: `O adjetivo deve concordar com “a maioria”, que é um substantivo coletivo feminino singular. Mesmo que “alunos” seja masculino plural, o que conta é o coletivo. (Advetivo com substantivo coletivo)`
+                },
+            ],
+            exemplos: [
+                {
+                    frase: `"A bela mulher sorriu."`,
+                    explicacao: `O artigo "a", o adjetivo "bela" e o substantivo "mulher" estão todos no feminino singular, mantendo a concordância.`
+                },
+                {
+                    frase: `"Deliciosa sobremesa foi servida."`,
+                    explicacao: `O adjetivo "deliciosa" concorda em gênero e número com "sobremesa", que é feminino singular.`
+                },
+                {
+                    frase: `"Os alunos estavam animados para o passeio."`,
+                    explicacao: `O adjetivo "animados" concorda com "alunos", que é um substantivo masculino plural.`
+                },
+                {
+                    frase: `"A professora e o diretor estavam preocupados com o resultado."`,
+                    explicacao: `Como há dois sujeitos, o verbo e o adjetivo vão para o plural masculino, o gênero mais abrangente.`
+                },
+                {
+                    frase: `"As novas ideias foram aprovadas."`,
+                    explicacao: `"As", "novas" e "ideias" estão todos no feminino plural, seguindo a regra da concordância nominal.`
+                },
+            ],
+            video: {
+                titulo: `Sintaxe - Concordância Nominal`,
+                linkDoCanal: 'https://www.youtube.com/@tiago_buranello',
+                idVideo: '2w_QRayuW5Y'
+            }
+        },
+        "concordancia-verbal": {
+            titulo: "Concordância Verbal",
+            id: "concordancia-verbal",
+            definicao: [
+                `A concordância verbal é a harmonia entre o verbo e o sujeito da oração. O verbo deve se ajustar ao número (singular ou plural) e à pessoa (1ª, 2ª ou 3ª) do sujeito.`,
+                `A concordância verbal obedece a regras básicas e diretas: o verbo deve concordar com o sujeito da oração tanto em número quanto em pessoa. Assim, quando o sujeito está no singular, o verbo também aparece no singular; já quando o sujeito está no plural, o verbo deve ser flexionado no plural. Por exemplo, na frase “A criança brincou no parque”, o sujeito está no singular e o verbo acompanha essa forma. Em contraste, em “As crianças brincaram no parque”, o sujeito está no plural, exigindo que o verbo também esteja.`,
+            ],
+            casosEspeciais: [
+                {
+                    frase: `"Havia muitas pessoas na reunião."`,
+                    explicacao: `Quando o verbo haver é usado com o sentido de existir, ele é impessoal e fica sempre no singular, mesmo que o complemento esteja no plural`
+                },
+                {
+                    frase: `"Mais de um aluno faltou à aula."`,
+                    explicacao: `Apesar de indicar uma ideia plural, a expressão “mais de um” exige o verbo no singular, pois é tratada como unidade.`
+                },
+                {
+                    frase: `"Chegou o diretor e a coordenadora."`,
+                    explicacao: `Quando o sujeito composto vem depois do verbo, é permitido que o verbo concorde com o elemento mais próximo ou vá para o plural (chegaram o diretor e a coordenadora).`
+                },
+                {
+                    frase: `"30% dos estudantes participaram do evento."`,
+                    explicacao: `O verbo pode concordar com o número (30% → plural) ou com o termo específico (estudantes → plural). Neste caso, ambos estão no plural, então o verbo também.`
+                },
+                {
+                    frase: `"Fui eu que fiz o trabalho."`,
+                    explicacao: `O verbo "fiz" concorda com o sujeito oculto representado por “eu”, que vem antes do pronome relativo “que”. É uma concordância obrigatória com o antecedente.`
+                },
+            ],
+            exemplos: [
+                {
+                    frase: `"A menina estuda todos os dias."`,
+                    explicacao: `O sujeito "a menina" está no singular, então o verbo "estuda" também segue essa forma.`
+                },
+                {
+                    frase: `"Os cachorros latem alto pela manhã."`,
+                    explicacao: `O sujeito "os cachorros" está no plural, e o verbo "latem" concorda com ele.`
+                },
+                {
+                    frase: `"Nós viajamos bastante durante o verão."`,
+                    explicacao: `O sujeito "nós" exige o verbo "viajamos" na primeira pessoa do plural.`
+                },
+                {
+                    frase: `"Tu falaste muito bem na apresentação."`,
+                    explicacao: `O pronome "tu" pede que o verbo esteja na segunda pessoa do singular — forma típica de português europeu ou mais formal.`
+                },
+                {
+                    frase: `"Ele chegou atrasado à reunião."`,
+                    explicacao: `"Ele" é sujeito na terceira pessoa do singular, então o verbo "chegou" acompanha essa estrutura.`
+                },
+            ],
+            video: {
+                titulo: `Sintaxe - Concordância Nominal`,
+                linkDoCanal: 'https://www.youtube.com/@tiago_buranello',
+                idVideo: 'G8FOjN2HzY0'
             }
         }
     },

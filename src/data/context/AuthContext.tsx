@@ -127,6 +127,14 @@ export function AuthProvider({ children }: AuthContextProps) {
         }
     }
 
+    useEffect(() => {
+        const unsubscribe = auth.onIdTokenChanged(async (user) => {
+            await configurarSessao(user);
+        });
+        return () => unsubscribe();
+    }, []);
+
+
     // Recuperando o usuário do cookie ou localStorage na inicialização
     useEffect(() => {
         // Verificando se o cookie contém informações de autenticação

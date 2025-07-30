@@ -4,15 +4,16 @@ import { createContext, useEffect, useState } from "react";
 import { useRouter } from 'next/navigation'; // Usando o useRouter corretamente
 import { auth, db } from "@/lib/firebase"; // Importando a instância do Firebase auth
 import { User, signInWithEmailAndPassword } from "firebase/auth"; // Importando funções de autenticação
+import { setPersistence, browserLocalPersistence, browserSessionPersistence } from "firebase/auth";
 import Cookies from 'js-cookie';
-import { doc, getDoc, setDoc} from "firebase/firestore";
+import { doc, getDoc, setDoc } from "firebase/firestore";
 import Usuario from "@/interfaces/Usuario";
 
 interface AuthContextProps {
     usuario?: Usuario | null;
     children?: React.ReactNode;
     carregando?: boolean
-    login?: (email: string, senha: string) => Promise<void>;
+    login?: (email: string, senha: string, manterConectado: boolean) => Promise<void>;
     logout?: () => Promise<void>;
 
 }
@@ -72,30 +73,31 @@ export function AuthProvider({ children }: AuthContextProps) {
     }
 
 
-    async function login(email: string, senha: string) {
+    async function login(email: string, senha: string, manterConectado = false) {
         try {
             setCarregando(true);
+
+            await setPersistence(auth, manterConectado ? browserLocalPersistence : browserSessionPersistence);
+
             const result = await signInWithEmailAndPassword(auth, email, senha);
             const user = result.user;
 
             const userDocRef = doc(db, "usuarios", user.uid);
             let userDoc = await getDoc(userDocRef);
 
-            // Se o usuário ainda não tem documento no Firestore, cria com valores padrão
             if (!userDoc.exists()) {
                 await setDoc(userDocRef, {
-                    tipo: "cliente", // padrão inicial
+                    tipo: "cliente",
                     nome: user.displayName || "",
                     email: user.email || "",
                 });
                 console.warn("Documento do usuário não existia. Foi criado com tipo 'cliente'.");
-                userDoc = await getDoc(userDocRef); // Atualiza a leitura do doc
+                userDoc = await getDoc(userDocRef);
             }
 
             const userData = userDoc.data();
             const tipo = userData?.tipo;
 
-            // Redirecionar para a área correta com base no tipo de usuário
             if (tipo === "adm") {
                 router.push('/adm');
             } else if (tipo === "cliente") {
@@ -114,7 +116,6 @@ export function AuthProvider({ children }: AuthContextProps) {
             setCarregando(false);
         }
     }
-
 
     function gerenciarCookie(logado: boolean) {
         if (logado) {

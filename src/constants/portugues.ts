@@ -22,6 +22,397 @@ const portugues = {
             id: 'pontuacao'
         },
     ],
+    'analise-e-interpretacao-de-texto': {
+        titulo: 'Analise e Interpretação de Texto',
+        id: 'analise-e-interpretacao-de-texto',
+        introducao: {
+            titulo: `Introdução`,
+            texto: [
+                `A análise e interpretação de texto são habilidades fundamentais para uma leitura crítica e eficiente. Elas envolvem não apenas a compreensão geral do conteúdo, mas também a identificação da ideia central defendida pelo autor e o ponto de vista que sustenta sua argumentação.`,
+                `Ler de forma ativa exige atenção aos elementos que estruturam o texto, como os parágrafos e sua organização lógica, além dos mecanismos de coesão que garantem a fluidez e a clareza entre as ideias apresentadas.`,
+                `Outro aspecto essencial na interpretação textual é a capacidade de fazer inferências — ou seja, deduzir informações que não estão explicitamente escritas, mas que podem ser entendidas a partir do contexto. Ao analisar um texto, é preciso observar como os argumentos são construídos, se há consistência entre as partes e como os recursos linguísticos contribuem para o fortalecimento da tese do autor.`,
+                `Desenvolver essas competências permite ao leitor não apenas decodificar palavras, mas compreender em profundidade a mensagem transmitida.`
+            ],
+            assuntos: [
+                {
+                    titulo: `Compreensão geral do texto`,
+                    id: 'compreensao-geral-do-texto',
+                    descricao: `Refere-se à habilidade de entender o sentido global do texto, identificando o tema principal e a mensagem que o autor deseja transmitir.`
+                },
+                {
+                    titulo: `Ponto de vista ou ideia central defendida pelo autor`,
+                    id: 'ponto-de-vista-ou-ideia-central-defendida-pelo-autor',
+                    descricao: `Consiste em identificar a opinião, posição ou tese que o autor sustenta ao longo do texto, além dos argumentos que a justificam.`
+                },
+                {
+                    titulo: `Argumentação`,
+                    id: 'argumentacao',
+                    descricao: `Analisa como o autor constrói seus argumentos, utilizando razões, exemplos ou dados para defender seu ponto de vista e convencer o leitor.`
+                },
+                {
+                    titulo: `Elementos de coesão`,
+                    id: 'elementos-de-coesao',
+                    descricao: `São os recursos linguísticos que ligam frases e parágrafos, como conjunções e pronomes, garantindo a continuidade e o sentido do texto.`
+                },
+                {
+                    titulo: `Inferências`,
+                    id: 'inferencias',
+                    descricao: `Capacidade de deduzir informações implícitas no texto, a partir de pistas contextuais, conhecimento prévio e relação entre ideias.`
+                },
+                {
+                    titulo: `Estrutura e organização do texto e dos parágrafos`,
+                    id: 'estrutura-e-organizacao-do-texto-e-dos-paragrafos',
+                    descricao: `Observa a forma como o texto é estruturado, como os parágrafos se articulam e a lógica na disposição das ideias e informações.`
+                }
+            ],
+        },
+        submaterias: {
+            ['compreensao-geral-do-texto']: {
+                titulo: 'Compreensão geral do texto',
+                id: 'compreensao-geral-do-texto',
+                definicao: [
+                    `Compreensão geral do texto é a capacidade de entender o sentido principal de um texto como um todo. É o primeiro passo na leitura crítica e envolve captar a mensagem central, identificar o tema e entender a intenção do autor.`,
+                    `Ela vai além de apenas "ler palavras". Envolve entender quem fala, para quem se fala, sobre o quê se fala e com qual objetivo. Um exemplos simples, no texto:`,
+                    `"Mesmo com tantas tecnologias disponíveis, muitos estudantes ainda preferem livros físicos para estudar. O cheiro do papel, a facilidade de fazer anotações e a ausência de distrações digitais são motivos comuns para essa escolha."`,
+                    `Na compreensão geral do texto, percebemos que ele trata da preferência de alguns estudantes por livros físicos, mesmo com a presença de tecnologias. Essa escolha se justifica pelas vantagens oferecidas pelos livros, como conforto, maior concentração e facilidade para fazer anotações.`
+                ],
+                dicas: [
+                    `Leia o texto com atenção do início ao fim, sem interrupções, buscando entender o que está sendo dito como um todo.`,
+                    `Identifique o tema, ou seja, o assunto principal que está sendo tratado.`,
+                    `Descubra a ideia central, que é a mensagem principal que o autor deseja transmitir.`,
+                    `Perceba o objetivo do texto, como informar, convencer, criticar, narrar ou apenas entreter.`,
+                    `Observe o tom do autor, se é sério, informal, irônico, emotivo, entre outros.`,
+                    `Destaque palavras-chave e expressões importantes, pois elas ajudam a entender o foco da mensagem.`,
+                    `Releia trechos que parecerem confusos, para garantir a clareza do conteúdo.`,
+                    `Anote as informações principais, ajudando na fixação da mensagem geral.`,
+                    `Fique atento à diferença entre fatos (informações objetivas) e opiniões (o que o autor pensa).`,
+                    `Pesquise palavras desconhecidas, principalmente se forem importantes para entender o texto.`,
+                    `Ao terminar a leitura, reflita: sobre o que o texto fala? Qual é a mensagem principal? Por que o autor escreveu isso?`,
+                ],
+                video: {
+                    titulo: `Analise e Interpretação de Texto - Compreensão geral do texto`,
+                    linkDoCanal: 'https://www.youtube.com/c/Portugu%C3%AAssemEnrola%C3%A7%C3%A3o',
+                    idVideo: '45thlAoGOGU'
+                }
+            },
+            ['ponto-de-vista-ou-ideia-central-defendida-pelo-autor']: {
+                titulo: 'Ponto de vista ou ideia central defendida pelo autor',
+                id: 'ponto-de-vista-ou-ideia-central-defendida-pelo-autor',
+                definicao: [
+                    `O ponto de vista é a opinião, posição ou julgamento que o autor apresenta em relação ao tema do texto. Já a ideia central é a mensagem principal que o autor deseja transmitir ao leitor, aquilo que ele quer que você compreenda, reflita ou adote como verdade.`,
+                    `Geralmente, o ponto de vista é sustentado por argumentos, exemplos e dados, com o objetivo de convencer, informar ou provocar reflexão. Um exemplo:`,
+                    `"As redes sociais transformaram a forma como nos comunicamos, mas também contribuíram para o aumento da ansiedade entre os jovens. O uso excessivo de likes e comparações pode gerar sentimentos de inferioridade e solidão."`,
+                    `A ideia central seria o uso excessivo das redes sociais pode ser prejudicial à saúde emocional dos jovens e o ponto de vista do autor seria a critica ao impacto das redes sociais e acredita que elas contribuem para a ansiedade.`
+                ],
+                dicas: [
+                    `Leia com atenção a introdução e a conclusão, pois é comum que o autor apresente sua opinião logo no início ou a reforce no final.`,
+                    `Observe palavras que indicam julgamento ou opinião, como: "acredito", "é necessário", "infelizmente", "prejudica", "favorece", "defendo que" etc.`,
+                    `Destaque frases que aparecem com mais ênfase ou se repetem ao longo do texto, pois elas costumam indicar a ideia central.`,
+                    `Pergunte-se: Qual é a posição do autor sobre o tema? Ele é a favor ou contra o que está sendo discutido? Que mensagem ele quer que o leitor leve consigo?`,
+                    `Evite confundir o tema com a ideia central: Tema é o assunto (ex: “uso das redes sociais”). Ideia central é o recado sobre o tema (ex: “as redes sociais causam ansiedade nos jovens”)`,
+                ],
+                video: {
+                    titulo: `Analise e Interpretação de Texto - Ponto de vista ou ideia central defendida pelo autor`,
+                    linkDoCanal: 'https://www.youtube.com/@anacristinadiniz5087',
+                    idVideo: 'i5CnzLA2WWU'
+                }
+            },
+            ['argumentacao']: {
+                titulo: 'Argumentação',
+                id: 'argumentacao',
+                definicao: [
+                    `A argumentação é o modo como o autor defende sua ideia central ou ponto de vista em um texto. Ela serve para convencer, explicar ou justificar uma opinião, usando razões, exemplos, dados, comparações, analogias ou depoimentos.`,
+                    `Um bom texto argumentativo apresenta clareza, lógica e coerência entre os argumentos, conduzindo o leitor a refletir ou concordar com a posição do autor.`,
+                    `Alguns elementos de argumentação são: tese ou ponto de vista (o que o autor acredita ou defende), argumentos (razões que sustentam essa tese), evidências ou provas (exemplos, fatos, dados, citações, que fortalecem os argumentos).`
+                ],
+                dicas: [
+                    `Procure a tese: qual é a ideia que o autor está tentando defender?`,
+                    `Veja como ele sustenta essa ideia: ele usa exemplos, dados, comparações?`,
+                    `Preste atenção a conectivos argumentativos, como: porque, portanto, pois, logo, assim, sendo assim, por esse motivo...`,
+                    `Repare se há contra-argumentos, ou seja, possíveis opiniões contrárias que o autor menciona para depois refutar.`,
+                    `Pergunte-se: O autor está tentando me convencer de algo? Que estratégias ele usa para isso?`,
+                ],
+                video: {
+                    titulo: `Analise e Interpretação de Texto - Argumentação`,
+                    linkDoCanal: 'https://www.youtube.com/@brasilescola',
+                    idVideo: '_PJM0YJGWdo'
+                }
+            },
+            ['elementos-de-coesao']: {
+                titulo: 'Elementos de coesão ',
+                id: 'elementos-de-coesao',
+                definicao: [
+                    `Os elementos de coesão são os responsáveis por ligar partes de um texto entre si, criando uma sequência lógica e facilitando a compreensão. Eles evitam repetições desnecessárias, estabelecem relações entre frases e parágrafos e garantem que o texto tenha continuidade e fluidez.`,
+                    `Os elementos de coesão são fundamentais porque tornam o texto mais claro e organizado, evitando repetições desnecessárias e facilitando a compreensão da sequência de ideias. Além disso, eles contribuem diretamente para a coerência textual, garantindo que o sentido global do texto seja mantido de forma lógica e fluida.`,
+                    `Em resumo, são os “elos” que mantêm o texto unido e bem estruturado. Existem 4 tipos de elementos de coesão: coesão referencial, coesão substitutiva, coesão elíptica (ou omissão), coesão por conectivos.`,
+                ],
+                tipos: [
+                    {
+                        titulo: 'Coesão Referencial',
+                        definicao: [
+                            `É o uso de pronomes, advérbios ou expressões que retomam ou antecipam um termo no texto, evitando repetições e ligando as ideias.`
+                        ],
+                        exemplos: [
+                            {
+                                frase: '"Lucas saiu cedo. Ele precisava resolver um problema."',
+                                explicacao: '“Ele” retoma “Lucas”.'
+                            },
+                            {
+                                frase: '"Comprei um livro novo. Este é sobre história antiga."',
+                                explicacao: '“Este” retoma “um livro novo”.'
+                            },
+                            {
+                                frase: '"A cidade amanheceu alagada. Isso foi consequência da forte chuva."',
+                                explicacao: '“Isso” retoma o fato de a cidade ter amanhecido alagada.'
+                            },
+                            {
+                                frase: '"Maria e Paula foram ao cinema. As duas adoraram o filme."',
+                                explicacao: '“As duas” retoma “Maria e Paula”.'
+                            },
+                            {
+                                frase: '"O carro está no conserto. Ele estragou ontem."',
+                                explicacao: '“Ele” retoma “O carro”.'
+                            },
+                        ]
+                    },
+                    {
+                        titulo: 'Coesão Substitutiva',
+                        definicao: [
+                            `Ocorre quando um termo é substituído por outro com o mesmo sentido, como sinônimos, expressões equivalentes ou palavras mais genéricas.`
+                        ],
+                        exemplos: [
+                            {
+                                frase: '"O cachorro latiu a noite toda. O animal parecia inquieto."',
+                                explicacao: '“O animal” substitui “o cachorro”.'
+                            },
+                            {
+                                frase: '"Comprei um celular novo. O aparelho tem câmera de alta qualidade."',
+                                explicacao: '“O aparelho” substitui “celular”.'
+                            },
+                            {
+                                frase: '"Pedro esqueceu o casaco. A peça de roupa estava no sofá."',
+                                explicacao: '“A peça de roupa” substitui “casaco”.'
+                            },
+                            {
+                                frase: '"Aquela loja fechou. O estabelecimento estava há anos ali.',
+                                explicacao: '“O estabelecimento” substitui “loja”.'
+                            },
+                            {
+                                frase: '"Ana perdeu a carteira. O objeto foi encontrado por um funcionário."',
+                                explicacao: '“O objeto” substitui “carteira”.'
+                            },
+                        ]
+                    },
+                    {
+                        titulo: 'Coesão Elíptica (ou Omissão)',
+                        definicao: [
+                            `É quando uma palavra (geralmente o sujeito ou verbo) é omitida porque já foi usada antes e pode ser entendida pelo contexto.`
+                        ],
+                        exemplos: [
+                            {
+                                frase: '"João foi ao mercado. (Ele) Comprou frutas e verduras."',
+                                explicacao: '“João” foi omitido na segunda frase.'
+                            },
+                            {
+                                frase: '"Marina gosta de café. Pedro, de chá."',
+                                explicacao: '“O verbo “gosta” foi omitido após “Pedro”.'
+                            },
+                            {
+                                frase: '"Fizemos o trabalho hoje. (Nós) Terminamos antes do prazo."',
+                                explicacao: 'O sujeito “nós” foi omitido.'
+                            },
+                            {
+                                frase: '"Ela estuda de manhã. (Ela) Trabalha à tarde."',
+                                explicacao: '““Ela” foi omitido na segunda oração.'
+                            },
+                            {
+                                frase: '"O professor explicou a matéria. (Ele) Pediu silêncio na sala."',
+                                explicacao: 'O sujeito “o professor” foi omitido.'
+                            },
+                        ]
+                    },
+                    {
+                        titulo: 'Coesão por Conectivos (Sequencial)',
+                        definicao: [
+                            `É o uso de conjunções, advérbios ou locuções que mostram a relação lógica entre as partes do texto, como adição, oposição, causa, consequência, tempo, entre outras.`
+                        ],
+                        exemplos: [
+                            {
+                                frase: '"Estava cansado, mas continuou estudando."',
+                                explicacao: '“Mas” indica oposição.'
+                            },
+                            {
+                                frase: '"Não estudou para a prova, portanto foi mal."',
+                                explicacao: ' “Portanto” indica consequência.'
+                            },
+                            {
+                                frase: '"Ele gosta de café e de chá."',
+                                explicacao: '“E” indica adição.'
+                            },
+                            {
+                                frase: '"Ela chegou cedo, pois queria se preparar."',
+                                explicacao: '“Pois” indica causa.'
+                            },
+                            {
+                                frase: '"Fez o almoço, depois foi trabalhar."',
+                                explicacao: '“Depois” indica tempo.'
+                            },
+                        ]
+                    },
+                ],
+                dicas: [
+                    `Leia observando como uma frase se conecta com a outra.`,
+                    `Substitua pronomes ou expressões por suas referências para entender melhor o texto.`,
+                    `Observe os conectivos usados: eles indicam como as ideias estão relacionadas.`,
+                    `Evite repetir palavras ao escrever: use pronomes e sinônimos.`,
+                    `Note se o texto “flui naturalmente” — a presença de elementos de coesão costuma dar essa sensação.`,
+                ],
+                video: {
+                    titulo: `Analise e Interpretação de Texto - Argumentação`,
+                    linkDoCanal: 'https://www.youtube.com/@brasilescola',
+                    idVideo: '_PJM0YJGWdo'
+                }
+            },
+            inferencias: {
+                titulo: 'Inferências',
+                id: 'inferencias',
+                definicao: [
+                    `Inferência é a capacidade de entender algo que não está escrito de forma explícita no texto, mas que pode ser deduzido a partir do contexto, de informações anteriores ou do conhecimento de mundo do leitor.`,
+                    `Fazer inferências é essencial para compreender mensagens completas, interpretações mais profundas e intenção do autor. Textos de prova, literatura, crônicas e até manchetes jornalísticas exigem essa habilidade para a compreensão total do que está sendo comunicado.`,
+                    `Em outras palavras, fazer inferência é "ler nas entrelinhas" — ou seja, interpretar o que está sugerido, implícito ou subentendido. Temos 4 tipos de inferências: inferência de informação oculta, inferência de intenção do autor, inferência sobre sentimentos ou pensamentos de personagens ou pessoas, inferência baseada em conhecimento de mundo.`
+                ],
+                tipos: [
+                    {
+                        titulo: 'Inferência de Informação Oculta',
+                        definicao: [
+                            'É a dedução de algo que não foi dito diretamente no texto, mas pode ser entendido a partir de pistas contextuais.'
+                        ],
+                        exemplos: [
+                            {
+                                frase: '"As luzes estavam apagadas e ninguém atendeu à porta."',
+                                explicacao: 'Pode-se inferir que não havia ninguém em casa.'
+                            },
+                            {
+                                frase: '"Quando saiu da sala, bateu a porta com força."',
+                                explicacao: 'Pode-se inferir que a pessoa estava irritada ou com raiva.'
+                            },
+                            {
+                                frase: '"Ele não trouxe guarda-chuva e chegou todo molhado."',
+                                explicacao: 'Pode-se inferir que estava chovendo.'
+                            },
+                            {
+                                frase: '"A menina tremia mesmo com o cobertor."',
+                                explicacao: 'Pode-se inferir que o ambiente estava muito frio.'
+                            },
+                            {
+                                frase: '"O time saiu cabisbaixo do campo."',
+                                explicacao: 'Pode-se inferir que o time perdeu o jogo.'
+                            }
+                        ]
+
+                    },
+                    {
+                        titulo: 'Inferência de Intenção do Autor',
+                        definicao: [
+                            'É a interpretação da verdadeira intenção por trás do que foi escrito, como crítica, ironia, alerta ou elogio.'
+                        ],
+                        exemplos: [
+                            {
+                                frase: '"Ah, claro! Como se fosse super fácil acordar às 5 da manhã feliz!"',
+                                explicacao: 'Pode-se inferir que o autor está sendo irônico.'
+                            },
+                            {
+                                frase: '"Enquanto os políticos se reúnem, a população espera por soluções."',
+                                explicacao: 'Pode-se inferir que o autor está criticando a lentidão ou ineficácia política.'
+                            },
+                            {
+                                frase: '"O novo aplicativo promete facilitar a vida de quem já não tem tempo nem para respirar."',
+                                explicacao: 'Pode-se inferir que há uma crítica ao ritmo acelerado da vida moderna.'
+                            },
+                            {
+                                frase: '"Essa foi, sem dúvida, a apresentação mais inesquecível da noite: ninguém aplaudiu."',
+                                explicacao: 'Pode-se inferir que o autor foi sarcástico e a apresentação foi ruim.'
+                            },
+                            {
+                                frase: '"A escola, tão silenciosa antes da prova, parecia um campo de batalha depois do resultado."',
+                                explicacao: 'Pode-se inferir que os alunos foram mal na prova.'
+                            }
+                        ]
+
+                    },
+                    {
+                        titulo: 'Inferência sobre Sentimentos ou Pensamentos',
+                        definicao: [
+                            'É a dedução de emoções, intenções ou estados mentais de personagens com base em suas ações, falas ou reações.'
+                        ],
+                        exemplos: [
+                            {
+                                frase: '"Ele ficou em silêncio e desviou o olhar."',
+                                explicacao: 'Pode-se inferir que estava envergonhado ou triste.'
+                            },
+                            {
+                                frase: '"Ela sorriu discretamente ao ler a mensagem."',
+                                explicacao: 'Pode-se inferir que ela ficou feliz ou satisfeita.'
+                            },
+                            {
+                                frase: '"Ao ver o prato quebrado, sua expressão mudou de calma para raiva."',
+                                explicacao: 'Pode-se inferir que a pessoa ficou irritada com a situação.'
+                            },
+                            {
+                                frase: '"Mesmo com o prêmio nas mãos, ele parecia distante."',
+                                explicacao: 'Pode-se inferir que não estava satisfeito ou havia algo preocupando-o.'
+                            },
+                            {
+                                frase: '"Ela olhava o relógio a todo instante."',
+                                explicacao: 'Pode-se inferir que estava ansiosa ou com pressa.'
+                            }
+                        ]
+
+                    },
+                    {
+                        titulo: 'Inferência com Conhecimento de Mundo',
+                        definicao: [
+                            'É quando o leitor usa suas próprias experiências ou conhecimentos para compreender melhor o que está no texto.'
+                        ],
+                        exemplos: [
+                            {
+                                frase: '"Ele vestiu o paletó e pegou a gravata."',
+                                explicacao: 'Pode-se inferir que ele se preparava para um evento formal ou trabalho.'
+                            },
+                            {
+                                frase: '"A criança chorou ao ver a seringa."',
+                                explicacao: 'Pode-se inferir que ela tem medo de injeção.'
+                            },
+                            {
+                                frase: '"Ela apagou as velas e todos bateram palmas."',
+                                explicacao: 'Pode-se inferir que era seu aniversário.'
+                            },
+                            {
+                                frase: '"Assim que viu o policial, escondeu algo no bolso."',
+                                explicacao: 'Pode-se inferir que a pessoa estava tentando esconder algo suspeito.'
+                            },
+                            {
+                                frase: '"Ao ouvir a sirene, todos deixaram o prédio rapidamente."',
+                                explicacao: 'Pode-se inferir que houve um incêndio ou simulação de evacuação.'
+                            }
+                        ]
+                    }
+                ],
+                dicas: [
+                    `Preste atenção em pistas do texto, como comportamentos, expressões e ações dos personagens.`,
+                    `Use seu conhecimento de mundo, relacionando situações do texto com o que você já sabe da vida real.`,
+                    `Observe o tom e a escolha das palavras: adjetivos, verbos e pontuação podem indicar emoções e intenções.`,
+                    `Leia com calma e reflita sobre o que está por trás das palavras, principalmente em textos com ironia ou críticas.`,
+                    `Evite tirar conclusões precipitadas: sua inferência deve ser coerente com o texto e não contradizê-lo.`,
+                ],
+                video: {
+                    titulo: `Analise e Interpretação de Texto - Argumentação`,
+                    linkDoCanal: 'https://www.youtube.com/@brasilescola',
+                    idVideo: '_PJM0YJGWdo'
+                }
+            },
+        }
+    },
     'figuras-de-linguagem': {
         titulo: 'Figuras de Linguagem',
         id: 'figuras-de-linguagem',

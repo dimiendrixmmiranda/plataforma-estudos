@@ -9,6 +9,7 @@ export default function Page() {
 	const [email, setEmail] = useState('')
 	const [senha, setSenha] = useState('')
 	const [erro, setErro] = useState<string | null>(null)
+	const [manterConectado, setManterConectado] = useState(false);
 
 	async function submeter() {
 		if (email && senha) {
@@ -18,7 +19,7 @@ export default function Page() {
 			}
 			try {
 				console.log("Tentando login...");
-				await login(email, senha);
+				await login(email, senha, manterConectado);
 				console.log("Login realizado com sucesso");
 			} catch (error) {
 				console.error("Erro ao fazer login:", error);
@@ -50,14 +51,18 @@ export default function Page() {
 					)}
 					<div>
 						<fieldset className="flex flex-col gap-1">
-							<label style={{textShadow: '1px 1px 2px black'}} htmlFor="email">Informe seu email:</label>
-							<input type="text" id="email" onChange={(e) => setEmail(e.target.value)} className="px-2 py-1 rounded-lg text-black" style={{boxShadow: '0 0 2px 1px black'}}/>
+							<label style={{ textShadow: '1px 1px 2px black' }} htmlFor="email">Informe seu email:</label>
+							<input type="text" id="email" onChange={(e) => setEmail(e.target.value)} className="px-2 py-1 rounded-lg text-black" style={{ boxShadow: '0 0 2px 1px black' }} />
 						</fieldset>
 						<fieldset className="flex flex-col gap-1">
-							<label style={{textShadow: '1px 1px 2px black'}} htmlFor="senha">Informe sua senha:</label>
-							<input type="password" id="senha" onChange={(e) => setSenha(e.target.value)} className="px-2 py-1 rounded-lg text-black" style={{boxShadow: '0 0 2px 1px black'}}/>
+							<label style={{ textShadow: '1px 1px 2px black' }} htmlFor="senha">Informe sua senha:</label>
+							<input type="password" id="senha" onChange={(e) => setSenha(e.target.value)} className="px-2 py-1 rounded-lg text-black" style={{ boxShadow: '0 0 2px 1px black' }} />
 						</fieldset>
 					</div>
+					<fieldset className="flex items-center gap-2">
+						<input type="checkbox" id="manterConectado" checked={manterConectado} onChange={(e) => setManterConectado(e.target.checked)} />
+						<label htmlFor="manterConectado" className="text-black">Manter conectado</label>
+					</fieldset>
 					<button className="w-full text-white uppercase font-bold py-2 bg-magenta" style={{ textShadow: '1px 1px 2px black', boxShadow: '1px 1px 2px black' }} onClick={submeter}>Entrar</button>
 				</div>
 				<span className="text-black uppercase font-black text-center leading-5">

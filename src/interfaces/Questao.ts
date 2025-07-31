@@ -9,4 +9,5 @@ export default interface Questao {
     respostaUsuario: string | null
     acertou: boolean
     justificativaResposta: string
+    materia?: string // depois vai ser obrigatorio
 }

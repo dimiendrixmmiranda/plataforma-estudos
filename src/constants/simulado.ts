@@ -1,27 +1,5 @@
 import Questao from "@/interfaces/Questao";
 
-// {
-//     id: 1,
-//         pergunta: {
-//         enunciado: "Analise as infrações abaixo e assinale a alternativa correta:",
-//             listaEnumerada: [
-//                 'I. Dirigir veículo sem possuir CNH.',
-//                 'II. Estacionar em vaga reservada a idosos sem a credencial exigida.',
-//                 'III. Transitar pela contramão em vias de sentido único.',
-//             ],
-//                 complementoDoEnunciado: "Quais dessas infrações são consideradas graves?",
-//         },
-//     categoria: 'legislacao',
-//         alternativas: [
-//             { conteudo: "Apenas I e II.", certa: false },
-//             { conteudo: "Apenas II e III.", certa: true },
-//             { conteudo: "Apenas I e III.", certa: false },
-//             { conteudo: "Todas as infrações.", certa: false },
-//         ],
-//             respostaUsuario: null,
-//                 acertou: false,
-//                     justificativaResposta: "As infrações II e III são graves, pois estacionar em vaga de idosos sem a credencial e transitar pela contramão são comportamentos que oferecem grande risco à segurança no trânsito.",
-//     },
 const listaDeQuestoes: Questao[] = [
     {
         "id": 1,
@@ -304,8 +282,79 @@ const listaDeQuestoes: Questao[] = [
         "respostaUsuario": null,
         "acertou": false,
         "justificativaResposta": "Na frase III, não se usa crase antes da palavra 'pé', pois não há artigo definido que a justifique."
+    },
+    {
+        id: 14,
+        pergunta: {
+            enunciado: "Assinale a alternativa que representa um programa editor de planilha.",
+        },
+        materia: 'informatica',
+        categoria: "edicao-de-textos-planilhas-apresentacoes",
+        alternativas: [
+            { conteudo: "Microsoft PowerPlan.", certa: false },
+            { conteudo: "Microsoft OneNote.", certa: false },
+            { conteudo: "Microsoft Word.", certa: false },
+            { conteudo: "Microsoft Plan.", certa: false },
+            { conteudo: "Microsoft Excel.", certa: true },
+        ],
+        respostaUsuario: null,
+        acertou: false,
+        justificativaResposta: "O Microsoft Excel é o editor de planilhas da suíte Microsoft Office, utilizado para criar e manipular tabelas, fórmulas e gráficos. As demais alternativas são incorretas ou inexistentes."
+    },
+    {
+        id: 15,
+        pergunta: {
+            enunciado: "Assinale a alternativa que não representa um formato de arquivo.",
+        },
+        materia: 'informatica',
+        categoria: "organizacao-e-gerenciamento-de-informacoes",
+        alternativas: [
+            { conteudo: ".pptx", certa: false },
+            { conteudo: ".xlt", certa: false },
+            { conteudo: ".docx", certa: false },
+            { conteudo: ".fikr", certa: true },
+            { conteudo: ".pdf", certa: false },
+        ],
+        respostaUsuario: null,
+        acertou: false,
+        justificativaResposta: ".fikr não é uma extensão reconhecida de arquivos. As demais alternativas representam extensões de arquivos reais, utilizadas em programas como PowerPoint (.pptx), Excel (.xlt), Word (.docx) e leitores de PDF (.pdf)."
+    },
+    {
+        id: 16,
+        pergunta: {
+            enunciado: "Utilizando o Windows 10, instalação padrão, português do Brasil, com a tela do computador na área de trabalho, assinale a alternativa que representa o comando Tecla do Logotipo do Windows+E (Obs.: O sinal de + não faz parte do comando, significa que as teclas devem ser pressionadas simultaneamente).",
+        },
+        materia: 'informatica',
+        categoria: "sistema-operacional-windows",
+        alternativas: [
+            { conteudo: "Abre as configurações do Windows.", certa: false },
+            { conteudo: "Ativa a barra Xbox.", certa: false },
+            { conteudo: "Abre o Windows Explorer.", certa: true },
+            { conteudo: "Ativa o botão Compartilhar.", certa: false },
+            { conteudo: "Chama a Central de Ações.", certa: false },
+        ],
+        respostaUsuario: null,
+        acertou: false,
+        justificativaResposta: "O atalho Windows + E abre o Explorador de Arquivos (Windows Explorer), que permite navegar pelas pastas e arquivos do computador. É um atalho comum no sistema operacional Windows."
+    },
+    {
+        id: 17,
+        pergunta: {
+            enunciado: "Utilizando o navegador de internet Google Chrome Versão 74.0.3729.131 (Versão oficial) 64 bits, assinale a alternativa que representa o comando Ctrl+T (Obs.: O sinal de + não faz parte do comando, significa que as teclas devem ser pressionadas simultaneamente).",
+        },
+        materia: 'informatica',
+        categoria: "internet-e-intranet",
+        alternativas: [
+            { conteudo: "Adiciona “www.” e “.com” ao endereço digitado.", certa: false },
+            { conteudo: "Abre uma nova aba.", certa: true },
+            { conteudo: "Reabre a última aba fechada.", certa: false },
+            { conteudo: "Alterna para a aba seguinte.", certa: false },
+            { conteudo: "Alterna para a aba anterior.", certa: false },
+        ],
+        respostaUsuario: null,
+        acertou: false,
+        justificativaResposta: "O atalho Ctrl + T, no navegador Google Chrome, é utilizado para abrir uma nova aba. Esse comando é padrão em diversos navegadores modernos."
     }
-
 ]
 
 

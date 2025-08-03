@@ -12,6 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         amarelo: "var(--amarelo)",
+        ['amarelo-claro']: "var(--amarelo-claro)",
         ["azul-escuro"]: "var(--azul-escuro)",
         laranja: "var(--laranja)",
         preto: "var(--preto)",

@@ -1,4 +1,5 @@
 'use client'
+import Redes from "@/components/redes/Redes";
 import SidebarComponent from "@/components/sidebarComponent/SidebarComponente";
 import useAuth from "@/data/hook/useAuth";
 import Image from "next/image";
@@ -26,36 +27,39 @@ export default function Header() {
                     <h2 className="uppercase font-bold text-3xl">Menu</h2>
                 }
             >
-                {
-                    usuario ? (
-                        <ul className="flex flex-col gap-4 mt-4">
-                            <li>
-                                <Link href={'/'} className="flex items-center gap-2">
-                                    <FaUserCircle className="text-2xl" />
-                                    <p className="text-xl uppercase font-black">Bem vindo Usuario</p>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href={'/'} className="flex items-center gap-2">
-                                    <IoSchoolSharp className="text-2xl" />
-                                    <p className="text-xl uppercase font-black">Provas Feitas</p>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href={'/pages/simulado'} className="flex items-center gap-2">
-                                    <BiSolidSpreadsheet className="text-2xl" />
-                                    <p className="text-xl uppercase font-black">Realizar Simulado</p>
-                                </Link>
-                            </li>
-                            <li>
-                                <button className="flex items-center gap-2" onClick={logout}>
-                                    <IoLogOut className="text-2xl" />
-                                    <p className="text-xl uppercase font-black">Sair</p>
-                                </button>
-                            </li>
-                        </ul>
-                    ) : ''
-                }
+                <div className="flex flex-col w-full h-full">
+                    {
+                        usuario ? (
+                            <ul className="flex flex-col gap-4 mt-4">
+                                <li>
+                                    <Link href={'/pages/usuario'} className="flex items-center gap-2">
+                                        <FaUserCircle className="text-2xl" />
+                                        <p className="text-xl uppercase font-black">Bem vindo Usuario</p>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href={'/pages/simuladosFeitos'} className="flex items-center gap-2">
+                                        <IoSchoolSharp className="text-2xl" />
+                                        <p className="text-xl uppercase font-black">Simulados Feitos</p>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href={'/pages/simulado'} className="flex items-center gap-2">
+                                        <BiSolidSpreadsheet className="text-2xl" />
+                                        <p className="text-xl uppercase font-black">Realizar Simulado</p>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <button className="flex items-center gap-2" onClick={logout}>
+                                        <IoLogOut className="text-2xl" />
+                                        <p className="text-xl uppercase font-black">Sair</p>
+                                    </button>
+                                </li>
+                            </ul>
+                        ) : ''
+                    }
+                    <Redes estiloComponente="mt-auto" estiloLista="grid grid-cols-3" visibilidadeTexto={false}/>
+                </div>
             </SidebarComponent>
         </header>
     )

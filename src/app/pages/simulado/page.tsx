@@ -52,7 +52,8 @@ export default function Page() {
                         </fieldset>
                         <fieldset className="flex flex-col w-full gap-1">
                             <label className="leading-5 uppercase font-bold" htmlFor="informatica">Informática</label>
-                            <input className="p-2 font-semibold rounded-md w-full appearance-auto" max={10} type="number" step={1} name="informatica" id="informatica" value={qtdePerguntasInformatica} onChange={(e) => setQtdePerguntasInformatica(e.target.value)} />
+                            <p className="text-[.5em] text-start">Máximo de 5 questões por simulado.</p>
+                            <input className="p-2 font-semibold rounded-md w-full appearance-auto" max={5} type="number" step={1} name="informatica" id="informatica" value={qtdePerguntasInformatica} onChange={(e) => setQtdePerguntasInformatica(e.target.value)} />
                         </fieldset>
                     </fieldset>
                     <button className="bg-amarelo uppercase font-black text-xl text-white flex justify-center items-center py-2 w-full" style={{ textShadow: '1px 1px 2px black' }} type="submit">Iniciar</button>

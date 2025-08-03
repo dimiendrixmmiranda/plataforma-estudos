@@ -1,288 +1,96 @@
 import Questao from "@/interfaces/Questao";
+import TextoBase from "@/interfaces/TextoBase";
+
+const textosBase: TextoBase[] = [
+    {
+        id: 1,
+        titulo: "A responsabilidade dos CEOs pela cibersegurança.",
+        conteudo: `
+                Um estudo realizado em 2023 pela
+                revista Forbes consultou grandes executivos
+                norte-americanos a respeito das políticas de
+                segurança cibernética das suas respectivas
+                companhias. De acordo com a pesquisa, 75%
+                dos CEOs acreditam que a falta de
+                conscientização sobre cibersegurança entre
+                os colaboradores é o principal risco para a
+                empresa. Esse resultado demonstra que há
+                uma via de mão dupla quando se pensa nas
+                estratégias corporativas para a segurança de
+                dados - as responsabilidades que cabem aos
+                gestores maiores e o papel a ser
+                desempenhado pelos demais colaboradores.
+                No entanto1
+                , pela relevância do cargo
+                que ocupa, o CEO deve assumir a liderança na
+                promoção da cultura de segurança cibernética,
+                incorporando-a como parte central da
+                estratégia de negócios.
+                Além disso2
+                , as ações e palavras do
+                CEO têm um impacto significativo no
+                comportamento dos demais funcionários e
+                colaboradores. Dessa forma, o líder deve
+                demonstrar seu compromisso com a
+                cibersegurança, o que se traduz em ações
+                práticas, como a alocação de recursos
+                adequados para iniciativas de proteção,
+                investimento em treinamentos para os
+                colaboradores e implementação de políticas
+                rigorosas de segurança de dados.
+                Porém3
+                , como evidencia o estudo feito
+                pela revista Forbes, a responsabilidade pela
+                proteção de dados da companhia não se limita
+                aos gestores maiores na escala hierárquica:
+                essa prática deve permear toda a organização,
+                desde a alta gerência até os integrantes de
+                gerências, departamentos e grupos de
+                trabalho. Criar e participar ativamente de uma
+                cultura de segurança cibernética é
+                fundamental, conscientizando todos os
+                usuários sobre os riscos e responsabilidades
+                em relação à segurança da informação,
+                promovendo a educação continuada e
+                incentivando a comunicação aberta e imediata
+                sobre possíveis incidentes.
+                Com esses parâmetros em pauta, a
+                cibersegurança jamais será vista como custo
+                adicional, mas um investimento estratégico
+                que protege a empresa de perdas financeiras,danos 
+                à reputação e interrupções
+                operacionais. Ao integrar a segurança
+                cibernética à estratégia de negócios, o CEO
+                demonstra a importância de proteger os ativos
+                digitais da empresa[,] e os colaboradores, por
+                sua vez, se sentem mais motivados a ajudar a
+                preservar a confidencialidade das
+                informações.
+        `,
+    }
+]
 
 const listaDeQuestoes: Questao[] = [
     {
-        "id": 1,
-        "pergunta": {
-            "enunciado": "Leia a frase a seguir e assinale a alternativa correta:",
-            "listaEnumerada": [
-                "\"Ele tem um coração de pedra.\""
-            ],
-            "complementoDoEnunciado": "A figura de linguagem presente na frase é:"
+        id: 1,
+        textoBaseId: 1,
+        pergunta: {
+            enunciado: "De acordo com o texto:",
         },
-        "categoria": "figuras-de-palavras",
-        "alternativas": [
-            { "conteudo": "Metáfora", "certa": true },
-            { "conteudo": "Catacrese", "certa": false },
-            { "conteudo": "Metonímia", "certa": false },
-            { "conteudo": "Hipérbole", "certa": false }
+        materia: 'portugues',
+        categoria: "analise-e-interpretacao-de-texto",
+        alternativas: [
+            { conteudo: "A responsabilidade pela proteção dos dados da empresa deve abranger todos os setores da instituição.", certa: true },
+            { conteudo: "A relevância do cargo de presidenteexecutivo não influencia na proteção dos dados da empresa", certa: false },
+            { conteudo: "A proteção dos dados das companhias é de responsabilidade exclusiva do setor de tecnologia da informação.", certa: false },
+            { conteudo: "Os colaboradores das empresas não se interessam pela cibersegurança do ambiente em que trabalham.", certa: false },
+            { conteudo: "As falhas de cibersegurança se mostram perigosas somente para a saúde financeira das companhias.", certa: false },
         ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "A frase utiliza a metáfora ao associar o coração a uma pedra para indicar frieza emocional."
+        respostaUsuario: null,
+        acertou: false,
+        justificativaResposta: "De acordo com o texto, a responsabilidade pela proteção dos dados deve envolver todos os setores da empresa. O CEO deve liderar essa cultura de segurança, e os riscos abrangem não apenas a saúde financeira, mas também a reputação e a operação da companhia."
     },
-    {
-        "id": 2,
-        "pergunta": {
-            "enunciado": "Observe a expressão a seguir:",
-            "listaEnumerada": [
-                "\"Estou morrendo de rir!\""
-            ],
-            "complementoDoEnunciado": "A figura de linguagem usada nessa expressão é:"
-        },
-        "categoria": "figuras-de-pensamento",
-        "alternativas": [
-            { "conteudo": "Ironia", "certa": false },
-            { "conteudo": "Hipérbole", "certa": true },
-            { "conteudo": "Eufemismo", "certa": false },
-            { "conteudo": "Prosopopeia", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "A hipérbole é o uso de exagero proposital para intensificar uma ideia."
-    },
-    {
-        "id": 3,
-        "pergunta": {
-            "enunciado": "Assinale a alternativa em que ocorre um caso de elipse:",
-            "listaEnumerada": [
-                "I. Fomos ao mercado e (nós) compramos frutas.",
-                "II. João gosta de estudar, Maria não.",
-                "III. Ela saiu cedo; ele, tarde."
-            ],
-            "complementoDoEnunciado": "A opção que apresenta uma elipse está em:"
-        },
-        "categoria": "figuras-de-construcao",
-        "alternativas": [
-            { "conteudo": "Apenas I.", "certa": true },
-            { "conteudo": "Apenas II.", "certa": false },
-            { "conteudo": "Apenas III.", "certa": false },
-            { "conteudo": "II e III.", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "Na frase I, o sujeito 'nós' foi omitido, configurando elipse."
-    },
-    {
-        "id": 4,
-        "pergunta": {
-            "enunciado": "Assinale a alternativa que apresenta um exemplo de onomatopeia:",
-            "listaEnumerada": [
-                "I. O relógio fazia tic-tac.",
-                "II. O menino correu rápido.",
-                "III. Estava um silêncio total."
-            ],
-            "complementoDoEnunciado": "Qual alternativa representa uma figura de som?"
-        },
-        "categoria": "figuras-de-som",
-        "alternativas": [
-            { "conteudo": "Apenas I.", "certa": true },
-            { "conteudo": "Apenas II.", "certa": false },
-            { "conteudo": "I e III.", "certa": false },
-            { "conteudo": "Todas as alternativas.", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "\"Tic-tac\" é uma onomatopeia que imita o som do relógio."
-    },
-    {
-        "id": 5,
-        "pergunta": {
-            "enunciado": "Assinale a alternativa em que o uso da vírgula está INCORRETO:",
-            "listaEnumerada": [
-                "I. João, meu amigo, chegou cedo.",
-                "II. Choveu muito, por isso, não saímos.",
-                "III. Maria foi ao mercado e, comprou frutas."
-            ],
-            "complementoDoEnunciado": ""
-        },
-        "categoria": "pontuacao",
-        "alternativas": [
-            { "conteudo": "Apenas III.", "certa": true },
-            { "conteudo": "Apenas II.", "certa": false },
-            { "conteudo": "II e III.", "certa": false },
-            { "conteudo": "Nenhuma das alternativas.", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "Na frase III, a vírgula é indevida entre o verbo 'e' e seu complemento, pois não há justificativa sintática para a pausa."
-    },
-    {
-        "id": 6,
-        "pergunta": {
-            "enunciado": "Leia as orações a seguir:",
-            "listaEnumerada": [
-                "I. Choveu muito ontem à noite.",
-                "II. Há muitos alunos na sala.",
-                "III. O diretor reuniu-se com os professores."
-            ],
-            "complementoDoEnunciado": "Em qual das frases o sujeito é indeterminado?"
-        },
-        "categoria": "classificacao-de-sujeito",
-        "alternativas": [
-            { "conteudo": "Apenas I.", "certa": false },
-            { "conteudo": "Apenas II.", "certa": false },
-            { "conteudo": "Apenas III.", "certa": false },
-            { "conteudo": "Nenhuma das alternativas.", "certa": true }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "Em I, o sujeito é inexistente; em II, também é inexistente devido ao verbo haver com sentido de existir; em III, o sujeito é determinado. Nenhuma tem sujeito indeterminado."
-    },
-    {
-        "id": 7,
-        "pergunta": {
-            "enunciado": "Assinale a alternativa em que o uso da crase está correto:",
-            "listaEnumerada": [
-                "I. Entreguei o presente à aniversariante.",
-                "II. Cheguei à uma conclusão inesperada.",
-                "III. Iremos à pé até o centro."
-            ],
-            "complementoDoEnunciado": ""
-        },
-        "categoria": "crase",
-        "alternativas": [
-            { "conteudo": "Apenas I.", "certa": true },
-            { "conteudo": "I e II.", "certa": false },
-            { "conteudo": "I e III.", "certa": false },
-            { "conteudo": "Todas as alternativas.", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "Somente a frase I está correta. Em II, o uso é indevido com artigo indefinido; em III, não ocorre crase com palavras masculinas como 'pé'."
-    },
-    {
-        "id": 8,
-        "pergunta": {
-            "enunciado": "Analise os enunciados abaixo e assinale a alternativa correta:",
-            "listaEnumerada": [
-                "I. Ela é uma flor que desabrocha a cada dia.",
-                "II. Seu olhar é um raio que atravessa a alma.",
-                "III. Ele corre como uma flecha."
-            ],
-            "complementoDoEnunciado": "Quais frases contêm metáforas?"
-        },
-        "categoria": "figuras-de-palavras",
-        "alternativas": [
-            { "conteudo": "Apenas I e II.", "certa": true },
-            { "conteudo": "Apenas II e III.", "certa": false },
-            { "conteudo": "Apenas I e III.", "certa": false },
-            { "conteudo": "Todas as frases.", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "As frases I e II utilizam metáforas: 'flor' e 'raio' são imagens simbólicas sem uso de elementos comparativos explícitos."
-    },
-    {
-        "id": 9,
-        "pergunta": {
-            "enunciado": "Leia os exemplos e identifique a figura de pensamento presente:",
-            "listaEnumerada": [
-                "I. 'O silêncio gritava em seus ouvidos.'",
-                "II. 'Chovia alegria naquela festa.'",
-                "III. 'Ele morreu de tanto rir.'"
-            ],
-            "complementoDoEnunciado": "Qual figura está presente nas frases?"
-        },
-        "categoria": "figuras-de-pensamento",
-        "alternativas": [
-            { "conteudo": "Ironia.", "certa": false },
-            { "conteudo": "Antítese.", "certa": false },
-            { "conteudo": "Hipérbole.", "certa": true },
-            { "conteudo": "Metonímia.", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "A hipérbole está presente por meio da intensificação exagerada, como em 'morrer de tanto rir' e 'o silêncio gritava'."
-    },
-    {
-        "id": 10,
-        "pergunta": {
-            "enunciado": "Observe os períodos abaixo:",
-            "listaEnumerada": [
-                "I. Se você viesse, eu ficaria feliz.",
-                "II. Falava, falava, falava sem parar.",
-                "III. O livro que eu li, gostei muito."
-            ],
-            "complementoDoEnunciado": "Qual frase contém um caso de anacoluto?"
-        },
-        "categoria": "figuras-de-construcao",
-        "alternativas": [
-            { "conteudo": "Apenas a frase I.", "certa": false },
-            { "conteudo": "Apenas a frase II.", "certa": false },
-            { "conteudo": "Apenas a frase III.", "certa": true },
-            { "conteudo": "As frases I e III.", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "A frase III apresenta um anacoluto — quebra na estrutura lógica: 'O livro que eu li' é iniciado, mas a frase segue com 'gostei muito', rompendo a construção gramatical."
-    },
-    {
-        "id": 11,
-        "pergunta": {
-            "enunciado": "Assinale a alternativa em que há ocorrência de aliteração:",
-            "listaEnumerada": [
-                "I. 'O rato roeu a roupa do rei de Roma.'",
-                "II. 'Vivia sonhando sonhos serenos.'",
-                "III. 'O sol se pôs sobre o mar.'"
-            ],
-            "complementoDoEnunciado": "Qual das frases possui aliteração?"
-        },
-        "categoria": "figuras-de-som",
-        "alternativas": [
-            { "conteudo": "Apenas I e II.", "certa": true },
-            { "conteudo": "Apenas III.", "certa": false },
-            { "conteudo": "Apenas I.", "certa": false },
-            { "conteudo": "Todas as frases.", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "A aliteração ocorre pela repetição de sons consonantais, como 'r' em I e 's' em II."
-    },
-    {
-        "id": 12,
-        "pergunta": {
-            "enunciado": "Classifique o sujeito das orações a seguir:",
-            "listaEnumerada": [
-                "I. Chove muito nesta época do ano.",
-                "II. Todos os alunos chegaram cedo.",
-                "III. Vende-se casas no bairro novo."
-            ],
-            "complementoDoEnunciado": "Qual alternativa apresenta corretamente a classificação dos sujeitos?"
-        },
-        "categoria": "classificacao-de-sujeito",
-        "alternativas": [
-            { "conteudo": "I. sujeito inexistente; II. sujeito simples; III. sujeito indeterminado.", "certa": false },
-            { "conteudo": "I. sujeito simples; II. sujeito composto; III. sujeito inexistente.", "certa": false },
-            { "conteudo": "I. sujeito inexistente; II. sujeito simples; III. sujeito simples.", "certa": true },
-            { "conteudo": "I. sujeito oculto; II. sujeito composto; III. sujeito indeterminado.", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "A frase I tem sujeito inexistente (fenômeno da natureza); II tem sujeito simples ('Todos os alunos'); III também tem sujeito simples ('casas')."
-    },
-    {
-        "id": 13,
-        "pergunta": {
-            "enunciado": "Observe as frases a seguir:",
-            "listaEnumerada": [
-                "I. Entregou o presente à aniversariante.",
-                "II. Chegou a uma conclusão rapidamente.",
-                "III. Foi à pé para o trabalho."
-            ],
-            "complementoDoEnunciado": "Qual frase contém uso incorreto da crase?"
-        },
-        "categoria": "crase",
-        "alternativas": [
-            { "conteudo": "Apenas a frase III.", "certa": true },
-            { "conteudo": "Apenas a frase II.", "certa": false },
-            { "conteudo": "Apenas a frase I.", "certa": false },
-            { "conteudo": "Todas estão corretas.", "certa": false }
-        ],
-        "respostaUsuario": null,
-        "acertou": false,
-        "justificativaResposta": "Na frase III, não se usa crase antes da palavra 'pé', pois não há artigo definido que a justifique."
-    },
+    // informatica
     {
         id: 14,
         pergunta: {
@@ -354,8 +162,85 @@ const listaDeQuestoes: Questao[] = [
         respostaUsuario: null,
         acertou: false,
         justificativaResposta: "O atalho Ctrl + T, no navegador Google Chrome, é utilizado para abrir uma nova aba. Esse comando é padrão em diversos navegadores modernos."
-    }
+    },
+    {
+        id: 18,
+        pergunta: {
+            enunciado: "Utilizando o Pacote Microsoft Office 2013, instalação padrão, português do Brasil, assinale a alternativa que representa o comando Ctrl+C no programa Word.",
+        },
+        materia: 'informatica',
+        categoria: "edicao-de-textos-planilhas-apresentacoes",
+        alternativas: [
+            { conteudo: "Sublinhado.", certa: false },
+            { conteudo: "Selecionar tudo.", certa: false },
+            { conteudo: "Fechar.", certa: false },
+            { conteudo: "Recortar.", certa: false },
+            { conteudo: "Copiar.", certa: true },
+        ],
+        respostaUsuario: null,
+        acertou: false,
+        justificativaResposta: "O atalho Ctrl+C é amplamente utilizado no Word e em outros programas para copiar o conteúdo selecionado. Esse comando é parte fundamental da edição de texto."
+    },
+    {
+        id: 21,
+        pergunta: {
+            enunciado: "Considere a imagem a seguir:",
+            complementoDoEnunciado: 'A imagem apresenta os elementos disponíveis no grupo “Área de Transferência” do Microsoft Word 365. Sendo assim, assinale a alternativa correta com os nome dos elementos disponíveis na imagem.',
+            imagem: '/imagensQuestoes/imagem-1.png'
+        },
+        materia: 'informatica',
+        categoria: "edicao-de-textos-planilhas-apresentacoes",
+        alternativas: [
+            { conteudo: "Colar – Recortar – Duplicar - Formatar. ", certa: false },
+            { conteudo: "Colar – Cortar – Copiar – Pincel de Formatação.", certa: true },
+            { conteudo: "Colar – Recortar – Copiar – Pincel de Formatação", certa: false },
+            { conteudo: "Colar – Recortar – Copiar – Realce do Texto. ", certa: false },
+            { conteudo: "Colar – Recortar – Copiar – Desfazer ", certa: false },
+        ],
+        respostaUsuario: null,
+        acertou: false,
+        justificativaResposta: "A questão trata dos botões da faixa de opções do Word relacionados à edição de texto (Copiar, Colar, Recortar e Pincel de Formatação), que são funções clássicas de edição em editores de texto como o Microsoft Word."
+    },
+    {
+        id: 19,
+        pergunta: {
+            enunciado: "Assinale a alternativa que não representa um navegador de internet.",
+        },
+        materia: 'informatica',
+        categoria: "internet-e-intranet",
+        alternativas: [
+            { conteudo: "Mozilla Firefox.", certa: false },
+            { conteudo: "Internet Explorer.", certa: false },
+            { conteudo: "Google Chrome.", certa: false },
+            { conteudo: "Google Drive.", certa: true },
+            { conteudo: "Edge.", certa: false },
+        ],
+        respostaUsuario: null,
+        acertou: false,
+        justificativaResposta: "Google Drive é um serviço de armazenamento em nuvem, não um navegador. Os demais (Firefox, Internet Explorer, Chrome, Edge) são navegadores da web."
+    },
+    {
+        id: 20,
+        pergunta: {
+            enunciado: "Utilizando o Windows 10, instalação padrão, português do Brasil, assinale a alternativa que representa o comando Alt+F4.",
+        },
+        materia: 'informatica',
+        categoria: "sistema-operacional-windows",
+        alternativas: [
+            { conteudo: "Desfazer uma ação.", certa: false },
+            { conteudo: "Alternar aplicativos abertos.", certa: false },
+            { conteudo: "Fechar o item ativo ou sair do aplicativo ativo.", certa: true },
+            { conteudo: "Atualizar a janela ativa.", certa: false },
+            { conteudo: "Ativar a barra de menus no aplicativo ativo.", certa: false },
+        ],
+        respostaUsuario: null,
+        acertou: false,
+        justificativaResposta: "O atalho Alt+F4 é utilizado para fechar a janela atual ou o programa ativo no sistema Windows, sendo uma função comum no gerenciamento do sistema operacional."
+    },
 ]
 
 
-export default listaDeQuestoes
+export {
+    textosBase,
+    listaDeQuestoes
+}

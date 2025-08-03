@@ -10,4 +10,5 @@ export default interface Questao {
     acertou: boolean
     justificativaResposta: string
     materia?: string // depois vai ser obrigatorio
+    textoBaseId?: number // ← Aqui está o vínculo com o texto compartilhado
 }

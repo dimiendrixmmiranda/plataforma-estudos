@@ -1,9 +1,12 @@
 'use client'
 
+import Ancora from "@/components/base/Ancora"
+import MenuInferior from "@/components/menuInferior/MenuInferior"
 import PerguntaExercicio from "@/components/perguntaExercicio/PerguntaExercicio"
 import SidebarComponent from "@/components/sidebarComponent/SidebarComponente"
 import Template from "@/components/template/Template"
 import { listaPerguntasExercicios } from "@/constants/perguntasExercicio"
+import useAuth from "@/data/hook/useAuth"
 import PerguntaExercicioInterface from "@/interfaces/PerguntaExercicio"
 import { useParams } from "next/navigation"
 import { useEffect, useState } from "react"
@@ -11,9 +14,10 @@ import { IoDocumentTextOutline } from "react-icons/io5"
 import { PiEyesBold } from "react-icons/pi"
 
 export default function Page() {
+    const { usuario } = useAuth()
     const params = useParams()
     const id = typeof params.slug === 'string' ? params.slug : params.slug?.[0]
-
+    console.log(id)
     const [perguntas, setPerguntas] = useState<PerguntaExercicioInterface[]>([])
     useEffect(() => {
         setPerguntas(listaPerguntasExercicios.filter(pergunta => pergunta.categoriaDaPergunta === id))
@@ -52,6 +56,8 @@ export default function Page() {
                         Uma colinha bem legal
                     </div>
                 </SidebarComponent>
+                <Ancora link="/pages/materias"/>
+                <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />
             </div>
         </Template>
     )

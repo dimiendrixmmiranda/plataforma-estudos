@@ -17,6 +17,8 @@ export default function ReproduzirTexto({ texto }: ReproduzirTextoProps) {
         }
 
         if (status === 'idle') {
+            window.speechSynthesis.cancel()
+
             const utterance = new SpeechSynthesisUtterance(texto)
             utterance.lang = 'pt-BR'
             utterance.rate = 1.15

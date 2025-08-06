@@ -11,6 +11,7 @@ import Link from "next/link";
 import { createSlug } from "@/utils/createSlug";
 import MenuInferior from "../menuInferior/MenuInferior";
 import useAuth from "@/data/hook/useAuth";
+import ReproduzirTexto from "../reproduzirTexto/ReproduzirTexto";
 
 export default function EdicaoDeTextosPlanilhasApresentacoes() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
@@ -22,6 +23,13 @@ export default function EdicaoDeTextosPlanilhasApresentacoes() {
             {/* Titulo da Disciplina */}
             <TituloMateria texto={`${informatica["edicao-de-textos-planilhas-e-apresentacoes"].titulo}`} />
             <IntroducaoMateria introducao={informatica["edicao-de-textos-planilhas-e-apresentacoes"].introducao} />
+            <ReproduzirTexto
+                texto={
+                    Array.isArray(informatica["edicao-de-textos-planilhas-e-apresentacoes"].introducao)
+                        ? informatica["edicao-de-textos-planilhas-e-apresentacoes"].introducao.join(' ')
+                        : informatica["edicao-de-textos-planilhas-e-apresentacoes"].introducao
+                }
+            />
             <SubmateriasNavegacao arrayDeMaterias={informatica["edicao-de-textos-planilhas-e-apresentacoes"].submaterias} />
             {/* Submaterias */}
             <ul className="flex flex-col gap-4">
@@ -41,6 +49,13 @@ export default function EdicaoDeTextosPlanilhasApresentacoes() {
                                     </button>
                                 </div>
                                 {/* Explicação */}
+                                <ReproduzirTexto
+                                    texto={
+                                        Array.isArray(submateria.explicacao)
+                                            ? submateria.explicacao.join(' ')
+                                            : submateria.explicacao
+                                    }
+                                />
                                 <ul>
                                     {
                                         submateria.explicacao.map((paragrafo, i) => {

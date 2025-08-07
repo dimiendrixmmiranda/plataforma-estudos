@@ -4,9 +4,10 @@ import { useState, useRef, useEffect } from 'react'
 
 interface ReproduzirTextoProps {
     texto: string
+    reduzida?: boolean
 }
 
-export default function ReproduzirTexto({ texto }: ReproduzirTextoProps) {
+export default function ReproduzirTexto({ texto, reduzida }: ReproduzirTextoProps) {
     const [status, setStatus] = useState<'idle' | 'playing' | 'paused'>('idle')
     const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null)
 
@@ -48,12 +49,19 @@ export default function ReproduzirTexto({ texto }: ReproduzirTextoProps) {
     }, [])
 
     return (
-        <div>
+        <div className={`${reduzida ? 'flex justify-end': ''}`}>
             <button
                 onClick={handleClick}
-                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+                className={`${reduzida ? 'p-1 rounded-md text-sm' : 'px-4 py-2 rounded'} bg-amarelo font-bold text-white hover:bg-amarelo`}
+                style={{boxShadow: '0 0 2px 1px black', textShadow: '1px 1px 2px black'}}
             >
-                {status === 'playing' ? '⏸️ Pausar' : status === 'paused' ? '▶️ Continuar' : '🔊 Reproduzir'}
+                {
+                    reduzida ? (
+                        status === 'playing' ? '⏸️' : status === 'paused' ? '▶️' : '🔊'
+                    ) : (
+                        status === 'playing' ? '⏸️ Pausar' : status === 'paused' ? '▶️ Continuar' : '🔊 Reproduzir'
+                    )
+                }
             </button>
         </div>
     )

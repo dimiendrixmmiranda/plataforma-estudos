@@ -1,6 +1,7 @@
 'use client'
 
 import Link from "next/link"
+import ReproduzirTexto from "../reproduzirTexto/ReproduzirTexto"
 
 interface SubmateriasNavegacaoProps {
     arrayDeMaterias: { texto: string, id: string, introducao: string }[]
@@ -16,6 +17,10 @@ export default function SubmateriasNavegacao({ arrayDeMaterias }: SubmateriasNav
                             <Link href={`#${materia.id}`}>
                                 <p><b>{materia.texto}</b>: {materia.introducao}</p>
                             </Link>
+                            <ReproduzirTexto
+                                reduzida={true}
+                                texto={materia.texto + '\n\n' + materia.introducao}
+                            />
                         </li>
                     )
                 })

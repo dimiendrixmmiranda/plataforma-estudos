@@ -825,20 +825,357 @@ const informatica = {
                     `Com a crescente popularização dessas tecnologias, entender como a inteligência artificial funciona e conhecer suas principais aplicações é essencial para acompanhar as tendências digitais e utilizar esses recursos de forma segura e produtiva. Nos concursos públicos, o tema pode ser abordado em questões que avaliem o conhecimento básico sobre essas ferramentas e suas funções.`
                 ],
             },
-            
+
         ],
     },
     ['organizacao-e-gerenciamento-de-informacoes']: {
         titulo: 'Organizacao e Gerenciamento de Informações',
         id: 'organizacao-e-gerenciamento-de-informacoes',
+        introducao: [
+            `No cenário atual dos concursos públicos de nível médio, a disciplina de organização e gerenciamento de informações tem se tornado cada vez mais relevante. Compreender os conceitos e as práticas relacionadas a essa área é fundamental para o sucesso dos candidatos, pois a capacidade de lidar com o volume crescente de dados e informações é uma habilidade essencial em qualquer ambiente de trabalho, especialmente no setor público.`,
+            `Este material didático foi elaborado com o objetivo de fornecer um guia completo e de fácil entendimento sobre os principais tópicos dessa disciplina, abordando desde os conceitos fundamentais até as aplicações práticas, com foco nas exigências dos concursos de nível médio.`
+        ],
+        submaterias: [
+            {
+                texto: 'Conceitos Fundamentais',
+                id: 'conceitos-fundamentais',
+                introducao: 'A gestão eficiente de informações começa por entender o que são dados e o que é informação, além de reconhecer os diferentes tipos de informação existentes. Essa base teórica é essencial para organizar, analisar e utilizar corretamente o fluxo informacional em qualquer organização.',
+                explicacao: [
+                    `Dados são elementos brutos, isolados e sem significado imediato. Podem ser números, textos, imagens ou fatos que, por si só, não transmitem conhecimento — por exemplo, um número de telefone, uma data ou um nome são dados enquanto não estiverem contextualizados.`,
+                    `Informação é o resultado do processamento, organização e interpretação dos dados, conferindo-lhes significado e utilidade. Quando um número de telefone é associado a um nome e endereço, por exemplo, torna-se uma informação relevante para contato e tomada de decisão.`,
+                    `A informação estruturada segue um formato predefinido e é facilmente organizada em bancos de dados, planilhas e outros registros; é quantificável e de fácil pesquisa, como dados de vendas, registros de funcionários e informações financeiras. A informação não estruturada não possui formato fixo e corresponde à maior parte do conteúdo gerado atualmente; inclui textos (e-mails, documentos, relatórios), áudios, vídeos e imagens, sendo mais complexa de analisar e gerenciar e exigindo ferramentas e técnicas específicas.`,
+                    `A informação semiestruturada situa-se entre a estruturada e a não estruturada: possui alguma organização — por exemplo, arquivos XML, JSON e HTML com tags ou marcadores —, mas não um esquema rígido que permita fácil indexação tradicional. A informação explícita é o conhecimento formalizado e documentado, que pode ser facilmente transmitido e compartilhado, como livros, manuais, relatórios e procedimentos. Em contraste, a informação tácita é pessoal, subjetiva e difícil de formalizar; resulta da experiência, intuição e habilidades individuais e reside na prática e vivência das pessoas.`,
+                    `Compreender essas classificações é fundamental para saber como lidar com diferentes tipos de informação, sobretudo em contextos como a administração pública, onde a gestão adequada de dados e informações é essencial para decisões mais eficientes e transparentes.`
+                ],
+                video: {
+                    titulo: `Organização e Gerenciamento de Informações`,
+                    linkDoCanal: 'https://www.youtube.com/@MarcelRios',
+                    idVideo: 'EHeiseC1GJ0'
+                },
+            },
+            {
+                texto: 'Gestão Documental',
+                id: 'gestao-documental',
+                introducao: 'A gestão documental é um elemento essencial para a organização e o funcionamento eficiente de qualquer instituição, pública ou privada. Por meio de métodos e normas específicas, ela garante que os documentos sejam devidamente criados, utilizados, preservados ou descartados, assegurando transparência, economia e acesso à informação.',
+                explicacao: [
+                    `A gestão documental, também chamada de gestão de documentos, envolve o planejamento, a organização, o controle e o uso de documentos desde a sua criação até a sua destinação final. O objetivo central é garantir que a informação registrada seja acessível, autêntica, confiável e segura, contribuindo para a eficiência das atividades e para a clareza nos processos administrativos.`,
+                    `Entre seus objetivos, destacam-se assegurar o pleno exercício da cidadania, agilizar o acesso a arquivos e informações e promover a transparência nas ações administrativas. Também busca garantir economia e eficácia na administração, seja pública ou privada, além de agilizar a tomada de decisões.`,
+                    `Outro aspecto importante é o incentivo ao trabalho multidisciplinar e colaborativo, o controle do fluxo de documentos e a organização dos arquivos. A gestão documental também se preocupa em racionalizar a produção de documentos e estabelecer procedimentos padronizados para avaliação, transferência, guarda ou eliminação de registros.`,
+                    `Por fim, um dos papéis mais relevantes dessa prática é preservar o patrimônio documental de guarda permanente, garantindo que informações de valor histórico, administrativo ou jurídico sejam mantidas de forma segura e acessível para as gerações futuras.`
+                ],
+                video: {
+                    titulo: `Gestão Documental`,
+                    linkDoCanal: 'https://www.youtube.com/@pgfconcursos',
+                    idVideo: 'D4LRKRlKtPk'
+                },
+            },
+            {
+                texto: 'Princípios Arquivísticos',
+                id: 'principios-arquivisticos',
+                introducao: 'Os princípios arquivísticos constituem a base conceitual da gestão documental e orientam a forma como os documentos devem ser organizados, preservados e utilizados. Eles garantem que o acervo documental mantenha sua autenticidade, integridade e valor informacional ao longo do tempo, preservando a história e a funcionalidade das instituições.',
+                explicacao: [
+                    `O princípio da proveniência determina que os arquivos sejam organizados de acordo com as atividades da instituição ou do responsável por sua produção, preservando a identidade do documento e seu vínculo com o produtor original. Isso impede que documentos de origens diferentes sejam misturados, mantendo sua individualidade e o contexto de produção.`,
+                    `O princípio da organicidade estabelece que os conjuntos documentais refletem as relações administrativas e funcionais da entidade que os gerou. Assim, os arquivos representam a estrutura, as funções e as interações internas e externas da organização.`,
+                    `O princípio da unicidade afirma que cada documento de arquivo é único dentro do seu contexto de produção, independentemente do formato, tipo, gênero ou suporte em que foi criado. Essa característica ressalta o valor exclusivo do documento em seu conjunto.`,
+                    `O princípio da indivisibilidade, ou integridade, defende que os arquivos devem ser preservados em sua totalidade, evitando qualquer forma de destruição não autorizada ou dispersão indevida que possa comprometer o acervo.`,
+                    `Por fim, o princípio da cumulatividade indica que os arquivos se formam de maneira progressiva, natural e orgânica, acompanhando o desenvolvimento das atividades da instituição ao longo do tempo e incorporando continuamente novos documentos ao acervo.`
+                ],
+                video: {
+                    titulo: `Princípios Arquivísticos`,
+                    linkDoCanal: 'https://www.youtube.com/@xandioliveira',
+                    idVideo: 'Y3dG3bWUOiY'
+                },
+            },
+            {
+                texto: 'Fases da Gestão Documental e Níveis de Aplicação',
+                id: 'fases-da-gestao-documental-e-niveis-de-aplicacao',
+                introducao: 'A gestão documental é estruturada em fases que acompanham todo o ciclo de vida dos documentos, desde sua criação até sua eliminação ou guarda permanente. Além disso, ela pode ser aplicada em diferentes níveis de abrangência, variando de ações básicas até programas completos e integrados de administração de informações.',
+                explicacao: [
+                    `A primeira fase é a produção de documentos, que envolve a elaboração de registros vinculados a atividades específicas de um órgão ou setor. Nessa etapa, prioriza-se a criação apenas de documentos essenciais, evitando a produção desnecessária e reduzindo o volume a ser manuseado, armazenado ou eliminado. Também é nessa fase que se aplicam recursos como automação e reprografia para otimizar a produção.`,
+                    `A segunda fase é a utilização de documentos, que compreende todo o fluxo percorrido por eles durante seu uso administrativo. Isso inclui a tramitação, o acesso e a guarda temporária logo após o encerramento de seu trâmite, garantindo que cumpram plenamente sua função administrativa.`,
+                    `A terceira fase é a destinação de documentos, momento em que se decide, com base em critérios e prazos de guarda, quais documentos serão eliminados e quais terão preservação permanente. Essa decisão é fundamentada em análises e seleções cuidadosas. Quanto aos níveis de aplicação, o nível mínimo estabelece que o órgão deve, seguindo procedimentos, reter e eliminar documentos, além de recolher os que possuam valor permanente conforme as normas da instituição arquivística pública.`,
+                    `O nível mínimo ampliado complementa o anterior, prevendo a existência de um ou mais centros de arquivamento intermediário. O nível intermediário une o nível mínimo e o ampliado, incluindo ainda programas básicos para elaboração e gestão de formulários, correspondências e implantação de sistemas de arquivos. Por fim, o nível máximo contempla todas as atividades dos níveis anteriores e acrescenta a gestão de telecomunicações, diretrizes administrativas e a utilização de recursos de automação para otimizar todo o processo documental.`
+                ],
+            },
+            {
+                texto: 'Modelos de Gestão Documental e Gestão de Arquivos Correntes',
+                id: 'modelos-de-gestao-documental-e-gestao-de-arquivos-correntes',
+                introducao: 'A gestão documental utiliza modelos e práticas padronizadas para garantir a organização, a preservação e o controle dos documentos de uma instituição. Entre esses procedimentos, destaca-se também a gestão de arquivos correntes, que lida diretamente com os documentos em uso ativo, assegurando seu acesso rápido e eficiente.',
+                explicacao: [
+                    `Os modelos de gestão documental são formatos e instrumentos estabelecidos para padronizar atividades relacionadas aos arquivos. Exemplos incluem o formulário de proposta de atualização da tabela de temporalidade ou do plano de classificação documental, o modelo de espelho que acompanha documentos para arquivamento, o termo de transferência de documentos, a relação de eliminação, o termo de eliminação, o edital de ciência da eliminação e o termo de retirada de documentos. Esses modelos garantem uniformidade, clareza e segurança nos processos administrativos.`,
+                    `Já a gestão de arquivos correntes está diretamente ligada ao funcionamento diário de uma instituição, pois trata dos documentos em uso ativo. Envolve processos como classificação, registro, autuação, controle de tramitação, expedição e arquivamento, todos voltados a facilitar o acesso às informações necessárias para as atividades internas. Essas operações técnicas são fundamentais para manter a eficiência administrativa e a organização dos fluxos documentais.`
+                ],
+            },
+            {
+                texto: 'Ciclo de Vida da Informação',
+                id: 'ciclo-de-vida-da-informacao',
+                introducao: 'O ciclo de vida da informação descreve todas as etapas pelas quais uma informação passa, desde sua criação até seu descarte final. Conhecer esse processo é essencial para garantir o gerenciamento eficiente, seguro e organizado de dados e documentos, evitando perdas, acessos indevidos e uso ineficaz das informações.',
+                explicacao: [
+                    `A primeira etapa é a criação ou coleta, momento em que a informação é gerada ou obtida. Pode envolver a produção de um documento, o registro de dados em um sistema, a gravação de uma reunião ou a coleta de informações por sensores. A qualidade do conteúdo nessa fase é fundamental, pois erros iniciais podem se propagar por todas as demais etapas.`,
+                    `Em seguida, vem o armazenamento, que consiste em manter a informação de forma segura e acessível. Isso pode ocorrer em bancos de dados, sistemas de arquivos, nuvem ou arquivos físicos. A escolha do método depende do tipo de informação, do nível de segurança necessário e da frequência de acesso.`,
+                    `O processamento é a etapa em que a informação é organizada, analisada e transformada para gerar resultados ou atender demandas específicas. Envolve ações como classificação, filtragem, agregação e análise, podendo ser realizado manualmente ou com o auxílio de softwares e algoritmos.`,
+                    `Depois, ocorre a distribuição ou acesso, quando a informação processada é disponibilizada para os usuários que dela necessitam. Isso pode ser feito por meio de relatórios, dashboards, e-mails, sistemas corporativos ou outras formas de comunicação, sempre priorizando que chegue ao público certo, no formato e momento adequados.`,
+                    `O uso representa a aplicação prática da informação, seja para tomar decisões, executar tarefas, resolver problemas ou gerar novos conhecimentos. A eficácia dessa etapa depende diretamente da qualidade, relevância e facilidade de acesso ao conteúdo.`,
+                    `A manutenção garante que a informação permaneça correta, atualizada e segura ao longo do tempo. Inclui atividades como atualizações, correções, migrações e backups, prevenindo perdas e garantindo disponibilidade contínua.`,
+                    `Por fim, o descarte marca a última fase, quando a informação deixa de ser necessária ou relevante. Esse processo deve ser realizado de forma segura, respeitando as políticas de retenção e as exigências legais, evitando vazamentos e o acúmulo desnecessário de dados.`
+                ],
+            },
+            {
+                texto: 'Sistemas da Informação',
+                id: 'sistemas-da-informacao',
+                introducao: 'Os sistemas de informação são fundamentais para o funcionamento das organizações modernas, pois integram tecnologia, dados, pessoas e processos com o objetivo de coletar, processar, armazenar e distribuir informações. Eles apoiam desde as operações diárias até a tomada de decisões estratégicas, sendo tema recorrente em concursos públicos e estudos de gestão e tecnologia.',
+                explicacao: [
+                    `Um sistema de informação é um conjunto organizado que interage com o ambiente para capturar dados, transformá-los em informações úteis e disponibilizá-las para quem precisa. Seus principais componentes incluem o hardware, que são os equipamentos físicos como computadores e servidores; o software, que engloba sistemas operacionais, aplicativos e bancos de dados; os dados, que representam os fatos brutos a serem processados; as pessoas, que operam, analisam e utilizam o sistema; e os processos, que definem as regras e etapas para o tratamento da informação.`,
+                    `Entre os tipos de sistemas de informação, destacam-se os Sistemas de Processamento de Transações (SPT), responsáveis por registrar operações rotineiras como vendas e folha de pagamento, sendo essenciais para a execução das atividades diárias. Os Sistemas de Informações Gerenciais (SIG) organizam e resumem dados para apoiar a gestão de nível intermediário, permitindo o acompanhamento e o controle das operações com base nas informações geradas pelos SPT.`,
+                    `Já os Sistemas de Apoio à Decisão (SAD) oferecem recursos para análises mais complexas e não rotineiras, permitindo simulações e projeções que auxiliam na escolha de estratégias. Os Sistemas de Informação Executiva (SIE) atendem à alta gerência, fornecendo dados estratégicos de forma resumida e visual, voltados ao planejamento e à tomada de decisões de longo prazo.`,
+                    `Além desses, há sistemas integrados como o Enterprise Resource Planning (ERP), que unificam processos de diferentes áreas da organização, e o Customer Relationship Management (CRM), que gerencia informações sobre clientes para melhorar o relacionamento e a fidelização.`,
+                    `Outro tipo relevante é o Supply Chain Management (SCM), que coordena toda a cadeia de suprimentos, desde a aquisição de matérias-primas até a entrega ao consumidor, buscando otimizar o fluxo de materiais, informações e recursos financeiros. Compreender o funcionamento e a aplicação desses sistemas é essencial para entender como as organizações utilizam a informação para alcançar eficiência, competitividade e melhor tomada de decisão.`
+                ],
+                video: {
+                    titulo: `Sistemas da Informação`,
+                    linkDoCanal: 'https://www.youtube.com/@EuTIEnsino',
+                    idVideo: 'rN3YnSg0WjM'
+                },
+            },
+            {
+                texto: 'Segurança da Informação',
+                id: 'seguranca-da-informacao',
+                introducao: 'A Segurança da Informação consiste em proteger os dados e sistemas de uma organização contra acessos indevidos, perdas ou danos. É essencial para garantir a confiança e o funcionamento adequado das operações.',
+                explicacao: [
+                    `Os pilares fundamentais da Segurança da Informação são a Confidencialidade, que assegura que somente pessoas autorizadas tenham acesso às informações; a Integridade, que mantém os dados precisos e completos, impedindo modificações não autorizadas; e a Disponibilidade, que garante que os usuários legítimos possam acessar as informações sempre que necessário. Além disso, conceitos como Autenticidade e Não Repúdio reforçam a verificação da identidade e a impossibilidade de negar ações ou origens de dados, aumentando a confiabilidade dos sistemas.`,
+                    `As ameaças à segurança são variadas e podem ocorrer por meio de malwares, como vírus e ransomware, ataques de phishing que buscam enganar usuários para obter dados sensíveis, engenharia social que manipula pessoas, ataques de negação de serviço que tornam sistemas indisponíveis, além do vazamento de dados. Essas ameaças exploram vulnerabilidades, que são fraquezas em sistemas ou processos, como senhas fracas, softwares desatualizados ou falta de treinamento dos usuários.`,
+                    `Para mitigar esses riscos, as organizações adotam diversas medidas de segurança. Controles de acesso limitam quem pode visualizar ou alterar as informações, utilizando senhas fortes e autenticação multifator. A criptografia protege os dados codificando-os para que só possam ser lidos por quem possui a chave adequada. Backups garantem a restauração dos dados em caso de perda, enquanto antivírus e firewalls bloqueiam softwares maliciosos e acessos indevidos.`,
+                    `Manter os sistemas atualizados corrige vulnerabilidades conhecidas, e a conscientização dos usuários por meio de treinamentos reduz falhas humanas. Políticas de segurança e auditorias periódicas asseguram que as diretrizes sejam cumpridas e os riscos continuamente avaliados, promovendo um ambiente seguro para a informação.`
+                ],
+                video: {
+                    titulo: `Segurança da Informação`,
+                    linkDoCanal: 'https://www.youtube.com/@EuTIEnsino',
+                    idVideo: 'X2wgk02Bqt0'
+                },
+            },
+            {
+                texto: 'Dicas',
+                id: 'dicas',
+                introducao: 'Dicas gerais para Organização e Gerenciamento de Informações',
+                explicacao: [
+                    `Para quem vai prestar concursos públicos de nível médio, é muito importante ter uma estratégia eficiente para estudar os temas relacionados à organização e gerenciamento de informações. Isso porque as provas costumam cobrar não só definições, mas também a aplicação prática dos conceitos. Portanto, mais do que decorar, é essencial compreender profundamente os assuntos para conseguir resolver questões de forma segura e correta.`,
+                    `Um dos primeiros passos para um bom estudo é entender os conceitos fundamentais, como a diferença entre dados e informações, os tipos de informações e o ciclo de vida da informação. Saber exatamente o que cada termo significa e como eles se relacionam ajuda a interpretar questões que muitas vezes são formuladas em contextos variados, exigindo raciocínio e não apenas memorização.`,
+                    `Outro ponto importante são os princípios da gestão documental, conhecidos como princípios arquivísticos. Esses princípios — proveniência, organicidade, unicidade, indivisibilidade e cumulatividade — orientam a forma como os documentos e registros são organizados e preservados. Entender o significado de cada um deles e saber identificar situações práticas em que se aplicam é fundamental para responder perguntas que envolvem cenários de arquivos e documentos.`,
+                    `Também é necessário dominar as fases e os níveis da gestão documental. As fases se dividem em produção, utilização e destinação, e cada uma representa um estágio do ciclo de vida dos documentos. Já os níveis (mínimo, mínimo ampliado, intermediário e máximo) indicam a extensão e profundidade do controle e organização documental em diferentes contextos. Conhecer essas distinções ajuda na resolução de questões que pedem identificação ou associação desses conceitos.`,
+                    `Além disso, é crucial conhecer os tipos de sistemas de informação, pois são temas frequentes nas provas. Os sistemas mais comuns cobrados incluem SPT (Sistema de Processamento de Transações), SIG (Sistema de Informação Gerencial), SAD (Sistema de Apoio à Decisão), SIE (Sistema de Informação Executiva), ERP (Planejamento de Recursos Empresariais), CRM (Gestão de Relacionamento com o Cliente) e SCM (Gestão da Cadeia de Suprimentos). Saber a função de cada sistema e quando cada um é mais indicado facilita a resolução de questões com cenários práticos.`,
+                    `Na área de segurança da informação, o foco deve ser nos pilares fundamentais: confidencialidade, integridade e disponibilidade. Entender o que significa cada um desses pilares e como as organizações protegem as informações contra ameaças diversas é essencial. Também é importante conhecer os principais tipos de ameaças, como malwares (vírus, worms, trojans, ransomware, spyware), e as medidas básicas de proteção adotadas.`,
+                    `Para que o estudo seja eficaz, recomenda-se utilizar materiais de qualidade, como apostilas, livros e videoaulas específicos para concursos públicos, que estejam atualizados e alinhados com os editais recentes. Além disso, organizar o conteúdo por meio de resumos e mapas mentais é uma ótima estratégia para facilitar a memorização e a revisão constante.`,
+                    `Outro ponto essencial é praticar bastante resolvendo questões de concursos anteriores. Isso ajuda a familiarizar-se com o estilo das perguntas de diferentes bancas e a identificar quais temas ainda precisam ser reforçados. Sempre que errar uma questão, é importante revisar o conteúdo relacionado para corrigir as dificuldades e consolidar o aprendizado.`,
+                    `Entre os principais pontos que devem ser memorizados estão definições claras de dados e informação, conceitos de gestão documental e sistemas de informação, além dos pilares da segurança da informação. Também vale destacar os princípios arquivísticos, as fases da gestão documental e os tipos de malware mais comuns.`,
+                    `Por fim, as questões em concursos costumam abordar a conceituação dos temas, pedindo definições ou distinções entre termos. Também aparecem perguntas que exigem a aplicação dos princípios arquivísticos em cenários específicos, a identificação das fases da gestão documental ou o reconhecimento do sistema de informação adequado para uma situação descrita. Além disso, são comuns as perguntas sobre segurança da informação, que envolvem seus pilares, as ameaças existentes e as formas de proteção.`
+                ],
+            },
+        ],
     },
     ['certificacao-e-assinatura-digital']: {
         titulo: 'Certificacao e Assinatura Digital',
         id: 'certificacao-e-assinatura-digital',
+        introducao: [
+            `O certificado digital é uma ferramenta essencial para garantir a segurança e a autenticidade das interações no ambiente virtual. Funcionando como uma identidade digital, ele possibilita que pessoas físicas, empresas e dispositivos se identifiquem de forma segura na internet. Por meio de informações criptografadas, o certificado assegura que as transações online sejam feitas com integridade e confidencialidade, evitando fraudes e ataques cibernéticos.`,
+            `Emitido por instituições confiáveis chamadas Autoridades Certificadoras, o certificado digital permite realizar diversas operações seguras, como assinar documentos eletrônicos, acessar sistemas protegidos e efetuar transações financeiras. Essa tecnologia é fundamental para garantir que a comunicação e o compartilhamento de dados ocorram de forma legítima e protegida, tornando-se cada vez mais indispensável na era digital.`,
+            `Além de pessoas físicas que desejam assinar documentos e acessar serviços online, muitas empresas também dependem do certificado digital para conduzir suas atividades diárias. Desde a emissão de notas fiscais eletrônicas até a realização de declarações fiscais e transações bancárias, o uso do certificado digital garante a validade jurídica e a segurança necessária para essas operações no ambiente virtual.`
+        ],
+        submaterias: [
+            {
+                texto: 'Assinatura Digital',
+                id: 'assinatura-digital',
+                introducao: 'A assinatura digital é uma tecnologia que permite assinar documentos eletronicamente com a mesma validade jurídica da assinatura física. Ela garante a autenticidade do remetente, a integridade do documento e a impossibilidade de negar a autoria, tornando as transações digitais mais seguras e confiáveis.',
+                explicacao: [
+                    `A assinatura digital é um recurso tecnológico que permite a assinatura de documentos de forma eletrônica, dispensando o uso de papel ou caneta, e conferindo a mesma validade jurídica da assinatura manuscrita. Essa ferramenta é fundamental para garantir que o documento seja autêntico, íntegro e que o remetente não possa negar a autoria, trazendo segurança e agilidade para processos digitais.`,
+                    `O funcionamento da assinatura digital baseia-se em dois conceitos técnicos principais: a criptografia assimétrica e a função HASH. A criptografia assimétrica utiliza um par de chaves — uma chave privada, que é secreta e exclusiva do titular, e uma chave pública, que pode ser compartilhada. Para autenticar um documento, o emissor o assina criptografando um resumo da mensagem com sua chave privada, o que pode ser verificado por qualquer pessoa que tenha sua chave pública, confirmando a origem da assinatura.`,
+                    `A função HASH é um algoritmo que transforma a mensagem original em um código fixo, chamado resumo ou hash. Na assinatura digital, esse resumo é criptografado junto com a mensagem, garantindo que qualquer alteração no documento seja detectada, pois o destinatário pode gerar um novo resumo da mensagem recebida e compará-lo com o original. Se ambos forem iguais, a integridade do documento está preservada. Esse processo assegura também a irretratabilidade, ou seja, o emissor não pode negar ter assinado o documento, conferindo segurança jurídica às transações eletrônicas.`,
+                    `Por sua importância crescente na administração pública e no setor privado, o tema da assinatura digital é bastante cobrado em concursos públicos, especialmente nas disciplinas relacionadas à informática e direito digital. Com a digitalização dos processos, compreender seu funcionamento e implicações legais é essencial para quem deseja atuar em áreas que envolvam segurança da informação e gestão documental.`
+                ],
+                video: {
+                    titulo: `Assinatura Digital`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfessorSylvioRodrigues',
+                    idVideo: 'K7iXNwYjk38'
+                },
+            },
+            {
+                texto: 'Infraestrutura de Chaves Públicas Brasileira',
+                id: 'infraestrutura-de-chaves-publicas-brasileira',
+                introducao: 'A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil) é o sistema oficial que assegura a validade jurídica dos documentos eletrônicos e das transações digitais no país. Ela estabelece as normas e procedimentos para a emissão, gerenciamento e revogação dos certificados digitais, garantindo segurança e confiança nas operações online. A ICP-Brasil é essencial para a certificação digital e serve como base para a autenticação segura de pessoas físicas, jurídicas e serviços.',
+                explicacao: [
+                    `A ICP-Brasil funciona como uma estrutura hierárquica composta por várias entidades que garantem a emissão e o controle dos certificados digitais no país. No topo dessa hierarquia está o Comitê Gestor da ICP-Brasil, responsável por definir as políticas, normas e diretrizes que regulam todo o sistema. A Autoridade Certificadora Raiz (AC Raiz), representada pelo Instituto Nacional de Tecnologia da Informação (ITI), é a entidade máxima da cadeia de certificação, que credencia e supervisiona as demais Autoridades Certificadoras (ACs) que emitem os certificados para os usuários finais.`,
+                    `As Autoridades Certificadoras são responsáveis por fornecer os certificados digitais para pessoas físicas e jurídicas, seguindo as regras estabelecidas pela AC Raiz. Para garantir que o processo seja seguro, as Autoridades de Registro (ARs) atuam como intermediárias, verificando a identidade dos solicitantes antes de encaminhar os pedidos para as ACs. Além disso, os Prestadores de Serviço de Suporte (PSS) oferecem serviços complementares, como a guarda segura das chaves privadas usadas nas assinaturas digitais, ampliando a proteção do sistema.`,
+                    `Dentro da ICP-Brasil, existem diferentes tipos de certificados digitais, cada um com finalidades específicas. O e-CPF é destinado a pessoas físicas e permite assinar documentos, acessar serviços públicos e realizar transações eletrônicas com validade jurídica. O e-CNPJ representa as empresas, possibilitando operações fiscais, contábeis e assinatura digital em nome da organização. Existem ainda certificados específicos para fins particulares, como o NF-e para emissão de Nota Fiscal Eletrônica e o CT-e para Conhecimento de Transporte Eletrônico, garantindo que diferentes áreas do setor público e privado tenham a segurança adequada para suas operações digitais.`
+                ],
+                video: {
+                    titulo: `Infraestrutura de Chaves Públicas Brasileira`,
+                    linkDoCanal: 'https://www.youtube.com/@DigitalGOVBR',
+                    idVideo: '2WqX6o-qvoI'
+                },
+            },
+            {
+                texto: 'Vantagens da Certificação e Assinatura Digital',
+                id: 'vantagens-da-certificacao-e-assinatura-digital',
+                introducao: 'A certificação e a assinatura digital trazem importantes benefícios para a segurança, legalidade e eficiência das transações eletrônicas. Elas tornam os processos mais rápidos, econômicos e sustentáveis, atendendo às demandas atuais por soluções digitais confiáveis e ambientalmente responsáveis.',
+                explicacao: [
+                    `A certificação e a assinatura digital garantem um alto nível de segurança nas transações eletrônicas, protegendo as informações contra fraudes e alterações indevidas. Elas asseguram a autenticidade do emissor, confirmando que quem assinou o documento é realmente quem diz ser, além de preservar a integridade dos dados para que não sejam modificados durante o processo. A confidencialidade também é garantida, evitando que informações sensíveis sejam acessadas por pessoas não autorizadas.`,
+                    `Um aspecto fundamental da assinatura digital com certificado ICP-Brasil é a sua validade jurídica. Ela tem o mesmo peso legal de uma assinatura manuscrita, o que significa que documentos assinados digitalmente são reconhecidos em processos judiciais e administrativos. Isso confere segurança jurídica tanto para indivíduos quanto para empresas, permitindo que negócios e procedimentos oficiais sejam realizados de forma totalmente digital, sem perder a formalidade exigida por lei.`,
+                    `Além de aumentar a segurança e a legalidade, a certificação e a assinatura digital promovem maior agilidade nos processos, eliminando etapas burocráticas como a impressão de documentos, a assinatura manual e o reconhecimento de firma em cartório. Isso reduz significativamente o tempo necessário para concluir procedimentos, tornando-os mais eficientes. Também gera economia, pois diminui gastos com papel, impressão, transporte e armazenamento, o que se traduz em redução de custos operacionais. Outro benefício importante é o impacto positivo para o meio ambiente, já que a redução do uso de papel contribui para a preservação de recursos naturais, alinhando a tecnologia digital com práticas sustentáveis.`
+                ],
+                video: {
+                    titulo: `Vantagens da Certificação e Assinatura Digital`,
+                    linkDoCanal: 'https://www.youtube.com/@dicionariodeinformatica5370',
+                    idVideo: 'PGSH2rXEsxc'
+                },
+            },
+            {
+                texto: 'Diferenças Cruciais entre Assinatura Eletrônica e Assinatura Digital',
+                id: 'diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital',
+                introducao: 'Embora os termos assinatura eletrônica e assinatura digital sejam frequentemente usados como sinônimos, eles possuem diferenças importantes em termos de tecnologia, segurança e validade jurídica. Entender essas distinções é essencial para garantir a escolha adequada em processos digitais.',
+                explicacao: [
+                    `A distinção entre assinatura eletrônica e assinatura digital é fundamental para entender os diferentes níveis de segurança e validade jurídica nas transações eletrônicas. Embora os termos sejam usados frequentemente como sinônimos, eles representam conceitos diferentes que impactam diretamente a confiabilidade e a proteção dos documentos assinados.`,
+                    `A assinatura eletrônica é um conceito amplo que engloba qualquer método de identificação eletrônica de uma pessoa. Isso inclui desde ações simples, como clicar em um botão “Concordo” em um site, até o uso de login e senha, reconhecimento facial e biometria. Sua validade jurídica pode variar bastante, dependendo do método utilizado e da legislação vigente, o que significa que nem toda assinatura eletrônica oferece o mesmo nível de segurança ou reconhecimento legal.`,
+                    `Por outro lado, a assinatura digital é um tipo específico de assinatura eletrônica que utiliza técnicas avançadas de criptografia e um certificado digital emitido por uma Autoridade Certificadora confiável. Esse modelo oferece o mais alto grau de segurança, garantindo a autenticidade do emissor, a integridade do documento e a irretratabilidade da assinatura, ou seja, o assinante não pode negar a autoria. No Brasil, a assinatura digital tem validade jurídica equiparada à assinatura manuscrita autenticada em cartório, sendo amplamente utilizada em contratos digitais, petições eletrônicas e emissão de notas fiscais.`
+                ],
+                video: {
+                    titulo: `Diferenças Cruciais entre Assinatura Eletrônica e Assinatura Digital`,
+                    linkDoCanal: 'https://www.youtube.com/@ZapSign',
+                    idVideo: 'n2_jssJf0CY'
+                },
+            },
+            {
+                texto: 'Legislação Pertinente',
+                id: 'legislacao-pertinente',
+                introducao: 'No Brasil, a validade jurídica da assinatura digital é respaldada por um conjunto de normas legais que garantem segurança e reconhecimento legal aos documentos eletrônicos assinados digitalmente. Essas legislações estabelecem os critérios para o uso e a aceitação das assinaturas digitais em diferentes contextos, promovendo a confiança nas transações eletrônicas.',
+                explicacao: [
+                    `A principal norma que regula o uso da assinatura digital é a Medida Provisória nº 2.200-2, de 24 de agosto de 2001, que criou a Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil). Essa medida provisória estabeleceu a base legal para a emissão e o reconhecimento dos certificados digitais, conferindo validade jurídica aos documentos assinados digitalmente por meio desses certificados. Com isso, tornou-se possível substituir documentos físicos por eletrônicos, sem perder a segurança e a autenticidade exigidas pela legislação.`,
+                    `Além disso, a Lei nº 14.063, de 23 de setembro de 2020, atualizou e ampliou o marco regulatório ao disciplinar o uso das assinaturas eletrônicas nas relações com órgãos públicos, em atos praticados por pessoas jurídicas e em questões relacionadas à área da saúde. Essa lei também trata sobre as licenças de softwares desenvolvidos por entidades públicas, reforçando a importância das assinaturas eletrônicas para a modernização e digitalização dos serviços públicos e privados no país.`
+                ],
+            },
+        ],
     },
     ['seguranca-da-informacao']: {
         titulo: 'Segurança da Informação',
         id: 'seguranca-da-informacao',
+        introducao: [
+            `A segurança da informação é um conjunto de práticas, políticas e tecnologias voltadas para proteger os dados contra acessos não autorizados, perdas, alterações ou qualquer tipo de ameaça que possa comprometer a sua confidencialidade, integridade e disponibilidade. Em um mundo cada vez mais digitalizado, onde a troca e o armazenamento de informações acontecem em larga escala, garantir a segurança da informação tornou-se essencial para indivíduos, empresas e governos.`,
+            `Além das ameaças tradicionais, como vírus e hackers, a segurança da informação também envolve a prevenção contra vazamentos acidentais, fraudes internas, ataques cibernéticos sofisticados e falhas humanas. Para isso, são aplicadas diversas técnicas, como criptografia, controle de acesso, políticas de backup e treinamentos para conscientização dos usuários. A correta implementação dessas medidas ajuda a minimizar riscos e a proteger os ativos digitais.`,
+            `Com o avanço da tecnologia, o campo da segurança da informação vem ganhando cada vez mais relevância, não só para proteger dados pessoais, mas também para garantir a continuidade dos negócios e a confiança nas relações digitais. Em ambientes corporativos, a segurança da informação é fundamental para o cumprimento de normas legais e regulatórias, evitando prejuízos financeiros e danos à reputação. Dessa forma, investir em segurança é investir na sustentabilidade e na integridade das operações no mundo digital.`
+        ],
+        submaterias: [
+            {
+                texto: 'Aspectos Gerais',
+                id: 'aspectos-gerais',
+                introducao: 'A segurança da informação é um conjunto estruturado de práticas, políticas, procedimentos e tecnologias que visam proteger dados, informações e sistemas contra ameaças e acessos não autorizados. Seu objetivo principal é garantir a confidencialidade, integridade e disponibilidade das informações, elementos fundamentais para o funcionamento seguro e eficiente de qualquer organização ou sistema.',
+                explicacao: [
+                    `Os controles de segurança podem ser divididos em dois tipos principais: físicos e lógicos. Os controles físicos envolvem barreiras tangíveis como trancas, paredes, geradores, sistemas de câmeras e alarmes, que limitam o acesso físico aos recursos. Já os controles lógicos são mecanismos técnicos como senhas, firewalls e criptografia, que protegem as informações e sistemas no ambiente digital contra acessos indevidos.`,
+                    `Além disso, alguns conceitos essenciais ajudam a compreender o funcionamento da segurança da informação. Um ativo é qualquer recurso valioso para a organização, sendo a informação um dos ativos mais importantes. Vulnerabilidades são fragilidades internas desses ativos, enquanto ameaças são agentes externos que podem explorar essas fraquezas.`,
+                    `Quando uma vulnerabilidade é explorada, ocorre um ataque. Eventos são ocorrências que indicam possíveis falhas ou violações, e incidentes são ataques que resultam em danos reais. O impacto refere-se à extensão dos danos causados, enquanto o risco é a probabilidade de que esses eventos ocorram. Esses termos são fundamentais para o planejamento e implementação de estratégias eficazes de proteção.`
+                ],
+                video: {
+                    titulo: `Aspectos Gerais`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfessorDaniloVilanova',
+                    idVideo: 'X2wgk02Bqt0'
+                },
+            },
+            {
+                texto: 'Princípios da Segurança da Informação (CID)',
+                id: 'principios-da-seguranca-da-informacao',
+                introducao: 'Os princípios da segurança da informação são fundamentos essenciais que orientam as práticas e políticas para proteger dados e sistemas. Entre eles, destacam-se a confidencialidade, integridade e disponibilidade, conhecidos pela sigla CID, que asseguram o controle sobre quem pode acessar as informações, a precisão dos dados e a garantia de acesso quando necessário.',
+                explicacao: [
+                    `A confidencialidade refere-se à capacidade de manter as informações protegidas contra acessos não autorizados, garantindo que apenas entidades autorizadas possam visualizar ou utilizar os dados. A integridade assegura que a informação permaneça correta e completa, permitindo alterações apenas por pessoas e processos autorizados, evitando assim modificações indevidas ou acidentais. Já a disponibilidade garante que os dados e sistemas estejam acessíveis sempre que necessários, evitando interrupções que possam prejudicar operações.`,
+                    `Além dos princípios CID, outros conceitos importantes complementam a segurança da informação. A autenticidade garante que o emissor de uma mensagem ou dado seja realmente quem afirma ser, prevenindo fraudes e falsificações. O não repúdio assegura que o remetente de uma informação não possa negar posteriormente sua autoria, protegendo a responsabilidade e a confiança nas comunicações e processos digitais. Esses princípios formam a base para uma proteção eficaz e confiável dos ativos informacionais.`
+                ],
+                video: {
+                    titulo: `Princípios da Segurança da Informação (CID)`,
+                    linkDoCanal: 'https://www.youtube.com/@guianonima',
+                    idVideo: 'tc1vnk7t9kw'
+                },
+            },
+            {
+                texto: 'Criptologia',
+                id: 'criptologia',
+                introducao: 'A criptologia é a ciência que envolve técnicas para proteger informações por meio da ocultação e codificação, garantindo a segurança na comunicação. Ela é composta por três áreas principais: esteganografia, criptografia e criptoanálise, cada uma com funções específicas relacionadas à proteção e ao ataque de mensagens secretas.',
+                explicacao: [
+                    `A esteganografia é a técnica que oculta uma mensagem dentro de outra, tornando seu conteúdo invisível a terceiros. Já a criptografia transforma uma mensagem em um formato ininteligível para quem não possui a chave correta, garantindo a confidencialidade dos dados. A criptoanálise, por sua vez, é a arte e ciência de decifrar mensagens cifradas sem o conhecimento da chave, ou seja, é a prática de quebrar códigos.`,
+                    `Um princípio fundamental da criptologia, conhecido como Princípio de Kerckhoff, estabelece que a segurança de um sistema criptográfico deve depender exclusivamente da chave secreta utilizada e não do segredo do algoritmo, que deve ser público. A segurança criptográfica é influenciada por fatores como a força computacional do algoritmo, o sigilo da chave e o comprimento da chave.`,
+                    `Existem diferentes técnicas de criptografia. Na criptografia simétrica, uma única chave secreta é usada tanto para codificar quanto para decodificar informações, sendo rápida, porém menos segura, e requerendo um canal seguro para troca da chave.`,
+                    `Algoritmos comuns incluem AES e Blowfish. Já na criptografia assimétrica, são usadas duas chaves: uma pública, que pode ser compartilhada, e uma privada, mantida em sigilo. Embora mais lenta, essa técnica oferece confidencialidade, autenticidade e não repúdio, com algoritmos como RSA e ECC. A criptografia híbrida combina ambas, usando a assimétrica para trocar chaves simétricas de sessão de forma segura, aproveitando as vantagens de cada método.`
+                ],
+            },
+            {
+                texto: 'Autenticação',
+                id: 'autenticacao',
+                introducao: 'A autenticação é um processo fundamental para a segurança da informação, pois consiste em verificar a identidade de um usuário, sistema ou entidade, garantindo que ele seja realmente quem afirma ser. Esse procedimento é essencial para controlar o acesso a sistemas, dados e recursos, prevenindo acessos não autorizados e protegendo informações sensíveis.',
+                explicacao: [
+                    `Existem diferentes métodos de autenticação, que podem ser classificados conforme o tipo de prova apresentada. A autenticação baseada em “o que você sabe” exige que o usuário forneça algo conhecido apenas por ele, como senhas ou frases secretas. Já a autenticação baseada em “o que você é” utiliza características biométricas, como impressões digitais, que são únicas para cada pessoa. Por fim, a autenticação baseada em “o que você tem” depende de um objeto físico que somente o usuário legítimo possui, como celulares, crachás, smart cards, chaves físicas ou tokens.`,
+                    `Para aumentar a segurança, existe a autenticação forte, que combina pelo menos dois desses métodos, formando a chamada autenticação em dois fatores ou verificação em duas etapas. Esse tipo de autenticação dificulta ainda mais o acesso indevido, pois requer que o invasor tenha mais de um tipo de prova para conseguir entrar no sistema, tornando a proteção muito mais eficaz.`
+                ],
+                video: {
+                    titulo: `Autenticação`,
+                    linkDoCanal: 'https://www.youtube.com/@MarcelRios',
+                    idVideo: '0o5UGFiW-E0'
+                },
+            },
+            {
+                texto: 'Assinatura Digital e Certificado Digital',
+                id: 'assinatura-digital-e-certificado-digital',
+                introducao: 'Assinatura digital e certificado digital são tecnologias essenciais para garantir a segurança e a autenticidade das comunicações eletrônicas. Enquanto a assinatura digital substitui a assinatura física, assegurando a integridade e autoria dos documentos digitais, o certificado digital funciona como uma identidade eletrônica que valida a autenticidade das partes envolvidas em uma transação onlin',
+                explicacao: [
+                    `A assinatura digital utiliza algoritmos criptográficos, especialmente o algoritmo de hash, para transformar uma mensagem em um código único que confirma sua integridade e autenticidade. Isso permite que o receptor verifique se a mensagem foi realmente enviada pelo remetente indicado e se não sofreu alterações durante o trânsito. Além disso, a assinatura digital garante o não repúdio, ou seja, o remetente não pode negar ter enviado a mensagem.`,
+                    `Já o certificado digital é um documento eletrônico emitido por uma autoridade certificadora confiável, que vincula a identidade de uma pessoa ou organização a um par de chaves criptográficas — uma pública e outra privada. Esse certificado permite que terceiros confiem na identidade do titular e viabiliza a utilização segura da assinatura digital. Juntas, essas tecnologias fortalecem a segurança nas transações eletrônicas, protegendo dados e garantindo a confiança nas comunicações digitais.`
+                ],
+                video: {
+                    titulo: `Assinatura Digital e Certificado Digital`,
+                    linkDoCanal: 'https://www.youtube.com/@Tec.Concursos',
+                    idVideo: 'Pi-FQJ0NzfI'
+                },
+            },
+            {
+                texto: 'Segurança da Informação na Informática (Awari)',
+                id: 'seguranca-da-informacao-na-informatica-awari',
+                introducao: 'A segurança da informação é um tema fundamental para concursos, especialmente na área de informática, pois envolve práticas e conceitos essenciais para proteger dados e sistemas contra ameaças. Entender os princípios básicos, as ferramentas utilizadas e as melhores práticas ajuda não só na preparação para as provas, mas também na aplicação prática desses conhecimentos no dia a dia profissional.',
+                explicacao: [
+                    `A segurança da informação é um tema essencial para quem está se preparando para concursos públicos na área de informática. Ela envolve um conjunto de conceitos e práticas que visam proteger dados, sistemas e redes contra acessos não autorizados, alterações indevidas, vazamentos e indisponibilidades. Com o avanço da tecnologia e a crescente digitalização dos processos, dominar esses conceitos tornou-se fundamental para garantir a integridade, confidencialidade e disponibilidade das informações.`,
+                    `Entre os principais conceitos da segurança da informação, destacam-se a confidencialidade, que assegura que somente pessoas autorizadas possam acessar os dados, evitando divulgações indevidas. A integridade garante que as informações permaneçam corretas e consistentes, sem sofrer alterações não autorizadas ou corrupção. Já a disponibilidade assegura que os dados e sistemas estejam acessíveis sempre que necessário, sem interrupções que prejudiquem o funcionamento. Além disso, a autenticidade é o processo de verificar se os usuários são realmente quem dizem ser, garantindo que as informações não foram adulteradas.`,
+                    `Para proteger as informações, diversas ferramentas e técnicas são utilizadas. A criptografia transforma dados legíveis em códigos ilegíveis para quem não possui autorização, garantindo o sigilo das informações. O firewall atua como uma barreira que controla o tráfego de dados entre redes, bloqueando acessos indevidos e protegendo contra ataques externos. As políticas de segurança definem regras e normas que orientam o comportamento dos usuários e a forma correta de utilizar os sistemas. O backup é a prática de criar cópias de segurança dos dados, permitindo a recuperação em caso de perdas ou falhas.`,
+                    `Adotar boas práticas de segurança da informação é fundamental para minimizar riscos. Manter os dispositivos atualizados com as últimas versões dos softwares corrige vulnerabilidades conhecidas. Utilizar senhas fortes e complexas dificulta o acesso indevido. Estar atento a golpes virtuais, como phishing, evita a exposição a fraudes e roubo de dados. A realização regular de backups garante que informações importantes possam ser recuperadas se necessário. Além disso, o uso de antivírus e firewalls reforça a proteção contra ameaças. Em dispositivos móveis, a criptografia protege os dados em caso de perda ou roubo. Por fim, utilizar conexões seguras, como redes Wi-Fi protegidas e VPNs, ajuda a evitar interceptações de dados durante a navegação.`,
+                    `Para se preparar para questões de concursos sobre segurança da informação, é importante estudar os conceitos fundamentais e conhecer as leis e normas relacionadas, como a Lei Geral de Proteção de Dados (LGPD) e as normas ISO 27001 e 27002. Resolver questões de provas anteriores ajuda a identificar os temas mais recorrentes e a entender o estilo das perguntas. Por fim, acompanhar as novidades e tendências da área é essencial, pois a segurança da informação está em constante evolução devido às novas ameaças e tecnologias. Dessa forma, o candidato estará mais bem preparado para as provas e para aplicar esses conhecimentos na prática profissional.`
+                ],
+            },
+            {
+                texto: 'Ataques e Ameaças em Segurança da Informação',
+                id: 'ataques-e-ameacas-em-seguranca-da-informacao',
+                introducao: 'Ataques e ameaças representam riscos constantes no universo da segurança da informação, visando comprometer redes, sistemas e usuários por meio de ações maliciosas. Esses ataques podem variar desde tentativas de acesso não autorizado até métodos sofisticados de sequestro de dados e interrupção de serviços, impactando diretamente a confidencialidade, integridade e disponibilidade das informações.',
+                explicacao: [
+                    `Um dos ataques mais conhecidos é o ransomware, que consiste em sequestrar dados ou equipamentos, exigindo um resgate para liberação. Existem duas modalidades principais: o ransomware locker, que bloqueia completamente o acesso ao dispositivo infectado, e o ransomware crypto, que criptografa os dados armazenados, tornando-os inacessíveis sem a chave de descriptografia. Geralmente, o pagamento é solicitado em criptomoedas como bitcoins, porém não há garantia de que o acesso será restaurado mesmo após o pagamento.`,
+                    `Outro tipo de ataque bastante comum é o Distributed Denial of Service (DDoS), onde múltiplas máquinas comprometidas, chamadas de "zumbis", atacam simultaneamente um serviço, sobrecarregando sua capacidade e causando indisponibilidade. A variante Denial of Service (DoS) ocorre de forma semelhante, porém sem a distribuição do ataque, sendo originado de uma única fonte. Esses ataques são usados para tirar sites ou serviços do ar, causando prejuízos financeiros e de reputação.`,
+                    `Existem ainda ataques direcionados a aplicações web, como o Cross-Site Scripting (XSS), onde códigos maliciosos são inseridos em páginas, podendo sequestrar sessões de usuários, modificar conteúdos ou inserir informações hostis. O XSS pode ser persistente, quando o código malicioso fica armazenado permanentemente no servidor, refletido, quando o código é entregue individualmente em respostas, ou baseado em DOM, explorando vulnerabilidades do Document Object Model. Outro ataque relacionado é o Cross-Site Request Forgery (CSRF), que consiste em requisições forjadas feitas por criminosos que se passam por usuários legítimos, geralmente explorando sessões autenticadas e cookies.`,
+                    `O spoofing é uma técnica de falsificação que engana redes ou pessoas fazendo-as acreditar que a fonte da informação é confiável. Pode ocorrer por e-mail, IP ou DNS, com o objetivo de desviar acessos, enviar mensagens falsas ou redirecionar usuários para sites fraudulentos. Já o phishing é uma técnica de engenharia social que engana usuários para roubar informações confidenciais, como senhas e dados bancários, por meio de e-mails ou links falsos que simulam sites legítimos.`,
+                    `Esses ataques dependem da manipulação da confiança para obter sucesso e são uma das maiores ameaças no cenário atual de segurança da informação. Compreender esses tipos de ataques é fundamental para implementar medidas eficazes de proteção e resposta, garantindo a segurança dos sistemas e a integridade das informações.`
+                ],
+                video: {
+                    titulo: `Ataques e Ameaças em Segurança da Informação`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfMarceloNarciso',
+                    idVideo: 'fzy6v5wZHJY'
+                },
+            },
+            {
+                texto: 'Tipos de Malware',
+                id: 'tipos-de-malware',
+                introducao: 'Malware, abreviação de software malicioso, é um termo que abrange diversas ameaças virtuais criadas para realizar ações prejudiciais em computadores, smartphones e outros dispositivos digitais. Esses programas podem causar desde lentidão e perda de dados até invasões e roubo de informações pessoais, representando um dos maiores desafios para a segurança da informação.',
+                explicacao: [
+                    `Um dos tipos mais conhecidos de malware é o vírus, que se replica infectando arquivos e programas, ativando sua carga útil somente quando o arquivo hospedeiro é executado. Os vírus dependem de meios de propagação como anexos de e-mail, downloads e dispositivos removíveis, e podem causar desde lentidão no sistema até a corrupção de arquivos importantes. Diferente do vírus, o worm é um programa independente que se autorreplica explorando falhas de segurança, sem a necessidade de execução pelo usuário, tornando sua propagação rápida e perigosa.`,
+                    `O cavalo de troia (Trojan Horse) é um malware que se disfarça de software legítimo para enganar o usuário e permitir a instalação de códigos maliciosos. Já os bots são códigos que infectam máquinas e permitem o controle remoto por criminosos, formando redes chamadas botnets, utilizadas para realizar ataques em larga escala. Softwares espiões, como spyware, keyloggers e screenloggers, monitoram secretamente as ações do usuário, coletando informações pessoais, senhas e capturando imagens da tela para enviar a invasores.`,
+                    `Outros malwares incluem o adware, que exibe anúncios indesejados e pode monitorar hábitos de navegação para direcionar propagandas; o backdoor, que cria falhas de segurança facilitando a entrada de outros malwares; e o ransomware, que sequestra dados ou bloqueia o acesso ao dispositivo, exigindo pagamento para liberação.`,
+                    `Rootkits atuam escondendo a presença de malwares e invasores, dificultando sua detecção, enquanto hijackers afetam navegadores, alterando configurações, redirecionando buscas e exibindo pop-ups indesejados. Conhecer esses diferentes tipos de malware é fundamental para adotar medidas de proteção adequadas e manter a segurança dos sistemas, prevenindo danos e prejuízos causados por essas ameaças virtuais.`
+                ],
+                video: {
+                    titulo: `Tipos de Malware`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfessorSylvioRodrigues',
+                    idVideo: 'lg56iIs-OEc'
+                },
+            },
+        ],
     },
 }
 

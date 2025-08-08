@@ -49,11 +49,11 @@ export default function ReproduzirTexto({ texto, reduzida }: ReproduzirTextoProp
     }, [])
 
     return (
-        <div className={`${reduzida ? 'flex justify-end': ''}`}>
+        <div className={`${reduzida ? 'flex justify-end' : ''}`}>
             <button
                 onClick={handleClick}
                 className={`${reduzida ? 'p-1 rounded-md text-sm' : 'px-4 py-2 rounded'} bg-amarelo font-bold text-white hover:bg-amarelo`}
-                style={{boxShadow: '0 0 2px 1px black', textShadow: '1px 1px 2px black'}}
+                style={{ boxShadow: '0 0 2px 1px black', textShadow: '1px 1px 2px black' }}
             >
                 {
                     reduzida ? (

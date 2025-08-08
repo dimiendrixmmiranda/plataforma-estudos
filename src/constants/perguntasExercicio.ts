@@ -1884,6 +1884,2206 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
         ],
         justificativa: "E-mails corporativos são normalmente acessados dentro de redes internas como a Intranet.",
         categoriaDaPergunta: "introducao-sobre-internet-e-intranet"
+    },
+    {
+        enunciado: "O que é organização da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Processo de estruturar e classificar dados para facilitar o acesso", correto: true },
+            { conteudo: "Armazenar dados sem nenhuma ordem", correto: false },
+            { conteudo: "Exclusivamente a criação de backups", correto: false },
+            { conteudo: "O uso de softwares de edição de texto", correto: false }
+        ],
+        justificativa: "Organizar a informação permite que dados sejam facilmente encontrados e utilizados.",
+        categoriaDaPergunta: "conceitos-fundamentais"
+    },
+    {
+        enunciado: "Qual é o objetivo do gerenciamento de informações?",
+        arrayDeRespostas: [
+            { conteudo: "Controlar e garantir que as informações estejam disponíveis, corretas e seguras", correto: true },
+            { conteudo: "Excluir dados antigos automaticamente", correto: false },
+            { conteudo: "Impedir o acesso de todos aos dados", correto: false },
+            { conteudo: "Armazenar informações em papel", correto: false }
+        ],
+        justificativa: "Gerenciar informações envolve planejamento, controle e segurança para uso eficiente dos dados.",
+        categoriaDaPergunta: "conceitos-fundamentais"
+    },
+    {
+        enunciado: "Qual dos seguintes é um exemplo de ferramenta para organização da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Sistemas de gerenciamento de banco de dados (SGBD)", correto: true },
+            { conteudo: "Antivírus", correto: false },
+            { conteudo: "Navegador de internet", correto: false },
+            { conteudo: "Editor de imagens", correto: false }
+        ],
+        justificativa: "SGBDs são utilizados para armazenar, organizar e recuperar informações de forma eficiente.",
+        categoriaDaPergunta: "conceitos-fundamentais"
+    },
+    {
+        enunciado: "Por que a segurança da informação é importante no gerenciamento de dados?",
+        arrayDeRespostas: [
+            { conteudo: "Para proteger dados contra acessos não autorizados e perda de integridade", correto: true },
+            { conteudo: "Para garantir que os dados nunca sejam usados", correto: false },
+            { conteudo: "Para dificultar o acesso dos usuários", correto: false },
+            { conteudo: "Para acelerar a transmissão de dados na internet", correto: false }
+        ],
+        justificativa: "Garantir segurança protege a confidencialidade, integridade e disponibilidade dos dados.",
+        categoriaDaPergunta: "conceitos-fundamentais"
+    },
+    {
+        enunciado: "O que é metadado em gerenciamento de informações?",
+        arrayDeRespostas: [
+            { conteudo: "Informação que descreve outras informações, facilitando sua organização", correto: true },
+            { conteudo: "Um tipo de dado armazenado em papel", correto: false },
+            { conteudo: "Software para edição de textos", correto: false },
+            { conteudo: "Um protocolo de rede", correto: false }
+        ],
+        justificativa: "Metadados fornecem detalhes sobre dados, como autor, data de criação e formato, facilitando a busca e o gerenciamento.",
+        categoriaDaPergunta: "conceitos-fundamentais"
+    },
+    {
+        enunciado: "O que é gestão documental?",
+        arrayDeRespostas: [
+            { conteudo: "Processo de administrar documentos desde sua criação até sua destinação final", correto: true },
+            { conteudo: "Organização apenas de documentos eletrônicos", correto: false },
+            { conteudo: "Criação de documentos em papel", correto: false },
+            { conteudo: "Armazenamento de dados sem controle", correto: false }
+        ],
+        justificativa: "Gestão documental envolve o controle eficiente dos documentos para garantir acessibilidade e segurança.",
+        categoriaDaPergunta: "gestao-documental"
+    },
+    {
+        enunciado: "Qual a importância da gestão documental para as organizações?",
+        arrayDeRespostas: [
+            { conteudo: "Facilitar o acesso e preservação da informação e garantir conformidade legal", correto: true },
+            { conteudo: "Reduzir o número de funcionários", correto: false },
+            { conteudo: "Aumentar o uso de papel", correto: false },
+            { conteudo: "Evitar a criação de documentos", correto: false }
+        ],
+        justificativa: "Uma boa gestão documental melhora a eficiência e atende às exigências legais e regulatórias.",
+        categoriaDaPergunta: "gestao-documental"
+    },
+    {
+        enunciado: "O que significa digitalização de documentos?",
+        arrayDeRespostas: [
+            { conteudo: "Converter documentos físicos em formato digital", correto: true },
+            { conteudo: "Criar documentos escritos à mão", correto: false },
+            { conteudo: "Excluir documentos antigos", correto: false },
+            { conteudo: "Organizar documentos em pastas físicas", correto: false }
+        ],
+        justificativa: "Digitalizar documentos facilita o armazenamento, acesso e preservação das informações.",
+        categoriaDaPergunta: "gestao-documental"
+    },
+    {
+        enunciado: "Qual é um benefício do uso de sistemas eletrônicos para gestão documental?",
+        arrayDeRespostas: [
+            { conteudo: "Melhor controle, rapidez no acesso e segurança dos documentos", correto: true },
+            { conteudo: "Maior risco de perda de documentos", correto: false },
+            { conteudo: "Aumento do uso de papel", correto: false },
+            { conteudo: "Dificuldade para localizar documentos", correto: false }
+        ],
+        justificativa: "Sistemas eletrônicos otimizam o gerenciamento documental, facilitando o controle e acesso rápido.",
+        categoriaDaPergunta: "gestao-documental"
+    },
+    {
+        enunciado: "O que é o ciclo de vida de um documento?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de fases que um documento percorre desde a criação até o descarte", correto: true },
+            { conteudo: "Período em que um documento fica escondido", correto: false },
+            { conteudo: "Tempo que um documento demora para ser criado", correto: false },
+            { conteudo: "Duração da impressão de um documento", correto: false }
+        ],
+        justificativa: "O ciclo de vida documenta as etapas pelas quais o documento passa, facilitando sua gestão adequada.",
+        categoriaDaPergunta: "gestao-documental"
+    },
+    {
+        enunciado: "Qual é a função da indexação em gestão documental?",
+        arrayDeRespostas: [
+            { conteudo: "Atribuir palavras-chave para facilitar a busca dos documentos", correto: true },
+            { conteudo: "Excluir documentos desnecessários", correto: false },
+            { conteudo: "Organizar documentos em arquivos físicos", correto: false },
+            { conteudo: "Criar documentos novos automaticamente", correto: false }
+        ],
+        justificativa: "A indexação permite a localização rápida dos documentos por meio de palavras-chave ou tags.",
+        categoriaDaPergunta: "gestao-documental"
+    },
+    {
+        enunciado: "O que é arquivamento eletrônico?",
+        arrayDeRespostas: [
+            { conteudo: "Guardar documentos em formato digital com organização e segurança", correto: true },
+            { conteudo: "Imprimir documentos para arquivar", correto: false },
+            { conteudo: "Enviar documentos por e-mail", correto: false },
+            { conteudo: "Destruir documentos antigos", correto: false }
+        ],
+        justificativa: "O arquivamento eletrônico possibilita o armazenamento digital seguro e organizado dos documentos.",
+        categoriaDaPergunta: "gestao-documental"
+    },
+    {
+        enunciado: "Por que a segurança da informação é importante na gestão documental?",
+        arrayDeRespostas: [
+            { conteudo: "Para proteger documentos contra acessos não autorizados e perda de dados", correto: true },
+            { conteudo: "Para dificultar o acesso dos usuários autorizados", correto: false },
+            { conteudo: "Para aumentar o consumo de espaço em disco", correto: false },
+            { conteudo: "Para evitar a digitalização de documentos", correto: false }
+        ],
+        justificativa: "A segurança garante a integridade, confidencialidade e disponibilidade dos documentos gerenciados.",
+        categoriaDaPergunta: "gestao-documental"
+    },
+    {
+        enunciado: "O que é um documento digital certificado?",
+        arrayDeRespostas: [
+            { conteudo: "Um documento com assinatura digital que garante autenticidade e integridade", correto: true },
+            { conteudo: "Um documento impresso com carimbo", correto: false },
+            { conteudo: "Um arquivo PDF comum", correto: false },
+            { conteudo: "Um documento enviado por e-mail", correto: false }
+        ],
+        justificativa: "A certificação digital assegura que o documento não foi alterado e é autêntico.",
+        categoriaDaPergunta: "gestao-documental"
+    },
+    {
+        enunciado: "Qual legislação brasileira trata da gestão documental e arquivística?",
+        arrayDeRespostas: [
+            { conteudo: "Lei nº 12.527/2011 (Lei de Acesso à Informação)", correto: false },
+            { conteudo: "Lei nº 8.159/1991 (Lei de Arquivos)", correto: true },
+            { conteudo: "Marco Civil da Internet", correto: false },
+            { conteudo: "Lei Geral de Proteção de Dados (LGPD)", correto: false }
+        ],
+        justificativa: "A Lei nº 8.159/1991 estabelece normas sobre gestão documental e arquivos públicos e privados no Brasil.",
+        categoriaDaPergunta: "gestao-documental"
+    },
+    {
+        enunciado: "O que é o princípio da proveniência na arquivística?",
+        arrayDeRespostas: [
+            { conteudo: "Agrupar documentos conforme a origem ou produtor", correto: true },
+            { conteudo: "Separar documentos por assunto", correto: false },
+            { conteudo: "Eliminar documentos duplicados", correto: false },
+            { conteudo: "Organizar documentos pela data de criação", correto: false }
+        ],
+        justificativa: "O princípio da proveniência determina que documentos sejam mantidos agrupados segundo sua origem para preservar seu contexto.",
+        categoriaDaPergunta: "principios-arquivisticos"
+    },
+    {
+        enunciado: "Qual é o objetivo do princípio da organicidade?",
+        arrayDeRespostas: [
+            { conteudo: "Manter a integridade dos documentos conforme a estrutura da organização", correto: true },
+            { conteudo: "Separar documentos por tipo de papel", correto: false },
+            { conteudo: "Destruir documentos antigos", correto: false },
+            { conteudo: "Dividir arquivos por usuário", correto: false }
+        ],
+        justificativa: "A organicidade assegura que documentos sejam organizados conforme a forma natural como foram produzidos pela entidade.",
+        categoriaDaPergunta: "principios-arquivisticos"
+    },
+    {
+        enunciado: "O que diz o princípio da integridade?",
+        arrayDeRespostas: [
+            { conteudo: "Os documentos devem ser mantidos completos e sem alterações indevidas", correto: true },
+            { conteudo: "Os documentos devem ser separados para facilitar o acesso", correto: false },
+            { conteudo: "Os documentos devem ser destruídos após um período", correto: false },
+            { conteudo: "Os documentos devem ser digitalizados", correto: false }
+        ],
+        justificativa: "Integridade garante que o conteúdo original dos documentos seja preservado sem modificações não autorizadas.",
+        categoriaDaPergunta: "principios-arquivisticos"
+    },
+    {
+        enunciado: "O princípio da publicidade se refere a:",
+        arrayDeRespostas: [
+            { conteudo: "Garantir o acesso público aos documentos arquivísticos, respeitando restrições legais", correto: true },
+            { conteudo: "Impedir qualquer acesso aos documentos", correto: false },
+            { conteudo: "Manter documentos em sigilo absoluto", correto: false },
+            { conteudo: "Divulgar documentos sem restrições", correto: false }
+        ],
+        justificativa: "A publicidade permite que os documentos sejam acessados conforme a legislação, garantindo transparência e controle.",
+        categoriaDaPergunta: "principios-arquivisticos"
+    },
+    {
+        enunciado: "O que significa o princípio da originalidade?",
+        arrayDeRespostas: [
+            { conteudo: "Conservar os documentos em sua forma original e não em cópias", correto: true },
+            { conteudo: "Criar cópias de todos os documentos", correto: false },
+            { conteudo: "Organizar documentos por tipo", correto: false },
+            { conteudo: "Separar documentos por data", correto: false }
+        ],
+        justificativa: "Originalidade preconiza que somente os documentos autênticos e originais devem ser preservados como prova documental.",
+        categoriaDaPergunta: "principios-arquivisticos"
+    },
+    {
+        enunciado: "Qual é a finalidade do princípio da economia na arquivística?",
+        arrayDeRespostas: [
+            { conteudo: "Otimizar recursos na organização, preservação e acesso aos documentos", correto: true },
+            { conteudo: "Eliminar documentos importantes para economizar espaço", correto: false },
+            { conteudo: "Aumentar os custos com armazenamento", correto: false },
+            { conteudo: "Duplicar documentos para segurança", correto: false }
+        ],
+        justificativa: "O princípio da economia busca eficiência na gestão documental, evitando desperdício de recursos.",
+        categoriaDaPergunta: "principios-arquivisticos"
+    },
+    {
+        enunciado: "O princípio da identidade arquivística determina que:",
+        arrayDeRespostas: [
+            { conteudo: "Cada documento deve ser único e identificável de forma clara", correto: true },
+            { conteudo: "Os documentos podem ser misturados sem controle", correto: false },
+            { conteudo: "Documentos podem ser alterados para corrigir erros", correto: false },
+            { conteudo: "Arquivar apenas documentos recentes", correto: false }
+        ],
+        justificativa: "Esse princípio garante que documentos sejam preservados com características que permitam sua identificação e autenticidade.",
+        categoriaDaPergunta: "principios-arquivisticos"
+    },
+    {
+        enunciado: "O princípio da inalterabilidade refere-se a:",
+        arrayDeRespostas: [
+            { conteudo: "Os documentos não devem ser modificados após sua produção", correto: true },
+            { conteudo: "Documentos devem ser constantemente editados", correto: false },
+            { conteudo: "Arquivar documentos em diferentes formatos", correto: false },
+            { conteudo: "Permitir o acesso irrestrito a todos", correto: false }
+        ],
+        justificativa: "Inalterabilidade protege a autenticidade documental, proibindo alterações não autorizadas.",
+        categoriaDaPergunta: "principios-arquivisticos"
+    },
+    {
+        enunciado: "O princípio da funcionalidade na arquivística significa:",
+        arrayDeRespostas: [
+            { conteudo: "Organizar documentos segundo a função administrativa que os gerou", correto: true },
+            { conteudo: "Separar documentos por cor", correto: false },
+            { conteudo: "Destruir documentos inúteis", correto: false },
+            { conteudo: "Guardar documentos em locais diferentes", correto: false }
+        ],
+        justificativa: "Funcionalidade orienta a organização documental conforme as atividades e funções da entidade produtora.",
+        categoriaDaPergunta: "principios-arquivisticos"
+    },
+    {
+        enunciado: "O que é o princípio da conservação?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir a preservação física e digital dos documentos para uso futuro", correto: true },
+            { conteudo: "Eliminar documentos antigos", correto: false },
+            { conteudo: "Criar novos documentos constantemente", correto: false },
+            { conteudo: "Limpar documentos para reaproveitar papel", correto: false }
+        ],
+        justificativa: "Conservação visa manter os documentos em condições que permitam seu uso e consulta ao longo do tempo.",
+        categoriaDaPergunta: "principios-arquivisticos"
+    },
+    {
+        enunciado: "Quais são as principais fases da gestão documental?",
+        arrayDeRespostas: [
+            { conteudo: "Criação, uso, avaliação, arquivamento e destinação", correto: true },
+            { conteudo: "Impressão, digitalização e exclusão", correto: false },
+            { conteudo: "Compra, venda e descarte", correto: false },
+            { conteudo: "Armazenamento e backup apenas", correto: false }
+        ],
+        justificativa: "A gestão documental envolve todas essas fases para garantir o controle e preservação dos documentos.",
+        categoriaDaPergunta: "fases-da-gestao-documental-e-niveis-de-aplicacao"
+    },
+    {
+        enunciado: "O que acontece na fase de avaliação documental?",
+        arrayDeRespostas: [
+            { conteudo: "Determina quais documentos devem ser preservados ou descartados", correto: true },
+            { conteudo: "Os documentos são criados", correto: false },
+            { conteudo: "Documentos são digitalizados", correto: false },
+            { conteudo: "Os documentos são impressos", correto: false }
+        ],
+        justificativa: "Na avaliação, analisa-se o valor dos documentos para definir sua destinação correta.",
+        categoriaDaPergunta: "fases-da-gestao-documental-e-niveis-de-aplicacao"
+    },
+    {
+        enunciado: "O arquivamento é uma fase da gestão documental que consiste em:",
+        arrayDeRespostas: [
+            { conteudo: "Organizar e guardar documentos para facilitar o acesso e preservação", correto: true },
+            { conteudo: "Excluir documentos sem critério", correto: false },
+            { conteudo: "Criar novos documentos", correto: false },
+            { conteudo: "Enviar documentos por e-mail", correto: false }
+        ],
+        justificativa: "O arquivamento é fundamental para manter os documentos acessíveis e preservados adequadamente.",
+        categoriaDaPergunta: "fases-da-gestao-documental-e-niveis-de-aplicacao"
+    },
+    {
+        enunciado: "Quais são os níveis de aplicação da gestão documental?",
+        arrayDeRespostas: [
+            { conteudo: "Tático, estratégico e operacional", correto: true },
+            { conteudo: "Local, regional e global", correto: false },
+            { conteudo: "Simples, médio e avançado", correto: false },
+            { conteudo: "Pessoal, público e privado", correto: false }
+        ],
+        justificativa: "A gestão documental é aplicada em diferentes níveis para atender necessidades variadas da organização.",
+        categoriaDaPergunta: "fases-da-gestao-documental-e-niveis-de-aplicacao"
+    },
+    {
+        enunciado: "Na fase de destinação documental, o que é feito com os documentos?",
+        arrayDeRespostas: [
+            { conteudo: "São eliminados ou transferidos para arquivo permanente", correto: true },
+            { conteudo: "São criados novos documentos", correto: false },
+            { conteudo: "São digitalizados para consulta imediata", correto: false },
+            { conteudo: "São distribuídos para todos os funcionários", correto: false }
+        ],
+        justificativa: "A destinação define o descarte ou preservação definitiva dos documentos conforme sua relevância.",
+        categoriaDaPergunta: "fases-da-gestao-documental-e-niveis-de-aplicacao"
+    },
+    {
+        enunciado: "O que são modelos de gestão documental?",
+        arrayDeRespostas: [
+            { conteudo: "Conjuntos de diretrizes e práticas para organizar e controlar documentos", correto: true },
+            { conteudo: "Softwares para edição de documentos", correto: false },
+            { conteudo: "Tipos de documentos impressos", correto: false },
+            { conteudo: "Métodos de criação de documentos", correto: false }
+        ],
+        justificativa: "Modelos definem como a gestão documental deve ser estruturada para garantir eficiência e segurança.",
+        categoriaDaPergunta: "modelos-de-gestao-documental-e-gestao-de-arquivos-correntes"
+    },
+    {
+        enunciado: "O que são arquivos correntes?",
+        arrayDeRespostas: [
+            { conteudo: "Documentos em uso ativo e com frequência de acesso", correto: true },
+            { conteudo: "Documentos que já foram descartados", correto: false },
+            { conteudo: "Documentos digitais somente", correto: false },
+            { conteudo: "Documentos arquivados para preservação definitiva", correto: false }
+        ],
+        justificativa: "Arquivos correntes são documentos necessários para as atividades diárias da organização.",
+        categoriaDaPergunta: "modelos-de-gestao-documental-e-gestao-de-arquivos-correntes"
+    },
+    {
+        enunciado: "Qual a importância da gestão dos arquivos correntes?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir que documentos essenciais estejam disponíveis para uso imediato", correto: true },
+            { conteudo: "Arquivar documentos para uso futuro apenas", correto: false },
+            { conteudo: "Eliminar documentos sem critério", correto: false },
+            { conteudo: "Transformar documentos físicos em digitais", correto: false }
+        ],
+        justificativa: "A gestão adequada dos arquivos correntes facilita a eficiência operacional e a tomada de decisões.",
+        categoriaDaPergunta: "modelos-de-gestao-documental-e-gestao-de-arquivos-correntes"
+    },
+    {
+        enunciado: "Qual modelo de gestão documental prioriza o ciclo de vida do documento?",
+        arrayDeRespostas: [
+            { conteudo: "Modelo funcional", correto: true },
+            { conteudo: "Modelo físico", correto: false },
+            { conteudo: "Modelo eletrônico", correto: false },
+            { conteudo: "Modelo estrutural", correto: false }
+        ],
+        justificativa: "O modelo funcional organiza os documentos conforme suas funções e ciclo de vida na organização.",
+        categoriaDaPergunta: "modelos-de-gestao-documental-e-gestao-de-arquivos-correntes"
+    },
+    {
+        enunciado: "Quais documentos normalmente fazem parte dos arquivos correntes?",
+        arrayDeRespostas: [
+            { conteudo: "Relatórios, contratos em uso e correspondências recentes", correto: true },
+            { conteudo: "Documentos históricos e registros antigos", correto: false },
+            { conteudo: "Documentos destruídos", correto: false },
+            { conteudo: "Documentos descartados", correto: false }
+        ],
+        justificativa: "Arquivos correntes contêm documentos ainda relevantes para as operações diárias da organização.",
+        categoriaDaPergunta: "modelos-de-gestao-documental-e-gestao-de-arquivos-correntes"
+    },
+    {
+        enunciado: "O que é o ciclo de vida da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de fases pelas quais a informação passa desde sua criação até sua eliminação", correto: true },
+            { conteudo: "Processo de backup de dados", correto: false },
+            { conteudo: "Apenas a fase de arquivamento de documentos", correto: false },
+            { conteudo: "Método para criar novos dados", correto: false }
+        ],
+        justificativa: "O ciclo de vida da informação envolve todas as etapas para garantir o uso e preservação adequados dos dados.",
+        categoriaDaPergunta: "ciclo-de-vida-da-informacao"
+    },
+    {
+        enunciado: "Qual é a primeira fase do ciclo de vida da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Criação ou geração da informação", correto: true },
+            { conteudo: "Avaliação", correto: false },
+            { conteudo: "Arquivamento", correto: false },
+            { conteudo: "Descarte", correto: false }
+        ],
+        justificativa: "A informação começa sua vida quando é criada ou capturada pela organização.",
+        categoriaDaPergunta: "ciclo-de-vida-da-informacao"
+    },
+    {
+        enunciado: "Na fase de uso da informação, o que ocorre?",
+        arrayDeRespostas: [
+            { conteudo: "A informação é consultada e utilizada para tomada de decisões", correto: true },
+            { conteudo: "A informação é descartada imediatamente", correto: false },
+            { conteudo: "A informação é armazenada permanentemente", correto: false },
+            { conteudo: "A informação é digitalizada", correto: false }
+        ],
+        justificativa: "Durante o uso, a informação tem valor prático e é acessada para apoiar atividades da organização.",
+        categoriaDaPergunta: "ciclo-de-vida-da-informacao"
+    },
+    {
+        enunciado: "O que ocorre na fase de avaliação do ciclo de vida da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Determina-se se a informação deve ser preservada, arquivada ou descartada", correto: true },
+            { conteudo: "A informação é criada", correto: false },
+            { conteudo: "A informação é copiada", correto: false },
+            { conteudo: "A informação é criptografada", correto: false }
+        ],
+        justificativa: "A avaliação é crucial para decidir o destino da informação baseado em seu valor e relevância.",
+        categoriaDaPergunta: "ciclo-de-vida-da-informacao"
+    },
+    {
+        enunciado: "Qual é a fase final do ciclo de vida da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Descarte ou eliminação segura da informação", correto: true },
+            { conteudo: "Criação de novos documentos", correto: false },
+            { conteudo: "Indexação da informação", correto: false },
+            { conteudo: "Publicação da informação", correto: false }
+        ],
+        justificativa: "Ao final do ciclo, a informação que não possui mais valor é descartada de forma segura para proteger dados sensíveis.",
+        categoriaDaPergunta: "ciclo-de-vida-da-informacao"
+    },
+    {
+        enunciado: "Qual fase do ciclo de vida da informação envolve o armazenamento dos dados para uso futuro?",
+        arrayDeRespostas: [
+            { conteudo: "Arquivamento", correto: true },
+            { conteudo: "Criação", correto: false },
+            { conteudo: "Descarte", correto: false },
+            { conteudo: "Avaliação", correto: false }
+        ],
+        justificativa: "O arquivamento garante que a informação seja preservada para consultas futuras ou obrigações legais.",
+        categoriaDaPergunta: "ciclo-de-vida-da-informacao"
+    },
+    {
+        enunciado: "Por que a gestão do ciclo de vida da informação é importante?",
+        arrayDeRespostas: [
+            { conteudo: "Para garantir eficiência, segurança e conformidade legal no uso dos dados", correto: true },
+            { conteudo: "Para dificultar o acesso à informação", correto: false },
+            { conteudo: "Para aumentar o volume de dados armazenados", correto: false },
+            { conteudo: "Para excluir toda informação rapidamente", correto: false }
+        ],
+        justificativa: "Gerenciar corretamente o ciclo da informação evita perda de dados importantes e mantém a organização em conformidade com leis.",
+        categoriaDaPergunta: "ciclo-de-vida-da-informacao"
+    },
+    {
+        enunciado: "Qual fase pode envolver a digitalização de documentos físicos no ciclo de vida da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Criação ou captura", correto: true },
+            { conteudo: "Descarte", correto: false },
+            { conteudo: "Avaliação", correto: false },
+            { conteudo: "Publicação", correto: false }
+        ],
+        justificativa: "Digitalizar documentos é uma forma de capturar e criar informações em formato digital para facilitar o acesso.",
+        categoriaDaPergunta: "ciclo-de-vida-da-informacao"
+    },
+    {
+        enunciado: "O que significa preservação da informação no ciclo de vida?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir que a informação seja mantida em condições adequadas para uso futuro", correto: true },
+            { conteudo: "Excluir informações antigas", correto: false },
+            { conteudo: "Criar novos documentos constantemente", correto: false },
+            { conteudo: "Aumentar o número de cópias desnecessárias", correto: false }
+        ],
+        justificativa: "Preservar a informação assegura sua integridade e disponibilidade ao longo do tempo.",
+        categoriaDaPergunta: "ciclo-de-vida-da-informacao"
+    },
+    {
+        enunciado: "Como a avaliação influencia na destinação da informação?",
+        arrayDeRespostas: [
+            { conteudo: "A avaliação determina se a informação será mantida, transferida ou descartada", correto: true },
+            { conteudo: "A avaliação cria novos documentos", correto: false },
+            { conteudo: "A avaliação digitaliza todos os documentos", correto: false },
+            { conteudo: "A avaliação elimina o acesso à informação", correto: false }
+        ],
+        justificativa: "Uma avaliação adequada garante decisões corretas sobre o destino da informação conforme seu valor.",
+        categoriaDaPergunta: "ciclo-de-vida-da-informacao"
+    },
+    {
+        enunciado: "O que é um sistema de informação?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto organizado de recursos para coletar, processar, armazenar e distribuir informações", correto: true },
+            { conteudo: "Um programa de edição de texto", correto: false },
+            { conteudo: "Um tipo de hardware para redes", correto: false },
+            { conteudo: "Um banco de dados sem estrutura", correto: false }
+        ],
+        justificativa: "Sistemas de informação integram pessoas, processos e tecnologia para apoiar decisões e operações.",
+        categoriaDaPergunta: "sistemas-da-informacao"
+    },
+    {
+        enunciado: "Qual é o principal objetivo de um sistema de informação?",
+        arrayDeRespostas: [
+            { conteudo: "Apoiar a tomada de decisões e a gestão organizacional", correto: true },
+            { conteudo: "Substituir completamente os funcionários", correto: false },
+            { conteudo: "Apenas armazenar documentos", correto: false },
+            { conteudo: "Criar redes sociais", correto: false }
+        ],
+        justificativa: "Sistemas de informação ajudam organizações a processar dados e gerar conhecimento útil para decisões.",
+        categoriaDaPergunta: "sistemas-da-informacao"
+    },
+    {
+        enunciado: "Qual componente NÃO faz parte de um sistema de informação?",
+        arrayDeRespostas: [
+            { conteudo: "Máquina de café", correto: true },
+            { conteudo: "Hardware", correto: false },
+            { conteudo: "Software", correto: false },
+            { conteudo: "Pessoas", correto: false }
+        ],
+        justificativa: "Máquina de café não é um componente do sistema de informação, que envolve hardware, software, pessoas e processos.",
+        categoriaDaPergunta: "sistemas-da-informacao"
+    },
+    {
+        enunciado: "O que é um banco de dados dentro de um sistema de informação?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto estruturado de dados armazenados para facilitar acesso e gerenciamento", correto: true },
+            { conteudo: "Documento em papel", correto: false },
+            { conteudo: "Software de edição de imagens", correto: false },
+            { conteudo: "Rede social", correto: false }
+        ],
+        justificativa: "O banco de dados é onde os dados são armazenados e organizados para uso no sistema de informação.",
+        categoriaDaPergunta: "sistemas-da-informacao"
+    },
+    {
+        enunciado: "O que significa ERP em sistemas de informação?",
+        arrayDeRespostas: [
+            { conteudo: "Enterprise Resource Planning (Planejamento de Recursos Empresariais)", correto: true },
+            { conteudo: "External Resource Process", correto: false },
+            { conteudo: "Electronic Record Program", correto: false },
+            { conteudo: "Enterprise Reporting Platform", correto: false }
+        ],
+        justificativa: "ERP é um sistema integrado que gerencia processos empresariais em várias áreas da organização.",
+        categoriaDaPergunta: "sistemas-da-informacao"
+    },
+    {
+        enunciado: "Qual é a função do software em um sistema de informação?",
+        arrayDeRespostas: [
+            { conteudo: "Executar processos para manipular dados e gerar informações", correto: true },
+            { conteudo: "Criar redes físicas", correto: false },
+            { conteudo: "Armazenar papel", correto: false },
+            { conteudo: "Desligar computadores", correto: false }
+        ],
+        justificativa: "Software é responsável por processar dados e transformar em informações úteis dentro do sistema.",
+        categoriaDaPergunta: "sistemas-da-informacao"
+    },
+    {
+        enunciado: "O que caracteriza um sistema de informação gerencial (SIG)?",
+        arrayDeRespostas: [
+            { conteudo: "Sistema que apoia a tomada de decisões e o controle gerencial", correto: true },
+            { conteudo: "Sistema para editar textos", correto: false },
+            { conteudo: "Rede social corporativa", correto: false },
+            { conteudo: "Sistema de armazenamento de imagens", correto: false }
+        ],
+        justificativa: "SIGs fornecem relatórios e informações para a gestão e planejamento das empresas.",
+        categoriaDaPergunta: "sistemas-da-informacao"
+    },
+    {
+        enunciado: "Qual é o papel das pessoas em um sistema de informação?",
+        arrayDeRespostas: [
+            { conteudo: "Usuários que interagem e utilizam o sistema para atingir objetivos", correto: true },
+            { conteudo: "Apenas desenvolvedores de software", correto: false },
+            { conteudo: "Apenas técnicos de hardware", correto: false },
+            { conteudo: "Não têm papel importante", correto: false }
+        ],
+        justificativa: "As pessoas são fundamentais para operar, administrar e tirar proveito das informações geradas pelo sistema.",
+        categoriaDaPergunta: "sistemas-da-informacao"
+    },
+    {
+        enunciado: "O que é automação de processos em sistemas de informação?",
+        arrayDeRespostas: [
+            { conteudo: "Uso de tecnologia para executar tarefas repetitivas automaticamente", correto: true },
+            { conteudo: "Execução manual de tarefas", correto: false },
+            { conteudo: "Eliminação de processos", correto: false },
+            { conteudo: "Armazenamento de documentos em papel", correto: false }
+        ],
+        justificativa: "Automatizar processos aumenta eficiência e reduz erros nas operações organizacionais.",
+        categoriaDaPergunta: "sistemas-da-informacao"
+    },
+    {
+        enunciado: "Como os sistemas de informação contribuem para a vantagem competitiva das empresas?",
+        arrayDeRespostas: [
+            { conteudo: "Melhorando a eficiência, a tomada de decisões e o atendimento ao cliente", correto: true },
+            { conteudo: "Aumentando os custos operacionais", correto: false },
+            { conteudo: "Dificultando a comunicação interna", correto: false },
+            { conteudo: "Substituindo todos os funcionários", correto: false }
+        ],
+        justificativa: "Sistemas de informação permitem que as empresas sejam mais ágeis, eficientes e focadas no cliente.",
+        categoriaDaPergunta: "sistemas-da-informacao"
+    },
+    {
+        enunciado: "O que é segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de práticas para proteger dados contra acessos não autorizados, alterações e perdas", correto: true },
+            { conteudo: "Uso de senhas simples", correto: false },
+            { conteudo: "Compartilhar todas as informações da empresa", correto: false },
+            { conteudo: "Excluir arquivos importantes", correto: false }
+        ],
+        justificativa: "Segurança da informação visa garantir a confidencialidade, integridade e disponibilidade dos dados.",
+        categoriaDaPergunta: "seguranca-da-informacao"
+    },
+    {
+        enunciado: "Qual das opções é um princípio básico da segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Confidencialidade, integridade e disponibilidade", correto: true },
+            { conteudo: "Rapidez, acessibilidade e anonimato", correto: false },
+            { conteudo: "Abertura, compartilhamento e exclusão", correto: false },
+            { conteudo: "Publicação, alteração e exclusão", correto: false }
+        ],
+        justificativa: "Estes princípios formam a base para proteger os dados de forma eficaz.",
+        categoriaDaPergunta: "seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é um firewall?",
+        arrayDeRespostas: [
+            { conteudo: "Sistema que monitora e controla o tráfego de rede para proteger contra acessos indevidos", correto: true },
+            { conteudo: "Um antivírus", correto: false },
+            { conteudo: "Um tipo de malware", correto: false },
+            { conteudo: "Software de edição de texto", correto: false }
+        ],
+        justificativa: "Firewall atua como uma barreira entre redes confiáveis e não confiáveis, controlando o acesso.",
+        categoriaDaPergunta: "seguranca-da-informacao"
+    },
+    {
+        enunciado: "Qual é a função da autenticação na segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Verificar a identidade do usuário antes de conceder acesso", correto: true },
+            { conteudo: "Apagar arquivos automaticamente", correto: false },
+            { conteudo: "Permitir acesso irrestrito", correto: false },
+            { conteudo: "Instalar software antivírus", correto: false }
+        ],
+        justificativa: "A autenticação garante que apenas usuários autorizados acessem sistemas e dados.",
+        categoriaDaPergunta: "seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é phishing?",
+        arrayDeRespostas: [
+            { conteudo: "Tentativa de enganar usuários para obter informações pessoais ou financeiras", correto: true },
+            { conteudo: "Tipo de vírus de computador", correto: false },
+            { conteudo: "Software de proteção", correto: false },
+            { conteudo: "Atualização de sistema", correto: false }
+        ],
+        justificativa: "Phishing é uma forma de ataque que usa mensagens falsas para roubar dados sensíveis.",
+        categoriaDaPergunta: "seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que significa criptografia na segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Transformar dados em código para impedir acesso não autorizado", correto: true },
+            { conteudo: "Deletar arquivos antigos", correto: false },
+            { conteudo: "Copiar dados para backup", correto: false },
+            { conteudo: "Compartilhar senhas", correto: false }
+        ],
+        justificativa: "A criptografia protege os dados ao codificá-los, tornando-os ilegíveis para quem não tem a chave.",
+        categoriaDaPergunta: "seguranca-da-informacao"
+    },
+    {
+        enunciado: "Qual é a importância do backup na segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir cópias dos dados para recuperação em caso de perda ou ataque", correto: true },
+            { conteudo: "Excluir dados desnecessários", correto: false },
+            { conteudo: "Compartilhar dados com todos", correto: false },
+            { conteudo: "Desativar antivírus", correto: false }
+        ],
+        justificativa: "Backups são essenciais para restaurar informações após falhas, ataques ou acidentes.",
+        categoriaDaPergunta: "seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é um malware?",
+        arrayDeRespostas: [
+            { conteudo: "Software malicioso criado para causar danos ou acessar sistemas sem autorização", correto: true },
+            { conteudo: "Programa de segurança", correto: false },
+            { conteudo: "Arquivo de texto", correto: false },
+            { conteudo: "Software legítimo", correto: false }
+        ],
+        justificativa: "Malware inclui vírus, worms, trojans e outros códigos que ameaçam a segurança dos sistemas.",
+        categoriaDaPergunta: "seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que deve ser feito para manter a segurança de senhas?",
+        arrayDeRespostas: [
+            { conteudo: "Utilizar senhas fortes e únicas, e alterar periodicamente", correto: true },
+            { conteudo: "Compartilhar senhas com colegas", correto: false },
+            { conteudo: "Usar senhas simples e fáceis", correto: false },
+            { conteudo: "Escrever senhas em papel exposto", correto: false }
+        ],
+        justificativa: "Senhas fortes e seguras ajudam a proteger contas contra acessos indevidos.",
+        categoriaDaPergunta: "seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é a política de segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de regras e diretrizes para proteger ativos de informação na organização", correto: true },
+            { conteudo: "Lista de senhas usadas na empresa", correto: false },
+            { conteudo: "Programa para criar documentos", correto: false },
+            { conteudo: "Manual de uso do computador", correto: false }
+        ],
+        justificativa: "A política de segurança define responsabilidades e procedimentos para proteger as informações corporativas.",
+        categoriaDaPergunta: "seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é organização da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Processo de estruturar e categorizar dados para facilitar o acesso e uso", correto: true },
+            { conteudo: "Excluir dados antigos", correto: false },
+            { conteudo: "Criar informações novas", correto: false },
+            { conteudo: "Armazenar dados sem critério", correto: false }
+        ],
+        justificativa: "Organizar a informação torna sua recuperação e utilização mais eficientes.",
+        categoriaDaPergunta: "dicas"
+    },
+    {
+        enunciado: "Qual é a finalidade do gerenciamento da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Controlar, proteger e garantir o uso adequado das informações na organização", correto: true },
+            { conteudo: "Eliminar todas as informações após o uso", correto: false },
+            { conteudo: "Criar informações para todos os setores", correto: false },
+            { conteudo: "Ignorar o fluxo de informações", correto: false }
+        ],
+        justificativa: "O gerenciamento assegura que as informações sejam úteis, seguras e disponíveis quando necessário.",
+        categoriaDaPergunta: "dicas"
+    },
+    {
+        enunciado: "Quais são ferramentas comuns para organizar informações digitais?",
+        arrayDeRespostas: [
+            { conteudo: "Sistemas de gestão documental, bancos de dados e softwares de colaboração", correto: true },
+            { conteudo: "Impressoras e scanners apenas", correto: false },
+            { conteudo: "Planilhas de papel", correto: false },
+            { conteudo: "Dispositivos de armazenamento externos sem sistema", correto: false }
+        ],
+        justificativa: "Essas ferramentas auxiliam na organização, controle e compartilhamento da informação.",
+        categoriaDaPergunta: "dicas"
+    },
+    {
+        enunciado: "O que é metadado na organização da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Informação que descreve e contextualiza um dado ou documento", correto: true },
+            { conteudo: "Dados em formato de texto", correto: false },
+            { conteudo: "Arquivo digital corrompido", correto: false },
+            { conteudo: "Documento impresso", correto: false }
+        ],
+        justificativa: "Metadados facilitam a localização, entendimento e gerenciamento dos dados armazenados.",
+        categoriaDaPergunta: "dicas"
+    },
+    {
+        enunciado: "Por que é importante definir políticas de gerenciamento da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Para garantir que as informações sejam usadas corretamente e protegidas", correto: true },
+            { conteudo: "Para dificultar o acesso aos dados", correto: false },
+            { conteudo: "Para destruir informações importantes", correto: false },
+            { conteudo: "Para criar documentos repetidos", correto: false }
+        ],
+        justificativa: "Políticas estabelecem normas e responsabilidades para assegurar a qualidade e segurança das informações.",
+        categoriaDaPergunta: "dicas"
+    },
+    {
+        enunciado: "O que é assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Um método eletrônico que garante a autenticidade e integridade de um documento digital", correto: true },
+            { conteudo: "Uma assinatura feita à mão e digitalizada", correto: false },
+            { conteudo: "Um tipo de senha para acessar e-mails", correto: false },
+            { conteudo: "Um programa de edição de textos", correto: false }
+        ],
+        justificativa: "Assinatura digital utiliza criptografia para certificar a origem e evitar alterações em documentos digitais.",
+        categoriaDaPergunta: "assinatura-digital"
+    },
+    {
+        enunciado: "Qual tecnologia é fundamental para a assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Criptografia de chave pública", correto: true },
+            { conteudo: "Redes sociais", correto: false },
+            { conteudo: "Bluetooth", correto: false },
+            { conteudo: "Firewall", correto: false }
+        ],
+        justificativa: "A criptografia assimétrica é essencial para garantir segurança e autenticação na assinatura digital.",
+        categoriaDaPergunta: "assinatura-digital"
+    },
+    {
+        enunciado: "O que a assinatura digital garante em um documento?",
+        arrayDeRespostas: [
+            { conteudo: "Autenticidade, integridade e não-repúdio", correto: true },
+            { conteudo: "Somente a formatação do documento", correto: false },
+            { conteudo: "Exclusivamente a confidencialidade", correto: false },
+            { conteudo: "O conteúdo pode ser alterado livremente", correto: false }
+        ],
+        justificativa: "Ela certifica que o documento é legítimo, não foi alterado e que o autor não pode negar a autoria.",
+        categoriaDaPergunta: "assinatura-digital"
+    },
+    {
+        enunciado: "Qual órgão brasileiro regula a validade jurídica da assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "ICP-Brasil (Infraestrutura de Chaves Públicas Brasileira)", correto: true },
+            { conteudo: "ANVISA", correto: false },
+            { conteudo: "ANATEL", correto: false },
+            { conteudo: "IBAMA", correto: false }
+        ],
+        justificativa: "A ICP-Brasil é responsável por regulamentar e garantir a validade legal da assinatura digital no país.",
+        categoriaDaPergunta: "assinatura-digital"
+    },
+    {
+        enunciado: "Qual é a diferença entre assinatura digital e assinatura eletrônica?",
+        arrayDeRespostas: [
+            { conteudo: "Assinatura digital usa criptografia e tem validade jurídica, enquanto assinatura eletrônica é mais simples e pode não ter validade legal", correto: true },
+            { conteudo: "Assinatura eletrônica é sempre mais segura que digital", correto: false },
+            { conteudo: "Assinatura digital não é usada em documentos oficiais", correto: false },
+            { conteudo: "Assinatura eletrônica é feita somente à mão", correto: false }
+        ],
+        justificativa: "Assinatura digital oferece mais segurança e validade legal que a assinatura eletrônica comum.",
+        categoriaDaPergunta: "assinatura-digital"
+    },
+    {
+        enunciado: "O que é certificado digital no contexto de assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Um arquivo eletrônico que comprova a identidade do assinante", correto: true },
+            { conteudo: "Um documento impresso", correto: false },
+            { conteudo: "Uma senha simples", correto: false },
+            { conteudo: "Um tipo de vírus", correto: false }
+        ],
+        justificativa: "Certificado digital é como um RG eletrônico usado para validar a assinatura digital.",
+        categoriaDaPergunta: "assinatura-digital"
+    },
+    {
+        enunciado: "Quais são os principais componentes da assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Chave privada do assinante e chave pública para verificação", correto: true },
+            { conteudo: "Senha e nome do usuário", correto: false },
+            { conteudo: "Arquivo PDF e senha", correto: false },
+            { conteudo: "Imagem da assinatura manual", correto: false }
+        ],
+        justificativa: "A assinatura digital utiliza um par de chaves criptográficas para garantir segurança e autenticidade.",
+        categoriaDaPergunta: "assinatura-digital"
+    },
+    {
+        enunciado: "O que é não-repúdio na assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Impossibilidade do assinante negar a autoria da assinatura", correto: true },
+            { conteudo: "Alteração livre do documento", correto: false },
+            { conteudo: "Assinatura feita em papel", correto: false },
+            { conteudo: "Cópia de segurança do documento", correto: false }
+        ],
+        justificativa: "Não-repúdio assegura que o autor da assinatura não possa negar sua autoria posteriormente.",
+        categoriaDaPergunta: "assinatura-digital"
+    },
+    {
+        enunciado: "Como a integridade do documento é garantida na assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Por meio de um hash criptográfico que detecta alterações", correto: true },
+            { conteudo: "Pela formatação do texto", correto: false },
+            { conteudo: "Por senha simples", correto: false },
+            { conteudo: "Pelo nome do arquivo", correto: false }
+        ],
+        justificativa: "O hash é um código gerado a partir do conteúdo, e qualquer alteração no documento invalida a assinatura.",
+        categoriaDaPergunta: "assinatura-digital"
+    },
+    {
+        enunciado: "Qual é a principal vantagem da assinatura digital em documentos eletrônicos?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir segurança, validade jurídica e autenticidade sem uso de papel", correto: true },
+            { conteudo: "Imprimir documentos rapidamente", correto: false },
+            { conteudo: "Compartilhar documentos em redes sociais", correto: false },
+            { conteudo: "Evitar o uso de senhas", correto: false }
+        ],
+        justificativa: "Assinaturas digitais permitem processos totalmente eletrônicos com garantia legal e segurança.",
+        categoriaDaPergunta: "assinatura-digital"
+    },
+    {
+        enunciado: "O que é a ICP-Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Infraestrutura que garante a autenticidade, integridade e validade jurídica de documentos eletrônicos", correto: true },
+            { conteudo: "Um software para edição de texto", correto: false },
+            { conteudo: "Uma rede social do governo", correto: false },
+            { conteudo: "Um tipo de certificado físico", correto: false }
+        ],
+        justificativa: "A ICP-Brasil é a cadeia hierárquica de confiança para certificados digitais no Brasil.",
+        categoriaDaPergunta: "infraestrutura-de-chaves-publicas-brasileira"
+    },
+    {
+        enunciado: "Qual órgão é responsável pela ICP-Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Instituto Nacional de Tecnologia da Informação (ITI)", correto: true },
+            { conteudo: "Banco Central do Brasil", correto: false },
+            { conteudo: "Ministério da Educação", correto: false },
+            { conteudo: "Agência Nacional de Telecomunicações (ANATEL)", correto: false }
+        ],
+        justificativa: "O ITI é o órgão gestor e responsável pela coordenação da ICP-Brasil.",
+        categoriaDaPergunta: "infraestrutura-de-chaves-publicas-brasileira"
+    },
+    {
+        enunciado: "Qual é a função dos certificados digitais emitidos pela ICP-Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Identificar com segurança pessoas e empresas em transações eletrônicas", correto: true },
+            { conteudo: "Armazenar arquivos de texto", correto: false },
+            { conteudo: "Gerar senhas para redes sociais", correto: false },
+            { conteudo: "Editar documentos eletrônicos", correto: false }
+        ],
+        justificativa: "Os certificados digitais asseguram a autenticidade e validade jurídica nas comunicações eletrônicas.",
+        categoriaDaPergunta: "infraestrutura-de-chaves-publicas-brasileira"
+    },
+    {
+        enunciado: "O que é a Autoridade Certificadora Raiz (AC Raiz) na ICP-Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Entidade máxima de confiança que emite certificados para autoridades certificadoras", correto: true },
+            { conteudo: "Um software antivírus", correto: false },
+            { conteudo: "Um certificado para redes sociais", correto: false },
+            { conteudo: "Um tipo de senha", correto: false }
+        ],
+        justificativa: "A AC Raiz é o topo da cadeia de confiança dentro da ICP-Brasil.",
+        categoriaDaPergunta: "infraestrutura-de-chaves-publicas-brasileira"
+    },
+    {
+        enunciado: "O que é uma Autoridade Certificadora (AC) subordinada na ICP-Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Entidade que emite certificados digitais para usuários finais, subordinada à AC Raiz", correto: true },
+            { conteudo: "Um usuário comum", correto: false },
+            { conteudo: "Software para criar documentos", correto: false },
+            { conteudo: "Rede social do governo", correto: false }
+        ],
+        justificativa: "As ACs subordinadas são responsáveis por emitir certificados para pessoas físicas e jurídicas.",
+        categoriaDaPergunta: "infraestrutura-de-chaves-publicas-brasileira"
+    },
+    {
+        enunciado: "O que é a cadeia de confiança na ICP-Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Sequência de autoridades certificadoras que garantem a validade dos certificados digitais", correto: true },
+            { conteudo: "Rede de computadores", correto: false },
+            { conteudo: "Um tipo de assinatura manual", correto: false },
+            { conteudo: "Sistema de arquivos", correto: false }
+        ],
+        justificativa: "A cadeia de confiança assegura que um certificado digital seja confiável e válido juridicamente.",
+        categoriaDaPergunta: "infraestrutura-de-chaves-publicas-brasileira"
+    },
+    {
+        enunciado: "Quais documentos são necessários para obter um certificado digital na ICP-Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Documento de identidade, CPF e comprovante de endereço", correto: true },
+            { conteudo: "Somente carteira de trabalho", correto: false },
+            { conteudo: "Apenas CPF", correto: false },
+            { conteudo: "Passaporte e título de eleitor", correto: false }
+        ],
+        justificativa: "Esses documentos são essenciais para validar a identidade do solicitante do certificado digital.",
+        categoriaDaPergunta: "infraestrutura-de-chaves-publicas-brasileira"
+    },
+    {
+        enunciado: "Qual a validade legal dos documentos assinados digitalmente pela ICP-Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Possuem a mesma validade jurídica que documentos assinados manualmente", correto: true },
+            { conteudo: "Não possuem validade legal", correto: false },
+            { conteudo: "São válidos apenas para contratos informais", correto: false },
+            { conteudo: "Somente documentos em papel têm validade", correto: false }
+        ],
+        justificativa: "A assinatura digital via ICP-Brasil confere validade jurídica plena aos documentos eletrônicos.",
+        categoriaDaPergunta: "infraestrutura-de-chaves-publicas-brasileira"
+    },
+    {
+        enunciado: "Quais são os principais tipos de certificados digitais emitidos pela ICP-Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Pessoa física (e-CPF) e pessoa jurídica (e-CNPJ)", correto: true },
+            { conteudo: "Certificado de propriedade e veículo", correto: false },
+            { conteudo: "Certificado de residência e escolaridade", correto: false },
+            { conteudo: "Certificado de curso online", correto: false }
+        ],
+        justificativa: "Os certificados digitais e-CPF e e-CNPJ são os mais comuns para identificação na ICP-Brasil.",
+        categoriaDaPergunta: "infraestrutura-de-chaves-publicas-brasileira"
+    },
+    {
+        enunciado: "Como a ICP-Brasil contribui para a segurança das transações eletrônicas?",
+        arrayDeRespostas: [
+            { conteudo: "Garantindo autenticidade, integridade e não-repúdio das informações", correto: true },
+            { conteudo: "Desativando redes Wi-Fi", correto: false },
+            { conteudo: "Controlando o acesso à internet", correto: false },
+            { conteudo: "Gerando senhas para redes sociais", correto: false }
+        ],
+        justificativa: "A ICP-Brasil oferece infraestrutura para validar e proteger as transações digitais com segurança jurídica.",
+        categoriaDaPergunta: "infraestrutura-de-chaves-publicas-brasileira"
+    },
+    {
+        enunciado: "Qual a principal vantagem da assinatura digital em relação à assinatura manual?",
+        arrayDeRespostas: [
+            { conteudo: "Garantia de autenticidade e integridade do documento eletrônico", correto: true },
+            { conteudo: "Maior facilidade para falsificação", correto: false },
+            { conteudo: "Redução do uso de computadores", correto: false },
+            { conteudo: "Aumenta o tempo para aprovação de documentos", correto: false }
+        ],
+        justificativa: "A assinatura digital assegura que o documento não foi alterado e é de autoria legítima.",
+        categoriaDaPergunta: "vantagens-da-certificacao-e-assinatura-digital"
+    },
+    {
+        enunciado: "Como a certificação digital contribui para a redução de custos em uma empresa?",
+        arrayDeRespostas: [
+            { conteudo: "Reduz gastos com papel, impressão e armazenamento físico", correto: true },
+            { conteudo: "Aumenta o custo de impressão", correto: false },
+            { conteudo: "Necessita mais funcionários para controle", correto: false },
+            { conteudo: "Exige mais uso de papel", correto: false }
+        ],
+        justificativa: "Processos digitais eliminam custos com documentos físicos e logística associada.",
+        categoriaDaPergunta: "vantagens-da-certificacao-e-assinatura-digital"
+    },
+    {
+        enunciado: "Qual vantagem da assinatura digital facilita o processo de auditoria?",
+        arrayDeRespostas: [
+            { conteudo: "Rastreamento e comprovação da origem e integridade dos documentos", correto: true },
+            { conteudo: "Dificulta o acesso aos documentos", correto: false },
+            { conteudo: "Elimina documentos históricos", correto: false },
+            { conteudo: "Exige impressão de todos os documentos", correto: false }
+        ],
+        justificativa: "Assinaturas digitais deixam um registro eletrônico confiável para auditorias e verificações.",
+        categoriaDaPergunta: "vantagens-da-certificacao-e-assinatura-digital"
+    },
+    {
+        enunciado: "Como a certificação digital ajuda na segurança das transações eletrônicas?",
+        arrayDeRespostas: [
+            { conteudo: "Garantindo autenticação, integridade e não-repúdio", correto: true },
+            { conteudo: "Permitindo acesso irrestrito a todos", correto: false },
+            { conteudo: "Eliminando senhas", correto: false },
+            { conteudo: "Armazenando documentos em papel", correto: false }
+        ],
+        justificativa: "A certificação digital protege contra fraudes e garante a validade jurídica das transações.",
+        categoriaDaPergunta: "vantagens-da-certificacao-e-assinatura-digital"
+    },
+    {
+        enunciado: "Uma vantagem da assinatura digital é a agilidade. Por quê?",
+        arrayDeRespostas: [
+            { conteudo: "Permite assinar e validar documentos eletronicamente em poucos segundos", correto: true },
+            { conteudo: "Exige envio de documentos por correio", correto: false },
+            { conteudo: "Necessita impressão e reconhecimento em cartório", correto: false },
+            { conteudo: "Demora dias para validar assinaturas", correto: false }
+        ],
+        justificativa: "A assinatura digital elimina a necessidade de processos físicos lentos e burocráticos.",
+        categoriaDaPergunta: "vantagens-da-certificacao-e-assinatura-digital"
+    },
+    {
+        enunciado: "Como a certificação digital contribui para a sustentabilidade ambiental?",
+        arrayDeRespostas: [
+            { conteudo: "Reduz o uso de papel e diminui a pegada de carbono", correto: true },
+            { conteudo: "Aumenta o consumo de energia", correto: false },
+            { conteudo: "Exige mais transporte de documentos", correto: false },
+            { conteudo: "Necessita descarte maior de papel", correto: false }
+        ],
+        justificativa: "Processos digitais diminuem a necessidade de materiais físicos e transporte, beneficiando o meio ambiente.",
+        categoriaDaPergunta: "vantagens-da-certificacao-e-assinatura-digital"
+    },
+    {
+        enunciado: "Uma vantagem da certificação digital para clientes é:",
+        arrayDeRespostas: [
+            { conteudo: "Mais segurança e confiança nas transações online", correto: true },
+            { conteudo: "Processos mais lentos", correto: false },
+            { conteudo: "Necessidade de comparecer presencialmente", correto: false },
+            { conteudo: "Aumento da burocracia", correto: false }
+        ],
+        justificativa: "Clientes se beneficiam da autenticidade e segurança em suas relações digitais.",
+        categoriaDaPergunta: "vantagens-da-certificacao-e-assinatura-digital"
+    },
+    {
+        enunciado: "Como a certificação digital facilita a conformidade legal das empresas?",
+        arrayDeRespostas: [
+            { conteudo: "Atende exigências legais de validade e segurança de documentos eletrônicos", correto: true },
+            { conteudo: "Ignora normas regulatórias", correto: false },
+            { conteudo: "Não tem impacto legal", correto: false },
+            { conteudo: "Aumenta riscos jurídicos", correto: false }
+        ],
+        justificativa: "Certificados digitais são aceitos legalmente e evitam problemas judiciais relacionados a documentos eletrônicos.",
+        categoriaDaPergunta: "vantagens-da-certificacao-e-assinatura-digital"
+    },
+    {
+        enunciado: "Qual vantagem da assinatura digital está relacionada à mobilidade?",
+        arrayDeRespostas: [
+            { conteudo: "Permite assinar documentos de qualquer lugar, a qualquer hora", correto: true },
+            { conteudo: "Exige estar presente fisicamente", correto: false },
+            { conteudo: "Só funciona em escritórios", correto: false },
+            { conteudo: "Depende de papel e caneta", correto: false }
+        ],
+        justificativa: "Assinaturas digitais tornam os processos independentes de localização física, aumentando a flexibilidade.",
+        categoriaDaPergunta: "vantagens-da-certificacao-e-assinatura-digital"
+    },
+    {
+        enunciado: "Uma vantagem da certificação digital para processos internos é:",
+        arrayDeRespostas: [
+            { conteudo: "Automatização e segurança na gestão documental", correto: true },
+            { conteudo: "Dificuldade no acesso aos documentos", correto: false },
+            { conteudo: "Mais burocracia manual", correto: false },
+            { conteudo: "Armazenamento exclusivo em papel", correto: false }
+        ],
+        justificativa: "A certificação digital facilita a gestão eficiente e segura dos documentos dentro das organizações.",
+        categoriaDaPergunta: "vantagens-da-certificacao-e-assinatura-digital"
+    },
+    {
+        enunciado: "Qual a principal diferença entre assinatura eletrônica e assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Assinatura digital utiliza criptografia e tem validade jurídica reconhecida, a eletrônica pode não ter", correto: true },
+            { conteudo: "Assinatura eletrônica é sempre mais segura que a digital", correto: false },
+            { conteudo: "Assinatura digital é feita manualmente e digitalizada", correto: false },
+            { conteudo: "Assinatura eletrônica não pode ser usada em documentos digitais", correto: false }
+        ],
+        justificativa: "A assinatura digital usa tecnologia criptográfica para garantir autenticidade e validade jurídica.",
+        categoriaDaPergunta: "diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital"
+    },
+    {
+        enunciado: "Qual das opções representa a assinatura eletrônica?",
+        arrayDeRespostas: [
+            { conteudo: "Qualquer forma de assinatura realizada em ambiente eletrônico, como clicar em 'Aceito'", correto: true },
+            { conteudo: "Uso de certificado digital com criptografia assimétrica", correto: false },
+            { conteudo: "Assinatura manuscrita em papel", correto: false },
+            { conteudo: "Documento impresso", correto: false }
+        ],
+        justificativa: "A assinatura eletrônica abrange diversas formas simples de aceitação em ambiente digital.",
+        categoriaDaPergunta: "diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital"
+    },
+    {
+        enunciado: "A assinatura digital oferece quais garantias que a assinatura eletrônica simples não oferece?",
+        arrayDeRespostas: [
+            { conteudo: "Autenticidade, integridade e não-repúdio", correto: true },
+            { conteudo: "Somente rapidez na assinatura", correto: false },
+            { conteudo: "Exclusivamente aparência visual", correto: false },
+            { conteudo: "Apenas armazenamento local", correto: false }
+        ],
+        justificativa: "A assinatura digital utiliza criptografia para assegurar essas propriedades legais e técnicas.",
+        categoriaDaPergunta: "diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital"
+    },
+    {
+        enunciado: "Qual é o requisito para que uma assinatura digital tenha validade jurídica no Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Ser emitida dentro da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)", correto: true },
+            { conteudo: "Ser feita com um clique simples", correto: false },
+            { conteudo: "Ter imagem escaneada da assinatura manuscrita", correto: false },
+            { conteudo: "Ser enviada por e-mail", correto: false }
+        ],
+        justificativa: "A ICP-Brasil é o órgão regulador que garante a validade legal da assinatura digital.",
+        categoriaDaPergunta: "diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital"
+    },
+    {
+        enunciado: "A assinatura eletrônica pode ser usada para:",
+        arrayDeRespostas: [
+            { conteudo: "Aceitar termos em formulários online de forma simples", correto: true },
+            { conteudo: "Garantir validade jurídica sem criptografia", correto: false },
+            { conteudo: "Criar documentos físicos", correto: false },
+            { conteudo: "Imprimir documentos", correto: false }
+        ],
+        justificativa: "A assinatura eletrônica é usada para concordar com termos e condições, mas nem sempre tem validade jurídica robusta.",
+        categoriaDaPergunta: "diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital"
+    },
+    {
+        enunciado: "Quais tecnologias são usadas na assinatura digital que geralmente não são usadas na assinatura eletrônica simples?",
+        arrayDeRespostas: [
+            { conteudo: "Criptografia assimétrica e certificados digitais", correto: true },
+            { conteudo: "Impressão em papel", correto: false },
+            { conteudo: "Assinatura manuscrita", correto: false },
+            { conteudo: "Email sem autenticação", correto: false }
+        ],
+        justificativa: "Essas tecnologias asseguram a autenticidade e integridade da assinatura digital.",
+        categoriaDaPergunta: "diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital"
+    },
+    {
+        enunciado: "A assinatura digital permite o que que a eletrônica não permite facilmente?",
+        arrayDeRespostas: [
+            { conteudo: "Rastreamento seguro e prova legal da autoria e integridade do documento", correto: true },
+            { conteudo: "Assinar com o dedo em tela sensível", correto: false },
+            { conteudo: "Enviar documento por e-mail", correto: false },
+            { conteudo: "Salvar documento no computador", correto: false }
+        ],
+        justificativa: "A assinatura digital gera provas técnicas que podem ser usadas em disputas legais.",
+        categoriaDaPergunta: "diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital"
+    },
+    {
+        enunciado: "Qual afirmação sobre assinatura eletrônica é verdadeira?",
+        arrayDeRespostas: [
+            { conteudo: "Pode ser apenas um clique ou digitação de nome para aceitar termos", correto: true },
+            { conteudo: "Sempre usa certificado digital", correto: false },
+            { conteudo: "Tem garantia de integridade como a assinatura digital", correto: false },
+            { conteudo: "Não pode ser usada em contratos", correto: false }
+        ],
+        justificativa: "Assinatura eletrônica é ampla e pode ser uma forma simples de concordância eletrônica.",
+        categoriaDaPergunta: "diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital"
+    },
+    {
+        enunciado: "Qual das seguintes não é uma característica da assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Pode ser facilmente falsificada sem tecnologia adequada", correto: true },
+            { conteudo: "Assegura a integridade do documento", correto: false },
+            { conteudo: "Utiliza criptografia de chave pública e privada", correto: false },
+            { conteudo: "Possui validade jurídica garantida pela ICP-Brasil", correto: false }
+        ],
+        justificativa: "A assinatura digital é difícil de falsificar graças à criptografia avançada.",
+        categoriaDaPergunta: "diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital"
+    },
+    {
+        enunciado: "Por que a assinatura digital é recomendada para documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Porque oferece segurança, validade jurídica e integridade comprovada", correto: true },
+            { conteudo: "Porque é mais barata que a assinatura eletrônica", correto: false },
+            { conteudo: "Porque não precisa de tecnologia", correto: false },
+            { conteudo: "Porque não precisa ser validada", correto: false }
+        ],
+        justificativa: "A assinatura digital é a opção mais segura e legalmente reconhecida para documentos oficiais.",
+        categoriaDaPergunta: "diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital"
+    },
+    {
+        enunciado: "Qual é a principal lei que regula a certificação digital e assinatura digital no Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Lei nº 14.063/2020", correto: true },
+            { conteudo: "Lei nº 9.610/1998", correto: false },
+            { conteudo: "Lei nº 12.527/2011", correto: false },
+            { conteudo: "Lei nº 10.406/2002 (Código Civil)", correto: false }
+        ],
+        justificativa: "A Lei nº 14.063/2020 dispõe sobre o uso de assinaturas eletrônicas em documentos públicos e privados.",
+        categoriaDaPergunta: "legislacao-pertinente"
+    },
+    {
+        enunciado: "O que a Lei nº 14.063/2020 estabelece sobre a validade da assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Reconhece validade jurídica para assinaturas eletrônicas, com diferentes níveis de segurança", correto: true },
+            { conteudo: "Proíbe o uso de assinaturas digitais", correto: false },
+            { conteudo: "Só permite assinaturas manuscritas", correto: false },
+            { conteudo: "Não trata sobre assinaturas eletrônicas", correto: false }
+        ],
+        justificativa: "A lei diferencia níveis de assinaturas e garante validade jurídica conforme segurança empregada.",
+        categoriaDaPergunta: "legislacao-pertinente"
+    },
+    {
+        enunciado: "Qual órgão regulamenta a ICP-Brasil e seus certificados digitais?",
+        arrayDeRespostas: [
+            { conteudo: "Instituto Nacional de Tecnologia da Informação (ITI)", correto: true },
+            { conteudo: "Banco Central do Brasil", correto: false },
+            { conteudo: "Ministério da Justiça", correto: false },
+            { conteudo: "Agência Nacional de Telecomunicações (ANATEL)", correto: false }
+        ],
+        justificativa: "O ITI é o órgão gestor da ICP-Brasil e responsável pela regulamentação técnica.",
+        categoriaDaPergunta: "legislacao-pertinente"
+    },
+    {
+        enunciado: "O que a Medida Provisória nº 2.200-2/2001 instituiu?",
+        arrayDeRespostas: [
+            { conteudo: "Instituiu a ICP-Brasil e a validade jurídica das assinaturas digitais", correto: true },
+            { conteudo: "Criou o Código Civil", correto: false },
+            { conteudo: "Regulamentou direitos autorais", correto: false },
+            { conteudo: "Dispôs sobre direito do consumidor", correto: false }
+        ],
+        justificativa: "Essa MP criou a infraestrutura legal para o uso de assinaturas digitais no Brasil.",
+        categoriaDaPergunta: "legislacao-pertinente"
+    },
+    {
+        enunciado: "Qual a importância do Decreto nº 10.278/2020 para assinaturas eletrônicas?",
+        arrayDeRespostas: [
+            { conteudo: "Regulamenta o uso de assinaturas eletrônicas em documentos públicos", correto: true },
+            { conteudo: "Revoga a ICP-Brasil", correto: false },
+            { conteudo: "Estabelece regras para telecomunicações", correto: false },
+            { conteudo: "Define regras para a internet banda larga", correto: false }
+        ],
+        justificativa: "O decreto regulamenta e define procedimentos para assinaturas eletrônicas no setor público.",
+        categoriaDaPergunta: "legislacao-pertinente"
+    },
+    {
+        enunciado: "O que a legislação brasileira considera como assinatura digital válida?",
+        arrayDeRespostas: [
+            { conteudo: "Assinatura realizada com certificado digital emitido pela ICP-Brasil", correto: true },
+            { conteudo: "Qualquer assinatura escaneada", correto: false },
+            { conteudo: "Apenas assinatura manuscrita", correto: false },
+            { conteudo: "Assinatura por e-mail sem autenticação", correto: false }
+        ],
+        justificativa: "A validade jurídica depende do uso de certificados emitidos dentro da ICP-Brasil.",
+        categoriaDaPergunta: "legislacao-pertinente"
+    },
+    {
+        enunciado: "O que a Lei Geral de Proteção de Dados (LGPD) tem relação com certificação digital?",
+        arrayDeRespostas: [
+            { conteudo: "Exige proteção dos dados pessoais, que podem ser assegurados pelo uso da certificação digital", correto: true },
+            { conteudo: "Proíbe uso de certificados digitais", correto: false },
+            { conteudo: "Não tem relação alguma", correto: false },
+            { conteudo: "Exige o uso exclusivo de assinaturas manuscritas", correto: false }
+        ],
+        justificativa: "A LGPD reforça a importância da segurança e privacidade, beneficiando-se da certificação digital.",
+        categoriaDaPergunta: "legislacao-pertinente"
+    },
+    {
+        enunciado: "Qual lei brasileira regulamenta o uso de documentos eletrônicos com validade jurídica?",
+        arrayDeRespostas: [
+            { conteudo: "Lei nº 14.063/2020", correto: true },
+            { conteudo: "Lei nº 8.666/1993", correto: false },
+            { conteudo: "Lei nº 13.709/2018", correto: false },
+            { conteudo: "Lei nº 9.610/1998", correto: false }
+        ],
+        justificativa: "Essa lei dispõe sobre a validade de assinaturas eletrônicas em documentos públicos e privados.",
+        categoriaDaPergunta: "legislacao-pertinente"
+    },
+    {
+        enunciado: "O que o Marco Civil da Internet (Lei nº 12.965/2014) estabelece em relação à assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Reconhece a assinatura digital como meio legítimo para comprovar atos na internet", correto: true },
+            { conteudo: "Proíbe o uso de assinaturas digitais", correto: false },
+            { conteudo: "Regulamenta exclusivamente redes sociais", correto: false },
+            { conteudo: "Não menciona assinaturas digitais", correto: false }
+        ],
+        justificativa: "O Marco Civil reconhece a validade jurídica da assinatura digital nas relações online.",
+        categoriaDaPergunta: "legislacao-pertinente"
+    },
+    {
+        enunciado: "Qual a função da Medida Provisória nº 2.200-2/2001 no contexto da certificação digital?",
+        arrayDeRespostas: [
+            { conteudo: "Estabelece a ICP-Brasil e define a validade jurídica da assinatura digital", correto: true },
+            { conteudo: "Define regras para contratos de trabalho", correto: false },
+            { conteudo: "Regula telecomunicações", correto: false },
+            { conteudo: "Cria regras para direitos autorais", correto: false }
+        ],
+        justificativa: "Essa MP foi o marco legal que instituiu a infraestrutura de chaves públicas no Brasil.",
+        categoriaDaPergunta: "legislacao-pertinente"
+    },
+    {
+        enunciado: "O que é segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de práticas que protegem dados contra acessos não autorizados, perdas ou danos", correto: true },
+            { conteudo: "Processo de instalação de softwares", correto: false },
+            { conteudo: "Apenas o uso de antivírus", correto: false },
+            { conteudo: "Exclusivamente backups físicos", correto: false }
+        ],
+        justificativa: "Segurança da informação visa proteger a confidencialidade, integridade e disponibilidade dos dados.",
+        categoriaDaPergunta: "aspectos-gerais"
+    },
+    {
+        enunciado: "Quais são os três pilares principais da segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Confidencialidade, integridade e disponibilidade", correto: true },
+            { conteudo: "Velocidade, armazenamento e acesso", correto: false },
+            { conteudo: "Hardware, software e redes", correto: false },
+            { conteudo: "Usuário, senha e firewall", correto: false }
+        ],
+        justificativa: "Esses pilares garantem que a informação seja protegida contra acessos indevidos, alterações não autorizadas e esteja disponível quando necessário.",
+        categoriaDaPergunta: "aspectos-gerais"
+    },
+    {
+        enunciado: "O que é confidencialidade na segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Garantia que a informação seja acessada somente por pessoas autorizadas", correto: true },
+            { conteudo: "Disponibilidade dos dados 24 horas", correto: false },
+            { conteudo: "Correção de erros em dados", correto: false },
+            { conteudo: "Criação de backups", correto: false }
+        ],
+        justificativa: "Confidencialidade protege os dados contra acesso não autorizado.",
+        categoriaDaPergunta: "aspectos-gerais"
+    },
+    {
+        enunciado: "O que significa integridade em segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Garantia de que os dados não foram alterados indevidamente", correto: true },
+            { conteudo: "Proteção contra vírus", correto: false },
+            { conteudo: "Manutenção de servidores", correto: false },
+            { conteudo: "Velocidade no processamento de dados", correto: false }
+        ],
+        justificativa: "Integridade assegura que os dados permanecem corretos e completos.",
+        categoriaDaPergunta: "aspectos-gerais"
+    },
+    {
+        enunciado: "O que é disponibilidade na segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Garantia que a informação esteja acessível quando necessária", correto: true },
+            { conteudo: "Criptografia dos dados", correto: false },
+            { conteudo: "Cópias físicas de documentos", correto: false },
+            { conteudo: "Bloqueio de acesso remoto", correto: false }
+        ],
+        justificativa: "Disponibilidade assegura que os dados e serviços estejam acessíveis para os usuários autorizados.",
+        categoriaDaPergunta: "aspectos-gerais"
+    },
+    {
+        enunciado: "Qual é o principal objetivo do controle de acesso?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir que somente usuários autorizados possam acessar recursos", correto: true },
+            { conteudo: "Aumentar o espaço de armazenamento", correto: false },
+            { conteudo: "Velocidade da rede", correto: false },
+            { conteudo: "Instalar softwares automaticamente", correto: false }
+        ],
+        justificativa: "Controle de acesso protege os sistemas e dados contra acessos não autorizados.",
+        categoriaDaPergunta: "aspectos-gerais"
+    },
+    {
+        enunciado: "O que é um malware?",
+        arrayDeRespostas: [
+            { conteudo: "Software malicioso projetado para causar danos ou acessar dados indevidamente", correto: true },
+            { conteudo: "Programa de segurança", correto: false },
+            { conteudo: "Atualização de sistema", correto: false },
+            { conteudo: "Backup de dados", correto: false }
+        ],
+        justificativa: "Malware inclui vírus, worms, trojans, entre outros, que prejudicam sistemas e dados.",
+        categoriaDaPergunta: "aspectos-gerais"
+    },
+    {
+        enunciado: "Qual a função de um firewall?",
+        arrayDeRespostas: [
+            { conteudo: "Monitorar e controlar o tráfego de rede para proteger contra acessos indevidos", correto: true },
+            { conteudo: "Acelerar a conexão com a internet", correto: false },
+            { conteudo: "Armazenar arquivos temporariamente", correto: false },
+            { conteudo: "Backup automático", correto: false }
+        ],
+        justificativa: "Firewall atua como barreira de proteção entre redes confiáveis e não confiáveis.",
+        categoriaDaPergunta: "aspectos-gerais"
+    },
+    {
+        enunciado: "O que é phishing?",
+        arrayDeRespostas: [
+            { conteudo: "Golpe que tenta obter dados pessoais por meio de falsificação de comunicação", correto: true },
+            { conteudo: "Programa de segurança de redes", correto: false },
+            { conteudo: "Ataque físico a equipamentos", correto: false },
+            { conteudo: "Criptografia de dados", correto: false }
+        ],
+        justificativa: "Phishing usa e-mails ou sites falsos para enganar usuários e roubar informações.",
+        categoriaDaPergunta: "aspectos-gerais"
+    },
+    {
+        enunciado: "Por que a atualização de softwares é importante para a segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Corrige vulnerabilidades que podem ser exploradas por atacantes", correto: true },
+            { conteudo: "Deixa o sistema mais lento", correto: false },
+            { conteudo: "Diminui a segurança", correto: false },
+            { conteudo: "Apaga dados importantes", correto: false }
+        ],
+        justificativa: "Atualizações corrigem falhas que podem comprometer a segurança dos sistemas.",
+        categoriaDaPergunta: "aspectos-gerais"
+    },
+    {
+        enunciado: "Qual é o princípio básico da confidencialidade na segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir que a informação seja acessada apenas por pessoas autorizadas", correto: true },
+            { conteudo: "Garantir que os dados estejam sempre disponíveis", correto: false },
+            { conteudo: "Garantir que os dados não sejam alterados", correto: false },
+            { conteudo: "Garantir a velocidade do sistema", correto: false }
+        ],
+        justificativa: "A confidencialidade protege os dados contra acessos não autorizados.",
+        categoriaDaPergunta: "principios-da-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que significa o princípio da integridade?",
+        arrayDeRespostas: [
+            { conteudo: "Assegurar que os dados não sejam modificados indevidamente", correto: true },
+            { conteudo: "Garantir o acesso irrestrito a todos os usuários", correto: false },
+            { conteudo: "Armazenar os dados em nuvem", correto: false },
+            { conteudo: "Criar cópias de segurança", correto: false }
+        ],
+        justificativa: "Integridade garante que a informação permanece completa e correta.",
+        categoriaDaPergunta: "principios-da-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é disponibilidade no contexto da segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Garantia que a informação esteja acessível quando necessária", correto: true },
+            { conteudo: "Proteção contra vírus", correto: false },
+            { conteudo: "Manutenção do hardware", correto: false },
+            { conteudo: "Criptografia dos dados", correto: false }
+        ],
+        justificativa: "Disponibilidade assegura o acesso contínuo aos dados e serviços.",
+        categoriaDaPergunta: "principios-da-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O princípio da autenticidade refere-se a:",
+        arrayDeRespostas: [
+            { conteudo: "Garantir que a identidade do usuário ou sistema seja verdadeira", correto: true },
+            { conteudo: "Disponibilidade dos dados", correto: false },
+            { conteudo: "Integridade dos arquivos", correto: false },
+            { conteudo: "Backup de dados", correto: false }
+        ],
+        justificativa: "Autenticidade assegura a veracidade da identidade envolvida na comunicação.",
+        categoriaDaPergunta: "principios-da-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é o princípio do não-repúdio?",
+        arrayDeRespostas: [
+            { conteudo: "Garantia que uma ação não possa ser negada por quem a realizou", correto: true },
+            { conteudo: "Impossibilidade de acesso a dados", correto: false },
+            { conteudo: "Criptografia fraca", correto: false },
+            { conteudo: "Disponibilidade limitada", correto: false }
+        ],
+        justificativa: "Não-repúdio evita que o autor de uma ação negue sua autoria posteriormente.",
+        categoriaDaPergunta: "principios-da-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O princípio da responsabilidade implica que:",
+        arrayDeRespostas: [
+            { conteudo: "Usuários devem responder por suas ações no sistema", correto: true },
+            { conteudo: "Os dados devem ser públicos", correto: false },
+            { conteudo: "Sistemas devem ser sempre gratuitos", correto: false },
+            { conteudo: "Acesso irrestrito a todos", correto: false }
+        ],
+        justificativa: "Responsabilidade assegura rastreabilidade e prestação de contas das ações realizadas.",
+        categoriaDaPergunta: "principios-da-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O princípio do controle de acesso tem como objetivo:",
+        arrayDeRespostas: [
+            { conteudo: "Restringir o acesso a informações somente a usuários autorizados", correto: true },
+            { conteudo: "Garantir acesso irrestrito", correto: false },
+            { conteudo: "Eliminar senhas", correto: false },
+            { conteudo: "Aumentar o tráfego de rede", correto: false }
+        ],
+        justificativa: "Controle de acesso protege informações contra acesso não autorizado.",
+        categoriaDaPergunta: "principios-da-seguranca-da-informacao"
+    },
+    {
+        enunciado: "Qual princípio assegura que os dados sejam mantidos completos e corretos durante todo o ciclo de vida?",
+        arrayDeRespostas: [
+            { conteudo: "Integridade", correto: true },
+            { conteudo: "Disponibilidade", correto: false },
+            { conteudo: "Confidencialidade", correto: false },
+            { conteudo: "Autenticidade", correto: false }
+        ],
+        justificativa: "Integridade evita alterações não autorizadas ou acidentais dos dados.",
+        categoriaDaPergunta: "principios-da-seguranca-da-informacao"
+    },
+    {
+        enunciado: "Por que o princípio da confidencialidade é fundamental em segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Porque protege informações sensíveis contra acesso indevido", correto: true },
+            { conteudo: "Porque permite acesso irrestrito", correto: false },
+            { conteudo: "Porque diminui a velocidade do sistema", correto: false },
+            { conteudo: "Porque impede backups", correto: false }
+        ],
+        justificativa: "Confidencialidade evita vazamento e uso indevido das informações.",
+        categoriaDaPergunta: "principios-da-seguranca-da-informacao"
+    },
+    {
+        enunciado: "Qual princípio está relacionado à garantia da disponibilidade dos sistemas mesmo em caso de falhas?",
+        arrayDeRespostas: [
+            { conteudo: "Disponibilidade", correto: true },
+            { conteudo: "Confidencialidade", correto: false },
+            { conteudo: "Autenticidade", correto: false },
+            { conteudo: "Não-repúdio", correto: false }
+        ],
+        justificativa: "Disponibilidade assegura que serviços e dados estejam acessíveis quando necessários, mesmo diante de problemas.",
+        categoriaDaPergunta: "principios-da-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é criptologia?",
+        arrayDeRespostas: [
+            { conteudo: "Estudo das técnicas de codificação e decodificação de mensagens para garantir segurança", correto: true },
+            { conteudo: "Processo de formatação de texto", correto: false },
+            { conteudo: "Método de armazenamento de dados", correto: false },
+            { conteudo: "Programa de backup", correto: false }
+        ],
+        justificativa: "Criptologia engloba a criação e análise de métodos seguros para proteger informações.",
+        categoriaDaPergunta: "criptologia"
+    },
+    {
+        enunciado: "Qual a diferença entre criptografia e criptoanálise?",
+        arrayDeRespostas: [
+            { conteudo: "Criptografia é a criação de códigos; criptoanálise é o estudo para quebrar esses códigos", correto: true },
+            { conteudo: "Criptografia é quebrar códigos; criptoanálise é criar códigos", correto: false },
+            { conteudo: "Ambas são o mesmo processo", correto: false },
+            { conteudo: "Nenhuma das anteriores", correto: false }
+        ],
+        justificativa: "Criptografia protege mensagens; criptoanálise busca vulnerabilidades nesses métodos.",
+        categoriaDaPergunta: "criptologia"
+    },
+    {
+        enunciado: "O que é uma cifra simétrica?",
+        arrayDeRespostas: [
+            { conteudo: "Método que usa a mesma chave para criptografar e descriptografar", correto: true },
+            { conteudo: "Método que usa chaves diferentes para criptografar e descriptografar", correto: false },
+            { conteudo: "Criptografia sem uso de chave", correto: false },
+            { conteudo: "Processo de compressão de dados", correto: false }
+        ],
+        justificativa: "Cifra simétrica usa uma única chave compartilhada entre remetente e destinatário.",
+        categoriaDaPergunta: "criptologia"
+    },
+    {
+        enunciado: "Qual é a característica principal da cifra assimétrica?",
+        arrayDeRespostas: [
+            { conteudo: "Usa um par de chaves: pública para criptografar e privada para descriptografar", correto: true },
+            { conteudo: "Usa a mesma chave para criptografia e descriptografia", correto: false },
+            { conteudo: "Não usa chaves", correto: false },
+            { conteudo: "É usada apenas para compressão", correto: false }
+        ],
+        justificativa: "A cifra assimétrica possibilita comunicação segura sem troca prévia de chaves secretas.",
+        categoriaDaPergunta: "criptologia"
+    },
+    {
+        enunciado: "O que significa o termo 'criptografia de chave pública'?",
+        arrayDeRespostas: [
+            { conteudo: "Sistema que utiliza uma chave pública para criptografar e uma chave privada para descriptografar", correto: true },
+            { conteudo: "Uso de uma única chave para todos os usuários", correto: false },
+            { conteudo: "Criptografia sem chaves", correto: false },
+            { conteudo: "Criptografia manual em papel", correto: false }
+        ],
+        justificativa: "Criptografia de chave pública é a base da criptografia assimétrica moderna.",
+        categoriaDaPergunta: "criptologia"
+    },
+    {
+        enunciado: "Qual das alternativas é um algoritmo de criptografia simétrica?",
+        arrayDeRespostas: [
+            { conteudo: "AES (Advanced Encryption Standard)", correto: true },
+            { conteudo: "RSA", correto: false },
+            { conteudo: "DSA", correto: false },
+            { conteudo: "SHA-256", correto: false }
+        ],
+        justificativa: "AES é um dos principais algoritmos simétricos usados para criptografia de dados.",
+        categoriaDaPergunta: "criptologia"
+    },
+    {
+        enunciado: "Qual algoritmo é um exemplo de criptografia assimétrica?",
+        arrayDeRespostas: [
+            { conteudo: "RSA", correto: true },
+            { conteudo: "DES", correto: false },
+            { conteudo: "Blowfish", correto: false },
+            { conteudo: "MD5", correto: false }
+        ],
+        justificativa: "RSA é um dos algoritmos mais usados para criptografia de chave pública.",
+        categoriaDaPergunta: "criptologia"
+    },
+    {
+        enunciado: "O que é uma função hash na criptologia?",
+        arrayDeRespostas: [
+            { conteudo: "Função que transforma dados de qualquer tamanho em um valor fixo e único", correto: true },
+            { conteudo: "Algoritmo de criptografia simétrica", correto: false },
+            { conteudo: "Tipo de assinatura digital", correto: false },
+            { conteudo: "Programa antivírus", correto: false }
+        ],
+        justificativa: "Funções hash são usadas para verificar integridade e gerar impressões digitais dos dados.",
+        categoriaDaPergunta: "criptologia"
+    },
+    {
+        enunciado: "Qual a importância da criptografia na segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Protege a confidencialidade e integridade dos dados", correto: true },
+            { conteudo: "Melhora a velocidade da rede", correto: false },
+            { conteudo: "Aumenta o armazenamento de dados", correto: false },
+            { conteudo: "Remove vírus do sistema", correto: false }
+        ],
+        justificativa: "Criptografia assegura que dados sejam protegidos contra acesso e alterações não autorizadas.",
+        categoriaDaPergunta: "criptologia"
+    },
+    {
+        enunciado: "O que é criptoanálise?",
+        arrayDeRespostas: [
+            { conteudo: "Estudo e técnicas para quebrar sistemas criptográficos", correto: true },
+            { conteudo: "Criação de novos algoritmos de criptografia", correto: false },
+            { conteudo: "Processo de backup de dados", correto: false },
+            { conteudo: "Análise de desempenho de hardware", correto: false }
+        ],
+        justificativa: "Criptoanálise busca identificar falhas em métodos criptográficos para quebrar a segurança.",
+        categoriaDaPergunta: "criptologia"
+    },
+    {
+        enunciado: "O que é autenticação na segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Processo de verificar a identidade de um usuário ou sistema", correto: true },
+            { conteudo: "Ação de criptografar dados", correto: false },
+            { conteudo: "Backup de informações", correto: false },
+            { conteudo: "Monitoramento de rede", correto: false }
+        ],
+        justificativa: "Autenticação garante que apenas usuários legítimos tenham acesso aos sistemas.",
+        categoriaDaPergunta: "autenticacao"
+    },
+    {
+        enunciado: "Qual das alternativas é um método comum de autenticação?",
+        arrayDeRespostas: [
+            { conteudo: "Senha (password)", correto: true },
+            { conteudo: "Criptografia", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Backup", correto: false }
+        ],
+        justificativa: "Senha é o método mais comum para autenticar usuários.",
+        categoriaDaPergunta: "autenticacao"
+    },
+    {
+        enunciado: "O que significa autenticação multifator (MFA)?",
+        arrayDeRespostas: [
+            { conteudo: "Uso de dois ou mais métodos de autenticação para verificar identidade", correto: true },
+            { conteudo: "Uso de uma única senha forte", correto: false },
+            { conteudo: "Autenticação baseada em firewall", correto: false },
+            { conteudo: "Backup periódico de dados", correto: false }
+        ],
+        justificativa: "MFA aumenta a segurança exigindo múltiplas provas de identidade.",
+        categoriaDaPergunta: "autenticacao"
+    },
+    {
+        enunciado: "Qual dos seguintes fatores NÃO é usado em autenticação multifator?",
+        arrayDeRespostas: [
+            { conteudo: "Backup de dados", correto: true },
+            { conteudo: "Algo que você sabe (senha)", correto: false },
+            { conteudo: "Algo que você tem (token)", correto: false },
+            { conteudo: "Algo que você é (biometria)", correto: false }
+        ],
+        justificativa: "Backup não é um fator de autenticação, mas uma medida de segurança distinta.",
+        categoriaDaPergunta: "autenticacao"
+    },
+    {
+        enunciado: "Qual é a função de um token na autenticação?",
+        arrayDeRespostas: [
+            { conteudo: "Gerar códigos temporários para validar a identidade do usuário", correto: true },
+            { conteudo: "Armazenar dados pessoais", correto: false },
+            { conteudo: "Fazer backup de senhas", correto: false },
+            { conteudo: "Controlar acesso à internet", correto: false }
+        ],
+        justificativa: "Tokens fornecem códigos temporários usados em autenticações seguras.",
+        categoriaDaPergunta: "autenticacao"
+    },
+    {
+        enunciado: "O que é autenticação biométrica?",
+        arrayDeRespostas: [
+            { conteudo: "Verificação de identidade baseada em características físicas ou comportamentais", correto: true },
+            { conteudo: "Uso de senhas fortes", correto: false },
+            { conteudo: "Criptografia de dados", correto: false },
+            { conteudo: "Monitoramento de rede", correto: false }
+        ],
+        justificativa: "Biometria usa elementos únicos do corpo, como impressões digitais, para autenticar.",
+        categoriaDaPergunta: "autenticacao"
+    },
+    {
+        enunciado: "O que é falha de autenticação?",
+        arrayDeRespostas: [
+            { conteudo: "Quando o sistema não consegue confirmar a identidade do usuário", correto: true },
+            { conteudo: "Quando o sistema perde dados", correto: false },
+            { conteudo: "Quando a senha é atualizada", correto: false },
+            { conteudo: "Quando o firewall bloqueia uma conexão", correto: false }
+        ],
+        justificativa: "Falha ocorre quando o processo de autenticação não confirma o usuário.",
+        categoriaDaPergunta: "autenticacao"
+    },
+    {
+        enunciado: "O que significa 'autenticação baseada em conhecimento'?",
+        arrayDeRespostas: [
+            { conteudo: "Método que utiliza informações que o usuário sabe, como senha ou PIN", correto: true },
+            { conteudo: "Autenticação por reconhecimento facial", correto: false },
+            { conteudo: "Uso de token físico", correto: false },
+            { conteudo: "Criptografia assimétrica", correto: false }
+        ],
+        justificativa: "Esse método depende de algo que só o usuário conhece para validar a identidade.",
+        categoriaDaPergunta: "autenticacao"
+    },
+    {
+        enunciado: "Qual das alternativas é uma boa prática para fortalecer a autenticação?",
+        arrayDeRespostas: [
+            { conteudo: "Utilizar autenticação multifator sempre que possível", correto: true },
+            { conteudo: "Usar senhas simples para facilitar o acesso", correto: false },
+            { conteudo: "Compartilhar senhas com colegas", correto: false },
+            { conteudo: "Desabilitar o sistema de autenticação", correto: false }
+        ],
+        justificativa: "Autenticação multifator reduz riscos de acesso não autorizado.",
+        categoriaDaPergunta: "autenticacao"
+    },
+    {
+        enunciado: "Qual dos seguintes não é um fator de autenticação comum?",
+        arrayDeRespostas: [
+            { conteudo: "Velocidade da conexão de internet", correto: true },
+            { conteudo: "Senha", correto: false },
+            { conteudo: "Token físico", correto: false },
+            { conteudo: "Impressão digital", correto: false }
+        ],
+        justificativa: "Velocidade da internet não é usada para autenticação de usuários.",
+        categoriaDaPergunta: "autenticacao"
+    },
+    {
+        enunciado: "O que é uma assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Um mecanismo que garante a autenticidade, integridade e não-repúdio de um documento eletrônico", correto: true },
+            { conteudo: "Uma assinatura manuscrita escaneada", correto: false },
+            { conteudo: "Um tipo de vírus de computador", correto: false },
+            { conteudo: "Um programa para editar documentos", correto: false }
+        ],
+        justificativa: "A assinatura digital usa criptografia para garantir segurança e validade jurídica.",
+        categoriaDaPergunta: "assinatura-digital-e-certificado-digital"
+    },
+    {
+        enunciado: "O que é um certificado digital?",
+        arrayDeRespostas: [
+            { conteudo: "Um arquivo eletrônico que vincula uma chave pública a uma identidade", correto: true },
+            { conteudo: "Um documento físico de identidade", correto: false },
+            { conteudo: "Um software antivírus", correto: false },
+            { conteudo: "Uma senha para acessar sistemas", correto: false }
+        ],
+        justificativa: "Certificados digitais são emitidos por autoridades certificadoras para autenticar identidades online.",
+        categoriaDaPergunta: "assinatura-digital-e-certificado-digital"
+    },
+    {
+        enunciado: "Qual é o papel da Autoridade Certificadora (AC) na infraestrutura de chaves públicas (ICP)?",
+        arrayDeRespostas: [
+            { conteudo: "Emitir e gerenciar certificados digitais confiáveis", correto: true },
+            { conteudo: "Desenvolver antivírus", correto: false },
+            { conteudo: "Gerenciar senhas de usuários", correto: false },
+            { conteudo: "Criar sistemas operacionais", correto: false }
+        ],
+        justificativa: "A AC é responsável por garantir a confiabilidade dos certificados emitidos.",
+        categoriaDaPergunta: "assinatura-digital-e-certificado-digital"
+    },
+    {
+        enunciado: "Qual tecnologia é usada para garantir a integridade e autenticidade na assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Criptografia assimétrica", correto: true },
+            { conteudo: "Backup em nuvem", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Antivírus", correto: false }
+        ],
+        justificativa: "A criptografia assimétrica permite vincular uma assinatura a uma chave privada única do assinante.",
+        categoriaDaPergunta: "assinatura-digital-e-certificado-digital"
+    },
+    {
+        enunciado: "O que significa o não-repúdio em uma assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "O autor da assinatura não pode negar a autoria do documento assinado", correto: true },
+            { conteudo: "O documento não pode ser acessado", correto: false },
+            { conteudo: "O documento está criptografado", correto: false },
+            { conteudo: "O documento é público", correto: false }
+        ],
+        justificativa: "Não-repúdio assegura que a assinatura é válida e que o autor não pode negar ter assinado.",
+        categoriaDaPergunta: "assinatura-digital-e-certificado-digital"
+    },
+    {
+        enunciado: "Qual documento estabelece a validade jurídica da assinatura digital no Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Medida Provisória nº 2.200-2/2001", correto: true },
+            { conteudo: "Lei nº 9.609/1998", correto: false },
+            { conteudo: "Código Civil", correto: false },
+            { conteudo: "Lei de Direitos Autorais", correto: false }
+        ],
+        justificativa: "Essa medida provisória instituiu a ICP-Brasil e garantiu validade jurídica à assinatura digital.",
+        categoriaDaPergunta: "assinatura-digital-e-certificado-digital"
+    },
+    {
+        enunciado: "Qual a diferença entre assinatura digital e assinatura eletrônica?",
+        arrayDeRespostas: [
+            { conteudo: "Assinatura digital utiliza certificado digital e criptografia; assinatura eletrônica pode ser qualquer método eletrônico de assinatura", correto: true },
+            { conteudo: "São exatamente a mesma coisa", correto: false },
+            { conteudo: "Assinatura eletrônica é manuscrita", correto: false },
+            { conteudo: "Assinatura digital é feita à mão", correto: false }
+        ],
+        justificativa: "Assinatura digital oferece maior segurança e validade jurídica por usar criptografia e certificação.",
+        categoriaDaPergunta: "assinatura-digital-e-certificado-digital"
+    },
+    {
+        enunciado: "O que é ICP-Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Infraestrutura de Chaves Públicas Brasileira, que regula certificados digitais", correto: true },
+            { conteudo: "Programa de backup de dados", correto: false },
+            { conteudo: "Sistema operacional brasileiro", correto: false },
+            { conteudo: "Antivírus nacional", correto: false }
+        ],
+        justificativa: "ICP-Brasil é a estrutura oficial que garante a confiança na certificação digital no país.",
+        categoriaDaPergunta: "assinatura-digital-e-certificado-digital"
+    },
+    {
+        enunciado: "Qual a função do certificado digital na assinatura digital?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir a identidade do signatário e permitir a verificação da assinatura", correto: true },
+            { conteudo: "Armazenar documentos físicos", correto: false },
+            { conteudo: "Fazer backup automático", correto: false },
+            { conteudo: "Controlar acesso à internet", correto: false }
+        ],
+        justificativa: "O certificado vincula a chave pública à identidade do usuário, validando a assinatura.",
+        categoriaDaPergunta: "assinatura-digital-e-certificado-digital"
+    },
+    {
+        enunciado: "Qual a vantagem principal da assinatura digital em relação à assinatura manuscrita?",
+        arrayDeRespostas: [
+            { conteudo: "Oferece segurança, validade jurídica e integridade dos documentos eletrônicos", correto: true },
+            { conteudo: "É mais fácil de falsificar", correto: false },
+            { conteudo: "Não tem valor legal", correto: false },
+            { conteudo: "É obrigatória em todos os documentos", correto: false }
+        ],
+        justificativa: "A assinatura digital protege contra fraudes e garante autenticidade nos documentos digitais.",
+        categoriaDaPergunta: "assinatura-digital-e-certificado-digital"
+    },
+    {
+        enunciado: "O que significa o termo segurança da informação na informática?",
+        arrayDeRespostas: [
+            { conteudo: "Proteção dos dados, sistemas e redes contra acessos e ataques não autorizados", correto: true },
+            { conteudo: "Manutenção de hardware", correto: false },
+            { conteudo: "Desenvolvimento de software", correto: false },
+            { conteudo: "Backup automático", correto: false }
+        ],
+        justificativa: "Segurança da informação visa garantir a confidencialidade, integridade e disponibilidade dos dados em sistemas computacionais.",
+        categoriaDaPergunta: "seguranca-da-informacao-na-informatica-awari"
+    },
+    {
+        enunciado: "Qual das opções NÃO é um princípio básico da segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Velocidade da rede", correto: true },
+            { conteudo: "Confidencialidade", correto: false },
+            { conteudo: "Integridade", correto: false },
+            { conteudo: "Disponibilidade", correto: false }
+        ],
+        justificativa: "Velocidade da rede não é um princípio básico da segurança da informação.",
+        categoriaDaPergunta: "seguranca-da-informacao-na-informatica-awari"
+    },
+    {
+        enunciado: "O que caracteriza um ataque de phishing?",
+        arrayDeRespostas: [
+            { conteudo: "Tentativa de obter dados pessoais através de falsificação de comunicação", correto: true },
+            { conteudo: "Ataque físico a servidores", correto: false },
+            { conteudo: "Backup mal configurado", correto: false },
+            { conteudo: "Uso de antivírus desatualizado", correto: false }
+        ],
+        justificativa: "Phishing é um tipo de ataque que usa engenharia social para enganar o usuário.",
+        categoriaDaPergunta: "seguranca-da-informacao-na-informatica-awari"
+    },
+    {
+        enunciado: "Qual é a função de um firewall na segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Controlar e filtrar o tráfego de rede para proteger contra acessos não autorizados", correto: true },
+            { conteudo: "Aumentar a velocidade da internet", correto: false },
+            { conteudo: "Fazer backup automático", correto: false },
+            { conteudo: "Gerenciar senhas de usuários", correto: false }
+        ],
+        justificativa: "Firewall atua como uma barreira entre redes confiáveis e não confiáveis.",
+        categoriaDaPergunta: "seguranca-da-informacao-na-informatica-awari"
+    },
+    {
+        enunciado: "O que é malware?",
+        arrayDeRespostas: [
+            { conteudo: "Software malicioso projetado para causar danos ou roubar informações", correto: true },
+            { conteudo: "Programa de segurança", correto: false },
+            { conteudo: "Backup de dados", correto: false },
+            { conteudo: "Atualização de sistema", correto: false }
+        ],
+        justificativa: "Malware inclui vírus, worms, trojans, entre outros softwares prejudiciais.",
+        categoriaDaPergunta: "seguranca-da-informacao-na-informatica-awari"
+    },
+    {
+        enunciado: "O que é autenticação multifator (MFA)?",
+        arrayDeRespostas: [
+            { conteudo: "Uso de dois ou mais métodos diferentes para confirmar a identidade do usuário", correto: true },
+            { conteudo: "Uso de uma única senha", correto: false },
+            { conteudo: "Acesso irrestrito", correto: false },
+            { conteudo: "Criptografia de dados", correto: false }
+        ],
+        justificativa: "MFA aumenta a segurança exigindo múltiplas provas de identidade.",
+        categoriaDaPergunta: "seguranca-da-informacao-na-informatica-awari"
+    },
+    {
+        enunciado: "Qual é a finalidade do backup na segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir a recuperação de dados em caso de falhas ou ataques", correto: true },
+            { conteudo: "Excluir arquivos antigos", correto: false },
+            { conteudo: "Aumentar o espaço de armazenamento", correto: false },
+            { conteudo: "Bloquear vírus", correto: false }
+        ],
+        justificativa: "Backup protege os dados contra perda ou corrupção.",
+        categoriaDaPergunta: "seguranca-da-informacao-na-informatica-awari"
+    },
+    {
+        enunciado: "Qual das opções é um exemplo de ataque de engenharia social?",
+        arrayDeRespostas: [
+            { conteudo: "Phishing", correto: true },
+            { conteudo: "Ransomware", correto: false },
+            { conteudo: "Vírus", correto: false },
+            { conteudo: "Malware", correto: false }
+        ],
+        justificativa: "Engenharia social manipula pessoas para obter informações confidenciais.",
+        categoriaDaPergunta: "seguranca-da-informacao-na-informatica-awari"
+    },
+    {
+        enunciado: "O que é um ransomware?",
+        arrayDeRespostas: [
+            { conteudo: "Malware que sequestra dados e exige pagamento para liberação", correto: true },
+            { conteudo: "Programa antivírus", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Backup automático", correto: false }
+        ],
+        justificativa: "Ransomware criptografa arquivos e cobra resgate para liberar o acesso.",
+        categoriaDaPergunta: "seguranca-da-informacao-na-informatica-awari"
+    },
+    {
+        enunciado: "Por que é importante manter os sistemas atualizados?",
+        arrayDeRespostas: [
+            { conteudo: "Para corrigir vulnerabilidades que podem ser exploradas por atacantes", correto: true },
+            { conteudo: "Para diminuir a velocidade do sistema", correto: false },
+            { conteudo: "Para excluir dados antigos", correto: false },
+            { conteudo: "Para bloquear o acesso dos usuários", correto: false }
+        ],
+        justificativa: "Atualizações corrigem falhas de segurança e melhoram a proteção do sistema.",
+        categoriaDaPergunta: "seguranca-da-informacao-na-informatica-awari"
+    },
+    {
+        enunciado: "O que é um ataque DoS (Denial of Service)?",
+        arrayDeRespostas: [
+            { conteudo: "Tentativa de tornar um serviço indisponível para seus usuários", correto: true },
+            { conteudo: "Roubo de dados pessoais", correto: false },
+            { conteudo: "Ataque físico a servidores", correto: false },
+            { conteudo: "Criptografia de mensagens", correto: false }
+        ],
+        justificativa: "Ataques DoS sobrecarregam sistemas para impedir seu funcionamento normal.",
+        categoriaDaPergunta: "ataques-e-ameacas-em-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é um vírus de computador?",
+        arrayDeRespostas: [
+            { conteudo: "Programa malicioso que se replica e infecta arquivos", correto: true },
+            { conteudo: "Programa antivírus", correto: false },
+            { conteudo: "Backup de dados", correto: false },
+            { conteudo: "Firewall", correto: false }
+        ],
+        justificativa: "Vírus infectam arquivos e podem causar danos ou propagação maliciosa.",
+        categoriaDaPergunta: "ataques-e-ameacas-em-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que caracteriza um ataque de phishing?",
+        arrayDeRespostas: [
+            { conteudo: "Engenharia social para obter dados pessoais por meio de mensagens falsas", correto: true },
+            { conteudo: "Ataque físico a servidores", correto: false },
+            { conteudo: "Criptografia de dados", correto: false },
+            { conteudo: "Backup de dados", correto: false }
+        ],
+        justificativa: "Phishing usa engano para roubar credenciais ou informações sensíveis.",
+        categoriaDaPergunta: "ataques-e-ameacas-em-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é ransomware?",
+        arrayDeRespostas: [
+            { conteudo: "Malware que sequestra dados e exige resgate para liberar acesso", correto: true },
+            { conteudo: "Programa antivírus", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Backup automático", correto: false }
+        ],
+        justificativa: "Ransomware criptografa arquivos e cobra pagamento para desbloqueá-los.",
+        categoriaDaPergunta: "ataques-e-ameacas-em-seguranca-da-informacao"
+    },
+    {
+        enunciado: "Qual é a característica de um worm (verme) em segurança da informação?",
+        arrayDeRespostas: [
+            { conteudo: "Software malicioso que se replica automaticamente sem precisar de arquivo hospedeiro", correto: true },
+            { conteudo: "Programa de backup", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Software antivírus", correto: false }
+        ],
+        justificativa: "Worms se espalham autonomamente pela rede, causando danos ou lentidão.",
+        categoriaDaPergunta: "ataques-e-ameacas-em-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é um ataque de engenharia social?",
+        arrayDeRespostas: [
+            { conteudo: "Manipulação psicológica para obter informações confidenciais", correto: true },
+            { conteudo: "Ataque físico a equipamentos", correto: false },
+            { conteudo: "Uso de vírus", correto: false },
+            { conteudo: "Criptografia de dados", correto: false }
+        ],
+        justificativa: "Engenharia social explora a confiança e o comportamento humano para ataques.",
+        categoriaDaPergunta: "ataques-e-ameacas-em-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é spyware?",
+        arrayDeRespostas: [
+            { conteudo: "Software que monitora atividades do usuário sem permissão", correto: true },
+            { conteudo: "Antivírus legítimo", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Backup automático", correto: false }
+        ],
+        justificativa: "Spyware coleta informações privadas de forma oculta e pode comprometer a segurança.",
+        categoriaDaPergunta: "ataques-e-ameacas-em-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é um trojan (cavalo de troia)?",
+        arrayDeRespostas: [
+            { conteudo: "Programa malicioso que se disfarça como software legítimo", correto: true },
+            { conteudo: "Programa antivírus", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Software de backup", correto: false }
+        ],
+        justificativa: "Trojans enganam o usuário para instalar malware disfarçado de programa confiável.",
+        categoriaDaPergunta: "ataques-e-ameacas-em-seguranca-da-informacao"
+    },
+    {
+        enunciado: "Qual é o objetivo de um ataque de spoofing?",
+        arrayDeRespostas: [
+            { conteudo: "Falsificar identidade para enganar sistemas ou usuários", correto: true },
+            { conteudo: "Destruir hardware", correto: false },
+            { conteudo: "Backup de dados", correto: false },
+            { conteudo: "Criptografar informações", correto: false }
+        ],
+        justificativa: "Spoofing envolve enganar o destinatário sobre a verdadeira origem da informação.",
+        categoriaDaPergunta: "ataques-e-ameacas-em-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é um ataque Man-in-the-Middle (MitM)?",
+        arrayDeRespostas: [
+            { conteudo: "Interceptação e possível alteração da comunicação entre duas partes sem que elas percebam", correto: true },
+            { conteudo: "Ataque físico a servidores", correto: false },
+            { conteudo: "Envio de spam", correto: false },
+            { conteudo: "Backup de dados", correto: false }
+        ],
+        justificativa: "MitM permite que o atacante intercepte e manipule informações entre as partes comunicantes.",
+        categoriaDaPergunta: "ataques-e-ameacas-em-seguranca-da-informacao"
+    },
+    {
+        enunciado: "O que é um vírus de computador?",
+        arrayDeRespostas: [
+            { conteudo: "Software malicioso que se replica e infecta arquivos ou programas", correto: true },
+            { conteudo: "Programa legítimo para proteção", correto: false },
+            { conteudo: "Dispositivo de hardware", correto: false },
+            { conteudo: "Backup automático", correto: false }
+        ],
+        justificativa: "Vírus são programas maliciosos que se espalham infectando arquivos e sistemas.",
+        categoriaDaPergunta: "tipos-de-malware"
+    },
+    {
+        enunciado: "O que é um worm (verme)?",
+        arrayDeRespostas: [
+            { conteudo: "Malware que se replica automaticamente e se espalha por redes", correto: true },
+            { conteudo: "Programa antivírus", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Aplicativo de backup", correto: false }
+        ],
+        justificativa: "Worms se propagam sem a necessidade de arquivos hospedeiros, causando danos em redes.",
+        categoriaDaPergunta: "tipos-de-malware"
+    },
+    {
+        enunciado: "O que é um Trojan (Cavalo de Troia)?",
+        arrayDeRespostas: [
+            { conteudo: "Software malicioso que se disfarça como programa legítimo para enganar o usuário", correto: true },
+            { conteudo: "Software antivírus", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Backup de dados", correto: false }
+        ],
+        justificativa: "Trojans enganam os usuários para instalar malware oculto em sistemas.",
+        categoriaDaPergunta: "tipos-de-malware"
+    },
+    {
+        enunciado: "O que é ransomware?",
+        arrayDeRespostas: [
+            { conteudo: "Malware que sequestra dados e exige pagamento para liberar o acesso", correto: true },
+            { conteudo: "Programa de limpeza de vírus", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Sistema de backup", correto: false }
+        ],
+        justificativa: "Ransomware criptografa arquivos e cobra resgate para desbloqueá-los.",
+        categoriaDaPergunta: "tipos-de-malware"
+    },
+    {
+        enunciado: "Qual a função do spyware?",
+        arrayDeRespostas: [
+            { conteudo: "Monitorar e coletar informações do usuário sem seu consentimento", correto: true },
+            { conteudo: "Remover vírus", correto: false },
+            { conteudo: "Proteger a rede", correto: false },
+            { conteudo: "Fazer backup", correto: false }
+        ],
+        justificativa: "Spyware espionam o usuário, capturando dados e hábitos de navegação.",
+        categoriaDaPergunta: "tipos-de-malware"
+    },
+    {
+        enunciado: "O que é adware?",
+        arrayDeRespostas: [
+            { conteudo: "Programa que exibe anúncios indesejados no computador do usuário", correto: true },
+            { conteudo: "Software antivírus", correto: false },
+            { conteudo: "Firewall", correto: false },
+            { conteudo: "Aplicativo de backup", correto: false }
+        ],
+        justificativa: "Adware exibe publicidade que pode ser invasiva ou prejudicial à experiência do usuário.",
+        categoriaDaPergunta: "tipos-de-malware"
+    },
+    {
+        enunciado: "O que é rootkit?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de ferramentas que permitem acesso oculto e controle do sistema infectado", correto: true },
+            { conteudo: "Programa antivírus", correto: false },
+            { conteudo: "Backup automático", correto: false },
+            { conteudo: "Firewall", correto: false }
+        ],
+        justificativa: "Rootkits ocultam a presença de malware e permitem controle total do sistema comprometido.",
+        categoriaDaPergunta: "tipos-de-malware"
+    },
+    {
+        enunciado: "Qual é o principal objetivo de um keylogger?",
+        arrayDeRespostas: [
+            { conteudo: "Registrar as teclas digitadas pelo usuário para roubo de informações", correto: true },
+            { conteudo: "Proteger o teclado contra falhas", correto: false },
+            { conteudo: "Bloquear anúncios", correto: false },
+            { conteudo: "Acelerar o sistema", correto: false }
+        ],
+        justificativa: "Keyloggers capturam senhas e dados confidenciais digitados no teclado.",
+        categoriaDaPergunta: "tipos-de-malware"
+    },
+    {
+        enunciado: "O que é um backdoor?",
+        arrayDeRespostas: [
+            { conteudo: "Método que permite acesso não autorizado ao sistema sem passar pelos controles de segurança", correto: true },
+            { conteudo: "Firewall configurado", correto: false },
+            { conteudo: "Software de backup", correto: false },
+            { conteudo: "Antivírus atualizado", correto: false }
+        ],
+        justificativa: "Backdoors criam brechas para invasores acessarem sistemas clandestinamente.",
+        categoriaDaPergunta: "tipos-de-malware"
+    },
+    {
+        enunciado: "Qual a diferença principal entre vírus e worm?",
+        arrayDeRespostas: [
+            { conteudo: "Vírus precisa de arquivo hospedeiro; worm se replica sozinho pela rede", correto: true },
+            { conteudo: "Worm precisa de arquivo hospedeiro; vírus se replica sozinho", correto: false },
+            { conteudo: "Ambos são a mesma coisa", correto: false },
+            { conteudo: "Vírus é legal; worm é ilegal", correto: false }
+        ],
+        justificativa: "Vírus infecta arquivos; worms se espalham autonomamente pela rede.",
+        categoriaDaPergunta: "tipos-de-malware"
     }
 ]
 
@@ -1925,4 +4125,26 @@ export {
  * extranet
  * seguranca-em-redes
  * introducao-sobre-internet-e-intranet
+ * conceitos-fundamentais (sobre organização e gerenciamento de informacoes)
+ * gestao-documental
+ * principios-arquivisticos
+ * fases-da-gestao-documental-e-niveis-de-aplicacao
+ * modelos-de-gestao-documental-e-gestao-de-arquivos-correntes
+ * ciclo-de-vida-da-informacao
+ * sistemas-da-informacao
+ * seguranca-da-informacao
+ * dicas (sobre organização e gerenciamento de informacoes)
+ * assinatura-digital
+ * infraestrutura-de-chaves-publicas-brasileira
+ * vantagens-da-certificacao-e-assinatura-digital
+ * diferencas-cruciais-entre-assinatura-eletronica-e-assinatura-digital
+ * legislacao-pertinente
+ * aspectos-gerais(segurança-da-informação)
+ * principios-da-seguranca-da-informacao
+ * criptologia
+ * autenticacao (seguranca da informação)
+ * assinatura-digital-e-certificado-digital
+ * seguranca-da-informacao-na-informatica-awari
+ * ataques-e-ameacas-em-seguranca-da-informacao
+ * tipos-de-malware
  */

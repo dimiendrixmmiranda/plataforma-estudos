@@ -5,7 +5,7 @@ import { useMateriasCompletas } from "@/data/hook/useMateriasCompletas";
 import { createSlug } from "@/utils/createSlug";
 import Link from "next/link"
 import { FaCheckSquare } from "react-icons/fa";
-import MenuInferior from "../menuInferior/MenuInferior";
+import MenuInferior from "../../menuInferior/MenuInferior";
 
 export default function Pontuacao() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();

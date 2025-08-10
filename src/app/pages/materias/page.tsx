@@ -10,6 +10,8 @@ import { Accordion, AccordionTab } from 'primereact/accordion';
 import { useMateriasCompletas } from "@/data/hook/useMateriasCompletas"
 import informatica from "@/constants/informatica"
 import MateriaCategoriaConcurso from "@/components/materiaCategoriaConcurso/MateriaCategoriaConcurso"
+import portugues from "@/constants/portugues"
+import { assistenteAdministrativo } from "@/constants/assistenteAdministrativo"
 
 export default function PaginaMaterias() {
     const { usuario } = useAuth()
@@ -28,6 +30,40 @@ export default function PaginaMaterias() {
                         <h2 className="uppercase font-black text-2xl leading-6">Selecione um cargo para estudo:</h2>
                         <Accordion>
                             <AccordionTab header="Agente Comunitario de Saúde">
+                                <MateriaCategoriaConcurso
+                                    materia="Português"
+                                    visible={visibleMateria === "portugues"}
+                                    onToggle={() => toggleMateria("portugues")}
+                                    submaterias={[
+                                        {
+                                            nome: `${portugues["analise-e-interpretacao-de-texto"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["analise-e-interpretacao-de-texto"].id}`,
+                                            id: `agente-comunitario-${portugues["analise-e-interpretacao-de-texto"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["figuras-de-linguagem"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["figuras-de-linguagem"].id}`,
+                                            id: `agente-comunitario-${portugues["figuras-de-linguagem"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["sintaxe"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["sintaxe"].id}`,
+                                            id: `agente-comunitario-${portugues["sintaxe"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["morfologia"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["morfologia"].id}`,
+                                            id: `agente-comunitario-${portugues["morfologia"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["pontuacao"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["pontuacao"].id}`,
+                                            id: `agente-comunitario-${portugues["pontuacao"].id}`
+                                        },
+                                    ]}
+                                    materiaConcluida={toggleMateriaCompleta}
+                                    materiasCompletas={materiasCompletas}
+                                />
                                 <MateriaCategoriaConcurso
                                     materia="Informática"
                                     visible={visibleMateria === "informatica"}
@@ -77,8 +113,43 @@ export default function PaginaMaterias() {
                                     materiaConcluida={toggleMateriaCompleta}
                                     materiasCompletas={materiasCompletas}
                                 />
+
                             </AccordionTab>
                             <AccordionTab header="Agente de Combate de Endemias">
+                                <MateriaCategoriaConcurso
+                                    materia="Português"
+                                    visible={visibleMateria === "portugues"}
+                                    onToggle={() => toggleMateria("portugues")}
+                                    submaterias={[
+                                        {
+                                            nome: `${portugues["analise-e-interpretacao-de-texto"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["analise-e-interpretacao-de-texto"].id}`,
+                                            id: `agente-endemias-${portugues["analise-e-interpretacao-de-texto"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["figuras-de-linguagem"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["figuras-de-linguagem"].id}`,
+                                            id: `agente-endemias-${portugues["figuras-de-linguagem"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["sintaxe"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["sintaxe"].id}`,
+                                            id: `agente-endemias-${portugues["sintaxe"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["morfologia"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["morfologia"].id}`,
+                                            id: `agente-endemias-${portugues["morfologia"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["pontuacao"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["pontuacao"].id}`,
+                                            id: `agente-endemias-${portugues["pontuacao"].id}`
+                                        },
+                                    ]}
+                                    materiaConcluida={toggleMateriaCompleta}
+                                    materiasCompletas={materiasCompletas}
+                                />
                                 <MateriaCategoriaConcurso
                                     materia="Informática"
                                     visible={visibleMateria === "informatica"}
@@ -129,7 +200,41 @@ export default function PaginaMaterias() {
                                     materiasCompletas={materiasCompletas}
                                 />
                             </AccordionTab>
-                            <AccordionTab header="Auxiliar de Enfermagem">
+                            <AccordionTab header="Atendente de Farmácia">
+                                <MateriaCategoriaConcurso
+                                    materia="Português"
+                                    visible={visibleMateria === "portugues"}
+                                    onToggle={() => toggleMateria("portugues")}
+                                    submaterias={[
+                                        {
+                                            nome: `${portugues["analise-e-interpretacao-de-texto"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["analise-e-interpretacao-de-texto"].id}`,
+                                            id: `auxiliar-enfermagem-${portugues["analise-e-interpretacao-de-texto"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["figuras-de-linguagem"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["figuras-de-linguagem"].id}`,
+                                            id: `auxiliar-enfermagem-${portugues["figuras-de-linguagem"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["sintaxe"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["sintaxe"].id}`,
+                                            id: `auxiliar-enfermagem-${portugues["sintaxe"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["morfologia"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["morfologia"].id}`,
+                                            id: `auxiliar-enfermagem-${portugues["morfologia"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["pontuacao"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["pontuacao"].id}`,
+                                            id: `auxiliar-enfermagem-${portugues["pontuacao"].id}`
+                                        },
+                                    ]}
+                                    materiaConcluida={toggleMateriaCompleta}
+                                    materiasCompletas={materiasCompletas}
+                                />
                                 <MateriaCategoriaConcurso
                                     materia="Informática"
                                     visible={visibleMateria === "informatica"}
@@ -180,7 +285,41 @@ export default function PaginaMaterias() {
                                     materiasCompletas={materiasCompletas}
                                 />
                             </AccordionTab>
-                            <AccordionTab header="Assitente Administrativo">
+                            <AccordionTab header="Assistente Administrativo">
+                                <MateriaCategoriaConcurso
+                                    materia="Português"
+                                    visible={visibleMateria === "portugues"}
+                                    onToggle={() => toggleMateria("portugues")}
+                                    submaterias={[
+                                        {
+                                            nome: `${portugues["analise-e-interpretacao-de-texto"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["analise-e-interpretacao-de-texto"].id}`,
+                                            id: `assistente-administrativo-${portugues["analise-e-interpretacao-de-texto"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["figuras-de-linguagem"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["figuras-de-linguagem"].id}`,
+                                            id: `assistente-administrativo-${portugues["figuras-de-linguagem"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["sintaxe"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["sintaxe"].id}`,
+                                            id: `assistente-administrativo-${portugues["sintaxe"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["morfologia"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["morfologia"].id}`,
+                                            id: `assistente-administrativo-${portugues["morfologia"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["pontuacao"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["pontuacao"].id}`,
+                                            id: `assistente-administrativo-${portugues["pontuacao"].id}`
+                                        },
+                                    ]}
+                                    materiaConcluida={toggleMateriaCompleta}
+                                    materiasCompletas={materiasCompletas}
+                                />
                                 <MateriaCategoriaConcurso
                                     materia="Informática"
                                     visible={visibleMateria === "informatica"}
@@ -230,8 +369,107 @@ export default function PaginaMaterias() {
                                     materiaConcluida={toggleMateriaCompleta}
                                     materiasCompletas={materiasCompletas}
                                 />
+                                <MateriaCategoriaConcurso
+                                    materia="Conhecimento Especifico"
+                                    visible={visibleMateria === "especifico"}
+                                    onToggle={() => toggleMateria("especifico")}
+                                    submaterias={[
+                                        {
+                                            nome: `${assistenteAdministrativo["postura-profissional-e-relacoes-interpessoais"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["postura-profissional-e-relacoes-interpessoais"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["postura-profissional-e-relacoes-interpessoais"].id}`
+                                        },
+                                        {
+                                            nome: `${assistenteAdministrativo["redacao-de-documentos-oficiais"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["redacao-de-documentos-oficiais"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["redacao-de-documentos-oficiais"].id}`
+                                        },
+                                        {
+                                            nome: `${assistenteAdministrativo["nocoes-gerais-sobre-arquivos-de-documentos"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["nocoes-gerais-sobre-arquivos-de-documentos"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["nocoes-gerais-sobre-arquivos-de-documentos"].id}`
+                                        },
+                                        {
+                                            nome: `${assistenteAdministrativo["principios-basicos-da-administracao-publica"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["principios-basicos-da-administracao-publica"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["principios-basicos-da-administracao-publica"].id}`
+                                        },
+                                        {
+                                            nome: `${assistenteAdministrativo["administracao-publica"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["administracao-publica"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["administracao-publica"].id}`
+                                        },
+                                        {
+                                            nome: `${assistenteAdministrativo["servicos-publicos"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["servicos-publicos"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["servicos-publicos"].id}`
+                                        },
+                                        {
+                                            nome: `${assistenteAdministrativo["atos-administrativos"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["atos-administrativos"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["atos-administrativos"].id}`
+                                        },
+                                        {
+                                            nome: `${assistenteAdministrativo["contratos-administrativos"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["contratos-administrativos"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["contratos-administrativos"].id}`
+                                        },
+                                        {
+                                            nome: `${assistenteAdministrativo["licitacoes"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["licitacoes"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["licitacoes"].id}`
+                                        },
+                                        {
+                                            nome: `${assistenteAdministrativo["responsabilidades-dos-servidores"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["responsabilidades-dos-servidores"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["responsabilidades-dos-servidores"].id}`
+                                        },
+                                        {
+                                            nome: `${assistenteAdministrativo["estatuto-dos-servidores-do-municipio"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/assistenteAdministrativo/${assistenteAdministrativo["estatuto-dos-servidores-do-municipio"].id}`,
+                                            id: `assistente-administrativo-${assistenteAdministrativo["estatuto-dos-servidores-do-municipio"].id}`
+                                        },
+
+                                    ]}
+                                    materiaConcluida={toggleMateriaCompleta}
+                                    materiasCompletas={materiasCompletas}
+                                />
                             </AccordionTab>
                             <AccordionTab header="IBGE">
+                                <MateriaCategoriaConcurso
+                                    materia="Português"
+                                    visible={visibleMateria === "portugues"}
+                                    onToggle={() => toggleMateria("portugues")}
+                                    submaterias={[
+                                        {
+                                            nome: `${portugues["analise-e-interpretacao-de-texto"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["analise-e-interpretacao-de-texto"].id}`,
+                                            id: `ibge-${portugues["analise-e-interpretacao-de-texto"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["figuras-de-linguagem"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["figuras-de-linguagem"].id}`,
+                                            id: `ibge-${portugues["figuras-de-linguagem"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["sintaxe"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["sintaxe"].id}`,
+                                            id: `ibge-${portugues["sintaxe"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["morfologia"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["morfologia"].id}`,
+                                            id: `ibge-${portugues["morfologia"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["pontuacao"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["pontuacao"].id}`,
+                                            id: `ibge-${portugues["pontuacao"].id}`
+                                        },
+                                    ]}
+                                    materiaConcluida={toggleMateriaCompleta}
+                                    materiasCompletas={materiasCompletas}
+                                />
                                 <MateriaCategoriaConcurso
                                     materia="Informática"
                                     visible={visibleMateria === "informatica"}

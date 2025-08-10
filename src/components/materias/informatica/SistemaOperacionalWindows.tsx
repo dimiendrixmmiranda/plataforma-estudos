@@ -1,17 +1,17 @@
 'use client'
 
 import informatica from "@/constants/informatica";
-import VideoExplicativo from "../base/VideoExplicativo";
-import MenuInferior from "../menuInferior/MenuInferior";
+import VideoExplicativo from "../../base/VideoExplicativo";
+import MenuInferior from "../../menuInferior/MenuInferior";
 import Link from "next/link";
 import { createSlug } from "@/utils/createSlug";
 import { FaCheckSquare } from "react-icons/fa";
-import TituloMateria from "../base/TituloMateria";
-import IntroducaoMateria from "../base/IntroducaoDisciplina";
-import SubmateriasNavegacao from "../base/MateriasNavegacao";
+import TituloMateria from "../../base/TituloMateria";
+import IntroducaoMateria from "../../base/IntroducaoDisciplina";
+import SubmateriasNavegacao from "../../base/MateriasNavegacao";
 import { useMateriasCompletas } from "@/data/hook/useMateriasCompletas";
 import useAuth from "@/data/hook/useAuth";
-import ReproduzirTexto from "../reproduzirTexto/ReproduzirTexto";
+import ReproduzirTexto from "../../reproduzirTexto/ReproduzirTexto";
 
 export default function SistemaOperacionalWindows() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();

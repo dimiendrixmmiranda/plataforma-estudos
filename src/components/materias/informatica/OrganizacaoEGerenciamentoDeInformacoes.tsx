@@ -3,18 +3,17 @@
 import informatica from "@/constants/informatica";
 import useAuth from "@/data/hook/useAuth";
 import { useMateriasCompletas } from "@/data/hook/useMateriasCompletas";
-import TituloMateria from "../base/TituloMateria";
-import IntroducaoMateria from "../base/IntroducaoDisciplina";
-import ReproduzirTexto from "../reproduzirTexto/ReproduzirTexto";
-import SubmateriasNavegacao from "../base/MateriasNavegacao";
+import TituloMateria from "../../base/TituloMateria";
+import IntroducaoMateria from "../../base/IntroducaoDisciplina";
+import ReproduzirTexto from "../../reproduzirTexto/ReproduzirTexto";
+import SubmateriasNavegacao from "../../base/MateriasNavegacao";
 import { FaCheckSquare } from "react-icons/fa";
-import VideoExplicativo from "../base/VideoExplicativo";
+import VideoExplicativo from "../../base/VideoExplicativo";
 import Link from "next/link";
 import { createSlug } from "@/utils/createSlug";
-import MenuInferior from "../menuInferior/MenuInferior";
-import Imagem from "../base/Imagem";
+import MenuInferior from "../../menuInferior/MenuInferior";
 
-export default function CertificacaoEAssinaturaDigital() {
+export default function OrganizacaoEGerenciamentoDeInformacoes() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
     const { usuario } = useAuth()
     console.log("materiasCompletas", materiasCompletas);
@@ -22,20 +21,20 @@ export default function CertificacaoEAssinaturaDigital() {
     return (
         <div className="p-2 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
             {/* Titulo da Disciplina */}
-            <TituloMateria texto={`${informatica["certificacao-e-assinatura-digital"].titulo}`} />
-            <IntroducaoMateria introducao={informatica["certificacao-e-assinatura-digital"].introducao} />
+            <TituloMateria texto={`${informatica["organizacao-e-gerenciamento-de-informacoes"].titulo}`} />
+            <IntroducaoMateria introducao={informatica["organizacao-e-gerenciamento-de-informacoes"].introducao} />
             <ReproduzirTexto
                 texto={
-                    Array.isArray(informatica["certificacao-e-assinatura-digital"].introducao)
-                        ? informatica["certificacao-e-assinatura-digital"].introducao.join(' ')
-                        : informatica["certificacao-e-assinatura-digital"].introducao
+                    Array.isArray(informatica["organizacao-e-gerenciamento-de-informacoes"].introducao)
+                        ? informatica["organizacao-e-gerenciamento-de-informacoes"].introducao.join(' ')
+                        : informatica["organizacao-e-gerenciamento-de-informacoes"].introducao
                 }
             />
-            <SubmateriasNavegacao arrayDeMaterias={informatica["certificacao-e-assinatura-digital"].submaterias} />
+            <SubmateriasNavegacao arrayDeMaterias={informatica["organizacao-e-gerenciamento-de-informacoes"].submaterias} />
             {/* Submaterias */}
             <ul className="flex flex-col gap-4">
                 {
-                    informatica["certificacao-e-assinatura-digital"].submaterias.map((submateria, i) => {
+                    informatica["organizacao-e-gerenciamento-de-informacoes"].submaterias.map((submateria, i) => {
                         return (
                             <li key={i} id={submateria.id} className={`flex flex-col gap-2 p-2 ${materiasCompletas.includes(submateria.id) ? "bg-green-500" : ""
                                 }`}>
@@ -84,10 +83,6 @@ export default function CertificacaoEAssinaturaDigital() {
                     })
                 }
             </ul>
-            <div className="flex flex-col gap-2">
-                <h3 className="uppercase font-bold text-2xl">Resumo Geral</h3>
-                <Imagem enderecoDaImagem="/imagensResumo/diferenca-entre-assinatura-eletronica-e-assinatura-digital.png" />
-            </div>
             <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />
         </div>
     )

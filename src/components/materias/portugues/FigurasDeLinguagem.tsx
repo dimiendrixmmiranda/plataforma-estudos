@@ -4,7 +4,7 @@ import { useMateriasCompletas } from "@/data/hook/useMateriasCompletas";
 import { createSlug } from "@/utils/createSlug";
 import Link from "next/link"
 import { FaCheckSquare } from "react-icons/fa";
-import MenuInferior from "../menuInferior/MenuInferior";
+import MenuInferior from "../../menuInferior/MenuInferior";
 import useAuth from "@/data/hook/useAuth";
 
 export default function FigurasDeLinguagem() {

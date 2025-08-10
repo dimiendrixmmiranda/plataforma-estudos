@@ -3,17 +3,17 @@
 import informatica from "@/constants/informatica";
 import useAuth from "@/data/hook/useAuth";
 import { useMateriasCompletas } from "@/data/hook/useMateriasCompletas";
-import TituloMateria from "../base/TituloMateria";
-import IntroducaoMateria from "../base/IntroducaoDisciplina";
-import ReproduzirTexto from "../reproduzirTexto/ReproduzirTexto";
-import SubmateriasNavegacao from "../base/MateriasNavegacao";
+import TituloMateria from "../../base/TituloMateria";
+import IntroducaoMateria from "../../base/IntroducaoDisciplina";
+import ReproduzirTexto from "../../reproduzirTexto/ReproduzirTexto";
+import SubmateriasNavegacao from "../../base/MateriasNavegacao";
 import { FaCheckSquare } from "react-icons/fa";
-import VideoExplicativo from "../base/VideoExplicativo";
+import VideoExplicativo from "../../base/VideoExplicativo";
 import Link from "next/link";
 import { createSlug } from "@/utils/createSlug";
-import MenuInferior from "../menuInferior/MenuInferior";
+import MenuInferior from "../../menuInferior/MenuInferior";
 
-export default function SegurancaDaInformacao() {
+export default function TecnologiasEFerramentasAplicativas() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
     const { usuario } = useAuth()
     console.log("materiasCompletas", materiasCompletas);
@@ -21,20 +21,20 @@ export default function SegurancaDaInformacao() {
     return (
         <div className="p-2 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
             {/* Titulo da Disciplina */}
-            <TituloMateria texto={`${informatica["seguranca-da-informacao"].titulo}`} />
-            <IntroducaoMateria introducao={informatica["seguranca-da-informacao"].introducao} />
+            <TituloMateria texto={`${informatica["tecnologias-e-ferramentas-aplicativas"].titulo}`} />
+            <IntroducaoMateria introducao={informatica["tecnologias-e-ferramentas-aplicativas"].introducao} />
             <ReproduzirTexto
                 texto={
-                    Array.isArray(informatica["seguranca-da-informacao"].introducao)
-                        ? informatica["seguranca-da-informacao"].introducao.join(' ')
-                        : informatica["seguranca-da-informacao"].introducao
+                    Array.isArray(informatica["tecnologias-e-ferramentas-aplicativas"].introducao)
+                        ? informatica["tecnologias-e-ferramentas-aplicativas"].introducao.join(' ')
+                        : informatica["tecnologias-e-ferramentas-aplicativas"].introducao
                 }
             />
-            <SubmateriasNavegacao arrayDeMaterias={informatica["seguranca-da-informacao"].submaterias} />
+            <SubmateriasNavegacao arrayDeMaterias={informatica["tecnologias-e-ferramentas-aplicativas"].submaterias} />
             {/* Submaterias */}
             <ul className="flex flex-col gap-4">
                 {
-                    informatica["seguranca-da-informacao"].submaterias.map((submateria, i) => {
+                    informatica["tecnologias-e-ferramentas-aplicativas"].submaterias.map((submateria, i) => {
                         return (
                             <li key={i} id={submateria.id} className={`flex flex-col gap-2 p-2 ${materiasCompletas.includes(submateria.id) ? "bg-green-500" : ""
                                 }`}>

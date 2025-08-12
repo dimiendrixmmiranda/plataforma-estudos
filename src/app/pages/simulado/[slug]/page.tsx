@@ -23,33 +23,40 @@ export default function Page() {
     // const geral = searchParams.get("geral");
     // const especifico = searchParams.get("especifico");
 
-    const [indexQuestaoAtual, setIndexQuestaoAtual] = useState(0);
-    const [alternativaSelecionada, setAlternativaSelecionada] = useState<number | null>(null);
+    const [indexQuestaoAtual, setIndexQuestaoAtual] = useState(0)
+    const [alternativaSelecionada, setAlternativaSelecionada] = useState<number | null>(null)
     const [questionarioAlterado, setQuestionarioAlterado] = useState<Questao[]>([])
-    const [respostas, setRespostas] = useState<(string | null)[]>(Array(questionarioAlterado.length).fill(null));
+    const [respostas, setRespostas] = useState<(string | null)[]>(Array(questionarioAlterado.length).fill(null))
     const [relogio, setRelogio] = useState(10800)
-    const [visible, setVisible] = useState(false);
+    const [visible, setVisible] = useState(false)
+
+    function embaralharArray<T>(array: T[]): T[] {
+        return array
+            .map(value => ({ value, sort: Math.random() }))
+            .sort((a, b) => a.sort - b.sort)
+            .map(({ value }) => value)
+    }
 
     useEffect(() => {
-        const questoesDeInformatica = listaDeQuestoes.filter(q => q.materia === 'informatica');
-        const questoesDePortugues = listaDeQuestoes.filter(q => q.materia === 'portugues');
+        const questoesDeInformatica = listaDeQuestoes.filter(q => q.materia === 'informatica')
+        const questoesDePortugues = listaDeQuestoes.filter(q => q.materia === 'portugues')
 
-        let todasQuestoes: Questao[] = [];
+        let todasQuestoes: Questao[] = []
 
         if (qtdeQuestoesInformatica) {
-            todasQuestoes = todasQuestoes.concat(
-                questoesDeInformatica.slice(0, parseInt(qtdeQuestoesInformatica))
-            );
+            const qtd = parseInt(qtdeQuestoesInformatica)
+            const embaralhadas = embaralharArray(questoesDeInformatica)
+            todasQuestoes = todasQuestoes.concat(embaralhadas.slice(0, qtd))
         }
 
         if (qtdeQuestoesPortugues) {
-            todasQuestoes = todasQuestoes.concat(
-                questoesDePortugues.slice(0, parseInt(qtdeQuestoesPortugues))
-            );
+            const qtd = parseInt(qtdeQuestoesPortugues)
+            const embaralhadas = embaralharArray(questoesDePortugues)
+            todasQuestoes = todasQuestoes.concat(embaralhadas.slice(0, qtd))
         }
 
-        setQuestionarioAlterado(todasQuestoes);
-    }, [listaDeQuestoes, qtdeQuestoesInformatica, qtdeQuestoesPortugues]);
+        setQuestionarioAlterado(todasQuestoes)
+    }, [listaDeQuestoes, qtdeQuestoesInformatica, qtdeQuestoesPortugues])
 
     useEffect(() => {
         if (relogio <= 0) {
@@ -99,12 +106,15 @@ export default function Page() {
     return (
         <Template>
             <div className="flex flex-col gap-4 w-full h-full p-4 text-black bg-zinc-200 lg:grid lg:grid-cols-2 lg:p-8">
+                <h2 className={`uppercase py-1 font-black text-3xl col-start-1 col-end-3 flex justify-center lg:text-5xl lg:mb-4 ${questionarioAlterado[indexQuestaoAtual].materia === 'portugues' ? 'bg-red-500 text-white': 'bg-blue-500 text-white'} ${questionarioAlterado[indexQuestaoAtual].materia === 'informatica' ? 'bg-green-700 text-white': 'bg-blue-500 text-white'}`}>{questionarioAlterado[indexQuestaoAtual].materia}</h2>
                 <div className="flex flex-col gap-3 lg:gap-4">
                     {
                         questionarioAlterado[indexQuestaoAtual].textoBaseId != undefined && questionarioAlterado[indexQuestaoAtual].textoBaseId != null ? (
                             <div className="font-semibold flex py-2">
                                 <Button label="Ver texto da questão" icon="pi pi-external-link" onClick={() => setVisible(true)} className="bg-zinc-500 text-white w-full py-2" />
-                                <Dialog header="Header" visible={visible} style={{ width: '95vw' }} onHide={() => { if (!visible) return; setVisible(false); }}>
+                                <Dialog header={textosBase.find(
+                                            texto => texto.id === questionarioAlterado[indexQuestaoAtual].textoBaseId
+                                        )?.titulo} visible={visible} style={{ width: '95vw' }} onHide={() => { if (!visible) return; setVisible(false); }}>
                                     {
                                         textosBase.find(
                                             texto => texto.id === questionarioAlterado[indexQuestaoAtual].textoBaseId
@@ -240,17 +250,3 @@ export default function Page() {
         </Template>
     );
 }
-
-// return (
-//     <div className="card flex justify-content-center">
-//         <Button label="Show" icon="pi pi-external-link" onClick={() => setVisible(true)} />
-//         <Dialog header="Header" visible={visible} style={{ width: '50vw' }} onHide={() => { if (!visible) return; setVisible(false); }}>
-//             <p className="m-0">
-//                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-//                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-//                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-//                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-//             </p>
-//         </Dialog>
-//     </div>
-// )

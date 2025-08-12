@@ -6,7 +6,7 @@ import { auth, db } from "@/lib/firebase"; // Importando a instância do Firebas
 import { User, signInWithEmailAndPassword } from "firebase/auth"; // Importando funções de autenticação
 import { setPersistence, browserLocalPersistence, browserSessionPersistence } from "firebase/auth";
 import Cookies from 'js-cookie';
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { collection, doc, getDoc, getDocs, query, setDoc, where } from "firebase/firestore";
 import Usuario from "@/interfaces/Usuario";
 
 interface AuthContextProps {
@@ -71,17 +71,40 @@ export function AuthProvider({ children }: AuthContextProps) {
             setCarregando(false)
         }
     }
-
-
-    async function login(email: string, senha: string, manterConectado = false) {
+    
+    async function login(identificador: string, senha: string, manterConectado = false) {
         try {
             setCarregando(true);
 
+            // Define persistência da sessão
             await setPersistence(auth, manterConectado ? browserLocalPersistence : browserSessionPersistence);
 
-            const result = await signInWithEmailAndPassword(auth, email, senha);
+            let emailParaLogin = identificador.trim(); // Valor que vamos passar para o Firebase
+
+            // Se não for um email (não contém "@"), vamos buscar no Firestore
+            if (!identificador.includes("@")) {
+                // Busca por CPF
+                let q = query(collection(db, "usuarios"), where("cpf", "==", identificador));
+                let snap = await getDocs(q);
+
+                // Se não encontrou pelo CPF, tenta buscar pelo telefone
+                if (snap.empty) {
+                    q = query(collection(db, "usuarios"), where("telefone", "==", identificador));
+                    snap = await getDocs(q);
+                }
+
+                if (!snap.empty) {
+                    emailParaLogin = snap.docs[0].data().email;
+                } else {
+                    throw new Error("Usuário não encontrado com o identificador informado.");
+                }
+            }
+
+            // Faz o login normalmente com email e senha
+            const result = await signInWithEmailAndPassword(auth, emailParaLogin, senha);
             const user = result.user;
 
+            // Garante que o documento existe no Firestore
             const userDocRef = doc(db, "usuarios", user.uid);
             let userDoc = await getDoc(userDocRef);
 
@@ -91,24 +114,22 @@ export function AuthProvider({ children }: AuthContextProps) {
                     nome: user.displayName || "",
                     email: user.email || "",
                 });
-                console.warn("Documento do usuário não existia. Foi criado com tipo 'cliente'.");
                 userDoc = await getDoc(userDocRef);
             }
 
             const userData = userDoc.data();
             const tipo = userData?.tipo;
 
+            // Redireciona conforme tipo
             if (tipo === "adm") {
-                router.push('/adm');
+                router.push("/adm");
             } else if (tipo === "cliente") {
-                router.push('/pages/materias');
+                router.push("/pages/materias");
             } else {
-                console.error("Tipo de usuário desconhecido:", tipo);
-                router.push('/');
+                router.push("/");
             }
 
             await configurarSessao(user);
-            console.log("Usuário logado:", user);
         } catch (error) {
             console.error("Erro ao autenticar:", error);
             throw error;
@@ -116,6 +137,7 @@ export function AuthProvider({ children }: AuthContextProps) {
             setCarregando(false);
         }
     }
+
 
     function gerenciarCookie(logado: boolean) {
         if (logado) {

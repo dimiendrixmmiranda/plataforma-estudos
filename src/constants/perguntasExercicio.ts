@@ -4084,6 +4084,875 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
         ],
         justificativa: "Vírus infecta arquivos; worms se espalham autonomamente pela rede.",
         categoriaDaPergunta: "tipos-de-malware"
+    },
+    {
+        enunciado: "O que significa postura profissional no ambiente de trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Comportamento adequado que demonstra responsabilidade, ética e respeito", correto: true },
+            { conteudo: "Usar roupas informais sempre", correto: false },
+            { conteudo: "Ignorar regras da empresa", correto: false },
+            { conteudo: "Chegar sempre atrasado", correto: false }
+        ],
+        justificativa: "Postura profissional envolve agir com ética, responsabilidade e respeito no trabalho.",
+        categoriaDaPergunta: "definicao-e-importancia-sobre-postura-profissional"
+    },
+    {
+        enunciado: "Por que a postura profissional é importante para a carreira?",
+        arrayDeRespostas: [
+            { conteudo: "Porque ajuda a construir uma imagem confiável e facilita o crescimento na carreira", correto: true },
+            { conteudo: "Porque permite faltar sem avisar", correto: false },
+            { conteudo: "Porque evita o trabalho em equipe", correto: false },
+            { conteudo: "Porque dispensa a comunicação com colegas", correto: false }
+        ],
+        justificativa: "Uma boa postura profissional aumenta a confiança dos colegas e superiores.",
+        categoriaDaPergunta: "definicao-e-importancia-sobre-postura-profissional"
+    },
+    {
+        enunciado: "Qual atitude representa uma postura profissional adequada?",
+        arrayDeRespostas: [
+            { conteudo: "Cumprir prazos e compromissos com responsabilidade", correto: true },
+            { conteudo: "Procrastinar e deixar tarefas para última hora", correto: false },
+            { conteudo: "Falar mal dos colegas", correto: false },
+            { conteudo: "Ignorar feedbacks", correto: false }
+        ],
+        justificativa: "Ser responsável e cumprir prazos demonstra comprometimento profissional.",
+        categoriaDaPergunta: "definicao-e-importancia-sobre-postura-profissional"
+    },
+    {
+        enunciado: "Como a postura profissional impacta o ambiente de trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Promove um ambiente harmonioso e produtivo", correto: true },
+            { conteudo: "Gera conflitos e desorganização", correto: false },
+            { conteudo: "Incentiva a desconfiança entre colegas", correto: false },
+            { conteudo: "Diminui a motivação geral", correto: false }
+        ],
+        justificativa: "Postura adequada contribui para um ambiente positivo e eficiente.",
+        categoriaDaPergunta: "definicao-e-importancia-sobre-postura-profissional"
+    },
+    {
+        enunciado: "Qual das opções NÃO faz parte de uma boa postura profissional?",
+        arrayDeRespostas: [
+            { conteudo: "Desrespeitar normas da empresa", correto: true },
+            { conteudo: "Comunicar-se de forma clara e respeitosa", correto: false },
+            { conteudo: "Ser pontual", correto: false },
+            { conteudo: "Demonstrar ética nas ações", correto: false }
+        ],
+        justificativa: "Desrespeitar normas prejudica a imagem profissional e o ambiente de trabalho.",
+        categoriaDaPergunta: "definicao-e-importancia-sobre-postura-profissional"
+    },
+    {
+        enunciado: "O que significa zelo no ambiente profissional?",
+        arrayDeRespostas: [
+            { conteudo: "Cuidado e atenção na execução das tarefas para evitar erros", correto: true },
+            { conteudo: "Fazer o mínimo necessário", correto: false },
+            { conteudo: "Ignorar os detalhes do trabalho", correto: false },
+            { conteudo: "Deixar tarefas para depois", correto: false }
+        ],
+        justificativa: "Zelo representa o cuidado e responsabilidade na realização das atividades.",
+        categoriaDaPergunta: "zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade"
+    },
+    {
+        enunciado: "Como a eficiência pode ser definida no trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Realizar as tarefas de forma correta e com bom aproveitamento de recursos", correto: true },
+            { conteudo: "Trabalhar lentamente para evitar erros", correto: false },
+            { conteudo: "Fazer várias tarefas ao mesmo tempo sem foco", correto: false },
+            { conteudo: "Delegar todas as responsabilidades para os colegas", correto: false }
+        ],
+        justificativa: "Eficiência é produzir resultados com qualidade e uso adequado dos recursos.",
+        categoriaDaPergunta: "zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade"
+    },
+    {
+        enunciado: "O que caracteriza a imparcialidade no ambiente de trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Tomar decisões sem favoritismo ou preconceito", correto: true },
+            { conteudo: "Beneficiar amigos nas decisões", correto: false },
+            { conteudo: "Desconsiderar regras para favorecer alguém", correto: false },
+            { conteudo: "Agir conforme interesses pessoais", correto: false }
+        ],
+        justificativa: "Imparcialidade é agir com justiça e equidade, sem influências externas.",
+        categoriaDaPergunta: "zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade"
+    },
+    {
+        enunciado: "O que significa impessoalidade na atuação profissional?",
+        arrayDeRespostas: [
+            { conteudo: "Atuar com base em critérios objetivos, sem influências pessoais", correto: true },
+            { conteudo: "Tratar colegas com favoritismo", correto: false },
+            { conteudo: "Decidir de forma emocional", correto: false },
+            { conteudo: "Ignorar regras e normas", correto: false }
+        ],
+        justificativa: "Impessoalidade assegura que as ações sejam pautadas na justiça e nas normas vigentes.",
+        categoriaDaPergunta: "zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade"
+    },
+    {
+        enunciado: "Por que a disciplina é importante no ambiente de trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Porque promove a organização e o cumprimento de regras e prazos", correto: true },
+            { conteudo: "Porque permite flexibilizar as regras sempre que quiser", correto: false },
+            { conteudo: "Porque favorece o desrespeito aos colegas", correto: false },
+            { conteudo: "Porque impede o crescimento profissional", correto: false }
+        ],
+        justificativa: "Disciplina ajuda a manter o ambiente produtivo e respeitoso para todos.",
+        categoriaDaPergunta: "zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade"
+    },
+    {
+        enunciado: "O que significa assiduidade no contexto profissional?",
+        arrayDeRespostas: [
+            { conteudo: "Presença regular e pontualidade no trabalho", correto: true },
+            { conteudo: "Faltar frequentemente ao trabalho", correto: false },
+            { conteudo: "Chegar atrasado frequentemente", correto: false },
+            { conteudo: "Deixar de cumprir prazos", correto: false }
+        ],
+        justificativa: "Assiduidade indica compromisso e responsabilidade com o trabalho.",
+        categoriaDaPergunta: "zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade"
+    },
+    {
+        enunciado: "Qual desses comportamentos demonstra zelo profissional?",
+        arrayDeRespostas: [
+            { conteudo: "Revisar o trabalho antes de entregar", correto: true },
+            { conteudo: "Deixar erros passarem sem correção", correto: false },
+            { conteudo: "Procrastinar tarefas importantes", correto: false },
+            { conteudo: "Ignorar instruções", correto: false }
+        ],
+        justificativa: "Zelo implica atenção aos detalhes e qualidade na entrega das tarefas.",
+        categoriaDaPergunta: "zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade"
+    },
+    {
+        enunciado: "Como a eficiência impacta os resultados do trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Melhora a produtividade e otimiza o uso de recursos", correto: true },
+            { conteudo: "Reduz a qualidade do serviço", correto: false },
+            { conteudo: "Aumenta o desperdício de tempo", correto: false },
+            { conteudo: "Diminui o foco nas tarefas", correto: false }
+        ],
+        justificativa: "Eficiência é produzir bons resultados com menor esforço e recursos usados corretamente.",
+        categoriaDaPergunta: "zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade"
+    },
+    {
+        enunciado: "Qual a importância da imparcialidade nas decisões profissionais?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir justiça e evitar favorecimentos indevidos", correto: true },
+            { conteudo: "Atender interesses pessoais", correto: false },
+            { conteudo: "Ignorar os fatos", correto: false },
+            { conteudo: "Agir conforme preferências pessoais", correto: false }
+        ],
+        justificativa: "Imparcialidade promove um ambiente ético e confiável no trabalho.",
+        categoriaDaPergunta: "zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade"
+    },
+    {
+        enunciado: "O que demonstra disciplina no ambiente profissional?",
+        arrayDeRespostas: [
+            { conteudo: "Cumprir horários e seguir as normas da empresa", correto: true },
+            { conteudo: "Desrespeitar regras e atrasar entregas", correto: false },
+            { conteudo: "Ignorar as responsabilidades", correto: false },
+            { conteudo: "Fazer apenas o mínimo necessário", correto: false }
+        ],
+        justificativa: "Disciplina é fundamental para o funcionamento organizado e eficaz da equipe.",
+        categoriaDaPergunta: "zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade"
+    },
+    {
+        enunciado: "O que é considerado uma boa apresentação pessoal no ambiente de trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Cuidar da higiene, vestir-se adequadamente e demonstrar postura profissional", correto: true },
+            { conteudo: "Usar roupas informais e negligenciar a higiene", correto: false },
+            { conteudo: "Chegar atrasado e desorganizado", correto: false },
+            { conteudo: "Ignorar o ambiente e o contexto do trabalho", correto: false }
+        ],
+        justificativa: "A boa apresentação pessoal envolve cuidar da imagem e transmitir profissionalismo.",
+        categoriaDaPergunta: "apresentacao-pessoal"
+    },
+    {
+        enunciado: "Por que a apresentação pessoal é importante no ambiente profissional?",
+        arrayDeRespostas: [
+            { conteudo: "Porque influencia a primeira impressão e a credibilidade do profissional", correto: true },
+            { conteudo: "Porque permite ignorar as normas da empresa", correto: false },
+            { conteudo: "Porque não afeta as relações profissionais", correto: false },
+            { conteudo: "Porque dispensa o respeito pelos colegas", correto: false }
+        ],
+        justificativa: "A apresentação pessoal adequada favorece a imagem e o respeito no trabalho.",
+        categoriaDaPergunta: "apresentacao-pessoal"
+    },
+    {
+        enunciado: "Qual atitude NÃO faz parte da boa apresentação pessoal?",
+        arrayDeRespostas: [
+            { conteudo: "Usar roupas sujas ou inadequadas", correto: true },
+            { conteudo: "Manter boa higiene pessoal", correto: false },
+            { conteudo: "Ter postura adequada", correto: false },
+            { conteudo: "Ser pontual e organizado", correto: false }
+        ],
+        justificativa: "Roupas sujas ou inadequadas prejudicam a imagem profissional.",
+        categoriaDaPergunta: "apresentacao-pessoal"
+    },
+    {
+        enunciado: "Como a apresentação pessoal pode impactar a carreira de um profissional?",
+        arrayDeRespostas: [
+            { conteudo: "Melhorando a confiança e as oportunidades de crescimento", correto: true },
+            { conteudo: "Prejudicando o relacionamento com colegas", correto: false },
+            { conteudo: "Ignorando as responsabilidades do trabalho", correto: false },
+            { conteudo: "Dificultando a comunicação com a equipe", correto: false }
+        ],
+        justificativa: "Uma boa apresentação pode abrir portas e fortalecer a reputação profissional.",
+        categoriaDaPergunta: "apresentacao-pessoal"
+    },
+    {
+        enunciado: "Qual das opções contribui para uma boa apresentação pessoal?",
+        arrayDeRespostas: [
+            { conteudo: "Vestir-se de acordo com o código de vestimenta da empresa", correto: true },
+            { conteudo: "Ignorar as normas de higiene", correto: false },
+            { conteudo: "Chegar atrasado frequentemente", correto: false },
+            { conteudo: "Demonstrar desinteresse no trabalho", correto: false }
+        ],
+        justificativa: "Seguir o código de vestimenta e cuidar da higiene são essenciais para uma boa apresentação.",
+        categoriaDaPergunta: "apresentacao-pessoal"
+    },
+    {
+        enunciado: "O que caracteriza um ambiente de trabalho saudável?",
+        arrayDeRespostas: [
+            { conteudo: "Ambiente que promove respeito, colaboração e bem-estar dos colaboradores", correto: true },
+            { conteudo: "Local onde não há comunicação entre colegas", correto: false },
+            { conteudo: "Ambiente com alta rotatividade e conflitos constantes", correto: false },
+            { conteudo: "Espaço sem regras ou organização", correto: false }
+        ],
+        justificativa: "Um ambiente saudável favorece a produtividade e a satisfação dos funcionários.",
+        categoriaDaPergunta: "definicao-e-importancia-no-ambiente-de-trabalho"
+    },
+    {
+        enunciado: "Por que a importância da comunicação clara no ambiente de trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Evita mal-entendidos e facilita a cooperação entre os membros da equipe", correto: true },
+            { conteudo: "Aumenta os conflitos e rivalidades", correto: false },
+            { conteudo: "Diminui a produtividade", correto: false },
+            { conteudo: "Impede a troca de informações", correto: false }
+        ],
+        justificativa: "Comunicação clara é fundamental para o sucesso e harmonia no trabalho.",
+        categoriaDaPergunta: "definicao-e-importancia-no-ambiente-de-trabalho"
+    },
+    {
+        enunciado: "Qual a importância do respeito mútuo no ambiente de trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Promove um clima organizacional positivo e produtivo", correto: true },
+            { conteudo: "Gera desconfiança entre os colaboradores", correto: false },
+            { conteudo: "Fomenta conflitos", correto: false },
+            { conteudo: "Diminui a motivação da equipe", correto: false }
+        ],
+        justificativa: "O respeito fortalece as relações profissionais e melhora o desempenho coletivo.",
+        categoriaDaPergunta: "definicao-e-importancia-no-ambiente-de-trabalho"
+    },
+    {
+        enunciado: "O que pode prejudicar o ambiente de trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Falta de ética e colaboração entre os membros da equipe", correto: true },
+            { conteudo: "Trabalho em equipe e diálogo", correto: false },
+            { conteudo: "Feedback construtivo", correto: false },
+            { conteudo: "Respeito às diferenças", correto: false }
+        ],
+        justificativa: "A falta de ética e colaboração gera um ambiente tóxico e improdutivo.",
+        categoriaDaPergunta: "definicao-e-importancia-no-ambiente-de-trabalho"
+    },
+    {
+        enunciado: "Qual é o impacto de um bom ambiente de trabalho na produtividade?",
+        arrayDeRespostas: [
+            { conteudo: "Aumenta a motivação e o desempenho dos colaboradores", correto: true },
+            { conteudo: "Reduz o comprometimento com as tarefas", correto: false },
+            { conteudo: "Causa estresse e ansiedade", correto: false },
+            { conteudo: "Diminui a qualidade do trabalho", correto: false }
+        ],
+        justificativa: "Ambientes positivos favorecem a eficiência e resultados melhores.",
+        categoriaDaPergunta: "definicao-e-importancia-no-ambiente-de-trabalho"
+    },
+    {
+        enunciado: "O que é comunicação eficaz nas relações interpessoais?",
+        arrayDeRespostas: [
+            { conteudo: "Transmitir e receber informações de forma clara e compreensível", correto: true },
+            { conteudo: "Falar o máximo possível sem ouvir", correto: false },
+            { conteudo: "Evitar expressar opiniões para não gerar conflitos", correto: false },
+            { conteudo: "Interromper constantemente para corrigir os outros", correto: false }
+        ],
+        justificativa: "Comunicação eficaz envolve clareza e atenção ao ouvir e falar.",
+        categoriaDaPergunta: "habilidades-essencias-para-boas-relacoes-interpessoais"
+    },
+    {
+        enunciado: "Por que a empatia é importante nas relações interpessoais?",
+        arrayDeRespostas: [
+            { conteudo: "Porque permite compreender os sentimentos e perspectivas dos outros", correto: true },
+            { conteudo: "Porque ignora as emoções alheias", correto: false },
+            { conteudo: "Porque fortalece a indiferença", correto: false },
+            { conteudo: "Porque evita a cooperação", correto: false }
+        ],
+        justificativa: "Empatia ajuda a construir conexões humanas positivas e colaboração.",
+        categoriaDaPergunta: "habilidades-essencias-para-boas-relacoes-interpessoais"
+    },
+    {
+        enunciado: "O que significa ter habilidades de escuta ativa?",
+        arrayDeRespostas: [
+            { conteudo: "Ouvir atentamente e demonstrar interesse genuíno na conversa", correto: true },
+            { conteudo: "Ouvir parcialmente enquanto pensa em outra coisa", correto: false },
+            { conteudo: "Ignorar o que o interlocutor fala", correto: false },
+            { conteudo: "Interromper o tempo todo para dar opinião", correto: false }
+        ],
+        justificativa: "Escuta ativa é fundamental para entender e responder adequadamente.",
+        categoriaDaPergunta: "habilidades-essencias-para-boas-relacoes-interpessoais"
+    },
+    {
+        enunciado: "Como o respeito influencia as relações interpessoais no trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Promove um ambiente de confiança e cooperação", correto: true },
+            { conteudo: "Gera conflitos e desconfiança", correto: false },
+            { conteudo: "Inibe a comunicação", correto: false },
+            { conteudo: "Diminui a produtividade", correto: false }
+        ],
+        justificativa: "O respeito facilita o diálogo e o trabalho em equipe.",
+        categoriaDaPergunta: "habilidades-essencias-para-boas-relacoes-interpessoais"
+    },
+    {
+        enunciado: "Por que a assertividade é uma habilidade importante nas relações interpessoais?",
+        arrayDeRespostas: [
+            { conteudo: "Porque permite expressar opiniões de forma clara e respeitosa", correto: true },
+            { conteudo: "Porque evita expressar qualquer opinião", correto: false },
+            { conteudo: "Porque reforça a agressividade", correto: false },
+            { conteudo: "Porque impede a comunicação", correto: false }
+        ],
+        justificativa: "Assertividade equilibra a comunicação entre expressar-se e respeitar o outro.",
+        categoriaDaPergunta: "habilidades-essencias-para-boas-relacoes-interpessoais"
+    },
+    {
+        enunciado: "O que caracteriza um ofício como documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Comunicação formal entre órgãos públicos ou entre órgãos e particulares", correto: true },
+            { conteudo: "Mensagem informal entre colegas", correto: false },
+            { conteudo: "Documento pessoal sem valor oficial", correto: false },
+            { conteudo: "Relatório interno de empresa privada", correto: false }
+        ],
+        justificativa: "O ofício é uma forma oficial de comunicação escrita, com formato padronizado.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual a finalidade do memorando em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Comunicação interna rápida entre setores ou departamentos", correto: true },
+            { conteudo: "Documento para divulgação pública", correto: false },
+            { conteudo: "Registro de atas em reuniões", correto: false },
+            { conteudo: "Proposta para licitação", correto: false }
+        ],
+        justificativa: "Memorandos são usados para comunicações ágeis dentro da mesma instituição.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "O que é uma circular no contexto de documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Documento para comunicação dirigida a múltiplos destinatários", correto: true },
+            { conteudo: "Comunicado pessoal", correto: false },
+            { conteudo: "Documento de planejamento estratégico", correto: false },
+            { conteudo: "Relatório de auditoria", correto: false }
+        ],
+        justificativa: "Circular tem o objetivo de informar várias pessoas simultaneamente.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Para que serve um aviso em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Comunicar fatos ou orientações importantes de forma breve", correto: true },
+            { conteudo: "Registrar reuniões", correto: false },
+            { conteudo: "Realizar contratos", correto: false },
+            { conteudo: "Enviar propostas comerciais", correto: false }
+        ],
+        justificativa: "Avisos são usados para informar de forma rápida e objetiva.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "O que é um requerimento em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Pedido formal feito por pessoa física ou jurídica", correto: true },
+            { conteudo: "Relatório de atividades", correto: false },
+            { conteudo: "Comunicação interna", correto: false },
+            { conteudo: "Documento de divulgação", correto: false }
+        ],
+        justificativa: "Requerimento formaliza pedidos para análise ou decisão de órgãos públicos.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual é a função principal da ata em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Registrar fielmente o que foi discutido e decidido em reuniões", correto: true },
+            { conteudo: "Enviar comunicações internas", correto: false },
+            { conteudo: "Solicitar documentos", correto: false },
+            { conteudo: "Divulgar informações externas", correto: false }
+        ],
+        justificativa: "Atas são registros formais das decisões e ocorrências em reuniões oficiais.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "O que caracteriza um relatório em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Apresentar análise ou resultado de atividades e eventos", correto: true },
+            { conteudo: "Comunicação informal", correto: false },
+            { conteudo: "Pedido formal", correto: false },
+            { conteudo: "Divulgação pública", correto: false }
+        ],
+        justificativa: "Relatórios sistematizam informações para análise e tomada de decisões.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual a finalidade de um decreto em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Normatizar atos administrativos com força de lei", correto: true },
+            { conteudo: "Comunicação interna rápida", correto: false },
+            { conteudo: "Solicitação formal", correto: false },
+            { conteudo: "Registro de reunião", correto: false }
+        ],
+        justificativa: "Decretos estabelecem regras e diretrizes oficiais obrigatórias.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "O que é uma portaria no contexto de documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Ato administrativo que regulamenta procedimentos internos", correto: true },
+            { conteudo: "Documento para comunicação externa", correto: false },
+            { conteudo: "Relatório de auditoria", correto: false },
+            { conteudo: "Pedido formal", correto: false }
+        ],
+        justificativa: "Portarias definem normas e rotinas dentro das instituições públicas.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual documento oficial é usado para comunicar decisões ou determinações de autoridades?",
+        arrayDeRespostas: [
+            { conteudo: "Ofício", correto: true },
+            { conteudo: "Ata", correto: false },
+            { conteudo: "Memorando", correto: false },
+            { conteudo: "Circular", correto: false }
+        ],
+        justificativa: "Ofício é o documento padrão para comunicação formal entre autoridades e órgãos.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual documento oficial é utilizado para comunicar ordens ou instruções formais dentro de uma instituição?",
+        arrayDeRespostas: [
+            { conteudo: "Memorando", correto: true },
+            { conteudo: "Ofício", correto: false },
+            { conteudo: "Relatório", correto: false },
+            { conteudo: "Ata", correto: false }
+        ],
+        justificativa: "Memorandos são usados para comunicações internas rápidas e formais.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual documento oficial registra a lista de presença e decisões de uma reunião?",
+        arrayDeRespostas: [
+            { conteudo: "Ata", correto: true },
+            { conteudo: "Ofício", correto: false },
+            { conteudo: "Circular", correto: false },
+            { conteudo: "Requerimento", correto: false }
+        ],
+        justificativa: "Atas documentam formalmente os acontecimentos e deliberações em reuniões.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual documento oficial é usado para fazer um pedido formal a uma autoridade ou órgão público?",
+        arrayDeRespostas: [
+            { conteudo: "Requerimento", correto: true },
+            { conteudo: "Memorando", correto: false },
+            { conteudo: "Relatório", correto: false },
+            { conteudo: "Aviso", correto: false }
+        ],
+        justificativa: "Requerimentos formalizam pedidos para análise e decisão oficial.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual é a principal característica da circular?",
+        arrayDeRespostas: [
+            { conteudo: "Destinada a vários destinatários para divulgar informações ou orientações", correto: true },
+            { conteudo: "Documento para pedido formal", correto: false },
+            { conteudo: "Comunicação interna restrita a um setor", correto: false },
+            { conteudo: "Registro de reunião", correto: false }
+        ],
+        justificativa: "Circulares são usadas para comunicação ampla dentro da organização.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual documento oficial formaliza uma decisão com força de lei dentro do poder executivo?",
+        arrayDeRespostas: [
+            { conteudo: "Decreto", correto: true },
+            { conteudo: "Portaria", correto: false },
+            { conteudo: "Ofício", correto: false },
+            { conteudo: "Memorando", correto: false }
+        ],
+        justificativa: "Decretos regulamentam e disciplinam atos administrativos com força legal.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual documento oficial é utilizado para normatizar procedimentos internos de uma instituição pública?",
+        arrayDeRespostas: [
+            { conteudo: "Portaria", correto: true },
+            { conteudo: "Ofício", correto: false },
+            { conteudo: "Circular", correto: false },
+            { conteudo: "Relatório", correto: false }
+        ],
+        justificativa: "Portarias definem regras e normas internas para o funcionamento da instituição.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual documento oficial deve conter elementos como cabeçalho, destinatário, corpo do texto e assinatura?",
+        arrayDeRespostas: [
+            { conteudo: "Ofício", correto: true },
+            { conteudo: "Memorando", correto: false },
+            { conteudo: "Relatório", correto: false },
+            { conteudo: "Ata", correto: false }
+        ],
+        justificativa: "O ofício segue padrão formal com esses elementos para garantir clareza e validade.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual documento oficial é usado para comunicar fatos ou informações importantes de forma breve?",
+        arrayDeRespostas: [
+            { conteudo: "Aviso", correto: true },
+            { conteudo: "Memorando", correto: false },
+            { conteudo: "Relatório", correto: false },
+            { conteudo: "Portaria", correto: false }
+        ],
+        justificativa: "Avisos são comunicações rápidas para informar situações específicas.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual documento oficial apresenta dados e análises de forma detalhada para subsidiar decisões?",
+        arrayDeRespostas: [
+            { conteudo: "Relatório", correto: true },
+            { conteudo: "Memorando", correto: false },
+            { conteudo: "Requerimento", correto: false },
+            { conteudo: "Circular", correto: false }
+        ],
+        justificativa: "Relatórios fornecem informações organizadas para avaliação e tomada de decisão.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual documento oficial serve para comunicar entre órgãos públicos e entidades externas?",
+        arrayDeRespostas: [
+            { conteudo: "Ofício", correto: true },
+            { conteudo: "Memorando", correto: false },
+            { conteudo: "Ata", correto: false },
+            { conteudo: "Aviso", correto: false }
+        ],
+        justificativa: "Ofícios são usados para comunicações oficiais entre órgãos e entidades externas.",
+        categoriaDaPergunta: "tipos-de-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual é uma característica fundamental dos documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Ser formal e obedecer a padrões estabelecidos", correto: true },
+            { conteudo: "Ser informal e flexível", correto: false },
+            { conteudo: "Ser escrito de forma coloquial", correto: false },
+            { conteudo: "Não precisar de assinatura", correto: false }
+        ],
+        justificativa: "Documentos oficiais exigem formalidade e padronização para garantir validade.",
+        categoriaDaPergunta: "caracteristicas-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual elemento não pode faltar em um documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Assinatura do responsável", correto: true },
+            { conteudo: "Comentários informais", correto: false },
+            { conteudo: "Linguagem subjetiva", correto: false },
+            { conteudo: "Erros gramaticais", correto: false }
+        ],
+        justificativa: "A assinatura legitima o documento e o torna oficial.",
+        categoriaDaPergunta: "caracteristicas-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual a importância do cabeçalho em um documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Identificar o órgão emissor e a natureza do documento", correto: true },
+            { conteudo: "Ser um espaço para decoração", correto: false },
+            { conteudo: "Ficar em branco para economizar tinta", correto: false },
+            { conteudo: "Ser removido para agilizar leitura", correto: false }
+        ],
+        justificativa: "O cabeçalho fornece informações essenciais para identificar o documento.",
+        categoriaDaPergunta: "caracteristicas-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "O que garante a clareza de um documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Uso de linguagem objetiva e precisa", correto: true },
+            { conteudo: "Uso de expressões ambíguas", correto: false },
+            { conteudo: "Frases longas e confusas", correto: false },
+            { conteudo: "Jargões técnicos desnecessários", correto: false }
+        ],
+        justificativa: "Linguagem clara evita interpretações equivocadas e facilita a compreensão.",
+        categoriaDaPergunta: "caracteristicas-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual característica é essencial para garantir a autenticidade do documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Assinatura e carimbo oficiais", correto: true },
+            { conteudo: "Comentários manuscritos aleatórios", correto: false },
+            { conteudo: "Falta de identificação do emissor", correto: false },
+            { conteudo: "Linguagem informal", correto: false }
+        ],
+        justificativa: "Assinaturas e carimbos validam a autenticidade e autoridade do documento.",
+        categoriaDaPergunta: "caracteristicas-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Por que os documentos oficiais seguem uma estrutura padrão?",
+        arrayDeRespostas: [
+            { conteudo: "Para facilitar a compreensão e garantir uniformidade", correto: true },
+            { conteudo: "Para dificultar a leitura", correto: false },
+            { conteudo: "Para permitir variações conforme o humor do autor", correto: false },
+            { conteudo: "Para eliminar a necessidade de revisão", correto: false }
+        ],
+        justificativa: "Estrutura padronizada torna os documentos mais organizados e profissionais.",
+        categoriaDaPergunta: "caracteristicas-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual é a função do destinatário em um documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Indicar para quem o documento é dirigido", correto: true },
+            { conteudo: "Fazer parte do cabeçalho decorativo", correto: false },
+            { conteudo: "Ser ignorado na comunicação", correto: false },
+            { conteudo: "Substituir a assinatura", correto: false }
+        ],
+        justificativa: "O destinatário é essencial para direcionar o documento corretamente.",
+        categoriaDaPergunta: "caracteristicas-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual característica distingue um documento oficial de um informal?",
+        arrayDeRespostas: [
+            { conteudo: "Formalidade e validade jurídica", correto: true },
+            { conteudo: "Uso de linguagem coloquial", correto: false },
+            { conteudo: "Ausência de regras", correto: false },
+            { conteudo: "Falta de registro", correto: false }
+        ],
+        justificativa: "Documentos oficiais possuem valor legal e seguem normas específicas.",
+        categoriaDaPergunta: "caracteristicas-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "O que o corpo do texto em um documento oficial deve conter?",
+        arrayDeRespostas: [
+            { conteudo: "Informações claras, objetivas e pertinentes ao assunto", correto: true },
+            { conteudo: "Textos extensos e subjetivos", correto: false },
+            { conteudo: "Opiniões pessoais do autor", correto: false },
+            { conteudo: "Comentários irrelevantes", correto: false }
+        ],
+        justificativa: "O corpo do texto é a parte principal onde se expõe o conteúdo oficial.",
+        categoriaDaPergunta: "caracteristicas-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Por que a datacão é importante em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Permite identificar quando o documento foi emitido", correto: true },
+            { conteudo: "Serve apenas como elemento decorativo", correto: false },
+            { conteudo: "Pode ser omitida sem problemas", correto: false },
+            { conteudo: "Não tem valor jurídico", correto: false }
+        ],
+        justificativa: "A datação é fundamental para controle e validade dos documentos oficiais.",
+        categoriaDaPergunta: "caracteristicas-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual a primeira parte da estrutura de um documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Cabeçalho", correto: true },
+            { conteudo: "Corpo do texto", correto: false },
+            { conteudo: "Destinatário", correto: false },
+            { conteudo: "Fechamento", correto: false }
+        ],
+        justificativa: "O cabeçalho identifica o órgão emissor e o tipo de documento.",
+        categoriaDaPergunta: "estrutura-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "O que geralmente consta no cabeçalho de um documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Nome e logotipo do órgão emissor, número do documento e data", correto: true },
+            { conteudo: "Resumo do conteúdo", correto: false },
+            { conteudo: "Assinaturas", correto: false },
+            { conteudo: "Comentários informais", correto: false }
+        ],
+        justificativa: "O cabeçalho apresenta informações essenciais para identificação e protocolo.",
+        categoriaDaPergunta: "estrutura-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual parte da estrutura do documento oficial identifica a quem ele é dirigido?",
+        arrayDeRespostas: [
+            { conteudo: "Destinatário", correto: true },
+            { conteudo: "Cabeçalho", correto: false },
+            { conteudo: "Assinatura", correto: false },
+            { conteudo: "Corpo do texto", correto: false }
+        ],
+        justificativa: "O destinatário é o elemento que indica o receptor do documento.",
+        categoriaDaPergunta: "estrutura-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "O que deve conter o corpo do texto em um documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "A mensagem principal, clara, objetiva e completa", correto: true },
+            { conteudo: "Assinaturas e carimbos", correto: false },
+            { conteudo: "Dados do destinatário", correto: false },
+            { conteudo: "Número do documento", correto: false }
+        ],
+        justificativa: "O corpo do texto é a parte principal com o conteúdo da comunicação oficial.",
+        categoriaDaPergunta: "estrutura-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual parte da estrutura oficializa o encerramento do documento?",
+        arrayDeRespostas: [
+            { conteudo: "Fechamento", correto: true },
+            { conteudo: "Cabeçalho", correto: false },
+            { conteudo: "Corpo do texto", correto: false },
+            { conteudo: "Destinatário", correto: false }
+        ],
+        justificativa: "O fechamento contém saudações, agradecimentos e a despedida formal.",
+        categoriaDaPergunta: "estrutura-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Onde fica a assinatura em um documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "No fechamento, abaixo da despedida formal", correto: true },
+            { conteudo: "No cabeçalho", correto: false },
+            { conteudo: "No corpo do texto", correto: false },
+            { conteudo: "Na margem lateral", correto: false }
+        ],
+        justificativa: "A assinatura legitima o documento e deve estar no final, junto ao fechamento.",
+        categoriaDaPergunta: "estrutura-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual a função da data em um documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Indicar o dia em que o documento foi emitido", correto: true },
+            { conteudo: "Ser um elemento decorativo", correto: false },
+            { conteudo: "Substituir a assinatura", correto: false },
+            { conteudo: "Indicar o destinatário", correto: false }
+        ],
+        justificativa: "A datação é fundamental para o controle e validade do documento.",
+        categoriaDaPergunta: "estrutura-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "O que é o campo de referência em um documento oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Espaço para indicar o assunto ou documento relacionado", correto: true },
+            { conteudo: "Área para assinaturas adicionais", correto: false },
+            { conteudo: "Campo para o nome do destinatário", correto: false },
+            { conteudo: "Seção para comentários informais", correto: false }
+        ],
+        justificativa: "A referência facilita a identificação do tema tratado no documento.",
+        categoriaDaPergunta: "estrutura-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Em documentos oficiais, o que deve evitar no corpo do texto?",
+        arrayDeRespostas: [
+            { conteudo: "Linguagem subjetiva e informações irrelevantes", correto: true },
+            { conteudo: "Linguagem clara e objetiva", correto: false },
+            { conteudo: "Informações essenciais ao tema", correto: false },
+            { conteudo: "Estruturação em parágrafos", correto: false }
+        ],
+        justificativa: "Textos oficiais devem ser objetivos, evitando ambiguidades e detalhes desnecessários.",
+        categoriaDaPergunta: "estrutura-dos-documentos-oficiais"
+    },
+    {
+        enunciado: "Qual é o objetivo principal das regras de redação oficial?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir clareza, objetividade e formalidade na comunicação escrita", correto: true },
+            { conteudo: "Permitir uso livre e informal da linguagem", correto: false },
+            { conteudo: "Incentivar o uso de gírias e jargões", correto: false },
+            { conteudo: "Deixar o texto subjetivo e interpretativo", correto: false }
+        ],
+        justificativa: "As regras visam padronizar e formalizar os documentos oficiais.",
+        categoriaDaPergunta: "regras-de-redacao-oficial"
+    },
+    {
+        enunciado: "Qual norma é frequentemente adotada para padronizar documentos oficiais no Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Manual de Redação da Presidência da República", correto: true },
+            { conteudo: "ABNT NBR 6023", correto: false },
+            { conteudo: "ISO 9001", correto: false },
+            { conteudo: "Manual de Estilo da APA", correto: false }
+        ],
+        justificativa: "O Manual de Redação da Presidência da República é referência oficial para textos governamentais.",
+        categoriaDaPergunta: "regras-de-redacao-oficial"
+    },
+    {
+        enunciado: "Como deve ser o uso dos pronomes de tratamento em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Deve seguir as normas de formalidade adequadas ao cargo e à autoridade", correto: true },
+            { conteudo: "Pode-se usar pronomes informais como 'você'", correto: false },
+            { conteudo: "Não é necessário usar pronomes de tratamento", correto: false },
+            { conteudo: "Pode-se inventar pronomes conforme preferência", correto: false }
+        ],
+        justificativa: "O uso correto dos pronomes mantém o respeito e a formalidade necessárias.",
+        categoriaDaPergunta: "regras-de-redacao-oficial"
+    },
+    {
+        enunciado: "Como devem ser apresentadas as datas em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Por extenso, com dia, mês e ano (ex.: 10 de agosto de 2025)", correto: true },
+            { conteudo: "Somente em números (ex.: 10/08/25)", correto: false },
+            { conteudo: "Apenas o mês e o ano", correto: false },
+            { conteudo: "Com abreviações informais", correto: false }
+        ],
+        justificativa: "A data por extenso garante clareza e evita ambiguidades.",
+        categoriaDaPergunta: "regras-de-redacao-oficial"
+    },
+    {
+        enunciado: "Qual é a recomendação para o uso de siglas em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Deve-se escrever o nome completo na primeira menção, seguido da sigla entre parênteses", correto: true },
+            { conteudo: "Usar siglas sem explicação desde o início", correto: false },
+            { conteudo: "Evitar siglas em qualquer situação", correto: false },
+            { conteudo: "Criar siglas livremente sem padrão", correto: false }
+        ],
+        justificativa: "Explicar siglas na primeira vez evita confusões para o leitor.",
+        categoriaDaPergunta: "regras-de-redacao-oficial"
+    },
+    {
+        enunciado: "Como deve ser o uso dos números em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Números até dez são escritos por extenso, acima disso em algarismos", correto: true },
+            { conteudo: "Todos os números devem ser escritos por extenso", correto: false },
+            { conteudo: "Todos os números devem ser em algarismos", correto: false },
+            { conteudo: "Pode-se usar qualquer formato, sem padrão", correto: false }
+        ],
+        justificativa: "Essa regra melhora a legibilidade e o padrão do texto.",
+        categoriaDaPergunta: "regras-de-redacao-oficial"
+    },
+    {
+        enunciado: "Qual deve ser o tom da linguagem em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Formal, impessoal e objetiva", correto: true },
+            { conteudo: "Informal e coloquial", correto: false },
+            { conteudo: "Subjetivo e emocional", correto: false },
+            { conteudo: "Irônico e crítico", correto: false }
+        ],
+        justificativa: "A formalidade e impessoalidade garantem seriedade e profissionalismo.",
+        categoriaDaPergunta: "regras-de-redacao-oficial"
+    },
+    {
+        enunciado: "Como deve ser o uso das abreviaturas em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Devem ser usadas apenas as oficialmente reconhecidas e conhecidas", correto: true },
+            { conteudo: "Podem ser criadas livremente", correto: false },
+            { conteudo: "Abreviaturas não são permitidas", correto: false },
+            { conteudo: "Podem ser informais", correto: false }
+        ],
+        justificativa: "Abreviaturas devem seguir padrões para evitar ambiguidades.",
+        categoriaDaPergunta: "regras-de-redacao-oficial"
+    },
+    {
+        enunciado: "Como deve ser a estruturação dos parágrafos em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Parágrafos curtos, claros e organizados", correto: true },
+            { conteudo: "Parágrafos longos e confusos", correto: false },
+            { conteudo: "Textos sem parágrafos", correto: false },
+            { conteudo: "Parágrafos cheios de informações irrelevantes", correto: false }
+        ],
+        justificativa: "Parágrafos bem estruturados facilitam a leitura e compreensão.",
+        categoriaDaPergunta: "regras-de-redacao-oficial"
+    },
+    {
+        enunciado: "Qual é a recomendação para o uso de linguagem em documentos oficiais?",
+        arrayDeRespostas: [
+            { conteudo: "Utilizar linguagem clara, objetiva e sem ambiguidades", correto: true },
+            { conteudo: "Usar linguagem subjetiva e complexa", correto: false },
+            { conteudo: "Utilizar jargões técnicos sem explicação", correto: false },
+            { conteudo: "Empregar expressões populares e informais", correto: false }
+        ],
+        justificativa: "Linguagem clara garante o entendimento por todos os destinatários.",
+        categoriaDaPergunta: "regras-de-redacao-oficial"
     }
 ]
 
@@ -4147,4 +5016,14 @@ export {
  * seguranca-da-informacao-na-informatica-awari
  * ataques-e-ameacas-em-seguranca-da-informacao
  * tipos-de-malware
+ * 
+ * definicao-e-importancia-sobre-postura-profissional
+ * zelo-eficiencia-imparcialidade-impessoalidade-disciplina-e-assiduidade
+ * apresentacao-pessoal
+ * definicao-e-importancia-no-ambiente-de-trabalho
+ * habilidades-essencias-para-boas-relacoes-interpessoais
+ * tipos-de-documentos-oficiais
+ * caracteristicas-dos-documentos-oficiais
+ * estrutura-dos-documentos-oficiais
+ * regras-de-redacao-oficial
  */

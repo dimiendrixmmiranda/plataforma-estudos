@@ -9,15 +9,14 @@ import ReproduzirTexto from "../../reproduzirTexto/ReproduzirTexto";
 import SubmateriasNavegacao from "../../base/MateriasNavegacao";
 import { FaCheckSquare } from "react-icons/fa";
 import VideoExplicativo from "../../base/VideoExplicativo";
-import Link from "next/link";
 import MenuInferior from "../../menuInferior/MenuInferior";
 import { createSlug } from "@/utils/createSlug";
 import Imagem from "../../base/Imagem";
+import BotaoExecutar from "@/components/base/BotaoExecutar";
 
 export default function InternetEIntranet() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
     const { usuario } = useAuth()
-    console.log("materiasCompletas", materiasCompletas);
 
     return (
         <div className="p-2 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
@@ -73,12 +72,7 @@ export default function InternetEIntranet() {
                                         <VideoExplicativo idVideo={submateria.video?.idVideo} titulo={submateria.video?.titulo} />
                                     ) : ''
                                 }
-                                <Link
-                                    href={`/pages/materias/exercicios/${createSlug(submateria.id)}`}
-                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
-                                >
-                                    Realizar Exercícios
-                                </Link>
+                                <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
                             </li>
                         )
                     })

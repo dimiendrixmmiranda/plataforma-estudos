@@ -358,7 +358,96 @@ const assistenteAdministrativo = {
     },
     ["nocoes-gerais-sobre-arquivos-de-documentos"]: {
         titulo: `Noções Gerais sobre Arquivos de Documentos`,
-        id: `nocoes-gerais-sobre-arquivos-de-documentos`
+        id: `nocoes-gerais-sobre-arquivos-de-documentos`,
+        introducao: [
+            `A arquivologia é uma área do conhecimento que tem ganhado cada vez mais importância no contexto da administração pública moderna, especialmente com a crescente necessidade de organização, preservação e acesso à informação. Para o assistente administrativo, compreender os conceitos básicos de gestão de documentos é fundamental, pois estes profissionais frequentemente lidam com a produção, tramitação e arquivamento de documentos em suas atividades diárias.`
+        ],
+        submaterias: [
+            {
+                texto: 'Conceitos Fundamentais sobre Arquivos de Documentos',
+                id: 'conceitos-fundamentais-sobre-arquivos-de-documentos',
+                introducao: 'Os conceitos fundamentais sobre arquivos de documentos explicam o que é um documento, como se caracteriza o documento de arquivo e os diferentes significados do termo arquivo. Eles são essenciais para entender a organização, preservação e acesso às informações ao longo do tempo.',
+                explicacao: [
+                    `Um documento é uma unidade de registro de informações, independentemente de seu suporte ou formato. Isso significa que qualquer material que contenha uma informação — seja ele em papel, filme, fita magnética, disco óptico ou formato digital — é considerado um documento. Nele, a informação corresponde à ideia ou mensagem registrada, enquanto o suporte é o meio físico ou digital onde essa informação é fixada. Essa distinção é importante, pois o valor do documento está tanto no conteúdo que transmite quanto no meio que o preserva.`,
+                    `O documento de arquivo, também chamado de documento arquivístico, é um tipo específico de documento gerado ou recebido por uma pessoa física ou jurídica — seja pública ou privada — no exercício de suas funções e atividades. Sua principal característica é servir como prova ou fonte de informação sobre ações, decisões e atos praticados por seu produtor. Esses documentos integram um conjunto orgânico, ou seja, mantêm relações entre si e refletem de forma fiel as funções e atividades da instituição ou pessoa que os originou.`,
+                    `Na arquivologia, o termo “arquivo” pode ter diferentes sentidos. Pode se referir ao conjunto de documentos produzidos e acumulados por uma entidade — pública ou privada, pessoa ou família — no decorrer de suas atividades, independentemente do suporte. Também pode designar a instituição ou serviço responsável pela guarda, organização, preservação e disponibilização desses documentos. Além disso, o termo pode indicar o espaço físico onde esses documentos são armazenados, ou ainda o mobiliário utilizado para sua guarda, como armários e gaveteiros. Em todos os casos, o arquivo tem como objetivo garantir a preservação e o acesso às informações registradas.`
+                ],
+                video: {
+                    titulo: `Conceitos Fundamentais sobre Arquivos de Documentos`,
+                    linkDoCanal: 'https://www.youtube.com/@arquivologiaparaconcurso5576',
+                    idVideo: 'BuFuHsOBTvo'
+                },
+            },
+            {
+                texto: 'Características dos Documentos de Arquivos',
+                id: 'caracteristicas-dos-documentos-de-arquivos',
+                introducao: 'Os documentos de arquivo possuem atributos que garantem seu valor como prova e fonte de informação. Essas características asseguram sua autenticidade, integridade e relação direta com as atividades que os originaram, diferenciando-os de outros tipos de documentos.',
+                explicacao: [
+                    `Os documentos de arquivo apresentam características próprias que os distinguem de outros tipos de documentos. Uma delas é a imparcialidade, já que são produzidos dentro de um contexto específico e com finalidades determinadas, refletindo de maneira objetiva a atividade que lhes deu origem.`,
+                    `Outra característica é a unicidade. Cada documento arquivístico ocupa um lugar único dentro da estrutura documental do conjunto ao qual pertence. Mesmo que haja cópias, o documento original possui um valor singular, relacionado à sua autenticidade e à função que exerceu no contexto em que foi criado.`,
+                    `A naturalidade também é um traço essencial. Documentos de arquivo são produzidos e acumulados de forma orgânica, no curso normal das transações e atividades de uma pessoa ou instituição, e não de forma artificial ou planejada para simples fins de arquivamento.`,
+                    `O inter-relacionamento é igualmente importante. Esses documentos mantêm vínculos entre si e com as atividades que os originaram, formando um conjunto coeso e estruturado que reflete a organização e as funções da entidade produtora.`,
+                    `Por fim, a autenticidade garante que esses documentos foram criados, mantidos e preservados conforme procedimentos regulares, o que permite comprovar sua veracidade e integridade ao longo do tempo. Essa característica é essencial para que sirvam como prova confiável de ações e decisões.`
+                ],
+                video: {
+                    titulo: `Características dos Documentos de Arquivos`,
+                    linkDoCanal: 'https://www.youtube.com/@lincolnbarros7075',
+                    idVideo: 'USudqBxKzi0'
+                },
+            },
+            {
+                texto: 'Valores dos Documentos de Arquivo',
+                id: 'valores-dos-documentos-de-arquivo',
+                introducao: 'Os documentos de arquivo possuem atributos que garantem seu valor como prova e fonte de informação. Essas características asseguram sua autenticidade, integridade e relação direta com as atividades que os originaram, diferenciando-os de outros tipos de documentos.',
+                explicacao: [
+                    `Os documentos de arquivo possuem diferentes valores que orientam o tempo de guarda e a destinação final de cada registro. Esses valores são divididos em primário e secundário, sendo determinados pela utilidade que o documento apresenta ao longo de seu ciclo de vida.`,
+                    `O valor primário está ligado ao uso imediato e direto do documento pela entidade que o produziu ou recebeu. Dentro dele, destaca-se o valor administrativo, que representa a importância do documento para apoiar a gestão e fundamentar ações do órgão ou instituição. Há também o valor legal ou jurídico, referente à capacidade do documento de comprovar fatos, constituir direitos ou atender a exigências previstas em lei. Por fim, o valor fiscal diz respeito aos registros que comprovam operações de natureza contábil, financeira ou tributária.`,
+                    `O valor secundário surge quando o documento deixa de ter utilidade prática para a administração, mas passa a ter relevância para outros fins. Nessa fase, ele pode se tornar fonte de pesquisa, informação ou testemunho de caráter histórico, cultural ou científico. Documentos com valor secundário são preservados permanentemente, pois representam parte da memória e do patrimônio documental de uma sociedade.`
+                ],
+            },
+            {
+                texto: 'Teoria das Três Idades',
+                id: 'teoria-das-tres-idades',
+                introducao: 'A Teoria das Três Idades explica o percurso que um documento segue desde sua criação até seu destino final. Ela divide esse ciclo em três fases — corrente, intermediária e permanente —, permitindo organizar, preservar e dar o tratamento adequado aos documentos conforme sua utilidade e valor ao longo do tempo.',
+                explicacao: [
+                    `A Teoria das Três Idades, ou Ciclo Vital dos Documentos, é um princípio central da arquivologia que descreve as etapas pelas quais um documento passa desde sua criação até sua destinação final. Essa abordagem permite compreender a utilidade e o valor de cada documento ao longo do tempo, orientando sua gestão de forma eficiente.`,
+                    `O arquivo corrente é formado por documentos em uso ativo, ou seja, aqueles que circulam ou são consultados com frequência para atender às necessidades diárias da instituição. Geralmente, permanecem próximos aos setores que os produzem, devido à sua importância imediata. Nessa fase, predominam o valor administrativo, legal e fiscal — conhecidos como valor primário.`,
+                    `O arquivo intermediário reúne documentos que já não fazem parte das rotinas diárias, mas que ainda possuem relevância administrativa, legal ou fiscal. Como seu uso é menos frequente, são transferidos para áreas de guarda temporária, liberando espaço no arquivo corrente. Nessa etapa, aguarda-se a decisão sobre seu destino final, que pode ser a eliminação ou o recolhimento para preservação permanente.`,
+                    `Por fim, o arquivo permanente contém documentos que perderam seu valor primário, mas adquiriram valor secundário, seja histórico, probatório ou informativo. Eles são preservados de forma definitiva, pois representam a memória institucional ou social. Esses documentos são inalienáveis e imprescritíveis, garantindo que continuem acessíveis para pesquisa e consulta no futuro.`
+                ],
+                video: {
+                    titulo: `Teoria das Três Idades`,
+                    linkDoCanal: 'https://www.youtube.com/@xandioliveira',
+                    idVideo: '0p2gv3_qPIo'
+                },
+            },
+            {
+                texto: 'Gestão de Documentos',
+                id: 'gestao-de-documentos',
+                introducao: 'A gestão de documentos organiza e controla todo o ciclo de vida dos registros, desde sua criação até a destinação final. Seu propósito é garantir que apenas os documentos úteis sejam mantidos pelo tempo necessário, assegurando acesso rápido, preservação adequada e eliminação do que não tem mais valor.',
+                explicacao: [
+                    `A gestão de documentos é o conjunto de procedimentos e operações técnicas que envolvem a produção, tramitação, uso, avaliação e arquivamento de documentos nas fases corrente e intermediária. Seu objetivo é definir, de forma criteriosa, quais documentos devem ser eliminados e quais devem ser preservados permanentemente. A finalidade principal desse processo é assegurar que a instituição produza, mantenha e utilize apenas os documentos necessários para o desempenho de suas funções, garantindo acesso no momento oportuno e preservação pelo tempo adequado.`,
+                    `Esse processo é dividido em fases que acompanham o ciclo vital do documento. A primeira é a produção, que corresponde à elaboração e criação de documentos em função das atividades desenvolvidas pelo órgão ou setor. Em seguida, ocorre a tramitação e uso, fase em que os documentos circulam pela instituição, desde sua criação até o arquivamento, envolvendo procedimentos de protocolo e técnicas de organização, classificação e recuperação da informação.`,
+                    `Por fim, a avaliação e destinação é a etapa responsável por analisar o valor primário ou secundário dos documentos, definindo se serão eliminados ou recolhidos para guarda permanente. Essa fase é essencial para evitar acúmulos desnecessários e garantir a preservação de registros com relevância histórica ou informativa.`
+                ],
+                video: {
+                    titulo: `Gestão de Documentos`,
+                    linkDoCanal: 'https://www.youtube.com/@xandioliveira',
+                    idVideo: 'a0yLxwJqea0'
+                },
+            },
+            {
+                texto: 'Classificação, Avaliação, Eliminação e Digitalização de Documentos',
+                id: 'classificacao-avaliacao-eliminacao-e-digitalizacao-de-documentos',
+                introducao: 'A gestão de documentos é fundamental para o funcionamento organizado e eficiente de qualquer instituição. Ela envolve diferentes etapas, desde a classificação, que organiza os documentos segundo seu conteúdo e função, até a avaliação, que define sua destinação e tempo de guarda. Processos como a eliminação e a digitalização complementam essa gestão, garantindo o descarte seguro de documentos sem valor e a conversão de arquivos físicos em digitais para facilitar o acesso e a preservação. Essas práticas asseguram o controle, a integridade e a disponibilidade das informações ao longo do tempo.',
+                explicacao: [
+                    `A classificação de documentos consiste em organizar os documentos de acordo com seu conteúdo e finalidade, enquadrando-os em um plano hierárquico que facilita a gestão e a localização. Esse processo envolve atribuir códigos a cada documento e distribuí-los em classes, subclasses, grupos, subgrupos, séries e subséries, conforme as funções e atividades que os geraram. O Plano de Classificação funciona como um guia estruturado que assegura a eficiência da administração documental, apoiando tanto a avaliação quanto a preservação e a destinação final dos documentos.`,
+                    `A avaliação de documentos é o procedimento de analisar cada conjunto documental para definir sua destinação, considerando os valores primário (uso corrente) e secundário (valor histórico, legal ou fiscal). A partir dessa avaliação, é elaborada a Tabela de Temporalidade e Destinação de Documentos (TTD), que estabelece prazos de guarda, determina quando os documentos devem ser transferidos para arquivos intermediários ou recolhidos para preservação permanente, e indica quais podem ser eliminados. A TTD é essencial para organizar o ciclo de vida dos documentos, reduzir a massa documental e otimizar o espaço físico.`,
+                    `A eliminação de documentos é o ato controlado de descartar documentos que já cumpriram sua função e não possuem mais valor administrativo, legal, fiscal ou histórico. Esse processo deve ser conduzido com base na avaliação documental e autorizado por órgãos competentes, como as Comissões Permanentes de Avaliação de Documentos (CPADs), garantindo que não haja destruição indevida de informações importantes e mantendo a transparência administrativa.`,
+                    `A digitalização de documentos consiste em transformar documentos físicos em arquivos digitais, oferecendo maior acessibilidade, redução do manuseio de originais e otimização do espaço físico. Contudo, a digitalização deve ser feita em documentos previamente organizados, pois não substitui a necessidade de manter os originais físicos enquanto estiverem dentro do prazo definido na TTD. Esse processo auxilia na preservação, no acesso rápido à informação e na eficiência geral da gestão documental.`
+                ],
+            },
+        ]
     },
     ["principios-basicos-da-administracao-publica"]: {
         titulo: `Princípios Básicos da Administração Pública`,

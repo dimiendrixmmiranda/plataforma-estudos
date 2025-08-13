@@ -9,9 +9,9 @@ import SubmateriasNavegacao from "../../base/MateriasNavegacao";
 import informatica from "@/constants/informatica";
 import { FaCheckSquare } from "react-icons/fa";
 import VideoExplicativo from "../../base/VideoExplicativo";
-import Link from "next/link";
 import { createSlug } from "@/utils/createSlug";
 import ReproduzirTexto from "../../reproduzirTexto/ReproduzirTexto";
+import BotaoExecutar from "@/components/base/BotaoExecutar";
 
 export default function AmbienteMicrosoftOffice() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
@@ -84,12 +84,8 @@ export default function AmbienteMicrosoftOffice() {
                                     <p>As principais extensões para esse tipo de arquivo são: <b>{submateria.dicas.tipoDeExtesao}</b></p>
                                 </div>
                                 <VideoExplicativo idVideo={submateria.video?.idVideo} titulo={submateria.video?.titulo} />
-                                <Link
-                                    href={`/pages/materias/exercicios/${createSlug(submateria.id)}`}
-                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
-                                >
-                                    Realizar Exercícios
-                                </Link>
+                                <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
+
                             </li>
                         )
                     })

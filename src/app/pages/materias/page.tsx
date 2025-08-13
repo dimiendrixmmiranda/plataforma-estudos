@@ -4,7 +4,6 @@ import MenuInferior from "@/components/menuInferior/MenuInferior"
 import RotaProtegida from "@/components/rotaProtegida/RotaProtegida"
 import Template from "@/components/template/Template"
 import useAuth from "@/data/hook/useAuth"
-import Link from "next/link"
 import React, { useState } from 'react';
 import { Accordion, AccordionTab } from 'primereact/accordion';
 import { useMateriasCompletas } from "@/data/hook/useMateriasCompletas"
@@ -12,6 +11,7 @@ import informatica from "@/constants/informatica"
 import MateriaCategoriaConcurso from "@/components/materiaCategoriaConcurso/MateriaCategoriaConcurso"
 import portugues from "@/constants/portugues"
 import { assistenteAdministrativo } from "@/constants/assistenteAdministrativo"
+import BotaoExecutar from "@/components/base/BotaoExecutar"
 
 export default function PaginaMaterias() {
     const { usuario } = useAuth()
@@ -27,7 +27,7 @@ export default function PaginaMaterias() {
             <RotaProtegida>
                 <div className="bg-zinc-300 text-black min-h-[80vh] p-4 flex flex-col gap-4 pb-14">
                     <div className="flex flex-col gap-4">
-                        <h2 className="uppercase font-black text-2xl leading-6">Selecione um cargo para estudo:</h2>
+                        <h2 className="uppercase font-black text-2xl leading-6 font-secundaria">Selecione um cargo para estudo:</h2>
                         <Accordion>
                             <AccordionTab header="Agente Comunitario de Saúde">
                                 <MateriaCategoriaConcurso
@@ -522,7 +522,7 @@ export default function PaginaMaterias() {
                             </AccordionTab>
                         </Accordion>
                     </div>
-                    <Link href={'/pages/simulado'} className="bg-amarelo uppercase font-black text-xl text-white flex justify-center items-center py-2" style={{ textShadow: '1px 1px 2px black' }}>Realizar Simulado!</Link >
+                    <BotaoExecutar link="/pages/simulado" texto="Realizar Simulado"/>
                 </div>
                 <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />
             </RotaProtegida>

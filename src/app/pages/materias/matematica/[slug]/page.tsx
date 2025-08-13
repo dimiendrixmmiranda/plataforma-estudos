@@ -3,7 +3,6 @@
 import AmbienteMicrosoftOffice from '@/components/materias/informatica/AmbienteMicrosoftOffice'
 import CertificacaoEAssinaturaDigital from '@/components/materias/informatica/CertificacaoEAssinaturaDigital'
 import EdicaoDeTextosPlanilhasApresentacoes from '@/components/materias/informatica/EdicaoDeTextosPlanilhasApresentacoes'
-import InformaticaBasica from '@/components/materias/informatica/InformaticaBasica'
 import InternetEIntranet from '@/components/materias/informatica/InternetEIntranet'
 import OrganizacaoEGerenciamentoDeInformacoes from '@/components/materias/informatica/OrganizacaoEGerenciamentoDeInformacoes'
 import SegurancaDaInformacao from '@/components/materias/informatica/SegurancaDaInformacao'
@@ -14,7 +13,6 @@ import { useParams } from 'next/navigation'
 import { JSX } from 'react'
 
 const componentesPorSlug: Record<string, JSX.Element> = {
-    ['operacoes-fundamentais']: <InformaticaBasica />,
     ['operacoes-com-numeros-naturais-e-racionais']: <EdicaoDeTextosPlanilhasApresentacoes />,
     ['teoria-dos-conjuntos']: <AmbienteMicrosoftOffice />,
     ['operacoes-com-fracoes']: <SistemaOperacionalWindows />,

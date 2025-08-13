@@ -3,7 +3,6 @@
 import informatica from "@/constants/informatica";
 import VideoExplicativo from "../../base/VideoExplicativo";
 import MenuInferior from "../../menuInferior/MenuInferior";
-import Link from "next/link";
 import { createSlug } from "@/utils/createSlug";
 import { FaCheckSquare } from "react-icons/fa";
 import TituloMateria from "../../base/TituloMateria";
@@ -12,6 +11,7 @@ import SubmateriasNavegacao from "../../base/MateriasNavegacao";
 import { useMateriasCompletas } from "@/data/hook/useMateriasCompletas";
 import useAuth from "@/data/hook/useAuth";
 import ReproduzirTexto from "../../reproduzirTexto/ReproduzirTexto";
+import BotaoExecutar from "@/components/base/BotaoExecutar";
 
 export default function SistemaOperacionalWindows() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
@@ -93,12 +93,7 @@ export default function SistemaOperacionalWindows() {
                 }
             </ul>
             <VideoExplicativo idVideo={informatica["sistema-operacional-windows"].video?.idVideo} titulo={informatica["sistema-operacional-windows"].video?.titulo} />
-            <Link
-                href={`/pages/materias/exercicios/${createSlug(informatica["sistema-operacional-windows"].id)}`}
-                className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
-            >
-                Realizar Exercícios
-            </Link>
+            <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(informatica["sistema-operacional-windows"].id)}`} texto="Realizar Exercicios" />
             <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />
         </div>
     )

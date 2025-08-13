@@ -20,7 +20,10 @@
   --amarelo: #DC7C15;
   --amarelo-claro: #ffb037;
   --magenta: #E44576;
-
+  --turquesaEscuro: #005d71;
+  --turquesaClaro: #68c9da;
+  --turquesaMedio: #1c9dac;
+  --salmao: #f8726b;
 }
 
 @media (prefers-color-scheme: dark) {

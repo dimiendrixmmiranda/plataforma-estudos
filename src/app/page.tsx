@@ -2,7 +2,7 @@
 import Template from "@/components/template/Template";
 import useAuth from "@/data/hook/useAuth";
 import { useState } from "react";
-import { IoPerson } from "react-icons/io5";
+import { FaUserCircle } from "react-icons/fa";
 
 export default function Page() {
 	const { login } = useAuth()
@@ -71,17 +71,17 @@ export default function Page() {
 
 	return (
 		<Template>
-			<div className="text-black bg-zinc-300 min-h-[77vh] p-4 flex flex-col justify-center items-center gap-10">
-				<div className="flex flex-col gap-4 p-4 border border-black rounded-lg w-full max-w-[300px] bg-amarelo-claro text-white" style={{ boxShadow: '1px 1px 2px 1px black' }}>
+			<div className="text-black bg-turquesaEscuro min-h-[77vh] p-4 flex flex-col justify-center items-center gap-10">
+				<div className="flex flex-col gap-4 p-4 border border-black rounded-lg w-full max-w-[300px] bg-turquesaClaro text-white" style={{ boxShadow: '0px 0px 2px 1px black' }}>
 					<div className="flex flex-col gap-2 justify-center items-center">
-						<IoPerson className="text-[120px]" />
+						<FaUserCircle className="text-[120px]"/>
 					</div>
 					{erro && (
 						<p className="bg-red-500 text-white text-center p-2 rounded-lg">
 							{erro}
 						</p>
 					)}
-					<div className="flex flex-col gap-4">
+					<div className="flex flex-col gap-4 font-secundaria text-lg">
 						<fieldset className="flex flex-col gap-1">
 							<label
 								htmlFor="identificador"
@@ -95,22 +95,22 @@ export default function Page() {
 								id="identificador"
 								value={identificador}
 								onChange={handleChange}
-								className="px-2 py-1 rounded-lg text-black"
+								className="px-2 py-1 rounded-lg text-black bg-turquesaMediotext-white focus:font-semibold"
 								style={{ boxShadow: "0 0 2px 1px black" }}
 							/>
 						</fieldset>
 						<fieldset className="flex flex-col gap-1">
 							<label htmlFor="senha" className="font-bold" style={{ textShadow: '1px 1px 2px black' }}>Informe sua senha:</label>
-							<input type="password" id="senha" onChange={(e) => setSenha(e.target.value)} className="px-2 py-1 rounded-lg text-black" style={{ boxShadow: '0 0 2px 1px black' }} />
+							<input type="password" id="senha" onChange={(e) => setSenha(e.target.value)} className="px-2 py-1 rounded-lg bg-turquesaMedio text-white focus:font-semibold" style={{ boxShadow: '0 0 2px 1px black' }} />
 						</fieldset>
 					</div>
 					<fieldset className="flex items-center gap-2">
 						<input type="checkbox" id="manterConectado" checked={manterConectado} onChange={(e) => setManterConectado(e.target.checked)} />
 						<label htmlFor="manterConectado" className="font-bold" style={{ textShadow: '1px 1px 2px black' }}>Manter conectado</label>
 					</fieldset>
-					<button className="w-full text-white uppercase font-bold py-2 bg-magenta" style={{ boxShadow: '1px 1px 2px black' }} onClick={submeter}>Entrar</button>
+					<button className="w-full text-white uppercase font-bold py-2 bg-salmao" style={{ boxShadow: '1px 1px 2px black' }} onClick={submeter}>Entrar</button>
 				</div>
-				<span className="text-azul-escuro uppercase font-black text-center leading-5">
+				<span className="text-white uppercase font-black text-center leading-5 font-secundaria">
 					Plataforma de estudos em desenvolvimento, somente usuarios credenciados podem acessar. Conteudos sendo adicionados diariamente.
 				</span>
 			</div>

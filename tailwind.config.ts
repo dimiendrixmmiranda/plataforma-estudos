@@ -17,6 +17,10 @@ export default {
         laranja: "var(--laranja)",
         preto: "var(--preto)",
         magenta: "var(--magenta)",
+        turquesaEscuro: "var(--turquesaEscuro)",
+        turquesaClaro: "var(--turquesaClaro)",
+        turquesaMedio: "var(--turquesaMedio)",
+        salmao: "var(--salmao)",
       },
     },
     fontFamily: {

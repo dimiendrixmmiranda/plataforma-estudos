@@ -13,7 +13,7 @@ export default function Footer() {
             ${usuario ? 'pb-[70px]': ''}
             min-h-[15vh] flex flex-col gap-2 justify-center items-center p-4 bg-[url('/footer/footer.webp')] bg-cover bg-center
         `}>
-            <div>
+            <div className="hidden">
                 <p className="text-center font-medium">Projeto desenvolvido pelo grupo <b>E.M.</b>, idealizado por <b>Dimi Endrix Martins Miranda</b></p>
             </div>
             <Redes estiloComponente="" estiloLista="flex gap-2 sm:justify-center" visibilidadeTexto={true}/>

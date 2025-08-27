@@ -5613,6 +5613,1161 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
         ],
         justificativa: "Classificações adicionais ajudam na compreensão prática e teórica da Administração Pública.",
         categoriaDaPergunta: "outras-classificacoes-dos-principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que é Administração Pública?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de órgãos e agentes que executam políticas públicas e serviços à sociedade", correto: true },
+            { conteudo: "Uma empresa privada voltada ao lucro", correto: false },
+            { conteudo: "Um órgão judiciário independente", correto: false },
+            { conteudo: "Um sindicato de servidores", correto: false }
+        ],
+        justificativa: "A Administração Pública engloba todos os órgãos e entidades que exercem funções administrativas para atender ao interesse público.",
+        categoriaDaPergunta: "nocoes-basicas-sobre-administracao-publica"
+    },
+    {
+        enunciado: "Quais são os poderes que compõem a Administração Pública?",
+        arrayDeRespostas: [
+            { conteudo: "Executivo, Legislativo e Judiciário", correto: true },
+            { conteudo: "Privado, Público e Corporativo", correto: false },
+            { conteudo: "Federal, Estadual e Municipal apenas", correto: false },
+            { conteudo: "Administrativo e Financeiro apenas", correto: false }
+        ],
+        justificativa: "A Administração Pública atua em todos os três poderes, mas com destaque para o Executivo na execução de políticas.",
+        categoriaDaPergunta: "nocoes-basicas-sobre-administracao-publica"
+    },
+    {
+        enunciado: "A Administração Pública pode ser classificada em:",
+        arrayDeRespostas: [
+            { conteudo: "Direta e indireta", correto: true },
+            { conteudo: "Local e internacional", correto: false },
+            { conteudo: "Privada e voluntária", correto: false },
+            { conteudo: "Judicial e empresarial", correto: false }
+        ],
+        justificativa: "A Administração Direta engloba órgãos públicos, e a Indireta inclui autarquias, fundações e empresas públicas.",
+        categoriaDaPergunta: "nocoes-basicas-sobre-administracao-publica"
+    },
+    {
+        enunciado: "A Administração Direta inclui:",
+        arrayDeRespostas: [
+            { conteudo: "Órgãos que integram a estrutura do Estado, como ministérios e secretarias", correto: true },
+            { conteudo: "Empresas privadas que prestam serviços públicos", correto: false },
+            { conteudo: "Sindicatos e associações", correto: false },
+            { conteudo: "Organizações internacionais", correto: false }
+        ],
+        justificativa: "São os órgãos que fazem parte do próprio Estado e executam funções administrativas diretamente.",
+        categoriaDaPergunta: "nocoes-basicas-sobre-administracao-publica"
+    },
+    {
+        enunciado: "A Administração Indireta é composta por:",
+        arrayDeRespostas: [
+            { conteudo: "Autarquias, fundações públicas, empresas públicas e sociedades de economia mista", correto: true },
+            { conteudo: "Escolas privadas e hospitais particulares", correto: false },
+            { conteudo: "Organizações não governamentais", correto: false },
+            { conteudo: "Partidos políticos e sindicatos", correto: false }
+        ],
+        justificativa: "Essas entidades têm personalidade jurídica própria, mas estão vinculadas ao Estado para execução de atividades específicas.",
+        categoriaDaPergunta: "nocoes-basicas-sobre-administracao-publica"
+    },
+    {
+        enunciado: "A finalidade principal da Administração Pública é:",
+        arrayDeRespostas: [
+            { conteudo: "Atender ao interesse público e promover o bem comum", correto: true },
+            { conteudo: "Gerar lucro para gestores e empresas privadas", correto: false },
+            { conteudo: "Atender apenas a interesses políticos individuais", correto: false },
+            { conteudo: "Executar tarefas sem regulamentação legal", correto: false }
+        ],
+        justificativa: "O princípio do interesse público orienta todas as ações da Administração.",
+        categoriaDaPergunta: "nocoes-basicas-sobre-administracao-publica"
+    },
+    {
+        enunciado: "Qual é o princípio que orienta a Administração a agir dentro da lei?",
+        arrayDeRespostas: [
+            { conteudo: "Legalidade", correto: true },
+            { conteudo: "Eficiência", correto: false },
+            { conteudo: "Impessoalidade", correto: false },
+            { conteudo: "Publicidade", correto: false }
+        ],
+        justificativa: "O princípio da legalidade estabelece que a Administração só pode agir conforme a lei.",
+        categoriaDaPergunta: "nocoes-basicas-sobre-administracao-publica"
+    },
+    {
+        enunciado: "O princípio da impessoalidade na Administração Pública significa:",
+        arrayDeRespostas: [
+            { conteudo: "Atuar visando ao interesse público, sem favorecimentos pessoais", correto: true },
+            { conteudo: "Tomar decisões baseadas em preferências individuais", correto: false },
+            { conteudo: "Ignorar normas legais quando conveniente", correto: false },
+            { conteudo: "Priorizar interesses de familiares de gestores", correto: false }
+        ],
+        justificativa: "A impessoalidade garante que atos administrativos não sejam influenciados por interesses pessoais.",
+        categoriaDaPergunta: "nocoes-basicas-sobre-administracao-publica"
+    },
+    {
+        enunciado: "A eficiência na Administração Pública busca:",
+        arrayDeRespostas: [
+            { conteudo: "A melhor utilização dos recursos públicos para resultados de qualidade", correto: true },
+            { conteudo: "Aumento de despesas sem resultados", correto: false },
+            { conteudo: "Decisões baseadas em favoritismo", correto: false },
+            { conteudo: "Atos administrativos arbitrários", correto: false }
+        ],
+        justificativa: "Eficiência significa otimizar recursos e melhorar a prestação de serviços públicos.",
+        categoriaDaPergunta: "nocoes-basicas-sobre-administracao-publica"
+    },
+    {
+        enunciado: "A publicidade na Administração Pública garante:",
+        arrayDeRespostas: [
+            { conteudo: "Transparência e acesso da sociedade aos atos administrativos", correto: true },
+            { conteudo: "Segredo absoluto em todas as informações", correto: false },
+            { conteudo: "Decisões privadas sem necessidade de divulgação", correto: false },
+            { conteudo: "Atos administrativos sem registro formal", correto: false }
+        ],
+        justificativa: "A publicidade permite controle social e fiscalização sobre a Administração Pública.",
+        categoriaDaPergunta: "nocoes-basicas-sobre-administracao-publica"
+    },
+    {
+        enunciado: "O que é Administração Geral?",
+        arrayDeRespostas: [
+            { conteudo: "Estudo das técnicas, princípios e práticas voltadas à gestão de organizações", correto: true },
+            { conteudo: "Apenas a contabilidade de empresas privadas", correto: false },
+            { conteudo: "Gestão exclusiva de órgãos públicos", correto: false },
+            { conteudo: "Consultoria legal para tribunais", correto: false }
+        ],
+        justificativa: "Administração Geral abrange gestão de recursos, pessoas e processos em organizações públicas e privadas.",
+        categoriaDaPergunta: "administracao-geral"
+    },
+    {
+        enunciado: "Quais são as principais funções da Administração Geral?",
+        arrayDeRespostas: [
+            { conteudo: "Planejar, organizar, dirigir e controlar", correto: true },
+            { conteudo: "Somente planejar e executar", correto: false },
+            { conteudo: "Apenas supervisionar e fiscalizar", correto: false },
+            { conteudo: "Elaborar leis e julgamentos", correto: false }
+        ],
+        justificativa: "As funções clássicas da administração garantem o cumprimento dos objetivos organizacionais.",
+        categoriaDaPergunta: "administracao-geral"
+    },
+    {
+        enunciado: "O planejamento na Administração Geral consiste em:",
+        arrayDeRespostas: [
+            { conteudo: "Definir objetivos e traçar estratégias para alcançá-los", correto: true },
+            { conteudo: "Somente controlar resultados", correto: false },
+            { conteudo: "Dar ordens sem análise prévia", correto: false },
+            { conteudo: "Executar tarefas sem metas", correto: false }
+        ],
+        justificativa: "Planejar envolve prever cenários e organizar recursos para atingir metas.",
+        categoriaDaPergunta: "administracao-geral"
+    },
+    {
+        enunciado: "A organização, no contexto da Administração Geral, refere-se a:",
+        arrayDeRespostas: [
+            { conteudo: "Estruturar recursos humanos, materiais e financeiros de forma eficiente", correto: true },
+            { conteudo: "Escolher gestores aleatoriamente", correto: false },
+            { conteudo: "Ignorar hierarquia e funções", correto: false },
+            { conteudo: "Trabalhar sem métodos ou processos", correto: false }
+        ],
+        justificativa: "Organização define como os recursos e atividades se articulam para atingir objetivos.",
+        categoriaDaPergunta: "administracao-geral"
+    },
+    {
+        enunciado: "A direção na Administração Geral consiste em:",
+        arrayDeRespostas: [
+            { conteudo: "Guiar, coordenar e motivar pessoas para execução de planos", correto: true },
+            { conteudo: "Delegar todas as tarefas sem acompanhamento", correto: false },
+            { conteudo: "Controlar sem motivar a equipe", correto: false },
+            { conteudo: "Apenas supervisionar sem comunicar metas", correto: false }
+        ],
+        justificativa: "A direção envolve liderança, comunicação e motivação para alcançar os objetivos organizacionais.",
+        categoriaDaPergunta: "administracao-geral"
+    },
+    {
+        enunciado: "O controle, na Administração Geral, tem como objetivo:",
+        arrayDeRespostas: [
+            { conteudo: "Verificar se os objetivos estão sendo atingidos e corrigir desvios", correto: true },
+            { conteudo: "Ignorar falhas e continuar a execução", correto: false },
+            { conteudo: "Substituir o planejamento original sem análise", correto: false },
+            { conteudo: "Aplicar punições sem avaliação", correto: false }
+        ],
+        justificativa: "O controle garante que os resultados esperados sejam alcançados de forma eficiente.",
+        categoriaDaPergunta: "administracao-geral"
+    },
+    {
+        enunciado: "Quais são os tipos de administração existentes em organizações?",
+        arrayDeRespostas: [
+            { conteudo: "Pública, privada e mista", correto: true },
+            { conteudo: "Judicial, militar e religiosa", correto: false },
+            { conteudo: "Voluntária, comunitária e empresarial", correto: false },
+            { conteudo: "Local, nacional e internacional apenas", correto: false }
+        ],
+        justificativa: "A classificação depende do tipo de organização e sua finalidade.",
+        categoriaDaPergunta: "administracao-geral"
+    },
+    {
+        enunciado: "A Administração Pública e a Administração Privada diferem principalmente em:",
+        arrayDeRespostas: [
+            { conteudo: "Finalidade: interesse público x lucro", correto: true },
+            { conteudo: "Uso de computadores", correto: false },
+            { conteudo: "Número de funcionários", correto: false },
+            { conteudo: "Localização geográfica", correto: false }
+        ],
+        justificativa: "A distinção principal está nos objetivos que cada tipo de administração busca alcançar.",
+        categoriaDaPergunta: "administracao-geral"
+    },
+    {
+        enunciado: "A tomada de decisão na Administração Geral deve considerar:",
+        arrayDeRespostas: [
+            { conteudo: "Informações precisas, análise de alternativas e impactos", correto: true },
+            { conteudo: "Preferências pessoais do gestor apenas", correto: false },
+            { conteudo: "Ignorar dados e agir intuitivamente", correto: false },
+            { conteudo: "Executar ações sem planejamento", correto: false }
+        ],
+        justificativa: "Decisões eficazes dependem de dados e análise criteriosa de alternativas.",
+        categoriaDaPergunta: "administracao-geral"
+    },
+    {
+        enunciado: "A importância da Administração Geral nas organizações está em:",
+        arrayDeRespostas: [
+            { conteudo: "Garantir eficiência, planejamento e coordenação de recursos", correto: true },
+            { conteudo: "Criar burocracia sem finalidade", correto: false },
+            { conteudo: "Substituir leis e regulamentos", correto: false },
+            { conteudo: "Concentrar poder em uma pessoa apenas", correto: false }
+        ],
+        justificativa: "A administração organiza recursos e processos para que a organização atinja seus objetivos de forma eficaz.",
+        categoriaDaPergunta: "administracao-geral"
+    },
+    {
+        enunciado: "O que é gestão de documentos?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de atividades para criar, organizar, armazenar e controlar documentos", correto: true },
+            { conteudo: "Somente o arquivamento físico de papéis", correto: false },
+            { conteudo: "Elaboração de documentos apenas para empresas privadas", correto: false },
+            { conteudo: "Destruição de documentos antigos sem critérios", correto: false }
+        ],
+        justificativa: "Gestão documental envolve planejamento, controle e preservação de documentos ao longo de seu ciclo de vida.",
+        categoriaDaPergunta: "arquivamento-e-gestao-de-documentos"
+    },
+    {
+        enunciado: "O arquivamento correto de documentos garante:",
+        arrayDeRespostas: [
+            { conteudo: "Acesso rápido, preservação e segurança da informação", correto: true },
+            { conteudo: "Perda de informações importantes", correto: false },
+            { conteudo: "Somente a organização estética", correto: false },
+            { conteudo: "Evitar qualquer consulta aos documentos", correto: false }
+        ],
+        justificativa: "O arquivamento eficiente permite localizar, proteger e manter a integridade dos documentos.",
+        categoriaDaPergunta: "arquivamento-e-gestao-de-documentos"
+    },
+    {
+        enunciado: "Qual é a diferença entre documento ativo, intermediário e permanente?",
+        arrayDeRespostas: [
+            { conteudo: "Ativo: usado frequentemente; Intermediário: uso eventual; Permanente: deve ser preservado indefinidamente", correto: true },
+            { conteudo: "Ativo: já não é usado; Intermediário: uso constante; Permanente: sem valor legal", correto: false },
+            { conteudo: "Ativo: digital; Intermediário: físico; Permanente: descartável", correto: false },
+            { conteudo: "Não existe diferença significativa entre eles", correto: false }
+        ],
+        justificativa: "Classificação documental ajuda a definir tratamento, prazo de guarda e descarte adequado.",
+        categoriaDaPergunta: "arquivamento-e-gestao-de-documentos"
+    },
+    {
+        enunciado: "O ciclo de vida de um documento inclui:",
+        arrayDeRespostas: [
+            { conteudo: "Criação, tramitação, utilização, arquivamento e destinação final", correto: true },
+            { conteudo: "Apenas criação e arquivamento", correto: false },
+            { conteudo: "Elaboração e impressão apenas", correto: false },
+            { conteudo: "Tramitação e eliminação sem organização", correto: false }
+        ],
+        justificativa: "O ciclo de vida assegura que cada documento seja gerido corretamente desde sua criação até sua destinação.",
+        categoriaDaPergunta: "arquivamento-e-gestao-de-documentos"
+    },
+    {
+        enunciado: "O que é classificação de documentos?",
+        arrayDeRespostas: [
+            { conteudo: "Organizar documentos de acordo com função, assunto ou série documental", correto: true },
+            { conteudo: "Destruir documentos sem critérios", correto: false },
+            { conteudo: "Registrar documentos apenas digitalmente", correto: false },
+            { conteudo: "Enviar documentos para terceiros indiscriminadamente", correto: false }
+        ],
+        justificativa: "A classificação facilita a localização e o controle documental, garantindo eficiência na gestão.",
+        categoriaDaPergunta: "arquivamento-e-gestao-de-documentos"
+    },
+    {
+        enunciado: "O que é guarda de documentos?",
+        arrayDeRespostas: [
+            { conteudo: "Armazenamento seguro, preservação e manutenção da integridade dos documentos", correto: true },
+            { conteudo: "Apenas empilhar papéis sem organização", correto: false },
+            { conteudo: "Distribuir documentos sem controle", correto: false },
+            { conteudo: "Apagar arquivos antigos indiscriminadamente", correto: false }
+        ],
+        justificativa: "A guarda correta assegura acesso futuro e proteção contra perdas ou danos.",
+        categoriaDaPergunta: "arquivamento-e-gestao-de-documentos"
+    },
+    {
+        enunciado: "O que significa destinação final de documentos?",
+        arrayDeRespostas: [
+            { conteudo: "Definir se o documento será preservado permanentemente ou eliminado", correto: true },
+            { conteudo: "Guardar todos os documentos sem critério", correto: false },
+            { conteudo: "Destruir documentos aleatoriamente", correto: false },
+            { conteudo: "Enviar documentos para qualquer setor sem controle", correto: false }
+        ],
+        justificativa: "A destinação final depende do valor legal, fiscal, administrativo ou histórico do documento.",
+        categoriaDaPergunta: "arquivamento-e-gestao-de-documentos"
+    },
+    {
+        enunciado: "A gestão documental digital exige:",
+        arrayDeRespostas: [
+            { conteudo: "Sistemas de informação, controle de acesso e preservação de arquivos eletrônicos", correto: true },
+            { conteudo: "Apenas digitalizar documentos sem organização", correto: false },
+            { conteudo: "Imprimir todos os arquivos digitais", correto: false },
+            { conteudo: "Deixar arquivos digitais sem backup", correto: false }
+        ],
+        justificativa: "Documentos digitais exigem medidas específicas de segurança, armazenamento e rastreabilidade.",
+        categoriaDaPergunta: "arquivamento-e-gestao-de-documentos"
+    },
+    {
+        enunciado: "O que é tabela de temporalidade documental?",
+        arrayDeRespostas: [
+            { conteudo: "Instrumento que define prazos de guarda e destinação final de documentos", correto: true },
+            { conteudo: "Lista de documentos sem importância", correto: false },
+            { conteudo: "Arquivo de documentos antigos sem critérios", correto: false },
+            { conteudo: "Registro de documentos duplicados", correto: false }
+        ],
+        justificativa: "A tabela de temporalidade organiza o ciclo de vida e assegura a gestão adequada dos documentos.",
+        categoriaDaPergunta: "arquivamento-e-gestao-de-documentos"
+    },
+    {
+        enunciado: "A importância do arquivamento e gestão de documentos está em:",
+        arrayDeRespostas: [
+            { conteudo: "Garantir organização, acesso rápido, segurança e preservação da informação", correto: true },
+            { conteudo: "Aumentar burocracia sem finalidade", correto: false },
+            { conteudo: "Substituir processos legais", correto: false },
+            { conteudo: "Servir apenas como formalidade sem utilidade", correto: false }
+        ],
+        justificativa: "Gestão documental eficiente contribui para a tomada de decisões, transparência e preservação histórica.",
+        categoriaDaPergunta: "arquivamento-e-gestao-de-documentos"
+    },
+    {
+        enunciado: "O que é Administração de Material?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de atividades relacionadas ao planejamento, aquisição, armazenamento e controle de materiais", correto: true },
+            { conteudo: "Apenas a compra de materiais sem controle", correto: false },
+            { conteudo: "Gestão de recursos humanos", correto: false },
+            { conteudo: "Apenas a distribuição de produtos acabados", correto: false }
+        ],
+        justificativa: "A administração de material garante que a organização tenha os insumos necessários de forma eficiente e econômica.",
+        categoriaDaPergunta: "administracao-de-material"
+    },
+    {
+        enunciado: "O objetivo principal da Administração de Material é:",
+        arrayDeRespostas: [
+            { conteudo: "Assegurar a disponibilidade de materiais, evitando desperdícios e perdas", correto: true },
+            { conteudo: "Aumentar estoques desnecessariamente", correto: false },
+            { conteudo: "Reduzir a quantidade de materiais sem planejamento", correto: false },
+            { conteudo: "Comprar materiais de forma aleatória", correto: false }
+        ],
+        justificativa: "O objetivo é equilibrar a disponibilidade de materiais com o custo e a eficiência.",
+        categoriaDaPergunta: "administracao-de-material"
+    },
+    {
+        enunciado: "As funções da Administração de Material incluem:",
+        arrayDeRespostas: [
+            { conteudo: "Planejamento, aquisição, armazenamento, distribuição e controle de estoque", correto: true },
+            { conteudo: "Apenas compra e venda de produtos", correto: false },
+            { conteudo: "Gestão de pessoal e financeiro exclusivamente", correto: false },
+            { conteudo: "Produção industrial sem controle", correto: false }
+        ],
+        justificativa: "Cada função garante que o material certo esteja disponível no momento adequado e com o menor custo possível.",
+        categoriaDaPergunta: "administracao-de-material"
+    },
+    {
+        enunciado: "O que é estoque de materiais?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de materiais armazenados para uso futuro ou consumo", correto: true },
+            { conteudo: "Materiais descartados e inutilizados", correto: false },
+            { conteudo: "Somente produtos acabados prontos para venda", correto: false },
+            { conteudo: "Documentos administrativos", correto: false }
+        ],
+        justificativa: "O estoque permite que a organização tenha suprimentos disponíveis sem interrupção das atividades.",
+        categoriaDaPergunta: "administracao-de-material"
+    },
+    {
+        enunciado: "O que é controle de estoque?",
+        arrayDeRespostas: [
+            { conteudo: "Monitoramento de entradas, saídas e níveis de materiais para garantir disponibilidade", correto: true },
+            { conteudo: "Armazenamento de materiais sem registro", correto: false },
+            { conteudo: "Distribuição de materiais sem planejamento", correto: false },
+            { conteudo: "Apenas compras frequentes sem análise", correto: false }
+        ],
+        justificativa: "O controle de estoque evita falta ou excesso de materiais, garantindo eficiência e economia.",
+        categoriaDaPergunta: "administracao-de-material"
+    },
+    {
+        enunciado: "O planejamento de materiais visa:",
+        arrayDeRespostas: [
+            { conteudo: "Determinar a quantidade, o momento da compra e os recursos necessários", correto: true },
+            { conteudo: "Comprar todos os materiais de uma vez", correto: false },
+            { conteudo: "Ignorar necessidades futuras", correto: false },
+            { conteudo: "Distribuir materiais sem controle", correto: false }
+        ],
+        justificativa: "Planejamento evita desperdícios e garante que a organização tenha materiais quando necessário.",
+        categoriaDaPergunta: "administracao-de-material"
+    },
+    {
+        enunciado: "A aquisição de materiais deve considerar:",
+        arrayDeRespostas: [
+            { conteudo: "Preço, qualidade, prazo de entrega e fornecedor confiável", correto: true },
+            { conteudo: "Somente o preço mais baixo disponível", correto: false },
+            { conteudo: "Preferência pessoal do gestor apenas", correto: false },
+            { conteudo: "Quantidade máxima sem análise de necessidade", correto: false }
+        ],
+        justificativa: "A aquisição eficiente envolve análise de custo-benefício e confiabilidade do fornecedor.",
+        categoriaDaPergunta: "administracao-de-material"
+    },
+    {
+        enunciado: "O armazenamento adequado de materiais garante:",
+        arrayDeRespostas: [
+            { conteudo: "Conservação, segurança e fácil localização dos itens", correto: true },
+            { conteudo: "Perda frequente de materiais", correto: false },
+            { conteudo: "Aumento de desperdício sem organização", correto: false },
+            { conteudo: "Distribuição aleatória sem controle", correto: false }
+        ],
+        justificativa: "Armazenar corretamente evita danos e facilita o controle e acesso aos materiais.",
+        categoriaDaPergunta: "administracao-de-material"
+    },
+    {
+        enunciado: "A distribuição de materiais consiste em:",
+        arrayDeRespostas: [
+            { conteudo: "Fornecer materiais aos setores ou pessoas conforme necessidade", correto: true },
+            { conteudo: "Entregar materiais sem registro", correto: false },
+            { conteudo: "Vender materiais indiscriminadamente", correto: false },
+            { conteudo: "Destruir materiais excedentes sem análise", correto: false }
+        ],
+        justificativa: "A distribuição eficiente garante que os recursos cheguem ao destino certo no momento certo.",
+        categoriaDaPergunta: "administracao-de-material"
+    },
+    {
+        enunciado: "O que é inventário de materiais?",
+        arrayDeRespostas: [
+            { conteudo: "Registro detalhado de todos os materiais existentes em estoque", correto: true },
+            { conteudo: "Compra de materiais sem registro", correto: false },
+            { conteudo: "Armazenamento desorganizado", correto: false },
+            { conteudo: "Eliminação de materiais antigos sem controle", correto: false }
+        ],
+        justificativa: "O inventário permite controle preciso dos materiais e planejamento de reposição.",
+        categoriaDaPergunta: "administracao-de-material"
+    },
+    {
+        enunciado: "O que é licitação na Administração Pública?",
+        arrayDeRespostas: [
+            { conteudo: "Processo legal para contratação de serviços ou aquisição de bens, garantindo igualdade e transparência", correto: true },
+            { conteudo: "Contrato direto com fornecedores preferidos", correto: false },
+            { conteudo: "Compra de materiais sem análise de preços", correto: false },
+            { conteudo: "Apenas convite a empresas privadas", correto: false }
+        ],
+        justificativa: "A licitação assegura competitividade, legalidade e melhor custo-benefício para a Administração Pública.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual é a lei que regula as licitações e contratos administrativos no Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Lei nº 14.133/2021", correto: true },
+            { conteudo: "Lei nº 8.666/1993", correto: false },
+            { conteudo: "Lei nº 10.520/2002", correto: false },
+            { conteudo: "Lei nº 13.709/2018", correto: false }
+        ],
+        justificativa: "A Lei nº 14.133/2021 substituiu a antiga Lei nº 8.666 e estabelece normas gerais sobre licitações e contratos.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual o objetivo da licitação?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir a seleção da proposta mais vantajosa para a Administração Pública", correto: true },
+            { conteudo: "Escolher empresas sem critérios técnicos", correto: false },
+            { conteudo: "Beneficiar fornecedores específicos", correto: false },
+            { conteudo: "Evitar concorrência entre empresas", correto: false }
+        ],
+        justificativa: "A licitação busca a melhor relação custo-benefício, com transparência e competitividade.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "Quais são os principais tipos de licitação?",
+        arrayDeRespostas: [
+            { conteudo: "Concorrência, tomada de preços, convite, concurso, leilão e pregão", correto: true },
+            { conteudo: "Somente concorrência e convite", correto: false },
+            { conteudo: "Pregão e contrato direto apenas", correto: false },
+            { conteudo: "Leilão e concurso apenas", correto: false }
+        ],
+        justificativa: "A lei define modalidades que variam conforme valor e complexidade do objeto licitado.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O que é pregão?",
+        arrayDeRespostas: [
+            { conteudo: "Modalidade de licitação para aquisição de bens e serviços comuns, com disputa de preços em sessão pública", correto: true },
+            { conteudo: "Licitação exclusiva para obras públicas complexas", correto: false },
+            { conteudo: "Compra direta sem competição", correto: false },
+            { conteudo: "Convite a empresas internacionais", correto: false }
+        ],
+        justificativa: "O pregão prioriza eficiência e rapidez em contratações de itens comuns.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O que caracteriza o contrato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Acordo entre Administração Pública e particular para prestação de serviços ou fornecimento de bens, com regras de direito público", correto: true },
+            { conteudo: "Contrato entre duas empresas privadas sem intervenção do Estado", correto: false },
+            { conteudo: "Contrato verbal sem fiscalização", correto: false },
+            { conteudo: "Apenas acordos informais de prestação de serviços", correto: false }
+        ],
+        justificativa: "O contrato administrativo possui cláusulas que garantem a legalidade e a execução conforme interesses públicos.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O que é inexigibilidade de licitação?",
+        arrayDeRespostas: [
+            { conteudo: "Situação em que a competição é inviável, como na contratação de profissional de notória especialização", correto: true },
+            { conteudo: "Compra sem necessidade de contrato", correto: false },
+            { conteudo: "Licitação aberta a todas as empresas", correto: false },
+            { conteudo: "Convite a fornecedores sem análise", correto: false }
+        ],
+        justificativa: "A inexigibilidade ocorre quando não há competição possível, garantindo a contratação direta conforme a lei.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O que é dispensa de licitação?",
+        arrayDeRespostas: [
+            { conteudo: "Situação legal em que a Administração pode contratar diretamente, devido a valores baixos ou casos específicos previstos em lei", correto: true },
+            { conteudo: "Desobrigação de formalizar contratos", correto: false },
+            { conteudo: "Convite informal sem análise de propostas", correto: false },
+            { conteudo: "Qualquer contratação sem justificativa", correto: false }
+        ],
+        justificativa: "A dispensa ocorre em situações legais que permitem contratação direta para agilidade ou necessidade urgente.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O que é edital de licitação?",
+        arrayDeRespostas: [
+            { conteudo: "Documento que contém regras, condições e especificações da licitação", correto: true },
+            { conteudo: "Contrato final assinado entre empresa e administração", correto: false },
+            { conteudo: "Resumo financeiro da licitação apenas", correto: false },
+            { conteudo: "Proposta enviada pelo fornecedor", correto: false }
+        ],
+        justificativa: "O edital assegura transparência e informação completa sobre o processo licitatório.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O princípio da legalidade nas licitações significa:",
+        arrayDeRespostas: [
+            { conteudo: "A Administração deve seguir rigorosamente a lei em todos os atos licitatórios", correto: true },
+            { conteudo: "A lei pode ser ignorada em situações urgentes", correto: false },
+            { conteudo: "A Administração pode favorecer empresas específicas", correto: false },
+            { conteudo: "A legalidade não é aplicável a licitações pequenas", correto: false }
+        ],
+        justificativa: "Legalidade garante que todo o procedimento esteja conforme normas legais, prevenindo irregularidades.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O princípio da impessoalidade nas licitações significa:",
+        arrayDeRespostas: [
+            { conteudo: "Todos os participantes devem ser tratados de forma igual, sem favorecimentos pessoais", correto: true },
+            { conteudo: "O gestor pode escolher fornecedores favoritos", correto: false },
+            { conteudo: "Empresas indicadas por políticos têm prioridade", correto: false },
+            { conteudo: "Somente fornecedores grandes podem participar", correto: false }
+        ],
+        justificativa: "Impessoalidade garante justiça, igualdade e transparência no processo licitatório.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O princípio da economicidade nas licitações significa:",
+        arrayDeRespostas: [
+            { conteudo: "Buscar a melhor proposta em relação a custo e benefício", correto: true },
+            { conteudo: "Escolher sempre a proposta mais barata sem análise", correto: false },
+            { conteudo: "Desconsiderar qualidade em favor do preço baixo", correto: false },
+            { conteudo: "Realizar contratos apenas com grandes empresas", correto: false }
+        ],
+        justificativa: "Economicidade garante que os recursos públicos sejam utilizados de forma racional e eficiente.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O que é fiscalização de contrato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Acompanhamento e verificação do cumprimento das obrigações contratuais", correto: true },
+            { conteudo: "A assinatura do contrato sem acompanhamento", correto: false },
+            { conteudo: "Distribuição de contratos sem controle", correto: false },
+            { conteudo: "Pagamento sem verificação de serviços prestados", correto: false }
+        ],
+        justificativa: "A fiscalização garante que o contratado cumpra todas as condições e prazos definidos em lei.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O que é contrato de adesão?",
+        arrayDeRespostas: [
+            { conteudo: "Contrato cujo conteúdo já está padronizado e a Administração apenas adere às condições", correto: true },
+            { conteudo: "Contrato negociado livremente entre Administração e fornecedor", correto: false },
+            { conteudo: "Contrato verbal sem formalização", correto: false },
+            { conteudo: "Contrato de compra direta sem análise legal", correto: false }
+        ],
+        justificativa: "Em contratos de adesão, a Administração se vincula a condições previamente estabelecidas, com segurança jurídica.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "A rescisão de contrato administrativo pode ocorrer quando:",
+        arrayDeRespostas: [
+            { conteudo: "Há descumprimento de cláusulas, interesse público ou motivos previstos em lei", correto: true },
+            { conteudo: "O fornecedor deseja aumentar o lucro sem justificativa", correto: false },
+            { conteudo: "A Administração não gosta do fornecedor", correto: false },
+            { conteudo: "Sem nenhuma razão formal", correto: false }
+        ],
+        justificativa: "A rescisão deve ser justificada legalmente, garantindo proteção ao interesse público e às partes envolvidas.",
+        categoriaDaPergunta: "licitacoes-e-contratos-administrativos"
+    },
+    {
+        enunciado: "O que é Direito Administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Ramo do direito que regula a organização, funcionamento e atividades do Estado", correto: true },
+            { conteudo: "Conjunto de leis aplicáveis apenas a empresas privadas", correto: false },
+            { conteudo: "Direito que trata exclusivamente de contratos comerciais", correto: false },
+            { conteudo: "Normas sobre direito penal e civil", correto: false }
+        ],
+        justificativa: "O Direito Administrativo disciplina a atuação da Administração Pública e suas relações com a sociedade.",
+        categoriaDaPergunta: "nocoes-de-direito-administrativo"
+    },
+    {
+        enunciado: "A Administração Pública é dividida em quais categorias?",
+        arrayDeRespostas: [
+            { conteudo: "Direta e indireta", correto: true },
+            { conteudo: "Privada e social", correto: false },
+            { conteudo: "Judicial e legislativa", correto: false },
+            { conteudo: "Federal e internacional", correto: false }
+        ],
+        justificativa: "A Administração direta inclui órgãos ligados diretamente ao Estado, enquanto a indireta engloba autarquias, fundações e empresas públicas.",
+        categoriaDaPergunta: "nocoes-de-direito-administrativo"
+    },
+    {
+        enunciado: "O princípio da legalidade na Administração Pública significa:",
+        arrayDeRespostas: [
+            { conteudo: "Os atos administrativos devem obedecer à lei e à Constituição", correto: true },
+            { conteudo: "A Administração pode agir conforme interesse próprio sem restrições", correto: false },
+            { conteudo: "Leis podem ser ignoradas em casos de urgência", correto: false },
+            { conteudo: "A legalidade só se aplica a contratos privados", correto: false }
+        ],
+        justificativa: "Legalidade é o fundamento do Estado de Direito, impondo limites à atuação administrativa.",
+        categoriaDaPergunta: "nocoes-de-direito-administrativo"
+    },
+    {
+        enunciado: "O que caracteriza ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Manifestação da Administração Pública que produz efeitos jurídicos", correto: true },
+            { conteudo: "Decisão de particulares em contratos comerciais", correto: false },
+            { conteudo: "Somente documentos internos sem efeito legal", correto: false },
+            { conteudo: "Atos do Poder Judiciário", correto: false }
+        ],
+        justificativa: "Ato administrativo é toda manifestação de vontade do Estado com efeitos jurídicos previstos em lei.",
+        categoriaDaPergunta: "nocoes-de-direito-administrativo"
+    },
+    {
+        enunciado: "O que é responsabilidade civil do Estado?",
+        arrayDeRespostas: [
+            { conteudo: "Obrigação do Estado de reparar danos causados a terceiros por atos administrativos", correto: true },
+            { conteudo: "Responsabilidade apenas de servidores sem envolver o Estado", correto: false },
+            { conteudo: "Multas aplicadas a empresas privadas", correto: false },
+            { conteudo: "Responsabilidade por atos legislativos", correto: false }
+        ],
+        justificativa: "O Estado responde por atos ilícitos que causem prejuízo a terceiros, garantindo reparação.",
+        categoriaDaPergunta: "nocoes-de-direito-administrativo"
+    },
+    {
+        enunciado: "O que é poder de polícia na Administração Pública?",
+        arrayDeRespostas: [
+            { conteudo: "Capacidade de limitar direitos individuais em benefício do interesse público", correto: true },
+            { conteudo: "Direito de legislar sem controle judicial", correto: false },
+            { conteudo: "Poder de multar apenas empresas privadas", correto: false },
+            { conteudo: "Autoridade exclusiva para contratos administrativos", correto: false }
+        ],
+        justificativa: "O poder de polícia permite que o Estado regule e discipline atividades privadas visando segurança, ordem e saúde pública.",
+        categoriaDaPergunta: "nocoes-de-direito-administrativo"
+    },
+    {
+        enunciado: "O que é licitude e ilegalidade de atos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Atos lícitos respeitam a lei; atos ilegais violam normas jurídicas", correto: true },
+            { conteudo: "Atos lícitos podem violar a lei em casos excepcionais", correto: false },
+            { conteudo: "Todos os atos administrativos são considerados legais automaticamente", correto: false },
+            { conteudo: "Atos ilegais podem ser executados sem sanção", correto: false }
+        ],
+        justificativa: "A legalidade é o critério que define se um ato administrativo é válido ou passível de anulação.",
+        categoriaDaPergunta: "nocoes-de-direito-administrativo"
+    },
+    {
+        enunciado: "O que é princípio da impessoalidade?",
+        arrayDeRespostas: [
+            { conteudo: "A Administração deve tratar todos de forma igual, sem favoritismos", correto: true },
+            { conteudo: "Permite favorecimento de servidores e empresas", correto: false },
+            { conteudo: "Aplicável apenas a contratos públicos", correto: false },
+            { conteudo: "Exclui a aplicação da lei em casos especiais", correto: false }
+        ],
+        justificativa: "Impessoalidade assegura neutralidade e objetividade na atuação administrativa.",
+        categoriaDaPergunta: "nocoes-de-direito-administrativo"
+    },
+    {
+        enunciado: "O que é princípio da publicidade?",
+        arrayDeRespostas: [
+            { conteudo: "Os atos administrativos devem ser divulgados, garantindo transparência", correto: true },
+            { conteudo: "Atos administrativos podem permanecer ocultos", correto: false },
+            { conteudo: "Divulgação apenas de contratos privados", correto: false },
+            { conteudo: "Permite atuação sigilosa sem justificativa legal", correto: false }
+        ],
+        justificativa: "A publicidade assegura controle social, transparência e legitimação da Administração Pública.",
+        categoriaDaPergunta: "nocoes-de-direito-administrativo"
+    },
+    {
+        enunciado: "O que é princípio da moralidade administrativa?",
+        arrayDeRespostas: [
+            { conteudo: "Exige que a Administração atue com ética e boa-fé", correto: true },
+            { conteudo: "Permite decisões baseadas em interesses pessoais", correto: false },
+            { conteudo: "Aplica-se apenas a servidores públicos", correto: false },
+            { conteudo: "Dispensa o cumprimento da lei em casos especiais", correto: false }
+        ],
+        justificativa: "A moralidade exige que atos da Administração estejam de acordo com padrões éticos e interesse público.",
+        categoriaDaPergunta: "nocoes-de-direito-administrativo"
+    },
+    {
+        enunciado: "O que é planejamento público?",
+        arrayDeRespostas: [
+            { conteudo: "Processo de definir metas, prioridades e estratégias para aplicação dos recursos públicos", correto: true },
+            { conteudo: "Decisão exclusiva de políticos sobre gastos sem critérios", correto: false },
+            { conteudo: "Somente elaboração de leis orçamentárias", correto: false },
+            { conteudo: "Apenas controle interno de documentos administrativos", correto: false }
+        ],
+        justificativa: "O planejamento público organiza os recursos e ações do Estado para alcançar objetivos estratégicos e sociais.",
+        categoriaDaPergunta: "nocoes-de-planejamento-orcamento-e-financas-publicas"
+    },
+    {
+        enunciado: "O que é orçamento público?",
+        arrayDeRespostas: [
+            { conteudo: "Instrumento que detalha receitas e despesas previstas e autorizadas pelo governo", correto: true },
+            { conteudo: "Documento particular de cada órgão público", correto: false },
+            { conteudo: "Relatório financeiro de empresas privadas", correto: false },
+            { conteudo: "Plano sem valor legal sobre gastos públicos", correto: false }
+        ],
+        justificativa: "O orçamento é uma lei que organiza e autoriza a execução financeira do Estado durante um período.",
+        categoriaDaPergunta: "nocoes-de-planejamento-orcamento-e-financas-publicas"
+    },
+    {
+        enunciado: "Quais são as principais etapas do ciclo orçamentário?",
+        arrayDeRespostas: [
+            { conteudo: "Elaboração, aprovação, execução e controle", correto: true },
+            { conteudo: "Apenas execução e aprovação", correto: false },
+            { conteudo: "Somente planejamento e controle interno", correto: false },
+            { conteudo: "Análise financeira de órgãos privados", correto: false }
+        ],
+        justificativa: "O ciclo orçamentário garante planejamento, legalidade e controle sobre as finanças públicas.",
+        categoriaDaPergunta: "nocoes-de-planejamento-orcamento-e-financas-publicas"
+    },
+    {
+        enunciado: "O que é Lei de Diretrizes Orçamentárias (LDO)?",
+        arrayDeRespostas: [
+            { conteudo: "Lei que estabelece metas, prioridades e parâmetros para elaboração do orçamento anual", correto: true },
+            { conteudo: "Lei que autoriza despesas apenas com pessoal", correto: false },
+            { conteudo: "Relatório de auditoria financeira", correto: false },
+            { conteudo: "Documento interno sem valor legal", correto: false }
+        ],
+        justificativa: "A LDO orienta a elaboração da Lei Orçamentária Anual (LOA), definindo prioridades de governo.",
+        categoriaDaPergunta: "nocoes-de-planejamento-orcamento-e-financas-publicas"
+    },
+    {
+        enunciado: "O que é Lei Orçamentária Anual (LOA)?",
+        arrayDeRespostas: [
+            { conteudo: "Lei que estima receitas e fixa despesas para o exercício financeiro de um ano", correto: true },
+            { conteudo: "Documento de planejamento plurianual", correto: false },
+            { conteudo: "Relatório contábil de final de exercício", correto: false },
+            { conteudo: "Plano interno de cada secretaria sem publicação", correto: false }
+        ],
+        justificativa: "A LOA organiza e autoriza a execução das finanças públicas durante o ano fiscal.",
+        categoriaDaPergunta: "nocoes-de-planejamento-orcamento-e-financas-publicas"
+    },
+    {
+        enunciado: "O que é Plano Plurianual (PPA)?",
+        arrayDeRespostas: [
+            { conteudo: "Instrumento de planejamento de médio prazo (4 anos) que estabelece metas e programas do governo", correto: true },
+            { conteudo: "Plano anual de compras de materiais", correto: false },
+            { conteudo: "Relatório contábil mensal", correto: false },
+            { conteudo: "Programa interno sem validade legal", correto: false }
+        ],
+        justificativa: "O PPA define políticas e objetivos governamentais para um período de quatro anos, guiando LOA e LDO.",
+        categoriaDaPergunta: "nocoes-de-planejamento-orcamento-e-financas-publicas"
+    },
+    {
+        enunciado: "O princípio da legalidade nas finanças públicas significa:",
+        arrayDeRespostas: [
+            { conteudo: "Toda despesa deve estar autorizada por lei", correto: true },
+            { conteudo: "A Administração pode gastar sem lei em casos de urgência", correto: false },
+            { conteudo: "A lei só se aplica a contratos privados", correto: false },
+            { conteudo: "O gestor pode alterar valores livremente", correto: false }
+        ],
+        justificativa: "A legalidade assegura que recursos públicos sejam utilizados conforme normas legais e constitucionais.",
+        categoriaDaPergunta: "nocoes-de-planejamento-orcamento-e-financas-publicas"
+    },
+    {
+        enunciado: "O que é equilíbrio orçamentário?",
+        arrayDeRespostas: [
+            { conteudo: "Situação em que receitas previstas são suficientes para cobrir despesas autorizadas", correto: true },
+            { conteudo: "Gastos públicos sem relação com receitas", correto: false },
+            { conteudo: "Planejamento sem estimativa de receitas", correto: false },
+            { conteudo: "Apenas controle interno sem execução financeira", correto: false }
+        ],
+        justificativa: "O equilíbrio orçamentário evita déficit fiscal e garante sustentabilidade financeira ao Estado.",
+        categoriaDaPergunta: "nocoes-de-planejamento-orcamento-e-financas-publicas"
+    },
+    {
+        enunciado: "O que é receita pública?",
+        arrayDeRespostas: [
+            { conteudo: "Ingressos financeiros que o Estado arrecada, como impostos, taxas e contribuições", correto: true },
+            { conteudo: "Renda de empresas privadas", correto: false },
+            { conteudo: "Recursos sem previsão legal", correto: false },
+            { conteudo: "Somente empréstimos bancários", correto: false }
+        ],
+        justificativa: "Receita pública é a base para o financiamento das atividades e políticas governamentais.",
+        categoriaDaPergunta: "nocoes-de-planejamento-orcamento-e-financas-publicas"
+    },
+    {
+        enunciado: "O que é despesa pública?",
+        arrayDeRespostas: [
+            { conteudo: "Gastos do Estado para execução de políticas, programas e serviços públicos", correto: true },
+            { conteudo: "Investimentos privados sem controle estatal", correto: false },
+            { conteudo: "Pagamentos sem planejamento ou registro", correto: false },
+            { conteudo: "Despesas de particulares em contratos privados", correto: false }
+        ],
+        justificativa: "Despesas públicas devem estar previstas no orçamento e obedecer aos princípios legais e administrativos.",
+        categoriaDaPergunta: "nocoes-de-planejamento-orcamento-e-financas-publicas"
+    },
+    {
+        enunciado: "O que é Regime Jurídico Único (RJU)?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de normas que regulam os direitos e deveres de todos os servidores públicos civis", correto: true },
+            { conteudo: "Leis aplicáveis apenas a funcionários temporários", correto: false },
+            { conteudo: "Normas exclusivas para servidores de empresas privadas", correto: false },
+            { conteudo: "Regras de aposentadoria privada", correto: false }
+        ],
+        justificativa: "O RJU garante uniformidade nas regras de ingresso, progressão, direitos e deveres dos servidores públicos civis.",
+        categoriaDaPergunta: "regime-juridico-unico-e-seguridade-social-do-servidor-publico"
+    },
+    {
+        enunciado: "A quem se aplica o Regime Jurídico Único?",
+        arrayDeRespostas: [
+            { conteudo: "Servidores públicos civis da administração direta, autarquias e fundações", correto: true },
+            { conteudo: "Empregados de empresas privadas", correto: false },
+            { conteudo: "Militares das Forças Armadas", correto: false },
+            { conteudo: "Servidores temporários apenas", correto: false }
+        ],
+        justificativa: "O RJU é destinado a servidores de órgãos públicos civis, garantindo direitos e deveres padronizados.",
+        categoriaDaPergunta: "regime-juridico-unico-e-seguridade-social-do-servidor-publico"
+    },
+    {
+        enunciado: "Qual a lei que institui o Regime Jurídico Único dos servidores públicos civis federais?",
+        arrayDeRespostas: [
+            { conteudo: "Lei nº 8.112/1990", correto: true },
+            { conteudo: "Lei nº 8.666/1993", correto: false },
+            { conteudo: "Lei nº 9.784/1999", correto: false },
+            { conteudo: "Lei nº 14.133/2021", correto: false }
+        ],
+        justificativa: "A Lei nº 8.112/1990 regula direitos, deveres, benefícios e responsabilidades dos servidores civis federais.",
+        categoriaDaPergunta: "regime-juridico-unico-e-seguridade-social-do-servidor-publico"
+    },
+    {
+        enunciado: "O que é estabilidade do servidor público?",
+        arrayDeRespostas: [
+            { conteudo: "Garantia de permanência no cargo após estágio probatório de 3 anos, salvo motivos legais para exoneração", correto: true },
+            { conteudo: "Direito de permanecer no cargo por tempo indefinido sem avaliação", correto: false },
+            { conteudo: "Aplica-se apenas a servidores temporários", correto: false },
+            { conteudo: "Liberdade para alterar funções sem regras", correto: false }
+        ],
+        justificativa: "A estabilidade protege o servidor após avaliação, garantindo segurança no exercício do cargo.",
+        categoriaDaPergunta: "regime-juridico-unico-e-seguridade-social-do-servidor-publico"
+    },
+    {
+        enunciado: "O que é seguridade social do servidor público?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de benefícios que incluem previdência, saúde e assistência social", correto: true },
+            { conteudo: "Apenas aposentadoria privada", correto: false },
+            { conteudo: "Benefícios exclusivos para dependentes de servidores", correto: false },
+            { conteudo: "Assistência financeira sem vínculo legal", correto: false }
+        ],
+        justificativa: "A seguridade social garante proteção ao servidor em situações de doença, aposentadoria ou eventos sociais previstos em lei.",
+        categoriaDaPergunta: "regime-juridico-unico-e-seguridade-social-do-servidor-publico"
+    },
+    {
+        enunciado: "O servidor público tem direito à aposentadoria pelo regime próprio?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, conforme regras de idade, tempo de contribuição e cargo ocupado", correto: true },
+            { conteudo: "Não, todos usam apenas previdência privada", correto: false },
+            { conteudo: "Somente militares têm aposentadoria", correto: false },
+            { conteudo: "Aposentadoria depende apenas de tempo no cargo, sem idade mínima", correto: false }
+        ],
+        justificativa: "O regime próprio assegura aposentadoria conforme contribuição, idade e normas legais aplicáveis ao servidor público.",
+        categoriaDaPergunta: "regime-juridico-unico-e-seguridade-social-do-servidor-publico"
+    },
+    {
+        enunciado: "O que é licença para tratamento de saúde do servidor?",
+        arrayDeRespostas: [
+            { conteudo: "Direito do servidor a afastamento remunerado para tratamento médico, com atestado e limites legais", correto: true },
+            { conteudo: "Afastamento sem necessidade de comprovação médica", correto: false },
+            { conteudo: "Somente férias prolongadas", correto: false },
+            { conteudo: "Benefício exclusivo para aposentados", correto: false }
+        ],
+        justificativa: "A licença médica protege a saúde do servidor sem prejudicar seus direitos funcionais.",
+        categoriaDaPergunta: "regime-juridico-unico-e-seguridade-social-do-servidor-publico"
+    },
+    {
+        enunciado: "O que é férias do servidor público?",
+        arrayDeRespostas: [
+            { conteudo: "Período anual de descanso remunerado, geralmente de 30 dias", correto: true },
+            { conteudo: "Afastamento sem remuneração", correto: false },
+            { conteudo: "Folga apenas em feriados nacionais", correto: false },
+            { conteudo: "Direito apenas para servidores temporários", correto: false }
+        ],
+        justificativa: "As férias são um direito garantido pelo Regime Jurídico Único, assegurando descanso anual ao servidor.",
+        categoriaDaPergunta: "regime-juridico-unico-e-seguridade-social-do-servidor-publico"
+    },
+    {
+        enunciado: "O que é licença-maternidade do servidor público?",
+        arrayDeRespostas: [
+            { conteudo: "Direito ao afastamento remunerado por nascimento ou adoção de filho, conforme lei", correto: true },
+            { conteudo: "Afastamento sem remuneração", correto: false },
+            { conteudo: "Benefício exclusivo para servidores temporários", correto: false },
+            { conteudo: "Apenas extensão de férias anuais", correto: false }
+        ],
+        justificativa: "A licença-maternidade garante proteção à maternidade e direitos do servidor, conforme legislação específica.",
+        categoriaDaPergunta: "regime-juridico-unico-e-seguridade-social-do-servidor-publico"
+    },
+    {
+        enunciado: "O servidor público pode contribuir para previdência complementar?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, de forma facultativa, para complementar a aposentadoria do regime próprio", correto: true },
+            { conteudo: "Não, apenas regime geral da previdência", correto: false },
+            { conteudo: "Sim, mas apenas para dependentes", correto: false },
+            { conteudo: "Não, qualquer contribuição é proibida", correto: false }
+        ],
+        justificativa: "A previdência complementar é opcional e permite que o servidor aumente seus benefícios futuros.",
+        categoriaDaPergunta: "regime-juridico-unico-e-seguridade-social-do-servidor-publico"
+    },
+    {
+        enunciado: "Qual é o principal objetivo da Lei Geral de Proteção de Dados Pessoais (LGPD)?",
+        arrayDeRespostas: [
+            { conteudo: "Proteger os direitos fundamentais de liberdade e privacidade e o livre desenvolvimento da personalidade da pessoa natural", correto: true },
+            { conteudo: "Regular apenas o setor bancário", correto: false },
+            { conteudo: "Substituir normas internacionais de privacidade", correto: false },
+            { conteudo: "Criar regras para publicidade comercial apenas", correto: false }
+        ],
+        justificativa: "A LGPD visa proteger os dados pessoais, garantindo transparência e controle sobre seu tratamento.",
+        categoriaDaPergunta: "lei-geral-de-protecao-de-dados-pessoais"
+    },
+    {
+        enunciado: "O que são dados pessoais segundo a LGPD?",
+        arrayDeRespostas: [
+            { conteudo: "Informações relacionadas a pessoa natural identificada ou identificável", correto: true },
+            { conteudo: "Informações públicas sobre empresas", correto: false },
+            { conteudo: "Somente dados financeiros", correto: false },
+            { conteudo: "Qualquer dado sem identificação", correto: false }
+        ],
+        justificativa: "Dados pessoais permitem identificar direta ou indiretamente uma pessoa natural.",
+        categoriaDaPergunta: "lei-geral-de-protecao-de-dados-pessoais"
+    },
+    {
+        enunciado: "O que são dados sensíveis segundo a LGPD?",
+        arrayDeRespostas: [
+            { conteudo: "Dados sobre origem racial, convicção religiosa, opinião política, saúde ou vida sexual", correto: true },
+            { conteudo: "Dados sobre empresas privadas", correto: false },
+            { conteudo: "Dados públicos de órgãos governamentais", correto: false },
+            { conteudo: "Somente endereços de e-mail", correto: false }
+        ],
+        justificativa: "Dados sensíveis exigem tratamento diferenciado devido ao risco potencial de discriminação ou danos à pessoa.",
+        categoriaDaPergunta: "lei-geral-de-protecao-de-dados-pessoais"
+    },
+    {
+        enunciado: "O que é tratamento de dados pessoais?",
+        arrayDeRespostas: [
+            { conteudo: "Qualquer operação realizada com dados pessoais, como coleta, armazenamento, uso, compartilhamento e eliminação", correto: true },
+            { conteudo: "Apenas coleta de dados para cadastro", correto: false },
+            { conteudo: "Somente armazenamento de dados offline", correto: false },
+            { conteudo: "Divulgação de informações públicas", correto: false }
+        ],
+        justificativa: "O conceito de tratamento abrange todas as operações envolvendo dados pessoais.",
+        categoriaDaPergunta: "lei-geral-de-protecao-de-dados-pessoais"
+    },
+    {
+        enunciado: "Quem é o controlador de dados segundo a LGPD?",
+        arrayDeRespostas: [
+            { conteudo: "Pessoa natural ou jurídica que decide sobre o tratamento de dados pessoais", correto: true },
+            { conteudo: "Servidor público responsável por qualquer informação", correto: false },
+            { conteudo: "Qualquer empresa privada, independentemente do dado", correto: false },
+            { conteudo: "Apenas órgãos de fiscalização", correto: false }
+        ],
+        justificativa: "O controlador é quem define as finalidades e meios de tratamento de dados pessoais.",
+        categoriaDaPergunta: "lei-geral-de-protecao-de-dados-pessoais"
+    },
+    {
+        enunciado: "Quem é o operador de dados?",
+        arrayDeRespostas: [
+            { conteudo: "Pessoa natural ou jurídica que realiza o tratamento de dados pessoais em nome do controlador", correto: true },
+            { conteudo: "O mesmo que o titular dos dados", correto: false },
+            { conteudo: "Agente de fiscalização de órgãos públicos", correto: false },
+            { conteudo: "Qualquer usuário da internet", correto: false }
+        ],
+        justificativa: "O operador realiza operações de tratamento conforme instruções do controlador, sem decidir sobre finalidades.",
+        categoriaDaPergunta: "lei-geral-de-protecao-de-dados-pessoais"
+    },
+    {
+        enunciado: "O titular de dados pessoais tem quais direitos básicos?",
+        arrayDeRespostas: [
+            { conteudo: "Acesso, correção, exclusão, portabilidade e revogação de consentimento", correto: true },
+            { conteudo: "Somente o direito de acesso público", correto: false },
+            { conteudo: "Apenas direito de vender dados", correto: false },
+            { conteudo: "Não possui direitos perante empresas privadas", correto: false }
+        ],
+        justificativa: "O titular pode controlar seus dados, garantindo transparência e proteção de sua privacidade.",
+        categoriaDaPergunta: "lei-geral-de-protecao-de-dados-pessoais"
+    },
+    {
+        enunciado: "O tratamento de dados pessoais depende de que condição legal?",
+        arrayDeRespostas: [
+            { conteudo: "Consentimento do titular ou outra base legal prevista na LGPD", correto: true },
+            { conteudo: "Sempre pode ocorrer sem restrição", correto: false },
+            { conteudo: "Apenas quando a empresa é privada", correto: false },
+            { conteudo: "Sem necessidade de transparência", correto: false }
+        ],
+        justificativa: "A LGPD define bases legais específicas para tratamento, sendo o consentimento a mais comum.",
+        categoriaDaPergunta: "lei-geral-de-protecao-de-dados-pessoais"
+    },
+    {
+        enunciado: "O que é anonimização de dados?",
+        arrayDeRespostas: [
+            { conteudo: "Processo que torna impossível identificar a pessoa natural a partir dos dados", correto: true },
+            { conteudo: "Exposição pública de dados sensíveis", correto: false },
+            { conteudo: "Criação de perfis de usuários para marketing", correto: false },
+            { conteudo: "Coleta de dados sem consentimento", correto: false }
+        ],
+        justificativa: "A anonimização protege a privacidade, permitindo uso de dados sem risco de identificação do titular.",
+        categoriaDaPergunta: "lei-geral-de-protecao-de-dados-pessoais"
+    },
+    {
+        enunciado: "Qual órgão é responsável pela fiscalização da LGPD no Brasil?",
+        arrayDeRespostas: [
+            { conteudo: "Autoridade Nacional de Proteção de Dados (ANPD)", correto: true },
+            { conteudo: "Banco Central do Brasil", correto: false },
+            { conteudo: "Ministério da Justiça apenas", correto: false },
+            { conteudo: "Tribunal de Contas da União", correto: false }
+        ],
+        justificativa: "A ANPD é o órgão responsável por orientar, fiscalizar e aplicar sanções em caso de descumprimento da LGPD.",
+        categoriaDaPergunta: "lei-geral-de-protecao-de-dados-pessoais"
+    },
+    {
+        enunciado: "Qual o principal objetivo da Lei nº 14.129/2021?",
+        arrayDeRespostas: [
+            { conteudo: "Aumentar a eficiência da administração pública por meio da desburocratização, inovação e transformação digital", correto: true },
+            { conteudo: "Regular contratos privados de prestação de serviços", correto: false },
+            { conteudo: "Estabelecer regras de licitação apenas", correto: false },
+            { conteudo: "Substituir a Constituição Federal", correto: false }
+        ],
+        justificativa: "A Lei nº 14.129/2021 visa modernizar a gestão pública, promovendo eficiência e qualidade nos serviços prestados.",
+        categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
+    },
+    {
+        enunciado: "O que significa desburocratização no serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Reduzir processos complexos, simplificando o atendimento ao cidadão", correto: true },
+            { conteudo: "Aumentar a quantidade de formulários para controle", correto: false },
+            { conteudo: "Eliminar todos os procedimentos legais", correto: false },
+            { conteudo: "Transferir serviços públicos para o setor privado", correto: false }
+        ],
+        justificativa: "Desburocratização visa simplificar procedimentos e agilizar o atendimento ao público.",
+        categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
+    },
+    {
+        enunciado: "O que é inovação na administração pública?",
+        arrayDeRespostas: [
+            { conteudo: "Introdução de novas práticas, métodos e tecnologias para melhorar os serviços", correto: true },
+            { conteudo: "Manutenção das práticas tradicionais sem alterações", correto: false },
+            { conteudo: "Redução de direitos dos servidores", correto: false },
+            { conteudo: "Substituição de leis por decisões administrativas", correto: false }
+        ],
+        justificativa: "A inovação permite que os serviços públicos sejam mais eficientes, eficazes e modernos.",
+        categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
+    },
+    {
+        enunciado: "O que significa eficiência na administração pública?",
+        arrayDeRespostas: [
+            { conteudo: "Alcançar resultados com o melhor uso possível dos recursos disponíveis", correto: true },
+            { conteudo: "Aumentar despesas sem resultados claros", correto: false },
+            { conteudo: "Reduzir a qualidade do serviço para economizar recursos", correto: false },
+            { conteudo: "Substituir servidores por tecnologia sem planejamento", correto: false }
+        ],
+        justificativa: "Eficiência é usar recursos de forma racional, garantindo resultados satisfatórios para a sociedade.",
+        categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
+    },
+    {
+        enunciado: "O que significa efetividade no serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Alcançar os objetivos propostos de forma consistente e satisfatória", correto: true },
+            { conteudo: "Garantir apenas a execução de tarefas sem resultados", correto: false },
+            { conteudo: "Reduzir custos ignorando metas", correto: false },
+            { conteudo: "Substituir objetivos por medidas paliativas", correto: false }
+        ],
+        justificativa: "Efetividade avalia se os serviços prestados realmente atingem os resultados planejados.",
+        categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
+    },
+    {
+        enunciado: "Qual a importância da transformação digital no serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Facilitar o acesso, agilizar processos e reduzir burocracia", correto: true },
+            { conteudo: "Substituir servidores humanos indiscriminadamente", correto: false },
+            { conteudo: "Aumentar o número de processos em papel", correto: false },
+            { conteudo: "Exigir que todos usem tecnologia sem suporte", correto: false }
+        ],
+        justificativa: "A transformação digital moderniza a administração, tornando o serviço público mais rápido e acessível.",
+        categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
+    },
+    {
+        enunciado: "O que são indicadores de desempenho no serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Ferramentas para medir a eficiência, qualidade e efetividade das ações e serviços públicos", correto: true },
+            { conteudo: "Relatórios internos sem relação com resultados", correto: false },
+            { conteudo: "Documentos legais obrigatórios apenas para auditoria", correto: false },
+            { conteudo: "Dados exclusivamente financeiros", correto: false }
+        ],
+        justificativa: "Indicadores de desempenho permitem avaliar se os serviços estão atingindo seus objetivos e metas.",
+        categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
+    },
+    {
+        enunciado: "O que significa foco no cidadão na gestão pública?",
+        arrayDeRespostas: [
+            { conteudo: "Priorizar as necessidades e satisfação dos cidadãos na prestação de serviços", correto: true },
+            { conteudo: "Atender apenas demandas administrativas internas", correto: false },
+            { conteudo: "Reduzir serviços para economizar recursos", correto: false },
+            { conteudo: "Manter processos complexos para controle interno", correto: false }
+        ],
+        justificativa: "Serviço público eficiente coloca o cidadão no centro das decisões, garantindo atendimento de qualidade.",
+        categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
+    },
+    {
+        enunciado: "O que é governança pública?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de práticas e processos que asseguram transparência, responsabilidade e eficiência na gestão pública", correto: true },
+            { conteudo: "Gestão privada de serviços públicos sem fiscalização", correto: false },
+            { conteudo: "Decisões políticas sem planejamento", correto: false },
+            { conteudo: "Controle exclusivo de resultados financeiros", correto: false }
+        ],
+        justificativa: "A governança garante que os recursos e processos sejam utilizados de forma responsável e eficiente.",
+        categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
+    },
+    {
+        enunciado: "Qual a relação entre inovação e qualidade no serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "A inovação permite criar soluções que aumentam a qualidade e eficiência do serviço público", correto: true },
+            { conteudo: "Inovação reduz a qualidade ao alterar processos tradicionais", correto: false },
+            { conteudo: "Inovação é apenas tecnologia sem impacto na qualidade", correto: false },
+            { conteudo: "Não há relação entre inovação e qualidade", correto: false }
+        ],
+        justificativa: "Inovar é melhorar processos, métodos e tecnologias, impactando diretamente na qualidade do serviço público.",
+        categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
     }
 ]
 
@@ -5692,4 +6847,14 @@ export {
  * principios-expressos-limpe
  * principios-implicitos
  * outras-classificacoes-dos-principios-da-administracao-publica
+ * nocoes-basicas-sobre-administracao-publica
+ * administracao-geral
+ * arquivamento-e-gestao-de-documentos
+ * administracao-de-material
+ * licitacoes-e-contratos-administrativos
+ * nocoes-de-direito-administrativo
+ * nocoes-de-planejamento-orcamento-e-financas-publicas
+ * regime-juridico-unico-e-seguridade-social-do-servidor-publico
+ * lei-geral-de-protecao-de-dados-pessoais
+ * qualidade-e-eficiencia-no-serviço-publico
  */

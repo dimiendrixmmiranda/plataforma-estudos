@@ -6768,6 +6768,600 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
         ],
         justificativa: "Inovar é melhorar processos, métodos e tecnologias, impactando diretamente na qualidade do serviço público.",
         categoriaDaPergunta: "qualidade-e-eficiencia-no-serviço-publico"
+    },
+    {
+        enunciado: "O que é serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Atividade realizada pelo Estado ou sob sua regulação para atender às necessidades da coletividade", correto: true },
+            { conteudo: "Serviço prestado exclusivamente por empresas privadas", correto: false },
+            { conteudo: "Atividade econômica sem interesse social", correto: false },
+            { conteudo: "Serviço limitado ao setor militar", correto: false }
+        ],
+        justificativa: "Serviço público é destinado a atender interesses da sociedade e pode ser prestado pelo Estado ou delegadamente a terceiros.",
+        categoriaDaPergunta: "conceito-de-servico-publico"
+    },
+    {
+        enunciado: "Qual característica principal distingue um serviço público de serviços privados?",
+        arrayDeRespostas: [
+            { conteudo: "Atender o interesse coletivo com continuidade e legalidade", correto: true },
+            { conteudo: "Gerar lucro para empresas privadas", correto: false },
+            { conteudo: "Ser oferecido apenas mediante pagamento", correto: false },
+            { conteudo: "Ser prestado de forma eventual e sem regulação", correto: false }
+        ],
+        justificativa: "Serviços públicos têm finalidade social, regulados por lei e contínuos, diferentemente de serviços privados.",
+        categoriaDaPergunta: "conceito-de-servico-publico"
+    },
+    {
+        enunciado: "Quem pode prestar serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "O Estado diretamente ou mediante delegação a terceiros", correto: true },
+            { conteudo: "Apenas empresas privadas sem regulação", correto: false },
+            { conteudo: "Qualquer cidadão sem autorização legal", correto: false },
+            { conteudo: "Exclusivamente organizações internacionais", correto: false }
+        ],
+        justificativa: "O Estado pode prestar serviços diretamente ou delegar a particulares, mantendo responsabilidade e fiscalização.",
+        categoriaDaPergunta: "conceito-de-servico-publico"
+    },
+    {
+        enunciado: "Qual o objetivo central do serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Satisfazer necessidades essenciais da coletividade e garantir direitos fundamentais", correto: true },
+            { conteudo: "Aumentar lucro do Estado", correto: false },
+            { conteudo: "Servir apenas interesses políticos", correto: false },
+            { conteudo: "Reduzir despesas do setor privado", correto: false }
+        ],
+        justificativa: "O serviço público visa o interesse coletivo, promovendo bem-estar e direitos da população.",
+        categoriaDaPergunta: "conceito-de-servico-publico"
+    },
+    {
+        enunciado: "O que significa continuidade do serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Prestação ininterrupta de serviços essenciais à população", correto: true },
+            { conteudo: "Serviços prestados apenas ocasionalmente", correto: false },
+            { conteudo: "Serviços que podem ser suspensos sem aviso", correto: false },
+            { conteudo: "Atendimento apenas em feriados e finais de semana", correto: false }
+        ],
+        justificativa: "Serviços públicos essenciais devem ser contínuos para garantir atendimento à sociedade sem interrupções injustificadas.",
+        categoriaDaPergunta: "conceito-de-servico-publico"
+    },
+    {
+        enunciado: "O que significa gratuidade em determinados serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Alguns serviços são oferecidos sem cobrança direta, financiados pelo Estado", correto: true },
+            { conteudo: "Todos os serviços devem gerar lucro", correto: false },
+            { conteudo: "Serviços pagos apenas por empresas privadas", correto: false },
+            { conteudo: "Serviços gratuitos sem regulamentação legal", correto: false }
+        ],
+        justificativa: "A gratuidade garante acesso a serviços essenciais, mesmo para cidadãos que não podem pagar, assegurando equidade social.",
+        categoriaDaPergunta: "conceito-de-servico-publico"
+    },
+    {
+        enunciado: "O que significa generalidade no serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços destinados a atender todos os membros da coletividade, sem discriminação", correto: true },
+            { conteudo: "Serviços apenas para funcionários públicos", correto: false },
+            { conteudo: "Serviços exclusivos para grupos específicos sem critério legal", correto: false },
+            { conteudo: "Serviços apenas para empresas privadas", correto: false }
+        ],
+        justificativa: "A generalidade garante que os serviços públicos beneficiem toda a população de forma justa e igualitária.",
+        categoriaDaPergunta: "conceito-de-servico-publico"
+    },
+    {
+        enunciado: "O que é a legalidade do serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Todos os serviços devem ser prestados conforme normas legais e regulamentos aplicáveis", correto: true },
+            { conteudo: "Serviços podem ser prestados sem lei para agilizar processos", correto: false },
+            { conteudo: "A legalidade aplica-se apenas a serviços privados", correto: false },
+            { conteudo: "Serviços podem ignorar regras administrativas", correto: false }
+        ],
+        justificativa: "A legalidade assegura que os serviços públicos respeitem a lei, garantindo direitos e deveres de cidadãos e servidores.",
+        categoriaDaPergunta: "conceito-de-servico-publico"
+    },
+    {
+        enunciado: "Qual a diferença entre serviço público e atividade administrativa?",
+        arrayDeRespostas: [
+            { conteudo: "Serviço público visa atender a coletividade; atividade administrativa é o conjunto de atos para organizar e gerir o serviço", correto: true },
+            { conteudo: "Serviço público é privado; atividade administrativa é estatal", correto: false },
+            { conteudo: "Serviço público depende de lucro; atividade administrativa não", correto: false },
+            { conteudo: "Não há diferença conceitual", correto: false }
+        ],
+        justificativa: "A atividade administrativa dá suporte à prestação do serviço público, mas não se confunde com o próprio serviço.",
+        categoriaDaPergunta: "conceito-de-servico-publico"
+    },
+    {
+        enunciado: "O serviço público pode ser delegado a particulares?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, mediante autorização legal, concessão, permissão ou parceria público-privada", correto: true },
+            { conteudo: "Não, apenas o Estado pode prestar serviços", correto: false },
+            { conteudo: "Sim, sem necessidade de lei ou regulamentação", correto: false },
+            { conteudo: "Apenas serviços não essenciais", correto: false }
+        ],
+        justificativa: "A delegação permite que o setor privado auxilie na prestação de serviços, sempre sob controle e responsabilidade do Estado.",
+        categoriaDaPergunta: "conceito-de-servico-publico"
+    },
+    {
+        enunciado: "O que é o princípio da legalidade na administração pública?",
+        arrayDeRespostas: [
+            { conteudo: "Os atos administrativos devem estar estritamente de acordo com a lei", correto: true },
+            { conteudo: "A administração pode agir fora da lei se houver interesse público", correto: false },
+            { conteudo: "Somente leis municipais devem ser seguidas", correto: false },
+            { conteudo: "Aplicável apenas a servidores temporários", correto: false }
+        ],
+        justificativa: "O princípio da legalidade garante que a administração pública só pode agir dentro dos limites da lei.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que significa o princípio da impessoalidade?",
+        arrayDeRespostas: [
+            { conteudo: "Atos administrativos devem visar o interesse público, não interesses pessoais", correto: true },
+            { conteudo: "Os atos podem beneficiar amigos e familiares", correto: false },
+            { conteudo: "Aplicável apenas a gestores privados", correto: false },
+            { conteudo: "Significa que servidores não têm identidade própria", correto: false }
+        ],
+        justificativa: "A impessoalidade evita favorecimento e garante que decisões administrativas beneficiem a coletividade.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que é o princípio da moralidade administrativa?",
+        arrayDeRespostas: [
+            { conteudo: "Atos da administração devem obedecer padrões éticos e morais", correto: true },
+            { conteudo: "Servidores podem agir conforme conveniência pessoal", correto: false },
+            { conteudo: "Aplica-se apenas a atos financeiros", correto: false },
+            { conteudo: "Permite decisões fora da lei se ético", correto: false }
+        ],
+        justificativa: "A moralidade exige que a atuação do poder público seja ética e responsável.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que significa princípio da publicidade?",
+        arrayDeRespostas: [
+            { conteudo: "Atos da administração devem ser divulgados para garantir transparência", correto: true },
+            { conteudo: "Os atos podem ser mantidos em sigilo sem justificativa", correto: false },
+            { conteudo: "Somente comunicados internos são suficientes", correto: false },
+            { conteudo: "Aplica-se apenas a relatórios financeiros", correto: false }
+        ],
+        justificativa: "A publicidade garante que cidadãos tenham acesso às informações sobre a administração pública.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que é o princípio da eficiência?",
+        arrayDeRespostas: [
+            { conteudo: "Atuar com produtividade, economia de recursos e resultados satisfatórios", correto: true },
+            { conteudo: "Foco apenas na redução de custos sem qualidade", correto: false },
+            { conteudo: "Eficiência significa rapidez sem resultados", correto: false },
+            { conteudo: "Aplica-se apenas a servidores comissionados", correto: false }
+        ],
+        justificativa: "A eficiência busca otimizar recursos e melhorar a prestação dos serviços públicos.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que é o princípio da razoabilidade?",
+        arrayDeRespostas: [
+            { conteudo: "Atos administrativos devem ter proporção e equilíbrio em relação aos fins públicos", correto: true },
+            { conteudo: "Pode-se exagerar em medidas desde que legal", correto: false },
+            { conteudo: "Aplica-se apenas a atos financeiros", correto: false },
+            { conteudo: "Significa obedecer apenas regras internas", correto: false }
+        ],
+        justificativa: "A razoabilidade evita abusos de poder e garante decisões equilibradas e justas.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que é o princípio da motivação?",
+        arrayDeRespostas: [
+            { conteudo: "Atos administrativos devem ser fundamentados com razões claras e justificáveis", correto: true },
+            { conteudo: "Não há necessidade de justificar atos internos", correto: false },
+            { conteudo: "Aplicável apenas a contratos", correto: false },
+            { conteudo: "Significa motivar servidores com prêmios", correto: false }
+        ],
+        justificativa: "A motivação garante transparência e possibilita controle e contestação de decisões administrativas.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que é o princípio da proporcionalidade?",
+        arrayDeRespostas: [
+            { conteudo: "Os meios usados pela administração devem ser adequados e necessários para atingir os fins", correto: true },
+            { conteudo: "Pode-se usar qualquer meio para fins públicos", correto: false },
+            { conteudo: "Significa aumentar o alcance de serviços sem limites", correto: false },
+            { conteudo: "Aplica-se apenas a punições administrativas", correto: false }
+        ],
+        justificativa: "A proporcionalidade evita excessos e garante que a administração não ultrapasse o necessário para atingir objetivos.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que é o princípio da continuidade dos serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços essenciais devem ser prestados de forma ininterrupta", correto: true },
+            { conteudo: "Serviços podem ser interrompidos sem planejamento", correto: false },
+            { conteudo: "Aplica-se apenas a empresas privadas contratadas", correto: false },
+            { conteudo: "Serviços públicos podem ser prestados apenas em dias úteis", correto: false }
+        ],
+        justificativa: "A continuidade assegura que a população tenha acesso constante aos serviços essenciais.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que é o princípio da economicidade?",
+        arrayDeRespostas: [
+            { conteudo: "A administração deve usar os recursos públicos com parcimônia e eficiência", correto: true },
+            { conteudo: "Apenas reduzir despesas sem resultado", correto: false },
+            { conteudo: "Significa cortar direitos dos servidores", correto: false },
+            { conteudo: "Aplica-se somente a contratos privados", correto: false }
+        ],
+        justificativa: "A economicidade garante o uso responsável dos recursos públicos, sem desperdícios.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que significa o princípio da legalidade estrita?",
+        arrayDeRespostas: [
+            { conteudo: "A administração só pode agir dentro dos limites expressos na lei", correto: true },
+            { conteudo: "A administração pode inovar sem base legal", correto: false },
+            { conteudo: "Significa seguir regras internas apenas", correto: false },
+            { conteudo: "Aplica-se somente a municípios", correto: false }
+        ],
+        justificativa: "A legalidade estrita protege a sociedade de atos administrativos ilegais.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que é o princípio da publicidade como instrumento de controle social?",
+        arrayDeRespostas: [
+            { conteudo: "Permite que a sociedade acompanhe e fiscalize os atos administrativos", correto: true },
+            { conteudo: "Serve apenas para marketing institucional", correto: false },
+            { conteudo: "Aplica-se apenas a relatórios financeiros internos", correto: false },
+            { conteudo: "Não tem relação com transparência", correto: false }
+        ],
+        justificativa: "A publicidade promove transparência e accountability, permitindo controle social efetivo.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que significa princípio da impessoalidade na contratação pública?",
+        arrayDeRespostas: [
+            { conteudo: "Evita favoritismo, garantindo igualdade de condições a todos os concorrentes", correto: true },
+            { conteudo: "Permite escolher fornecedores por amizade", correto: false },
+            { conteudo: "Aplica-se apenas a servidores comissionados", correto: false },
+            { conteudo: "Significa contratar sem análise de mérito", correto: false }
+        ],
+        justificativa: "A impessoalidade assegura processos justos e equitativos na administração pública.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que é o princípio da responsabilidade?",
+        arrayDeRespostas: [
+            { conteudo: "Servidores e gestores devem responder por seus atos administrativos", correto: true },
+            { conteudo: "Responsabilidade é opcional e depende da situação", correto: false },
+            { conteudo: "Aplica-se apenas a atos financeiros", correto: false },
+            { conteudo: "Significa que gestores podem agir sem prestar contas", correto: false }
+        ],
+        justificativa: "A responsabilidade garante que ações da administração pública sejam justificáveis e passíveis de controle.",
+        categoriaDaPergunta: "principios-da-administracao-publica"
+    },
+    {
+        enunciado: "O que significa o princípio da continuidade nos serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Os serviços essenciais devem ser prestados de forma ininterrupta", correto: true },
+            { conteudo: "Serviços podem ser interrompidos a qualquer momento sem aviso", correto: false },
+            { conteudo: "Aplica-se apenas a serviços administrativos internos", correto: false },
+            { conteudo: "Significa que os serviços são prestados apenas em horários comerciais", correto: false }
+        ],
+        justificativa: "A continuidade garante que a população tenha acesso constante aos serviços essenciais.",
+        categoriaDaPergunta: "principios-especificos-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que é o princípio da mutabilidade dos serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Os serviços podem ser adaptados ou modificados conforme o interesse público e a evolução das necessidades", correto: true },
+            { conteudo: "Serviços públicos não podem sofrer alterações", correto: false },
+            { conteudo: "Aplica-se apenas a serviços privados delegados", correto: false },
+            { conteudo: "Significa que serviços são permanentes e imutáveis", correto: false }
+        ],
+        justificativa: "A mutabilidade permite que os serviços evoluam de acordo com a demanda social e tecnológica.",
+        categoriaDaPergunta: "principios-especificos-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que significa o princípio da generalidade?",
+        arrayDeRespostas: [
+            { conteudo: "Os serviços devem atender a toda a coletividade, sem discriminação", correto: true },
+            { conteudo: "Serviços podem ser prestados apenas a grupos específicos", correto: false },
+            { conteudo: "Aplica-se apenas a servidores públicos", correto: false },
+            { conteudo: "Significa atender apenas interesses privados", correto: false }
+        ],
+        justificativa: "A generalidade assegura que todos os cidadãos tenham acesso aos serviços públicos de maneira igualitária.",
+        categoriaDaPergunta: "principios-especificos-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que é o princípio da gratuidade em serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Alguns serviços essenciais devem ser oferecidos sem cobrança direta do usuário", correto: true },
+            { conteudo: "Todos os serviços devem gerar lucro para o Estado", correto: false },
+            { conteudo: "Serviços gratuitos podem ser prestados sem regulamentação legal", correto: false },
+            { conteudo: "Aplica-se apenas a serviços privados", correto: false }
+        ],
+        justificativa: "A gratuidade garante acesso universal a serviços essenciais, promovendo equidade social.",
+        categoriaDaPergunta: "principios-especificos-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que significa princípio da eficiência nos serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Os serviços devem ser prestados com economia de recursos e máxima produtividade", correto: true },
+            { conteudo: "Eficiência significa apenas reduzir custos sem qualidade", correto: false },
+            { conteudo: "Aplicável apenas a atos administrativos internos", correto: false },
+            { conteudo: "Significa rapidez sem resultados satisfatórios", correto: false }
+        ],
+        justificativa: "A eficiência busca otimizar recursos e melhorar a prestação de serviços à sociedade.",
+        categoriaDaPergunta: "principios-especificos-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que é o princípio da adaptabilidade?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços devem se adaptar às mudanças sociais, tecnológicas e econômicas", correto: true },
+            { conteudo: "Serviços públicos são rígidos e não podem mudar", correto: false },
+            { conteudo: "Aplicável apenas a empresas privadas delegadas", correto: false },
+            { conteudo: "Significa que os serviços podem ser suspensos temporariamente", correto: false }
+        ],
+        justificativa: "A adaptabilidade permite que os serviços públicos se mantenham relevantes e eficazes frente às mudanças.",
+        categoriaDaPergunta: "principios-especificos-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que significa princípio da continuidade de atendimento?",
+        arrayDeRespostas: [
+            { conteudo: "Os serviços devem estar disponíveis de maneira constante para atender a população", correto: true },
+            { conteudo: "Serviços podem ser suspensos sem aviso prévio", correto: false },
+            { conteudo: "Aplica-se apenas a serviços administrativos internos", correto: false },
+            { conteudo: "Significa atender apenas empresas privadas", correto: false }
+        ],
+        justificativa: "Garantir atendimento contínuo é essencial para a confiabilidade dos serviços públicos.",
+        categoriaDaPergunta: "principios-especificos-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que é o princípio da padronização?",
+        arrayDeRespostas: [
+            { conteudo: "Os serviços públicos devem seguir padrões de qualidade e procedimentos uniformes", correto: true },
+            { conteudo: "Cada unidade pode agir sem padronização", correto: false },
+            { conteudo: "Aplica-se apenas a contratos administrativos", correto: false },
+            { conteudo: "Significa variar serviços para cada usuário", correto: false }
+        ],
+        justificativa: "A padronização assegura consistência, qualidade e previsibilidade na prestação dos serviços.",
+        categoriaDaPergunta: "principios-especificos-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que significa princípio da adaptabilidade tecnológica?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços devem incorporar tecnologias que aumentem a eficiência e qualidade", correto: true },
+            { conteudo: "Tecnologia não deve ser utilizada na administração pública", correto: false },
+            { conteudo: "Aplicável apenas a empresas privadas", correto: false },
+            { conteudo: "Significa terceirizar todos os serviços tecnológicos", correto: false }
+        ],
+        justificativa: "A incorporação de tecnologias modernas permite maior eficiência e melhor atendimento ao cidadão.",
+        categoriaDaPergunta: "principios-especificos-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que significa princípio da acessibilidade nos serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços devem ser acessíveis a todos os cidadãos, incluindo pessoas com deficiência", correto: true },
+            { conteudo: "Serviços podem ser restritos a grupos selecionados", correto: false },
+            { conteudo: "Aplica-se apenas a documentação interna", correto: false },
+            { conteudo: "Significa cobrar taxa extra para acesso", correto: false }
+        ],
+        justificativa: "A acessibilidade garante que todos tenham igualdade de condições para usufruir dos serviços públicos.",
+        categoriaDaPergunta: "principios-especificos-dos-servicos-publicos"
+    },
+    {
+        enunciado: "Como os serviços públicos podem ser classificados quanto à natureza?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços administrativos, serviços econômicos e serviços sociais", correto: true },
+            { conteudo: "Serviços comerciais, industriais e militares", correto: false },
+            { conteudo: "Serviços privados, públicos e mistos", correto: false },
+            { conteudo: "Serviços nacionais, estaduais e municipais", correto: false }
+        ],
+        justificativa: "A classificação quanto à natureza considera o tipo de finalidade e atuação do serviço público.",
+        categoriaDaPergunta: "classificacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que são serviços administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços ligados à organização interna da administração pública, sem entrega direta à população", correto: true },
+            { conteudo: "Serviços que geram lucro privado", correto: false },
+            { conteudo: "Serviços prestados por empresas privadas", correto: false },
+            { conteudo: "Serviços exclusivamente militares", correto: false }
+        ],
+        justificativa: "Serviços administrativos mantêm o funcionamento da administração, apoiando a prestação de serviços diretos à sociedade.",
+        categoriaDaPergunta: "classificacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que são serviços econômicos?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços prestados pelo Estado ou delegados, voltados à produção de bens e exploração econômica", correto: true },
+            { conteudo: "Serviços puramente administrativos internos", correto: false },
+            { conteudo: "Serviços gratuitos para todos os cidadãos", correto: false },
+            { conteudo: "Serviços prestados apenas por ONGs", correto: false }
+        ],
+        justificativa: "Serviços econômicos envolvem exploração de atividades que podem gerar receita ou lucro, como energia e transportes.",
+        categoriaDaPergunta: "classificacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que são serviços sociais?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços destinados diretamente ao bem-estar e qualidade de vida da população", correto: true },
+            { conteudo: "Serviços apenas de fiscalização administrativa", correto: false },
+            { conteudo: "Serviços econômicos com finalidade de lucro", correto: false },
+            { conteudo: "Serviços internos sem contato com o público", correto: false }
+        ],
+        justificativa: "Serviços sociais incluem educação, saúde, assistência social e outras atividades voltadas ao atendimento da sociedade.",
+        categoriaDaPergunta: "classificacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "Como os serviços públicos podem ser classificados quanto à forma de prestação?",
+        arrayDeRespostas: [
+            { conteudo: "Diretos, indiretos e delegados", correto: true },
+            { conteudo: "Administrativos, privados e mistos", correto: false },
+            { conteudo: "Nacionais, estaduais e municipais", correto: false },
+            { conteudo: "Obrigatórios, facultativos e opcionais", correto: false }
+        ],
+        justificativa: "Essa classificação considera quem executa o serviço: o próprio Estado, autarquias/empresas públicas ou particulares autorizados.",
+        categoriaDaPergunta: "classificacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que são serviços públicos diretos?",
+        arrayDeRespostas: [
+            { conteudo: "Prestados diretamente pelo Estado com seus próprios recursos e pessoal", correto: true },
+            { conteudo: "Serviços terceirizados por empresas privadas sem supervisão", correto: false },
+            { conteudo: "Serviços voluntários prestados por ONGs", correto: false },
+            { conteudo: "Serviços pagos apenas por usuários privados", correto: false }
+        ],
+        justificativa: "Serviços diretos são executados pela própria administração pública centralizada.",
+        categoriaDaPergunta: "classificacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que são serviços públicos indiretos?",
+        arrayDeRespostas: [
+            { conteudo: "Prestados por entidades administrativas descentralizadas, como autarquias e empresas públicas", correto: true },
+            { conteudo: "Serviços privados sem regulação estatal", correto: false },
+            { conteudo: "Serviços voluntários sem interesse público", correto: false },
+            { conteudo: "Serviços prestados apenas a setores econômicos", correto: false }
+        ],
+        justificativa: "Serviços indiretos são executados por entidades que possuem autonomia administrativa, mas continuam vinculadas ao Estado.",
+        categoriaDaPergunta: "classificacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que são serviços públicos delegados?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços prestados por particulares autorizados, permitidos ou concedidos pelo Estado", correto: true },
+            { conteudo: "Serviços internos de órgãos públicos", correto: false },
+            { conteudo: "Serviços econômicos estatais sem finalidade social", correto: false },
+            { conteudo: "Serviços voluntários sem regulação", correto: false }
+        ],
+        justificativa: "A delegação permite que o setor privado auxilie na prestação de serviços, garantindo fiscalização e interesse público.",
+        categoriaDaPergunta: "classificacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "Como os serviços públicos podem ser classificados quanto à obrigatoriedade?",
+        arrayDeRespostas: [
+            { conteudo: "Obrigatórios ou facultativos", correto: true },
+            { conteudo: "Diretos, indiretos ou privados", correto: false },
+            { conteudo: "Administrativos, sociais ou econômicos", correto: false },
+            { conteudo: "Estaduais, municipais ou federais", correto: false }
+        ],
+        justificativa: "Essa classificação indica se o cidadão deve necessariamente receber ou se pode optar pelo uso do serviço.",
+        categoriaDaPergunta: "classificacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que são serviços públicos obrigatórios?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços essenciais que devem ser oferecidos a toda população", correto: true },
+            { conteudo: "Serviços opcionais prestados apenas por conveniência", correto: false },
+            { conteudo: "Serviços exclusivamente econômicos", correto: false },
+            { conteudo: "Serviços prestados apenas a órgãos internos do governo", correto: false }
+        ],
+        justificativa: "Serviços obrigatórios são essenciais e visam atender necessidades básicas da sociedade, como saúde e segurança.",
+        categoriaDaPergunta: "classificacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "Quais são as principais formas de prestação dos serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Direta, indireta e delegada", correto: true },
+            { conteudo: "Privada, voluntária e interna", correto: false },
+            { conteudo: "Obrigatória, facultativa e opcional", correto: false },
+            { conteudo: "Administrativa, econômica e social", correto: false }
+        ],
+        justificativa: "A classificação considera quem executa o serviço: o próprio Estado, entidades indiretas ou particulares delegados.",
+        categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que caracteriza a prestação direta de serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços prestados diretamente pelo Estado com seus recursos e pessoal", correto: true },
+            { conteudo: "Serviços terceirizados sem fiscalização", correto: false },
+            { conteudo: "Serviços opcionais e privados", correto: false },
+            { conteudo: "Serviços prestados apenas em horários limitados", correto: false }
+        ],
+        justificativa: "Na prestação direta, o Estado realiza os serviços com seus próprios órgãos e funcionários.",
+        categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que caracteriza a prestação indireta de serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços realizados por autarquias, fundações ou empresas públicas", correto: true },
+            { conteudo: "Serviços prestados apenas por empresas privadas sem supervisão", correto: false },
+            { conteudo: "Serviços opcionais e gratuitos", correto: false },
+            { conteudo: "Serviços prestados apenas por cidadãos voluntários", correto: false }
+        ],
+        justificativa: "A prestação indireta é feita por entidades que possuem autonomia administrativa, mas continuam vinculadas ao Estado.",
+        categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que caracteriza a prestação delegada de serviços públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Serviços prestados por particulares mediante concessão, permissão ou autorização", correto: true },
+            { conteudo: "Serviços prestados exclusivamente pelo Estado", correto: false },
+            { conteudo: "Serviços voluntários sem regulação legal", correto: false },
+            { conteudo: "Serviços internos sem contato com o público", correto: false }
+        ],
+        justificativa: "A delegação permite que o setor privado preste serviços sob fiscalização e normas do Estado.",
+        categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que é uma concessão de serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Contrato pelo qual o Estado transfere a exploração do serviço a particular por prazo determinado", correto: true },
+            { conteudo: "Serviço gratuito sem contrato formal", correto: false },
+            { conteudo: "Serviço exclusivo para órgãos internos do governo", correto: false },
+            { conteudo: "Serviço prestado sem regulamentação legal", correto: false }
+        ],
+        justificativa: "A concessão envolve delegação de serviço público essencial, com obrigações contratuais e fiscalização estatal.",
+        categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que é uma permissão de serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Autorização estatal para que particular preste serviço público, normalmente de menor complexidade e prazo menor que a concessão", correto: true },
+            { conteudo: "Contrato de prestação direta pelo Estado", correto: false },
+            { conteudo: "Serviço gratuito prestado por voluntários", correto: false },
+            { conteudo: "Serviço sem fiscalização do Estado", correto: false }
+        ],
+        justificativa: "A permissão é uma forma de delegação administrativa temporária e flexível, com supervisão do Estado.",
+        categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que é autorização de serviço público?",
+        arrayDeRespostas: [
+            { conteudo: "Consentimento legal do Estado para que particular execute atividade específica de interesse público", correto: true },
+            { conteudo: "Serviço prestado apenas por servidores do Estado", correto: false },
+            { conteudo: "Serviço opcional sem finalidade pública", correto: false },
+            { conteudo: "Serviço prestado por ONG sem contrato", correto: false }
+        ],
+        justificativa: "A autorização é uma forma simplificada de delegação, permitindo prestação de serviço mediante regras estabelecidas.",
+        categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "Qual a diferença entre concessão e permissão?",
+        arrayDeRespostas: [
+            { conteudo: "Concessão envolve serviço essencial e prazo mais longo; permissão é de menor complexidade e prazo mais curto", correto: true },
+            { conteudo: "Concessão é gratuita; permissão é sempre paga", correto: false },
+            { conteudo: "Concessão não precisa de contrato; permissão sempre precisa", correto: false },
+            { conteudo: "Não há diferença entre concessão e permissão", correto: false }
+        ],
+        justificativa: "A diferença se dá em complexidade, duração e regulamentação formal do serviço público delegado.",
+        categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "Quais entidades podem prestar serviços públicos indiretos?",
+        arrayDeRespostas: [
+            { conteudo: "Autarquias, fundações públicas e empresas estatais", correto: true },
+            { conteudo: "Apenas empresas privadas sem contrato", correto: false },
+            { conteudo: "ONGs sem supervisão", correto: false },
+            { conteudo: "Servidores voluntários sem vínculo legal", correto: false }
+        ],
+        justificativa: "Essas entidades possuem autonomia administrativa e estão vinculadas ao Estado para execução de serviços públicos.",
+        categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que caracteriza a prestação direta em relação à responsabilidade?",
+        arrayDeRespostas: [
+            { conteudo: "O Estado responde integralmente pelos atos praticados", correto: true },
+            { conteudo: "O particular responde sozinho pelos serviços delegados", correto: false },
+            { conteudo: "Não há responsabilidade formal do Estado", correto: false },
+            { conteudo: "A responsabilidade é compartilhada apenas em serviços voluntários", correto: false }
+        ],
+        justificativa: "Na prestação direta, o Estado assume total responsabilidade pelos serviços fornecidos à população.",
+        categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
     }
 ]
 
@@ -6857,4 +7451,9 @@ export {
  * regime-juridico-unico-e-seguridade-social-do-servidor-publico
  * lei-geral-de-protecao-de-dados-pessoais
  * qualidade-e-eficiencia-no-serviço-publico
+ * conceito-de-servico-publico
+ * principios-da-administracao-publica
+ * principios-especificos-dos-servicos-publicos
+ * classificacao-dos-servicos-publicos
+ * formas-de-prestacao-dos-servicos-publicos
  */

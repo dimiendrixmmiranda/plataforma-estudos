@@ -643,7 +643,7 @@ const assistenteAdministrativo = {
                     `Generalidade (ou Universalidade): Determina que os serviços públicos devem ser prestados de forma padronizada e isonômica para todos os usuários que se encontrem na mesma situação técnica e jurídica. O objetivo é atender ao maior número de pessoas possível, sem privilégios ou discriminações. A existência de tarifas sociais ou gratuidades para idosos, por exemplo, não fere este princípio, pois busca tratar os desiguais na medida de suas desigualdades.`,
                     `Atualidade (ou Mutabilidade): Exige que os serviços públicos sejam constantemente aperfeiçoados e adequados às novas tecnologias e necessidades da sociedade. O serviço não pode ficar obsoleto, devendo incorporar as modernidades técnicas e as melhorias necessárias para garantir a sua eficiência e qualidade.`,
                     `Modicidade das Tarifas: Os serviços públicos devem ser remunerados a preços justos e acessíveis, levando em consideração o poder aquisitivo dos usuários. O objetivo é garantir que ninguém seja privado do acesso a um serviço essencial por não poder pagar por ele.`,
-                    `Cortesia: Refere-se ao bom tratamento que deve ser dispensado aos usuários dos serviços públicos. Os agentes públicos e os prestadores de serviços devem agir com urbanidade, respeito e atenção, garantindo um atendimento de qualidade.`, 
+                    `Cortesia: Refere-se ao bom tratamento que deve ser dispensado aos usuários dos serviços públicos. Os agentes públicos e os prestadores de serviços devem agir com urbanidade, respeito e atenção, garantindo um atendimento de qualidade.`,
                     `Segurança: O serviço público deve ser prestado de forma segura, sem oferecer riscos à integridade física ou patrimonial dos usuários. Isso envolve desde a manutenção adequada de equipamentos e instalações até a adoção de procedimentos que garantam a segurança em todas as etapas da prestação do serviço.`
                 ],
                 video: {
@@ -686,7 +686,129 @@ const assistenteAdministrativo = {
     },
     ["atos-administrativos"]: {
         titulo: `Atos Administrativos`,
-        id: `atos-administrativos`
+        id: `atos-administrativos`,
+        introducao: [
+            `Os atos administrativos são manifestações unilaterais da administração pública que visam produzir efeitos jurídicos imediatos, sendo instrumentos essenciais para a concretização das finalidades do Estado. Eles refletem o poder-dever da administração de organizar, disciplinar e executar políticas públicas, sempre pautados pelos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência. A compreensão dos atos administrativos é fundamental para garantir a regularidade das ações estatais e a proteção dos direitos dos cidadãos.`,
+            `Caracterizam-se por sua unilateralidade, já que são emitidos por um órgão ou agente público sem necessidade de concordância do destinatário, e pela presunção de legitimidade, que confere validade e eficácia imediata aos atos até que se comprove sua ilegalidade. Além disso, os atos administrativos podem ser classificados de acordo com seu conteúdo, finalidade e destinatário, assumindo formas variadas, como atos normativos, ordinatórios, negociais, enunciativos e punitivos.`,
+            `O estudo dos atos administrativos é crucial para a administração pública e para o controle jurídico sobre suas decisões. Conhecê-los permite compreender como o Estado exerce seu poder e estabelece relações com os administrados, assegurando que tais ações sejam realizadas dentro dos limites legais e em conformidade com os princípios que regem a função pública. Dessa forma, os atos administrativos se apresentam como pilares da organização e do funcionamento do serviço público, articulando autoridade e responsabilidade.`
+        ],
+        submaterias: [
+            {
+                texto: 'Ato Administrativo',
+                id: 'ato-administrativo',
+                introducao: 'O ato administrativo é uma decisão unilateral da Administração Pública que produz efeitos jurídicos imediatos, fundamentada na lei e no interesse público. Diferente de contratos ou acordos privados, ele não depende da concordância do destinatário e busca sempre atender ao bem comum. Seus efeitos são presumidos válidos, podendo ser executados diretamente pela administração, e suas formas variam conforme a finalidade, podendo ser normativos, ordinatórios, negociais, enunciativos ou punitivos.',
+                explicacao: [
+                    `O ato administrativo é uma manifestação de vontade da Administração Pública que se caracteriza por sua unilateralidade, ou seja, independe da concordância do destinatário para produzir efeitos jurídicos. Essa manifestação se fundamenta na lei e tem como objetivo atender ao interesse público, refletindo a função do Estado de organizar e disciplinar a vida social de acordo com normas jurídicas. Diferentemente dos contratos ou acordos privados, que exigem consenso entre as partes, o ato administrativo impõe decisões que devem ser cumpridas, sempre visando o bem comum e a eficiência na prestação de serviços públicos.`,
+                    `Além da unilateralidade, os atos administrativos possuem outras características essenciais, como a presunção de legitimidade, que significa que tais atos são considerados válidos e corretos até que se prove o contrário, e a autoexecutoriedade, que permite à Administração Pública executar suas decisões diretamente, sem necessidade de intervenção judicial imediata. Essas características garantem que o poder público possa agir de forma ágil e eficaz, mantendo a ordem e a regularidade das atividades estatais, ao mesmo tempo em que respeita os limites impostos pela legislação.`,
+                    `Os atos administrativos podem assumir diferentes formas, de acordo com sua finalidade e conteúdo. Podem ser normativos, quando estabelecem regras gerais; ordinatórios, quando disciplinam o funcionamento interno da Administração; negociais, quando manifestam concordância em certas situações previstas em lei; enunciativos, que atestam fatos ou direitos; e punitivos, quando aplicam sanções aos administrados. Essa classificação evidencia a diversidade e a complexidade dos atos administrativos, reforçando sua importância como instrumento de atuação do Estado para organizar, controlar e regulamentar relações jurídicas e sociais, sempre guiado pelo princípio do interesse público.`
+                ],
+                video: {
+                    titulo: `Ato Administrativo`,
+                    linkDoCanal: 'https://www.youtube.com/@MeJulga',
+                    idVideo: 'L2lXiq54qno'
+                },
+            },
+            {
+                texto: 'Elementos Essenciais do Ato Administrativo',
+                id: 'elementos-essenciais-do-ato-administrativo',
+                introducao: 'Os elementos essenciais do ato administrativo são os componentes indispensáveis que garantem a validade e a eficácia de qualquer decisão da Administração Pública. Representados pelo mnemônico COFIFI — Competência, Objeto, Forma, Finalidade e Motivo —, esses elementos asseguram que o ato seja praticado por quem tem autoridade legal, tenha um objetivo lícito e voltado ao interesse público, se manifeste de maneira adequada, tenha razões justificáveis e produza efeitos jurídicos claros. Compreender esses elementos é fundamental para garantir que os atos administrativos sejam legais, legítimos e eficazes.',
+                explicacao: [
+                    `Os elementos essenciais do ato administrativo são os componentes indispensáveis para que um ato seja considerado válido e produza efeitos jurídicos legítimos. Esses elementos podem ser lembrados pelo mnemônico COFIFI: Competência, Objeto, Forma, Finalidade e Motivo. Cada um desempenha um papel específico na conformidade do ato com a lei e na proteção do interesse público.`,
+                    `A competência refere-se ao poder legal que a lei confere a determinado agente público para praticar um ato. É um elemento vinculado, ou seja, definido pela legislação sem margem para escolha pessoal. Por exemplo, apenas o prefeito pode sancionar uma lei municipal; um secretário não possui essa prerrogativa. A titularidade da competência é intransferível, embora o exercício de certas atribuições possa ser delegado ou avocado temporariamente. A delegação ocorre quando uma autoridade transfere parte de suas funções a outra, sem afetar atos de competência exclusiva, atos normativos ou recursos administrativos. Já a avocação acontece quando uma autoridade superior assume a competência de um subordinado em caráter excepcional e temporário.`,
+                    `A finalidade é o objetivo que o ato busca atingir. Todo ato administrativo deve visar ao interesse público, sendo, portanto, um elemento também vinculado. Cada ato possui uma finalidade específica prevista em lei, como no caso de uma licitação, cujo objetivo é selecionar a proposta mais vantajosa para a Administração.`,
+                    `A forma diz respeito à maneira como o ato se manifesta e se torna perceptível, podendo ser escrita, oral ou até gestual, embora a escrita seja a mais comum. Trata-se de um elemento vinculado, pois a lei geralmente determina a forma adequada para cada ato. Por exemplo, a publicação de um edital em Diário Oficial é a forma exigida para divulgar um concurso público.`,
+                    `O motivo é a situação de fato e de direito que justifica a prática do ato, ou seja, a razão pela qual ele é praticado. É importante diferenciá-lo da motivação, que é a exposição escrita do motivo. Segundo a teoria dos motivos determinantes, se a Administração indica um motivo para o ato, ainda que não obrigatório, ele se vincula ao ato; se o motivo for falso ou inexistente, o ato torna-se nulo.`,
+                    `Por fim, o objeto ou conteúdo do ato administrativo corresponde ao efeito jurídico imediato que ele produz, ou seja, aquilo que o ato decide, ordena ou certifica. Deve ser lícito, possível, determinado e moral. Por exemplo, o objeto de um ato de nomeação é a investidura de uma pessoa em um cargo público. Cada um desses elementos garante que o ato administrativo seja legítimo, eficaz e alinhado ao interesse público.`
+                ],
+                video: {
+                    titulo: `Elementos Essenciais do Ato Administrativo`,
+                    linkDoCanal: 'https://www.youtube.com/c/T%C3%A1TudoMapeado',
+                    idVideo: 'e84jsyTf9t0'
+                },
+            },
+            {
+                texto: 'Atributos dos Atos Administrativos',
+                id: 'atributos-dos-atos-administrativos',
+                introducao: 'Os atributos dos atos administrativos são características que conferem validade, eficácia e força jurídica às decisões da Administração Pública. Entre esses atributos estão a presunção de legitimidade e veracidade, que garante que os atos sejam considerados válidos até prova em contrário; a imperatividade, que impõe obrigações mesmo sem concordância do destinatário; a autoexecutoriedade, que permite à Administração executar seus atos diretamente; e a tipicidade, que exige que todo ato esteja previsto em lei. Esses atributos asseguram que os atos administrativos cumpram seu papel de maneira eficiente, legal e protegendo o interesse público.',
+                explicacao: [
+                    `Os atributos dos atos administrativos são características próprias que conferem a esses atos a força necessária para que sejam reconhecidos como válidos, eficazes e legítimos, assegurando a atuação eficiente da Administração Pública. Diferentemente dos elementos essenciais, que constituem a base legal e formal do ato, os atributos refletem suas propriedades inerentes, permitindo que o Estado exerça suas funções de maneira eficaz e segura.`,
+                    `A presunção de legitimidade e veracidade indica que os atos administrativos são considerados válidos e verdadeiros até que se prove o contrário. Esse atributo garante segurança jurídica e celeridade na atuação estatal, permitindo que decisões públicas produzam efeitos imediatos, sem a necessidade de comprovação prévia de sua legalidade.`,
+                    `A imperatividade é a capacidade do ato administrativo de impor obrigações ou condutas a terceiros, mesmo sem o consentimento destes. Isso significa que certos atos têm força coercitiva, obrigando os administrados a cumpri-los, o que é essencial para manter a ordem e o interesse público. Vale destacar que nem todos os atos administrativos possuem esse atributo; atos de mera comunicação ou declaração não o têm.`,
+                    `A autoexecutoriedade permite que a Administração Pública execute diretamente seus próprios atos, sem recorrer ao Poder Judiciário, garantindo rapidez e efetividade. Esse atributo, contudo, depende de previsão legal ou se manifesta em situações de urgência, sendo limitado por princípios como legalidade e proporcionalidade.`,
+                    `Por fim, a tipicidade estabelece que todo ato administrativo deve estar previamente previsto em lei, correspondendo a um tipo legal definido. Não há ato administrativo legítimo sem respaldo legal, o que reforça o princípio da legalidade e protege os cidadãos contra arbitrariedades.`
+                ],
+                video: {
+                    titulo: `Atributos dos Atos Administrativos`,
+                    linkDoCanal: 'https://www.youtube.com/@direitodesenhado',
+                    idVideo: 'yR6y-IjgSfM'
+                },
+            },
+            {
+                texto: 'Classificação dos Atos Administrativos',
+                id: 'classificacao-dos-atos-administrativos',
+                introducao: 'A classificação dos atos administrativos organiza os diferentes tipos de decisões da Administração Pública, permitindo compreender sua natureza, efeitos e limites legais. Os atos podem ser classificados quanto à liberdade de ação, distinguindo-se em vinculados, quando a lei não deixa margem de escolha, e discricionários, quando o administrador pode decidir sobre conveniência e oportunidade. Também podem ser classificados quanto à formação da vontade administrativa, sendo simples, complexos ou compostos, conforme o número de órgãos envolvidos na sua edição. Essa classificação é essencial para entender como a Administração atua de forma legal, coordenada e eficiente.',
+                explicacao: [
+                    `A classificação dos atos administrativos permite compreender melhor a natureza e os efeitos das decisões tomadas pela Administração Pública, além de ser um tema recorrente em concursos. Essa classificação leva em conta diferentes critérios, como a liberdade de ação do administrador e a formação da vontade administrativa, possibilitando diferenciar atos conforme sua função, autonomia e complexidade.`,
+                    `Quanto à liberdade de ação, os atos administrativos podem ser vinculados ou discricionários. Os atos vinculados são aqueles em que a lei define todos os elementos essenciais — competência, finalidade, forma, motivo e objeto — sem deixar espaço para escolhas pessoais do agente. Nesses casos, a Administração apenas cumpre a lei, sem avaliar conveniência ou oportunidade. Já os atos discricionários concedem ao administrador uma margem de liberdade para decidir sobre o motivo e o objeto do ato, sempre dentro dos limites legais. Essa discricionariedade permite que a Administração avalie a conveniência e oportunidade da ação, adaptando-se a situações específicas, mas sem violar a lei.`,
+                    `Quanto à formação da vontade administrativa, os atos podem ser simples, complexos ou compostos. O ato simples resulta da manifestação de vontade de um único órgão ou autoridade, sendo autônomo e completo por si só. O ato complexo exige a convergência de vontades de dois ou mais órgãos; a decisão de um depende da concordância do outro para que o ato se realize. Já o ato composto envolve um órgão principal e um órgão acessório, em que o ato do órgão acessório serve de pressuposto ou requisito para a edição do ato principal. Essa classificação evidencia como a Administração organiza seus atos para garantir legalidade, eficácia e coordenação interna.`
+                ],
+                video: {
+                    titulo: `Classificação dos Atos Administrativos`,
+                    linkDoCanal: 'https://www.youtube.com/@professorrodrigomotta-dire1446',
+                    idVideo: 'Z6Xm4b653PA'
+                },
+            },
+            {
+                texto: 'Vícios dos Atos Administrativos',
+                id: 'vicios-dos-atos-administrativos',
+                introducao: 'Os vícios dos atos administrativos são defeitos que comprometem a validade das decisões da Administração Pública, podendo torná-las nulas ou anuláveis. Esses vícios estão relacionados aos elementos essenciais do ato — competência, finalidade, forma, motivo e objeto — e indicam situações em que o ato não respeita a lei ou o interesse público. Reconhecer esses vícios é fundamental para garantir a legalidade, a legitimidade e a proteção dos direitos dos cidadãos frente às ações do Estado.',
+                explicacao: [
+                    `Os vícios dos atos administrativos são defeitos que comprometem a validade dos atos praticados pela Administração Pública. Quando presentes, esses vícios podem tornar o ato nulo ou anulável, dependendo da gravidade e da possibilidade de correção. Eles estão diretamente relacionados aos elementos essenciais do ato administrativo — competência, finalidade, forma, motivo e objeto — e indicam situações em que a atuação do Estado não respeitou a lei ou o interesse público.`,
+                    `O vício de competência ocorre quando o ato é praticado por quem não possui atribuição legal para tal função, caracterizando excesso de poder. Em alguns casos, esse vício pode ser sanado por uma autoridade competente que ratifique o ato, exceto nos casos de competência exclusiva, que não admite substituição.`,
+                    `O vício de finalidade acontece quando o ato é praticado com objetivo diverso do interesse público, atendendo a interesses particulares ou fins ilegítimos, configurando o chamado desvio de poder. Esse tipo de vício compromete a legitimidade do ato e pode levar à sua anulação.`,
+                    `O vício de forma se dá quando o ato não segue as formalidades legais exigidas, como ausência de documentos, publicação ou assinatura obrigatória. Já o vício de motivo ocorre quando a justificativa apresentada para a prática do ato é falsa, inexistente ou juridicamente inadequada. A teoria dos motivos determinantes afirma que, se o motivo indicado vincula o ato e se provar incorreto, o ato torna-se inválido.`,
+                    `Por fim, o vício de objeto refere-se ao conteúdo do ato, que deve ser lícito, possível, determinado e moral. Quando o objeto do ato administrativo é contrário à lei, impossível de ser realizado, imoral ou indeterminado, o ato é considerado nulo. Compreender esses vícios é fundamental para garantir o controle da legalidade administrativa e proteger os direitos dos cidadãos frente às decisões do Estado.`
+                ],
+                video: {
+                    titulo: `Vícios dos Atos Administrativos`,
+                    linkDoCanal: 'https://www.youtube.com/@DireitoparaConcursoOficial',
+                    idVideo: 'NOeqQeLRDJw'
+                },
+            },
+            {
+                texto: 'Extinção dos Atos Administrativos',
+                id: 'extincao-dos-atos-administrativos',
+                introducao: 'A extinção dos atos administrativos trata das diversas formas pelas quais um ato perde seus efeitos ou deixa de produzir consequências jurídicas. Ela pode ocorrer naturalmente, quando o ato cumpre sua finalidade, ou por motivos legais, como caducidade, contraposição, cassação, revogação e anulação. Compreender essas modalidades é essencial para avaliar a validade, a eficácia e os limites das decisões da Administração Pública, garantindo que elas permaneçam alinhadas à lei e ao interesse público.',
+                explicacao: [
+                    `A extinção dos atos administrativos refere-se às formas pelas quais um ato perde seus efeitos ou deixa de produzir consequências jurídicas. A compreensão dessas modalidades é essencial para avaliar a duração, a validade e a eficácia das decisões da Administração Pública, assegurando que os atos estejam sempre alinhados à lei e ao interesse público.`,
+                    `O cumprimento da finalidade é a forma mais natural de extinção, ocorrendo quando o ato atinge seu objetivo e, consequentemente, deixa de ter razão de existir. Por exemplo, um ato de nomeação deixa de produzir efeitos com a aposentadoria do servidor ou quando ele é exonerado.`,
+                    `A caducidade ocorre quando um ato perde sua validade devido à superveniência de uma nova lei ou norma que o torna incompatível com o ordenamento jurídico. Já a contraposição acontece quando um novo ato administrativo é emitido e se sobrepõe ao ato anterior, tornando-o ineficaz.`,
+                    `A cassação é a forma de extinção aplicada quando o beneficiário do ato descumpre as condições impostas para a sua manutenção, como no caso de um alvará de funcionamento que é cancelado por descumprimento das normas legais. A revogação, por sua vez, ocorre quando a Administração decide extinguir um ato válido por questões de conveniência ou oportunidade, sem afetar direitos adquiridos.`,
+                    `Por fim, a anulação se dá quando um ato é considerado ilegal. Nesses casos, a anulação pode ser promovida pela própria Administração ou pelo Poder Judiciário, e atos anuláveis ou nulos não geram direitos aos administrados. A distinção entre revogação e anulação é essencial: enquanto a revogação se baseia na oportunidade e conveniência, a anulação decorre de ilegalidade.`
+                ],
+                video: {
+                    titulo: `Extinção dos Atos Administrativos`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfDalmoAzevedo',
+                    idVideo: 'uv1V6e598Dc'
+                },
+            },
+            {
+                texto: 'Anulação e Revogação',
+                id: 'anulacao-e-revogacao',
+                introducao: 'A distinção entre anulação e revogação é fundamental no Direito Administrativo, pois trata das formas pelas quais a Administração Pública pode extinguir atos. A anulação ocorre quando o ato é ilegal, tornando-o nulo desde sua origem, enquanto a revogação se aplica a atos válidos, mas que se tornaram inconvenientes ou inoportunos, produzindo efeitos apenas a partir do momento em que é realizada. Compreender essa diferença é essencial para avaliar a legalidade, a conveniência e os limites da atuação administrativa.',
+                explicacao: [
+                    `A diferença entre anulação e revogação é um tema essencial no estudo do Direito Administrativo, especialmente em concursos, pois envolve compreender como a Administração Pública pode extinguir atos de acordo com sua legalidade e conveniência.`,
+                    `A anulação ocorre quando o ato administrativo é considerado ilegal, ou seja, apresenta vícios que comprometem sua validade desde a origem. Por isso, seus efeitos são retroativos (ex tunc), fazendo com que o ato seja considerado nulo desde o momento em que foi praticado. A anulação pode ser realizada tanto pela própria Administração Pública quanto pelo Poder Judiciário, garantindo que atos ilegais não gerem efeitos ou direitos aos administrados.`,
+                    `Já a revogação se aplica a atos válidos, mas que se tornaram inconvenientes ou inoportunos diante de novas circunstâncias ou mudanças na política administrativa. Seus efeitos são não retroativos (ex nunc), ou seja, o ato deixa de produzir efeitos apenas a partir do momento da revogação, preservando direitos adquiridos anteriormente. A revogação é uma prerrogativa exclusiva da Administração Pública, que decide extinguir o ato com base na conveniência e oportunidade, e não em sua legalidade.`
+                ],
+                imagem: '/imagensResumo/anulacao-x-revogacao.png',
+                video: {
+                    titulo: `Anulação e Revogação`,
+                    linkDoCanal: 'https://www.youtube.com/@prof_ival',
+                    idVideo: 'lWkhy5gABLs'
+                },
+            },
+        ]
     },
     ["contratos-administrativos"]: {
         titulo: `Contratos Administrativos`,

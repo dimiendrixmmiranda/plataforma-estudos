@@ -7362,6 +7362,765 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
         ],
         justificativa: "Na prestação direta, o Estado assume total responsabilidade pelos serviços fornecidos à população.",
         categoriaDaPergunta: "formas-de-prestacao-dos-servicos-publicos"
+    },
+    {
+        enunciado: "O que é um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Manifestação unilateral do Estado destinada a produzir efeitos jurídicos", correto: true },
+            { conteudo: "Contrato entre particulares sem participação do Estado", correto: false },
+            { conteudo: "Atividade privada que gera obrigações legais", correto: false },
+            { conteudo: "Decisão judicial sem caráter administrativo", correto: false }
+        ],
+        justificativa: "Ato administrativo é uma declaração do Estado para produzir efeitos jurídicos com finalidade pública.",
+        categoriaDaPergunta: "ato-administrativo"
+    },
+    {
+        enunciado: "Qual é a finalidade do ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Produzir efeitos jurídicos e atender ao interesse público", correto: true },
+            { conteudo: "Atender apenas interesses privados", correto: false },
+            { conteudo: "Gerar lucro para empresas públicas", correto: false },
+            { conteudo: "Aplicar apenas normas internas do governo", correto: false }
+        ],
+        justificativa: "Todo ato administrativo visa a satisfação do interesse público, regulando direitos e deveres.",
+        categoriaDaPergunta: "ato-administrativo"
+    },
+    {
+        enunciado: "Quais são os elementos essenciais de um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Competência, finalidade, forma, motivo e objeto", correto: true },
+            { conteudo: "Lugar, tempo, testemunhas, contrato e assinatura", correto: false },
+            { conteudo: "Acordo, consentimento, contrato, cláusula e assinatura", correto: false },
+            { conteudo: "Direito, dever, obrigação, recurso e sanção", correto: false }
+        ],
+        justificativa: "Esses cinco elementos garantem a validade e legalidade do ato administrativo.",
+        categoriaDaPergunta: "ato-administrativo"
+    },
+    {
+        enunciado: "O que significa o elemento 'competência' em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Autoridade de quem pratica o ato, de acordo com a lei", correto: true },
+            { conteudo: "A área física onde o ato ocorre", correto: false },
+            { conteudo: "O objetivo final do ato", correto: false },
+            { conteudo: "O tempo em que o ato foi publicado", correto: false }
+        ],
+        justificativa: "A competência indica quem tem autoridade legal para praticar o ato administrativo.",
+        categoriaDaPergunta: "ato-administrativo"
+    },
+    {
+        enunciado: "O que significa o elemento 'finalidade' em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Objetivo público que o ato deve atingir", correto: true },
+            { conteudo: "O lucro que o ato gera para o Estado", correto: false },
+            { conteudo: "A competência do servidor que assina", correto: false },
+            { conteudo: "O prazo de validade do ato", correto: false }
+        ],
+        justificativa: "A finalidade indica que o ato deve sempre buscar o interesse público, evitando desvios de poder.",
+        categoriaDaPergunta: "ato-administrativo"
+    },
+    {
+        enunciado: "O que significa o elemento 'forma' em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Modo de exteriorização do ato, geralmente escrito ou formal", correto: true },
+            { conteudo: "O efeito econômico do ato", correto: false },
+            { conteudo: "O objetivo de beneficiar empresas privadas", correto: false },
+            { conteudo: "A assinatura do particular envolvido", correto: false }
+        ],
+        justificativa: "A forma garante validade e publicidade ao ato administrativo.",
+        categoriaDaPergunta: "ato-administrativo"
+    },
+    {
+        enunciado: "O que significa o elemento 'motivo' em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Circunstâncias fáticas e legais que justificam a prática do ato", correto: true },
+            { conteudo: "O interesse privado do servidor", correto: false },
+            { conteudo: "A autoridade de quem pratica o ato", correto: false },
+            { conteudo: "A duração do ato no tempo", correto: false }
+        ],
+        justificativa: "O motivo é a causa que legitima o ato administrativo, baseando-se em fatos e leis.",
+        categoriaDaPergunta: "ato-administrativo"
+    },
+    {
+        enunciado: "O que significa o elemento 'objeto' em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "O efeito jurídico que o ato pretende produzir", correto: true },
+            { conteudo: "O servidor que assina o ato", correto: false },
+            { conteudo: "O local onde o ato é publicado", correto: false },
+            { conteudo: "O interesse privado do cidadão", correto: false }
+        ],
+        justificativa: "O objeto corresponde ao conteúdo do ato, ou seja, a sua consequência jurídica.",
+        categoriaDaPergunta: "ato-administrativo"
+    },
+    {
+        enunciado: "Quais são os atributos dos atos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Presunção de legitimidade, imperatividade e autoexecutoriedade", correto: true },
+            { conteudo: "Gratuidade, discricionariedade e temporalidade", correto: false },
+            { conteudo: "Publicidade, obrigatoriedade e adaptabilidade", correto: false },
+            { conteudo: "Eficiência, legalidade e moralidade", correto: false }
+        ],
+        justificativa: "Esses atributos permitem que o ato produza efeitos legais imediatos e seja executado pelo Estado.",
+        categoriaDaPergunta: "ato-administrativo"
+    },
+    {
+        enunciado: "Qual a diferença entre ato vinculado e ato discricionário?",
+        arrayDeRespostas: [
+            { conteudo: "Ato vinculado tem sua decisão determinada por lei; ato discricionário permite margem de escolha do administrador", correto: true },
+            { conteudo: "Ato vinculado é opcional; ato discricionário é obrigatório", correto: false },
+            { conteudo: "Ato vinculado não gera efeitos jurídicos; ato discricionário sim", correto: false },
+            { conteudo: "Não existe diferença legal entre eles", correto: false }
+        ],
+        justificativa: "A distinção se dá pelo grau de liberdade do agente público ao praticar o ato administrativo.",
+        categoriaDaPergunta: "ato-administrativo"
+    },
+    {
+        enunciado: "Quais são os elementos essenciais do ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Competência, finalidade, forma, motivo e objeto", correto: true },
+            { conteudo: "Autoridade, tempo, local, testemunha e assinatura", correto: false },
+            { conteudo: "Contrato, consentimento, cláusula, assinatura e prazo", correto: false },
+            { conteudo: "Direito, dever, sanção, recurso e obrigação", correto: false }
+        ],
+        justificativa: "Esses elementos garantem a validade, legalidade e legitimidade do ato administrativo.",
+        categoriaDaPergunta: "elementos-essenciais-do-ato-administrativo"
+    },
+    {
+        enunciado: "O que é o elemento 'competência' em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "A autoridade legal do agente público para praticar o ato", correto: true },
+            { conteudo: "O objetivo final do ato", correto: false },
+            { conteudo: "O tempo em que o ato foi praticado", correto: false },
+            { conteudo: "O efeito econômico do ato", correto: false }
+        ],
+        justificativa: "Competência indica quem tem a autoridade legal para praticar o ato administrativo.",
+        categoriaDaPergunta: "elementos-essenciais-do-ato-administrativo"
+    },
+    {
+        enunciado: "O que é o elemento 'finalidade' em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "O objetivo público que o ato deve atingir", correto: true },
+            { conteudo: "A conveniência pessoal do servidor", correto: false },
+            { conteudo: "A duração do ato", correto: false },
+            { conteudo: "O local de execução do ato", correto: false }
+        ],
+        justificativa: "A finalidade garante que o ato administrativo busque o interesse público e não interesses particulares.",
+        categoriaDaPergunta: "elementos-essenciais-do-ato-administrativo"
+    },
+    {
+        enunciado: "O que significa o elemento 'forma' em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "O modo como o ato se exterioriza, geralmente escrito ou formal", correto: true },
+            { conteudo: "O conteúdo jurídico do ato", correto: false },
+            { conteudo: "O objetivo econômico do ato", correto: false },
+            { conteudo: "O prazo de validade do ato", correto: false }
+        ],
+        justificativa: "A forma assegura a validade e a publicidade do ato administrativo.",
+        categoriaDaPergunta: "elementos-essenciais-do-ato-administrativo"
+    },
+    {
+        enunciado: "O que é o elemento 'motivo' em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "As circunstâncias fáticas e jurídicas que justificam a prática do ato", correto: true },
+            { conteudo: "A autoridade de quem assina o ato", correto: false },
+            { conteudo: "O tempo de execução do ato", correto: false },
+            { conteudo: "O benefício financeiro gerado pelo ato", correto: false }
+        ],
+        justificativa: "O motivo é a causa que legitima o ato, baseada em fatos e normas legais.",
+        categoriaDaPergunta: "elementos-essenciais-do-ato-administrativo"
+    },
+    {
+        enunciado: "O que significa o elemento 'objeto' em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "O efeito jurídico que o ato pretende produzir", correto: true },
+            { conteudo: "O servidor que pratica o ato", correto: false },
+            { conteudo: "O local de publicação do ato", correto: false },
+            { conteudo: "O interesse privado do cidadão", correto: false }
+        ],
+        justificativa: "O objeto é o conteúdo ou resultado jurídico que o ato busca alcançar.",
+        categoriaDaPergunta: "elementos-essenciais-do-ato-administrativo"
+    },
+    {
+        enunciado: "Por que o elemento competência é essencial no ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Porque garante que apenas o agente autorizado legalmente pratique o ato", correto: true },
+            { conteudo: "Porque determina o lucro do ato", correto: false },
+            { conteudo: "Porque define a duração do ato", correto: false },
+            { conteudo: "Porque escolhe a forma de publicação do ato", correto: false }
+        ],
+        justificativa: "Sem competência, o ato é nulo, pois não teria legitimidade legal.",
+        categoriaDaPergunta: "elementos-essenciais-do-ato-administrativo"
+    },
+    {
+        enunciado: "Qual a importância do elemento finalidade?",
+        arrayDeRespostas: [
+            { conteudo: "Assegura que o ato atenda ao interesse público e não interesses privados", correto: true },
+            { conteudo: "Define apenas a forma de assinatura do ato", correto: false },
+            { conteudo: "Determina o local de execução do ato", correto: false },
+            { conteudo: "Não possui relevância prática", correto: false }
+        ],
+        justificativa: "A finalidade é o critério que distingue atos válidos de atos praticados com desvio de poder.",
+        categoriaDaPergunta: "elementos-essenciais-do-ato-administrativo"
+    },
+    {
+        enunciado: "O que acontece se faltar o elemento forma em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "O ato pode ser considerado inválido por não cumprir os requisitos legais de exteriorização", correto: true },
+            { conteudo: "O ato continua plenamente válido sem restrições", correto: false },
+            { conteudo: "O ato passa a ser voluntário", correto: false },
+            { conteudo: "O ato gera efeito apenas econômico", correto: false }
+        ],
+        justificativa: "A forma garante publicidade, controle e segurança jurídica na administração pública.",
+        categoriaDaPergunta: "elementos-essenciais-do-ato-administrativo"
+    },
+    {
+        enunciado: "Qual a função do elemento motivo em relação ao controle do ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Permite verificar se há legalidade e legitimidade na prática do ato", correto: true },
+            { conteudo: "Define apenas a competência do agente", correto: false },
+            { conteudo: "Serve apenas para registro interno sem efeito jurídico", correto: false },
+            { conteudo: "Determina o lucro obtido pelo Estado", correto: false }
+        ],
+        justificativa: "O motivo é essencial para que órgãos de controle possam avaliar a validade do ato administrativo.",
+        categoriaDaPergunta: "elementos-essenciais-do-ato-administrativo"
+    },
+    {
+        enunciado: "Quais são os principais atributos dos atos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Presunção de legitimidade, imperatividade e autoexecutoriedade", correto: true },
+            { conteudo: "Publicidade, temporalidade e discricionariedade", correto: false },
+            { conteudo: "Eficiência, moralidade e legalidade", correto: false },
+            { conteudo: "Competência, finalidade e forma", correto: false }
+        ],
+        justificativa: "Esses atributos permitem que o ato produza efeitos imediatos e seja executado pelo Estado.",
+        categoriaDaPergunta: "atributos-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que significa a presunção de legitimidade dos atos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "O ato é considerado válido até que se prove o contrário", correto: true },
+            { conteudo: "O ato não produz efeitos até ser homologado judicialmente", correto: false },
+            { conteudo: "O ato depende de concordância de terceiros", correto: false },
+            { conteudo: "O ato é sempre nulo por presunção legal", correto: false }
+        ],
+        justificativa: "Presume-se que o ato administrativo cumpre a lei e atende ao interesse público, até prova em contrário.",
+        categoriaDaPergunta: "atributos-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que significa a imperatividade dos atos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "O ato impõe obrigações independentemente da concordância do administrado", correto: true },
+            { conteudo: "O ato depende da assinatura do administrado para produzir efeito", correto: false },
+            { conteudo: "O ato é meramente recomendatório", correto: false },
+            { conteudo: "O ato só é válido após apreciação judicial", correto: false }
+        ],
+        justificativa: "Imperatividade significa que o ato obriga terceiros a cumprir suas determinações, sem necessidade de concordância.",
+        categoriaDaPergunta: "atributos-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que significa a autoexecutoriedade dos atos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "O Estado pode executá-los diretamente, sem necessidade de intervenção judicial", correto: true },
+            { conteudo: "O ato depende de ordem judicial para ser cumprido", correto: false },
+            { conteudo: "O ato é opcional para o administrado", correto: false },
+            { conteudo: "O ato só produz efeito após recurso administrativo", correto: false }
+        ],
+        justificativa: "Autoexecutoriedade permite que o Estado faça cumprir o ato de forma direta, garantindo eficácia imediata.",
+        categoriaDaPergunta: "atributos-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Qual atributo garante que terceiros devem cumprir o ato mesmo sem concordar com ele?",
+        arrayDeRespostas: [
+            { conteudo: "Imperatividade", correto: true },
+            { conteudo: "Presunção de legitimidade", correto: false },
+            { conteudo: "Autoexecutoriedade", correto: false },
+            { conteudo: "Finalidade", correto: false }
+        ],
+        justificativa: "A imperatividade assegura que o ato impõe obrigações de maneira unilateral pelo Estado.",
+        categoriaDaPergunta: "atributos-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Qual atributo protege o ato administrativo até que seja declarado nulo?",
+        arrayDeRespostas: [
+            { conteudo: "Presunção de legitimidade", correto: true },
+            { conteudo: "Imperatividade", correto: false },
+            { conteudo: "Autoexecutoriedade", correto: false },
+            { conteudo: "Legalidade", correto: false }
+        ],
+        justificativa: "A presunção de legitimidade garante que o ato seja considerado válido até que haja prova de ilegalidade.",
+        categoriaDaPergunta: "atributos-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Qual atributo permite que o Estado execute o ato diretamente sem recorrer ao Judiciário?",
+        arrayDeRespostas: [
+            { conteudo: "Autoexecutoriedade", correto: true },
+            { conteudo: "Imperatividade", correto: false },
+            { conteudo: "Presunção de legitimidade", correto: false },
+            { conteudo: "Publicidade", correto: false }
+        ],
+        justificativa: "A autoexecutoriedade dá ao Estado meios de fazer cumprir o ato de forma imediata.",
+        categoriaDaPergunta: "atributos-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Quais atributos permitem que o ato administrativo tenha eficácia imediata?",
+        arrayDeRespostas: [
+            { conteudo: "Presunção de legitimidade, imperatividade e autoexecutoriedade", correto: true },
+            { conteudo: "Finalidade, forma e objeto", correto: false },
+            { conteudo: "Competência, legalidade e moralidade", correto: false },
+            { conteudo: "Publicidade, obrigatoriedade e discricionariedade", correto: false }
+        ],
+        justificativa: "Esses atributos garantem que o ato produza efeitos jurídicos assim que praticado.",
+        categoriaDaPergunta: "atributos-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que acontece se faltar a imperatividade em um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "O ato perde a força de obrigar terceiros a cumpri-lo", correto: true },
+            { conteudo: "O ato deixa de ter forma escrita", correto: false },
+            { conteudo: "O ato deixa de ter competência", correto: false },
+            { conteudo: "O ato deixa de ter finalidade pública", correto: false }
+        ],
+        justificativa: "Sem imperatividade, o ato administrativo se torna meramente recomendatório, perdendo eficácia obrigatória.",
+        categoriaDaPergunta: "atributos-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que garante que o ato administrativo possa ser executado sem demora pelo Estado?",
+        arrayDeRespostas: [
+            { conteudo: "Autoexecutoriedade", correto: true },
+            { conteudo: "Presunção de legitimidade", correto: false },
+            { conteudo: "Imperatividade", correto: false },
+            { conteudo: "Finalidade", correto: false }
+        ],
+        justificativa: "A autoexecutoriedade assegura que o Estado possa impor diretamente os efeitos do ato.",
+        categoriaDaPergunta: "atributos-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Como os atos administrativos podem ser classificados quanto à sua validade?",
+        arrayDeRespostas: [
+            { conteudo: "Vinculados ou discricionários", correto: true },
+            { conteudo: "Obrigatórios ou facultativos", correto: false },
+            { conteudo: "Escritos ou verbais", correto: false },
+            { conteudo: "Diretos ou indiretos", correto: false }
+        ],
+        justificativa: "A classificação em vinculados ou discricionários se dá de acordo com a margem de liberdade do administrador.",
+        categoriaDaPergunta: "classificacao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que caracteriza um ato administrativo vinculado?",
+        arrayDeRespostas: [
+            { conteudo: "O agente deve praticar o ato conforme a lei, sem margem de escolha", correto: true },
+            { conteudo: "O agente tem total liberdade para decidir conforme conveniência", correto: false },
+            { conteudo: "O ato depende da autorização judicial para valer", correto: false },
+            { conteudo: "O ato é meramente recomendatório", correto: false }
+        ],
+        justificativa: "Nos atos vinculados, a lei determina todos os elementos do ato, não cabendo discricionariedade.",
+        categoriaDaPergunta: "classificacao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que caracteriza um ato administrativo discricionário?",
+        arrayDeRespostas: [
+            { conteudo: "O administrador possui margem de escolha quanto à conveniência e oportunidade", correto: true },
+            { conteudo: "O ato deve ser praticado exatamente como a lei determina", correto: false },
+            { conteudo: "O ato não produz efeitos jurídicos", correto: false },
+            { conteudo: "O ato depende de aprovação judicial para existir", correto: false }
+        ],
+        justificativa: "A discricionariedade permite ao agente público decidir dentro dos limites legais sobre como agir.",
+        categoriaDaPergunta: "classificacao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Como os atos administrativos podem ser classificados quanto aos efeitos que produzem?",
+        arrayDeRespostas: [
+            { conteudo: "Constitutivos, modificativos, declaratórios ou extintivos", correto: true },
+            { conteudo: "Obrigatórios ou facultativos", correto: false },
+            { conteudo: "Diretos ou indiretos", correto: false },
+            { conteudo: "Escritos ou verbais", correto: false }
+        ],
+        justificativa: "Essa classificação é baseada na consequência jurídica que cada ato produz.",
+        categoriaDaPergunta: "classificacao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é um ato administrativo constitutivo?",
+        arrayDeRespostas: [
+            { conteudo: "Cria um novo direito ou obrigação", correto: true },
+            { conteudo: "Extingue um direito existente", correto: false },
+            { conteudo: "Reconhece uma situação preexistente", correto: false },
+            { conteudo: "Modifica apenas aspectos internos do ato", correto: false }
+        ],
+        justificativa: "Os atos constitutivos originam direitos ou deveres novos para o administrado ou para o Estado.",
+        categoriaDaPergunta: "classificacao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é um ato administrativo modificativo?",
+        arrayDeRespostas: [
+            { conteudo: "Altera um direito ou obrigação já existente", correto: true },
+            { conteudo: "Cria um novo direito ou obrigação", correto: false },
+            { conteudo: "Declara a situação de fato ou de direito", correto: false },
+            { conteudo: "Extingue um direito existente", correto: false }
+        ],
+        justificativa: "O ato modificativo altera elementos de atos anteriores sem extingui-los completamente.",
+        categoriaDaPergunta: "classificacao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é um ato administrativo declaratório?",
+        arrayDeRespostas: [
+            { conteudo: "Reconhece uma situação de fato ou de direito existente", correto: true },
+            { conteudo: "Cria um novo direito ou obrigação", correto: false },
+            { conteudo: "Altera um ato anterior", correto: false },
+            { conteudo: "Extingue um direito ou obrigação", correto: false }
+        ],
+        justificativa: "O ato declaratório apenas confirma uma situação que já existe, sem criar ou modificar direitos.",
+        categoriaDaPergunta: "classificacao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é um ato administrativo extintivo?",
+        arrayDeRespostas: [
+            { conteudo: "Extingue direitos ou obrigações previamente existentes", correto: true },
+            { conteudo: "Cria um novo direito ou obrigação", correto: false },
+            { conteudo: "Reconhece um direito existente", correto: false },
+            { conteudo: "Modifica aspectos internos do ato", correto: false }
+        ],
+        justificativa: "Os atos extintivos têm como finalidade extinguir efeitos jurídicos que estavam em vigor.",
+        categoriaDaPergunta: "classificacao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Como os atos administrativos podem ser classificados quanto à forma de manifestação?",
+        arrayDeRespostas: [
+            { conteudo: "Escritos, verbais, solenes ou sigilosos", correto: true },
+            { conteudo: "Obrigatórios ou facultativos", correto: false },
+            { conteudo: "Diretos ou indiretos", correto: false },
+            { conteudo: "Vinculados ou discricionários", correto: false }
+        ],
+        justificativa: "A classificação quanto à forma depende do modo como o ato se exterioriza e é comunicado.",
+        categoriaDaPergunta: "classificacao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Um ato administrativo pode ser classificado de várias maneiras simultaneamente?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, por exemplo, um ato pode ser discricionário, constitutivo e escrito", correto: true },
+            { conteudo: "Não, só é possível uma classificação por vez", correto: false },
+            { conteudo: "Depende apenas da vontade do servidor", correto: false },
+            { conteudo: "Não, atos administrativos não possuem classificação", correto: false }
+        ],
+        justificativa: "Os atos podem ser classificados sob diferentes critérios: vinculado/discricionário, efeitos produzidos e forma de manifestação.",
+        categoriaDaPergunta: "classificacao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que são vícios dos atos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Irregularidades que afetam a validade ou eficácia do ato", correto: true },
+            { conteudo: "Exigências formais cumpridas corretamente", correto: false },
+            { conteudo: "Atos praticados de acordo com a lei", correto: false },
+            { conteudo: "Atos sem efeitos jurídicos irrelevantes", correto: false }
+        ],
+        justificativa: "Vícios podem tornar o ato anulável ou nulo, dependendo de sua gravidade.",
+        categoriaDaPergunta: "vicios-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Qual é a diferença entre ato nulo e ato anulável?",
+        arrayDeRespostas: [
+            { conteudo: "Ato nulo é inválido desde a origem; ato anulável pode ser convalidado", correto: true },
+            { conteudo: "Ato nulo é discreto; ato anulável é obrigatório", correto: false },
+            { conteudo: "Não há diferença legal entre eles", correto: false },
+            { conteudo: "Ato nulo depende de aprovação judicial; ato anulável não", correto: false }
+        ],
+        justificativa: "A nulidade decorre de vício grave; a anulabilidade de vício relativo que permite convalidação.",
+        categoriaDaPergunta: "vicios-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é vício de competência?",
+        arrayDeRespostas: [
+            { conteudo: "Quando o ato é praticado por agente sem autoridade legal", correto: true },
+            { conteudo: "Quando o ato é publicado incorretamente", correto: false },
+            { conteudo: "Quando o ato não possui objeto definido", correto: false },
+            { conteudo: "Quando o ato é praticado fora do horário legal", correto: false }
+        ],
+        justificativa: "A competência garante que apenas agentes legalmente autorizados pratiquem atos administrativos.",
+        categoriaDaPergunta: "vicios-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é vício de finalidade?",
+        arrayDeRespostas: [
+            { conteudo: "Quando o ato é praticado para fins diversos do interesse público", correto: true },
+            { conteudo: "Quando o ato não tem forma escrita", correto: false },
+            { conteudo: "Quando o ato carece de assinatura", correto: false },
+            { conteudo: "Quando o ato é discricionário", correto: false }
+        ],
+        justificativa: "A finalidade é essencial para que o ato sirva ao interesse público e não a interesses particulares.",
+        categoriaDaPergunta: "vicios-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é vício de forma?",
+        arrayDeRespostas: [
+            { conteudo: "Quando o ato não respeita a formalidade exigida por lei", correto: true },
+            { conteudo: "Quando o ato é praticado por agente competente", correto: false },
+            { conteudo: "Quando o ato tem finalidade pública", correto: false },
+            { conteudo: "Quando o ato é imperativo", correto: false }
+        ],
+        justificativa: "A forma é um elemento essencial do ato administrativo; sua ausência compromete a validade.",
+        categoriaDaPergunta: "vicios-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é vício de motivo?",
+        arrayDeRespostas: [
+            { conteudo: "Quando as circunstâncias ou fatos que justificam o ato são inexistentes ou falsos", correto: true },
+            { conteudo: "Quando o ato é escrito", correto: false },
+            { conteudo: "Quando o ato tem finalidade pública", correto: false },
+            { conteudo: "Quando o ato é vinculado", correto: false }
+        ],
+        justificativa: "O motivo deve ser verdadeiro e suficiente para legitimar o ato administrativo.",
+        categoriaDaPergunta: "vicios-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é vício de objeto?",
+        arrayDeRespostas: [
+            { conteudo: "Quando o conteúdo do ato é impossível, ilícito ou indeterminado", correto: true },
+            { conteudo: "Quando o ato é praticado no prazo correto", correto: false },
+            { conteudo: "Quando o ato é escrito formalmente", correto: false },
+            { conteudo: "Quando o ato é imperativo", correto: false }
+        ],
+        justificativa: "O objeto é essencial; se ilícito, impossível ou indeterminado, o ato é nulo.",
+        categoriaDaPergunta: "vicios-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é convalidação do ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Correção de vícios anuláveis, mantendo os efeitos do ato", correto: true },
+            { conteudo: "Extinção automática do ato nulo", correto: false },
+            { conteudo: "Publicação do ato em diário oficial", correto: false },
+            { conteudo: "Alteração da finalidade do ato", correto: false }
+        ],
+        justificativa: "Atos anuláveis podem ser convalidados se o vício for sanável e não houver prejuízo a terceiros.",
+        categoriaDaPergunta: "vicios-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Quais vícios tornam um ato administrativo nulo de pleno direito?",
+        arrayDeRespostas: [
+            { conteudo: "Ilicitude do objeto, falta de competência e finalidade contrária à lei", correto: true },
+            { conteudo: "Erros de digitação, pequenas omissões e detalhes formais", correto: false },
+            { conteudo: "Atos praticados no prazo legal", correto: false },
+            { conteudo: "Atos publicados em diário oficial", correto: false }
+        ],
+        justificativa: "Vícios graves comprometem a validade do ato, tornando-o nulo de pleno direito.",
+        categoriaDaPergunta: "vicios-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que diferencia um ato anulável de um ato nulo?",
+        arrayDeRespostas: [
+            { conteudo: "O ato anulável possui vício relativo que pode ser convalidado; o ato nulo possui vício absoluto", correto: true },
+            { conteudo: "O ato anulável é sempre inválido; o ato nulo pode ser corrigido", correto: false },
+            { conteudo: "Não existe diferença legal", correto: false },
+            { conteudo: "O ato anulável não produz efeitos; o ato nulo sim", correto: false }
+        ],
+        justificativa: "A distinção se dá pelo grau de gravidade do vício presente no ato administrativo.",
+        categoriaDaPergunta: "vicios-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que significa a extinção de um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Quando o ato deixa de produzir efeitos jurídicos", correto: true },
+            { conteudo: "Quando o ato é praticado com vício", correto: false },
+            { conteudo: "Quando o ato é publicado em diário oficial", correto: false },
+            { conteudo: "Quando o ato é apenas recomendado", correto: false }
+        ],
+        justificativa: "A extinção ocorre quando o ato administrativo perde sua eficácia, seja por cumprimento, revogação ou anulação.",
+        categoriaDaPergunta: "extincao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Quais são as formas de extinção dos atos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Cumprimento, revogação, anulação, caducidade e desaparecimento do objeto", correto: true },
+            { conteudo: "Publicação, assinatura, competência, finalidade e forma", correto: false },
+            { conteudo: "Obrigatoriedade, presunção, autoexecutoriedade, imperatividade e publicidade", correto: false },
+            { conteudo: "Vinculado, discricionário, constitutivo, declaratório e extintivo", correto: false }
+        ],
+        justificativa: "Essas são as principais hipóteses que fazem o ato perder seus efeitos jurídicos.",
+        categoriaDaPergunta: "extincao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é a revogação de um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Retirada do ato pelo próprio poder público por conveniência e oportunidade", correto: true },
+            { conteudo: "Correção de vício de legalidade no ato", correto: false },
+            { conteudo: "Cumprimento das obrigações do ato", correto: false },
+            { conteudo: "Reconhecimento de direitos do administrado", correto: false }
+        ],
+        justificativa: "A revogação é realizada por motivos de oportunidade e conveniência, não por ilegalidade.",
+        categoriaDaPergunta: "extincao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é a anulação de um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Declaração de nulidade do ato por ilegalidade", correto: true },
+            { conteudo: "Extinção do ato por conveniência da administração", correto: false },
+            { conteudo: "Cumprimento das obrigações do ato", correto: false },
+            { conteudo: "Publicação do ato em diário oficial", correto: false }
+        ],
+        justificativa: "A anulação ocorre quando há vícios de legalidade, competência, finalidade ou forma.",
+        categoriaDaPergunta: "extincao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é caducidade de um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Perda de eficácia por alteração da lei ou norma que o originou", correto: true },
+            { conteudo: "Cumprimento integral do ato", correto: false },
+            { conteudo: "Revogação por conveniência", correto: false },
+            { conteudo: "Erro formal na assinatura do ato", correto: false }
+        ],
+        justificativa: "Caducidade ocorre quando a norma que sustentava o ato deixa de existir ou é modificada.",
+        categoriaDaPergunta: "extincao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que significa a extinção por cumprimento do ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Quando o objetivo do ato é totalmente alcançado e não há mais efeitos a produzir", correto: true },
+            { conteudo: "Quando o ato é publicado em diário oficial", correto: false },
+            { conteudo: "Quando o ato é considerado nulo", correto: false },
+            { conteudo: "Quando o ato é apenas recomendado", correto: false }
+        ],
+        justificativa: "Cumprimento é a forma natural de extinção, ao atingir o fim a que se destinava.",
+        categoriaDaPergunta: "extincao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "O que é desaparecimento do objeto de um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Quando o objetivo do ato deixa de existir ou torna-se impossível de alcançar", correto: true },
+            { conteudo: "Quando o ato é praticado com vício", correto: false },
+            { conteudo: "Quando o ato é declarado discricionário", correto: false },
+            { conteudo: "Quando o ato é publicado em diário oficial", correto: false }
+        ],
+        justificativa: "Se o objeto do ato não existe mais, não há como o ato produzir efeitos.",
+        categoriaDaPergunta: "extincao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Qual a diferença entre anulação e revogação de um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Anulação ocorre por ilegalidade; revogação por conveniência e oportunidade", correto: true },
+            { conteudo: "Anulação é voluntária; revogação é obrigatória", correto: false },
+            { conteudo: "Não há diferença entre elas", correto: false },
+            { conteudo: "Revogação depende de aprovação judicial; anulação não", correto: false }
+        ],
+        justificativa: "A anulação busca corrigir ilegalidades, enquanto a revogação busca atender à conveniência administrativa.",
+        categoriaDaPergunta: "extincao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Um ato administrativo pode ser extinto por mais de uma causa simultaneamente?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, por exemplo, um ato pode ser revogado e desaparecer seu objeto ao mesmo tempo", correto: true },
+            { conteudo: "Não, só uma causa de extinção é possível por ato", correto: false },
+            { conteudo: "Depende da vontade do servidor responsável", correto: false },
+            { conteudo: "Não, atos administrativos não podem ser extintos", correto: false }
+        ],
+        justificativa: "Os atos podem ter múltiplas causas de extinção, dependendo das circunstâncias.",
+        categoriaDaPergunta: "extincao-dos-atos-administrativos"
+    },
+    {
+        enunciado: "Qual é a diferença principal entre anulação e revogação de atos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Anulação ocorre por ilegalidade; revogação por conveniência e oportunidade", correto: true },
+            { conteudo: "Anulação é feita pelo Judiciário; revogação é feita pelo legislativo", correto: false },
+            { conteudo: "Anulação é temporária; revogação é definitiva", correto: false },
+            { conteudo: "Não há diferença entre anulação e revogação", correto: false }
+        ],
+        justificativa: "A anulação corrige ilegalidades, enquanto a revogação atende ao interesse público de forma discricionária.",
+        categoriaDaPergunta: "anulacao-e-revogacao"
+    },
+    {
+        enunciado: "Quem pode anular um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "O próprio órgão que o praticou ou autoridade competente", correto: true },
+            { conteudo: "Qualquer cidadão", correto: false },
+            { conteudo: "Somente o Poder Judiciário", correto: false },
+            { conteudo: "O presidente da República exclusivamente", correto: false }
+        ],
+        justificativa: "A anulação pode ser realizada pela própria administração ou pelo Judiciário em caso de ilegalidade.",
+        categoriaDaPergunta: "anulacao-e-revogacao"
+    },
+    {
+        enunciado: "A revogação de um ato administrativo depende de vício de legalidade?",
+        arrayDeRespostas: [
+            { conteudo: "Não, depende apenas de conveniência e oportunidade", correto: true },
+            { conteudo: "Sim, sempre depende de vício de legalidade", correto: false },
+            { conteudo: "Sim, depende de decisão judicial", correto: false },
+            { conteudo: "Não, depende de consenso do legislativo", correto: false }
+        ],
+        justificativa: "A revogação é um ato discricionário baseado em interesses da administração, não em ilegalidade.",
+        categoriaDaPergunta: "anulacao-e-revogacao"
+    },
+    {
+        enunciado: "Um ato administrativo revogado produz efeitos retroativos?",
+        arrayDeRespostas: [
+            { conteudo: "Não, a revogação tem efeito apenas prospectivo", correto: true },
+            { conteudo: "Sim, anula todos os efeitos passados", correto: false },
+            { conteudo: "Depende da vontade do servidor responsável", correto: false },
+            { conteudo: "Depende da publicação no diário oficial", correto: false }
+        ],
+        justificativa: "A revogação não afeta atos já consumados, produz efeito somente a partir de sua publicação.",
+        categoriaDaPergunta: "anulacao-e-revogacao"
+    },
+    {
+        enunciado: "Um ato administrativo anulado produz efeitos retroativos?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, os efeitos do ato considerado ilegal são eliminados desde a origem", correto: true },
+            { conteudo: "Não, a anulação só vale para o futuro", correto: false },
+            { conteudo: "Depende da conveniência da administração", correto: false },
+            { conteudo: "Depende da aprovação judicial", correto: false }
+        ],
+        justificativa: "A anulação elimina os efeitos do ato desde sua prática, devido à ilegalidade.",
+        categoriaDaPergunta: "anulacao-e-revogacao"
+    },
+    {
+        enunciado: "A revogação pode ser aplicada a atos vinculados?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, desde que não haja violação de direitos adquiridos", correto: true },
+            { conteudo: "Não, atos vinculados nunca podem ser revogados", correto: false },
+            { conteudo: "Depende da análise judicial", correto: false },
+            { conteudo: "Sim, mas apenas com aprovação do legislativo", correto: false }
+        ],
+        justificativa: "Atos vinculados podem ser revogados por conveniência, respeitados direitos adquiridos.",
+        categoriaDaPergunta: "anulacao-e-revogacao"
+    },
+    {
+        enunciado: "Qual é a finalidade da anulação de um ato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Corrigir ilegalidades e preservar a legalidade administrativa", correto: true },
+            { conteudo: "Atender conveniência e oportunidade do gestor", correto: false },
+            { conteudo: "Modificar o objeto do ato", correto: false },
+            { conteudo: "Publicar o ato em diário oficial", correto: false }
+        ],
+        justificativa: "A anulação garante que os atos praticados com vício de legalidade não produzam efeitos.",
+        categoriaDaPergunta: "anulacao-e-revogacao"
+    },
+    {
+        enunciado: "A revogação de atos administrativos discricionários depende de avaliação de:",
+        arrayDeRespostas: [
+            { conteudo: "Oportunidade e conveniência", correto: true },
+            { conteudo: "Ilegalidade", correto: false },
+            { conteudo: "Competência judicial", correto: false },
+            { conteudo: "Assinatura do interessado", correto: false }
+        ],
+        justificativa: "Atos discricionários podem ser revogados por decisão da administração considerando o interesse público.",
+        categoriaDaPergunta: "anulacao-e-revogacao"
+    },
+    {
+        enunciado: "A anulação de um ato administrativo pode ser feita a qualquer tempo?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, não há prazo para anular ato ilegal", correto: true },
+            { conteudo: "Não, só dentro de 30 dias", correto: false },
+            { conteudo: "Não, depende de autorização judicial", correto: false },
+            { conteudo: "Depende da conveniência da administração", correto: false }
+        ],
+        justificativa: "Atos ilegais podem ser anulados a qualquer tempo para resguardar a legalidade.",
+        categoriaDaPergunta: "anulacao-e-revogacao"
+    },
+    {
+        enunciado: "A revogação pode afetar direitos adquiridos pelo administrado?",
+        arrayDeRespostas: [
+            { conteudo: "Não, direitos adquiridos são protegidos", correto: true },
+            { conteudo: "Sim, sempre afeta direitos adquiridos", correto: false },
+            { conteudo: "Sim, se houver autorização judicial", correto: false },
+            { conteudo: "Depende da conveniência da administração", correto: false }
+        ],
+        justificativa: "A revogação não retroage para prejudicar direitos já constituídos ou adquiridos pelo administrado.",
+        categoriaDaPergunta: "anulacao-e-revogacao"
     }
 ]
 
@@ -7456,4 +8215,11 @@ export {
  * principios-especificos-dos-servicos-publicos
  * classificacao-dos-servicos-publicos
  * formas-de-prestacao-dos-servicos-publicos
+ * ato-administrativo
+ * elementos-essenciais-do-ato-administrativo
+ * atributos-dos-atos-administrativos
+ * classificacao-dos-atos-administrativos
+ * vicios-dos-atos-administrativos
+ * extincao-dos-atos-administrativos
+ * anulacao-e-revogacao
  */

@@ -8121,7 +8121,1107 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
         ],
         justificativa: "A revogação não retroage para prejudicar direitos já constituídos ou adquiridos pelo administrado.",
         categoriaDaPergunta: "anulacao-e-revogacao"
-    }
+    },
+    {
+        enunciado: "O que caracteriza um contrato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Acordo de vontades entre Administração Pública e particular, regulado por normas administrativas e de direito público", correto: true },
+            { conteudo: "Qualquer acordo de vontades entre particulares", correto: false },
+            { conteudo: "Acordo entre órgãos públicos sem participação de terceiros", correto: false },
+            { conteudo: "Documento apenas formal, sem efeitos jurídicos", correto: false }
+        ],
+        justificativa: "Os contratos administrativos possuem normas especiais que diferem dos contratos de direito privado.",
+        categoriaDaPergunta: "conceito-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual é a finalidade principal dos contratos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Atender ao interesse público e à finalidade administrativa", correto: true },
+            { conteudo: "Beneficiar apenas a empresa contratada", correto: false },
+            { conteudo: "Garantir lucro máximo para a Administração", correto: false },
+            { conteudo: "Formalizar um acordo sem validade jurídica", correto: false }
+        ],
+        justificativa: "O contrato administrativo existe para que a Administração alcance seus objetivos, garantindo eficiência e legalidade.",
+        categoriaDaPergunta: "conceito-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Quem são as partes de um contrato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "A Administração Pública e um particular ou empresa", correto: true },
+            { conteudo: "Dois particulares quaisquer", correto: false },
+            { conteudo: "Dois órgãos públicos do mesmo ente federativo", correto: false },
+            { conteudo: "Um sindicato e uma empresa privada", correto: false }
+        ],
+        justificativa: "O contrato envolve a Administração Pública e um particular para realização de serviços ou fornecimento de bens.",
+        categoriaDaPergunta: "conceito-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual é a diferença entre contrato administrativo e contrato privado?",
+        arrayDeRespostas: [
+            { conteudo: "O contrato administrativo é regulado por normas de direito público, enquanto o privado segue o direito civil", correto: true },
+            { conteudo: "Não há diferença, ambos seguem as mesmas regras civis", correto: false },
+            { conteudo: "O contrato privado só é válido se registrado em cartório", correto: false },
+            { conteudo: "O contrato administrativo não precisa de formalidades", correto: false }
+        ],
+        justificativa: "Os contratos administrativos possuem prerrogativas e restrições especiais em relação ao direito público.",
+        categoriaDaPergunta: "conceito-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Um contrato administrativo pode ser alterado unilateralmente?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, a Administração pode modificar cláusulas para atender ao interesse público", correto: true },
+            { conteudo: "Não, alterações só podem ser feitas com acordo das partes", correto: false },
+            { conteudo: "Não, nunca é permitido alterar cláusulas", correto: false },
+            { conteudo: "Sim, mas apenas por decisão judicial", correto: false }
+        ],
+        justificativa: "A Administração possui prerrogativas como alteração unilateral para melhor atender ao interesse público.",
+        categoriaDaPergunta: "conceito-de-contratos-administrativos"
+    },
+    {
+        enunciado: "O que significa que contratos administrativos possuem cláusulas exorbitantes?",
+        arrayDeRespostas: [
+            { conteudo: "A Administração possui poderes especiais que não existem em contratos privados", correto: true },
+            { conteudo: "As cláusulas são ilegais e nulas", correto: false },
+            { conteudo: "São cláusulas opcionais para o particular", correto: false },
+            { conteudo: "São cláusulas que favorecem apenas a empresa contratada", correto: false }
+        ],
+        justificativa: "Cláusulas exorbitantes conferem à Administração prerrogativas como alteração, fiscalização e rescisão unilateral.",
+        categoriaDaPergunta: "conceito-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Quais tipos de objetos podem ser contratados pela Administração Pública?",
+        arrayDeRespostas: [
+            { conteudo: "Bens, serviços e obras", correto: true },
+            { conteudo: "Apenas obras públicas", correto: false },
+            { conteudo: "Apenas serviços internos", correto: false },
+            { conteudo: "Somente bens de consumo", correto: false }
+        ],
+        justificativa: "A Administração pode contratar qualquer objeto necessário à execução de sua função, respeitando a lei.",
+        categoriaDaPergunta: "conceito-de-contratos-administrativos"
+    },
+    {
+        enunciado: "O contrato administrativo é sempre celebrado por escrito?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, deve ser formalizado por escrito para ter validade", correto: true },
+            { conteudo: "Não, pode ser verbal em qualquer situação", correto: false },
+            { conteudo: "Não, somente contratos privados precisam ser escritos", correto: false },
+            { conteudo: "Sim, mas apenas quando ultrapassar R$ 10.000", correto: false }
+        ],
+        justificativa: "A formalização escrita garante segurança jurídica e possibilidade de fiscalização.",
+        categoriaDaPergunta: "conceito-de-contratos-administrativos"
+    },
+    {
+        enunciado: "O que é essencial para a validade de um contrato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Legalidade, objeto lícito e forma prescrita em lei", correto: true },
+            { conteudo: "Apenas a assinatura das partes", correto: false },
+            { conteudo: "A aprovação do legislativo", correto: false },
+            { conteudo: "A divulgação em meios de comunicação", correto: false }
+        ],
+        justificativa: "A validade depende de respeito às normas legais, ao objeto do contrato e à forma exigida.",
+        categoriaDaPergunta: "conceito-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Contratos administrativos podem gerar responsabilidade civil ao particular contratado?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, por inadimplemento ou execução inadequada", correto: true },
+            { conteudo: "Não, apenas a Administração é responsável", correto: false },
+            { conteudo: "Não, responsabilidade civil não se aplica a contratos administrativos", correto: false },
+            { conteudo: "Sim, mas somente em casos criminais", correto: false }
+        ],
+        justificativa: "O contratado responde pelos danos ou descumprimento das obrigações pactuadas.",
+        categoriaDaPergunta: "conceito-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual é uma característica fundamental dos contratos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Possuir cláusulas exorbitantes que conferem poderes especiais à Administração", correto: true },
+            { conteudo: "Ser sempre sigiloso e secreto", correto: false },
+            { conteudo: "Não possuir qualquer formalidade legal", correto: false },
+            { conteudo: "Ter duração indeterminada sem fiscalização", correto: false }
+        ],
+        justificativa: "Cláusulas exorbitantes permitem à Administração alterar, fiscalizar ou rescindir o contrato unilateralmente, preservando o interesse público.",
+        categoriaDaPergunta: "caracteristicas-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "Os contratos administrativos possuem natureza jurídica de:",
+        arrayDeRespostas: [
+            { conteudo: "Direito público, subordinados a normas legais especiais", correto: true },
+            { conteudo: "Direito privado, seguindo apenas regras civis", correto: false },
+            { conteudo: "Direito penal, pois implicam sanções criminais", correto: false },
+            { conteudo: "Direito tributário, pois envolvem pagamentos de taxas", correto: false }
+        ],
+        justificativa: "Os contratos administrativos têm natureza de direito público, com prerrogativas e restrições específicas.",
+        categoriaDaPergunta: "caracteristicas-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A possibilidade de alteração unilateral do contrato pela Administração é:",
+        arrayDeRespostas: [
+            { conteudo: "Uma característica dos contratos administrativos", correto: true },
+            { conteudo: "Proibida em todas as situações", correto: false },
+            { conteudo: "Exclusiva dos contratos privados", correto: false },
+            { conteudo: "Permitida apenas se houver concordância do particular", correto: false }
+        ],
+        justificativa: "A Administração pode alterar cláusulas do contrato para atender ao interesse público, respeitando limites legais.",
+        categoriaDaPergunta: "caracteristicas-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A execução fiscal e controle pelo poder público é uma característica dos contratos administrativos porque:",
+        arrayDeRespostas: [
+            { conteudo: "Garante legalidade, eficiência e fiscalização dos serviços prestados", correto: true },
+            { conteudo: "Visa exclusivamente o lucro da empresa contratada", correto: false },
+            { conteudo: "Evita que o contrato seja escrito", correto: false },
+            { conteudo: "Substitui a necessidade de licitação", correto: false }
+        ],
+        justificativa: "A fiscalização permite que a Administração acompanhe o cumprimento do contrato e proteja o interesse público.",
+        categoriaDaPergunta: "caracteristicas-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "Os contratos administrativos são dotados de presunção de:",
+        arrayDeRespostas: [
+            { conteudo: "Legitimidade e veracidade", correto: true },
+            { conteudo: "Ilegalidade e nulidade", correto: false },
+            { conteudo: "Sigilo absoluto", correto: false },
+            { conteudo: "Irrevogabilidade", correto: false }
+        ],
+        justificativa: "Presumem-se legais e corretos, cabendo à Administração ou interessado comprovar vícios ou irregularidades.",
+        categoriaDaPergunta: "caracteristicas-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A continuidade do serviço contratado é uma característica porque:",
+        arrayDeRespostas: [
+            { conteudo: "Garantia que serviços públicos essenciais não sejam interrompidos", correto: true },
+            { conteudo: "A Administração pode rescindir a qualquer momento sem motivo", correto: false },
+            { conteudo: "O contrato não precisa ser fiscalizado", correto: false },
+            { conteudo: "A empresa pode alterar o objeto sem autorização", correto: false }
+        ],
+        justificativa: "A continuidade assegura que o serviço público seja prestado de forma ininterrupta.",
+        categoriaDaPergunta: "caracteristicas-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A formalidade dos contratos administrativos significa que:",
+        arrayDeRespostas: [
+            { conteudo: "Devem ser celebrados por escrito e obedecer às normas legais", correto: true },
+            { conteudo: "Podem ser apenas verbais, sem registro oficial", correto: false },
+            { conteudo: "Não necessitam assinatura das partes", correto: false },
+            { conteudo: "A Administração não precisa cumprir prazos", correto: false }
+        ],
+        justificativa: "A formalização escrita é essencial para validade, publicidade e fiscalização do contrato.",
+        categoriaDaPergunta: "caracteristicas-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "Os contratos administrativos podem gerar responsabilidades ao contratado porque:",
+        arrayDeRespostas: [
+            { conteudo: "O particular responde por inadimplemento ou execução inadequada do contrato", correto: true },
+            { conteudo: "O particular nunca tem responsabilidade, só a Administração", correto: false },
+            { conteudo: "A responsabilidade depende apenas de aprovação judicial", correto: false },
+            { conteudo: "A responsabilidade se limita a cláusulas verbais", correto: false }
+        ],
+        justificativa: "A execução adequada do contrato é obrigatória; descumprimento gera responsabilidade civil ou administrativa.",
+        categoriaDaPergunta: "caracteristicas-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A unilateralidade do contrato administrativo significa que:",
+        arrayDeRespostas: [
+            { conteudo: "A Administração pode impor alterações ou fiscalizar o contrato de forma exclusiva", correto: true },
+            { conteudo: "O particular pode modificar unilateralmente o contrato", correto: false },
+            { conteudo: "Não há necessidade de fiscalização do contrato", correto: false },
+            { conteudo: "O contrato não precisa ser escrito", correto: false }
+        ],
+        justificativa: "A Administração possui prerrogativas especiais para resguardar o interesse público.",
+        categoriaDaPergunta: "caracteristicas-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "Os contratos administrativos possuem interesse público porque:",
+        arrayDeRespostas: [
+            { conteudo: "Atendem finalidades da Administração e direitos da coletividade", correto: true },
+            { conteudo: "São celebrados exclusivamente para lucro do particular", correto: false },
+            { conteudo: "Servem apenas para formalidade documental", correto: false },
+            { conteudo: "Não precisam respeitar normas legais", correto: false }
+        ],
+        justificativa: "O interesse público é a base que legitima todas as prerrogativas e obrigações nos contratos administrativos.",
+        categoriaDaPergunta: "caracteristicas-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual é o tipo de contrato administrativo utilizado para aquisição de bens pela Administração Pública?",
+        arrayDeRespostas: [
+            { conteudo: "Contrato de fornecimento", correto: true },
+            { conteudo: "Contrato de obra", correto: false },
+            { conteudo: "Contrato de prestação de serviço", correto: false },
+            { conteudo: "Contrato de comodato", correto: false }
+        ],
+        justificativa: "O contrato de fornecimento é destinado à aquisição de bens móveis necessários à Administração.",
+        categoriaDaPergunta: "tipos-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual contrato administrativo é utilizado para a execução de obras públicas?",
+        arrayDeRespostas: [
+            { conteudo: "Contrato de obra", correto: true },
+            { conteudo: "Contrato de fornecimento", correto: false },
+            { conteudo: "Contrato de serviço contínuo", correto: false },
+            { conteudo: "Contrato de comodato", correto: false }
+        ],
+        justificativa: "O contrato de obra destina-se à construção, reforma, manutenção ou restauração de obras públicas.",
+        categoriaDaPergunta: "tipos-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual tipo de contrato administrativo tem como objetivo a execução de atividades sem fornecimento de bens materiais?",
+        arrayDeRespostas: [
+            { conteudo: "Contrato de prestação de serviços", correto: true },
+            { conteudo: "Contrato de fornecimento", correto: false },
+            { conteudo: "Contrato de obra", correto: false },
+            { conteudo: "Contrato de comodato", correto: false }
+        ],
+        justificativa: "Contratos de serviços têm por objeto a execução de atividades que não envolvem entrega de bens.",
+        categoriaDaPergunta: "tipos-de-contratos-administrativos"
+    },
+    {
+        enunciado: "O contrato de gestão é utilizado principalmente para:",
+        arrayDeRespostas: [
+            { conteudo: "Gestão de órgãos ou entidades públicas com metas de desempenho", correto: true },
+            { conteudo: "Fornecimento de produtos ao setor privado", correto: false },
+            { conteudo: "Execução de obras civis privadas", correto: false },
+            { conteudo: "Contrato entre particulares sem interesse público", correto: false }
+        ],
+        justificativa: "O contrato de gestão define metas e responsabilidades para a administração de entidades públicas.",
+        categoriaDaPergunta: "tipos-de-contratos-administrativos"
+    },
+    {
+        enunciado: "O contrato de parceria público-privada (PPP) tem como característica:",
+        arrayDeRespostas: [
+            { conteudo: "A cooperação entre Administração Pública e iniciativa privada para serviços ou obras de interesse público", correto: true },
+            { conteudo: "Ser exclusivo para fornecimento de bens materiais", correto: false },
+            { conteudo: "Não gerar responsabilidade civil ao particular", correto: false },
+            { conteudo: "Ser usado apenas em contratos internos da Administração", correto: false }
+        ],
+        justificativa: "As PPPs envolvem risco compartilhado e têm como finalidade atender interesses públicos com recursos privados.",
+        categoriaDaPergunta: "tipos-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual tipo de contrato administrativo envolve a locação de bens móveis ou imóveis para uso da Administração?",
+        arrayDeRespostas: [
+            { conteudo: "Contrato de locação", correto: true },
+            { conteudo: "Contrato de obra", correto: false },
+            { conteudo: "Contrato de prestação de serviço", correto: false },
+            { conteudo: "Contrato de fornecimento", correto: false }
+        ],
+        justificativa: "O contrato de locação permite que a Administração utilize bens sem precisar adquiri-los.",
+        categoriaDaPergunta: "tipos-de-contratos-administrativos"
+    },
+    {
+        enunciado: "O contrato de comodato consiste em:",
+        arrayDeRespostas: [
+            { conteudo: "Em empréstimo gratuito de bens, sem transferência de propriedade", correto: true },
+            { conteudo: "Compra de bens de terceiros com transferência de propriedade", correto: false },
+            { conteudo: "Prestação de serviços contínuos", correto: false },
+            { conteudo: "Execução de obras civis", correto: false }
+        ],
+        justificativa: "Comodato é o empréstimo gratuito de bens, caracterizado pela devolução após uso.",
+        categoriaDaPergunta: "tipos-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual contrato administrativo envolve concessão de serviço público a particulares?",
+        arrayDeRespostas: [
+            { conteudo: "Contrato de concessão", correto: true },
+            { conteudo: "Contrato de fornecimento", correto: false },
+            { conteudo: "Contrato de comodato", correto: false },
+            { conteudo: "Contrato de gestão", correto: false }
+        ],
+        justificativa: "O contrato de concessão transfere a prestação de serviço público a particular mediante regulamentação legal.",
+        categoriaDaPergunta: "tipos-de-contratos-administrativos"
+    },
+    {
+        enunciado: "O contrato administrativo de prestação de serviços contínuos se diferencia porque:",
+        arrayDeRespostas: [
+            { conteudo: "Tem execução prolongada e contínua, como limpeza ou vigilância", correto: true },
+            { conteudo: "É sempre de curto prazo", correto: false },
+            { conteudo: "Envolve apenas entrega de bens", correto: false },
+            { conteudo: "Não pode ser fiscalizado pela Administração", correto: false }
+        ],
+        justificativa: "Serviços contínuos exigem contrato de longo prazo com manutenção da prestação ao longo do tempo.",
+        categoriaDaPergunta: "tipos-de-contratos-administrativos"
+    },
+    {
+        enunciado: "O contrato de fornecimento parcelado é utilizado quando:",
+        arrayDeRespostas: [
+            { conteudo: "A Administração adquire bens em lotes ou etapas ao longo do tempo", correto: true },
+            { conteudo: "A Administração executa obras únicas", correto: false },
+            { conteudo: "Serviços contínuos não são necessários", correto: false },
+            { conteudo: "É um contrato de comodato", correto: false }
+        ],
+        justificativa: "Fornecimento parcelado permite que os bens sejam entregues em etapas, facilitando planejamento e execução.",
+        categoriaDaPergunta: "tipos-de-contratos-administrativos"
+    },
+    {
+        enunciado: "Qual é a primeira fase da contratação administrativa?",
+        arrayDeRespostas: [
+            { conteudo: "Planejamento da contratação", correto: true },
+            { conteudo: "Execução do contrato", correto: false },
+            { conteudo: "Fiscalização do contrato", correto: false },
+            { conteudo: "Pagamento do fornecedor", correto: false }
+        ],
+        justificativa: "O planejamento define a necessidade, o objeto e as condições da contratação, sendo a fase inicial.",
+        categoriaDaPergunta: "fases-da-contratacao-administrativa"
+    },
+    {
+        enunciado: "A fase de licitação tem como objetivo:",
+        arrayDeRespostas: [
+            { conteudo: "Selecionar a proposta mais vantajosa para a Administração Pública", correto: true },
+            { conteudo: "Executar o contrato", correto: false },
+            { conteudo: "Assinar o contrato sem análise de propostas", correto: false },
+            { conteudo: "Efetuar pagamento imediato ao fornecedor", correto: false }
+        ],
+        justificativa: "A licitação é a fase em que a Administração seleciona a melhor proposta em condições de igualdade.",
+        categoriaDaPergunta: "fases-da-contratacao-administrativa"
+    },
+    {
+        enunciado: "Qual fase antecede a assinatura do contrato administrativo?",
+        arrayDeRespostas: [
+            { conteudo: "Julgamento e homologação da licitação", correto: true },
+            { conteudo: "Execução do contrato", correto: false },
+            { conteudo: "Fiscalização do contrato", correto: false },
+            { conteudo: "Planejamento do pagamento", correto: false }
+        ],
+        justificativa: "Após julgamento e homologação da licitação, ocorre a assinatura do contrato formalizando a contratação.",
+        categoriaDaPergunta: "fases-da-contratacao-administrativa"
+    },
+    {
+        enunciado: "A fase de execução do contrato envolve:",
+        arrayDeRespostas: [
+            { conteudo: "Cumprimento das obrigações contratuais por ambas as partes", correto: true },
+            { conteudo: "Planejamento da licitação", correto: false },
+            { conteudo: "Somente o pagamento ao contratado", correto: false },
+            { conteudo: "Registro do processo sem execução", correto: false }
+        ],
+        justificativa: "Nesta fase, o contratado presta o serviço ou fornece o bem, e a Administração acompanha e fiscaliza.",
+        categoriaDaPergunta: "fases-da-contratacao-administrativa"
+    },
+    {
+        enunciado: "A fiscalização do contrato administrativo tem como objetivo:",
+        arrayDeRespostas: [
+            { conteudo: "Garantir que o contrato seja executado conforme as condições pactuadas", correto: true },
+            { conteudo: "Permitir alterações ilimitadas pelo contratado", correto: false },
+            { conteudo: "Substituir a fase de licitação", correto: false },
+            { conteudo: "Evitar pagamento ao contratado", correto: false }
+        ],
+        justificativa: "A fiscalização assegura que os serviços ou bens contratados atendam aos padrões e prazos previstos.",
+        categoriaDaPergunta: "fases-da-contratacao-administrativa"
+    },
+    {
+        enunciado: "A fase de pagamento ocorre:",
+        arrayDeRespostas: [
+            { conteudo: "Após a execução do contrato e verificação da conformidade", correto: true },
+            { conteudo: "Antes da assinatura do contrato", correto: false },
+            { conteudo: "Durante o planejamento da contratação", correto: false },
+            { conteudo: "Sem necessidade de fiscalização", correto: false }
+        ],
+        justificativa: "O pagamento é feito somente após a Administração confirmar que o contrato foi cumprido corretamente.",
+        categoriaDaPergunta: "fases-da-contratacao-administrativa"
+    },
+    {
+        enunciado: "O planejamento da contratação inclui:",
+        arrayDeRespostas: [
+            { conteudo: "Definição do objeto, estimativa de preços e pesquisa de mercado", correto: true },
+            { conteudo: "Execução dos serviços sem análise prévia", correto: false },
+            { conteudo: "Assinatura imediata do contrato", correto: false },
+            { conteudo: "Pagamento antecipado sem licitação", correto: false }
+        ],
+        justificativa: "O planejamento é crucial para garantir a eficiência, legalidade e economicidade da contratação.",
+        categoriaDaPergunta: "fases-da-contratacao-administrativa"
+    },
+    {
+        enunciado: "Qual fase da contratação administrativa garante a transparência e legalidade do processo?",
+        arrayDeRespostas: [
+            { conteudo: "Licitação", correto: true },
+            { conteudo: "Execução do contrato", correto: false },
+            { conteudo: "Pagamento", correto: false },
+            { conteudo: "Planejamento interno sem divulgação", correto: false }
+        ],
+        justificativa: "A licitação assegura competição justa, transparência e escolha da proposta mais vantajosa.",
+        categoriaDaPergunta: "fases-da-contratacao-administrativa"
+    },
+    {
+        enunciado: "A fase de encerramento do contrato administrativo envolve:",
+        arrayDeRespostas: [
+            { conteudo: "Verificação final do cumprimento das obrigações e liquidação de responsabilidades", correto: true },
+            { conteudo: "Início da licitação para novo contrato", correto: false },
+            { conteudo: "Assinatura do contrato", correto: false },
+            { conteudo: "Planejamento inicial do objeto", correto: false }
+        ],
+        justificativa: "O encerramento formaliza que todas as obrigações foram cumpridas e encerra as responsabilidades das partes.",
+        categoriaDaPergunta: "fases-da-contratacao-administrativa"
+    },
+    {
+        enunciado: "A homologação do processo licitatório significa:",
+        arrayDeRespostas: [
+            { conteudo: "Validação e aprovação do resultado da licitação pela autoridade competente", correto: true },
+            { conteudo: "Início da execução do contrato sem análise", correto: false },
+            { conteudo: "Pagamento ao contratado sem entrega", correto: false },
+            { conteudo: "Planejamento do objeto sem licitação", correto: false }
+        ],
+        justificativa: "A homologação confirma que o processo foi conduzido de acordo com a lei, permitindo a assinatura do contrato.",
+        categoriaDaPergunta: "fases-da-contratacao-administrativa"
+    },
+    {
+        enunciado: "O que são cláusulas exorbitantes em contratos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Cláusulas que conferem poderes especiais à Administração, além do que seria comum em contratos privados", correto: true },
+            { conteudo: "Cláusulas que obrigam apenas o contratado a cumprir regras civis", correto: false },
+            { conteudo: "Cláusulas que tornam o contrato inválido automaticamente", correto: false },
+            { conteudo: "Cláusulas opcionais para o contratado", correto: false }
+        ],
+        justificativa: "As cláusulas exorbitantes permitem à Administração alterar, fiscalizar ou rescindir unilateralmente o contrato, protegendo o interesse público.",
+        categoriaDaPergunta: "clausulas-exorbitantes"
+    },
+    {
+        enunciado: "Qual é uma prerrogativa conferida à Administração pelas cláusulas exorbitantes?",
+        arrayDeRespostas: [
+            { conteudo: "Alteração unilateral do contrato para atender ao interesse público", correto: true },
+            { conteudo: "Exigir que o contratado ignore normas legais", correto: false },
+            { conteudo: "Evitar fiscalização do contrato", correto: false },
+            { conteudo: "Permitir que o contratado modifique cláusulas sem aviso", correto: false }
+        ],
+        justificativa: "A Administração pode ajustar cláusulas quando necessário para o cumprimento do interesse público, respeitando limites legais.",
+        categoriaDaPergunta: "clausulas-exorbitantes"
+    },
+    {
+        enunciado: "As cláusulas exorbitantes permitem à Administração:",
+        arrayDeRespostas: [
+            { conteudo: "Rescindir unilateralmente o contrato em caso de interesse público ou descumprimento", correto: true },
+            { conteudo: "Cancelar o contrato sem motivo legal", correto: false },
+            { conteudo: "Transferir a execução do contrato a terceiros sem aviso", correto: false },
+            { conteudo: "Evitar cumprir obrigações financeiras", correto: false }
+        ],
+        justificativa: "A rescisão unilateral protege o interesse público quando o contratado descumpre obrigações ou há necessidade administrativa.",
+        categoriaDaPergunta: "clausulas-exorbitantes"
+    },
+    {
+        enunciado: "A fiscalização direta do cumprimento das obrigações pelo contratado é:",
+        arrayDeRespostas: [
+            { conteudo: "Uma característica conferida pelas cláusulas exorbitantes", correto: true },
+            { conteudo: "Uma obrigação exclusiva do contratado", correto: false },
+            { conteudo: "Opcional para a Administração", correto: false },
+            { conteudo: "Proibida por lei", correto: false }
+        ],
+        justificativa: "A Administração pode monitorar e controlar a execução do contrato para garantir conformidade com o objeto contratado.",
+        categoriaDaPergunta: "clausulas-exorbitantes"
+    },
+    {
+        enunciado: "O poder de aplicar sanções ao contratado em caso de descumprimento do contrato é:",
+        arrayDeRespostas: [
+            { conteudo: "Uma prerrogativa derivada das cláusulas exorbitantes", correto: true },
+            { conteudo: "Vedada em contratos administrativos", correto: false },
+            { conteudo: "Exclusiva de contratos privados", correto: false },
+            { conteudo: "Não possui fundamento legal", correto: false }
+        ],
+        justificativa: "As cláusulas exorbitantes conferem à Administração poder de multar, suspender ou rescindir contratos quando necessário.",
+        categoriaDaPergunta: "clausulas-exorbitantes"
+    },
+    {
+        enunciado: "A modificação unilateral do contrato pode ocorrer apenas quando:",
+        arrayDeRespostas: [
+            { conteudo: "Houver interesse público ou necessidade de adequação do objeto", correto: true },
+            { conteudo: "O contratado solicitar, sem análise da Administração", correto: false },
+            { conteudo: "A Administração quiser sem justificativa", correto: false },
+            { conteudo: "For contrato privado", correto: false }
+        ],
+        justificativa: "A alteração unilateral deve respeitar os limites legais e visar sempre ao interesse público.",
+        categoriaDaPergunta: "clausulas-exorbitantes"
+    },
+    {
+        enunciado: "As cláusulas exorbitantes distinguem os contratos administrativos dos contratos privados porque:",
+        arrayDeRespostas: [
+            { conteudo: "Conferem prerrogativas especiais à Administração, ausentes no direito privado", correto: true },
+            { conteudo: "Eliminam a necessidade de pagamento ao contratado", correto: false },
+            { conteudo: "Tornam o contrato inválido automaticamente", correto: false },
+            { conteudo: "Impedem a fiscalização do contrato", correto: false }
+        ],
+        justificativa: "Essas prerrogativas permitem que a Administração proteja o interesse público e exerça controle sobre o contrato.",
+        categoriaDaPergunta: "clausulas-exorbitantes"
+    },
+    {
+        enunciado: "O contrato administrativo com cláusulas exorbitantes permite:",
+        arrayDeRespostas: [
+            { conteudo: "Garantir cumprimento do objeto e atender ao interesse público com poderes especiais", correto: true },
+            { conteudo: "Evitar o cumprimento das obrigações contratuais", correto: false },
+            { conteudo: "Aumentar arbitrariamente os preços pagos ao contratado", correto: false },
+            { conteudo: "Eximir a Administração de responsabilidade legal", correto: false }
+        ],
+        justificativa: "As cláusulas exorbitantes são instrumentos para assegurar que o contrato cumpra suas finalidades públicas.",
+        categoriaDaPergunta: "clausulas-exorbitantes"
+    },
+    {
+        enunciado: "Qual das opções abaixo NÃO é uma prerrogativa conferida pelas cláusulas exorbitantes?",
+        arrayDeRespostas: [
+            { conteudo: "O contratado alterar unilateralmente o objeto do contrato", correto: true },
+            { conteudo: "Alteração unilateral pelo interesse público", correto: false },
+            { conteudo: "Fiscalização direta do cumprimento das obrigações", correto: false },
+            { conteudo: "Rescisão unilateral em caso de descumprimento", correto: false }
+        ],
+        justificativa: "Somente a Administração tem prerrogativas especiais; o contratado não pode alterar o contrato unilateralmente.",
+        categoriaDaPergunta: "clausulas-exorbitantes"
+    },
+    {
+        enunciado: "As cláusulas exorbitantes estão previstas em qual legislação brasileira?",
+        arrayDeRespostas: [
+            { conteudo: "Lei nº 8.666/1993 (Lei de Licitações e Contratos Administrativos)", correto: true },
+            { conteudo: "Código Civil", correto: false },
+            { conteudo: "Lei do Consumidor", correto: false },
+            { conteudo: "Constituição Federal apenas", correto: false }
+        ],
+        justificativa: "A Lei 8.666/1993 estabelece regras sobre contratos administrativos, incluindo cláusulas exorbitantes.",
+        categoriaDaPergunta: "clausulas-exorbitantes"
+    },
+    {
+        enunciado: "Qual é uma forma de extinção dos contratos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Rescisão", correto: true },
+            { conteudo: "Início da execução", correto: false },
+            { conteudo: "Fiscalização contínua", correto: false },
+            { conteudo: "Alteração unilateral", correto: false }
+        ],
+        justificativa: "A rescisão é uma das formas previstas para extinguir contratos administrativos, podendo ocorrer por interesse público ou inadimplemento.",
+        categoriaDaPergunta: "extincao-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A extinção por rescisão pode ser motivada por:",
+        arrayDeRespostas: [
+            { conteudo: "Inadimplemento do contratado ou interesse público", correto: true },
+            { conteudo: "Solicitação do contratado apenas", correto: false },
+            { conteudo: "Alteração do objeto sem justificativa", correto: false },
+            { conteudo: "Fiscalização deficiente", correto: false }
+        ],
+        justificativa: "A rescisão pode ocorrer por descumprimento do contrato ou conveniência administrativa.",
+        categoriaDaPergunta: "extincao-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A rescisão unilateral é prerrogativa de quem?",
+        arrayDeRespostas: [
+            { conteudo: "Da Administração Pública", correto: true },
+            { conteudo: "Do contratado", correto: false },
+            { conteudo: "De órgãos de controle externo apenas", correto: false },
+            { conteudo: "Do Poder Legislativo", correto: false }
+        ],
+        justificativa: "A Administração pode rescindir unilateralmente contratos administrativos para atender ao interesse público.",
+        categoriaDaPergunta: "extincao-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A extinção por acordo ocorre quando:",
+        arrayDeRespostas: [
+            { conteudo: "Ambas as partes concordam em encerrar o contrato", correto: true },
+            { conteudo: "Somente a Administração decide encerrar", correto: false },
+            { conteudo: "O contratado deixa de cumprir suas obrigações", correto: false },
+            { conteudo: "O contrato é alterado unilateralmente", correto: false }
+        ],
+        justificativa: "O término por acordo exige consenso entre Administração e contratado.",
+        categoriaDaPergunta: "extincao-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "O término do contrato pelo cumprimento total do objeto é chamado de:",
+        arrayDeRespostas: [
+            { conteudo: "Extinção natural ou adimplemento", correto: true },
+            { conteudo: "Rescisão unilateral", correto: false },
+            { conteudo: "Rescisão judicial", correto: false },
+            { conteudo: "Extinção por inadimplemento", correto: false }
+        ],
+        justificativa: "Quando todas as obrigações contratuais são cumpridas, o contrato se extingue naturalmente.",
+        categoriaDaPergunta: "extincao-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A rescisão amigável é:",
+        arrayDeRespostas: [
+            { conteudo: "Quando as partes acordam voluntariamente a extinção do contrato", correto: true },
+            { conteudo: "Quando apenas a Administração impõe o fim do contrato", correto: false },
+            { conteudo: "Quando o contratado descumpre o contrato", correto: false },
+            { conteudo: "Quando há execução parcial do contrato", correto: false }
+        ],
+        justificativa: "A rescisão amigável ocorre mediante consenso entre Administração e contratado, sem litígio.",
+        categoriaDaPergunta: "extincao-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A rescisão por culpa do contratado ocorre quando:",
+        arrayDeRespostas: [
+            { conteudo: "O contratado descumpre cláusulas contratuais ou obrigações legais", correto: true },
+            { conteudo: "A Administração decide encerrar sem motivo", correto: false },
+            { conteudo: "O contrato é cumprido integralmente", correto: false },
+            { conteudo: "Há acordo entre as partes", correto: false }
+        ],
+        justificativa: "Descumprimento pelo contratado, como atraso ou má execução, justifica rescisão por culpa.",
+        categoriaDaPergunta: "extincao-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A extinção por interesse público é aplicada quando:",
+        arrayDeRespostas: [
+            { conteudo: "A Administração identifica conveniência ou oportunidade para encerrar o contrato", correto: true },
+            { conteudo: "O contratado cumpre todas as obrigações", correto: false },
+            { conteudo: "Há descumprimento do contrato pelo contratado", correto: false },
+            { conteudo: "O contrato é privado e sem interesse público", correto: false }
+        ],
+        justificativa: "A Administração pode rescindir contratos para atender ao interesse público, mesmo sem culpa do contratado.",
+        categoriaDaPergunta: "extincao-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "A rescisão judicial ocorre quando:",
+        arrayDeRespostas: [
+            { conteudo: "Há disputa judicial sobre o descumprimento ou validade do contrato", correto: true },
+            { conteudo: "As partes decidem de comum acordo", correto: false },
+            { conteudo: "O contrato se cumpre integralmente", correto: false },
+            { conteudo: "A Administração rescinde unilateralmente sem litígio", correto: false }
+        ],
+        justificativa: "Quando há conflito sobre execução ou obrigações, a extinção do contrato pode ser determinada judicialmente.",
+        categoriaDaPergunta: "extincao-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "O aditamento ou prorrogação do contrato administrativo:",
+        arrayDeRespostas: [
+            { conteudo: "Não extingue o contrato, apenas altera ou estende suas condições", correto: true },
+            { conteudo: "Extingue o contrato imediatamente", correto: false },
+            { conteudo: "É ilegal em qualquer circunstância", correto: false },
+            { conteudo: "Sempre ocorre de forma unilateral pelo contratado", correto: false }
+        ],
+        justificativa: "O aditamento modifica ou prorroga o contrato, sem extingui-lo, mantendo a vigência do ajuste original.",
+        categoriaDaPergunta: "extincao-dos-contratos-administrativos"
+    },
+    {
+        enunciado: "O que são sanções administrativas?",
+        arrayDeRespostas: [
+            { conteudo: "Medidas aplicadas pela Administração para punir o descumprimento de normas ou contratos", correto: true },
+            { conteudo: "Benefícios concedidos a servidores por desempenho", correto: false },
+            { conteudo: "Acordos voluntários entre particulares", correto: false },
+            { conteudo: "Remuneração adicional por produtividade", correto: false }
+        ],
+        justificativa: "Sanções administrativas são instrumentos legais para punir infrações cometidas por servidores, fornecedores ou empresas contratadas.",
+        categoriaDaPergunta: "sancoes-administrativas"
+    },
+    {
+        enunciado: "Qual é uma sanção administrativa comum aplicada a fornecedores que descumprem contrato?",
+        arrayDeRespostas: [
+            { conteudo: "Multa", correto: true },
+            { conteudo: "Promoção automática", correto: false },
+            { conteudo: "Bonificação financeira", correto: false },
+            { conteudo: "Transferência de função", correto: false }
+        ],
+        justificativa: "A multa é aplicada para penalizar o descumprimento das obrigações contratuais pelo fornecedor.",
+        categoriaDaPergunta: "sancoes-administrativas"
+    },
+    {
+        enunciado: "A suspensão temporária de participar em licitações é uma sanção administrativa destinada a:",
+        arrayDeRespostas: [
+            { conteudo: "Empresas ou pessoas que descumprirem normas legais ou contratuais", correto: true },
+            { conteudo: "Servidores com bom desempenho", correto: false },
+            { conteudo: "Empresas que cumprem todos os contratos", correto: false },
+            { conteudo: "Clientes que não utilizam serviços públicos", correto: false }
+        ],
+        justificativa: "A suspensão impede temporariamente que o infrator participe de novos processos licitatórios.",
+        categoriaDaPergunta: "sancoes-administrativas"
+    },
+    {
+        enunciado: "A declaração de inidoneidade impede que:",
+        arrayDeRespostas: [
+            { conteudo: "Uma empresa participe de licitações ou celebre contratos com a Administração", correto: true },
+            { conteudo: "O servidor receba férias", correto: false },
+            { conteudo: "Um cidadão acesse serviços públicos", correto: false },
+            { conteudo: "A Administração suspenda contratos", correto: false }
+        ],
+        justificativa: "A inidoneidade é uma sanção que afasta a empresa do mercado público devido a irregularidades graves.",
+        categoriaDaPergunta: "sancoes-administrativas"
+    },
+    {
+        enunciado: "A advertência é uma sanção administrativa aplicada quando:",
+        arrayDeRespostas: [
+            { conteudo: "O ato infracional é leve e não causa grandes prejuízos", correto: true },
+            { conteudo: "Há descumprimento grave de contrato", correto: false },
+            { conteudo: "Há má-fé comprovada em licitação", correto: false },
+            { conteudo: "O servidor recebe bônus por produtividade", correto: false }
+        ],
+        justificativa: "A advertência é usada para corrigir condutas leves, sem penalidades severas.",
+        categoriaDaPergunta: "sancoes-administrativas"
+    },
+    {
+        enunciado: "As sanções administrativas podem ser aplicadas a:",
+        arrayDeRespostas: [
+            { conteudo: "Servidores públicos, empresas e particulares que descumprirem normas", correto: true },
+            { conteudo: "Somente servidores civis", correto: false },
+            { conteudo: "Somente empresas privadas", correto: false },
+            { conteudo: "Cidadãos sem vínculo com contratos administrativos", correto: false }
+        ],
+        justificativa: "A lei prevê sanções para diferentes sujeitos que infringirem normas ou obrigações legais.",
+        categoriaDaPergunta: "sancoes-administrativas"
+    },
+    {
+        enunciado: "A multa administrativa é calculada geralmente:",
+        arrayDeRespostas: [
+            { conteudo: "Em percentual sobre o valor do contrato ou obrigação descumprida", correto: true },
+            { conteudo: "Como benefício financeiro ao contratado", correto: false },
+            { conteudo: "Como valor fixo sem relação ao contrato", correto: false },
+            { conteudo: "Somente após ação judicial", correto: false }
+        ],
+        justificativa: "O valor da multa é proporcional ao contrato e à gravidade da infração, conforme previsto em lei.",
+        categoriaDaPergunta: "sancoes-administrativas"
+    },
+    {
+        enunciado: "A suspensão de direitos ou funções administrativas pode ocorrer em casos de:",
+        arrayDeRespostas: [
+            { conteudo: "Descumprimento de normas por servidores ou contratados", correto: true },
+            { conteudo: "Execução correta de contratos", correto: false },
+            { conteudo: "Cumprimento de obrigações legais", correto: false },
+            { conteudo: "Participação em licitações regulares", correto: false }
+        ],
+        justificativa: "A suspensão visa punir infrações graves e impedir temporariamente o exercício de certas atividades.",
+        categoriaDaPergunta: "sancoes-administrativas"
+    },
+    {
+        enunciado: "A aplicação de sanções administrativas deve respeitar:",
+        arrayDeRespostas: [
+            { conteudo: "Os princípios da legalidade, proporcionalidade e devido processo legal", correto: true },
+            { conteudo: "Somente a vontade da autoridade administrativa", correto: false },
+            { conteudo: "A conveniência do contratado", correto: false },
+            { conteudo: "A urgência do serviço sem análise legal", correto: false }
+        ],
+        justificativa: "As sanções devem observar a lei e princípios fundamentais do direito administrativo.",
+        categoriaDaPergunta: "sancoes-administrativas"
+    },
+    {
+        enunciado: "A inabilitação em licitações futuras é aplicada quando:",
+        arrayDeRespostas: [
+            { conteudo: "Uma empresa comete infrações graves, como fraude ou inadimplência contratual", correto: true },
+            { conteudo: "A empresa cumpre rigorosamente o contrato", correto: false },
+            { conteudo: "O servidor realiza suas funções corretamente", correto: false },
+            { conteudo: "O contrato termina naturalmente por adimplemento", correto: false }
+        ],
+        justificativa: "A inabilitação impede que empresas infratoras participem de licitações futuras, protegendo o interesse público.",
+        categoriaDaPergunta: "sancoes-administrativas"
+    },
+    {
+        enunciado: "Qual é o princípio que obriga a Administração a agir conforme a lei nas licitações?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Legalidade", correto: true },
+            { conteudo: "Princípio da Impessoalidade", correto: false },
+            { conteudo: "Princípio da Publicidade", correto: false },
+            { conteudo: "Princípio da Moralidade", correto: false }
+        ],
+        justificativa: "A legalidade é a base de toda a atuação administrativa, garantindo que a licitação respeite a lei.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual princípio assegura que não haja favorecimento ou perseguição entre os licitantes?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Impessoalidade", correto: true },
+            { conteudo: "Princípio da Economicidade", correto: false },
+            { conteudo: "Princípio da Razoabilidade", correto: false },
+            { conteudo: "Princípio da Eficiência", correto: false }
+        ],
+        justificativa: "A impessoalidade garante igualdade de tratamento e evita discriminações.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "O princípio que garante que o julgamento da proposta seja feito sem critérios subjetivos é:",
+        arrayDeRespostas: [
+            { conteudo: "Princípio do Julgamento Objetivo", correto: true },
+            { conteudo: "Princípio da Competitividade", correto: false },
+            { conteudo: "Princípio da Transparência", correto: false },
+            { conteudo: "Princípio da Isonomia", correto: false }
+        ],
+        justificativa: "O julgamento objetivo evita subjetividade e garante clareza nos critérios de avaliação.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual princípio obriga que todas as etapas da licitação sejam públicas e acessíveis?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Publicidade", correto: true },
+            { conteudo: "Princípio da Probidade Administrativa", correto: false },
+            { conteudo: "Princípio da Eficiência", correto: false },
+            { conteudo: "Princípio da Moralidade", correto: false }
+        ],
+        justificativa: "A publicidade garante transparência e controle social.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual princípio busca a melhor utilização dos recursos públicos com o menor custo possível?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Economicidade", correto: true },
+            { conteudo: "Princípio da Impessoalidade", correto: false },
+            { conteudo: "Princípio da Vinculação ao Edital", correto: false },
+            { conteudo: "Princípio da Razoabilidade", correto: false }
+        ],
+        justificativa: "A economicidade garante uso racional dos recursos para benefício público.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual princípio obriga o gestor a seguir as regras definidas no edital da licitação?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Vinculação ao Instrumento Convocatório", correto: true },
+            { conteudo: "Princípio da Moralidade", correto: false },
+            { conteudo: "Princípio da Legalidade", correto: false },
+            { conteudo: "Princípio da Eficiência", correto: false }
+        ],
+        justificativa: "Esse princípio garante que as regras do edital sejam cumpridas fielmente.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "O princípio que garante tratamento igualitário entre os participantes do processo é:",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Isonomia", correto: true },
+            { conteudo: "Princípio da Transparência", correto: false },
+            { conteudo: "Princípio da Probidade", correto: false },
+            { conteudo: "Princípio da Moralidade", correto: false }
+        ],
+        justificativa: "A isonomia assegura igualdade de oportunidades para todos os licitantes.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual princípio garante que o interesse público prevaleça sobre interesses particulares?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Moralidade", correto: true },
+            { conteudo: "Princípio da Eficiência", correto: false },
+            { conteudo: "Princípio da Economicidade", correto: false },
+            { conteudo: "Princípio da Competitividade", correto: false }
+        ],
+        justificativa: "A moralidade garante que a licitação seja guiada por valores éticos.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual princípio garante que os licitantes tenham acesso igual às condições de competição?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Competitividade", correto: true },
+            { conteudo: "Princípio da Publicidade", correto: false },
+            { conteudo: "Princípio da Probidade", correto: false },
+            { conteudo: "Princípio da Razoabilidade", correto: false }
+        ],
+        justificativa: "A competitividade impede restrições desnecessárias e aumenta a concorrência.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "O princípio que exige honestidade e boa-fé da Administração e dos licitantes é:",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Probidade Administrativa", correto: true },
+            { conteudo: "Princípio da Impessoalidade", correto: false },
+            { conteudo: "Princípio da Economicidade", correto: false },
+            { conteudo: "Princípio da Eficiência", correto: false }
+        ],
+        justificativa: "A probidade busca prevenir fraudes e atos de corrupção.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual princípio orienta a Administração a selecionar a proposta mais adequada para o interesse público?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Seleção da Proposta Mais Vantajosa", correto: true },
+            { conteudo: "Princípio da Vinculação ao Edital", correto: false },
+            { conteudo: "Princípio da Razoabilidade", correto: false },
+            { conteudo: "Princípio da Transparência", correto: false }
+        ],
+        justificativa: "Esse princípio garante que o vencedor seja aquele que oferece a melhor relação custo-benefício.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual princípio exige que a licitação seja conduzida de forma eficiente, sem desperdício de recursos?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Eficiência", correto: true },
+            { conteudo: "Princípio da Isonomia", correto: false },
+            { conteudo: "Princípio da Moralidade", correto: false },
+            { conteudo: "Princípio da Probidade", correto: false }
+        ],
+        justificativa: "A eficiência busca os melhores resultados com menor custo e tempo.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "O princípio que impede exigências desnecessárias que restrinjam a participação é:",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Razoabilidade", correto: true },
+            { conteudo: "Princípio da Legalidade", correto: false },
+            { conteudo: "Princípio da Economicidade", correto: false },
+            { conteudo: "Princípio da Transparência", correto: false }
+        ],
+        justificativa: "A razoabilidade impede exigências abusivas que prejudiquem a competitividade.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual princípio garante que o processo licitatório seja compreensível e verificável pela sociedade?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Transparência", correto: true },
+            { conteudo: "Princípio da Moralidade", correto: false },
+            { conteudo: "Princípio da Isonomia", correto: false },
+            { conteudo: "Princípio da Eficiência", correto: false }
+        ],
+        justificativa: "A transparência garante clareza nas decisões e fiscalização social.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual princípio assegura que os critérios e condições estabelecidos no edital sejam seguidos até o fim?",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da Vinculação ao Instrumento Convocatório", correto: true },
+            { conteudo: "Princípio da Publicidade", correto: false },
+            { conteudo: "Princípio da Razoabilidade", correto: false },
+            { conteudo: "Princípio da Eficiência", correto: false }
+        ],
+        justificativa: "A vinculação garante que não haja mudanças arbitrárias durante a licitação.",
+        categoriaDaPergunta: "licitações-e-seus-principios"
+    },
+    {
+        enunciado: "Qual é o principal objetivo da Lei 14.133/2021?",
+        arrayDeRespostas: [
+            { conteudo: "Regulamentar os contratos privados", correto: false },
+            { conteudo: "Instituir normas gerais de licitação e contratação", correto: true },
+            { conteudo: "Organizar apenas as concessões públicas", correto: false },
+            { conteudo: "Revogar integralmente o Código Civil", correto: false },
+        ],
+        justificativa: "A Lei 14.133/2021 estabelece normas gerais sobre licitações e contratos administrativos no Brasil.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "A Lei 14.133/2021 substitui quais legislações anteriores?",
+        arrayDeRespostas: [
+            { conteudo: "Lei 8.666/1993, Lei do Pregão e RDC", correto: true },
+            { conteudo: "Apenas a Lei 8.429/1992", correto: false },
+            { conteudo: "Somente a Lei do Pregão", correto: false },
+            { conteudo: "Nenhuma lei anterior", correto: false },
+        ],
+        justificativa: "Ela revoga gradualmente a Lei 8.666/1993, a Lei do Pregão (10.520/2002) e o Regime Diferenciado de Contratações (12.462/2011).",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "Qual é o prazo máximo de transição para uso obrigatório da Lei 14.133/2021?",
+        arrayDeRespostas: [
+            { conteudo: "Dois anos após a publicação", correto: true },
+            { conteudo: "Cinco anos após a publicação", correto: false },
+            { conteudo: "Dez anos após a publicação", correto: false },
+            { conteudo: "Não existe prazo de transição", correto: false },
+        ],
+        justificativa: "O prazo de transição estabelecido foi de dois anos a partir da publicação, encerrando-se em abril de 2023.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "A Lei 14.133/2021 introduziu quais princípios adicionais às licitações?",
+        arrayDeRespostas: [
+            { conteudo: "Planejamento, transparência, segregação de funções", correto: true },
+            { conteudo: "Exclusivamente eficiência e publicidade", correto: false },
+            { conteudo: "Apenas moralidade e impessoalidade", correto: false },
+            { conteudo: "Nenhum princípio novo", correto: false },
+        ],
+        justificativa: "A nova lei trouxe princípios como o planejamento, a transparência e a segregação de funções, além de reforçar os já existentes.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "Qual é o critério de julgamento que foi incorporado pela Lei 14.133/2021?",
+        arrayDeRespostas: [
+            { conteudo: "Maior retorno econômico", correto: true },
+            { conteudo: "Menor tempo de execução", correto: false },
+            { conteudo: "Maior prazo de garantia", correto: false },
+            { conteudo: "Maior número de empregados contratados", correto: false },
+        ],
+        justificativa: "A Lei 14.133/2021 incluiu o critério de julgamento 'maior retorno econômico', aplicável especialmente em contratos de eficiência.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "A Lei 14.133/2021 prevê quais modalidades de licitação?",
+        arrayDeRespostas: [
+            { conteudo: "Concorrência, concurso, leilão, pregão e diálogo competitivo", correto: true },
+            { conteudo: "Somente concorrência e pregão", correto: false },
+            { conteudo: "Leilão, convite e tomada de preços", correto: false },
+            { conteudo: "Apenas pregão eletrônico", correto: false },
+        ],
+        justificativa: "A lei consolidou as modalidades, extinguindo convite e tomada de preços, e criou o diálogo competitivo.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "O que é o 'diálogo competitivo' previsto na Lei 14.133/2021?",
+        arrayDeRespostas: [
+            { conteudo: "Modalidade para soluções inovadoras", correto: true },
+            { conteudo: "Licitação simplificada para pequenas compras", correto: false },
+            { conteudo: "Contratação direta sem licitação", correto: false },
+            { conteudo: "Um tipo de pregão presencial", correto: false },
+        ],
+        justificativa: "O diálogo competitivo é destinado a contratações complexas que demandam soluções inovadoras.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "Qual sistema deve ser utilizado obrigatoriamente para a divulgação dos atos de licitação?",
+        arrayDeRespostas: [
+            { conteudo: "Portal Nacional de Contratações Públicas (PNCP)", correto: true },
+            { conteudo: "Diário Oficial da União", correto: false },
+            { conteudo: "Jornal de grande circulação", correto: false },
+            { conteudo: "Site próprio do órgão", correto: false },
+        ],
+        justificativa: "A lei estabelece que todos os atos devem ser divulgados no PNCP para garantir transparência.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "A Lei 14.133/2021 permite a contratação integrada?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, incluindo elaboração de projetos e execução", correto: true },
+            { conteudo: "Não, apenas execução de obras", correto: false },
+            { conteudo: "Apenas em caráter emergencial", correto: false },
+            { conteudo: "Não, foi proibida", correto: false },
+        ],
+        justificativa: "A contratação integrada é admitida, englobando projetos, execução e entregas finais.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "O que significa a matriz de riscos na Lei 14.133/2021?",
+        arrayDeRespostas: [
+            { conteudo: "Distribuição de responsabilidades entre as partes", correto: true },
+            { conteudo: "Planilha de custos da obra", correto: false },
+            { conteudo: "Lista de sanções aplicáveis", correto: false },
+            { conteudo: "Quadro comparativo de propostas", correto: false },
+        ],
+        justificativa: "A matriz de riscos define a alocação de responsabilidades entre contratante e contratado.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "Na nova lei, qual é a prioridade para o desempate em licitações?",
+        arrayDeRespostas: [
+            { conteudo: "Produção nacional e desenvolvimento sustentável", correto: true },
+            { conteudo: "Menor prazo de entrega", correto: false },
+            { conteudo: "Maior número de funcionários contratados", correto: false },
+            { conteudo: "Valor histórico do fornecedor", correto: false },
+        ],
+        justificativa: "A lei prioriza critérios como produção nacional e desenvolvimento sustentável para desempates.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "A Lei 14.133/2021 prevê sanções administrativas?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, como advertência, multa e impedimento de licitar", correto: true },
+            { conteudo: "Não, apenas sanções civis e penais", correto: false },
+            { conteudo: "Somente multa pecuniária", correto: false },
+            { conteudo: "Não, sanções foram revogadas", correto: false },
+        ],
+        justificativa: "A lei prevê sanções como advertência, multa, impedimento de licitar e declaração de inidoneidade.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "Como deve ser feito o planejamento das contratações na Lei 14.133/2021?",
+        arrayDeRespostas: [
+            { conteudo: "Por meio do Plano Anual de Contratações", correto: true },
+            { conteudo: "Apenas por autorização do gestor", correto: false },
+            { conteudo: "Diretamente na fase de julgamento", correto: false },
+            { conteudo: "Sem exigência específica", correto: false },
+        ],
+        justificativa: "O planejamento deve estar formalizado no Plano Anual de Contratações, publicado no PNCP.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "O pregão eletrônico permanece válido na nova lei?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, como modalidade preferencial", correto: true },
+            { conteudo: "Não, foi extinto", correto: false },
+            { conteudo: "Só pode ser utilizado em casos emergenciais", correto: false },
+            { conteudo: "Apenas em obras públicas", correto: false },
+        ],
+        justificativa: "O pregão eletrônico permanece e é preferencialmente utilizado para aquisição de bens e serviços comuns.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
+    {
+        enunciado: "Qual é a novidade em relação às garantias contratuais trazida pela Lei 14.133/2021?",
+        arrayDeRespostas: [
+            { conteudo: "Possibilidade de seguro-garantia com cláusula de retomada", correto: true },
+            { conteudo: "Eliminação da exigência de garantias", correto: false },
+            { conteudo: "Exclusividade do depósito caução", correto: false },
+            { conteudo: "Uso apenas de fiança bancária", correto: false },
+        ],
+        justificativa: "A lei inovou ao permitir o seguro-garantia com cláusula de retomada em obras e serviços de engenharia.",
+        categoriaDaPergunta: "lei-14133/2021",
+    },
 ]
 
 export {
@@ -8222,4 +9322,13 @@ export {
  * vicios-dos-atos-administrativos
  * extincao-dos-atos-administrativos
  * anulacao-e-revogacao
+ * conceito-de-contratos-administrativos
+ * caracteristicas-dos-contratos-administrativos
+ * tipos-de-contratos-administrativos
+ * fases-da-contratacao-administrativa
+ * clausulas-exorbitantes
+ * extincao-dos-contratos-administrativos
+ * sancoes-administrativas
+ * licitações-e-seus-principios
+ * lei-14133/2021
  */

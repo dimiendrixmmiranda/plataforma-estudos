@@ -986,7 +986,101 @@ const assistenteAdministrativo = {
     },
     ["responsabilidades-dos-servidores"]: {
         titulo: `Responsabilidades dos Servidores`,
-        id: `responsabilidades-dos-servidores`
+        id: `responsabilidades-dos-servidores`,
+        introducao: [
+            `O servidor público exerce funções essenciais para a sociedade, garantindo que serviços como educação, saúde, segurança e administração cheguem de forma adequada à população. Para que essas atividades sejam realizadas de maneira eficiente e justa, é necessário que o servidor cumpra obrigações legais e éticas, conhecidas como responsabilidades do servidor público.`,
+            `Essas responsabilidades envolvem deveres, proibições e condutas que asseguram o bom funcionamento da administração pública. Elas têm como objetivo principal preservar o interesse coletivo, proteger o patrimônio público e manter a confiança da população nos órgãos e instituições. Além disso, garantem que os servidores atuem com transparência, honestidade e eficiência.`,
+            `O cumprimento dessas responsabilidades não é apenas uma exigência legal, mas também um compromisso ético com a sociedade. Servidores que agem de acordo com essas normas contribuem para um serviço público de qualidade, promovendo a justiça, a moralidade administrativa e o respeito aos direitos de todos os cidadãos.`
+        ],
+        submaterias: [
+            {
+                texto: 'Deveres do Servidor',
+                id: 'deveres-do-servidor',
+                introducao: 'O serviço público existe para atender às necessidades da sociedade, garantindo que direitos básicos como saúde, educação, segurança e tantos outros cheguem até o cidadão. Para que isso aconteça de forma correta e justa, o servidor público — a pessoa que exerce uma função dentro da administração — deve seguir regras de conduta que orientam seu comportamento no dia a dia.',
+                explicacao: [
+                    `Essas regras estão descritas nos estatutos e leis que organizam a vida funcional dos servidores. Entre elas, destacam-se os deveres, que representam aquilo que todo servidor deve cumprir para assegurar a boa prestação do serviço. São obrigações que reforçam valores como responsabilidade, respeito, honestidade e compromisso com o interesse coletivo.`,
+                    `Cumprir esses deveres não é apenas uma exigência legal, mas também uma demonstração de compromisso ético com a comunidade. Afinal, o servidor público não trabalha para si mesmo, mas para toda a sociedade, que confia nele para administrar corretamente os recursos e garantir serviços de qualidade.`,
+                    `Assiduidade e pontualidade: O servidor deve comparecer ao trabalho com frequência e dentro do horário estabelecido. Isso significa não faltar sem justificativa e não se atrasar constantemente. A presença regular e no horário é essencial porque garante que os serviços públicos não sofram interrupções e que a população seja atendida da melhor forma.`,
+                    `Eficiência e dedicação ao serviço: Não basta apenas “estar presente”; o servidor deve executar suas tarefas com atenção, responsabilidade e buscando sempre a melhor qualidade possível. A eficiência está ligada a realizar o trabalho com rapidez e bom aproveitamento dos recursos, enquanto a dedicação mostra o compromisso em cumprir as funções sem negligência.`,
+                    `Obediência hierárquica (exceto quando a ordem for manifestamente ilegal): Todo servidor faz parte de uma estrutura organizada, com chefias e subordinados. Isso exige respeito às ordens recebidas. Porém, há um limite: se a ordem recebida for claramente ilegal — ou seja, contrária à lei ou à moralidade administrativa — o servidor não deve cumpri-la, pois ninguém pode ser obrigado a praticar ato ilícito.`,
+                    `Urbanidade no trato com colegas e cidadãos: O servidor deve tratar todos com educação, respeito e cortesia. Isso vale tanto para colegas de trabalho quanto para a população que busca o serviço público. A urbanidade contribui para um ambiente de trabalho saudável e para o bom atendimento ao cidadão, que é o verdadeiro destinatário da atividade pública.`,
+                    `Zelar pelo patrimônio público: Tudo que pertence ao órgão público — prédios, veículos, equipamentos, documentos e até materiais simples como papel ou caneta — é patrimônio do povo. O servidor tem o dever de cuidar desses bens como se fossem seus, evitando desperdícios, danos ou uso indevido. O patrimônio público deve sempre ser preservado para garantir que o serviço funcione bem.`,
+                    `Manter conduta compatível com a moralidade administrativa: O servidor deve ter um comportamento íntegro, tanto no ambiente de trabalho quanto fora dele, sempre respeitando os valores éticos que a sociedade espera de quem ocupa um cargo público. Isso significa não se aproveitar do cargo para obter vantagens pessoais, agir com honestidade e ser exemplo de retidão no exercício da função.`
+                ],
+            },
+            {
+                texto: 'Proibições dos Servidores',
+                id: 'proibicoes-dos-servidores',
+                introducao: 'No exercício de suas funções, o servidor público deve sempre agir com responsabilidade, ética e dedicação ao interesse coletivo. Para garantir que sua conduta seja adequada, a legislação estabelece uma série de proibições, que funcionam como limites e orientações para evitar abusos, desvios de finalidade e prejuízos ao serviço público. Essas regras têm o objetivo de proteger a administração, manter a confiança da sociedade e assegurar que os servidores atuem de forma correta, justa e transparente.',
+                explicacao: [
+                    `Uma das principais responsabilidades do servidor público é agir com dedicação e respeito às normas do cargo que ocupa. Por isso, existem proibições específicas que delimitam sua conduta, garantindo que o serviço público funcione de maneira correta e em benefício da sociedade.`,
+                    `O servidor não pode retardar ou deixar de praticar ato de ofício, ou seja, não pode atrasar nem se recusar a realizar uma tarefa que faz parte de suas funções. Isso porque cada atividade desempenhada no serviço público tem impacto no atendimento ao cidadão e no funcionamento da administração. Se o servidor não cumpre sua obrigação, prejudica tanto a eficiência do serviço quanto a confiança da população.`,
+                    `Também é proibido atuar contra a lei ou para satisfazer interesse pessoal. O servidor deve sempre priorizar o interesse público e respeitar a legalidade. Quando age de forma contrária à lei, coloca em risco a imparcialidade e a integridade do serviço público, além de cometer uma infração que pode resultar em penalidades.`,
+                    `Outra vedação importante é receber propina, comissão, presentes ou vantagens de qualquer tipo. Isso está diretamente ligado ao combate à corrupção. Se o servidor aceitasse benefícios em troca de favores, sua atuação deixaria de ser imparcial e justa, passando a privilegiar interesses particulares em detrimento da coletividade.`,
+                    `Os servidores também não podem participar da gerência ou administração de empresas privadas, exceto nos casos em que sejam apenas acionistas ou cotistas, sem envolvimento direto na gestão. Essa regra existe para evitar conflito de interesses, já que o servidor poderia usar seu cargo público para favorecer negócios particulares.`,
+                    `Além disso, é vedado ausentar-se do serviço sem autorização. O cumprimento da jornada de trabalho é obrigatório, pois garante que os serviços públicos estejam disponíveis para a população nos horários previstos. Sair sem permissão demonstra falta de comprometimento e gera prejuízos ao atendimento.`,
+                    `Por fim, é proibido trabalhar em estado de embriaguez, seja por consumo de álcool ou de substâncias que alterem as faculdades mentais. Essa conduta compromete a segurança, a qualidade do serviço e a imagem do órgão público. O servidor precisa estar em plenas condições físicas e mentais para desempenhar bem suas funções.`
+                ],
+            },
+            {
+                texto: 'Responsabilidades dos Servidores',
+                id: 'responsabilidades-dos-servidores',
+                introducao: 'No exercício de suas funções, o servidor público deve agir com zelo e integridade, sendo responsabilizado quando descumpre a lei ou causa prejuízos à administração. Essa responsabilização pode ocorrer em três esferas distintas: civil, quando há dano ao patrimônio público; penal, quando o ato constitui crime; e administrativa, quando a infração se relaciona diretamente com o cargo e as normas do serviço público.',
+                explicacao: [
+                    `O servidor público, ao exercer suas funções, deve estar ciente de que pode ser responsabilizado de diferentes formas caso descumpra a lei ou cause prejuízos no exercício do cargo. Essas responsabilidades são classificadas em civil, penal e administrativa, cada uma voltada para um tipo de irregularidade.`,
+                    `A responsabilidade civil ocorre quando o servidor causa dano ao patrimônio público, seja por ação ou omissão. Nesse caso, ele deve reparar o prejuízo causado ao erário, ou seja, devolver o que foi perdido ou danificado em razão de sua conduta. Um exemplo seria o uso indevido de bens públicos, como veículos ou materiais, que resulte em gasto extra para a administração.`,
+                    `Já a responsabilidade penal acontece quando o ato cometido pelo servidor é considerado crime pela legislação. Nessas situações, ele responde na Justiça como qualquer cidadão, podendo ser julgado e condenado. Exemplos comuns incluem crimes como corrupção, peculato (apropriar-se de recursos públicos) ou falsidade ideológica.`,
+                    `Por fim, a responsabilidade administrativa está ligada diretamente ao cargo e ao regulamento do serviço público. Ela envolve infrações disciplinares que podem gerar advertência, suspensão ou até demissão, dependendo da gravidade da conduta. Diferente da responsabilidade civil e penal, que tramitam na Justiça, a administrativa é apurada dentro do próprio órgão público.`
+                ],
+            },
+            {
+                texto: 'Sanções Diciplinares dos Servidores',
+                id: 'sancoes-disciplinares-dos-servidores',
+                introducao: 'As sanções disciplinares são medidas aplicadas ao servidor público que descumpre seus deveres funcionais. Elas variam conforme a gravidade da falta cometida, podendo ir desde advertências para infrações leves até demissão ou cassação de aposentadoria em casos mais graves. O objetivo dessas penalidades é manter a disciplina, a ética e a regularidade no serviço público.',
+                explicacao: [
+                    `No âmbito do serviço público, quando o servidor comete alguma infração, ele pode sofrer sanções disciplinares, que variam conforme a gravidade da falta praticada. Essas penalidades têm o objetivo de corrigir condutas inadequadas, preservar a ordem administrativa e garantir que a administração funcione com eficiência e integridade.`,
+                    `A primeira forma de sanção é a advertência, aplicada em casos de faltas leves, como pequenas irregularidades ou descumprimento de deveres menos graves. Trata-se de uma punição de caráter educativo, geralmente registrada no assentamento funcional do servidor, servindo como um alerta para que ele não repita a conduta.`,
+                    `Quando a infração é mais séria, pode ser aplicada a suspensão, que pode durar até 90 dias. Nesse período, o servidor fica afastado de suas atividades e deixa de receber remuneração. A lei também permite que a suspensão seja convertida em multa, possibilitando que o servidor continue trabalhando, mas com desconto proporcional em seu salário.`,
+                    `Nos casos de faltas graves, como atos de improbidade administrativa, corrupção, abandono de cargo ou condutas incompatíveis com a função pública, a penalidade cabível é a demissão. Essa é a sanção mais severa aplicada a servidores efetivos, pois implica a perda definitiva do cargo.`,
+                    `Existe ainda a cassação de aposentadoria, que pode ser aplicada ao servidor já aposentado que tenha cometido infrações graves enquanto estava em atividade, mas que só foram descobertas posteriormente. Nessa situação, o servidor perde o direito ao benefício da aposentadoria.`,
+                    `Por fim, há as penalidades voltadas a cargos de confiança: a destituição de cargo em comissão e a destituição de função comissionada. Elas são aplicadas quando o ocupante de tais funções comete faltas graves, resultando na perda da posição de confiança que ocupava.`
+                ],
+            },
+            {
+                texto: 'Acumulação de Cargos dos Servidores',
+                id: 'acumulacao-de-cargos-dos-servidores',
+                introducao: 'A acumulação de cargos pelos servidores públicos é, em regra, proibida, para evitar excesso de remunerações e garantir dedicação plena ao serviço. Contudo, a Constituição Federal prevê algumas exceções específicas, permitindo a acumulação apenas em casos determinados e desde que haja compatibilidade de horários, assegurando que o servidor exerça suas funções sem prejuízo ao interesse público.',
+                explicacao: [
+                    `No serviço público, a regra geral é a proibição da acumulação de cargos, ou seja, o servidor não pode ocupar mais de um cargo, emprego ou função remunerada na administração pública. Essa restrição existe para evitar o acúmulo excessivo de remunerações, impedir conflitos de interesse e garantir que cada cargo receba dedicação adequada.`,
+                    `No entanto, a própria Constituição Federal prevê exceções específicas, nas quais a acumulação é permitida, desde que haja compatibilidade de horários entre os cargos. São elas:
+                    Dois cargos de professor – possibilitando ao profissional da educação exercer atividades em mais de uma instituição pública.
+                    Um cargo de professor com outro técnico ou científico – desde que o segundo cargo exija conhecimento especializado e haja compatibilidade de horários.
+                    Dois cargos privativos de profissionais de saúde, desde que sejam profissões regulamentadas, como médicos, enfermeiros ou dentistas.`,
+                    `É importante destacar que, mesmo nos casos permitidos, o servidor deve comprovar que consegue exercer ambos os cargos sem prejuízo ao serviço público, respeitando a carga horária e o princípio da eficiência.`
+                ],
+            },
+            {
+                texto: 'Prescrição de Infrações dos Servidores',
+                id: 'prescricao-de-infracoes-dos-servidores',
+                introducao: 'A prescrição das infrações disciplinares é o prazo que a administração pública possui para aplicar punições ao servidor que cometeu uma falta. Passado esse período sem que haja apuração ou penalidade, o servidor não pode mais ser punido, garantindo segurança jurídica e evitando punições tardias.',
+                explicacao: [
+                    `No serviço público, assim como em outras áreas do Direito, existe o instituto da prescrição, que representa a perda do direito de punir a infração pelo decurso do tempo. Isso significa que, se a administração não agir dentro de determinados prazos, o servidor não poderá mais ser responsabilizado disciplinarmente pela conduta praticada.`,
+                    `Os prazos de prescrição variam de acordo com a gravidade da infração e a sanção que poderia ser aplicada:
+
+                    Para infrações puníveis com advertência, o prazo prescricional é de 180 dias.
+                    Para infrações que podem levar à suspensão, o prazo é de 2 anos.
+                    Já para faltas mais graves, que podem resultar em demissão, o prazo prescricional é de 5 anos.
+
+                    É importante lembrar que o prazo de prescrição começa a ser contado a partir da data em que a administração toma conhecimento da infração e pode ser interrompido quando for instaurada uma sindicância ou processo administrativo disciplinar. Após a interrupção, a contagem recomeça do zero.`,
+                    `Esse mecanismo existe para dar segurança jurídica tanto à administração quanto ao servidor, evitando que punições sejam aplicadas após longos períodos, quando já não há mais condições adequadas de apuração dos fatos.`
+                ],
+                video: {
+                    titulo: `Prescrição de Infrações dos Servidores`,
+                    linkDoCanal: 'https://www.youtube.com/@MeJulga',
+                    idVideo: 'yKtte_WyK3w'
+                },
+            },
+        ],
     },
     ["estatuto-dos-servidores-do-municipio"]: {
         titulo: `Estatuto dos Servidores do Município`,

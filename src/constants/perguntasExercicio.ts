@@ -9222,6 +9222,655 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
         justificativa: "A lei inovou ao permitir o seguro-garantia com cláusula de retomada em obras e serviços de engenharia.",
         categoriaDaPergunta: "lei-14133/2021",
     },
+    {
+        enunciado: "Qual é a obrigação do servidor em relação à presença no trabalho?",
+        arrayDeRespostas: [
+            { conteudo: "Assiduidade e pontualidade", correto: true },
+            { conteudo: "Urbanidade no trato com colegas", correto: false },
+            { conteudo: "Obediência hierárquica", correto: false },
+            { conteudo: "Zelar pelo patrimônio", correto: false }
+        ],
+        justificativa: "O servidor deve cumprir sua jornada de trabalho com assiduidade e pontualidade.",
+        categoriaDaPergunta: "deveres-do-servidor"
+    },
+    {
+        enunciado: "O servidor deve desempenhar suas funções com:",
+        arrayDeRespostas: [
+            { conteudo: "Eficiência e dedicação", correto: true },
+            { conteudo: "Somente eficiência", correto: false },
+            { conteudo: "Somente dedicação", correto: false },
+            { conteudo: "Urbanidade", correto: false }
+        ],
+        justificativa: "Eficiência e dedicação são fundamentais para a prestação de um serviço público de qualidade.",
+        categoriaDaPergunta: "deveres-do-servidor"
+    },
+    {
+        enunciado: "O servidor deve obedecer às ordens hierárquicas, exceto quando:",
+        arrayDeRespostas: [
+            { conteudo: "A ordem for manifestamente ilegal", correto: true },
+            { conteudo: "Não estiver de acordo com colegas", correto: false },
+            { conteudo: "For contra a sua vontade", correto: false },
+            { conteudo: "For uma tarefa cansativa", correto: false }
+        ],
+        justificativa: "A obediência hierárquica é obrigatória, salvo quando a ordem violar a lei ou direitos.",
+        categoriaDaPergunta: "deveres-do-servidor"
+    },
+    {
+        enunciado: "Como o servidor deve se comportar no trato com colegas e cidadãos?",
+        arrayDeRespostas: [
+            { conteudo: "Urbanidade e respeito", correto: true },
+            { conteudo: "Somente cordialidade", correto: false },
+            { conteudo: "Apenas simpatia", correto: false },
+            { conteudo: "Não há regras específicas", correto: false }
+        ],
+        justificativa: "Urbanidade é essencial para relações harmoniosas no ambiente de trabalho.",
+        categoriaDaPergunta: "deveres-do-servidor"
+    },
+    {
+        enunciado: "Qual é o dever do servidor em relação ao patrimônio público?",
+        arrayDeRespostas: [
+            { conteudo: "Zelar pelo patrimônio", correto: true },
+            { conteudo: "Ignorar pequenos danos", correto: false },
+            { conteudo: "Usar livremente para fins pessoais", correto: false },
+            { conteudo: "Não é necessário responsabilidade", correto: false }
+        ],
+        justificativa: "O servidor deve proteger e preservar o patrimônio público sob sua guarda.",
+        categoriaDaPergunta: "deveres-do-servidor"
+    },
+    {
+        enunciado: "O servidor público deve atuar sempre de acordo com:",
+        arrayDeRespostas: [
+            { conteudo: "A legislação vigente e normas internas", correto: true },
+            { conteudo: "Somente com base em sua experiência pessoal", correto: false },
+            { conteudo: "A vontade do superior imediato, sem questionamento", correto: false },
+            { conteudo: "Opinião popular", correto: false }
+        ],
+        justificativa: "As ações do servidor devem respeitar as leis e regulamentos internos.",
+        categoriaDaPergunta: "deveres-do-servidor"
+    },
+    {
+        enunciado: "O servidor deve manter sigilo sobre:",
+        arrayDeRespostas: [
+            { conteudo: "Informações confidenciais do serviço", correto: true },
+            { conteudo: "Informações públicas já divulgadas", correto: false },
+            { conteudo: "Assuntos pessoais de colegas", correto: false },
+            { conteudo: "Todas as informações sem distinção", correto: false }
+        ],
+        justificativa: "O dever de sigilo protege informações sensíveis e evita prejuízos ao serviço público.",
+        categoriaDaPergunta: "deveres-do-servidor"
+    },
+    {
+        enunciado: "O servidor deve tratar o público com:",
+        arrayDeRespostas: [
+            { conteudo: "Cortesia, respeito e eficiência", correto: true },
+            { conteudo: "Somente cortesia", correto: false },
+            { conteudo: "Eficiência apenas", correto: false },
+            { conteudo: "Não há obrigação específica", correto: false }
+        ],
+        justificativa: "A boa relação com o público garante atendimento adequado e transparente.",
+        categoriaDaPergunta: "deveres-do-servidor"
+    },
+    {
+        enunciado: "O cumprimento das normas e procedimentos internos demonstra:",
+        arrayDeRespostas: [
+            { conteudo: "Disciplina e responsabilidade", correto: true },
+            { conteudo: "Somente eficiência", correto: false },
+            { conteudo: "Somente dedicação", correto: false },
+            { conteudo: "Não é necessário", correto: false }
+        ],
+        justificativa: "Seguir regras internas garante ordem e confiabilidade na administração pública.",
+        categoriaDaPergunta: "deveres-do-servidor"
+    },
+    {
+        enunciado: "A assiduidade do servidor se refere a:",
+        arrayDeRespostas: [
+            { conteudo: "Comparecer regularmente ao trabalho", correto: true },
+            { conteudo: "Apenas chegar no horário de entrada", correto: false },
+            { conteudo: "Apenas cumprir tarefas de forma eficiente", correto: false },
+            { conteudo: "Não se aplica a cargos administrativos", correto: false }
+        ],
+        justificativa: "Assiduidade é a presença constante e responsável do servidor no serviço público.",
+        categoriaDaPergunta: "deveres-do-servidor"
+    },
+    {
+        enunciado: "É permitido ao servidor público exercer atividade que seja incompatível com o cargo?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é proibido", correto: true },
+            { conteudo: "Sim, desde que informado ao chefe", correto: false },
+            { conteudo: "Sim, se for atividade voluntária", correto: false },
+            { conteudo: "Depende do cargo ocupado", correto: false }
+        ],
+        justificativa: "O servidor não pode exercer atividades incompatíveis que prejudiquem suas funções públicas.",
+        categoriaDaPergunta: "proibicoes-dos-servidores"
+    },
+    {
+        enunciado: "O servidor pode receber presentes de empresas ou cidadãos em razão do cargo?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é proibido aceitar presentes", correto: true },
+            { conteudo: "Sim, se for simbólico", correto: false },
+            { conteudo: "Sim, sem restrições", correto: false },
+            { conteudo: "Depende do valor do presente", correto: false }
+        ],
+        justificativa: "Receber presentes em função do cargo caracteriza conflito de interesse e corrupção.",
+        categoriaDaPergunta: "proibicoes-dos-servidores"
+    },
+    {
+        enunciado: "O servidor pode divulgar informações sigilosas obtidas em serviço?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é expressamente proibido", correto: true },
+            { conteudo: "Sim, se for para colegas de trabalho", correto: false },
+            { conteudo: "Sim, se não houver prejuízo direto", correto: false },
+            { conteudo: "Depende da autorização do superior", correto: false }
+        ],
+        justificativa: "Divulgar informações sigilosas é proibido para proteger o interesse público e a segurança da informação.",
+        categoriaDaPergunta: "proibicoes-dos-servidores"
+    },
+    {
+        enunciado: "O servidor pode usar recursos públicos para fins particulares?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é proibido", correto: true },
+            { conteudo: "Sim, com autorização do superior", correto: false },
+            { conteudo: "Sim, se for em pequenas quantidades", correto: false },
+            { conteudo: "Depende da urgência da situação", correto: false }
+        ],
+        justificativa: "O uso de bens ou serviços públicos para fins pessoais constitui infração administrativa.",
+        categoriaDaPergunta: "proibicoes-dos-servidores"
+    },
+    {
+        enunciado: "É permitido ao servidor favorecer parentes ou amigos em processos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é proibido", correto: true },
+            { conteudo: "Sim, desde que seja rápido", correto: false },
+            { conteudo: "Sim, com autorização expressa", correto: false },
+            { conteudo: "Depende da situação", correto: false }
+        ],
+        justificativa: "Favorecer pessoas próximas caracteriza nepotismo e quebra do princípio da impessoalidade.",
+        categoriaDaPergunta: "proibicoes-dos-servidores"
+    },
+    {
+        enunciado: "O servidor pode receber propina ou vantagem indevida?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é terminantemente proibido", correto: true },
+            { conteudo: "Sim, se não for percebido", correto: false },
+            { conteudo: "Sim, se for em pequena quantia", correto: false },
+            { conteudo: "Depende do cargo ocupado", correto: false }
+        ],
+        justificativa: "Receber vantagem indevida é crime e infração disciplinar.",
+        categoriaDaPergunta: "proibicoes-dos-servidores"
+    },
+    {
+        enunciado: "O servidor pode participar de atos políticos usando a estrutura do cargo?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é proibido utilizar o cargo para fins políticos", correto: true },
+            { conteudo: "Sim, se for campanha municipal", correto: false },
+            { conteudo: "Sim, desde que sem remuneração", correto: false },
+            { conteudo: "Depende do nível hierárquico", correto: false }
+        ],
+        justificativa: "A proibição mantém a imparcialidade do servidor e evita influência indevida em eleições.",
+        categoriaDaPergunta: "proibicoes-dos-servidores"
+    },
+    {
+        enunciado: "O servidor pode omitir informações relevantes em processos administrativos?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é proibido", correto: true },
+            { conteudo: "Sim, se achar conveniente", correto: false },
+            { conteudo: "Sim, apenas em casos urgentes", correto: false },
+            { conteudo: "Depende do tipo de processo", correto: false }
+        ],
+        justificativa: "A omissão de informações compromete a transparência e a legalidade dos atos administrativos.",
+        categoriaDaPergunta: "proibicoes-dos-servidores"
+    },
+    {
+        enunciado: "O servidor pode usar informações do serviço para benefício próprio ou de terceiros?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é expressamente proibido", correto: true },
+            { conteudo: "Sim, se não houver prejuízo ao serviço", correto: false },
+            { conteudo: "Sim, se autorizado por superiores", correto: false },
+            { conteudo: "Depende da função exercida", correto: false }
+        ],
+        justificativa: "Usar informações do serviço indevidamente caracteriza conflito de interesse e infração disciplinar.",
+        categoriaDaPergunta: "proibicoes-dos-servidores"
+    },
+    {
+        enunciado: "É permitido ao servidor assumir tarefas de familiares dentro da administração pública?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é proibido devido ao nepotismo", correto: true },
+            { conteudo: "Sim, se houver supervisão", correto: false },
+            { conteudo: "Sim, se não houver remuneração", correto: false },
+            { conteudo: "Depende da autorização do superior", correto: false }
+        ],
+        justificativa: "A legislação impede favorecimento de familiares para garantir impessoalidade e igualdade de condições.",
+        categoriaDaPergunta: "proibicoes-dos-servidores"
+    },
+    {
+        enunciado: "Qual é a responsabilidade do servidor em relação ao cumprimento de suas tarefas?",
+        arrayDeRespostas: [
+            { conteudo: "Executar com eficiência e dedicação", correto: true },
+            { conteudo: "Delegar sempre que possível", correto: false },
+            { conteudo: "Cumprir apenas ordens do superior imediato", correto: false },
+            { conteudo: "Realizar somente tarefas de interesse próprio", correto: false }
+        ],
+        justificativa: "O servidor deve desempenhar suas funções com eficiência, dedicação e zelo pelo serviço público.",
+        categoriaDaPergunta: "responsabilidades-dos-servidores"
+    },
+    {
+        enunciado: "O servidor é responsável por:",
+        arrayDeRespostas: [
+            { conteudo: "Zelar pelo patrimônio público", correto: true },
+            { conteudo: "Usar bens públicos para fins pessoais", correto: false },
+            { conteudo: "Ignorar recursos e materiais do órgão", correto: false },
+            { conteudo: "Tomar decisões sem respaldo legal", correto: false }
+        ],
+        justificativa: "Zelar pelo patrimônio garante a integridade dos recursos públicos e o bom funcionamento da administração.",
+        categoriaDaPergunta: "responsabilidades-dos-servidores"
+    },
+    {
+        enunciado: "A disciplina e o cumprimento das normas internas demonstram:",
+        arrayDeRespostas: [
+            { conteudo: "Responsabilidade do servidor", correto: true },
+            { conteudo: "Somente eficiência", correto: false },
+            { conteudo: "Apenas dedicação", correto: false },
+            { conteudo: "Não têm relação com responsabilidades", correto: false }
+        ],
+        justificativa: "Seguir normas e procedimentos internos é essencial para a ordem e confiabilidade do serviço público.",
+        categoriaDaPergunta: "responsabilidades-dos-servidores"
+    },
+    {
+        enunciado: "O servidor deve respeitar hierarquia e subordinação, exceto quando:",
+        arrayDeRespostas: [
+            { conteudo: "A ordem for manifestamente ilegal", correto: true },
+            { conteudo: "For uma tarefa cansativa", correto: false },
+            { conteudo: "O superior não estiver presente", correto: false },
+            { conteudo: "For apenas uma sugestão", correto: false }
+        ],
+        justificativa: "A obediência hierárquica é obrigatória, salvo quando a ordem violar a lei ou direitos.",
+        categoriaDaPergunta: "responsabilidades-dos-servidores"
+    },
+    {
+        enunciado: "O servidor deve manter sigilo sobre:",
+        arrayDeRespostas: [
+            { conteudo: "Informações confidenciais do serviço", correto: true },
+            { conteudo: "Assuntos já públicos", correto: false },
+            { conteudo: "Questões pessoais de colegas", correto: false },
+            { conteudo: "Todas as informações sem exceção", correto: false }
+        ],
+        justificativa: "Manter sigilo protege informações sensíveis e evita prejuízos à administração pública.",
+        categoriaDaPergunta: "responsabilidades-dos-servidores"
+    },
+    {
+        enunciado: "O servidor deve prestar contas de suas ações e decisões?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, é responsabilidade dele", correto: true },
+            { conteudo: "Não, apenas o chefe responde", correto: false },
+            { conteudo: "Somente quando houver auditoria", correto: false },
+            { conteudo: "Depende do cargo ocupado", correto: false }
+        ],
+        justificativa: "Prestar contas garante transparência e legalidade na administração pública.",
+        categoriaDaPergunta: "responsabilidades-dos-servidores"
+    },
+    {
+        enunciado: "A responsabilidade do servidor inclui atendimento ao público com:",
+        arrayDeRespostas: [
+            { conteudo: "Cortesia, urbanidade e respeito", correto: true },
+            { conteudo: "Rapidez apenas", correto: false },
+            { conteudo: "Eficiência sem cordialidade", correto: false },
+            { conteudo: "Somente cumprimento de ordens", correto: false }
+        ],
+        justificativa: "Atender o público com urbanidade e respeito é dever do servidor e garante qualidade no serviço público.",
+        categoriaDaPergunta: "responsabilidades-dos-servidores"
+    },
+    {
+        enunciado: "O servidor deve contribuir para a melhoria dos serviços públicos através de:",
+        arrayDeRespostas: [
+            { conteudo: "Proatividade e sugestões construtivas", correto: true },
+            { conteudo: "Ignorando problemas administrativos", correto: false },
+            { conteudo: "Apenas cumprindo ordens sem questionar", correto: false },
+            { conteudo: "Foco apenas em tarefas pessoais", correto: false }
+        ],
+        justificativa: "Proatividade e sugestões de melhoria fazem parte da responsabilidade e eficiência do servidor.",
+        categoriaDaPergunta: "responsabilidades-dos-servidores"
+    },
+    {
+        enunciado: "A assiduidade e pontualidade demonstram:",
+        arrayDeRespostas: [
+            { conteudo: "Responsabilidade e comprometimento do servidor", correto: true },
+            { conteudo: "Somente disciplina formal", correto: false },
+            { conteudo: "Dedicação superficial", correto: false },
+            { conteudo: "Não têm relação com responsabilidades", correto: false }
+        ],
+        justificativa: "Comparecer regularmente e pontualmente ao serviço evidencia responsabilidade e comprometimento.",
+        categoriaDaPergunta: "responsabilidades-dos-servidores"
+    },
+    {
+        enunciado: "Cumprir com zelo as tarefas atribuídas é responsabilidade do servidor porque:",
+        arrayDeRespostas: [
+            { conteudo: "Garante eficiência e qualidade no serviço público", correto: true },
+            { conteudo: "Evita punições imediatas apenas", correto: false },
+            { conteudo: "Somente demonstra obediência hierárquica", correto: false },
+            { conteudo: "Não tem importância real", correto: false }
+        ],
+        justificativa: "O zelo nas tarefas assegura a boa prestação de serviços à população e a correta utilização dos recursos públicos.",
+        categoriaDaPergunta: "responsabilidades-dos-servidores"
+    },
+    {
+        enunciado: "Qual é o objetivo das sanções disciplinares aplicadas aos servidores públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Assegurar cumprimento das normas e disciplina", correto: true },
+            { conteudo: "Punir sem relação com infrações", correto: false },
+            { conteudo: "Apenas reduzir benefícios do servidor", correto: false },
+            { conteudo: "Favorecer a gestão interna", correto: false }
+        ],
+        justificativa: "As sanções disciplinarem visam garantir a ordem, eficiência e legalidade no serviço público.",
+        categoriaDaPergunta: "sancoes-disciplinares-dos-servidores"
+    },
+    {
+        enunciado: "Qual das opções abaixo é considerada sanção disciplinar leve?",
+        arrayDeRespostas: [
+            { conteudo: "Advertência", correto: true },
+            { conteudo: "Demissão", correto: false },
+            { conteudo: "Suspensão", correto: false },
+            { conteudo: "Cassação de aposentadoria", correto: false }
+        ],
+        justificativa: "A advertência é uma penalidade inicial aplicada em casos de infrações leves.",
+        categoriaDaPergunta: "sancoes-disciplinares-dos-servidores"
+    },
+    {
+        enunciado: "A suspensão do servidor é aplicada quando:",
+        arrayDeRespostas: [
+            { conteudo: "Há infração de gravidade média", correto: true },
+            { conteudo: "O servidor comete infração leve", correto: false },
+            { conteudo: "O servidor deseja se ausentar temporariamente", correto: false },
+            { conteudo: "É procedimento administrativo obrigatório para todos", correto: false }
+        ],
+        justificativa: "A suspensão é aplicada para infrações de gravidade média, impedindo temporariamente o servidor de exercer suas funções.",
+        categoriaDaPergunta: "sancoes-disciplinares-dos-servidores"
+    },
+    {
+        enunciado: "A demissão do servidor ocorre em casos de:",
+        arrayDeRespostas: [
+            { conteudo: "Infrações graves ou crimes funcionais", correto: true },
+            { conteudo: "Faltas eventuais sem justificativa", correto: false },
+            { conteudo: "Erro operacional não intencional", correto: false },
+            { conteudo: "Questões administrativas sem impacto", correto: false }
+        ],
+        justificativa: "A demissão é a sanção máxima para infrações graves que comprometem o serviço público.",
+        categoriaDaPergunta: "sancoes-disciplinares-dos-servidores"
+    },
+    {
+        enunciado: "A advertência deve ser registrada:",
+        arrayDeRespostas: [
+            { conteudo: "No processo administrativo do servidor", correto: true },
+            { conteudo: "Apenas verbalmente", correto: false },
+            { conteudo: "No diário oficial sem registro interno", correto: false },
+            { conteudo: "Não é necessário registrar", correto: false }
+        ],
+        justificativa: "O registro formal assegura transparência e histórico das medidas disciplinares aplicadas.",
+        categoriaDaPergunta: "sancoes-disciplinares-dos-servidores"
+    },
+    {
+        enunciado: "A cassação de aposentadoria é aplicada em casos de:",
+        arrayDeRespostas: [
+            { conteudo: "Infrações graves cometidas por servidores aposentados", correto: true },
+            { conteudo: "Erros administrativos menores", correto: false },
+            { conteudo: "Faltas eventuais não justificadas", correto: false },
+            { conteudo: "Ausência temporária ao trabalho", correto: false }
+        ],
+        justificativa: "Mesmo após aposentadoria, o servidor pode responder por infrações graves cometidas durante o exercício do cargo.",
+        categoriaDaPergunta: "sancoes-disciplinares-dos-servidores"
+    },
+    {
+        enunciado: "A suspensão do servidor pode ser:",
+        arrayDeRespostas: [
+            { conteudo: "Com ou sem remuneração, dependendo da gravidade", correto: true },
+            { conteudo: "Sempre com remuneração", correto: false },
+            { conteudo: "Sempre sem remuneração", correto: false },
+            { conteudo: "Opcional, a critério do servidor", correto: false }
+        ],
+        justificativa: "A legislação estabelece que a suspensão pode ou não ser remunerada conforme a gravidade da infração.",
+        categoriaDaPergunta: "sancoes-disciplinares-dos-servidores"
+    },
+    {
+        enunciado: "O servidor tem direito a ampla defesa em processos disciplinares?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, é um direito constitucional", correto: true },
+            { conteudo: "Não, a decisão é unilateral da administração", correto: false },
+            { conteudo: "Apenas se for suspensão", correto: false },
+            { conteudo: "Depende do cargo ocupado", correto: false }
+        ],
+        justificativa: "A ampla defesa garante o contraditório e a legalidade do processo disciplinar.",
+        categoriaDaPergunta: "sancoes-disciplinares-dos-servidores"
+    },
+    {
+        enunciado: "A aplicação de sanções disciplinares deve obedecer a:",
+        arrayDeRespostas: [
+            { conteudo: "Princípio da proporcionalidade e da legalidade", correto: true },
+            { conteudo: "Preferência pessoal do superior", correto: false },
+            { conteudo: "Interesse político momentâneo", correto: false },
+            { conteudo: "A opinião do público externo", correto: false }
+        ],
+        justificativa: "As sanções devem ser proporcionais à infração e baseadas na legislação vigente.",
+        categoriaDaPergunta: "sancoes-disciplinares-dos-servidores"
+    },
+    {
+        enunciado: "A advertência pode ser aplicada de forma:",
+        arrayDeRespostas: [
+            { conteudo: "Verbal ou escrita, conforme a gravidade da infração", correto: true },
+            { conteudo: "Apenas escrita", correto: false },
+            { conteudo: "Apenas verbal", correto: false },
+            { conteudo: "Não se aplica para infrações leves", correto: false }
+        ],
+        justificativa: "A advertência pode ser verbal ou escrita e é utilizada para corrigir condutas inadequadas de forma inicial.",
+        categoriaDaPergunta: "sancoes-disciplinares-dos-servidores"
+    },
+    {
+        enunciado: "O servidor público pode acumular cargos públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, desde que haja compatibilidade de horários e seja permitido por lei", correto: true },
+            { conteudo: "Não, acumulação de cargos é sempre proibida", correto: false },
+            { conteudo: "Sim, sem restrições", correto: false },
+            { conteudo: "Depende apenas da vontade do servidor", correto: false }
+        ],
+        justificativa: "A Constituição permite acumulação de cargos apenas quando houver compatibilidade de horários e previsão legal.",
+        categoriaDaPergunta: "acumulacao-de-cargos-dos-servidores"
+    },
+    {
+        enunciado: "Quais combinações de cargos são permitidas por lei?",
+        arrayDeRespostas: [
+            { conteudo: "Dois cargos de professor; um cargo de professor com outro técnico ou científico; dois cargos técnicos ou científicos em áreas diferentes", correto: true },
+            { conteudo: "Qualquer dois cargos de qualquer natureza", correto: false },
+            { conteudo: "Apenas cargos administrativos e políticos", correto: false },
+            { conteudo: "Nenhuma combinação é permitida", correto: false }
+        ],
+        justificativa: "A Constituição Federal estabelece combinações específicas que permitem acumulação de cargos.",
+        categoriaDaPergunta: "acumulacao-de-cargos-dos-servidores"
+    },
+    {
+        enunciado: "O que deve ser observado antes de acumular cargos públicos?",
+        arrayDeRespostas: [
+            { conteudo: "Compatibilidade de horários e respeito aos limites legais de remuneração", correto: true },
+            { conteudo: "Somente a vontade do servidor", correto: false },
+            { conteudo: "Apenas a aprovação do superior imediato", correto: false },
+            { conteudo: "Não há necessidade de observação", correto: false }
+        ],
+        justificativa: "A acumulação depende de compatibilidade de horários e limites legais para evitar conflito de interesses.",
+        categoriaDaPergunta: "acumulacao-de-cargos-dos-servidores"
+    },
+    {
+        enunciado: "É permitido acumular dois cargos de natureza política?",
+        arrayDeRespostas: [
+            { conteudo: "Não, é proibido", correto: true },
+            { conteudo: "Sim, se houver compatibilidade de horários", correto: false },
+            { conteudo: "Sim, sem restrições legais", correto: false },
+            { conteudo: "Depende do órgão público", correto: false }
+        ],
+        justificativa: "A lei proíbe acumulação de cargos políticos ou de chefia com outros cargos da mesma natureza.",
+        categoriaDaPergunta: "acumulacao-de-cargos-dos-servidores"
+    },
+    {
+        enunciado: "Um servidor pode acumular dois cargos de professor?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, é permitido desde que haja compatibilidade de horários", correto: true },
+            { conteudo: "Não, é proibido em qualquer situação", correto: false },
+            { conteudo: "Sim, mas apenas na mesma instituição", correto: false },
+            { conteudo: "Sim, sem limites de horário", correto: false }
+        ],
+        justificativa: "A acumulação de cargos de professor é uma exceção permitida pela Constituição, respeitando compatibilidade de horários.",
+        categoriaDaPergunta: "acumulacao-de-cargos-dos-servidores"
+    },
+    {
+        enunciado: "Acumular um cargo técnico com outro de professor é permitido?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, desde que haja compatibilidade de horários", correto: true },
+            { conteudo: "Não, é sempre proibido", correto: false },
+            { conteudo: "Sim, mas apenas em órgãos diferentes", correto: false },
+            { conteudo: "Depende apenas da autorização do superior", correto: false }
+        ],
+        justificativa: "A Constituição autoriza a acumulação de um cargo de professor com outro técnico ou científico se houver compatibilidade de horários.",
+        categoriaDaPergunta: "acumulacao-de-cargos-dos-servidores"
+    },
+    {
+        enunciado: "O servidor pode receber remuneração integral de dois cargos acumulados sem restrições?",
+        arrayDeRespostas: [
+            { conteudo: "Não, deve respeitar limites legais", correto: true },
+            { conteudo: "Sim, sempre integral", correto: false },
+            { conteudo: "Sim, se os cargos forem da mesma área", correto: false },
+            { conteudo: "Depende da aprovação do chefe imediato", correto: false }
+        ],
+        justificativa: "O recebimento da remuneração deve observar limites legais para evitar conflitos e excesso de carga de trabalho.",
+        categoriaDaPergunta: "acumulacao-de-cargos-dos-servidores"
+    },
+    {
+        enunciado: "O que caracteriza a incompatibilidade de cargos?",
+        arrayDeRespostas: [
+            { conteudo: "Quando os horários de exercício se sobrepõem e não permitem o cumprimento das funções", correto: true },
+            { conteudo: "Quando os cargos são na mesma cidade", correto: false },
+            { conteudo: "Quando o servidor prefere não dividir o tempo", correto: false },
+            { conteudo: "Quando os cargos têm salários diferentes", correto: false }
+        ],
+        justificativa: "A incompatibilidade ocorre quando não é possível cumprir integralmente os horários e responsabilidades de ambos os cargos.",
+        categoriaDaPergunta: "acumulacao-de-cargos-dos-servidores"
+    },
+    {
+        enunciado: "O servidor deve comunicar à administração sobre a acumulação de cargos?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, é obrigatório informar e obter autorização legal", correto: true },
+            { conteudo: "Não, a administração descobre automaticamente", correto: false },
+            { conteudo: "Sim, mas apenas em casos de cargos públicos federais", correto: false },
+            { conteudo: "Não é necessário comunicar", correto: false }
+        ],
+        justificativa: "Informar à administração é fundamental para garantir legalidade e compatibilidade de horários na acumulação de cargos.",
+        categoriaDaPergunta: "acumulacao-de-cargos-dos-servidores"
+    },
+    {
+        enunciado: "O que é prescrição de infrações disciplinares dos servidores?",
+        arrayDeRespostas: [
+            { conteudo: "É a perda do direito de punir o servidor após determinado prazo", correto: true },
+            { conteudo: "É a suspensão automática do servidor", correto: false },
+            { conteudo: "É a anulação do cargo do servidor", correto: false },
+            { conteudo: "É a perda do salário do servidor", correto: false }
+        ],
+        justificativa: "A prescrição impede que o Estado aplique sanções após o prazo legal previsto para cada tipo de infração.",
+        categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    },
+    {
+        enunciado: "Qual é o prazo de prescrição para infrações leves?",
+        arrayDeRespostas: [
+            { conteudo: "2 anos", correto: true },
+            { conteudo: "5 anos", correto: false },
+            { conteudo: "10 anos", correto: false },
+            { conteudo: "1 ano", correto: false }
+        ],
+        justificativa: "Infrações leves prescrevem em 2 anos, contados da data do conhecimento da irregularidade.",
+        categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    },
+    {
+        enunciado: "Qual é o prazo de prescrição para infrações graves?",
+        arrayDeRespostas: [
+            { conteudo: "5 anos", correto: true },
+            { conteudo: "2 anos", correto: false },
+            { conteudo: "8 anos", correto: false },
+            { conteudo: "10 anos", correto: false }
+        ],
+        justificativa: "Infrações graves prescrevem em 5 anos, garantindo ao servidor direito à defesa dentro do prazo legal.",
+        categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    },
+    {
+        enunciado: "A prescrição das infrações disciplinares é contada a partir de quando?",
+        arrayDeRespostas: [
+            { conteudo: "Da data em que a infração foi conhecida", correto: true },
+            { conteudo: "Da data de posse do servidor", correto: false },
+            { conteudo: "Do primeiro dia do mês seguinte", correto: false },
+            { conteudo: "Do último dia do exercício do servidor", correto: false }
+        ],
+        justificativa: "O prazo começa quando a administração toma ciência da infração para garantir o direito de defesa.",
+        categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    },
+    {
+        enunciado: "O que acontece se o processo disciplinar não for iniciado dentro do prazo de prescrição?",
+        arrayDeRespostas: [
+            { conteudo: "O servidor não pode mais ser punido", correto: true },
+            { conteudo: "A punição é aplicada parcialmente", correto: false },
+            { conteudo: "O servidor pode ser punido, mas com desconto de salário", correto: false },
+            { conteudo: "O processo é automaticamente renovado", correto: false }
+        ],
+        justificativa: "A prescrição extingue o direito da administração de aplicar sanções após o prazo legal.",
+        categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    },
+    {
+        enunciado: "O prazo de prescrição pode ser interrompido?",
+        arrayDeRespostas: [
+            { conteudo: "Sim, quando o servidor é notificado oficialmente ou há instauração de processo", correto: true },
+            { conteudo: "Não, o prazo corre sem interrupção", correto: false },
+            { conteudo: "Sim, apenas por decisão judicial", correto: false },
+            { conteudo: "Sim, por solicitação do servidor", correto: false }
+        ],
+        justificativa: "A prescrição é interrompida pela notificação ou instauração de processo disciplinar, reiniciando a contagem do prazo.",
+        categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    },
+    {
+        enunciado: "Infrações leves prescrevem mais rapidamente que infrações graves porque:",
+        arrayDeRespostas: [
+            { conteudo: "São consideradas de menor impacto administrativo", correto: true },
+            { conteudo: "O servidor tem menos responsabilidades", correto: false },
+            { conteudo: "O superior não precisa analisar com cuidado", correto: false },
+            { conteudo: "Não há justificativa legal", correto: false }
+        ],
+        justificativa: "Infrações leves possuem menor gravidade e, portanto, prazo de prescrição menor.",
+        categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    },
+    {
+        enunciado: "Infrações graves não prescrevem se:",
+        arrayDeRespostas: [
+            { conteudo: "Houver investigação em andamento que interrompa a contagem do prazo", correto: true },
+            { conteudo: "O servidor solicitar", correto: false },
+            { conteudo: "O superior achar conveniente", correto: false },
+            { conteudo: "Nunca prescrevem", correto: false }
+        ],
+        justificativa: "A prescrição é suspensa ou interrompida durante a tramitação do processo administrativo disciplinar.",
+        categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    },
+    {
+        enunciado: "A prescrição das infrações disciplinares protege o servidor porque:",
+        arrayDeRespostas: [
+            { conteudo: "Evita punições injustas por fatos antigos", correto: true },
+            { conteudo: "Impede qualquer investigação administrativa", correto: false },
+            { conteudo: "Garante benefícios financeiros retroativos", correto: false },
+            { conteudo: "Dispensa o cumprimento de deveres", correto: false }
+        ],
+        justificativa: "A prescrição garante segurança jurídica e evita que o servidor seja punido por fatos antigos sem possibilidade de defesa adequada.",
+        categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    },
+    {
+        enunciado: "O prazo de prescrição está definido em qual legislação?",
+        arrayDeRespostas: [
+            { conteudo: "Lei 8.112/1990 (Regime Jurídico dos Servidores Públicos Civis da União)", correto: true },
+            { conteudo: "Lei de Licitações", correto: false },
+            { conteudo: "Constituição Municipal", correto: false },
+            { conteudo: "Código de Trânsito", correto: false }
+        ],
+        justificativa: "A Lei 8.112/1990 estabelece os prazos de prescrição para diferentes tipos de infrações disciplinares.",
+        categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    }
 ]
 
 export {
@@ -9331,4 +9980,10 @@ export {
  * sancoes-administrativas
  * licitações-e-seus-principios
  * lei-14133/2021
+ * deveres-do-servidor
+ * proibicoes-dos-servidores
+ * responsabilidades-dos-servidores
+ * sancoes-disciplinares-dos-servidores
+ * acumulacao-de-cargos-dos-servidores
+ * prescricao-de-infracoes-dos-servidores
  */

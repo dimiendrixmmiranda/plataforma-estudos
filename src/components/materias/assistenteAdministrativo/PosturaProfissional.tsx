@@ -1,5 +1,6 @@
 'use client'
 
+import BotaoExecutar from "@/components/base/BotaoExecutar";
 import IntroducaoMateria from "@/components/base/IntroducaoDisciplina";
 import SubmateriasNavegacao from "@/components/base/MateriasNavegacao";
 import TituloMateria from "@/components/base/TituloMateria";
@@ -10,10 +11,9 @@ import { assistenteAdministrativo } from "@/constants/assistenteAdministrativo";
 import useAuth from "@/data/hook/useAuth";
 import { useMateriasCompletas } from "@/data/hook/useMateriasCompletas";
 import { createSlug } from "@/utils/createSlug";
-import Link from "next/link";
 import { FaCheckSquare } from "react-icons/fa";
 
-export default function PosturaProfissional(){
+export default function PosturaProfissional() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
     const { usuario } = useAuth()
     console.log("materiasCompletas", materiasCompletas);
@@ -72,12 +72,7 @@ export default function PosturaProfissional(){
                                         <VideoExplicativo idVideo={submateria.video?.idVideo} titulo={submateria.video?.titulo} />
                                     ) : ''
                                 }
-                                <Link
-                                    href={`/pages/materias/exercicios/${createSlug(submateria.id)}`}
-                                    className="text-center uppercase font-bold text-xl flex justify-center bg-amarelo w-full py-2 text-white mt-2"
-                                >
-                                    Realizar Exercícios
-                                </Link>
+                                <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
                             </li>
                         )
                     })

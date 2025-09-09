@@ -12,6 +12,7 @@ import MateriaCategoriaConcurso from "@/components/materiaCategoriaConcurso/Mate
 import portugues from "@/constants/portugues"
 import { assistenteAdministrativo } from "@/constants/assistenteAdministrativo"
 import BotaoExecutar from "@/components/base/BotaoExecutar"
+import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora"
 
 export default function PaginaMaterias() {
     const { usuario } = useAuth()
@@ -434,6 +435,20 @@ export default function PaginaMaterias() {
                                     materiaConcluida={toggleMateriaCompleta}
                                     materiasCompletas={materiasCompletas}
                                 />
+                                <MateriaCategoriaConcurso
+                                    materia="Estatuto Dos Servidores"
+                                    visible={visibleMateria === "estatuto-servidores"}
+                                    onToggle={() => toggleMateria("estatuto-servidores")}
+                                    submaterias={[
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["das-disposicoes-preliminares"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["das-disposicoes-preliminares"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["das-disposicoes-preliminares"].id}`
+                                        },
+                                    ]}
+                                    materiaConcluida={toggleMateriaCompleta}
+                                    materiasCompletas={materiasCompletas}
+                                />
                             </AccordionTab>
                             <AccordionTab header="IBGE">
                                 <MateriaCategoriaConcurso
@@ -522,7 +537,7 @@ export default function PaginaMaterias() {
                             </AccordionTab>
                         </Accordion>
                     </div>
-                    <BotaoExecutar link="/pages/simulado" texto="Realizar Simulado"/>
+                    <BotaoExecutar link="/pages/simulado" texto="Realizar Simulado" />
                 </div>
                 <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />
             </RotaProtegida>

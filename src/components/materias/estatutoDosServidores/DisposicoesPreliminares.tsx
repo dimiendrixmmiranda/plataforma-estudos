@@ -1,0 +1,78 @@
+import TituloMateria from "@/components/base/TituloMateria";
+import ReproduzirTexto from "@/components/reproduzirTexto/ReproduzirTexto";
+import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora";
+
+export default function DisposicoesPreliminares() {
+    return (
+        <div className="p-2 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
+            <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["das-disposicoes-preliminares"].titulo}`} />
+            {
+                estatutoDosServidoresDeJoaquimTavora["das-disposicoes-preliminares"].arrayDeArtigos.map((artigo, i) => {
+                    return (
+                        <div key={i} className="flex flex-col gap-4">
+                            <h2>{artigo.artigo}</h2>
+                            <ReproduzirTexto
+                                reduzida={false}
+                                texto={
+                                    Array.isArray(artigo.artigo)
+                                        ? artigo.artigo.join(' ')
+                                        : artigo.artigo
+                                }
+                            />
+                            <div>
+                                <div className="flex items-center">
+                                    <h3 className="flex-1">Explicação:</h3>
+                                    <ReproduzirTexto
+                                        reduzida={true}
+                                        texto={
+                                            Array.isArray(artigo.explicacao)
+                                                ? artigo.explicacao.join(' ')
+                                                : artigo.explicacao
+                                        }
+                                    />
+                                </div>
+                                <p>{artigo.explicacao}</p>
+                            </div>
+                            <div>
+                                <div className="flex items-center">
+                                    <h3 className="flex-1">Exemplo Prático:</h3>
+                                    <ReproduzirTexto
+                                        reduzida={true}
+                                        texto={
+                                            Array.isArray(artigo.exemploPratico)
+                                                ? artigo.exemploPratico.join(' ')
+                                                : artigo.exemploPratico
+                                        }
+                                    />
+                                </div>
+                                <p>{artigo.exemploPratico}</p>
+                            </div>
+                            <div>
+                                <div className="flex items-center">
+                                    <h3 className="flex-1">Observações:</h3>
+                                    <ReproduzirTexto
+                                        reduzida={true}
+                                        texto={
+                                            Array.isArray(artigo.observacao)
+                                                ? artigo.observacao.join(' ')
+                                                : artigo.observacao
+                                        }
+                                    />
+                                </div>
+                                <ul className="list-disc ml-6">
+                                    {artigo.observacao.map((obs, i) => {
+                                        return (
+                                            <li key={i}>
+                                                <p>{obs}</p>
+                                            </li>
+                                        )
+                                    })}
+                                </ul>
+                            </div>
+                        </div>
+                    )
+                })
+            }
+        </div>
+    )
+}

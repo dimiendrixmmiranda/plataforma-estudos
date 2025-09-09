@@ -2,7 +2,6 @@
 import AdministracaoPublica from '@/components/materias/assistenteAdministrativo/AdministracaoPublica'
 import AtosAdministrativos from '@/components/materias/assistenteAdministrativo/AtosAdministrativos'
 import ContratosAdministrativos from '@/components/materias/assistenteAdministrativo/ContratosAdministrativos'
-import EstatutoDosServidoresDoMunicipio from '@/components/materias/assistenteAdministrativo/EstatutoDosServidoresDoMunicipio'
 import Licitacoes from '@/components/materias/assistenteAdministrativo/Licitacoes'
 import NocoesGeraisSobreArquivoDeDocumentos from '@/components/materias/assistenteAdministrativo/NocoesGeraisSobreArquivoDeDocumentos'
 import PosturaProfissional from '@/components/materias/assistenteAdministrativo/PosturaProfissional'
@@ -25,7 +24,6 @@ const componentesPorSlug: Record<string, JSX.Element> = {
     ['contratos-administrativos']: <ContratosAdministrativos />,
     ['licitacoes']: <Licitacoes />,
     ['responsabilidades-dos-servidores']: <ResponsabiladadesDosServidores />,
-    ['estatuto-dos-servidores-do-municipio']: <EstatutoDosServidoresDoMunicipio />,
 }
 
 export default function PaginaMateriaAssistenteAdministrativo() {

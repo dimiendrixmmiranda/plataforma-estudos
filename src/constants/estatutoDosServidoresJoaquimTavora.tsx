@@ -65,7 +65,60 @@ const estatutoDosServidoresDeJoaquimTavora = {
                 ]
             },
         ]
-    }
+    },
+    ["do-concurso-publico"]: {
+        titulo: `Do Concurso Publico`,
+        id: `do-concurso-publico`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 7° A investidura em cargo público depende de aprovação prévia em concurso público de provas ou de provas e títulos de acordo com a natureza e a complexidade do cargo, observados o prazo de validade e a ordem de classificação, ressalvada a nomeação para cargo em comissão, declarado em lei de livre nomeação e exoneração. § 1º Concurso Público é o procedimento administrativo consubstanciado num processo de recrutamento e seleção, de natureza competitiva e classificatória, aberto ao público, atendido os requisitos estabelecidos em regulamento especial e na legislação aplicável. § 2º O concurso público terá validade de até 02 (dois) anos, contados de sua homologação, podendo ser prorrogado uma vez, por igual período. § 3º A convocação do candidato aprovado em concurso público far-se-á através de edital publicado em órgão de imprensa no Município e afixado no prédio da administração central do Poder. § 4º A aprovação em concurso público não gera direito à nomeação, mas esta, quando se der, respeitará a ordem de classificação dos candidatos habilitados, salvo prévia desistência por escrito. § 5º Os candidatos aprovados no concurso público, cuja classificação é posterior ao número de vagas definidas no Edital, comporão o acervo das vagas de reserva e poderão ser convocados, no interesse da Administração, até o prazo de validade do concurso, sem direito garantido à nomeação. §6º. Quando houver servidor público municipal em disponibilidade, não será permitida a realização de concurso público para preenchimento de cargo de igual categoria, devendo, se necessário, ser convocado o servidor disponível.`,
+                explicacao: `Para ocupar um cargo público é preciso passar em concurso público (provas ou provas e títulos), respeitando o prazo de validade do concurso e a ordem de classificação dos candidatos. A única exceção são os cargos em comissão, que são de livre nomeação e exoneração.`,
+                exemploPratico: 'Uma prefeitura abre concurso para contratar professores. Os candidatos aprovados entram em uma lista de classificação e só podem ser chamados seguindo essa ordem. Já o cargo de secretário municipal não exige concurso, pois é um cargo em comissão.',
+                observacao: [
+                    `Regra geral: ingresso no serviço público somente por concurso.`,
+                    `Concurso tem validade de até 2 anos, prorrogável por mais 2.`,
+                    `A convocação é feita por edital oficial.`,
+                    `Aprovação não garante nomeação, mas, se houver, deve respeitar a ordem de classificação.`,
+                    `Existe a lista de vagas de reserva, que pode ser usada conforme a necessidade da Administração.`,
+                    `Se já existir servidor público em disponibilidade para aquele cargo, não pode haver novo concurso para a mesma função.`,
+                ]
+            },
+            {
+                artigo: `Art. 8º Enquanto houver candidato aprovado em concurso público anterior, cujo prazo de validade ainda não se tenha expirado, não poderá ser realizado concurso para o mesmo cargo. `,
+                explicacao: `Se já existe concurso público válido para um cargo e ainda há candidatos aprovados aguardando convocação, a Administração não pode abrir um novo concurso para o mesmo cargo até que o prazo do anterior acabe.`,
+                exemploPratico: 'Uma prefeitura fez concurso para assistente administrativo com validade de 2 anos. Ainda existem aprovados aguardando nomeação. Nesse período, não pode ser aberto outro concurso para esse mesmo cargo.',
+                observacao: [
+                    `Garante respeito à lista de aprovados do concurso anterior.`,
+                    `Evita desperdício de recursos públicos com novos concursos desnecessários.`,
+                    `Protege os direitos dos candidatos já aprovados.`,
+                    `Só após o fim da validade do concurso anterior é permitido abrir outro para o mesmo cargo.`,
+                ]
+            },
+            {
+                artigo: `Art. 9º Em todos os concursos públicos para provimento de cargo efetivo do quadro de pessoal da Administração Direta e Indireta do Município, serão reservados 5% (cinco por cento) do número de vagas para as pessoas portadoras de deficiência, salvo quanto aos cargos para os quais a lei exija aptidão plena.`,
+                explicacao: `Todo concurso público do Município (Administração Direta e Indireta) deve reservar 5% das vagas para candidatos com deficiência, exceto nos cargos que exigem plena aptidão física ou mental, conforme previsto em lei.`,
+                exemploPratico: 'Em um concurso para técnico administrativo com 20 vagas, 1 vaga obrigatoriamente será destinada a candidatos com deficiência. Mas, em um concurso para bombeiro municipal, se a lei exigir plena aptidão física, a reserva pode não ser aplicada.',
+                observacao: [
+                    `A reserva mínima é de 5% das vagas em todos os concursos.`,
+                    `Só não haverá reserva quando o cargo exigir aptidão plena, prevista em lei.`,
+                    `Garante inclusão e igualdade de oportunidades para pessoas com deficiência.`,
+                    `A reserva vale tanto para cargos da Administração Direta quanto Indireta.`,
+                ]
+            },
+            {
+                artigo: `Art. 10. Considera-se pessoa com deficiência, para os fins desta Lei, aquela que apresenta, em caráter permanente, perda ou anormalidade de natureza psicológica, fisiológica ou anatômica, que gere incapacidade para o desempenho de atividade, dentro do padrão considerado normal para o ser humano, desde que conceituada na medicina especializada de acordo com os padrões mundialmente estabelecidos.`,
+                explicacao: `Para esta Lei, é considerada pessoa com deficiência aquela que tem, de forma permanente, alguma perda ou alteração psicológica, fisiológica ou anatômica que cause dificuldade para desempenhar atividades dentro do padrão considerado normal. Esse diagnóstico deve ser reconhecido pela medicina especializada, seguindo critérios internacionais.`,
+                exemploPratico: 'Um candidato com perda auditiva significativa comprovada por laudo médico especializado pode concorrer às vagas reservadas para pessoas com deficiência em um concurso público.',
+                observacao: [
+                    `A deficiência deve ser permanente.`,
+                    `Pode ser de ordem psicológica, fisiológica ou anatômica.`,
+                    `Precisa gerar incapacidade em comparação ao padrão comum.`,
+                    `O diagnóstico deve ser reconhecido por medicina especializada e seguir padrões internacionais.`,
+                    `Esse conceito é o que garante o direito à reserva de vagas em concursos.`,
+                ]
+            },
+        ]
+    },
 }
 
 export { estatutoDosServidoresDeJoaquimTavora }

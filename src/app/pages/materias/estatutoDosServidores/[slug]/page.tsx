@@ -1,4 +1,5 @@
 'use client'
+import ConcursoPublico from '@/components/materias/estatutoDosServidores/ConcursoPublico'
 import DisposicoesPreliminares from '@/components/materias/estatutoDosServidores/DisposicoesPreliminares'
 import Template from '@/components/template/Template'
 import { useParams } from 'next/navigation'
@@ -6,6 +7,7 @@ import { JSX } from 'react'
 
 const componentesPorSlug: Record<string, JSX.Element> = {
     ['das-disposicoes-preliminares']: <DisposicoesPreliminares />,
+    ['do-concurso-publico']: <ConcursoPublico />,
 }
 
 export default function Page() {

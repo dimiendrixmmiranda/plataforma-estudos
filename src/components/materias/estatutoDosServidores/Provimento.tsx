@@ -2,12 +2,12 @@ import TituloMateria from "@/components/base/TituloMateria";
 import ReproduzirTexto from "@/components/reproduzirTexto/ReproduzirTexto";
 import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora";
 
-export default function ConcursoPublico() {
+export default function Provimento() {
     return (
         <div className="p-4 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
-            <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["do-concurso-publico"].titulo}`} />
+            <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["do-provimento"].titulo}`} />
             {
-                estatutoDosServidoresDeJoaquimTavora["do-concurso-publico"].arrayDeArtigos.map((artigo, i) => {
+                estatutoDosServidoresDeJoaquimTavora["do-provimento"].arrayDeArtigos.map((artigo, i) => {
                     return (
                         <div key={i} className="flex flex-col gap-4 pb-6 border-b-2 border-azul-escuro">
                             <h2>{artigo.artigo}</h2>

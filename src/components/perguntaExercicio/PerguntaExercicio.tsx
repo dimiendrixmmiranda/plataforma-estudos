@@ -8,16 +8,16 @@ import { useEffect, useState } from "react"
 interface PerguntaExercicioProps {
     pergunta: PerguntaExercicioInterface
     indice: number
+    respostaCerta: boolean | null
+    setRespostaCerta: (valor: boolean) => void
 }
 
-export default function PerguntaExercicio({ pergunta, indice }: PerguntaExercicioProps) {
+export default function PerguntaExercicio({ pergunta, indice, respostaCerta, setRespostaCerta }: PerguntaExercicioProps) {
     const [respostaSelecionada, setRespostaSelecionada] = useState<number | null>(null)
-    const [respostaCerta, setRespostaCerta] = useState<boolean | null>(null)
     const [alternativas, setAlternativas] = useState(pergunta.arrayDeRespostas)
 
     const verificarResposta = () => {
-        if (respostaSelecionada === null) return;
-
+        if (respostaSelecionada === null) return
         const resposta = alternativas[respostaSelecionada]
         setRespostaCerta(resposta.correto)
     }
@@ -78,7 +78,7 @@ export default function PerguntaExercicio({ pergunta, indice }: PerguntaExercici
                         <p className="font-black text-xl uppercase">Justificativa:</p>
                         <span>{pergunta.justificativa}</span>
                     </div>
-                ): ('') 
+                ) : ('')
             }
         </div>
     )

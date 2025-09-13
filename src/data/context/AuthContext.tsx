@@ -7,7 +7,7 @@ import { User, signInWithEmailAndPassword } from "firebase/auth"; // Importando 
 import { setPersistence, browserLocalPersistence, browserSessionPersistence } from "firebase/auth";
 import Cookies from 'js-cookie';
 import { collection, doc, getDoc, getDocs, query, setDoc, where } from "firebase/firestore";
-import Usuario from "@/interfaces/Usuario";
+import { Usuario } from "@/interfaces/Usuario";
 
 interface AuthContextProps {
     usuario?: Usuario | null;
@@ -15,7 +15,17 @@ interface AuthContextProps {
     carregando?: boolean
     login?: (email: string, senha: string, manterConectado: boolean) => Promise<void>;
     logout?: () => Promise<void>;
+}
 
+interface UsuarioFirestore {
+    nome?: string;
+    sexo?: string;
+    genero?: string;
+    gender?: string;
+    tipo?: string;
+    email?: string;
+    cpf?: string;
+    telefone?: string;
 }
 
 const AuthContext = createContext<AuthContextProps>({});
@@ -23,17 +33,18 @@ const AuthContext = createContext<AuthContextProps>({});
 async function usuarioNormalizado(usuarioFirebase: User): Promise<Usuario> {
     const token = await usuarioFirebase.getIdToken();
     const userDoc = await getDoc(doc(db, "usuarios", usuarioFirebase.uid));
-    let tipo: string | undefined;
 
-    if (userDoc.exists()) {
-        tipo = userDoc.data().tipo;
-    }
+    const data = userDoc.exists() ? (userDoc.data() as UsuarioFirestore) : {}
+    const tipo = data?.tipo
+    const nomeFirestore = data?.nome ?? null
+    const sexoFirestore = data?.sexo ?? data?.genero ?? data?.gender ?? null
 
     return {
         uid: usuarioFirebase.uid,
-        nome: usuarioFirebase.displayName || "",
+        nome: nomeFirestore || usuarioFirebase.displayName || "",
         email: usuarioFirebase.email || "",
         token,
+        sexo: sexoFirestore ?? "",
         provedor: usuarioFirebase.providerData[0]?.providerId || "",
         imagemURL: usuarioFirebase.photoURL || "",
         tipo,
@@ -71,7 +82,7 @@ export function AuthProvider({ children }: AuthContextProps) {
             setCarregando(false)
         }
     }
-    
+
     async function login(identificador: string, senha: string, manterConectado = false) {
         try {
             setCarregando(true);

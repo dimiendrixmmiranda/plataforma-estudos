@@ -4,12 +4,12 @@ import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosSer
 
 export default function DisposicoesPreliminares() {
     return (
-        <div className="p-2 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
+        <div className="p-4 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
             <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["das-disposicoes-preliminares"].titulo}`} />
             {
                 estatutoDosServidoresDeJoaquimTavora["das-disposicoes-preliminares"].arrayDeArtigos.map((artigo, i) => {
                     return (
-                        <div key={i} className="flex flex-col gap-4">
+                        <div key={i} className="flex flex-col gap-4 pb-6 border-b-2 border-azul-escuro">
                             <h2>{artigo.artigo}</h2>
                             <ReproduzirTexto
                                 reduzida={false}

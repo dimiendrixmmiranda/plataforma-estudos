@@ -450,6 +450,11 @@ export default function PaginaMaterias() {
                                             slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["do-concurso-publico"].id}`,
                                             id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["do-concurso-publico"].id}`
                                         },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["do-provimento"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["do-provimento"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["do-provimento"].id}`
+                                        },
                                     ]}
                                     materiaConcluida={toggleMateriaCompleta}
                                     materiasCompletas={materiasCompletas}

@@ -34,7 +34,7 @@ export default function Header() {
                                 <li>
                                     <Link href={'/pages/usuario'} className="flex items-center gap-2">
                                         <FaUserCircle className="text-2xl" />
-                                        <p className="text-xl uppercase font-black">Bem vindo Usuario</p>
+                                        <p className="text-xl uppercase font-black">Bem vindo {usuario.nome.split(' ')[0]}</p>
                                     </Link>
                                 </li>
                                 <li>

@@ -480,6 +480,31 @@ export default function PaginaMaterias() {
                                             slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-reintegracao"].id}`,
                                             id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-reintegracao"].id}`
                                         },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-disponibilidade-e-do-aproveitamento"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-disponibilidade-e-do-aproveitamento"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-disponibilidade-e-do-aproveitamento"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-reversao"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-reversao"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-reversao"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-movimentacao-de-pessoal-disposicoes-gerais"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-movimentacao-de-pessoal-disposicoes-gerais"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-movimentacao-de-pessoal-disposicoes-gerais"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-remocao"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-remocao"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-remocao"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-redistribuicao"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-redistribuicao"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-redistribuicao"].id}`
+                                        },
                                     ]}
                                     materiaConcluida={toggleMateriaCompleta}
                                     materiasCompletas={materiasCompletas}
@@ -573,6 +598,10 @@ export default function PaginaMaterias() {
                         </Accordion>
                     </div>
                     <BotaoExecutar link="/pages/simulado" texto="Realizar Simulado" />
+                    <div>
+                        <h3 className="text-xl uppercase font-bold">Lista de Editais</h3>
+                        <span className="italic">Nenhum edital publicado ainda.</span>
+                    </div>
                 </div>
                 <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />
             </RotaProtegida>

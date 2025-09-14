@@ -1,8 +1,8 @@
 'use client';
 import Template from "@/components/template/Template";
 import useAuth from "@/data/hook/useAuth";
+import Image from "next/image";
 import { useState } from "react";
-import { FaUserCircle } from "react-icons/fa";
 
 export default function Page() {
 	const { login } = useAuth()
@@ -73,8 +73,8 @@ export default function Page() {
 		<Template>
 			<div className="text-black bg-turquesaEscuro min-h-[77vh] p-4 flex flex-col justify-center items-center gap-10">
 				<div className="flex flex-col gap-4 p-4 border border-black rounded-lg w-full max-w-[300px] bg-turquesaClaro text-white" style={{ boxShadow: '0px 0px 2px 1px black' }}>
-					<div className="flex flex-col gap-2 justify-center items-center">
-						<FaUserCircle className="text-[120px]"/>
+					<div className="flex flex-col gap-2 justify-center items-center relative w-[140px] h-[140px] mx-auto">
+						<Image alt="Usuario" src={'/outros/user.png'} fill className="object-contain" />
 					</div>
 					{erro && (
 						<p className="bg-red-500 text-white text-center p-2 rounded-lg">

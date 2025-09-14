@@ -499,6 +499,144 @@ const estatutoDosServidoresDeJoaquimTavora = {
             },
         ]
     },
+    ["da-disponibilidade-e-do-aproveitamento"]: {
+        titulo: `Da Disponibilidade e do Aproveitamento`,
+        id: `da-disponibilidade-e-do-aproveitamento`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 41. Poderá ocorrer a disponibilidade com remuneração proporcional ao tempo de serviço, quando extinto o cargo efetivo ou declarada a sua desnecessidade e desde que não seja possível atribuir, de imediato, ao servidor, cargo ou função compatível.`,
+                explicacao: `A disponibilidade acontece quando o cargo efetivo do servidor é extinto ou declarado desnecessário e não há como realocá-lo imediatamente em outro cargo compatível. Nessa situação, o servidor não perde totalmente a remuneração, mas passa a receber um valor proporcional ao tempo de serviço que prestou. Ou seja, é uma forma de garantir que ele continue recebendo enquanto não é recolocado em outro cargo.`,
+                exemploPratico: 'João era servidor em um cargo efetivo de fiscal de transportes. Com uma reestruturação administrativa, o cargo foi extinto e não havia outra função compatível disponível para ele assumir naquele momento. Por isso, João foi colocado em disponibilidade, recebendo remuneração proporcional ao tempo em que já havia trabalhado no serviço público, até que fosse possível sua realocação.',
+                observacao: [
+                    `A disponibilidade ocorre quando o cargo é extinto ou considerado desnecessário.`,
+                    `Só é aplicada se não houver como realocar o servidor imediatamente em outro cargo compatível.`,
+                    `O servidor recebe remuneração proporcional ao tempo de serviço.`,
+                ]
+            },
+            {
+                artigo: `Art. 42. Aproveitamento é o reingresso no serviço público do servidor em disponibilidade.`,
+                explicacao: `O aproveitamento acontece quando um servidor que estava em disponibilidade volta a exercer suas funções no serviço público. Isso ocorre quando surge um cargo compatível com o que ele ocupava anteriormente, permitindo o seu retorno à ativa. É, portanto, a forma de reintegrar o servidor que estava afastado por não haver cargo disponível.`,
+                exemploPratico: 'Ana era servidora em um cargo que foi extinto e, por isso, foi colocada em disponibilidade. Meses depois, a prefeitura criou um novo cargo com funções semelhantes ao que ela exercia. Assim, Ana foi aproveitada, retornando ao serviço público e reassumindo suas atividades de forma regular.',
+                observacao: [
+                    `O aproveitamento é o retorno do servidor que estava em disponibilidade.`,
+                    `Só ocorre quando surge um cargo compatível com o que ele ocupava antes.`,
+                    `Garante a reintegração do servidor à ativa no serviço público.`,
+                ]
+            },
+            {
+                artigo: `Art. 43. O retorno à atividade do servidor em disponibilidade far-se-á mediante aproveitamento obrigatório em cargo ou função de atribuições e vencimentos compatíveis com o cargo anteriormente ocupado.`,
+                explicacao: `Quando o servidor está em disponibilidade, seu retorno ao serviço público deve ser feito obrigatoriamente por meio do aproveitamento. Isso significa que ele deve ser colocado em um cargo ou função que tenha atribuições e vencimentos compatíveis com o que ocupava antes. Assim, garante-se que o servidor não seja prejudicado em termos de funções ou de remuneração.`,
+                exemploPratico: 'Paulo era servidor em um cargo efetivo que foi extinto, ficando em disponibilidade. Algum tempo depois, surgiu um novo cargo com funções e salário semelhantes ao que ele tinha. Nesse caso, Paulo foi obrigatoriamente aproveitado nesse cargo compatível, retornando à ativa sem perder direitos.',
+                observacao: [
+                    `O retorno do servidor em disponibilidade ocorre sempre por aproveitamento.`,
+                    `O novo cargo deve ter atribuições semelhantes ao anterior.`,
+                    `O vencimento precisa ser compatível com o cargo que o servidor ocupava.`,
+                ]
+            },
+            {
+                artigo: `Art. 44. Serão tornados sem efeito o aproveitamento e a disponibilidade se o servidor não entrar em exercício no prazo legal, salvo doença comprovada por junta médica oficial. § 1º A hipótese prevista no caput deste artigo configurará abandono de cargo, apurado mediante processo administrativo na forma desta Lei. § 2º O aproveitamento de servidor que se encontre em disponibilidade dependerá de prévia comprovação de sua capacidade física e mental, por junta médica oficial. § 3º Se julgado apto, o servidor assumirá o exercício do cargo, no prazo de 30 (trinta) dias, contados da data de publicação do ato de aproveitamento. § 4º Verificada a incapacidade definitiva, o servidor em disponibilidade será aposentado. § 5º Havendo mais de um concorrente à mesma vaga, terá preferência o de maior tempo de disponibilidade e, no caso de empate, o mais antigo no serviço público municipal. § 6º Para efeito de cálculo de vencimentos proporcionais ao servidor colocado em disponibilidade, será computado apenas o tempo de serviço público no Município.`,
+                explicacao: `Se o servidor em disponibilidade não assumir o cargo no prazo legal após ser aproveitado, o ato de aproveitamento e a própria disponibilidade serão cancelados, configurando abandono de cargo — salvo se houver doença comprovada por junta médica oficial. Para retornar ao serviço, o servidor precisa passar por avaliação de capacidade física e mental. Se considerado apto, deve assumir o cargo em até 30 dias da publicação do ato de aproveitamento. Caso seja constatada incapacidade definitiva, será aposentado. Quando houver mais de um servidor em disponibilidade para a mesma vaga, terá preferência quem estiver há mais tempo em disponibilidade e, em caso de empate, o mais antigo no serviço público municipal. Além disso, para calcular a remuneração proporcional na disponibilidade, só será considerado o tempo de serviço prestado ao município.`,
+                exemploPratico: 'Ricardo estava em disponibilidade após a extinção de seu cargo. Quando surgiu uma vaga compatível, foi chamado para o aproveitamento. Antes de assumir, passou por junta médica oficial, que atestou sua plena capacidade. Ele teve 30 dias para se apresentar ao novo cargo e entrou em exercício dentro do prazo. Se Ricardo não tivesse comparecido sem justificativa, perderia o direito à disponibilidade e seria processado por abandono de cargo.',
+                observacao: [
+                    `O não comparecimento no prazo legal cancela o aproveitamento e a disponibilidade.`,
+                    `É obrigatória a comprovação de capacidade física e mental antes do retorno.`,
+                    `O prazo para assumir o cargo após o aproveitamento é de 30 dias.`,
+                    `Incapacidade definitiva leva à aposentadoria.`,
+                    `Critérios de preferência: maior tempo em disponibilidade e, em caso de empate, mais antigo no serviço público municipal.`,
+                    `Só conta o tempo de serviço prestado ao município para calcular a remuneração proporcional.`,
+                ]
+            },
+        ]
+    },
+    ["da-reversao"]: {
+        titulo: `Da Reversao`,
+        id: `da-reversao`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 45. Reversão é o ato pelo qual o aposentado por invalidez reingressa no serviço público após verificação por junta médica oficial de que não subsistem os motivos determinantes da aposentadoria. § 1º A reversão far-se-á a pedido ou de ofício. § 2º O aposentado não poderá reverter à atividade se contar mais de 70 (setenta) anos de idade. § 3º A partir da publicação do ato de reversão cessa o pagamento dos proventos de aposentadoria. § 4º Será considerado abandono de cargo do servidor que, após a reversão, não entrar em exercício no prazo de 30 (trinta) dias a contar da publicação do respectivo ato.`,
+                explicacao: `A reversão é o retorno ao serviço público de um servidor que havia sido aposentado por invalidez. Esse retorno só acontece quando uma junta médica oficial comprova que não existem mais os motivos que levaram à aposentadoria. A reversão pode ocorrer a pedido do próprio servidor ou por iniciativa da administração. No entanto, não é permitida a reversão para quem já tem mais de 70 anos. Quando a reversão é publicada, o pagamento da aposentadoria é interrompido, e, se o servidor não assumir o cargo no prazo de 30 dias, isso é considerado abandono de cargo.`,
+                exemploPratico: 'Marta foi aposentada por invalidez após um acidente que a deixou temporariamente incapaz de trabalhar. Alguns anos depois, recuperada, passou por avaliação de uma junta médica oficial, que constatou que ela estava apta para retornar. A prefeitura publicou o ato de reversão, cessando o pagamento da aposentadoria. Marta teve 30 dias para se apresentar e retomar suas atividades no cargo. Se ela não tivesse comparecido, a situação configuraria abandono de cargo.',
+                observacao: [
+                    `A reversão acontece quando cessam os motivos da aposentadoria por invalidez.`,
+                    `Pode ser feita a pedido do servidor ou de ofício pela administração.`,
+                    `Não é permitida reversão para aposentados com mais de 70 anos.`,
+                    `O pagamento da aposentadoria cessa com a publicação do ato de reversão.`,
+                    `O servidor deve assumir o cargo em até 30 dias, sob pena de abandono.`,
+                ]
+            },
+            {
+                artigo: `Art. 46. A reversão se fará no mesmo cargo ou naquele em que se tenha transformado ou, ainda, se extinto o cargo original ou declarada a sua desnecessidade, em cargo de vencimento e funções equivalentes ao do anteriormente ocupado, atendido o requisito de habilitação profissional. Parágrafo único. Encontrando-se provido o cargo, o servidor exercerá suas atribuições como excedente, devendo a Administração providenciar imediatamente a criação de vaga, mediante projeto de lei ao Legislativo.`,
+                explicacao: `Quando acontece a reversão, o servidor aposentado por invalidez volta ao mesmo cargo que ocupava ou ao cargo que o substituiu após transformação. Se o cargo original tiver sido extinto ou declarado desnecessário, ele será colocado em um cargo com funções e salário equivalentes, desde que atenda aos requisitos de habilitação profissional. Caso o cargo já esteja ocupado por outra pessoa, o servidor em reversão atuará como excedente até que a Administração crie uma nova vaga, o que deve ser feito por meio de projeto de lei aprovado pelo Legislativo.`,
+                exemploPratico: 'José era servidor em um cargo de analista de serviços gerais e foi aposentado por invalidez. Após ser considerado apto por junta médica oficial, retornou ao serviço. Nesse período, o cargo original de José havia sido transformado em analista de manutenção. Ele assumiu esse novo cargo, pois as funções e a remuneração eram equivalentes. Como já havia alguém ocupando a vaga, José trabalhou como excedente até que a prefeitura enviasse um projeto de lei à Câmara Municipal para criar uma nova vaga.',
+                observacao: [
+                    `A reversão acontece no mesmo cargo, no transformado ou em outro equivalente.`,
+                    `O servidor deve ter a habilitação profissional exigida para o cargo.`,
+                    `Se o cargo já estiver ocupado, o servidor retorna como excedente.`,
+                    `A Administração deve criar imediatamente nova vaga via projeto de lei ao Legislativo.`,
+                ]
+            },
+            {
+                artigo: `Art. 47. O tempo em que o servidor esteve aposentado será considerado exclusivamente para fins de concessão de futura aposentadoria ou disponibilidade, caso tenha contribuído para a previdência neste período.`,
+                explicacao: `O período em que o servidor esteve aposentado pode ser contado apenas para uma futura aposentadoria ou disponibilidade, desde que ele tenha continuado a contribuir para a previdência durante esse tempo. Isso significa que o tempo em que esteve afastado não é perdido, mas só terá validade para esses fins se houver contribuição previdenciária.`,
+                exemploPratico: 'Clara se aposentou por invalidez e, após alguns anos, foi revertida ao serviço público. Como ela continuou contribuindo para a previdência enquanto esteve aposentada, esse período foi considerado no cálculo de sua nova aposentadoria no futuro.',
+                observacao: [
+                    `O tempo aposentado só conta para futura aposentadoria ou disponibilidade.`,
+                    `É obrigatório que o servidor tenha contribuído para a previdência durante esse período.`,
+                    `Sem contribuição previdenciária, esse tempo não será considerado.`,
+                ]
+            },
+        ]
+    },
+    ["da-movimentacao-de-pessoal-disposicoes-gerais"]: {
+        titulo: `Da Movimentacao de Pessoal - Disposições Gerais`,
+        id: `da-movimentacao-de-pessoal-disposicoes-gerais`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 48. São formas de movimentação de pessoal: I - remoção; II - redistribuição; III -disposição; IV - readaptação.`,
+                explicacao: `A movimentação de pessoal no serviço público pode acontecer de diferentes maneiras, permitindo que servidores mudem de local, função ou adaptem suas atividades conforme a necessidade da administração ou sua própria condição. As formas previstas são: remoção (mudança de local de trabalho dentro do mesmo órgão), redistribuição (deslocamento do cargo para outro órgão), disposição (colocação temporária em outro setor ou órgão), e readaptação (ajuste das funções do servidor quando ele não pode mais exercer plenamente as atribuições originais do cargo, por questões de saúde ou capacidade).`,
+                exemploPratico: 'Pedro é servidor efetivo e trabalhava em um posto de atendimento central. A administração decidiu transferi-lo para uma unidade em outro bairro — isso é uma remoção. Já Joana, que exercia suas funções em um cargo que foi transferido para outro órgão municipal, passou por uma redistribuição. Carla, por sua vez, foi colocada temporariamente em outro setor para auxiliar em uma demanda emergencial — caso de disposição. E Marcos, que sofreu limitações físicas e não pode mais exercer sua função original, foi colocado em readaptação, assumindo tarefas compatíveis com sua nova condição.',
+                observacao: [
+                    `A movimentação de pessoal pode ocorrer por remoção, redistribuição, disposição ou readaptação.`,
+                    `Cada forma atende a uma necessidade específica da administração ou do servidor.`,
+                    `A movimentação não implica perda do vínculo ou do cargo efetivo do servidor.`,
+                ]
+            },
+        ]
+    },
+    ["da-remocao"]: {
+        titulo: `Da Remoção`,
+        id: `da-remocao`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 49. Remoção é o deslocamento do servidor ocupante do cargo efetivo, dentro do âmbito municipal, podendo ocorrer a pedido, de ofício ou por permuta. § 1º A remoção fica condicionada a servidor estável, existência de vaga no órgão de destino e conveniência administrativa. § 2º A remoção do servidor de uma Secretaria para outra, dar-se-á por ato do Secretário Municipal de Administração, ouvidos os titulares das respectivas pastas. § 3º A critério da autoridade de cada órgão, poderão ser instituídas normas regulamentadoras para remoção dentro da mesma unidade de lotação. § 4º A remoção por permuta será processada a requerimento de ambos os interessados, com anuência dos respectivos chefes, excetuando-se os integrantes do Quadro Especial do Magistério, que obedecerão à regulamentação própria.`,
+                explicacao: `A remoção acontece quando o servidor efetivo muda de local de trabalho dentro da estrutura da prefeitura. Essa mudança pode ser:a pedido (quando o próprio servidor solicita), de ofício (quando a administração decide), por permuta (troca de lugar entre dois servidores). Mas existem algumas regras: Só pode ser removido quem já é estável no cargo. Precisa ter vaga disponível no órgão de destino. Tem que ser de interesse e conveniência da administração. Se a remoção for de uma secretaria para outra, quem decide é o Secretário de Administração, ouvindo os secretários envolvidos. Cada órgão pode criar normas próprias para organizar a remoção dentro da mesma unidade. A remoção por permuta só vale com o pedido de ambos os servidores e a concordância de seus chefes. No caso dos professores (Quadro Especial do Magistério), existem regras específicas em legislação própria.`,
+                exemploPratico: 'Maria, servidora estável, pediu para trabalhar mais perto de casa em outra unidade da mesma secretaria. Isso é uma remoção a pedido. João foi transferido pela prefeitura para reforçar o atendimento em uma nova unidade. Isso é uma remoção de ofício. Carla e Ana decidiram trocar seus locais de trabalho, com o aval de seus chefes. Isso é uma remoção por permuta.',
+                observacao: [
+                    `A remoção não muda o cargo do servidor, apenas o local onde ele trabalha.`,
+                    `É sempre necessário verificar se existe vaga e se atende ao interesse público.`,
+                    `Professores seguem regras específicas.`,
+                ]
+            },
+        ]
+    },
+    ["da-redistribuicao"]: {
+        titulo: `Da Redistribuição`,
+        id: `da-redistribuicao`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 50. Redistribuição é o deslocamento de cargo de provimento efetivo, ocupado ou vago no âmbito do quadro geral de pessoal, para outro órgão ou entidade do mesmo poder, observados os seguintes preceitos: I - interesse da administração; II - equivalência de vencimentos; III - manutenção da essência das atribuições do cargo; IV - vinculação entre os graus de responsabilidade e complexidade das atividades; V - mesmo nível de escolaridade, especialidade ou habilitação profissional; VI - compatibilidade entre as atribuições do cargo e as finalidades institucionais do órgão ou entidade. § 1º A redistribuição ocorrerá ex oficio para ajustamento de lotação e da força de trabalho às necessidades dos serviços, inclusive nos casos de reorganização, extinção ou criação de órgão ou entidade. § 2º Nos casos de reorganização ou extinção de órgão ou entidade, extinto o cargo ou declarada sua desnecessidade no órgão ou entidade, o servidor estável que não for redistribuído será colocado em disponibilidade, com vencimentos proporcionais ao tempo de serviço, até seu aproveitamento na forma prevista nesta lei.`,
+                explicacao: `A redistribuição é o deslocamento de um cargo efetivo, ocupado ou vago, de um órgão para outro dentro do mesmo poder. O objetivo é ajustar a lotação e a força de trabalho conforme as necessidades da administração. Para isso, é necessário que o cargo mantido respeite a essência das funções, os vencimentos equivalentes, a responsabilidade e complexidade compatíveis, o mesmo nível de escolaridade ou habilitação e a compatibilidade com as finalidades do órgão ou entidade de destino.`,
+                exemploPratico: 'Joana ocupa um cargo de assistente administrativo em uma secretaria que será extinta. Para manter a função, o cargo é redistribuído para outra secretaria, mantendo as mesmas atribuições e vencimentos. Caso não haja redistribuição imediata para servidores estáveis, eles são colocados em disponibilidade até serem aproveitados em outro cargo compatível.',
+                observacao: [
+                    `A redistribuição desloca o cargo, não apenas o servidor.`,
+                    `Deve haver equivalência de funções e vencimentos.`,
+                    `O cargo redistribuído deve ter atribuições compatíveis com o órgão de destino.`,
+                    `Pode ocorrer de ofício para reorganização, extinção ou criação de órgãos.`,
+                    `Servidores estáveis sem redistribuição imediata entram em disponibilidade, com vencimentos proporcionais.`,
+                ]
+            },
+        ]
+    },
 }
 
 export { estatutoDosServidoresDeJoaquimTavora }

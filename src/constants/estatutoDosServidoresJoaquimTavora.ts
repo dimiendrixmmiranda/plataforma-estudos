@@ -296,6 +296,209 @@ const estatutoDosServidoresDeJoaquimTavora = {
             },
         ]
     },
+    ["da-posse"]: {
+        titulo: `Da Posse`,
+        id: `da-posse`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 25. Posse é o ato de investidura em cargo público por aceitação expressa de suas atribuições e responsabilidades.`,
+                explicacao: `A posse acontece quando a pessoa aceita oficialmente ocupar um cargo público, assumindo suas atribuições e responsabilidades. É o momento em que o candidato deixa de ser apenas aprovado e passa a ser, de fato, servidor público.`,
+                exemploPratico: 'Um candidato aprovado para o cargo de técnico administrativo é nomeado. Ele comparece ao órgão, assina o termo de posse e, a partir daí, assume as responsabilidades do cargo.',
+                observacao: [
+                    `A posse é a aceitação formal do cargo.`,
+                    `Nela, o servidor assume os deveres e responsabilidades.`,
+                    `Sem a posse, a nomeação não se concretiza.`,
+                ]
+            },
+            {
+                artigo: `Art. 26. A posse investe o cidadão no cargo público para o qual foi nomeado. § 1º A posse dar-se-á pela assinatura do respectivo termo, no qual deverão constar as atribuições, os deveres, as responsabilidades e os direitos inerentes ao cargo ocupado. § 2º O cidadão prestará, no ato da posse, o compromisso de cumprir fielmente os deveres e atribuições inerentes ao cargo. § 3º A posse ocorrerá no prazo máximo de 30 (trinta) dias, contados da publicação do ato de nomeação. § 4º Será tornado sem efeito o ato de provimento se a posse não ocorrer no prazo previsto no parágrafo anterior. § 5º A posse poderá ocorrer mediante procuração pública específica.`,
+                explicacao: `A posse é o ato que efetiva o ingresso do cidadão no cargo público para o qual foi nomeado. Ela ocorre pela assinatura do termo de posse, no qual estão descritas as atribuições, deveres, responsabilidades e direitos do cargo. No momento da posse, o servidor assume formalmente o compromisso de cumprir fielmente suas funções. Esse ato deve acontecer no prazo máximo de trinta dias, contados a partir da publicação da nomeação, sob pena de o provimento ser anulado. A posse também pode ser realizada por meio de procuração pública específica.`,
+                exemploPratico: 'Maria foi nomeada para o cargo de enfermeira municipal. Após a publicação da sua nomeação no diário oficial, ela tem 30 dias para assinar o termo de posse, onde constam seus direitos e deveres. Se não comparecer nesse prazo, perde a vaga automaticamente.',
+                observacao: [
+                    `A posse é o passo final para assumir o cargo.`,
+                    `O prazo é rigoroso: 30 dias.`,
+                    `Pode ser feita pessoalmente ou por procuração pública específica.`,
+                ]
+            },
+            {
+                artigo: `Art. 27. A posse dar-se-á pelo preenchimento dos requisitos exigidos para o provimento do cargo a ser ocupado, entre eles:I - apresentar declaração de que não ocupa outro cargo ou emprego público em qualquer das esferas do governo, bem como não percebe benefício proveniente de regime próprio de previdência social ou do Regime Geral de Previdência Social relativo a emprego público (art. 37, § 10 da CF), salvo quando se tratar das exceções previstas no art. 37, incisos XVI e XVII, da Constituição Federal, hipótese nas quais deverá ser observada a carga horária semanal, a compatibilidade de horários e a atenção aos limites remuneratórios estipulados pelo inciso XI do art. 37 da CF, bem como deverá o candidato declarar o acúmulo de cargos e quanto ganha em cada um, sob pena de desclassificação; II - prévia inspeção médica a ser realizada por médico ou entidade médica vinculada à administração municipal.`,
+                explicacao: `A posse em um cargo público só acontece quando o candidato cumpre determinados requisitos. O primeiro é apresentar uma declaração de que não ocupa outro cargo ou emprego público que seja proibido pela Constituição e de que não recebe benefícios de previdência relacionados a emprego público, salvo nas situações em que a própria Constituição permite o acúmulo de cargos, como dois cargos de professor ou um de professor e outro técnico ou científico, desde que haja compatibilidade de horários e respeito ao teto remuneratório. Outro requisito é a realização de uma inspeção médica, feita por médico ou entidade vinculada à administração municipal, para atestar a aptidão física e mental do candidato para o exercício do cargo.`,
+                exemploPratico: 'Um candidato aprovado para o cargo de enfermeiro municipal é convocado para a posse. Antes de assinar o termo, ele apresenta a declaração afirmando que não acumula cargos públicos proibidos, mas informa que também exerce legalmente o cargo de professor em escola estadual, com horários compatíveis. Em seguida, realiza a inspeção médica indicada pela prefeitura e é considerado apto. Após cumprir essas etapas, o candidato pode assinar o termo de posse e assumir suas funções no município.',
+                observacao: [
+                    `A declaração sobre cargos e benefícios é obrigatória e deve ser verdadeira.`,
+                    `O acúmulo de cargos só é permitido nas hipóteses da Constituição.`,
+                    `É necessário respeitar a compatibilidade de horários e o teto remuneratório.`,
+                    `O exame médico é condição indispensável para a posse.`,
+                ]
+            },
+            {
+                artigo: `Art. 28. São autoridades competentes para dar posse: I - o Prefeito Municipal; II - o Presidente da Câmara Municipal; III - os dirigentes dos órgãos da Administração Indireta. § 1º A autoridade que der posse confirmará, sob pena de responsabilidade, o atendimento das condições e a satisfação dos requisitos básicos para esse fim. § 2º A posse em cargo em comissão determina o concomitante afastamento do servidor do cargo de provimento efetivo de que for titular ou para o qual se encontre designado em regime de substituição eventual ou temporária.`,
+                explicacao: `A posse em um cargo público deve ser formalizada por uma autoridade competente. No caso do município, isso pode ser o Prefeito, o Presidente da Câmara Municipal ou os dirigentes dos órgãos da Administração Indireta. Quem concede a posse tem a responsabilidade de verificar se o candidato cumpriu todos os requisitos necessários, garantindo que a posse seja válida. Quando se trata de um cargo em comissão, a posse exige que o servidor se afaste do cargo efetivo que ocupa ou do qual esteja designado temporariamente, para evitar conflito de funções.`,
+                exemploPratico: 'João foi aprovado para um cargo em comissão na prefeitura. Ele é convocado pelo Prefeito para tomar posse. Antes de assinar o termo, o Prefeito verifica se João cumpriu todas as exigências legais. Como João também ocupava um cargo efetivo em outro setor da prefeitura, ele precisa se afastar desse cargo para assumir oficialmente o novo cargo em comissão. Somente depois dessa verificação e do afastamento é que João pode assumir suas novas funções.',
+                observacao: [
+                    `A posse deve ser dada por autoridade competente.`,
+                    `A autoridade responsável confirma se todos os requisitos foram cumpridos.`,
+                    `Servidores que assumem cargos em comissão devem se afastar do cargo efetivo que ocupam.`,
+                    `O não cumprimento dessas regras pode tornar a posse inválida.`,
+                ]
+            },
+            {
+                artigo: `Art. 29. Após tomar posse e antes de entrar em exercício, o servidor apresentará ao órgão de pessoal, os elementos necessários à abertura de seu cadastro de assentamento funcional e financeiro.`,
+                explicacao: `Depois de tomar posse, mas antes de começar a trabalhar oficialmente, o servidor precisa apresentar ao setor de pessoal todos os documentos e informações necessários para que seja aberto o seu cadastro funcional e financeiro. Esse cadastro registra formalmente os dados do servidor, como informações pessoais, cargo ocupado, salário e demais direitos e deveres, garantindo que ele esteja devidamente registrado para efeitos administrativos e de pagamento.`,
+                exemploPratico: 'Ana foi nomeada para o cargo de assistente administrativo. Após assinar o termo de posse, ela leva ao setor de pessoal cópia do RG, CPF, comprovante de residência, dados bancários e demais documentos solicitados. Com isso, o órgão consegue criar seu cadastro funcional e financeiro, permitindo que Ana passe a receber o salário corretamente e tenha todos os direitos garantidos antes de iniciar suas atividades.',
+                observacao: [
+                    `A entrega dos documentos é obrigatória antes do início das atividades.`,
+                    `O cadastro funcional e financeiro é essencial para registro administrativo e pagamento.`,
+                    `Sem essa apresentação, o servidor não pode entrar em exercício no cargo.`,
+                ]
+            },
+        ]
+    },
+    ["do-exercicio"]: {
+        titulo: `Do Exercício`,
+        id: `do-exercicio`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 30. Exercício é o efetivo desempenho das atribuições do cargo público, que completa o processo de investidura. § 1º Cabe à autoridade competente do órgão para onde for designado o servidor dar-lhe exercício. § 2º Nenhum servidor poderá exercer funções diversas do seu cargo, salvo os casos expressamente permitidos por este Estatuto. § 3º Nenhum servidor poderá ter exercício em unidade administrativa diferente daquela em que estiver lotado, salvo nos casos expressamente permitidos por este Estatuto, ou prévia autorização da autoridade máxima do ente. § 4º Consideram-se casos de força maior, para o adiamento da posse e exercício:I  - doença que provoque a incapacidade temporária para o desempenho das atribuições do cargo;II  - acidente que vitime o nomeado e o incapacite temporariamente para o exercício do cargo;III  - calamidade ou epidemia que impeça o nomeado a dar início ao exercício do cargo;IV – estar em estado de gravidez a partir do sétimo mês;V – outras situações que tornem impossível o comparecimento do nomeado ao serviço público ou a execução das atribuições do seu cargo, aceitas pelo ente municipal.§ 5º Nos casos a que se refere os incisos I, II e IV é indispensável a perícia médica do órgão de medicina do trabalho.§ 6º Ao entrar em exercício, o servidor apresentará ao órgão competente os elementos necessários ao seu assentamento individual.§ 7º No caso do servidor legalmente afastado, o tempo do exercício em novo cargo será contado a partir da data em que retomar o exercício.§ 8º Os efeitos funcionais e financeiros só serão considerados e devidos a partir do exercício do cargo.`,
+                explicacao: `O exercício é o momento em que o servidor começa a desempenhar de fato as atribuições do cargo público, completando todo o processo de investidura. A autoridade competente do órgão onde o servidor será lotado é responsável por designá-lo para iniciar o exercício. O servidor não pode realizar funções diferentes daquelas do seu cargo, nem atuar em unidade administrativa diversa da sua lotação, a menos que haja autorização específica ou previsão legal. Existem situações de força maior que podem adiar o início do exercício, como doença, acidente, gravidez a partir do sétimo mês, calamidades ou outras circunstâncias que impeçam o comparecimento. Para doenças, acidentes ou gravidez, é necessária perícia médica do órgão de medicina do trabalho. Ao iniciar o exercício, o servidor deve apresentar os elementos necessários para seu assentamento individual, e o tempo de exercício passa a contar a partir desse momento. Todos os efeitos funcionais e financeiros dependem do início efetivo do exercício.`,
+                exemploPratico: 'Carlos foi nomeado para o cargo de técnico administrativo e compareceu ao órgão responsável para começar seu trabalho. A autoridade confirmou que ele cumpriu todos os requisitos e o designou para iniciar o exercício. Ele não pode exercer funções de outro cargo nem trabalhar em outra unidade sem autorização. Se, por exemplo, Carlos estivesse com uma doença temporária que o impedisse de começar, seria necessário perícia médica para adiar o início do exercício. Somente após entrar em exercício, entregar os documentos para seu cadastro individual e iniciar suas atividades, Carlos passa a ter direito ao salário e aos efeitos funcionais do cargo.',
+                observacao: [
+                    `O exercício marca o início efetivo das funções e dos direitos do cargo.`,
+                    `O servidor deve atuar apenas nas funções do cargo e na unidade de lotação, salvo exceções legais.`,
+                    `Situações de força maior podem adiar o exercício, mas requerem comprovação, como perícia médica.`,
+                    `Todos os efeitos funcionais e financeiros só são devidos a partir do exercício.`,
+                ]
+            },
+        ]
+    },
+    ["do-estagio-probatorio"]: {
+        titulo: `Do Estágio Probatório`,
+        id: `do-estagio-probatorio`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 31. Ao entrar em exercício, o servidor nomeado para cargo de provimento efetivo ficará sujeito a estágio probatório pelo período de 03 (três) anos, durante o qual a sua aptidão e capacidade serão objeto de avaliação para o desempenho do cargo, observados os seguintes fatores, sem prejuízo de outros necessários ao desempenho das funções: I - assiduidade e pontualidade; II - disciplina; III -  capacidade de iniciativa; IV -  produtividade; V - responsabilidade; VI -  aptidão funcional;VII - relações humanas no trabalho; VIII - eficiência e dedicação; IX - condições físicas e emocionais para o desempenho das funções do cargo. § 1º O procedimento e a periodicidade das avaliações do estágio probatório serão definidos em Regulamento, não podendo ser inferior a 4(quatro) avaliações, salvo nos casos de abertura de processo administrativo disciplinar.  § 2º Uma vez demonstrada aptidão funcional, após o prazo de que trata o caput deste artigo, o servidor será submetido à avaliação final e, se aprovado, terá homologado o estágio probatório. § 3º A avaliação de desempenho será promovida por Comissão Especial instituída para essa finalidade. § 4º O servidor não aprovado no estágio probatório será exonerado, assegurado o contraditório e a ampla defesa. § 5º O exercício de cargo em comissão ou função gratificada será considerado na avaliação de estágio probatório desde que haja similaridade com as funções do cargo efetivo. § 6º O Poder Executivo estabelecerá os critérios objetivos de avaliação de estágio probatório, mediante decreto.`,
+                explicacao: `Ao iniciar o exercício em um cargo efetivo, o servidor passa por um estágio probatório de três anos. Nesse período, seu desempenho é avaliado para verificar se possui aptidão e capacidade para exercer as funções do cargo. São analisados fatores como assiduidade, pontualidade, disciplina, iniciativa, produtividade, responsabilidade, aptidão funcional, relações humanas no trabalho, eficiência, dedicação e condições físicas e emocionais. As avaliações são feitas periodicamente por uma Comissão Especial, de acordo com regulamento específico, e devem ocorrer pelo menos quatro vezes durante o estágio, podendo haver ajustes em casos de processo administrativo disciplinar. Ao final do período, se o servidor for aprovado na avaliação final, o estágio probatório é homologado. Caso não seja aprovado, ele será exonerado, garantindo sempre o direito ao contraditório e à ampla defesa. O tempo em cargos em comissão ou funções gratificadas pode contar para o estágio probatório se as funções forem similares às do cargo efetivo. Os critérios objetivos para a avaliação são definidos pelo Poder Executivo por meio de decreto.`,
+                exemploPratico: 'Mariana assume o cargo de analista administrativo e entra em estágio probatório de três anos. Durante esse período, seu chefe avalia regularmente sua pontualidade, disciplina, iniciativa, produtividade e relacionamento com os colegas. Ela também passa por exames de aptidão física e emocional para garantir que pode desempenhar suas funções. Após o período, Mariana realiza a avaliação final conduzida pela Comissão Especial. Como seu desempenho foi satisfatório, o estágio probatório é homologado e ela se torna definitivamente servidora efetiva. Se não tivesse alcançado a avaliação exigida, Mariana seria exonerada, com direito de se defender antes da decisão final.',
+                observacao: [
+                    `O estágio probatório dura três anos e é obrigatório para cargos efetivos.`,
+                    `A avaliação considera múltiplos aspectos do desempenho profissional e pessoal.`,
+                    `O servidor não aprovado será exonerado, com garantia de defesa.`,
+                    `Tempo em cargo em comissão ou função gratificada só conta se as funções forem similares.`,
+                    `Os critérios detalhados de avaliação são definidos por decreto do Poder Executivo.`,
+                ]
+            },
+            {
+                artigo: `Art. 32. A avaliação probatória constituirá um programa específico, coordenado pelo órgão responsável pela gestão de pessoal e, além da fiscalização da conduta funcional dos servidores em estágio probatório, terá caráter pedagógico, participativo e integrador, e suas ações deverão ser articuladas com o planejamento institucional e com o programa de capacitação e aperfeiçoamento disciplinado na lei do plano de carreira do servidor. `,
+                explicacao: `A avaliação durante o estágio probatório é organizada como um programa específico, coordenado pelo órgão responsável pela gestão de pessoal. Ela não serve apenas para fiscalizar a conduta do servidor, mas também tem um caráter pedagógico, participativo e integrador, ajudando o servidor a se adaptar e se desenvolver no cargo. Além disso, suas ações devem estar alinhadas ao planejamento da instituição e aos programas de capacitação e aperfeiçoamento previstos na lei do plano de carreira, garantindo que o servidor aprenda e melhore continuamente enquanto cumpre o estágio probatório.`,
+                exemploPratico: 'Lucas inicia seu estágio probatório como técnico em informática. Durante esse período, o programa de avaliação inclui reuniões periódicas com seu supervisor, treinamentos de capacitação e feedback sobre seu desempenho. Além de acompanhar sua pontualidade e produtividade, o programa ajuda Lucas a entender melhor as rotinas da instituição, a se integrar com os colegas e a desenvolver habilidades importantes para seu cargo. Esse acompanhamento pedagógico garante que ele tenha oportunidades de aprender e melhorar antes da avaliação final do estágio probatório.',
+                observacao: [
+                    `A avaliação probatória tem caráter pedagógico, além de fiscalizador.`,
+                    `O programa é coordenado pelo órgão de gestão de pessoal.`,
+                    `Deve integrar planejamento institucional e programas de capacitação.`,
+                    `Visa o desenvolvimento e adaptação do servidor ao cargo.`,
+                ]
+            },
+            {
+                artigo: `Art. 33. Constatado pelas avaliações que o servidor não está apto para o desempenho das atribuições do cargo a que foi nomeado, ou demonstrar desídia em suas funções, caberá à autoridade competente, sob pena de responsabilidade, iniciar o competente processo administrativo, assegurando ao servidor ampla defesa. § 1º O processo administrativo instaurado deverá estar concluído obrigatoriamente em prazo que permita a exoneração do servidor, se for o caso, ainda dentro do período de estágio probatório.  § 2º Se o processo administrativo concluir pela não permanência do servidor, esta decisão será levada ao Prefeito Municipal para emissão do respectivo instrumento de exoneração.`,
+                explicacao: `Se, durante o estágio probatório, as avaliações indicarem que o servidor não tem aptidão para desempenhar as funções do cargo ou demonstra desídia (falta de dedicação ou negligência), a autoridade competente deve instaurar um processo administrativo para apurar a situação. O servidor sempre terá direito à ampla defesa durante esse processo. O procedimento deve ser concluído dentro do período do estágio probatório, de forma que, se for necessário, a exoneração ocorra ainda nesse prazo. Caso a decisão final seja pela não permanência do servidor, o Prefeito Municipal emite o ato formal de exoneração, encerrando o vínculo com o cargo.`,
+                exemploPratico: 'Ana está no estágio probatório como assistente administrativo e, durante as avaliações, os supervisores percebem que ela não consegue desempenhar corretamente suas funções e apresenta descuido frequente nas tarefas. A autoridade competente abre um processo administrativo, garantindo que Ana possa se defender. O processo é concluído antes do final dos três anos de estágio, e a decisão é de que Ana não deve permanecer no cargo. O Prefeito Municipal então emite o ato de exoneração, encerrando oficialmente sua ocupação do cargo.',
+                observacao: [
+                    `A autoridade tem responsabilidade de instaurar o processo administrativo quando há problemas de desempenho.`,
+                    `O servidor sempre tem direito à ampla defesa.`,
+                    `O processo deve ser concluído dentro do estágio probatório.`,
+                    `A exoneração é formalizada pelo Prefeito Municipal.`,
+                ]
+            },
+            {
+                artigo: `Art. 34. Sem prejuízo das avaliações realizadas, a chefia do órgão ou serviço a que está subordinado o servidor encaminhará obrigatoriamente aos seus superiores, até 4(quatro) meses antes do término do período do estágio probatório, um parecer conclusivo sobre as condições de permanência do servidor no serviço público, tendo em vista os requisitos enumerados no artigo anterior.`,
+                explicacao: `Além das avaliações regulares do estágio probatório, a chefia do órgão ou serviço ao qual o servidor está subordinado deve elaborar um parecer conclusivo sobre a sua aptidão e condições de permanência no serviço público. Esse parecer deve ser enviado aos superiores até quatro meses antes do término do estágio probatório, considerando os critérios de desempenho, disciplina, assiduidade e demais fatores estabelecidos no artigo anterior. Ele serve como uma análise final para orientar a decisão sobre a efetivação ou não do servidor no cargo.`,
+                exemploPratico: 'João está concluindo seu estágio probatório como analista administrativo. Sua chefia observa todo o seu desempenho ao longo dos três anos e, quatro meses antes do término do período, prepara um parecer detalhado destacando seus pontos fortes e fracos, sua disciplina, assiduidade e produtividade. Esse parecer é enviado à autoridade superior, que o utilizará como referência para decidir se João terá seu estágio probatório homologado ou se será aberto processo de exoneração.',
+                observacao: [
+                    `O parecer é obrigatório e deve ser elaborado pela chefia direta.`,
+                    `Deve ser encaminhado até quatro meses antes do fim do estágio probatório.`,
+                    `Considera todos os critérios de avaliação do estágio probatório.`,
+                    `Serve como base para a decisão sobre a permanência do servidor no serviço público.`,
+                ]
+            },
+            {
+                artigo: `Art. 35. Não será permitido ao servidor em estágio probatório: I  - a alteração de lotação a pedido;II  - a licença para estudo ou missão de qualquer natureza; III - a licença ou o afastamento para tratar de interesses particulares; IV - a progressão na carreira. Parágrafo único. Excetua-se do disposto neste artigo, os casos considerados pela Administração de relevante interesse público.  `,
+                explicacao: `Durante o estágio probatório, o servidor não pode solicitar mudança de lotação, licenças para estudo, missões ou para tratar de interesses particulares, nem ter progressão na carreira. Essas restrições existem para que o servidor se dedique integralmente à adaptação e avaliação do seu desempenho no cargo. Entretanto, a Administração pode autorizar exceções quando houver relevante interesse público, permitindo, por exemplo, uma mudança de lotação ou licença se isso beneficiar diretamente o serviço público.`,
+                exemploPratico: 'João é auxiliar administrativo e está em estágio probatório. O Prefeito percebe a necessidade de alguém assumir a chefia do setor administrativo, por motivos de organização e eficiência do serviço público. Mesmo estando em estágio probatório, João é convidado para assumir a chefia. Para que essa mudança seja legal, a Administração emite uma portaria formal autorizando que João exerça a função de chefe do setor, explicitando que há interesse público relevante. Essa portaria é registrada no setor de pessoal e faz parte do seu cadastro funcional. Com a portaria, João pode exercer a chefia sem que isso caracterize violação do estágio probatório. Caso não houvesse registro formal, ele estaria atuando fora das atribuições do cargo, o que poderia ser considerado irregular pelo estatuto.',
+                observacao: [
+                    `O servidor em estágio probatório tem restrições quanto a lotação, licenças e progressão na carreira.`,
+                    `Essas limitações garantem foco e avaliação adequada no cargo.`,
+                    `Exceções só podem ocorrer quando há relevante interesse público, a critério da Administração.`,
+                ]
+            },
+            {
+                artigo: `Art. 36. Será suspenso o cômputo do estágio probatório nos seguintes casos: I  - exercício de funções estranhas ao cargo; II  - licenças e afastamentos legais superiores a 15(quinze) dias;   III  - nos dias relativos às suspensões disciplinares superiores a 15(quinze) dias: IV - para exercer mandato eletivo, desde que incompatível com o exercício do cargo; V - a partir da instauração de processo administrativo para apuração da permanência do servidor no serviço público, decorrente de insuficiência de desempenho nas avaliações, reabilitando-se a contagem deste período caso o servidor seja considerado apto. `,
+                explicacao: `O estágio probatório pode ter seu tempo de contagem suspenso em algumas situações específicas. Isso ocorre quando o servidor exerce funções que não fazem parte do cargo, se afasta legalmente por mais de 15 dias, cumpre suspensão disciplinar superior a 15 dias, assume mandato eletivo incompatível com o cargo ou passa por processo administrativo por insuficiência de desempenho nas avaliações. Caso o servidor seja considerado apto ao final do processo administrativo, o tempo do estágio é retomado, garantindo que ele cumpra integralmente o período necessário para avaliação de sua aptidão.`,
+                exemploPratico: 'Carlos está em estágio probatório como assistente administrativo. Durante esse período, ele se afasta por 20 dias para tratar de assuntos de saúde. Esse tempo não é contado para o estágio probatório. Mais tarde, ele é submetido a um processo administrativo devido a baixo desempenho. Se, ao final, Carlos for considerado apto, o período do estágio que estava suspenso será recontado, de modo que ele complete o tempo total exigido para avaliação do cargo.',
+                observacao: [
+                    `O cômputo do estágio probatório pode ser suspenso em casos específicos previstos em lei.`,
+                    `Suspensões incluem funções estranhas, afastamentos legais superiores a 15 dias, suspensões disciplinares longas e mandato eletivo incompatível.`,
+                    `Processos administrativos por baixo desempenho suspendem temporariamente a contagem, mas podem ser reabilitados se o servidor for considerado apto.`,
+                ]
+            },
+            
+            
+        ]
+    },
+    ["da-estabilidade"]: {
+        titulo: `Da Estabilidade`,
+        id: `da-estabilidade`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 37. O servidor habilitado em concurso público e empossado em cargo de provimento efetivo adquirirá estabilidade no serviço público ao completar 3(três) anos de efetivo exercício. Parágrafo único. Como condição para a aquisição da estabilidade, é obrigatória a aprovação em avaliação especial de desempenho por comissão instituída para essa finalidade.`,
+                explicacao: `Um servidor que foi aprovado em concurso público e tomou posse em um cargo efetivo só adquire estabilidade no serviço público após cumprir três anos de exercício efetivo no cargo. Durante esse período, ele ainda está sujeito ao estágio probatório e às avaliações periódicas. Além disso, para garantir a estabilidade, é obrigatória a aprovação em uma avaliação especial de desempenho, realizada por uma comissão criada especificamente para esse fim. Ou seja, não basta apenas cumprir o tempo, é necessário demonstrar aptidão e bom desempenho durante todo o estágio probatório.`,
+                exemploPratico: 'Paula foi aprovada para o cargo de assistente administrativo e iniciou seu estágio probatório. Durante três anos, ela passou por avaliações periódicas sobre assiduidade, disciplina, produtividade e aptidão funcional. Ao final do período, a Comissão Especial realiza uma avaliação final de desempenho. Como Paula foi aprovada nessa avaliação, ela adquire a estabilidade no serviço público, garantindo que só poderá ser exonerada em casos previstos em lei.',
+                observacao: [
+                    `A estabilidade depende de três anos de exercício efetivo.`,
+                    `É obrigatória a aprovação em avaliação especial de desempenho por comissão.`,
+                    `A estabilidade protege o servidor, mas ele continua sujeito às regras do estágio probatório até ser efetivamente homologado.`,
+                ]
+            },
+            {
+                artigo: `Art. 38. O servidor público estável só perderá o cargo: I - em virtude de sentença judicial transitada em julgado;II - mediante processo administrativo no qual lhe seja assegurada ampla defesa; III -mediante procedimento de avaliação periódica de desempenho, na forma da lei, assegurada ampla defesa.`,
+                explicacao: `Um servidor público que já adquiriu estabilidade só pode perder o cargo em situações específicas. Ele pode ser exonerado por decisão judicial definitiva, por processo administrativo no qual tenha direito à ampla defesa, ou por meio de avaliação periódica de desempenho prevista em lei, também garantindo a ampla defesa. Isso significa que a estabilidade não impede medidas disciplinares ou de desempenho, mas protege o servidor de exoneração arbitrária, exigindo que haja justificativa legal e direito de defesa antes de qualquer perda do cargo.`,
+                exemploPratico: 'Roberto é servidor estável como técnico administrativo. Ele cometeu uma irregularidade grave e, por isso, a Administração abriu um processo administrativo para apurar a situação. Durante o processo, Roberto pôde apresentar sua defesa e recursos. Ao final, a decisão foi pela exoneração. Como ele tinha direito à ampla defesa e o processo seguiu as regras legais, a exoneração é válida. Da mesma forma, se Roberto não atender aos critérios em uma avaliação periódica de desempenho prevista em lei, ele também poderá perder o cargo, desde que tenha oportunidade de defesa.',
+                observacao: [
+                    `Servidor estável não pode ser exonerado arbitrariamente.`,
+                    `A perda do cargo só ocorre por sentença judicial, processo administrativo ou avaliação periódica de desempenho.`,
+                    `A ampla defesa é obrigatória em todos os casos administrativos ou de avaliação.`,
+                    `A estabilidade protege o servidor, mas não o exime de responsabilidade ou avaliação de desempenho.`,
+                ]
+            },
+        ]
+    },
+    ["da-reintegracao"]: {
+        titulo: `Da Reintegração`,
+        id: `da-reintegracao`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 39. Reintegração é a reinvestidura do servidor quando invalidada a sua demissão por decisão administrativa ou judicial, com ressarcimento de todas as vantagens, devidamente corrigidas com os acréscimos de lei.`,
+                explicacao: `A reintegração acontece quando a demissão de um servidor é considerada inválida, seja por decisão administrativa ou judicial. Nesse caso, o servidor é reinvestido no cargo que ocupava e recebe todas as vantagens que deixou de perceber durante o período em que esteve afastado, como salários e benefícios, devidamente corrigidos conforme a lei. Ou seja, a reintegração garante que o servidor retorne à posição que tinha, sem prejuízo financeiro.`,
+                exemploPratico: 'Carlos, servidor público estável, foi demitido por um processo administrativo que depois se comprovou irregular. Uma decisão judicial reconhece a invalidez da demissão. Como resultado, Carlos é reintegrado ao seu cargo, reassumindo suas funções, e recebe todos os salários e benefícios atrasados, corrigidos conforme a legislação, como se nunca tivesse sido afastado.',
+                observacao: [
+                    `A reintegração ocorre quando a demissão é invalidada.`,
+                    `O servidor reassume seu cargo original.`,
+                    `Todas as vantagens perdidas durante o afastamento são ressarcidas.`,
+                    `Os valores recebidos são corrigidos conforme a lei.`,
+                ]
+            },
+            {
+                artigo: `Art. 40. A reintegração será feita no cargo anteriormente ocupado e, se este houver sido transformado, o servidor será reintegrado no cargo resultante da transformação. § 1º Na hipótese de o cargo ter sido extinto, o servidor ficará em disponibilidade, observado o disposto nos artigos 41 a 44. § 2º O ato de reintegração será expedido no prazo máximo de 30 (trinta) dias, contados da decisão administrativa ou da sentença judicial. § 3º O ressarcimento dos prejuízos deverá ser feito no prazo máximo de até 60 (sessenta) dias da reintegração do servidor, respeitando-se, em caso de precatório, a ordem de sua apresentação.`,
+                explicacao: `Quando o servidor é reintegrado, ele retorna ao cargo que ocupava anteriormente. Se esse cargo tiver sido transformado, ele assume o novo cargo resultante da transformação. Caso o cargo tenha sido extinto, o servidor ficará em disponibilidade, seguindo as regras dos artigos 41 a 44. O ato de reintegração deve ser expedido em até 30 dias após a decisão administrativa ou judicial. Já o ressarcimento de salários e vantagens atrasadas deve ocorrer em até 60 dias, respeitando a ordem de apresentação de precatórios quando aplicável.`,
+                exemploPratico: 'Maria foi reintegrada ao cargo de técnica administrativa após sua demissão ser anulada judicialmente. Como o cargo original de Maria havia sido transformado em cargo de supervisora administrativa, ela assume esse novo cargo. O ato oficial de reintegração foi emitido 20 dias após a decisão judicial, e, em 45 dias, Maria recebeu todos os salários e benefícios atrasados, corrigidos conforme a lei.',
+                observacao: [
+                    `O servidor retorna ao cargo ocupado anteriormente ou ao cargo resultante de sua transformação.`,
+                    `Se o cargo foi extinto, o servidor entra em disponibilidade.`,
+                    `O ato de reintegração deve ser emitido em até 30 dias.`,
+                    `O ressarcimento de prejuízos deve ocorrer em até 60 dias, seguindo a ordem de precatórios, se houver.`,
+                ]
+            },
+        ]
+    },
 }
 
 export { estatutoDosServidoresDeJoaquimTavora }

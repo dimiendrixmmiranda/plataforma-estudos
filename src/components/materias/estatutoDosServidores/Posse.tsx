@@ -3,12 +3,12 @@ import TituloMateria from "@/components/base/TituloMateria";
 import ReproduzirTexto from "@/components/reproduzirTexto/ReproduzirTexto";
 import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora";
 
-export default function DisposicoesPreliminares() {
+export default function Posse() {
     return (
         <div className="p-4 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
-            <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["das-disposicoes-preliminares"].titulo}`} />
+            <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["da-posse"].titulo}`} />
             {
-                estatutoDosServidoresDeJoaquimTavora["das-disposicoes-preliminares"].arrayDeArtigos.map((artigo, i) => {
+                estatutoDosServidoresDeJoaquimTavora["da-posse"].arrayDeArtigos.map((artigo, i) => {
                     return (
                         <div key={i} className="flex flex-col gap-4 pb-6 border-b-2 border-azul-escuro">
                             <h2>{artigo.artigo}</h2>
@@ -75,7 +75,8 @@ export default function DisposicoesPreliminares() {
                 })
             }
             <div className="grid grid-cols-2 gap-2">
-                <AncoraLink link="/pages/materias/estatutoDosServidores/do-concurso-publico" texto="Próximo" />
+                <AncoraLink link="/pages/materias/estatutoDosServidores/do-provimento" texto="Anterior" />
+                <AncoraLink link="/pages/materias/estatutoDosServidores/do-exercicio" texto="Próximo" />
             </div>
         </div>
     )

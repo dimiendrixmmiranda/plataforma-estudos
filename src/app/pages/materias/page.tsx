@@ -455,6 +455,31 @@ export default function PaginaMaterias() {
                                             slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["do-provimento"].id}`,
                                             id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["do-provimento"].id}`
                                         },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-posse"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-posse"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-posse"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["do-exercicio"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["do-exercicio"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["do-exercicio"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["do-estagio-probatorio"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["do-estagio-probatorio"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["do-estagio-probatorio"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-estabilidade"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-estabilidade"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-estabilidade"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-reintegracao"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-reintegracao"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-reintegracao"].id}`
+                                        },
                                     ]}
                                     materiaConcluida={toggleMateriaCompleta}
                                     materiasCompletas={materiasCompletas}

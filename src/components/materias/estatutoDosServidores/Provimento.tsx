@@ -1,3 +1,4 @@
+import AncoraLink from "@/components/base/AncoraLink";
 import TituloMateria from "@/components/base/TituloMateria";
 import ReproduzirTexto from "@/components/reproduzirTexto/ReproduzirTexto";
 import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora";
@@ -73,6 +74,10 @@ export default function Provimento() {
                     )
                 })
             }
+            <div className="grid grid-cols-2 gap-2">
+                <AncoraLink link="/pages/materias/estatutoDosServidores/do-concurso-publico" texto="Anterior" />
+                <AncoraLink link="/pages/materias/estatutoDosServidores/da-posse" texto="Próxima" />
+            </div>
         </div>
     )
 }

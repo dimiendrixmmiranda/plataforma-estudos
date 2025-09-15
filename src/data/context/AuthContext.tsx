@@ -26,6 +26,7 @@ interface UsuarioFirestore {
     email?: string;
     cpf?: string;
     telefone?: string;
+    imagemURL?: string
 }
 
 const AuthContext = createContext<AuthContextProps>({});
@@ -38,7 +39,8 @@ async function usuarioNormalizado(usuarioFirebase: User): Promise<Usuario> {
     const tipo = data?.tipo
     const nomeFirestore = data?.nome ?? null
     const sexoFirestore = data?.sexo ?? data?.genero ?? data?.gender ?? null
-
+    const imagemURL = data?.imagemURL ?? null
+    
     return {
         uid: usuarioFirebase.uid,
         nome: nomeFirestore || usuarioFirebase.displayName || "",
@@ -46,7 +48,7 @@ async function usuarioNormalizado(usuarioFirebase: User): Promise<Usuario> {
         token,
         sexo: sexoFirestore ?? "",
         provedor: usuarioFirebase.providerData[0]?.providerId || "",
-        imagemURL: usuarioFirebase.photoURL || "",
+        imagemURL: imagemURL || usuarioFirebase.photoURL || "",
         tipo,
     };
 }

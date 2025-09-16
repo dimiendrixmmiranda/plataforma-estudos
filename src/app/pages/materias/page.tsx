@@ -505,6 +505,21 @@ export default function PaginaMaterias() {
                                             slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-redistribuicao"].id}`,
                                             id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-redistribuicao"].id}`
                                         },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-disposicao"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-disposicao"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-disposicao"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-readaptacao"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-readaptacao"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-readaptacao"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-substituicao"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-substituicao"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-substituicao"].id}`
+                                        },
                                     ]}
                                     materiaConcluida={toggleMateriaCompleta}
                                     materiasCompletas={materiasCompletas}

@@ -3,12 +3,12 @@ import TituloMateria from "@/components/base/TituloMateria";
 import ReproduzirTexto from "@/components/reproduzirTexto/ReproduzirTexto";
 import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora";
 
-export default function Reversao() {
+export default function Disposicao() {
     return (
         <div className="p-4 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
-            <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["da-reversao"].titulo}`} />
+            <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["da-disposicao"].titulo}`} />
             {
-                estatutoDosServidoresDeJoaquimTavora["da-reversao"].arrayDeArtigos.map((artigo, i) => {
+                estatutoDosServidoresDeJoaquimTavora["da-disposicao"].arrayDeArtigos.map((artigo, i) => {
                     return (
                         <div key={i} className="flex flex-col gap-4 pb-6 border-b-2 border-azul-escuro">
                             <h2>{artigo.artigo}</h2>
@@ -75,8 +75,8 @@ export default function Reversao() {
                 })
             }
             <div className="grid grid-cols-2 gap-2">
-                <AncoraLink link="/pages/materias/estatutoDosServidores/da-disponibilidade-e-do-aproveitamento" texto="Anterior" />
-                <AncoraLink link="/pages/materias/estatutoDosServidores/da-movimentacao-de-pessoal-disposicoes-gerais" texto="Próximo" />
+                <AncoraLink link="/pages/materias/estatutoDosServidores/da-redistribuicao" texto="Anterior" />
+                <AncoraLink link="/pages/materias/estatutoDosServidores/da-readaptacao" texto="Próximo" />
             </div>
         </div>
     )

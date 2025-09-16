@@ -45,3 +45,20 @@ body {
   background-color: var(--magenta) !important;
   color: white !important;
 }
+
+.accordionEspecial .p-icon {
+  display: none!important;
+}
+.accordionEspecial .p-accordion-header-link {
+  padding: 0!important;
+  background-color: var(--magenta)!important;
+  color: white!important;
+}
+.accordionEspecial .p-accordion-tab {
+  margin: 0;
+}
+
+.accordionEspecial .p-accordion-content {
+  background-color: var(--azul-escuro);
+  margin-top: .5em;
+}

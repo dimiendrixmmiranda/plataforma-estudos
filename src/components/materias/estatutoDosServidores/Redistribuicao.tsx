@@ -3,7 +3,6 @@ import ReproduzirTexto from "@/components/reproduzirTexto/ReproduzirTexto";
 import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora";
 
 export default function Redistribuicao() {
-    console.log(estatutoDosServidoresDeJoaquimTavora)
     return (
         <div className="p-4 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
             <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["da-redistribuicao"].titulo}`} />
@@ -20,9 +19,9 @@ export default function Redistribuicao() {
                                         : artigo.artigo
                                 }
                             />
-                            <div>
+                            <div className="flex flex-col gap-3">
                                 <div className="flex items-center">
-                                    <h3 className="flex-1">Explicação:</h3>
+                                    <h3 className="flex-1 font-bold text-lg">Explicação:</h3>
                                     <ReproduzirTexto
                                         reduzida={true}
                                         texto={
@@ -34,9 +33,9 @@ export default function Redistribuicao() {
                                 </div>
                                 <p>{artigo.explicacao}</p>
                             </div>
-                            <div>
+                            <div className="flex flex-col gap-3">
                                 <div className="flex items-center">
-                                    <h3 className="flex-1">Exemplo Prático:</h3>
+                                    <h3 className="flex-1 font-bold text-lg">Exemplo Prático:</h3>
                                     <ReproduzirTexto
                                         reduzida={true}
                                         texto={
@@ -48,9 +47,9 @@ export default function Redistribuicao() {
                                 </div>
                                 <p>{artigo.exemploPratico}</p>
                             </div>
-                            <div>
+                            <div className="flex flex-col gap-3">
                                 <div className="flex items-center">
-                                    <h3 className="flex-1">Observações:</h3>
+                                    <h3 className="flex-1 font-bold text-lg">Observações:</h3>
                                     <ReproduzirTexto
                                         reduzida={true}
                                         texto={

@@ -1,6 +1,7 @@
 'use client'
 import ConcursoPublico from '@/components/materias/estatutoDosServidores/ConcursoPublico'
 import DisponibilidadeEAproveitamento from '@/components/materias/estatutoDosServidores/DisponibilidadeEAproveitamento'
+import Disposicao from '@/components/materias/estatutoDosServidores/Disposicao'
 import DisposicoesPreliminares from '@/components/materias/estatutoDosServidores/DisposicoesPreliminares'
 import Estabilidade from '@/components/materias/estatutoDosServidores/Estabilidade'
 import EstagioProbatorio from '@/components/materias/estatutoDosServidores/EstagioProbatorio'
@@ -8,10 +9,12 @@ import Exercicio from '@/components/materias/estatutoDosServidores/Exercicio'
 import MovimentacaoDePessoal from '@/components/materias/estatutoDosServidores/MovimentacaoDePessoal'
 import Posse from '@/components/materias/estatutoDosServidores/Posse'
 import Provimento from '@/components/materias/estatutoDosServidores/Provimento'
+import Readaptacao from '@/components/materias/estatutoDosServidores/Readaptacao'
 import Redistribuicao from '@/components/materias/estatutoDosServidores/Redistribuicao'
 import Reintegracao from '@/components/materias/estatutoDosServidores/Reintegracao'
 import Remocao from '@/components/materias/estatutoDosServidores/Remocao'
 import Reversao from '@/components/materias/estatutoDosServidores/Reversao'
+import Substituicao from '@/components/materias/estatutoDosServidores/Substituicao'
 import Template from '@/components/template/Template'
 import { useParams } from 'next/navigation'
 import { JSX } from 'react'
@@ -30,6 +33,9 @@ const componentesPorSlug: Record<string, JSX.Element> = {
     ['da-movimentacao-de-pessoal-disposicoes-gerais']: <MovimentacaoDePessoal />,
     ['da-remocao']: <Remocao />,
     ['da-redistribuicao']: <Redistribuicao />,
+    ['da-disposicao']: <Disposicao />,
+    ['da-readaptacao']: <Readaptacao />,
+    ['da-substituicao']: <Substituicao />,
 }
 
 export default function Page() {

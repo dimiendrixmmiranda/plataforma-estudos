@@ -10,6 +10,7 @@ import { db } from "@/lib/firebase";
 import { QuestionarioFirebase } from "@/interfaces/QuestionarioFirebase";
 import Link from "next/link";
 import handleImagemChange from "@/utils/handleImageChange";
+import AncoraLink from "@/components/base/AncoraLink";
 
 export default function Page() {
     const { usuario } = useAuth()
@@ -17,6 +18,22 @@ export default function Page() {
     const [, setErroImagemTamanho] = useState<string | null>()
     const [, setImagemBase64] = useState<string | null>()
     const [imagemPreview, setImagemPreview] = useState<string | null>()
+
+    const [nome, setNome] = useState('')
+    const [cpf, setCpf] = useState('')
+    const [email, setEmail] = useState('')
+    const [sexo, setSexo] = useState('')
+    const [telefone, setTelefone] = useState('')
+
+    console.log(questionarios)
+
+    useEffect(() => {
+        setNome(usuario?.nome ?? '')
+        setCpf(usuario?.cpf ?? '')
+        setEmail(usuario?.email ?? '')
+        setSexo(usuario?.sexo ?? '')
+        setTelefone(usuario?.telefone ?? '')
+    }, [usuario])
 
     useEffect(() => {
         if (!usuario) return
@@ -94,12 +111,26 @@ export default function Page() {
                 <div>
                     <Accordion>
                         <AccordionTab header="Seus Dados">
-                            <p className="m-0">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
+                            <div className="flex flex-col">
+                                <label htmlFor="nome">Nome:</label>
+                                <input className="bg-zinc-400 h-[30px] p-2 rounded-lg text-white" type="text" name="nome" id="nome" value={nome} onChange={(e) => setNome(e.target.value)} disabled />
+                            </div>
+                            <div className="flex flex-col">
+                                <label htmlFor="cpf">CPF:</label>
+                                <input className="bg-zinc-400 h-[30px] p-2 rounded-lg text-white" type="text" name="cpf" id="cpf" value={cpf} onChange={(e) => setCpf(e.target.value)} disabled />
+                            </div>
+                            <div className="flex flex-col">
+                                <label htmlFor="email">Email:</label>
+                                <input className="bg-zinc-400 h-[30px] p-2 rounded-lg text-white" type="text" name="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} disabled />
+                            </div>
+                            <div className="flex flex-col">
+                                <label htmlFor="sexo">Sexo:</label>
+                                <input className="bg-zinc-400 h-[30px] p-2 rounded-lg text-white capitalize" type="text" name="sexo" id="sexo" value={sexo} onChange={(e) => setSexo(e.target.value)} disabled />
+                            </div>
+                            <div className="flex flex-col">
+                                <label htmlFor="telefone">telefone:</label>
+                                <input className="bg-zinc-400 h-[30px] p-2 rounded-lg text-white" type="text" name="telefone" id="telefone" value={telefone} onChange={(e) => setTelefone(e.target.value)} disabled />
+                            </div>
                         </AccordionTab>
                         <AccordionTab header="Simulados">
                             <ul className="flex flex-col w-full gap-2">
@@ -107,7 +138,7 @@ export default function Page() {
                                     questionarios?.map((questionario, i) => {
                                         return (
                                             <li key={i}>
-                                                <Link href={''} className="p-2 bg-red-100 flex">
+                                                <Link href={`/pages/simuladosFeitos/${questionario.id}`} className="p-2 bg-red-100 flex">
                                                     <p>{questionario.data.toDate().toLocaleDateString()} - {questionario.data.toDate().toLocaleTimeString()}</p>
                                                 </Link>
                                             </li>
@@ -117,14 +148,29 @@ export default function Page() {
                             </ul>
                         </AccordionTab>
                         <AccordionTab header="Estatísticas">
-                            <p className="m-0">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
+                            <ul>
+                                <li className="flex gap-1 text-sm sm:text-lg">
+                                    <p>Simulados Feitos:</p>
+                                    <span>10</span>
+                                </li>
+                                <li className="flex gap-1 text-sm sm:text-lg">
+                                    <p>Maior Quantidade de Acertos:</p>
+                                    <span>25</span>
+                                </li>
+                                <li className="flex gap-1 text-sm sm:text-lg">
+                                    <p>Maior Tempo de Prova:</p>
+                                    <span>2:25:00</span>
+                                </li>
+                                <li className="flex gap-1 text-sm sm:text-lg">
+                                    <p>Menor Tempo de Prova:</p>
+                                    <span>00:22:00</span>
+                                </li>
+                            </ul>
                         </AccordionTab>
                     </Accordion>
+                </div>
+                <div className="flex w-full justify-end mt-auto">
+                    <AncoraLink link="/pages/materias" texto="Voltar" />
                 </div>
             </div>
         </Template>

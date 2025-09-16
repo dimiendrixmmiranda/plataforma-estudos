@@ -5,10 +5,8 @@ export interface Usuario {
     token: string;
     provedor: string;
     imagemURL: string;
-    sexo?: string;
+    telefone: string;
+    sexo: string;
     tipo?: string;
-    genero?: string;
-    gender?: string;
     cpf?: string;
-    telefone?: string;
 }

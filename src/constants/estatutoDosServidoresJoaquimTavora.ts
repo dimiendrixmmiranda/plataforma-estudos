@@ -637,6 +637,88 @@ const estatutoDosServidoresDeJoaquimTavora = {
             },
         ]
     },
+    ["da-disposicao"]: {
+        titulo: `Da Disposição`,
+        id: `da-disposicao`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 51. Disposição é a cessão de servidor para ter exercício, por prazo determinado, em órgão ou entidade diverso do quadro em que se encontrar lotado, observada a conveniência do serviço.`,
+                explicacao: `A disposição é quando o servidor é cedido temporariamente para trabalhar em outro órgão ou entidade diferente da sua lotação original. Esse deslocamento só acontece se for de interesse e conveniência do serviço público, e sempre por um prazo determinado.`,
+                exemploPratico: 'Carlos é servidor efetivo da Secretaria de Obras, mas devido a um projeto de modernização, a Prefeitura o coloca em disposição na Secretaria de Administração por 6 meses, para auxiliar na implantação de um novo sistema de gestão. Após o prazo, ele retorna à sua secretaria de origem.',
+                observacao: [
+                    `O servidor não perde o vínculo com o órgão de origem.`,
+                    `O prazo da disposição é sempre determinado.`,
+                    `A medida deve atender à necessidade da administração pública, não a pedidos pessoais.`,
+                    `Findo o prazo, o servidor volta ao seu cargo original.`,
+                ]
+            },
+            {
+                artigo: `Art. 52. O servidor poderá ser cedido ou permutar, por tempo determinado, para ter exercício em órgãos públicos ou entidades públicas e privadas, em órgãos do mesmo Poder ou entre os Poderes do Município, comprovada a necessidade ou, ainda, nas seguintes hipóteses: I - para o exercício de cargo em comissão ou função de confiança; II - nos casos previstos em leis específicas. § 1º A cessão de servidor municipal para órgão ou entidade pública federal ou estadual ou para instituição privada, com ônus para o Município, somente se verificará em função de parceria. § 2º A cessão dependerá de solicitação do órgão cedente ou cessionário e da aquiescência da outra parte, podendo ser com ou sem ônus para este Município. § 3º O servidor somente poderá ser colocado à disposição de órgão não pertencente à esfera municipal de governo, mediante sua anuência expressa. § 4º No caso previsto neste artigo, o servidor poderá, a qualquer momento, solicitar o retorno ou ser reconvocado pela Administração. § 5º Os servidores pertencentes às esferas de governo de outros municípios, do Estado ou da União, só serão colocados à disposição do Município quando o ônus couber ao órgão cedente, com ressalva das vantagens, para atendimento de exigências funcionais de interesse da administração municipal.§ 6º Em casos excepcionais de emergência ou calamidade pública, devidamente justificada, será permitida a cessão de servidor para outro Município, com ônus para o ente solicitante, mediante anuência expressa do servidor cedido. § 7º Somente em casos excepcionais e de comprovada necessidade poderá ser deferida a cessão do servidor da Municipalidade para servir, com ou sem prejuízo de vencimentos, perante as autarquias e fundações municipais e a órgãos, entidades ou empresas federais ou estaduais, e ainda, junto a organismos internacionais, na forma de lei especial.`,
+                explicacao: `Esse artigo trata das situações em que o servidor pode ser cedido ou permutado temporariamente para exercer suas funções em outro órgão, seja municipal, estadual, federal ou até mesmo em instituições privadas, desde que haja necessidade comprovada ou que se enquadre nas hipóteses legais (como ocupar cargo em comissão ou função de confiança).`,
+                exemploPratico: 'Maria é servidora efetiva da Secretaria de Saúde do município. Ela foi cedida por 1 ano para trabalhar em um hospital estadual, dentro de uma parceria entre o Estado e a Prefeitura. Nesse caso, a cessão foi feita com ônus para o Estado, e Maria aceitou formalmente antes de assumir a nova função.',
+                observacao: [
+                    `A cessão pode ocorrer dentro ou fora do Município, inclusive entre Poderes (Executivo e Legislativo).`,
+                    `Para sair do Município, o servidor precisa dar sua anuência por escrito.`,
+                    `Pode ser com ou sem ônus para o Município (quem paga o salário).`,
+                    `A cessão pode ser revogada a qualquer momento pela Administração ou solicitada pelo servidor.`,
+                    `Em casos de emergência ou calamidade pública, pode haver cessão para outro Município, desde que o servidor concorde e o ente solicitante arque com os custos.`,
+                    `O servidor cedido para União, Estado ou outros municípios só será aceito quando o ônus for do órgão de origem, salvo em situações excepcionais previstas em lei.`,
+                ]
+            },
+            {
+                artigo: `Art. 53. O ato de disposição é de competência do Chefe de Poder, não podendo haver delegação. Parágrafo único. A cessão far-se-á mediante portaria publicada no órgão oficial do Município ou, na falta deste, no órgão oficial do Estado.`,
+                explicacao: `Somente o Chefe do Poder (Prefeito ou Presidente da Câmara, conforme o caso) pode autorizar formalmente a cessão/disposição do servidor. Esse ato não pode ser delegado a outra autoridade.`,
+                exemploPratico: 'Se João, servidor municipal, for cedido para uma fundação estadual parceira, o ato só será válido se houver portaria assinada pelo Prefeito e publicada no Diário Oficial do Município (ou do Estado, se o Município não tiver um).',
+                observacao: [
+                    `O ato precisa ser formalizado por portaria.`,
+                    `A portaria deve ser publicada oficialmente, garantindo a transparência.`,
+                    `Não pode ser delegado a secretários ou chefes de setor — é uma decisão exclusiva do Chefe do Poder.`,
+                ]
+            },
+        ]
+    },
+    ["da-readaptacao"]: {
+        titulo: `Da Readaptação`,
+        id: `da-readaptacao`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 54. Readaptação é o cometimento ao servidor de encargo compatível com a limitação que tenha sofrido em sua capacidade física ou mental, verificada em laudo médico oficial e específico. § 1º A readaptação far-se-á a pedido ou de ofício. § 2º A readaptação não implicará acréscimo ou perda remuneratória e nem se caracteriza como provimento em outro cargo público. § 3º Na readaptação o servidor desenvolverá funções conforme o que dispuser o laudo de readaptação, respeitada a habilitação exigida, nível de escolaridade e equivalência de vencimentos. § 4º O órgão responsável pela gestão de pessoal promoverá a readaptação do servidor, que deverá reassumir suas novas funções no prazo máximo de 05 (cinco) dias, sob pena de submeter-se às penalidades legais. § 5º A readaptação será feita sempre com o objetivo de reaproveitar o servidor no serviço público, desde que não se configure a necessidade imediata de concessão de aposentadoria ou de auxílio-doença. § 6º Em se tratando de limitação temporária e reversível o servidor realizará outra função, compatível com sua limitação, até o seu retorno ao exercício integral das atribuições de seu cargo e especialidade, quando for considerado apto pela perícia médica oficial.§ 7º Quando a limitação for irreversível apenas para determinadas atribuições, não integrantes do núcleo essencial de seu cargo ou função, o servidor permanecerá exercendo somente aquelas autorizadas pela perícia médica oficial, desde que aquelas que foram vedadas não impeçam o exercício do núcleo essencial das atribuições que lhe foram cometidas. § 8º Sempre que se fizer necessário, a readaptação será precedida de treinamento do servidor pela administração municipal. § 9º Quando a perícia médica concluir que as limitações do servidor são permanentes e impedem o exercício das atribuições totais do seu cargo ou a execução de qualquer outra atividade no serviço público municipal, o readaptando deverá ser aposentado por invalidez. § 10. É vedada a readaptação do servidor ocupante exclusivamente de cargo de provimento em comissão.`,
+                explicacao: `A readaptação acontece quando um servidor sofre limitação física ou mental (comprovada por laudo médico oficial) e, por isso, não consegue mais desempenhar todas as funções do seu cargo. Nesse caso, ele é colocado em outra função compatível, mas sem perder salário e sem ser considerado que mudou de cargo.`,
+                exemploPratico: 'José é servidor efetivo na Prefeitura como motorista de caminhão. Após um acidente, ele perdeu parte da mobilidade no braço direito e não pode mais dirigir veículos pesados. A junta médica oficial emitiu um laudo de readaptação e José passou a exercer a função administrativa de auxiliar de logística no mesmo setor, com as mesmas condições salariais.',
+                observacao: [
+                    `A readaptação pode ser feita a pedido do servidor ou de ofício (pela própria Administração).`,
+                    `Não há perda nem aumento salarial.`,
+                    `O servidor só executará atividades compatíveis com sua limitação, conforme definido no laudo médico.`,
+                    `O prazo para assumir a nova função é de 5 dias, sob pena de penalidades.`,
+                    `Pode haver treinamento específico para auxiliar na nova função.`,
+                    `Se a limitação for temporária, o servidor volta ao cargo original após ser considerado apto.`,
+                    `Se a limitação for parcial e permanente, ele só deixa de fazer as atribuições impossíveis, mas segue no cargo.`,
+                    `Se for total e definitiva, impedindo qualquer atividade, o servidor será aposentado por invalidez.`,
+                    `Não se aplica a cargos exclusivamente em comissão, pois esses não têm vínculo efetivo.`,
+                ]
+            },
+        ]
+    },
+    ["da-substituicao"]: {
+        titulo: `Da Substituição`,
+        id: `da-substituicao`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 55. No interesse da Administração Pública o servidor ocupante de cargos em comissão e em funções de assessoramento, chefia ou direção, nos impedimentos superiores a 15(quinze) dias, poderá ter substitutos designados pela autoridade competente para nomear. § 1º O servidor que exercer cargo em comissão ou função de confiança em substituição, por período igual ou superior a 15(quinze) dias, terá direito a perceber, durante o tempo em que esta vigorar, além das vantagens pessoais a que fizer jus, o seguinte: I - em se tratando de substituição em cargo em comissão, o valor correspondente ao cargo e às vantagens pecuniárias a ele inerentes; II - em se tratando de substituição de servidor de carreira investido em função de chefia, direção ou assessoramento, a remuneração correspondente ao seu cargo de carreira, mais o valor da gratificação de função de confiança do substituído. § 2º Na hipótese prevista no inciso I do parágrafo anterior, o substituto perderá, durante o tempo de substituição, o vencimento e as demais vantagens inerentes a seu cargo, se por este não optar. § 3º A remuneração percebida em decorrência da substituição será incorporada para efeito de cálculo de outras vantagens pecuniárias, inclusive gratificação natalina e férias. § 4º Durante o período de substituição, a contribuição previdenciária será calculada sobre a remuneração do cargo efetivo do substituto.§ 5º O substituto assumirá o exercício do cargo em comissão ou de funções de assessoramento, chefia ou direção desde que possua a qualificação e os requisitos legais exigidos para o exercício do cargo ou função, sem prejuízo das atribuições do cargo de que é titular, salvo impossibilidade legal ou circunstancial de cumulatividade.`,
+                explicacao: `Esse artigo trata da situação em que um servidor que ocupa cargo de confiança, chefia ou direção precisa se afastar por mais de 15 dias. Nesse caso, a Administração pode designar um substituto para ocupar o lugar temporariamente. O substituto receberá a remuneração correspondente ao cargo ou função substituída, além dos direitos do seu próprio cargo, desde que cumpra os requisitos legais e tenha qualificação compatível.`,
+                exemploPratico: 'Maria é servidora efetiva como analista administrativa e, no momento, exerce uma função gratificada de chefe de setor. Ela precisou se afastar por 20 dias devido a tratamento de saúde. Nesse período, João, que também é analista administrativa, foi designado como substituto. Enquanto estiver nessa substituição, João receberá o valor da função de confiança da Maria, acumulado com seu salário de carreira.',
+                observacao: [
+                    `A substituição só ocorre em afastamentos superiores a 15 dias.`,
+                    `O substituto recebe a remuneração correspondente ao cargo ou função substituída.`,
+                    `Ele pode optar por manter o salário do cargo original ou receber o da função em comissão.`,
+                    `A remuneração da substituição conta para 13º salário e férias.`,
+                    `A contribuição previdenciária continua sendo calculada sobre o cargo efetivo do servidor.`,
+                    `O substituto deve ter qualificação e requisitos legais para exercer o cargo temporário.`,
+                    `Ele acumula a função substituída sem prejuízo de suas atribuições originais, salvo quando for impossível conciliar.`,
+                ]
+            },
+        ]
+    },
 }
 
 export { estatutoDosServidoresDeJoaquimTavora }

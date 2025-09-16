@@ -20,9 +20,9 @@ export default function DisposicoesPreliminares() {
                                         : artigo.artigo
                                 }
                             />
-                            <div>
+                            <div className="flex flex-col gap-3">
                                 <div className="flex items-center">
-                                    <h3 className="flex-1">Explicação:</h3>
+                                    <h3 className="flex-1 font-bold text-lg">Explicação:</h3>
                                     <ReproduzirTexto
                                         reduzida={true}
                                         texto={
@@ -34,9 +34,9 @@ export default function DisposicoesPreliminares() {
                                 </div>
                                 <p>{artigo.explicacao}</p>
                             </div>
-                            <div>
+                            <div className="flex flex-col gap-3">
                                 <div className="flex items-center">
-                                    <h3 className="flex-1">Exemplo Prático:</h3>
+                                    <h3 className="flex-1 font-bold text-lg">Exemplo Prático:</h3>
                                     <ReproduzirTexto
                                         reduzida={true}
                                         texto={
@@ -48,9 +48,9 @@ export default function DisposicoesPreliminares() {
                                 </div>
                                 <p>{artigo.exemploPratico}</p>
                             </div>
-                            <div>
+                            <div className="flex flex-col gap-3">
                                 <div className="flex items-center">
-                                    <h3 className="flex-1">Observações:</h3>
+                                    <h3 className="flex-1 font-bold text-lg">Observações:</h3>
                                     <ReproduzirTexto
                                         reduzida={true}
                                         texto={

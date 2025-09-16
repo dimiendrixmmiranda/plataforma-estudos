@@ -20,8 +20,6 @@ interface AuthContextProps {
 interface UsuarioFirestore {
     nome?: string;
     sexo?: string;
-    genero?: string;
-    gender?: string;
     tipo?: string;
     email?: string;
     cpf?: string;
@@ -36,22 +34,21 @@ async function usuarioNormalizado(usuarioFirebase: User): Promise<Usuario> {
     const userDoc = await getDoc(doc(db, "usuarios", usuarioFirebase.uid));
 
     const data = userDoc.exists() ? (userDoc.data() as UsuarioFirestore) : {}
-    const tipo = data?.tipo
-    const nomeFirestore = data?.nome ?? null
-    const sexoFirestore = data?.sexo ?? data?.genero ?? data?.gender ?? null
-    const imagemURL = data?.imagemURL ?? null
-    
+
     return {
         uid: usuarioFirebase.uid,
-        nome: nomeFirestore || usuarioFirebase.displayName || "",
+        nome: data?.nome || usuarioFirebase.displayName || "",
         email: usuarioFirebase.email || "",
+        telefone: data?.telefone || "",
+        cpf: data?.cpf || "",
         token,
-        sexo: sexoFirestore ?? "",
+        sexo: data?.sexo || data?.sexo || "",
         provedor: usuarioFirebase.providerData[0]?.providerId || "",
-        imagemURL: imagemURL || usuarioFirebase.photoURL || "",
-        tipo,
+        imagemURL: data?.imagemURL || usuarioFirebase.photoURL || "",
+        tipo: data?.tipo,
     };
 }
+
 
 export function AuthProvider({ children }: AuthContextProps) {
     const [carregando, setCarregando] = useState(true)

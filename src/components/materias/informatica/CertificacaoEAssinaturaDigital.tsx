@@ -12,7 +12,7 @@ import VideoExplicativo from "../../base/VideoExplicativo";
 import { createSlug } from "@/utils/createSlug";
 import MenuInferior from "../../menuInferior/MenuInferior";
 import Imagem from "../../base/Imagem";
-import BotaoExecutar from "@/components/base/BotaoExecutar";
+import AncoraLink from "@/components/base/AncoraLink";
 
 export default function CertificacaoEAssinaturaDigital() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
@@ -73,7 +73,7 @@ export default function CertificacaoEAssinaturaDigital() {
                                         <VideoExplicativo idVideo={submateria.video?.idVideo} titulo={submateria.video?.titulo} />
                                     ) : ''
                                 }
-                                <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
+                                <AncoraLink link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
                             </li>
                         )
                     })

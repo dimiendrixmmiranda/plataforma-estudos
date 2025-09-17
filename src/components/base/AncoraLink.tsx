@@ -7,6 +7,6 @@ interface AncoraLinkProps {
 
 export default function AncoraLink({ link, texto }: AncoraLinkProps) {
     return (
-        <Link href={link} className="bg-laranja text-center font-bold text-xl py-1 uppercase text-white px-2" style={{textShadow: '1px 1px 2px black', boxShadow: '1px 1px 2px black'}}>{texto}</Link>
+        <Link href={link} className="bg-laranja text-center font-bold text-xl py-1 uppercase text-white px-2 flex justify-center items-center" style={{textShadow: '1px 1px 2px black', boxShadow: '1px 1px 2px black'}}>{texto}</Link>
     )
 } 

@@ -9,7 +9,7 @@ interface MenuInferiorProps{
 
 export default function MenuInferior({linkVoltar, linkHome, linkProximo}: MenuInferiorProps) {
     return (
-        <nav className="w-full h-[50px] fixed bottom-0 left-0 bg-azul-escuro">
+        <nav className="w-full h-[50px] fixed bottom-0 left-0 bg-azul-escuro lg:hidden">
             <ul className="text-white grid grid-cols-4 w-full h-full">
                 <li>
                     <Link href={linkHome} className="flex justify-center items-center w-full h-full text-2xl">

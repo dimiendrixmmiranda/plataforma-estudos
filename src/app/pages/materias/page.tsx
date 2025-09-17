@@ -11,8 +11,8 @@ import informatica from "@/constants/informatica"
 import MateriaCategoriaConcurso from "@/components/materiaCategoriaConcurso/MateriaCategoriaConcurso"
 import portugues from "@/constants/portugues"
 import { assistenteAdministrativo } from "@/constants/assistenteAdministrativo"
-import BotaoExecutar from "@/components/base/BotaoExecutar"
 import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora"
+import AncoraLink from "@/components/base/AncoraLink"
 
 export default function PaginaMaterias() {
     const { usuario } = useAuth()
@@ -26,8 +26,8 @@ export default function PaginaMaterias() {
     return (
         <Template>
             <RotaProtegida>
-                <div className="bg-zinc-300 text-black min-h-[80vh] p-4 flex flex-col gap-4 pb-14">
-                    <div className="flex flex-col gap-4">
+                <div className="bg-zinc-300 text-black min-h-[80vh] p-4 flex flex-col gap-4 pb-14 md:p-8 lg:pb-4 lg:grid lg:grid-cols-3 2xl:grid-cols-2 2xl:gap-8">
+                    <div className="flex flex-col gap-4 max-w-[600px] lg:col-start-1 lg:col-end-3 xl:max-w-[800px] 2xl:col-end-2">
                         <h2 className="uppercase font-black text-2xl leading-6 font-secundaria">Selecione um cargo para estudo:</h2>
                         <Accordion>
                             <AccordionTab header="Agente Comunitario de Saúde">
@@ -611,8 +611,11 @@ export default function PaginaMaterias() {
                                 />
                             </AccordionTab>
                         </Accordion>
+                        <div className="flex flex-col justify-center gap-4 md:grid md:grid-cols-2">
+                            <AncoraLink link="/pages/simulado" texto="Realizar Simulado" />
+                            <AncoraLink link="/pages/usuario" texto="Área Usuário" />
+                        </div>
                     </div>
-                    <BotaoExecutar link="/pages/simulado" texto="Realizar Simulado" />
                     <div>
                         <h3 className="text-xl uppercase font-bold">Lista de Editais</h3>
                         <span className="italic">Nenhum edital publicado ainda.</span>

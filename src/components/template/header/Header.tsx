@@ -9,10 +9,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { Accordion, AccordionTab } from "primereact/accordion";
 import { useEffect, useState } from "react";
-import { BiSolidSpreadsheet } from "react-icons/bi";
+import { BiLogoInstagramAlt, BiSolidSpreadsheet } from "react-icons/bi";
 import { FaUserCircle } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { IoIosMail } from "react-icons/io";
 import { IoLogOut, IoSchoolSharp } from "react-icons/io5";
+import { TbBrandWhatsappFilled } from "react-icons/tb";
 
 export default function Header() {
     const { usuario, logout } = useAuth()
@@ -48,7 +50,7 @@ export default function Header() {
 
     return (
         // Se o usuario estiver logado ele vai apontar para /pages/materias caso contrario ele aponta para /
-        <header className="p-4 grid grid-cols-[1fr_40px] bg-azul-escuro" id="topo">
+        <header className="p-4 grid grid-cols-[1fr_40px] bg-azul-escuro lg:grid-cols-[200px_1fr_25px] lg:gap-4 xl:grid-cols-[200px_1fr_100px]" id="topo">
             <Link href={`${usuario ? '/pages/materias' : '/'}`} className="flex">
                 <Image alt="Logo Estuda+" src={'/logo/logo_estuda_+.png'} width={40} height={40}></Image>
                 <Image alt="Logo Estuda+" src={'/logo/texto_estuda_+.png'} width={160} height={10}></Image>
@@ -112,6 +114,57 @@ export default function Header() {
                     <Redes estiloComponente="mt-auto" estiloLista="grid grid-cols-3" visibilidadeTexto={false} />
                 </div>
             </SidebarComponent>
+
+            <div className="hidden lg:flex items-center">
+                {
+                    usuario ? (
+                        <ul className="flex gap-4 accordionEspecial">
+                            <li>
+                                <Link href={'/pages/usuario'} className="flex items-center gap-2 p-1 rounded-md hover:bg-magenta">
+                                    <FaUserCircle className="text-xl" />
+                                    <p className="text-sm uppercase font-black xl:text-base">Bem vindo {usuario.nome.split(' ')[0]}</p>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={'/pages/simulado'} className="flex items-center gap-2 p-1 rounded-md hover:bg-magenta">
+                                    <BiSolidSpreadsheet className="text-xl" />
+                                    <p className="text-sm uppercase font-black xl:text-base">Realizar Simulado</p>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={'/pages/simuladosFeitos'} className="flex items-center gap-2 p-1 rounded-md hover:bg-magenta">
+                                    <IoSchoolSharp className="text-xl" />
+                                    <p className="text-sm uppercase font-black xl:text-base">Simulados Feitos</p>
+                                </Link>
+                            </li>
+                            <li>
+                                <button className="flex items-center gap-2 p-1 rounded-md hover:bg-magenta" onClick={logout}>
+                                    <IoLogOut className="text-xl" />
+                                    <p className="text-sm uppercase font-black xl:text-base">Sair</p>
+                                </button>
+                            </li>
+                        </ul>
+                    ) : ''
+                }
+            </div>
+
+            <ul className={`hidden lg:flex flex-col items-center xl:flex-row`}>
+                <li className="mx-auto">
+                    <Link href={'/'} className="flex items-center gap-1 text-xs sm:gap-2 xl:text-2xl">
+                        <IoIosMail className="" />
+                    </Link>
+                </li>
+                <li className="mx-auto">
+                    <Link href={'/'} className="flex items-center gap-1 text-xs sm:gap-2 xl:text-2xl">
+                        <BiLogoInstagramAlt className="" />
+                    </Link>
+                </li>
+                <li className="mx-auto">
+                    <Link href={'/'} className="flex items-center gap-1 text-xs sm:gap-2 xl:text-2xl">
+                        <TbBrandWhatsappFilled className="" />
+                    </Link>
+                </li>
+            </ul>
         </header>
     )
 }

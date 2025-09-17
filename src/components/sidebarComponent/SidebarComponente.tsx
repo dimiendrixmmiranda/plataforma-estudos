@@ -14,7 +14,7 @@ export default function SidebarComponent({ titulo, styleTitulo, children, header
     const [visibleRight, setVisibleRight] = useState(false);
 
     return (
-        <div className="card flex justify-content-center">
+        <div className="card flex justify-content-center lg:hidden">
             <Sidebar
                 visible={visibleRight}
                 position="right" onHide={() => setVisibleRight(false)}

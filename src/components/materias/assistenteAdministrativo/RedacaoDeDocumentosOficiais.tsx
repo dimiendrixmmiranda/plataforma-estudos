@@ -1,6 +1,6 @@
 'use client'
 
-import BotaoExecutar from "@/components/base/BotaoExecutar";
+import AncoraLink from "@/components/base/AncoraLink";
 import IntroducaoMateria from "@/components/base/IntroducaoDisciplina";
 import SubmateriasNavegacao from "@/components/base/MateriasNavegacao";
 import TituloMateria from "@/components/base/TituloMateria";
@@ -95,7 +95,7 @@ export default function RedacaoDeDocumentosOficiais() {
                                         </ul>
                                     ) : ''
                                 }
-                                <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
+                                <AncoraLink link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
                             </li>
                         )
                     })

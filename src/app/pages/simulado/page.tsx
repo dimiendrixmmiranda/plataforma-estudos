@@ -21,8 +21,8 @@ export default function Page() {
 
     return (
         <Template>
-            <div className="min-h-[78vh] p-4 bg-zinc-300 text-black">
-                <form className="flex flex-col gap-4 w-full" onSubmit={handleSubmit}>
+            <div className="min-h-[78vh] p-4 bg-zinc-300 text-black flex justify-center items-start md:items-center">
+                <form className="flex flex-col gap-4 w-full max-w-[600px]" onSubmit={handleSubmit}>
                     <fieldset className="flex flex-col w-full gap-1">
                         <label className="leading-5 uppercase font-bold" htmlFor="categoria-concurso">Categoria do Concurso</label>
                         <select name="categoria-concurso" id="categoria-concurso" className="p-2 font-semibold rounded-md" value={categoria} onChange={(e) => setCategoria(e.target.value)}>

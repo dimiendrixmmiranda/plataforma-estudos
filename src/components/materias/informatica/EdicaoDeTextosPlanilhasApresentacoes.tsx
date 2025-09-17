@@ -11,7 +11,7 @@ import { createSlug } from "@/utils/createSlug";
 import MenuInferior from "../../menuInferior/MenuInferior";
 import useAuth from "@/data/hook/useAuth";
 import ReproduzirTexto from "../../reproduzirTexto/ReproduzirTexto";
-import BotaoExecutar from "@/components/base/BotaoExecutar";
+import AncoraLink from "@/components/base/AncoraLink";
 
 export default function EdicaoDeTextosPlanilhasApresentacoes() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
@@ -84,7 +84,7 @@ export default function EdicaoDeTextosPlanilhasApresentacoes() {
                                     <p>As principais extensões para esse tipo de arquivo são: <b>{submateria.dicas.tipoDeExtesao}</b></p>
                                 </div>
                                 <VideoExplicativo idVideo={submateria.video?.idVideo} titulo={submateria.video?.titulo} />
-                                <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
+                                <AncoraLink link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
                             </li>
                         )
                     })

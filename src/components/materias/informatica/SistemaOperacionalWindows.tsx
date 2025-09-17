@@ -11,7 +11,7 @@ import SubmateriasNavegacao from "../../base/MateriasNavegacao";
 import { useMateriasCompletas } from "@/data/hook/useMateriasCompletas";
 import useAuth from "@/data/hook/useAuth";
 import ReproduzirTexto from "../../reproduzirTexto/ReproduzirTexto";
-import BotaoExecutar from "@/components/base/BotaoExecutar";
+import AncoraLink from "@/components/base/AncoraLink";
 
 export default function SistemaOperacionalWindows() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
@@ -93,7 +93,7 @@ export default function SistemaOperacionalWindows() {
                 }
             </ul>
             <VideoExplicativo idVideo={informatica["sistema-operacional-windows"].video?.idVideo} titulo={informatica["sistema-operacional-windows"].video?.titulo} />
-            <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(informatica["sistema-operacional-windows"].id)}`} texto="Realizar Exercicios" />
+            <AncoraLink link={`/pages/materias/exercicios/${createSlug(informatica["sistema-operacional-windows"].id)}`} texto="Realizar Exercicios" />
             <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />
         </div>
     )

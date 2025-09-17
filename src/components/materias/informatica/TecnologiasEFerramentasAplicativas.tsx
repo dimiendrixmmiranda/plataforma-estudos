@@ -11,7 +11,7 @@ import { FaCheckSquare } from "react-icons/fa";
 import VideoExplicativo from "../../base/VideoExplicativo";
 import { createSlug } from "@/utils/createSlug";
 import MenuInferior from "../../menuInferior/MenuInferior";
-import BotaoExecutar from "@/components/base/BotaoExecutar";
+import AncoraLink from "@/components/base/AncoraLink";
 
 export default function TecnologiasEFerramentasAplicativas() {
     const { materiasCompletas, toggleMateriaCompleta } = useMateriasCompletas();
@@ -72,7 +72,7 @@ export default function TecnologiasEFerramentasAplicativas() {
                                         <VideoExplicativo idVideo={submateria.video?.idVideo} titulo={submateria.video?.titulo} />
                                     ) : ''
                                 }
-                                <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
+                                <AncoraLink link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
                             </li>
                         )
                     })

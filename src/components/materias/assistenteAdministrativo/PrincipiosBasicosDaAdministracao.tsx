@@ -1,5 +1,5 @@
 'use client'
-import BotaoExecutar from "@/components/base/BotaoExecutar";
+import AncoraLink from "@/components/base/AncoraLink";
 import Imagem from "@/components/base/Imagem";
 import IntroducaoMateria from "@/components/base/IntroducaoDisciplina";
 import SubmateriasNavegacao from "@/components/base/MateriasNavegacao";
@@ -77,7 +77,7 @@ export default function PrincipiosBasicosDaAdministracao() {
                                         <VideoExplicativo idVideo={submateria.video?.idVideo} titulo={submateria.video?.titulo} />
                                     ) : ''
                                 }
-                                <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
+                                <AncoraLink link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
                             </li>
                         )
                     })

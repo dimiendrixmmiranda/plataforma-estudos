@@ -1,6 +1,6 @@
 'use client'
 
-import BotaoExecutar from "@/components/base/BotaoExecutar";
+import AncoraLink from "@/components/base/AncoraLink";
 import IntroducaoMateria from "@/components/base/IntroducaoDisciplina";
 import SubmateriasNavegacao from "@/components/base/MateriasNavegacao";
 import TituloMateria from "@/components/base/TituloMateria";
@@ -73,7 +73,7 @@ export default function ContratosAdministrativos() {
                                         <VideoExplicativo idVideo={submateria.video?.idVideo} titulo={submateria.video?.titulo} />
                                     ) : ''
                                 }
-                                <BotaoExecutar link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
+                                <AncoraLink link={`/pages/materias/exercicios/${createSlug(submateria.id)}`} texto="Realizar Exercicios" />
                             </li>
                         )
                     })

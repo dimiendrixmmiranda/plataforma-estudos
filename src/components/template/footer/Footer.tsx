@@ -1,6 +1,6 @@
 'use client'
 
-import Redes from "@/components/redes/Redes"
+import RedesSociais from "@/components/redesSociais/RedesSociais"
 import useAuth from "@/data/hook/useAuth"
 import Image from "next/image"
 import Link from "next/link"
@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="hidden">
                 <p className="text-center font-medium">Projeto desenvolvido pelo grupo <b>E.M.</b>, idealizado por <b>Dimi Endrix Martins Miranda</b></p>
             </div>
-            <Redes estiloComponente="" estiloLista="flex gap-2 sm:justify-center" visibilidadeTexto={true}/>
+            <RedesSociais tamanhoIcone="text-2xl"/>
             <p className="text-sm font-semibold text-center">© 2024-2025 - Todos os direitos reservados</p>
             <Link href={`${usuario ? '/pages/materias' : '/'}`} className="flex">
                 <Image alt="Logo Estuda+" src={'/logo/logo_estuda_+.png'} width={60} height={60}></Image>

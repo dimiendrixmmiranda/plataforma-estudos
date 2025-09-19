@@ -719,6 +719,179 @@ const estatutoDosServidoresDeJoaquimTavora = {
             },
         ]
     },
+    ["da-vacancia"]: {
+        titulo: `Da Vacância`,
+        id: `da-vacancia`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 56. A vacância de cargo público decorrerá de: I - exoneração; II - demissão; III - aposentadoria; IV – falecimento; V - declaração judicial de ausência; VI - posse em outro cargo inacumulável. Parágrafo único. A aposentadoria rescinde permanentemente o vínculo institucional com a administração, ainda que esta seja efetuada com o Regime Geral da Previdência e o retorno ao cargo somente poderá ser efetivado mediante aprovação em novo concurso público.`,
+                explicacao: `Um cargo público fica vago quando o servidor deixa de ocupá-lo por algum motivo previsto em lei. As situações que geram vacância são: exoneração, demissão, aposentadoria, falecimento, declaração judicial de ausência ou posse em outro cargo que não pode ser acumulado. Aposentadoria encerra de forma definitiva o vínculo com a Administração. Se o servidor aposentado quiser voltar, só poderá ocupar o cargo novamente passando em novo concurso público.`,
+                exemploPratico: 'Um servidor municipal se aposenta e, depois de alguns anos, deseja retornar ao mesmo cargo. Ele não pode simplesmente reassumir: precisa prestar e ser aprovado em um novo concurso.',
+                observacao: [
+                    `A vacância ocorre nos casos de: Exoneração; Demissão; Aposentadoria; Falecimento; Declaração judicial de ausência; Posse em outro cargo inacumulável`,
+                    `Aposentadoria encerra definitivamente o vínculo com a Administração.`,
+                    `Retorno ao cargo só é possível mediante novo concurso público.`,
+                ]
+            },
+            {
+                artigo: `Art. 57. A vacância ocorrerá na data: I - do falecimento; II - imediata àquela em que o servidor completar 70 (setenta) anos de idade; III - da publicação do ato, nos demais casos.`,
+                explicacao: `A vacância de um cargo público ocorre em momentos específicos definidos pela lei: no caso de falecimento do servidor, o cargo fica vago imediatamente na data da morte; quando o servidor completa 70 anos, a vacância acontece no dia seguinte; já nos demais casos, como exoneração, demissão ou aposentadoria, considera-se a data da publicação oficial do ato administrativo.`,
+                exemploPratico: 'Se um servidor é demitido, a vacância só passa a valer no dia em que a decisão for publicada oficialmente. Já se o servidor falece, o cargo fica vago automaticamente no mesmo dia.',
+                observacao: [
+                    `Falecimento: vacância imediata.`,
+                    `Aposentadoria compulsória aos 70 anos: vacância no dia seguinte.`,
+                    `Exoneração, demissão ou outros casos: vacância na data da publicação oficial.`,
+                ]
+            },
+            {
+                artigo: `Art. 58. A exoneração de cargo efetivo dar-se-á: I - de ofício, quando não forem satisfeitas as condições do estágio probatório; II - de ofício, quando tendo tomado posse, o servidor não entrar em exercício no prazo estabelecido; III - a pedido do servidor.`,
+                explicacao: `A exoneração de um cargo efetivo pode acontecer de três formas: de ofício, quando o servidor não cumprir as condições do estágio probatório; de ofício, se o servidor tomar posse, mas não entrar em exercício dentro do prazo previsto; ou a pedido do próprio servidor, quando ele solicita formalmente a saída do cargo.`,
+                exemploPratico: 'Um servidor que não cumpre satisfatoriamente o estágio probatório será exonerado automaticamente. Já outro servidor que entra em atraso no início do exercício sem justificativa também será exonerado de ofício. Por outro lado, um servidor que decide pedir desligamento do cargo pode solicitar a exoneração voluntária.',
+                observacao: [
+                    `Exoneração de ofício ocorre por descumprimento do estágio probatório ou não início do exercício.`,
+                    `Exoneração a pedido depende da solicitação do servidor.`,
+                    `Garante que apenas os servidores aptos e que cumprem os prazos permaneçam no cargo.`,
+                ]
+            },
+            {
+                artigo: `Art. 59. A exoneração de cargo em comissão dar-se-á: I - a juízo da autoridade competente; II - a pedido do próprio servidor.`,
+                explicacao: `A exoneração de um cargo em comissão pode ocorrer de duas maneiras: por decisão da autoridade competente, que pode dispensar o servidor a qualquer momento, ou a pedido do próprio servidor, quando ele solicita formalmente a saída do cargo.`,
+                exemploPratico: 'Um secretário municipal decide substituir um assessor de confiança; nesse caso, o servidor em comissão é exonerado pela autoridade. Por outro lado, se o assessor pedir para se desligar do cargo por motivos pessoais, a exoneração será feita a seu pedido.',
+                observacao: [
+                    `Exoneração a juízo da autoridade significa que o cargo em comissão é de livre nomeação e exoneração.`,
+                    `Exoneração a pedido depende apenas da solicitação do servidor.`,
+                    `Esse regime garante flexibilidade para cargos de confiança dentro da Administração Pública.`,
+                ]
+            },
+            {
+                artigo: `Art. 60. A demissão será aplicada como penalidade, observado o disposto em lei específica.`,
+                explicacao: `A demissão é uma penalidade aplicada ao servidor público quando ele comete faltas graves ou descumpre regras legais, sempre conforme previsto em legislação específica. Ou seja, não pode ocorrer de forma arbitrária e depende de lei que estabeleça os motivos e procedimentos para a punição.`,
+                exemploPratico: 'Um servidor que comete fraude em processos administrativos pode ser demitido, desde que o procedimento esteja previsto e siga as regras estabelecidas na lei aplicável.',
+                observacao: [
+                    `A demissão é uma penalidade, não um ato administrativo comum.`,
+                    `Deve seguir lei específica que determine os motivos e procedimentos.`,
+                    `Garante que o servidor tenha direito a defesa antes da aplicação da penalidade.`,
+                ]
+            },
+        ]
+    },
+    ["do-vencimento-e-da-remuneracao"]: {
+        titulo: `Do Vencimento e da Remuneracao`,
+        id: `do-vencimento-e-da-remuneracao`,
+        arrayDeArtigos: [
+            {
+                artigo: `Art. 61. Vencimento é a retribuição pecuniária a que tem direito o servidor pelo exercício de cargo público, com valor fixado em lei. Parágrafo único. A fixação dos padrões de vencimento observará a natureza, o grau de responsabilidade, a complexidade, os requisitos para investidura e as peculiaridades dos cargos.`,
+                explicacao: `O vencimento é o pagamento que o servidor recebe pelo exercício do cargo público, com valor definido por lei. Esse valor leva em consideração a natureza do cargo, o grau de responsabilidade, a complexidade das atividades, os requisitos necessários para assumir o cargo e outras características específicas de cada função.`,
+                exemploPratico: 'Um professor municipal terá seu vencimento definido por lei, considerando seu nível de formação, responsabilidades na sala de aula e a complexidade do cargo. Já um servidor administrativo terá seu vencimento calculado de acordo com os critérios do cargo que ocupa.',
+                observacao: [
+                    `O vencimento é remuneração legal pelo cargo público.`,
+                    `A lei define os padrões de vencimento de acordo com responsabilidades e complexidade.`,
+                    `Garante justiça e proporcionalidade entre os diferentes cargos.`,
+                ]
+            },
+            {
+                artigo: `Art. 62. A remuneração corresponde ao vencimento básico do cargo, acrescido das vantagens pecuniárias permanentes ou temporárias estabelecidas em lei. § 1º O vencimento do cargo efetivo, acrescido das vantagens de caráter permanente, é irredutível. § 2º A remuneração dos servidores somente poderá ser fixada ou alterada por lei específica, assegurada a revisão geral anual, sempre na mesma data e sem distinção de índices. § 3º Vantagem permanente é aquela que se incorpora de forma automática e definitiva à remuneração do servidor e nos proventos de aposentadoria. § 4º Vantagem temporária é aquela percebida pelo servidor em caráter transitório, que não se incorpora à remuneração do servidor e a acompanha na aposentadoria somente nas hipóteses e condições previstas em lei. § 5º Os acréscimos pecuniários percebidos por servidor público não serão computados nem acumulados para fins de concessão de acréscimos ulteriores.`,
+                explicacao: `A remuneração do servidor público corresponde ao vencimento básico do cargo, acrescido de vantagens pecuniárias, que podem ser permanentes ou temporárias, conforme estabelecido em lei. O vencimento do cargo efetivo, somado às vantagens permanentes, não pode ser reduzido. Qualquer fixação ou alteração da remuneração deve ser feita por lei específica, garantindo também revisão geral anual na mesma data e com índices iguais para todos. Vantagens permanentes se incorporam de forma definitiva à remuneração e aos proventos de aposentadoria, enquanto vantagens temporárias são recebidas de forma transitória e só podem influenciar a aposentadoria nos casos previstos em lei. Além disso, acréscimos recebidos pelo servidor não são somados para cálculo de novos acréscimos futuros.`,
+                exemploPratico: 'Um servidor que recebe vencimento de R$3.000,00 e uma vantagem permanente de R$500,00 terá sua remuneração irredutível de R$3.500,00. Já um bônus temporário de R$200,00 recebido por alguns meses não se incorporará à aposentadoria, a não ser que a lei preveja essa possibilidade.',
+                observacao: [
+                    `Remuneração = vencimento básico + vantagens pecuniárias.`,
+                    `Vantagens permanentes se incorporam de forma definitiva.`,
+                    `Vantagens temporárias são transitórias e só influenciam aposentadoria se previsto em lei.`,
+                    `Qualquer alteração na remuneração exige lei específica.`,
+                    `Acréscimos recebidos não são acumulativos para novos cálculos.`,
+                ]
+            },
+            {
+                artigo: `Art. 63. A remuneração do servidor público municipal, percebida cumulativamente ou não, incluída as vantagens pessoais ou de qualquer natureza, não poderá exceder o subsídio mensal, em espécie, do Prefeito Municipal. Parágrafo único. Não são incluídas, para os fins do disposto neste artigo, as vantagens correspondentes à gratificação natalina, à indenização de férias e outras vantagens de caráter indenizatório previstas em lei.`,
+                explicacao: `A remuneração de qualquer servidor público municipal, incluindo vencimento e vantagens de qualquer tipo, não pode ultrapassar o valor do subsídio mensal do Prefeito Municipal. No entanto, benefícios de caráter indenizatório, como gratificação natalina, indenização de férias e outros previstos em lei, não entram nesse limite.`,
+                exemploPratico: 'Um servidor municipal recebe vencimento, adicional por tempo de serviço e gratificação de desempenho. A soma desses valores não pode ultrapassar o subsídio do Prefeito, mas o 13º salário e o pagamento de férias não contam para esse limite.',
+                observacao: [
+                    `Remuneração máxima = subsídio do Prefeito Municipal.`,
+                    `Inclui vencimento e todas as vantagens pessoais ou de qualquer natureza.`,
+                    `Não inclui vantagens indenizatórias, como 13º salário, férias e outras previstas em lei.`,
+                    `Garante equilíbrio na remuneração entre os servidores e os cargos de maior responsabilidade.`,
+                ]
+            },
+            {
+                artigo: `Art. 64. Mediante autorização do servidor, poderá haver consignação em folha de pagamento a favor de terceiros, até o limite de 30% de sua remuneração, descontada eventual reposição de custos à Administração, na forma definida em regulamento. Parágrafo único. Salvo por imposição legal ou mandado judicial, nenhum outro desconto incidirá sobre a remuneração ou provento.`,
+                explicacao: `O servidor público pode autorizar descontos em sua folha de pagamento em favor de terceiros, como empréstimos ou convênios, desde que não ultrapassem 30% da sua remuneração e respeitem regras sobre eventual reposição de custos à Administração. Exceto por imposição legal ou decisão judicial, nenhum outro desconto pode ser feito sobre o vencimento ou proventos do servidor.`,
+                exemploPratico: 'Um servidor que tem um empréstimo autorizado pode descontar até 30% de sua remuneração mensal diretamente na folha de pagamento para pagar a instituição financeira. Outros descontos, como doações ou taxas não autorizadas, não podem ser aplicados sem sua permissão.',
+                observacao: [
+                    `Descontos só com autorização do servidor.`,
+                    `Limite de 30% da remuneração para consignação.`,
+                    `Reposição de custos à Administração pode ser descontada conforme regulamento.`,
+                    `Apenas imposição legal ou mandado judicial permite outros descontos.`,
+                ]
+            },
+            {
+                artigo: `Art. 65. As reposições e indenizações ao erário serão previamente comunicadas ao servidor ativo, aposentado ou ao pensionista, para pagamento, no prazo máximo de 30(trinta) dias, podendo ser parceladas, a pedido do interessado, consignadas em parcelas mensais sucessivas, não inferiores a 10% (dez por cento), nem excedentes a 30% (trinta por cento) da remuneração, provento ou pensão. § 1º A Administração Municipal adotará, na atualização dos valores, os mesmos índices utilizados na correção dos tributos municipais e os acréscimos de lei. § 2º As reparações não eximem a autoridade ou o servidor de responder pelo ato nas esferas administrativas, cível ou criminal. § 3º Quando o pagamento indevido houver ocorrido no mês anterior ao do processamento da folha, a reposição será feita imediatamente, em uma única parcela. § 4º Na hipótese de valores recebidos em decorrência de cumprimento a decisão liminar, a tutela antecipada ou a sentença que venha a ser revogada ou rescindida, serão eles atualizados até a data da reposição.`,
+                explicacao: `Quando houver valores a serem devolvidos ao erário por servidor ativo, aposentado ou pensionista, a Administração deve comunicar previamente o interessado e estipular o pagamento em até 30 dias. Caso o servidor solicite, a reposição pode ser parcelada em prestações mensais, que não podem ser menores que 10% nem maiores que 30% da remuneração, provento ou pensão. Os valores serão atualizados conforme índices de correção de tributos municipais e demais acréscimos legais. Mesmo com a reposição, a autoridade ou servidor continua responsável pelo ato nas esferas administrativa, civil ou criminal. Se o pagamento indevido ocorreu no mês anterior ao processamento da folha, a devolução será imediata em parcela única. Valores recebidos por decisão judicial que posteriormente seja revogada também devem ser atualizados até a data da reposição.`,
+                exemploPratico: 'Um servidor recebeu um pagamento a mais por erro da folha. A Administração comunica o servidor, que pode devolver o valor em até 30 dias ou parcelar de acordo com os limites de 10% a 30% da remuneração. Se o valor indevido ocorreu no mês passado, a devolução será feita de uma vez.',
+                observacao: [
+                    `Comunicação prévia ao servidor é obrigatória.`,
+                    `Pagamento em até 30 dias ou parcelamento autorizado pelo interessado (10% a 30% da remuneração).`,
+                    `Atualização dos valores segue índices de tributos municipais e lei.`,
+                    `Reposição não exime responsabilidade administrativa, civil ou criminal.`,
+                    `Pagamentos indevidos recentes podem ser cobrados imediatamente em parcela única.`,
+                    `Valores recebidos por decisão judicial revogada devem ser atualizados até a reposição.`,
+                ]
+            },
+            {
+                artigo: `Art. 66. O débito com o erário de servidor que for demitido, exonerado, ou que tiver a sua aposentadoria ou disponibilidade cassadas, será deduzido de seu crédito financeiro com o Município, devendo o saldo devedor, se houver, ser quitado dentro de 60 (sessenta) dias, sob pena de sua inscrição em dívida ativa.`,
+                explicacao: `Se um servidor é demitido, exonerado ou tiver sua aposentadoria ou disponibilidade cassadas e possuir débitos com o erário, esses valores serão descontados de qualquer crédito que ele tenha com o Município. Caso o débito ainda permaneça, o saldo deverá ser pago em até 60 dias. Se o pagamento não for feito, o valor será inscrito em dívida ativa, podendo ser cobrado judicialmente.`,
+                exemploPratico: 'Um servidor demitido ainda tem créditos de férias não recebidas. Parte desse valor será usada para quitar o débito com o Município. Se ainda restar algum valor em aberto, ele deverá pagar em até 60 dias; caso contrário, a dívida será encaminhada à dívida ativa.',
+                observacao: [
+                    `Débitos do servidor são abatidos de créditos com o Município.`,
+                    `Saldo devedor deve ser quitado em até 60 dias.`,
+                    `Caso não seja pago, o débito será inscrito em dívida ativa.`,
+                    `Aplica-se a servidores demitidos, exonerados ou com aposentadoria/disponibilidade cassadas.`,
+                ]
+            },
+            {
+                artigo: `Art. 67. O vencimento, a remuneração e o provento não serão objeto de arresto, sequestro ou penhora, exceto nos casos de prestação de alimentos resultantes de decisão judicial.`,
+                explicacao: `O vencimento, a remuneração e os proventos do servidor público não podem ser penhorados, arrestados ou sequestrados, garantindo proteção do salário. A única exceção é quando há decisão judicial determinando o pagamento de pensão alimentícia ou alimentos devidos a alguém.`,
+                exemploPratico: 'Um servidor público não pode ter seu salário bloqueado por dívidas bancárias. No entanto, se houver uma decisão judicial para pagamento de pensão alimentícia aos filhos, o valor correspondente poderá ser descontado diretamente da sua remuneração.',
+                observacao: [
+                    `Vencimento, remuneração e proventos são protegidos contra penhora, arresto ou sequestro.`,
+                    `Exceção: pagamento de alimentos determinado por decisão judicial.`,
+                    `Garante segurança financeira básica ao servidor.`,
+                ]
+            },
+            {
+                artigo: `Art. 68. Nenhum servidor poderá perceber mensalmente, pelo exercício do cargo ou função, vencimento inferior ao salário mínimo vigente no País, observado a jornada normal de trabalho.`,
+                explicacao: `Nenhum servidor público pode receber, pelo exercício do cargo ou função, um valor inferior ao salário mínimo vigente no País, considerando-se a jornada normal de trabalho. Isso garante que todos os servidores tenham uma remuneração mínima, independentemente do cargo ocupado.`,
+                exemploPratico: 'Um servidor contratado para cargo administrativo que trabalhe em jornada completa deve receber pelo menos o salário mínimo nacional, mesmo que o cargo tenha vencimento inicial baixo.',
+                observacao: [
+                    `Salário mínimo garante remuneração mínima para todos os servidores.`,
+                    `Aplica-se a todos os cargos e funções, respeitando a jornada normal de trabalho.`,
+                    `Não permite redução do vencimento abaixo do mínimo legal.`,
+                ]
+            },
+            {
+                artigo: `Art. 69. É vedada a vinculação ou equiparação de quaisquer espécies remuneratórias para efeito de remuneração de pessoal do serviço público.`,
+                explicacao: `Não é permitido vincular ou equiparar qualquer tipo de pagamento ou vantagem recebida por servidores para formar a remuneração de outros servidores. Cada cargo deve ter sua própria remuneração definida por lei, garantindo que não haja misturas ou ajustes que prejudiquem a legislação salarial.`,
+                exemploPratico: 'Um servidor que recebe gratificação por desempenho não pode usar esse valor para aumentar o salário de outro cargo que não tenha direito a essa gratificação. Cada remuneração é independente e definida legalmente.',
+                observacao: [
+                    `Não é permitido vincular ou equiparar remunerações.`,
+                    `Cada cargo deve ter remuneração própria definida em lei.`,
+                    `Garante clareza, legalidade e justiça na remuneração do serviço público.`,
+                ]
+            },
+            {
+                artigo: `Art. 70. O servidor perderá a parcela do vencimento mensal correspondente a: I - faltas não justificadas. II - a parcela de remuneração diária, proporcional aos atrasos, ausências justificadas e saídas antecipadas, salvo na hipótese de compensação de horário. § 1º A remuneração mensal somente sofrerá descontos quando a somatória dos atrasos e saídas antecipadas no mês, na forma de regulamento, ultrapassar o limite máximo de 60(sessenta) minutos. § 2º No caso de faltas sucessivas, os dias intercalados, compreendendo domingos, feriados e aqueles em que não haja expediente, serão computados para efeito de desconto no vencimento básico. § 3º Para os efeitos de descontos, a jornada mensal de vencimentos deve ser reduzida, em espécie, a valores correspondentes a minutos, hora e dia, conforme o caso, devendo processar-se na mesma proporção do período de tempo a ser descontado. § 4º As faltas justificadas decorrentes de caso fortuito ou de força maior poderão ser compensadas a critério da chefia imediata, sendo assim consideradas como efetivo exercício.`,
+                explicacao: `O servidor pode ter descontos em seu vencimento mensal quando houver faltas não justificadas, atrasos, saídas antecipadas ou ausências, sendo a remuneração proporcional ao tempo não trabalhado. Esses descontos não se aplicam se houver compensação de horário. Para atrasos e saídas antecipadas, o desconto só ocorre quando a soma desses períodos ultrapassa 60 minutos no mês. Em faltas sucessivas, dias intercalados, incluindo domingos e feriados, também são considerados para o desconto. O cálculo do abatimento deve ser proporcional ao tempo de ausência. Já faltas justificadas por caso fortuito ou força maior podem ser compensadas a critério da chefia imediata, contando como efetivo exercício.`,
+                exemploPratico: 'Se um servidor chega 30 minutos atrasado todos os dias durante um mês, o desconto no vencimento só será feito se a soma desses atrasos ultrapassar 60 minutos. Se houver um atraso devido a um imprevisto grave, a chefia pode considerar o período como compensado.',
+                observacao: [
+                    `Faltas não justificadas, atrasos e saídas antecipadas geram desconto proporcional.`,
+                    `Descontos por atrasos só quando somam mais de 60 minutos no mês.`,
+                    `Faltas sucessivas incluem domingos e feriados para efeito de desconto.`,
+                    `Cálculo do desconto deve ser proporcional ao tempo não trabalhado.`,
+                    `Faltas por caso fortuito ou força maior podem ser compensadas pela chefia.`,
+                ]
+            },
+        ]
+    },
+
 }
 
 export { estatutoDosServidoresDeJoaquimTavora }

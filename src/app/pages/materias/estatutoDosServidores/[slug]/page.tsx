@@ -15,6 +15,8 @@ import Reintegracao from '@/components/materias/estatutoDosServidores/Reintegrac
 import Remocao from '@/components/materias/estatutoDosServidores/Remocao'
 import Reversao from '@/components/materias/estatutoDosServidores/Reversao'
 import Substituicao from '@/components/materias/estatutoDosServidores/Substituicao'
+import Vacancia from '@/components/materias/estatutoDosServidores/Vacancia'
+import VencimentoRemuneracao from '@/components/materias/estatutoDosServidores/VencimentoRemuneracao'
 import Template from '@/components/template/Template'
 import { useParams } from 'next/navigation'
 import { JSX } from 'react'
@@ -36,6 +38,8 @@ const componentesPorSlug: Record<string, JSX.Element> = {
     ['da-disposicao']: <Disposicao />,
     ['da-readaptacao']: <Readaptacao />,
     ['da-substituicao']: <Substituicao />,
+    ['da-vacancia']: <Vacancia />,
+    ['do-vencimento-e-da-remuneracao']: <VencimentoRemuneracao />,
 }
 
 export default function Page() {

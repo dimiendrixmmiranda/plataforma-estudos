@@ -520,6 +520,16 @@ export default function PaginaMaterias() {
                                             slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-substituicao"].id}`,
                                             id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-substituicao"].id}`
                                         },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["da-vacancia"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["da-vacancia"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["da-vacancia"].id}`
+                                        },
+                                        {
+                                            nome: `${estatutoDosServidoresDeJoaquimTavora["do-vencimento-e-da-remuneracao"].titulo}`,
+                                            slug: `/pages/materias/estatutoDosServidores/${estatutoDosServidoresDeJoaquimTavora["do-vencimento-e-da-remuneracao"].id}`,
+                                            id: `estatuto-dos-servidores-${estatutoDosServidoresDeJoaquimTavora["do-vencimento-e-da-remuneracao"].id}`
+                                        },
                                     ]}
                                     materiaConcluida={toggleMateriaCompleta}
                                     materiasCompletas={materiasCompletas}

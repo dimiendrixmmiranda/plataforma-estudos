@@ -3,12 +3,12 @@ import TituloMateria from "@/components/base/TituloMateria";
 import ReproduzirTexto from "@/components/reproduzirTexto/ReproduzirTexto";
 import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora";
 
-export default function Substituicao() {
+export default function Vacancia() {
     return (
         <div className="p-4 bg-zinc-300 text-black min-h-[77vh] flex flex-col gap-3">
-            <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["da-substituicao"].titulo}`} />
+            <TituloMateria texto={`${estatutoDosServidoresDeJoaquimTavora["da-vacancia"].titulo}`} />
             {
-                estatutoDosServidoresDeJoaquimTavora["da-substituicao"].arrayDeArtigos.map((artigo, i) => {
+                estatutoDosServidoresDeJoaquimTavora["da-vacancia"].arrayDeArtigos.map((artigo, i) => {
                     return (
                         <div key={i} className="flex flex-col gap-4 pb-6 border-b-2 border-azul-escuro">
                             <h2>{artigo.artigo}</h2>
@@ -75,8 +75,8 @@ export default function Substituicao() {
                 })
             }
             <div className="grid grid-cols-2 gap-2">
-                <AncoraLink link="/pages/materias/estatutoDosServidores/da-readaptacao" texto="Anterior" />
-                <AncoraLink link="/pages/materias/estatutoDosServidores/da-vacancia" texto="Próximo" /> 
+                <AncoraLink link="/pages/materias/estatutoDosServidores/da-vacancia" texto="Anterior" />
+                <AncoraLink link="/pages/materias/estatutoDosServidores/" texto="Próximo" /> 
             </div>
         </div>
     )

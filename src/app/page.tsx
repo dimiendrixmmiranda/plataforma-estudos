@@ -1,5 +1,6 @@
 'use client';
 import Template from "@/components/template/Template";
+import { Meteors } from "@/components/ui/meteors";
 import useAuth from "@/data/hook/useAuth";
 import Image from "next/image";
 import { useState } from "react";
@@ -71,8 +72,11 @@ export default function Page() {
 
 	return (
 		<Template>
-			<div className="text-black bg-turquesaEscuro min-h-[77vh] p-4 flex flex-col justify-center items-center gap-10">
-				<div className="flex flex-col gap-4 p-4 border border-black rounded-lg w-full max-w-[300px] bg-turquesaClaro text-white" style={{ boxShadow: '0px 0px 2px 1px black' }}>
+			<div className="text-black bg-turquesaEscuro min-h-[77vh] p-4 flex flex-col justify-center items-center gap-10 overflow-hidden">
+				<div className="w-[70vw] h-full rotate-[30deg]">
+					<Meteors number={25} />
+				</div>
+				<div className="flex flex-col gap-4 p-4 border border-black rounded-lg w-full max-w-[300px] bg-turquesaClaro text-white z-20" style={{ boxShadow: '0px 0px 2px 1px black' }}>
 					<div className="flex flex-col gap-2 justify-center items-center relative w-[140px] h-[140px] mx-auto">
 						<Image alt="Usuario" src={'/outros/user.png'} fill className="object-contain" />
 					</div>
@@ -110,7 +114,7 @@ export default function Page() {
 					</fieldset>
 					<button className="w-full text-white uppercase font-bold py-2 bg-salmao" style={{ boxShadow: '1px 1px 2px black' }} onClick={submeter}>Entrar</button>
 				</div>
-				<span className="text-white uppercase font-black text-center leading-5 font-secundaria">
+				<span className="text-white uppercase font-black text-center leading-5 font-secundaria z-20">
 					Plataforma de estudos em desenvolvimento, somente usuarios credenciados podem acessar. Conteudos sendo adicionados diariamente.
 				</span>
 			</div>

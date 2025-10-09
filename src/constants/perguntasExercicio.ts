@@ -9870,6 +9870,726 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
         ],
         justificativa: "A Lei 8.112/1990 estabelece os prazos de prescrição para diferentes tipos de infrações disciplinares.",
         categoriaDaPergunta: "prescricao-de-infracoes-dos-servidores"
+    },
+    {
+        enunciado: "O que é um vírus de computador?",
+        arrayDeRespostas: [
+            { conteudo: "Um programa capaz de se auto-replicar e infectar outros arquivos.", correto: true },
+            { conteudo: "Um software que aumenta o desempenho do computador.", correto: false },
+            { conteudo: "Um protocolo de comunicação entre sistemas operacionais.", correto: false },
+            { conteudo: "Um aplicativo de limpeza de cache e cookies.", correto: false },
+            { conteudo: "Um hardware de segurança usado em redes locais.", correto: false }
+        ],
+        justificativa: "Vírus são programas que se replicam, infectando arquivos e sistemas sem consentimento do usuário.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual das alternativas representa uma forma comum de infecção por vírus?",
+        arrayDeRespostas: [
+            { conteudo: "Abrir anexos de e-mails desconhecidos.", correto: true },
+            { conteudo: "Formatar o computador regularmente.", correto: false },
+            { conteudo: "Instalar atualizações do sistema operacional.", correto: false },
+            { conteudo: "Usar senhas complexas em todas as contas.", correto: false },
+            { conteudo: "Realizar backup dos arquivos importantes.", correto: false }
+        ],
+        justificativa: "Anexos de e-mails e links maliciosos são vetores clássicos de infecção.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual característica distingue um vírus de um worm?",
+        arrayDeRespostas: [
+            { conteudo: "O vírus precisa de um hospedeiro, o worm é autônomo.", correto: true },
+            { conteudo: "O vírus atua apenas em redes, o worm atua em arquivos.", correto: false },
+            { conteudo: "O worm é inofensivo, o vírus é sempre destrutivo.", correto: false },
+            { conteudo: "O vírus só afeta sistemas Linux.", correto: false },
+            { conteudo: "O worm precisa de interação humana para se propagar.", correto: false }
+        ],
+        justificativa: "Vírus dependem de um arquivo hospedeiro, enquanto worms se espalham sozinhos.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual é o principal método de combate aos vírus?",
+        arrayDeRespostas: [
+            { conteudo: "Utilização de antivírus atualizado e boas práticas de segurança.", correto: true },
+            { conteudo: "Compartilhamento de programas desconhecidos.", correto: false },
+            { conteudo: "Desativar o firewall do sistema.", correto: false },
+            { conteudo: "Abertura de anexos desconhecidos.", correto: false },
+            { conteudo: "Desinstalar o sistema operacional periodicamente.", correto: false }
+        ],
+        justificativa: "Antivírus e medidas preventivas são fundamentais na proteção contra vírus.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que é um vírus do tipo 'boot'?",
+        arrayDeRespostas: [
+            { conteudo: "Aquele que infecta o setor de inicialização do disco rígido.", correto: true },
+            { conteudo: "Um vírus que se disfarça de software antivírus.", correto: false },
+            { conteudo: "Um vírus que atua exclusivamente em navegadores.", correto: false },
+            { conteudo: "Um vírus que apaga a memória RAM.", correto: false },
+            { conteudo: "Um vírus que substitui o BIOS do computador.", correto: false }
+        ],
+        justificativa: "Vírus de boot atacam o setor de inicialização, impedindo a inicialização correta do sistema.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que caracteriza um vírus polimórfico?",
+        arrayDeRespostas: [
+            { conteudo: "Capacidade de alterar seu código a cada infecção para evitar detecção.", correto: true },
+            { conteudo: "Capacidade de se copiar apenas uma vez.", correto: false },
+            { conteudo: "Capacidade de funcionar apenas em sistemas de 64 bits.", correto: false },
+            { conteudo: "Capacidade de destruir fisicamente componentes de hardware.", correto: false },
+            { conteudo: "Capacidade de se autoexecutar em dispositivos móveis.", correto: false }
+        ],
+        justificativa: "Vírus polimórficos mudam sua assinatura digital, dificultando a detecção por antivírus baseados em assinatura.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual o principal objetivo de um vírus do tipo macro?",
+        arrayDeRespostas: [
+            { conteudo: "Infectar arquivos de programas de escritório, como Word e Excel.", correto: true },
+            { conteudo: "Atacar servidores web.", correto: false },
+            { conteudo: "Roubar senhas de administradores de rede.", correto: false },
+            { conteudo: "Infectar sistemas operacionais Linux.", correto: false },
+            { conteudo: "Substituir drivers de vídeo do sistema.", correto: false }
+        ],
+        justificativa: "Vírus de macro exploram linguagens de automação de softwares de escritório, como o VBA do Microsoft Office.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual das opções representa um sintoma comum de infecção por vírus?",
+        arrayDeRespostas: [
+            { conteudo: "Desempenho reduzido e comportamento anormal do sistema.", correto: true },
+            { conteudo: "Melhora significativa na velocidade do computador.", correto: false },
+            { conteudo: "Atualizações automáticas de segurança mais frequentes.", correto: false },
+            { conteudo: "Aumento da memória RAM disponível.", correto: false },
+            { conteudo: "Diminuição do consumo de energia.", correto: false }
+        ],
+        justificativa: "Vírus podem causar lentidão, falhas, e alterações inesperadas no sistema.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual das opções abaixo descreve corretamente um cavalo de Troia?",
+        arrayDeRespostas: [
+            { conteudo: "Programa que parece legítimo, mas executa ações maliciosas ocultas.", correto: true },
+            { conteudo: "Vírus que se anexa a outros arquivos executáveis.", correto: false },
+            { conteudo: "Worm que se espalha pela rede automaticamente.", correto: false },
+            { conteudo: "Spyware que monitora teclas digitadas.", correto: false },
+            { conteudo: "Programa que remove automaticamente malwares do sistema.", correto: false }
+        ],
+        justificativa: "Trojans se disfarçam de programas úteis para enganar o usuário e instalar ameaças.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que diferencia um antivírus com análise heurística?",
+        arrayDeRespostas: [
+            { conteudo: "Detecta ameaças pelo comportamento, não apenas por assinatura.", correto: true },
+            { conteudo: "Funciona apenas em modo offline.", correto: false },
+            { conteudo: "Precisa de atualização manual diária.", correto: false },
+            { conteudo: "Só remove vírus conhecidos.", correto: false },
+            { conteudo: "Depende de hardware adicional para funcionar.", correto: false }
+        ],
+        justificativa: "Análise heurística identifica ameaças desconhecidas observando o comportamento do código.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que é um vírus residente?",
+        arrayDeRespostas: [
+            { conteudo: "Permanece na memória do sistema após ser executado.", correto: true },
+            { conteudo: "Atua apenas em arquivos comprimidos.", correto: false },
+            { conteudo: "Desativa o antivírus automaticamente.", correto: false },
+            { conteudo: "Só funciona quando o computador está desconectado da internet.", correto: false },
+            { conteudo: "Ataca exclusivamente dispositivos móveis.", correto: false }
+        ],
+        justificativa: "Vírus residentes permanecem ativos na memória, infectando novos arquivos enquanto o sistema está em execução.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que é um vírus de script?",
+        arrayDeRespostas: [
+            { conteudo: "Vírus que utiliza linguagens de script, como JavaScript ou VBScript.", correto: true },
+            { conteudo: "Vírus que afeta apenas sistemas baseados em Linux.", correto: false },
+            { conteudo: "Vírus que depende exclusivamente de arquivos executáveis.", correto: false },
+            { conteudo: "Vírus que infecta somente discos rígidos externos.", correto: false },
+            { conteudo: "Vírus que substitui programas legítimos do Windows.", correto: false }
+        ],
+        justificativa: "Esses vírus exploram linguagens de script para se propagar em páginas web ou arquivos de sistema.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que caracteriza um vírus multipartite?",
+        arrayDeRespostas: [
+            { conteudo: "Capacidade de infectar múltiplas partes do sistema, como arquivos e setor de boot.", correto: true },
+            { conteudo: "Capacidade de funcionar em diferentes sistemas operacionais.", correto: false },
+            { conteudo: "Capacidade de se transformar em worm automaticamente.", correto: false },
+            { conteudo: "Capacidade de alterar a BIOS do computador.", correto: false },
+            { conteudo: "Capacidade de criptografar os dados do usuário.", correto: false }
+        ],
+        justificativa: "Vírus multipartite atacam várias áreas, dificultando a remoção completa.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual alternativa descreve um vírus stealth?",
+        arrayDeRespostas: [
+            { conteudo: "Vírus que se oculta do antivírus, manipulando informações do sistema.", correto: true },
+            { conteudo: "Vírus que se replica apenas uma vez.", correto: false },
+            { conteudo: "Vírus que atua exclusivamente em sistemas móveis.", correto: false },
+            { conteudo: "Vírus que exige interação constante do usuário.", correto: false },
+            { conteudo: "Vírus que funciona apenas em ambiente virtual.", correto: false }
+        ],
+        justificativa: "Vírus stealth ocultam sua presença, interceptando chamadas do sistema e enganando o antivírus.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual dos seguintes arquivos é mais vulnerável a vírus do tipo macro?",
+        arrayDeRespostas: [
+            { conteudo: "Documentos do Microsoft Word.", correto: true },
+            { conteudo: "Arquivos de imagem .png.", correto: false },
+            { conteudo: "Vídeos .mp4.", correto: false },
+            { conteudo: "Arquivos de texto simples .txt.", correto: false },
+            { conteudo: "Arquivos de áudio .mp3.", correto: false }
+        ],
+        justificativa: "Vírus de macro exploram linguagens de automação em softwares de escritório.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual o objetivo principal dos vírus destrutivos?",
+        arrayDeRespostas: [
+            { conteudo: "Danos a dados ou inutilização do sistema.", correto: true },
+            { conteudo: "Melhorar o desempenho do sistema.", correto: false },
+            { conteudo: "Criptografar arquivos para recuperação posterior.", correto: false },
+            { conteudo: "Detectar falhas de hardware.", correto: false },
+            { conteudo: "Monitorar redes para diagnóstico.", correto: false }
+        ],
+        justificativa: "Vírus destrutivos apagam arquivos ou corrompem o sistema, causando prejuízo direto ao usuário.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Como os antivírus baseados em assinatura detectam vírus?",
+        arrayDeRespostas: [
+            { conteudo: "Comparando o código dos arquivos com uma base de dados de padrões conhecidos.", correto: true },
+            { conteudo: "Analisando o comportamento do usuário na internet.", correto: false },
+            { conteudo: "Bloqueando todo tipo de execução de software.", correto: false },
+            { conteudo: "Verificando o tamanho dos arquivos periodicamente.", correto: false },
+            { conteudo: "Apagando automaticamente arquivos desconhecidos.", correto: false }
+        ],
+        justificativa: "Antivírus de assinatura reconhecem vírus conhecidos com base em padrões armazenados.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que é um falso positivo em antivírus?",
+        arrayDeRespostas: [
+            { conteudo: "Quando o antivírus identifica erroneamente um arquivo legítimo como vírus.", correto: true },
+            { conteudo: "Quando o antivírus não encontra nenhum vírus real.", correto: false },
+            { conteudo: "Quando o antivírus falha em iniciar.", correto: false },
+            { conteudo: "Quando o antivírus apaga vírus verdadeiros.", correto: false },
+            { conteudo: "Quando o antivírus é infectado por um malware.", correto: false }
+        ],
+        justificativa: "Falsos positivos ocorrem quando arquivos legítimos são marcados erroneamente como ameaças.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que é um vírus de link?",
+        arrayDeRespostas: [
+            { conteudo: "Aquele que altera endereços de arquivos, fazendo-os apontar para o vírus.", correto: true },
+            { conteudo: "Aquele que se propaga apenas via e-mail.", correto: false },
+            { conteudo: "Aquele que cria atalhos legítimos no sistema.", correto: false },
+            { conteudo: "Aquele que infecta exclusivamente dispositivos USB.", correto: false },
+            { conteudo: "Aquele que criptografa arquivos do sistema.", correto: false }
+        ],
+        justificativa: "Vírus de link modificam entradas de diretório para redirecionar a execução para o código malicioso.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual ação ajuda a evitar infecção por vírus?",
+        arrayDeRespostas: [
+            { conteudo: "Não abrir anexos de e-mails suspeitos.", correto: true },
+            { conteudo: "Desativar o antivírus para economizar recursos.", correto: false },
+            { conteudo: "Ignorar atualizações de segurança.", correto: false },
+            { conteudo: "Compartilhar arquivos desconhecidos.", correto: false },
+            { conteudo: "Usar softwares piratas.", correto: false }
+        ],
+        justificativa: "Evitar abrir anexos suspeitos é uma das medidas mais eficazes contra infecções.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que é um vírus de e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "Vírus transmitido como anexo ou link malicioso em mensagens de e-mail.", correto: true },
+            { conteudo: "Vírus que infecta exclusivamente navegadores de internet.", correto: false },
+            { conteudo: "Vírus que se propaga apenas em redes sociais.", correto: false },
+            { conteudo: "Vírus que bloqueia o envio de mensagens.", correto: false },
+            { conteudo: "Vírus que formata automaticamente a caixa de entrada.", correto: false }
+        ],
+        justificativa: "Vírus de e-mail são disseminados por anexos ou links fraudulentos enviados por mensagens.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual é o primeiro passo após identificar um arquivo suspeito?",
+        arrayDeRespostas: [
+            { conteudo: "Isolar o arquivo e executar uma varredura com antivírus.", correto: true },
+            { conteudo: "Apagar todos os arquivos do computador.", correto: false },
+            { conteudo: "Reiniciar o computador em modo normal.", correto: false },
+            { conteudo: "Compartilhar o arquivo com colegas.", correto: false },
+            { conteudo: "Ignorar o alerta e continuar o trabalho.", correto: false }
+        ],
+        justificativa: "Isolar o arquivo impede propagação enquanto a análise é feita.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual é a função da quarentena no antivírus?",
+        arrayDeRespostas: [
+            { conteudo: "Isolar arquivos suspeitos sem removê-los imediatamente.", correto: true },
+            { conteudo: "Apagar permanentemente todos os arquivos infectados.", correto: false },
+            { conteudo: "Reinstalar o sistema operacional automaticamente.", correto: false },
+            { conteudo: "Permitir a execução de arquivos infectados.", correto: false },
+            { conteudo: "Mover arquivos para a nuvem.", correto: false }
+        ],
+        justificativa: "A quarentena impede o acesso do sistema aos arquivos suspeitos até verificação.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual é a principal característica de um vírus não residente?",
+        arrayDeRespostas: [
+            { conteudo: "Executa-se e infecta arquivos, mas não permanece na memória.", correto: true },
+            { conteudo: "Permanece ativo o tempo todo na memória RAM.", correto: false },
+            { conteudo: "Atua apenas em modo de segurança.", correto: false },
+            { conteudo: "Afeta apenas sistemas baseados em Linux.", correto: false },
+            { conteudo: "Requer acesso remoto constante.", correto: false }
+        ],
+        justificativa: "Vírus não residentes infectam arquivos e encerram sua execução após a ação.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que caracteriza um vírus de rede?",
+        arrayDeRespostas: [
+            { conteudo: "Propaga-se explorando vulnerabilidades em protocolos de rede.", correto: true },
+            { conteudo: "Necessita de mídia removível para se espalhar.", correto: false },
+            { conteudo: "Afeta apenas sistemas operacionais móveis.", correto: false },
+            { conteudo: "Executa-se apenas localmente.", correto: false },
+            { conteudo: "Atua exclusivamente em navegadores.", correto: false }
+        ],
+        justificativa: "Vírus de rede exploram falhas de segurança em comunicações para se propagar.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que significa o termo 'payload' em um vírus?",
+        arrayDeRespostas: [
+            { conteudo: "A parte do código responsável pelo dano ou ação maliciosa.", correto: true },
+            { conteudo: "O arquivo infectado pelo vírus.", correto: false },
+            { conteudo: "O antivírus usado para removê-lo.", correto: false },
+            { conteudo: "O log gerado durante a infecção.", correto: false },
+            { conteudo: "A atualização automática do antivírus.", correto: false }
+        ],
+        justificativa: "O payload é a carga útil — a parte que executa as ações maliciosas do vírus.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que é um vírus de tempo (time bomb)?",
+        arrayDeRespostas: [
+            { conteudo: "Ativa-se em uma data ou condição específica.", correto: true },
+            { conteudo: "Ataca apenas quando o computador está offline.", correto: false },
+            { conteudo: "Atua apenas em sistemas de 32 bits.", correto: false },
+            { conteudo: "Executa ações benéficas no sistema.", correto: false },
+            { conteudo: "Reinicia automaticamente o antivírus.", correto: false }
+        ],
+        justificativa: "Vírus de tempo são programados para ativar seu payload em momento específico.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que é um vírus hoax?",
+        arrayDeRespostas: [
+            { conteudo: "Uma mensagem falsa sobre a existência de um vírus inexistente.", correto: true },
+            { conteudo: "Um vírus que infecta exclusivamente navegadores.", correto: false },
+            { conteudo: "Um vírus que corrompe o antivírus.", correto: false },
+            { conteudo: "Um vírus que modifica o sistema operacional.", correto: false },
+            { conteudo: "Um vírus que substitui senhas de administrador.", correto: false }
+        ],
+        justificativa: "Hoaxes são boatos sobre vírus, usados para causar pânico ou enganar usuários.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "O que é um vírus metamórfico?",
+        arrayDeRespostas: [
+            { conteudo: "Reescreve completamente seu código a cada infecção, mantendo a mesma funcionalidade.", correto: true },
+            { conteudo: "Muda apenas o nome do arquivo infectado.", correto: false },
+            { conteudo: "Copia arquivos de sistema legítimos.", correto: false },
+            { conteudo: "Funciona apenas com acesso à internet.", correto: false },
+            { conteudo: "Cria cópias idênticas de si mesmo.", correto: false }
+        ],
+        justificativa: "Vírus metamórficos alteram totalmente seu código, tornando-se difíceis de detectar.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "A nomenclatura de um vírus geralmente indica:",
+        arrayDeRespostas: [
+            { conteudo: "O sistema afetado, a família e o tipo do vírus.", correto: true },
+            { conteudo: "A cor da interface do antivírus que o detectou.", correto: false },
+            { conteudo: "O nome do usuário infectado.", correto: false },
+            { conteudo: "O tamanho do arquivo original.", correto: false },
+            { conteudo: "O fabricante do antivírus.", correto: false }
+        ],
+        justificativa: "A nomenclatura segue padrões como 'Win32/Sality.A', indicando sistema e família do vírus.",
+        categoriaDaPergunta: "tecnico-de-informatica-virus"
+    },
+    {
+        enunciado: "Qual o principal objetivo de uma cópia de segurança (backup)?",
+        arrayDeRespostas: [
+            { conteudo: "Proteger dados contra perda acidental ou falhas do sistema.", correto: true },
+            { conteudo: "Aumentar a velocidade do computador.", correto: false },
+            { conteudo: "Reduzir o tamanho dos arquivos.", correto: false },
+            { conteudo: "Evitar vírus no sistema operacional.", correto: false },
+            { conteudo: "Compartilhar arquivos na nuvem automaticamente.", correto: false }
+        ],
+        justificativa: "O backup tem como função preservar dados importantes e permitir recuperação em caso de perda.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual dos tipos de backup é realizado copiando todos os arquivos, independentemente de alterações?",
+        arrayDeRespostas: [
+            { conteudo: "Backup completo.", correto: true },
+            { conteudo: "Backup incremental.", correto: false },
+            { conteudo: "Backup diferencial.", correto: false },
+            { conteudo: "Backup remoto.", correto: false },
+            { conteudo: "Backup espelhado.", correto: false }
+        ],
+        justificativa: "O backup completo copia todos os arquivos selecionados, mesmo os que não foram modificados.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "O que caracteriza um backup incremental?",
+        arrayDeRespostas: [
+            { conteudo: "Copia apenas arquivos alterados desde o último backup, completo ou incremental.", correto: true },
+            { conteudo: "Copia todos os arquivos do sistema novamente.", correto: false },
+            { conteudo: "Apaga arquivos antigos e mantém apenas os novos.", correto: false },
+            { conteudo: "Copia apenas arquivos temporários.", correto: false },
+            { conteudo: "Faz backup apenas em mídias físicas.", correto: false }
+        ],
+        justificativa: "O backup incremental é eficiente em tempo e espaço, copiando apenas arquivos novos ou modificados.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "O backup diferencial copia:",
+        arrayDeRespostas: [
+            { conteudo: "Todos os arquivos modificados desde o último backup completo.", correto: true },
+            { conteudo: "Somente arquivos modificados no último dia.", correto: false },
+            { conteudo: "Todos os arquivos do sistema diariamente.", correto: false },
+            { conteudo: "Somente arquivos temporários.", correto: false },
+            { conteudo: "Arquivos de programas instalados apenas.", correto: false }
+        ],
+        justificativa: "O diferencial copia os arquivos alterados desde o último backup completo, facilitando restauração parcial.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual das alternativas representa uma boa prática para backup?",
+        arrayDeRespostas: [
+            { conteudo: "Manter cópias em locais distintos, físicos e na nuvem.", correto: true },
+            { conteudo: "Guardar apenas a última versão do arquivo.", correto: false },
+            { conteudo: "Fazer backup somente após a falha de hardware.", correto: false },
+            { conteudo: "Salvar arquivos temporários e ignorar documentos importantes.", correto: false },
+            { conteudo: "Compartilhar backups em redes públicas sem proteção.", correto: false }
+        ],
+        justificativa: "Manter cópias redundantes em diferentes locais aumenta a segurança dos dados.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a diferença entre backup local e remoto?",
+        arrayDeRespostas: [
+            { conteudo: "Local é feito em dispositivos próprios; remoto em servidores ou nuvem.", correto: true },
+            { conteudo: "Local é automático; remoto precisa de intervenção manual.", correto: false },
+            { conteudo: "Local é mais seguro que remoto sempre.", correto: false },
+            { conteudo: "Remoto não permite restauração parcial.", correto: false },
+            { conteudo: "Local só funciona em sistemas Linux.", correto: false }
+        ],
+        justificativa: "Backup local usa discos ou fitas físicas; remoto utiliza servidores externos ou nuvem.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "O que é um backup em nuvem?",
+        arrayDeRespostas: [
+            { conteudo: "Armazenamento de arquivos em servidores externos via internet.", correto: true },
+            { conteudo: "Cópia realizada apenas em pendrives.", correto: false },
+            { conteudo: "Backup que só funciona offline.", correto: false },
+            { conteudo: "Backup físico em DVDs.", correto: false },
+            { conteudo: "Backup que não permite restauração de arquivos.", correto: false }
+        ],
+        justificativa: "O backup em nuvem permite acesso e restauração de arquivos de qualquer local com internet.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "O que significa a estratégia 3-2-1 para backup?",
+        arrayDeRespostas: [
+            { conteudo: "3 cópias dos dados, 2 tipos de mídia, 1 fora do local.", correto: true },
+            { conteudo: "3 servidores, 2 backups diários, 1 usuário responsável.", correto: false },
+            { conteudo: "3 arquivos, 2 pastas, 1 mídia removível.", correto: false },
+            { conteudo: "3 tipos de antivírus, 2 cópias locais, 1 nuvem.", correto: false },
+            { conteudo: "3 backups completos por mês, 2 incrementais, 1 diferencial.", correto: false }
+        ],
+        justificativa: "A regra 3-2-1 garante redundância e segurança contra perdas locais e desastres.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a vantagem do backup incremental em relação ao completo?",
+        arrayDeRespostas: [
+            { conteudo: "Economiza tempo e espaço de armazenamento.", correto: true },
+            { conteudo: "Permite restaurar todo o sistema instantaneamente.", correto: false },
+            { conteudo: "Não exige softwares especializados.", correto: false },
+            { conteudo: "É realizado automaticamente sem configuração.", correto: false },
+            { conteudo: "Evita qualquer tipo de falha no hardware.", correto: false }
+        ],
+        justificativa: "Incremental copia apenas alterações, economizando recursos, mas depende do último backup completo.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "O que é um backup espelhado (mirror)?",
+        arrayDeRespostas: [
+            { conteudo: "Cópia exata e idêntica dos arquivos, refletindo alterações em tempo real.", correto: true },
+            { conteudo: "Cópia apenas dos arquivos novos ou alterados diariamente.", correto: false },
+            { conteudo: "Backup feito em mídias físicas apenas.", correto: false },
+            { conteudo: "Cópia que comprime arquivos antigos.", correto: false },
+            { conteudo: "Backup realizado apenas uma vez por mês.", correto: false }
+        ],
+        justificativa: "Backup espelhado mantém cópia idêntica, útil para restauração rápida.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a principal vantagem do backup automático?",
+        arrayDeRespostas: [
+            { conteudo: "Reduz a possibilidade de falha humana e garante periodicidade.", correto: true },
+            { conteudo: "Evita a necessidade de mídia física.", correto: false },
+            { conteudo: "Elimina a necessidade de antivírus.", correto: false },
+            { conteudo: "Garante recuperação instantânea de qualquer arquivo.", correto: false },
+            { conteudo: "Aumenta a velocidade do computador.", correto: false }
+        ],
+        justificativa: "Backup automático realiza cópias regulares sem depender do usuário.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual a função de uma política de backup?",
+        arrayDeRespostas: [
+            { conteudo: "Definir frequência, tipo e procedimentos de cópia de dados.", correto: true },
+            { conteudo: "Aumentar espaço disponível no HD.", correto: false },
+            { conteudo: "Impedir instalação de vírus.", correto: false },
+            { conteudo: "Automatizar a atualização de softwares.", correto: false },
+            { conteudo: "Substituir backups antigos por novos.", correto: false }
+        ],
+        justificativa: "Políticas de backup organizam e padronizam como os dados serão protegidos.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual tipo de backup é mais rápido para restauração completa?",
+        arrayDeRespostas: [
+            { conteudo: "Backup completo.", correto: true },
+            { conteudo: "Backup incremental.", correto: false },
+            { conteudo: "Backup diferencial.", correto: false },
+            { conteudo: "Backup em nuvem.", correto: false },
+            { conteudo: "Backup espelhado.", correto: false }
+        ],
+        justificativa: "Restauração rápida exige backup completo, pois não depende de arquivos anteriores.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a principal desvantagem do backup diferencial?",
+        arrayDeRespostas: [
+            { conteudo: "O tamanho aumenta diariamente, ocupando mais espaço que o incremental.", correto: true },
+            { conteudo: "Não permite restauração completa.", correto: false },
+            { conteudo: "Exige reinício do sistema.", correto: false },
+            { conteudo: "Não funciona em sistemas Windows.", correto: false },
+            { conteudo: "Só realiza cópias de arquivos temporários.", correto: false }
+        ],
+        justificativa: "O diferencial copia todas as alterações desde o último completo, crescendo com o tempo.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual a importância de testar backups regularmente?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir que os dados possam ser restaurados corretamente.", correto: true },
+            { conteudo: "Evitar a criação de backups.", correto: false },
+            { conteudo: "Reduzir o tamanho dos arquivos.", correto: false },
+            { conteudo: "Substituir antivírus por backup.", correto: false },
+            { conteudo: "Aumentar a velocidade da rede.", correto: false }
+        ],
+        justificativa: "Testes regulares verificam a integridade e funcionalidade das cópias de segurança.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a diferença entre backup online e offline?",
+        arrayDeRespostas: [
+            { conteudo: "Online é feito via internet; offline é feito em mídias físicas locais.", correto: true },
+            { conteudo: "Offline é automático; online é manual.", correto: false },
+            { conteudo: "Offline só copia arquivos temporários.", correto: false },
+            { conteudo: "Online não permite restauração.", correto: false },
+            { conteudo: "Offline usa apenas armazenamento em nuvem.", correto: false }
+        ],
+        justificativa: "Backups online usam servidores ou nuvem; offline envolve mídias físicas sem conexão com a internet.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a vantagem de armazenar backups em mídias diferentes?",
+        arrayDeRespostas: [
+            { conteudo: "Reduz risco de perda por falha de um único tipo de mídia.", correto: true },
+            { conteudo: "Garante recuperação imediata sem software.", correto: false },
+            { conteudo: "Aumenta automaticamente a velocidade do backup.", correto: false },
+            { conteudo: "Evita necessidade de políticas de backup.", correto: false },
+            { conteudo: "Substitui antivírus na proteção de dados.", correto: false }
+        ],
+        justificativa: "Usar mídias diversas, como HD, SSD e nuvem, aumenta a segurança e resiliência dos backups.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a função do versionamento em backups?",
+        arrayDeRespostas: [
+            { conteudo: "Permitir recuperar diferentes versões de um mesmo arquivo.", correto: true },
+            { conteudo: "Reduzir o tamanho do arquivo original.", correto: false },
+            { conteudo: "Criptografar dados automaticamente.", correto: false },
+            { conteudo: "Eliminar arquivos duplicados do sistema.", correto: false },
+            { conteudo: "Evitar reinício do computador durante backup.", correto: false }
+        ],
+        justificativa: "O versionamento mantém várias cópias de um arquivo em diferentes estados, facilitando a restauração seletiva.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a principal vantagem do backup automatizado em nuvem?",
+        arrayDeRespostas: [
+            { conteudo: "Realiza cópias regulares sem intervenção do usuário.", correto: true },
+            { conteudo: "Evita falhas de hardware no computador local.", correto: false },
+            { conteudo: "Aumenta o desempenho do sistema.", correto: false },
+            { conteudo: "Substitui backups completos por incrementais.", correto: false },
+            { conteudo: "Permite restauração sem internet.", correto: false }
+        ],
+        justificativa: "Automatização na nuvem garante cópias contínuas e protege dados mesmo em caso de falhas locais.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a importância de manter backups fora do local principal?",
+        arrayDeRespostas: [
+            { conteudo: "Protege dados contra desastres locais, como incêndio ou roubo.", correto: true },
+            { conteudo: "Evita necessidade de backup completo.", correto: false },
+            { conteudo: "Garante restauração mais rápida no mesmo equipamento.", correto: false },
+            { conteudo: "Substitui antivírus na proteção de arquivos.", correto: false },
+            { conteudo: "Permite restaurar apenas arquivos temporários.", correto: false }
+        ],
+        justificativa: "Backups fora do local principal aumentam a segurança em casos de desastres físicos.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "O que é um backup diferencial cumulativo?",
+        arrayDeRespostas: [
+            { conteudo: "Copia todos os arquivos alterados desde o último backup completo.", correto: true },
+            { conteudo: "Copia apenas arquivos modificados no dia atual.", correto: false },
+            { conteudo: "Copia arquivos aleatoriamente para testar restauração.", correto: false },
+            { conteudo: "Apaga arquivos antigos e mantém apenas novos.", correto: false },
+            { conteudo: "Funciona apenas em sistemas Linux.", correto: false }
+        ],
+        justificativa: "Backup diferencial cumulativo acumula alterações desde o último backup completo, facilitando a restauração.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a principal desvantagem do backup espelhado?",
+        arrayDeRespostas: [
+            { conteudo: "Não mantém histórico de versões anteriores.", correto: true },
+            { conteudo: "Leva muito tempo para ser realizado.", correto: false },
+            { conteudo: "Só funciona em nuvem.", correto: false },
+            { conteudo: "Requer reinício do computador.", correto: false },
+            { conteudo: "Não permite restauração de arquivos.", correto: false }
+        ],
+        justificativa: "Backups espelhados refletem os dados atuais, não permitindo recuperar versões antigas.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é o risco de não realizar backups regularmente?",
+        arrayDeRespostas: [
+            { conteudo: "Perda irreversível de dados em caso de falha ou ataque.", correto: true },
+            { conteudo: "Redução do espaço em disco.", correto: false },
+            { conteudo: "Diminuição da velocidade do sistema.", correto: false },
+            { conteudo: "Aumento do consumo de energia.", correto: false },
+            { conteudo: "Evita a propagação de vírus.", correto: false }
+        ],
+        justificativa: "Sem backup, falhas de hardware, exclusão acidental ou ataques podem resultar em perda permanente de dados.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a vantagem de realizar backup criptografado?",
+        arrayDeRespostas: [
+            { conteudo: "Protege os dados contra acesso não autorizado.", correto: true },
+            { conteudo: "Reduz o tamanho dos arquivos de backup.", correto: false },
+            { conteudo: "Permite restauração mais rápida.", correto: false },
+            { conteudo: "Substitui backup incremental.", correto: false },
+            { conteudo: "Evita falhas de hardware.", correto: false }
+        ],
+        justificativa: "Criptografia garante que mesmo se o backup for roubado, os dados não poderão ser acessados sem chave.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a função de um backup rotativo?",
+        arrayDeRespostas: [
+            { conteudo: "Alternar entre múltiplas mídias para preservar histórico e espaço.", correto: true },
+            { conteudo: "Fazer cópia apenas do disco principal.", correto: false },
+            { conteudo: "Apagar backups antigos automaticamente sem critério.", correto: false },
+            { conteudo: "Executar backup apenas quando o sistema está desligado.", correto: false },
+            { conteudo: "Substituir backup completo por diferencial.", correto: false }
+        ],
+        justificativa: "Rotatividade permite manter várias cópias e economizar mídia, evitando sobrescrever dados importantes.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a vantagem de backups off-site em nuvem pública?",
+        arrayDeRespostas: [
+            { conteudo: "Proteção contra desastres físicos no local original.", correto: true },
+            { conteudo: "Não precisa de internet para restaurar dados.", correto: false },
+            { conteudo: "Permite restauração instantânea localmente.", correto: false },
+            { conteudo: "Reduz automaticamente tamanho de arquivos.", correto: false },
+            { conteudo: "Evita necessidade de antivírus.", correto: false }
+        ],
+        justificativa: "Backups em nuvem pública fora do local físico garantem resiliência contra desastres.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "O que é um backup de migração?",
+        arrayDeRespostas: [
+            { conteudo: "Backup utilizado para transferir dados de um sistema ou hardware para outro.", correto: true },
+            { conteudo: "Backup automático em nuvem pública.", correto: false },
+            { conteudo: "Backup incremental diário.", correto: false },
+            { conteudo: "Backup de arquivos temporários apenas.", correto: false },
+            { conteudo: "Backup que remove arquivos antigos após cópia.", correto: false }
+        ],
+        justificativa: "Backup de migração facilita a mudança de equipamentos ou sistemas sem perder dados.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a diferença entre backup completo e backup diferencial cumulativo?",
+        arrayDeRespostas: [
+            { conteudo: "O completo copia todos os arquivos; o diferencial copia alterações desde o último completo.", correto: true },
+            { conteudo: "O diferencial copia todos os arquivos do sistema.", correto: false },
+            { conteudo: "O completo é incremental por natureza.", correto: false },
+            { conteudo: "O diferencial elimina arquivos antigos automaticamente.", correto: false },
+            { conteudo: "Não há diferença entre eles.", correto: false }
+        ],
+        justificativa: "Backup completo sempre copia tudo; diferencial cumulativo copia apenas alterações desde o último completo.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a vantagem de manter backups históricos?",
+        arrayDeRespostas: [
+            { conteudo: "Permite restaurar arquivos em diferentes estados ao longo do tempo.", correto: true },
+            { conteudo: "Evita necessidade de backup completo.", correto: false },
+            { conteudo: "Reduz o tamanho do backup atual.", correto: false },
+            { conteudo: "Aumenta a velocidade do computador.", correto: false },
+            { conteudo: "Substitui backup incremental.", correto: false }
+        ],
+        justificativa: "Manter históricos garante restauração de versões antigas e recuperação de dados modificados ou corrompidos.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a principal vantagem de utilizar software especializado de backup?",
+        arrayDeRespostas: [
+            { conteudo: "Automatiza, organiza e garante integridade das cópias de segurança.", correto: true },
+            { conteudo: "Evita falhas de hardware permanentemente.", correto: false },
+            { conteudo: "Aumenta espaço livre no disco original.", correto: false },
+            { conteudo: "Substitui a necessidade de antivírus.", correto: false },
+            { conteudo: "Restaura arquivos sem nenhuma configuração.", correto: false }
+        ],
+        justificativa: "Softwares especializados facilitam backup regular, seguro e eficiente, com opções avançadas de restauração.",
+        categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
     }
 ]
 

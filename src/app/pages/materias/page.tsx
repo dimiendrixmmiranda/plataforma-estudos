@@ -13,6 +13,7 @@ import portugues from "@/constants/portugues"
 import { assistenteAdministrativo } from "@/constants/assistenteAdministrativo"
 import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora"
 import AncoraLink from "@/components/base/AncoraLink"
+import { tecnicoDeInformatica } from "@/constants/tecnicoDeInformatica"
 
 export default function PaginaMaterias() {
     const { usuario } = useAuth()
@@ -614,6 +615,110 @@ export default function PaginaMaterias() {
                                             nome: `${informatica["seguranca-da-informacao"].titulo}`,
                                             slug: `/pages/materias/informatica/${informatica["seguranca-da-informacao"].id}`,
                                             id: `ibge-${informatica["seguranca-da-informacao"].id}`
+                                        },
+                                    ]}
+                                    materiaConcluida={toggleMateriaCompleta}
+                                    materiasCompletas={materiasCompletas}
+                                />
+                            </AccordionTab>
+                            <AccordionTab header="Técnico de Informática">
+                                <MateriaCategoriaConcurso
+                                    materia="Português"
+                                    visible={visibleMateria === "portugues"}
+                                    onToggle={() => toggleMateria("portugues")}
+                                    submaterias={[
+                                        {
+                                            nome: `${portugues["analise-e-interpretacao-de-texto"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["analise-e-interpretacao-de-texto"].id}`,
+                                            id: `agente-comunitario-${portugues["analise-e-interpretacao-de-texto"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["figuras-de-linguagem"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["figuras-de-linguagem"].id}`,
+                                            id: `agente-comunitario-${portugues["figuras-de-linguagem"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["sintaxe"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["sintaxe"].id}`,
+                                            id: `agente-comunitario-${portugues["sintaxe"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["morfologia"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["morfologia"].id}`,
+                                            id: `agente-comunitario-${portugues["morfologia"].id}`
+                                        },
+                                        {
+                                            nome: `${portugues["pontuacao"].titulo}`,
+                                            slug: `/pages/materias/portugues/${portugues["pontuacao"].id}`,
+                                            id: `agente-comunitario-${portugues["pontuacao"].id}`
+                                        },
+                                    ]}
+                                    materiaConcluida={toggleMateriaCompleta}
+                                    materiasCompletas={materiasCompletas}
+                                />
+                                <MateriaCategoriaConcurso
+                                    materia="Informática"
+                                    visible={visibleMateria === "informatica"}
+                                    onToggle={() => toggleMateria("informatica")}
+                                    submaterias={[
+                                        {
+                                            nome: `${informatica["ambiente-microsoft-office"].titulo}`,
+                                            slug: `/pages/materias/informatica/${informatica["ambiente-microsoft-office"].id}`,
+                                            id: `agente-comunitario-${informatica["ambiente-microsoft-office"].id}`
+                                        },
+                                        {
+                                            nome: `${informatica["edicao-de-textos-planilhas-e-apresentacoes"].titulo}`,
+                                            slug: `/pages/materias/informatica/${informatica["edicao-de-textos-planilhas-e-apresentacoes"].id}`,
+                                            id: `agente-comunitario-${informatica["edicao-de-textos-planilhas-e-apresentacoes"].id}`
+                                        },
+                                        {
+                                            nome: `${informatica["sistema-operacional-windows"].titulo}`,
+                                            slug: `/pages/materias/informatica/${informatica["sistema-operacional-windows"].id}`,
+                                            id: `agente-comunitario-${informatica["sistema-operacional-windows"].id}`
+                                        },
+                                        {
+                                            nome: `${informatica["internet-e-intranet"].titulo}`,
+                                            slug: `/pages/materias/informatica/${informatica["internet-e-intranet"].id}`,
+                                            id: `agente-comunitario-${informatica["internet-e-intranet"].id}`
+                                        },
+                                        {
+                                            nome: `${informatica["tecnologias-e-ferramentas-aplicativas"].titulo}`,
+                                            slug: `/pages/materias/informatica/${informatica["tecnologias-e-ferramentas-aplicativas"].id}`,
+                                            id: `agente-comunitario-${informatica["tecnologias-e-ferramentas-aplicativas"].id}`
+                                        },
+                                        {
+                                            nome: `${informatica["organizacao-e-gerenciamento-de-informacoes"].titulo}`,
+                                            slug: `/pages/materias/informatica/${informatica["organizacao-e-gerenciamento-de-informacoes"].id}`,
+                                            id: `agente-comunitario-${informatica["organizacao-e-gerenciamento-de-informacoes"].id}`
+                                        },
+                                        {
+                                            nome: `${informatica["certificacao-e-assinatura-digital"].titulo}`,
+                                            slug: `/pages/materias/informatica/${informatica["certificacao-e-assinatura-digital"].id}`,
+                                            id: `agente-comunitario-${informatica["certificacao-e-assinatura-digital"].id}`
+                                        },
+                                        {
+                                            nome: `${informatica["seguranca-da-informacao"].titulo}`,
+                                            slug: `/pages/materias/informatica/${informatica["seguranca-da-informacao"].id}`,
+                                            id: `agente-comunitario-${informatica["seguranca-da-informacao"].id}`
+                                        },
+                                    ]}
+                                    materiaConcluida={toggleMateriaCompleta}
+                                    materiasCompletas={materiasCompletas}
+                                />
+                                <MateriaCategoriaConcurso
+                                    materia="Conhecimento Especifico"
+                                    visible={visibleMateria === "especifico"}
+                                    onToggle={() => toggleMateria("especifico")}
+                                    submaterias={[
+                                        {
+                                            nome: `${tecnicoDeInformatica.virus.titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/tecnicoDeInformatica/${tecnicoDeInformatica.virus.id}`,
+                                            id: `tecnico-de-informatica-${tecnicoDeInformatica.virus.id}`
+                                        },
+                                        {
+                                            nome: `${tecnicoDeInformatica["copia-de-seguranca-backup"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/tecnicoDeInformatica/${tecnicoDeInformatica["copia-de-seguranca-backup"].id}`,
+                                            id: `tecnico-de-informatica-${tecnicoDeInformatica["copia-de-seguranca-backup"].id}`
                                         },
                                     ]}
                                     materiaConcluida={toggleMateriaCompleta}

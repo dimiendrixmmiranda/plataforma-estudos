@@ -8,7 +8,7 @@ interface ImagemProps {
 
 export default function Imagem({ enderecoDaImagem }: ImagemProps) {
     return (
-        <div className="mx-auto w-[250px] sm:w-[500px] md:w-[700px]">
+        <div className="mx-auto flex justify-center items-center w-[250px] sm:w-[500px] md:w-[700px]">
             <Image
                 src={enderecoDaImagem}
                 alt="Resumo"

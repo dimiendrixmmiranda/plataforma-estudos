@@ -14,6 +14,7 @@ import { assistenteAdministrativo } from "@/constants/assistenteAdministrativo"
 import { estatutoDosServidoresDeJoaquimTavora } from "@/constants/estatutoDosServidoresJoaquimTavora"
 import AncoraLink from "@/components/base/AncoraLink"
 import { tecnicoDeInformatica } from "@/constants/tecnicoDeInformatica"
+import Image from "next/image"
 
 export default function PaginaMaterias() {
     const { usuario } = useAuth()
@@ -720,6 +721,11 @@ export default function PaginaMaterias() {
                                             slug: `/pages/materias/conhecimentoEspecifico/tecnicoDeInformatica/${tecnicoDeInformatica["copia-de-seguranca-backup"].id}`,
                                             id: `tecnico-de-informatica-${tecnicoDeInformatica["copia-de-seguranca-backup"].id}`
                                         },
+                                        {
+                                            nome: `${tecnicoDeInformatica["correio-eletronico"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/tecnicoDeInformatica/${tecnicoDeInformatica["correio-eletronico"].id}`,
+                                            id: `tecnico-de-informatica-${tecnicoDeInformatica["correio-eletronico"].id}`
+                                        },
                                     ]}
                                     materiaConcluida={toggleMateriaCompleta}
                                     materiasCompletas={materiasCompletas}
@@ -731,9 +737,25 @@ export default function PaginaMaterias() {
                             <AncoraLink link="/pages/usuario" texto="Área Usuário" />
                         </div>
                     </div>
-                    <div>
+                    <div className="flex flex-col gap-2">
                         <h3 className="text-xl uppercase font-bold">Lista de Editais</h3>
-                        <span className="italic">Nenhum edital publicado ainda.</span>
+                        <div className="flex gap-1">
+                            <div className="relative w-14 h-14 md:w-10 md:h-10">
+                                <Image alt="img" src={'/pdfs/icone-pdf.png'} fill className="object-contain" />
+                            </div>
+                            <div className="flex flex-col justify-center">
+                                <h2 className="font-bold leading-5">Edital Concurso Público de Quatiguá</h2>
+                                <a
+                                    href="/pdfs/concurso-prefeitura-quatigua.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-blue-600 hover:underline text-sm leading-5"
+                                >
+                                    Ver PDF
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <MenuInferior linkHome={`${usuario ? '/pages/materias' : '/'}`} linkProximo="/pages/materias/portugues" linkVoltar="/pages/materias" />

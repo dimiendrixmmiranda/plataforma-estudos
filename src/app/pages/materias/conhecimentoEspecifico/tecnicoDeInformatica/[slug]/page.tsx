@@ -1,5 +1,6 @@
 'use client'
 import CopiaDeSegurancaBackup from '@/components/materias/tecnicoDeInformatica/CopiaDeSegurancaBackup'
+import CorreioEletronico from '@/components/materias/tecnicoDeInformatica/CorreioEletronico'
 import Virus from '@/components/materias/tecnicoDeInformatica/Virus'
 import Template from '@/components/template/Template'
 import { useParams } from 'next/navigation'
@@ -8,6 +9,7 @@ import { JSX } from 'react'
 const componentesPorSlug: Record<string, JSX.Element> = {
     ['tecnico-de-informatica-virus']: <Virus />,
     ['tecnico-de-informatica-copia-de-seguranca-backup']: <CopiaDeSegurancaBackup />,
+    ['tecnico-de-informatica-correio-eletronico']: <CorreioEletronico />,
 }
 
 export default function PaginaMateriaAssistenteAdministrativo() {

@@ -514,6 +514,238 @@ const tecnicoDeInformatica = {
             },
         ]
     },
+    ["correio-eletronico"]: {
+        titulo: 'Instalação, configuração e utilização de correio eletrônico.',
+        id: `tecnico-de-informatica-correio-eletronico`,
+        introducao: [
+            `O correio eletrônico, ou e-mail (do inglês electronic mail), é uma das ferramentas de comunicação digital mais utilizadas no mundo moderno. Ele permite o envio e recebimento de mensagens, arquivos e informações entre usuários conectados à internet, de forma rápida e eficiente. Desde sua criação na década de 1970, com Ray Tomlinson sendo o pioneiro no envio da primeira mensagem e no uso do símbolo “@” para separar usuário e domínio, o e-mail revolucionou a forma como pessoas e empresas se comunicam.`,
+            `Com o passar dos anos, o e-mail evoluiu significativamente, incorporando recursos como anexos, assinaturas automáticas, filtros, respostas automáticas e integração com serviços em nuvem. Ele se tornou essencial tanto para uso pessoal quanto profissional, servindo como meio oficial de comunicação em instituições, empresas e órgãos públicos. Além disso, os sistemas de correio eletrônico contam com protocolos e servidores específicos que garantem a entrega das mensagens de forma segura e organizada.`,
+            `Atualmente, o e-mail é mais do que um simples meio de troca de mensagens — é uma ferramenta estratégica para o gerenciamento da informação. Seu uso adequado exige conhecimento sobre instalação, configuração, protocolos (SMTP, POP3 e IMAP) e boas práticas de segurança, como o uso de criptografia e autenticação de dois fatores. Em um cenário onde a segurança digital é cada vez mais importante, dominar o funcionamento e a gestão do correio eletrônico é uma habilidade fundamental para técnicos de informática e profissionais da área de tecnologia.`
+        ],
+        submaterias: [
+            {
+                texto: 'Componentes de um Sistema de Correio Eletrônico ',
+                id: 'componentes-de-um-sistema-de-corrreio-eletronico',
+                introducao: 'Um sistema de correio eletrônico é composto por diversos componentes que trabalham em conjunto para garantir o envio, a entrega e o gerenciamento eficiente das mensagens. Entre os principais elementos estão o Agente de Usuário (MUA), que permite ao usuário criar, enviar e receber e-mails; o Agente de Transferência de Mensagens (MTA), responsável por encaminhar as mensagens entre servidores; o Agente de Entrega de Mensagens (MDA), que armazena os e-mails na caixa de entrada do destinatário; e o Servidor de Correio, que hospeda as contas de e-mail e gerencia o fluxo de mensagens utilizando protocolos como SMTP, POP3 e IMAP.',
+                explicacao: [
+                    `Um sistema de correio eletrônico é composto por diversos elementos que trabalham em conjunto para garantir o envio e recebimento de mensagens. Os principais componentes incluem:`
+                ],
+                tipos: {
+                    titulo: "",
+                    arrayDeTipos: [
+                        {
+                            titulo: 'Agente de Usuário (MUA - Mail User Agent)',
+                            explicacao: `É o programa ou aplicativo que o usuário final utiliza para compor, enviar, receber e gerenciar e-mails. Exemplos comuns são Microsoft Outlook, Mozilla Thunderbird e interfaces de webmail (Gmail, Outlook.com, Yahoo Mail).`,
+                            topicos: [],
+                            imagem: '',
+                            complemento: '',
+                        },
+                        {
+                            titulo: 'Agente de Transferência de Mensagens (MTA - Mail Transfer Agent)',
+                            explicacao: `Servidores responsáveis por transferir e-mails entre diferentes servidores de e-mail. Eles recebem mensagens do MUA do remetente e as encaminham para o MTA do destinatário. O protocolo SMTP é fundamental para a comunicação entre MTAs.`,
+                            topicos: [],
+                            imagem: '',
+                            complemento: '',
+                        },
+                        {
+                            titulo: 'Agente de Entrega de Mensagens (MDA - Mail Delivery Agent)',
+                            explicacao: `Recebe e-mails do MTA e os armazena na caixa de entrada do destinatário no servidor de e-mail. Em alguns casos, o MDA pode ser integrado ao MTA.`,
+                            topicos: [],
+                            imagem: '',
+                            complemento: '',
+                        },
+                        {
+                            titulo: 'Servidor de Correio (Mail Server)',
+                            explicacao: `É o computador que hospeda as caixas de correio dos usuários e gerencia o fluxo de e-mails. Ele utiliza os protocolos SMTP, POP3 e IMAP para enviar e receber mensagens.`,
+                            topicos: [],
+                            imagem: '',
+                            complemento: '',
+                        },
+                    ],
+                    imagem: ''
+                },
+            },
+            {
+                texto: 'Protocolos de Correio Eletrônico',
+                id: 'protocolos-de-correio-eletronico',
+                introducao: 'Os protocolos de correio eletrônico são conjuntos de regras que determinam como as mensagens são enviadas, recebidas e armazenadas em um sistema de e-mail. Entre os mais utilizados estão o SMTP, responsável pelo envio de mensagens; o POP3, que permite baixar e-mails para acesso local; e o IMAP, que mantém as mensagens no servidor e sincroniza seu estado entre múltiplos dispositivos. Esses protocolos são fundamentais para garantir a comunicação confiável, segura e organizada entre remetentes e destinatários.',
+                explicacao: [
+                    `Os protocolos são conjuntos de regras que governam a forma como os e-mails são enviados, recebidos e armazenados. Os três protocolos mais comuns são SMTP, POP3 e IMAP.`
+                ],
+                tipos: {
+                    titulo: "Tipos de Protocolo",
+                    arrayDeTipos: [
+                        {
+                            titulo: 'SMTP (Simple Mail Transfer Protocol) ',
+                            explicacao: `O SMTP é o protocolo responsável pelo envio de mensagens de e-mail. Ele atua na camada de aplicação e é um protocolo orientado à conexão, utilizando TCP para garantir a entrega confiável das mensagens [2, 3].`,
+                            topicos: [
+                                `Funcionamento:`,
+                                `1.Quando um remetente envia um e-mail, o cliente de e-mail (MUA) envia a mensagem para o servidor SMTP do remetente.`,
+                                `2.O servidor SMTP do remetente se conecta ao servidor SMTP do destinatário (após resolver o domínio do destinatário via DNS).`,
+                                `3.Os servidores trocam informações usando comandos SMTP (como HELO, MAIL FROM, RCPT TO, DATA) para transferir a mensagem.`,
+                                `4.O servidor SMTP do destinatário entrega a mensagem ao MDA, que a armazena na caixa de entrada do destinatário.`,
+                                `Portas Padrão:`,
+                                `25: Porta tradicional para envio de e-mails, mas frequentemente bloqueada por ISPs devido a riscos de segurança e spam. Pode usar TLS explícito (STARTTLS).`,
+                                `587: Porta recomendada para envio de e-mails por clientes de e-mail, utilizando criptografia STARTTLS para uma conexão segura [1, 4].`,
+                                `465: Utiliza uma conexão SSL/TLS implícita, sendo uma alternativa segura para envio.`,
+                            ],
+                            imagem: '',
+                            complemento: '',
+                        },
+                        {
+                            titulo: 'POP3 (Post Office Protocol version 3)',
+                            explicacao: `O POP3 é um protocolo utilizado para o recebimento de e-mails. Sua principal característica é baixar as mensagens do servidor para o dispositivo local do usuário e, por padrão, excluí-las do servidor [1, 2, 3].`,
+                            topicos: [
+                                `Funcionamento:`,
+                                `1.O cliente de e-mail se conecta ao servidor POP3. `,
+                                `2.Todas as mensagens da caixa de entrada são baixadas para o dispositivo local. `,
+                                `3.Por padrão, as mensagens são removidas do servidor após o download. Alguns clientes modernos permitem manter uma cópia no servidor. `,
+                                `Portas Padrão:`,
+                                `110: Porta padrão não criptografada. `,
+                                `995: Porta segura para POP3, utilizando SSL/TLS.`,
+                                `Vantagens: Acesso offline às mensagens e redução do espaço ocupado no servidor.`,
+                                `Desvantagens: Dificuldade em acessar e-mails de múltiplos dispositivos, pois as mensagens são armazenadas localmente. `,
+                            ],
+                            imagem: '',
+                            complemento: '',
+                        },
+                        {
+                            titulo: 'IMAP (Internet Message Access Protocol) ',
+                            explicacao: `O IMAP é outro protocolo para o recebimento de e-mails, mas com uma abordagem diferente do POP3. Ele permite que as mensagens permaneçam no servidor, sincronizando o estado das mensagens (lida, não lida, excluída) entre o servidor e todos os clientes de e-mail conectados [1, 2, 3].`,
+                            topicos: [
+                                `Funcionamento:`,
+                                `1.O cliente de e-mail se conecta ao servidor IMAP. `,
+                                `2.As mensagens permanecem no servidor, e o cliente acessa uma cópia sincronizada. `,
+                                `3.Alterações (leitura, exclusão, movimentação) são refletidas em todos os dispositivos conectados. `,
+                                `Portas Padrão:`,
+                                `143: Porta padrão não criptografada [1].`,
+                                `993: Porta segura para IMAP, utilizando SSL/TLS [1]. `,
+                                `Vantagens: Acesso a e-mails de múltiplos dispositivos, gerenciamento de pastas no servidor, pesquisa eficiente de mensagens [1].  `,
+                                `Desvantagens: Requer conexão constante com a internet para acesso completo e pode consumir mais espaço no servidor. `,
+                            ],
+                            imagem: '/materias/tecnico-de-informatica/img-5.png',
+                            complemento: '',
+                        },
+                    ],
+                    imagem: ''
+                },
+            },
+            {
+                texto: 'Configuração de Clientes de E-mail',
+                id: 'configuracao-de-clientes-de-email',
+                introducao: 'A configuração de clientes de e-mail envolve o ajuste das informações necessárias para que o usuário possa enviar e receber mensagens de forma eficiente e segura. Esse processo inclui a inserção de dados básicos, como nome, endereço de e-mail e senha, bem como detalhes dos servidores de entrada (POP3 ou IMAP) e saída (SMTP), portas de comunicação e métodos de criptografia (SSL/TLS ou STARTTLS). Além disso, é possível realizar configurações manuais para garantir compatibilidade com diferentes provedores, permitindo que o cliente de e-mail conecte-se corretamente aos servidores e sincronize as mensagens de acordo com as necessidades do usuário.',
+                explicacao: [
+                    `A configuração de um cliente de e-mail (como Outlook ou Thunderbird) envolve a inserção de informações sobre os servidores de e-mail e os protocolos a serem utilizados. O processo geral é o seguinte [4]: `
+                ],
+                tipos: {
+                    titulo: "",
+                    arrayDeTipos: [
+                        {
+                            titulo: '',
+                            explicacao: ``,
+                            topicos: [
+                                `1.Iniciar o Cliente de E-mail: Abrir o aplicativo (ex: Microsoft Outlook, Mozilla Thunderbird). `,
+                                `2.Adicionar Nova Conta: Geralmente, há uma opção como "Adicionar Conta" ou "Configurações de Conta". `,
+                                `3.Informações Básicas: Inserir nome completo, endereço de e-mail e senha. `,
+                                `4.Configuração Manual (se necessário): Escolher o tipo de conta (POP3 ou IMAP) e inserir os detalhes dos servidores : Servidor de Entrada (POP3 ou IMAP) (Tipo de Conta: POP3 ou IMAP, Servidor: pop.seudominio.com.br (para POP3) ou imap.seudominio.com.br (para IMAP), Porta: 995 (POP3 SSL/TLS) ou 993 (IMAP SSL/TLS) são as portas seguras recomendadas, Método de Criptografia: SSL/TLS, Nome de Usuário: Geralmente o endereço de e-mail completo) ou Servidor de Saída (SMTP) (Servidor: smtp.seudominio.com.br, Porta: 587 (com STARTTLS) ou 465 (com SSL/TLS) são as portas seguras recomendadas, Método de Criptografia: STARTTLS ou SSL/TLS, Autenticação: Geralmente requer autenticação com o mesmo nome de usuário e senha da conta de e-mail) `,
+                                `Testar e Finalizar: O cliente de e-mail tentará se conectar aos servidores para verificar as configurações. Após o sucesso, a conta estará pronta para uso. `,
+                            ],
+                            imagem: '',
+                            complemento: '',
+                        },
+                    ],
+                    imagem: ''
+                },
+            },
+            {
+                texto: 'Configuração Utilização e Boas Práticas de Webmail ',
+                id: 'configuracao-utilizacao-e-boas-praticas-de-webmail',
+                introducao: 'O webmail permite o acesso ao correio eletrônico diretamente pelo navegador, sem a necessidade de instalar um cliente de e-mail, sendo suficiente possuir apenas as credenciais de login. Sua configuração é simples, exigindo apenas o endereço de e-mail e a senha, com exemplos comuns como Gmail, Outlook.com e serviços fornecidos por provedores de hospedagem. Para uma utilização eficiente e segura, recomenda-se organizar as mensagens em pastas, utilizar filtros, configurar respostas automáticas em períodos de ausência, criar assinaturas profissionais e ter cuidado ao abrir anexos de remetentes desconhecidos.',
+                explicacao: [
+                    `O webmail oferece acesso ao e-mail diretamente pelo navegador web, sem a necessidade de instalar um cliente de e-mail. A configuração é simplificada, exigindo apenas um navegador e as credenciais de login (endereço de e-mail e senha). Exemplos incluem Gmail, Outlook.com e interfaces de webmail fornecidas por provedores de hospedagem.`,
+                    `Para uma utilização eficiente e segura do correio eletrônico, algumas boas práticas são essenciais:`
+                ],
+                tipos: {
+                    titulo: "",
+                    arrayDeTipos: [
+                        {
+                            titulo: '',
+                            explicacao: ``,
+                            topicos: [
+                                `Organização: Utilize pastas e filtros para categorizar e-mails e manter a caixa de entrada organizada. `,
+                                `Respostas Automáticas: Configure respostas automáticas para períodos de ausência. `,
+                                `Assinaturas: Crie assinaturas profissionais com suas informações de contato. `,
+                                `Anexos: Tenha cuidado ao abrir anexos de remetentes desconhecidos para evitar malwares. `,
+                            ],
+                            imagem: '',
+                            complemento: '',
+                        },
+                    ],
+                    imagem: ''
+                },
+            },
+            {
+                texto: 'Segurança do Correio Eletrônico',
+                id: 'seguranca-do-correio-eletronico',
+                introducao: 'A segurança do correio eletrônico é essencial para proteger informações sensíveis contra ameaças como phishing, spam, malware e spoofing. Para garantir a integridade e confidencialidade das mensagens, é recomendado utilizar senhas fortes e únicas, ativar a autenticação de dois fatores (2FA) e adotar criptografia nas conexões (SSL/TLS) dos protocolos de envio e recebimento. Além disso, é importante manter softwares antivírus e filtros antispam atualizados, educar os usuários sobre práticas seguras, realizar backups periódicos e configurar registros DNS como SPF, DKIM e DMARC para autenticar remetentes e reduzir riscos de fraude.',
+                explicacao: [
+                    `A segurança do e-mail é um aspecto crítico, dada a quantidade de informações sensíveis que podem ser trocadas. As principais ameaças incluem phishing, spam, malware e spoofing. Para mitigar esses riscos, as seguintes medidas são fundamentais:`
+                ],
+                tipos: {
+                    titulo: "",
+                    arrayDeTipos: [
+                        {
+                            titulo: '',
+                            explicacao: ``,
+                            topicos: [
+                                `Senhas Fortes e Únicas: Utilize senhas complexas e diferentes para cada conta de e-mail. `,
+                                `Autenticação de Dois Fatores (2FA): Ative a 2FA sempre que disponível para adicionar uma camada extra de segurança. `,
+                                `Criptografia: Garanta que as conexões (SMTP, POP3, IMAP) utilizem SSL/TLS para proteger os dados em trânsito [1]. `,
+                                `Antivírus e Antispam: Mantenha softwares de segurança atualizados e utilize filtros antispam eficazes. `,
+                                `Conscientização sobre Phishing: Eduque-se e eduque os usuários sobre como identificar e-mails de phishing e outras tentativas de fraude. `,
+                                `Backup Regular: Realize backups periódicos de e-mails importantes. `,
+                                `Registros DNS de E-mail: Configure registros SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail) e DMARC (Domain-based Message Authentication, Reporting, and Conformance) no DNS do domínio para autenticar remetentes e combater o spoofing e phishing [5]. `,
+                            ],
+                            imagem: '',
+                            complemento: '',
+                        },
+                    ],
+                    imagem: ''
+                },
+            },
+            {
+                texto: 'Solução de Problemas Comuns',
+                id: 'solucao-de-problemas-comuns',
+                introducao: 'A solução de problemas comuns em correio eletrônico envolve identificar e corrigir falhas que impedem o envio, recebimento ou organização das mensagens. Entre os problemas mais frequentes estão dificuldades para enviar e-mails, que podem ser resolvidas verificando as configurações do servidor SMTP, portas, autenticação e conectividade; falhas no recebimento, solucionadas ao checar os servidores POP3 ou IMAP, espaço em disco e regras de filtro; e mensagens que caem na caixa de spam, exigindo ajustes na reputação do servidor e configuração de registros SPF, DKIM e DMARC. Além disso, problemas gerais de conexão podem ser resolvidos ao revisar a conexão com a internet, reiniciar clientes ou dispositivos e consultar logs do servidor.',
+                explicacao: [
+                    `Como técnico de informática, é comum lidar com problemas relacionados ao correio eletrônico. Abaixo, alguns dos problemas mais frequentes e suas possíveis soluções: `
+                ],
+                tipos: {
+                    titulo: "",
+                    arrayDeTipos: [
+                        {
+                            titulo: '',
+                            explicacao: ``,
+                            topicos: [
+                                `Não consigo enviar e-mails (verificar as configurações do servidor SMTP (endereço, porta, autenticação, criptografia), Verificar se o firewall ou antivírus está bloqueando a conexão, testar a conectividade com o servidor SMTP (ex: telnet smtp.seudominio.com.br 587). `,
+                                `Não consigo receber e-mails (Verificar as configurações do servidor POP3/IMAP (endereço, porta, autenticação, criptografia), verificar o espaço em disco da caixa de entrada no servidor, Checar regras de filtro de e-mail que possam estar movendo ou excluindo mensagens, verificar se o servidor de e-mail está online)`,
+                                `E-mails indo para a caixa de spam do destinatário (verificar a reputação do IP do servidor de envio, garantir que os registros SPF, DKIM e DMARC estejam corretamente configurados no DNS do domínio, pedir ao destinatário para adicionar o remetente à lista de contatos seguros)`,
+                                `Problemas de conexão geral (verificar a conectividade com a internet, reiniciar o cliente de e-mail ou o computador. verificar logs do servidor de e-mail para mensagens de erro)`,
+                            ],
+                            imagem: '',
+                            complemento: '',
+                        },
+                    ],
+                    imagem: ''
+                },
+                video: {
+                    titulo: `Correio Eletronico`,
+                    linkDoCanal: 'https://www.youtube.com/@ProfessorDaniloVilanova',
+                    idVideo: '3Kr3GLDpYwY'
+                },
+            },
+        ]
+    },
 }
 
 export {

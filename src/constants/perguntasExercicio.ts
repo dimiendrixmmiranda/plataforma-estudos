@@ -10590,6 +10590,365 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
         ],
         justificativa: "Softwares especializados facilitam backup regular, seguro e eficiente, com opções avançadas de restauração.",
         categoriaDaPergunta: "tecnico-de-informatica-copia-de-seguranca-backup"
+    },
+    {
+        enunciado: "Qual é a função principal de um cliente de e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "Permitir o envio, leitura e gerenciamento de mensagens eletrônicas.", correto: true },
+            { conteudo: "Servir apenas para navegação na internet.", correto: false },
+            { conteudo: "Atuar como antivírus e firewall.", correto: false },
+            { conteudo: "Executar scripts de automação de rede.", correto: false },
+            { conteudo: "Gerar relatórios financeiros automáticos.", correto: false }
+        ],
+        justificativa: "Clientes de e-mail, como Outlook ou Thunderbird, gerenciam o envio e recebimento de mensagens eletrônicas.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que significa IMAP na configuração de e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "Internet Message Access Protocol.", correto: true },
+            { conteudo: "Internal Mail Access Program.", correto: false },
+            { conteudo: "Internet Mail Authentication Process.", correto: false },
+            { conteudo: "Integrated Messaging Application Protocol.", correto: false },
+            { conteudo: "Instant Mail Access Provider.", correto: false }
+        ],
+        justificativa: "IMAP permite o acesso remoto às mensagens armazenadas no servidor de e-mail.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual protocolo é responsável pelo envio de mensagens de e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "SMTP.", correto: true },
+            { conteudo: "IMAP.", correto: false },
+            { conteudo: "POP3.", correto: false },
+            { conteudo: "FTP.", correto: false },
+            { conteudo: "HTTP.", correto: false }
+        ],
+        justificativa: "O protocolo SMTP (Simple Mail Transfer Protocol) é responsável pelo envio de mensagens.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que significa POP3?",
+        arrayDeRespostas: [
+            { conteudo: "Post Office Protocol version 3.", correto: true },
+            { conteudo: "Private Office Program.", correto: false },
+            { conteudo: "Public Online Protocol.", correto: false },
+            { conteudo: "Personal Operation Port.", correto: false },
+            { conteudo: "Packet Output Program.", correto: false }
+        ],
+        justificativa: "O POP3 permite baixar mensagens do servidor para o computador do usuário.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual a principal diferença entre IMAP e POP3?",
+        arrayDeRespostas: [
+            { conteudo: "IMAP mantém mensagens no servidor; POP3 as baixa para o computador.", correto: true },
+            { conteudo: "POP3 é mais seguro que IMAP.", correto: false },
+            { conteudo: "IMAP apaga as mensagens automaticamente.", correto: false },
+            { conteudo: "POP3 permite múltiplos acessos simultâneos.", correto: false },
+            { conteudo: "IMAP não necessita autenticação.", correto: false }
+        ],
+        justificativa: "IMAP mantém sincronização com o servidor; POP3 transfere e remove mensagens.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual protocolo utiliza a porta padrão 25?",
+        arrayDeRespostas: [
+            { conteudo: "SMTP.", correto: true },
+            { conteudo: "POP3.", correto: false },
+            { conteudo: "IMAP.", correto: false },
+            { conteudo: "HTTPS.", correto: false },
+            { conteudo: "DNS.", correto: false }
+        ],
+        justificativa: "A porta 25 é usada tradicionalmente para envio de mensagens via SMTP.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual a função do campo Cc em um e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "Enviar cópia da mensagem para outros destinatários.", correto: true },
+            { conteudo: "Enviar mensagem oculta a todos.", correto: false },
+            { conteudo: "Criptografar o conteúdo da mensagem.", correto: false },
+            { conteudo: "Apagar automaticamente mensagens antigas.", correto: false },
+            { conteudo: "Encaminhar e-mails automaticamente.", correto: false }
+        ],
+        justificativa: "O campo Cc (Com Cópia) envia cópia visível da mensagem a outros destinatários.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que significa o campo Cco em mensagens de e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "Com Cópia Oculta – envia cópia sem que os demais vejam o destinatário oculto.", correto: true },
+            { conteudo: "Cópia Compartilhada Online.", correto: false },
+            { conteudo: "Cliente de Comunicação Online.", correto: false },
+            { conteudo: "Cópia Centralizada de Operações.", correto: false },
+            { conteudo: "Canal de Comunicação Opcional.", correto: false }
+        ],
+        justificativa: "Cco mantém a privacidade dos destinatários ocultos na mensagem.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que é necessário para configurar uma conta de e-mail em um cliente como o Outlook?",
+        arrayDeRespostas: [
+            { conteudo: "Endereço de e-mail, senha, servidor SMTP e servidor IMAP/POP3.", correto: true },
+            { conteudo: "Somente o endereço de e-mail.", correto: false },
+            { conteudo: "Apenas a senha do servidor.", correto: false },
+            { conteudo: "O número IP do provedor de internet.", correto: false },
+            { conteudo: "Uma conta de rede local.", correto: false }
+        ],
+        justificativa: "Essas informações permitem autenticação e conexão com os servidores de tecnico-de-informatica-correio-eletronico.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual é a vantagem de usar IMAP em dispositivos móveis?",
+        arrayDeRespostas: [
+            { conteudo: "Permite sincronizar mensagens entre diferentes dispositivos.", correto: true },
+            { conteudo: "Apaga automaticamente mensagens antigas.", correto: false },
+            { conteudo: "Evita uso de senha para login.", correto: false },
+            { conteudo: "Funciona apenas offline.", correto: false },
+            { conteudo: "Impede envio de anexos.", correto: false }
+        ],
+        justificativa: "IMAP sincroniza pastas e mensagens, mantendo o mesmo conteúdo em todos os dispositivos.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual a finalidade do servidor SMTP autenticado (porta 587)?",
+        arrayDeRespostas: [
+            { conteudo: "Permitir envio seguro de e-mails com autenticação do usuário.", correto: true },
+            { conteudo: "Receber mensagens POP3.", correto: false },
+            { conteudo: "Gerenciar spam automaticamente.", correto: false },
+            { conteudo: "Armazenar e-mails enviados localmente.", correto: false },
+            { conteudo: "Fazer backup de mensagens antigas.", correto: false }
+        ],
+        justificativa: "O SMTP autenticado usa a porta 587 e requer login, aumentando a segurança no envio.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual campo de um e-mail contém o assunto da mensagem?",
+        arrayDeRespostas: [
+            { conteudo: "Subject.", correto: true },
+            { conteudo: "To.", correto: false },
+            { conteudo: "From.", correto: false },
+            { conteudo: "Body.", correto: false },
+            { conteudo: "Header.", correto: false }
+        ],
+        justificativa: "O campo 'Subject' identifica o tema ou título da mensagem enviada.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual extensão é mais associada a anexos perigosos em e-mails?",
+        arrayDeRespostas: [
+            { conteudo: ".exe.", correto: true },
+            { conteudo: ".pdf.", correto: false },
+            { conteudo: ".txt.", correto: false },
+            { conteudo: ".jpg.", correto: false },
+            { conteudo: ".docx.", correto: false }
+        ],
+        justificativa: "Arquivos executáveis (.exe) podem conter scripts ou vírus embutidos.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que é phishing?",
+        arrayDeRespostas: [
+            { conteudo: "Golpe que utiliza e-mails falsos para roubar informações pessoais.", correto: true },
+            { conteudo: "Protocolo de autenticação de e-mail.", correto: false },
+            { conteudo: "Backup automático de mensagens.", correto: false },
+            { conteudo: "Sistema de verificação de anexos.", correto: false },
+            { conteudo: "Serviço de bloqueio de spam.", correto: false }
+        ],
+        justificativa: "Phishing é um golpe comum via e-mail que tenta enganar usuários para obter dados sigilosos.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que significa o termo 'spam'?",
+        arrayDeRespostas: [
+            { conteudo: "Mensagens eletrônicas não solicitadas, geralmente em massa.", correto: true },
+            { conteudo: "Mensagens criptografadas por antivírus.", correto: false },
+            { conteudo: "tecnico-de-informatica-correio-eletronico legítimo.", correto: false },
+            { conteudo: "Sistema de login seguro.", correto: false },
+            { conteudo: "Aplicativo de envio de e-mails em grupo.", correto: false }
+        ],
+        justificativa: "Spam são mensagens indesejadas, geralmente com fins publicitários ou fraudulentos.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual ferramenta pode ser usada para bloquear spam em clientes de e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "Filtros de mensagens.", correto: true },
+            { conteudo: "Gerenciador de downloads.", correto: false },
+            { conteudo: "Firewall do sistema.", correto: false },
+            { conteudo: "Editor de texto.", correto: false },
+            { conteudo: "Gerador de senhas.", correto: false }
+        ],
+        justificativa: "Filtros de spam analisam remetente e conteúdo para bloquear mensagens suspeitas.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que é necessário para enviar anexos em e-mails?",
+        arrayDeRespostas: [
+            { conteudo: "Anexar o arquivo antes do envio, respeitando o limite de tamanho do servidor.", correto: true },
+            { conteudo: "Converter o arquivo em texto.", correto: false },
+            { conteudo: "Desativar o antivírus.", correto: false },
+            { conteudo: "Usar apenas formato .txt.", correto: false },
+            { conteudo: "Executar o arquivo durante o envio.", correto: false }
+        ],
+        justificativa: "Os anexos são adicionados à mensagem, e seu tamanho é limitado pelo provedor.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que é um servidor de tecnico-de-informatica-correio-eletronico?",
+        arrayDeRespostas: [
+            { conteudo: "Computador que armazena e gerencia mensagens enviadas e recebidas.", correto: true },
+            { conteudo: "Aplicativo usado apenas para navegar na web.", correto: false },
+            { conteudo: "Programa de edição de documentos.", correto: false },
+            { conteudo: "Sistema operacional de e-mail local.", correto: false },
+            { conteudo: "Antivírus para e-mails.", correto: false }
+        ],
+        justificativa: "Servidores de e-mail administram o fluxo de mensagens entre remetentes e destinatários.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que é uma assinatura de e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "Informações adicionadas automaticamente ao final das mensagens.", correto: true },
+            { conteudo: "Senha para abrir a conta de e-mail.", correto: false },
+            { conteudo: "Certificado digital de autenticação.", correto: false },
+            { conteudo: "Mensagem automática de erro.", correto: false },
+            { conteudo: "Assinatura de serviço pago de e-mail.", correto: false }
+        ],
+        justificativa: "Assinaturas padronizam comunicações, incluindo nome, cargo e contatos.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual é a vantagem de usar um e-mail corporativo com domínio próprio?",
+        arrayDeRespostas: [
+            { conteudo: "Maior credibilidade e controle administrativo sobre contas.", correto: true },
+            { conteudo: "Permite enviar mensagens anônimas.", correto: false },
+            { conteudo: "Dispensa o uso de senhas.", correto: false },
+            { conteudo: "Elimina necessidade de servidor SMTP.", correto: false },
+            { conteudo: "É incompatível com dispositivos móveis.", correto: false }
+        ],
+        justificativa: "E-mails com domínio próprio reforçam a identidade institucional e permitem controle interno.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual das alternativas indica corretamente o formato padrão de endereços de e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "usuario@dominio.extensão", correto: true },
+            { conteudo: "www.usuario.extensão", correto: false },
+            { conteudo: "http://usuario@dominio", correto: false },
+            { conteudo: "dominio/usuario", correto: false },
+            { conteudo: "usuario#dominio.extensão", correto: false }
+        ],
+        justificativa: "Endereços de e-mail seguem o formato usuário@domínio, separados pelo caractere @.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual campo deve ser preenchido para responder automaticamente mensagens de ausência?",
+        arrayDeRespostas: [
+            { conteudo: "Resposta automática (Out of Office).", correto: true },
+            { conteudo: "Cc.", correto: false },
+            { conteudo: "Cco.", correto: false },
+            { conteudo: "Assunto.", correto: false },
+            { conteudo: "Encaminhar.", correto: false }
+        ],
+        justificativa: "A resposta automática informa o remetente sobre ausência temporária do destinatário.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual recurso permite enviar mensagens a vários contatos simultaneamente com privacidade?",
+        arrayDeRespostas: [
+            { conteudo: "Uso do campo Cco (Cópia Oculta).", correto: true },
+            { conteudo: "Encaminhamento em massa.", correto: false },
+            { conteudo: "Campo Cc.", correto: false },
+            { conteudo: "Agrupamento de mensagens.", correto: false },
+            { conteudo: "Filtro de destinatários.", correto: false }
+        ],
+        justificativa: "O campo Cco oculta a lista de destinatários, garantindo privacidade.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual recurso pode ser usado para garantir autenticidade e integridade de mensagens eletrônicas?",
+        arrayDeRespostas: [
+            { conteudo: "Certificado digital.", correto: true },
+            { conteudo: "Criptografia simples.", correto: false },
+            { conteudo: "Assinatura de e-mail padrão.", correto: false },
+            { conteudo: "Campo Cco.", correto: false },
+            { conteudo: "Backup automático.", correto: false }
+        ],
+        justificativa: "Certificados digitais garantem autenticidade, integridade e não repúdio de e-mails.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que ocorre ao configurar o servidor POP3 para excluir mensagens após o download?",
+        arrayDeRespostas: [
+            { conteudo: "As mensagens são removidas do servidor e ficam apenas no computador local.", correto: true },
+            { conteudo: "As mensagens permanecem sincronizadas entre os dispositivos.", correto: false },
+            { conteudo: "As mensagens são copiadas para todos os dispositivos.", correto: false },
+            { conteudo: "O servidor rejeita novas mensagens.", correto: false },
+            { conteudo: "A conta é bloqueada automaticamente.", correto: false }
+        ],
+        justificativa: "POP3 pode ser configurado para apagar mensagens do servidor após o download.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual das opções é uma boa prática de segurança ao usar e-mails?",
+        arrayDeRespostas: [
+            { conteudo: "Não abrir anexos de remetentes desconhecidos.", correto: true },
+            { conteudo: "Reenviar todos os spams recebidos.", correto: false },
+            { conteudo: "Desativar antivírus para ler mensagens.", correto: false },
+            { conteudo: "Abrir links suspeitos para verificar autenticidade.", correto: false },
+            { conteudo: "Usar senhas fracas e simples.", correto: false }
+        ],
+        justificativa: "Evitar abrir anexos desconhecidos reduz o risco de infecção por malware.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Qual é a principal função de um webmail?",
+        arrayDeRespostas: [
+            { conteudo: "Permitir acesso a e-mails via navegador, sem necessidade de instalar um cliente local.", correto: true },
+            { conteudo: "Atuar exclusivamente como servidor SMTP para envio de mensagens.", correto: false },
+            { conteudo: "Armazenar apenas a lista de contatos, sem acesso às mensagens.", correto: false },
+            { conteudo: "Criptografar automaticamente todas as mensagens com chave privada do usuário.", correto: false },
+            { conteudo: "Executar aplicações locais sem conexão com o servidor de e-mail.", correto: false }
+        ],
+        justificativa: "Webmail possibilita enviar, receber e gerenciar e-mails diretamente pelo navegador, mantendo as mensagens no servidor e dispensando a instalação de software cliente.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    }, {
+        enunciado: "Qual é o principal objetivo da assinatura digital em mensagens de e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "Garantir a autenticidade e integridade da mensagem enviada.", correto: true },
+            { conteudo: "Aumentar o tamanho do anexo do e-mail.", correto: false },
+            { conteudo: "Permitir que o e-mail seja lido offline.", correto: false },
+            { conteudo: "Evitar a necessidade de criptografia.", correto: false },
+            { conteudo: "Reduzir o consumo de banda de rede.", correto: false }
+        ],
+        justificativa: "A assinatura digital assegura que o remetente é legítimo e que o conteúdo da mensagem não foi alterado.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "O que significa o termo 'SMTP Authentication' durante a configuração de um cliente de e-mail?",
+        arrayDeRespostas: [
+            { conteudo: "É a exigência de autenticação para enviar mensagens pelo servidor SMTP.", correto: true },
+            { conteudo: "É o método de criptografia de anexos do e-mail.", correto: false },
+            { conteudo: "É o nome alternativo para o protocolo POP3.", correto: false },
+            { conteudo: "É o processo de recepção de mensagens pelo servidor IMAP.", correto: false },
+            { conteudo: "É a verificação de antivírus no envio de e-mails.", correto: false }
+        ],
+        justificativa: "SMTP Authentication impede que terceiros usem o servidor para enviar mensagens não autorizadas.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Ao configurar um e-mail corporativo, qual campo deve ser ajustado para identificar o domínio da empresa?",
+        arrayDeRespostas: [
+            { conteudo: "O servidor de entrada e saída deve utilizar o domínio da empresa (ex: mail.empresa.com.br).", correto: true },
+            { conteudo: "O campo de senha deve conter o nome do domínio.", correto: false },
+            { conteudo: "O nome do usuário deve ser substituído pelo domínio.", correto: false },
+            { conteudo: "O domínio é configurado apenas no cliente de antivírus.", correto: false },
+            { conteudo: "O domínio é adicionado automaticamente pelo sistema operacional.", correto: false }
+        ],
+        justificativa: "O domínio define a origem e destino do e-mail, devendo ser configurado corretamente no servidor de entrada e saída.",
+        categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
     }
 ]
 

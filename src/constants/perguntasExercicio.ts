@@ -10949,6 +10949,786 @@ const listaPerguntasExercicios: PerguntaExercicioInterface[] = [
         ],
         justificativa: "O domínio define a origem e destino do e-mail, devendo ser configurado corretamente no servidor de entrada e saída.",
         categoriaDaPergunta: "tecnico-de-informatica-correio-eletronico"
+    },
+    {
+        enunciado: "Em um sistema operacional, qual é a principal função da administração de usuários?",
+        arrayDeRespostas: [
+            { conteudo: "Controlar o acesso e as permissões de cada usuário no sistema.", correto: true },
+            { conteudo: "Monitorar apenas o uso de memória RAM.", correto: false },
+            { conteudo: "Executar rotinas automáticas de backup.", correto: false },
+            { conteudo: "Gerenciar apenas dispositivos de hardware.", correto: false },
+            { conteudo: "Definir protocolos de rede.", correto: false }
+        ],
+        justificativa: "A administração de usuários visa controlar acessos, permissões e perfis dentro do sistema.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Em sistemas Linux, qual comando é utilizado para adicionar um novo usuário?",
+        arrayDeRespostas: [
+            { conteudo: "useradd", correto: true },
+            { conteudo: "adduseraccount", correto: false },
+            { conteudo: "newuser", correto: false },
+            { conteudo: "createuser", correto: false },
+            { conteudo: "mkuser", correto: false }
+        ],
+        justificativa: "O comando 'useradd' é utilizado para criar novas contas de usuários no Linux.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Em sistemas Windows, qual ferramenta é usada para gerenciar contas de usuários?",
+        arrayDeRespostas: [
+            { conteudo: "Painel de Controle > Contas de Usuário", correto: true },
+            { conteudo: "Gerenciador de Dispositivos", correto: false },
+            { conteudo: "Prompt de Comando", correto: false },
+            { conteudo: "Monitor de Recursos", correto: false },
+            { conteudo: "Windows Defender", correto: false }
+        ],
+        justificativa: "O gerenciamento de contas de usuário no Windows é feito pelo Painel de Controle na seção correspondente.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Em um domínio Windows, o Active Directory é responsável por:",
+        arrayDeRespostas: [
+            { conteudo: "Gerenciar usuários, computadores e políticas de segurança em rede.", correto: true },
+            { conteudo: "Aumentar a velocidade de processamento dos servidores.", correto: false },
+            { conteudo: "Gerenciar apenas impressoras de rede.", correto: false },
+            { conteudo: "Realizar backups automáticos.", correto: false },
+            { conteudo: "Monitorar tráfego de rede.", correto: false }
+        ],
+        justificativa: "O Active Directory é o serviço da Microsoft que centraliza a administração de usuários e recursos em redes corporativas.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que é um grupo de usuários em sistemas operacionais?",
+        arrayDeRespostas: [
+            { conteudo: "Um conjunto de usuários com permissões semelhantes.", correto: true },
+            { conteudo: "Uma pasta que contém contas de administradores.", correto: false },
+            { conteudo: "Um tipo de serviço de rede.", correto: false },
+            { conteudo: "Um arquivo de configuração do sistema.", correto: false },
+            { conteudo: "Um processo do sistema que cria contas.", correto: false }
+        ],
+        justificativa: "Grupos de usuários facilitam a atribuição coletiva de permissões e políticas.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual comando no Linux é usado para modificar um usuário existente?",
+        arrayDeRespostas: [
+            { conteudo: "usermod", correto: true },
+            { conteudo: "useredit", correto: false },
+            { conteudo: "chuser", correto: false },
+            { conteudo: "moduser", correto: false },
+            { conteudo: "eduser", correto: false }
+        ],
+        justificativa: "O comando 'usermod' altera propriedades de uma conta de usuário no Linux.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual é o arquivo de configuração que armazena informações sobre usuários no Linux?",
+        arrayDeRespostas: [
+            { conteudo: "/etc/passwd", correto: true },
+            { conteudo: "/etc/users", correto: false },
+            { conteudo: "/etc/account", correto: false },
+            { conteudo: "/etc/login.conf", correto: false },
+            { conteudo: "/home/config", correto: false }
+        ],
+        justificativa: "O arquivo /etc/passwd contém dados como nome de usuário, UID, GID e diretório home.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que significa UID em sistemas Linux?",
+        arrayDeRespostas: [
+            { conteudo: "User Identifier", correto: true },
+            { conteudo: "Universal Installation Directory", correto: false },
+            { conteudo: "User Internal Data", correto: false },
+            { conteudo: "Unique Interface Device", correto: false },
+            { conteudo: "Unit Identification Disk", correto: false }
+        ],
+        justificativa: "UID é o identificador numérico único atribuído a cada usuário no sistema Linux.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual é o propósito da senha do usuário no sistema operacional?",
+        arrayDeRespostas: [
+            { conteudo: "Autenticar o usuário e proteger o acesso à sua conta.", correto: true },
+            { conteudo: "Aumentar a velocidade de login.", correto: false },
+            { conteudo: "Habilitar acesso remoto automático.", correto: false },
+            { conteudo: "Compartilhar acesso entre contas.", correto: false },
+            { conteudo: "Desabilitar a conta de administrador.", correto: false }
+        ],
+        justificativa: "As senhas garantem que somente o titular da conta possa acessar seus recursos e dados.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual grupo de usuários no Windows possui todas as permissões administrativas?",
+        arrayDeRespostas: [
+            { conteudo: "Administradores", correto: true },
+            { conteudo: "Convidados", correto: false },
+            { conteudo: "Usuários padrão", correto: false },
+            { conteudo: "Power Users", correto: false },
+            { conteudo: "Operadores de backup", correto: false }
+        ],
+        justificativa: "O grupo 'Administradores' tem controle total sobre o sistema e suas configurações.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Em ambientes corporativos, qual a vantagem do uso de perfis de usuário centralizados?",
+        arrayDeRespostas: [
+            { conteudo: "Permitem que o usuário acesse sua configuração de qualquer máquina do domínio.", correto: true },
+            { conteudo: "Aumentam a velocidade de inicialização.", correto: false },
+            { conteudo: "Eliminam a necessidade de senha.", correto: false },
+            { conteudo: "Bloqueiam o uso de rede.", correto: false },
+            { conteudo: "Desativam atualizações automáticas.", correto: false }
+        ],
+        justificativa: "Perfis centralizados permitem mobilidade e consistência de configurações entre diferentes estações.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O comando 'passwd' no Linux é utilizado para:",
+        arrayDeRespostas: [
+            { conteudo: "Alterar a senha de um usuário.", correto: true },
+            { conteudo: "Remover uma conta de usuário.", correto: false },
+            { conteudo: "Listar usuários do sistema.", correto: false },
+            { conteudo: "Criar grupos.", correto: false },
+            { conteudo: "Bloquear acesso remoto.", correto: false }
+        ],
+        justificativa: "O comando 'passwd' altera a senha de login de um usuário no sistema Linux.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual arquivo armazena as senhas criptografadas no Linux?",
+        arrayDeRespostas: [
+            { conteudo: "/etc/shadow", correto: true },
+            { conteudo: "/etc/passwd", correto: false },
+            { conteudo: "/etc/secure", correto: false },
+            { conteudo: "/home/shadowfile", correto: false },
+            { conteudo: "/var/passwords", correto: false }
+        ],
+        justificativa: "O arquivo /etc/shadow contém senhas criptografadas e é acessível apenas por administradores.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual comando no Windows é usado no prompt para criar um novo usuário?",
+        arrayDeRespostas: [
+            { conteudo: "net user nomeusuario /add", correto: true },
+            { conteudo: "create user nomeusuario", correto: false },
+            { conteudo: "add account nomeusuario", correto: false },
+            { conteudo: "user create nomeusuario", correto: false },
+            { conteudo: "newuser nomeusuario", correto: false }
+        ],
+        justificativa: "O comando 'net user' é utilizado para gerenciar usuários via prompt de comando no Windows.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Em uma política de segurança, por que é importante definir tempo de expiração de senhas?",
+        arrayDeRespostas: [
+            { conteudo: "Para reduzir o risco de acesso indevido a longo prazo.", correto: true },
+            { conteudo: "Para diminuir o tempo de login dos usuários.", correto: false },
+            { conteudo: "Para permitir logins automáticos.", correto: false },
+            { conteudo: "Para aumentar o desempenho do sistema.", correto: false },
+            { conteudo: "Para evitar bloqueio de contas.", correto: false }
+        ],
+        justificativa: "Senhas com validade forçada obrigam renovações periódicas, melhorando a segurança.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual a função do grupo 'sudo' no Linux?",
+        arrayDeRespostas: [
+            { conteudo: "Permitir que usuários executem comandos com privilégios de administrador.", correto: true },
+            { conteudo: "Restringir acesso a determinados arquivos.", correto: false },
+            { conteudo: "Bloquear usuários temporariamente.", correto: false },
+            { conteudo: "Criar backups automáticos de usuários.", correto: false },
+            { conteudo: "Gerenciar senhas de todos os usuários.", correto: false }
+        ],
+        justificativa: "Usuários do grupo 'sudo' podem executar comandos privilegiados temporariamente.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que é um usuário convidado (guest) em sistemas operacionais?",
+        arrayDeRespostas: [
+            { conteudo: "Uma conta com permissões limitadas para acesso temporário.", correto: true },
+            { conteudo: "Um administrador sem senha.", correto: false },
+            { conteudo: "Um usuário com privilégios totais.", correto: false },
+            { conteudo: "Uma conta usada apenas para rede local.", correto: false },
+            { conteudo: "Um grupo de usuários bloqueados.", correto: false }
+        ],
+        justificativa: "Contas guest permitem acesso temporário sem comprometer a segurança do sistema.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual comando Linux exibe informações detalhadas sobre um usuário?",
+        arrayDeRespostas: [
+            { conteudo: "id nomeusuario", correto: true },
+            { conteudo: "userinfo nomeusuario", correto: false },
+            { conteudo: "showuser nomeusuario", correto: false },
+            { conteudo: "whoami nomeusuario", correto: false },
+            { conteudo: "getuser nomeusuario", correto: false }
+        ],
+        justificativa: "O comando 'id' mostra UID, GID e grupos aos quais o usuário pertence.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Por que é importante usar políticas de senha fortes?",
+        arrayDeRespostas: [
+            { conteudo: "Para dificultar ataques de força bruta e aumentar a segurança.", correto: true },
+            { conteudo: "Para permitir acesso rápido aos usuários.", correto: false },
+            { conteudo: "Para reduzir o consumo de memória do sistema.", correto: false },
+            { conteudo: "Para agilizar backups automáticos.", correto: false },
+            { conteudo: "Para eliminar contas inativas.", correto: false }
+        ],
+        justificativa: "Senhas fortes reduzem a probabilidade de acesso não autorizado.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual é a função do arquivo /etc/group no Linux?",
+        arrayDeRespostas: [
+            { conteudo: "Armazenar informações sobre grupos e os usuários pertencentes a cada grupo.", correto: true },
+            { conteudo: "Guardar senhas criptografadas.", correto: false },
+            { conteudo: "Listar usuários conectados via rede.", correto: false },
+            { conteudo: "Definir permissões de arquivos individuais.", correto: false },
+            { conteudo: "Registrar logs de autenticação.", correto: false }
+        ],
+        justificativa: "O /etc/group contém grupos do sistema e quais usuários pertencem a cada um.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "No Windows, qual é a diferença entre contas padrão e contas de administrador?",
+        arrayDeRespostas: [
+            { conteudo: "Contas padrão possuem permissões limitadas; administradores têm controle total.", correto: true },
+            { conteudo: "Administradores não podem instalar programas.", correto: false },
+            { conteudo: "Contas padrão podem modificar configurações do sistema.", correto: false },
+            { conteudo: "Não há diferença entre elas.", correto: false },
+            { conteudo: "Contas padrão são criadas automaticamente apenas no Linux.", correto: false }
+        ],
+        justificativa: "Administradores têm permissões elevadas para gerenciar sistema, enquanto contas padrão têm acesso limitado.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que significa delegar permissões a usuários em um sistema?",
+        arrayDeRespostas: [
+            { conteudo: "Conceder direitos específicos para executar tarefas sem dar acesso total.", correto: true },
+            { conteudo: "Criar novos usuários automaticamente.", correto: false },
+            { conteudo: "Bloquear contas temporariamente.", correto: false },
+            { conteudo: "Alterar a senha de outro usuário sem permissão.", correto: false },
+            { conteudo: "Excluir todos os arquivos do sistema.", correto: false }
+        ],
+        justificativa: "Delegar permissões permite distribuir responsabilidades mantendo segurança do sistema.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que é um perfil de usuário no Windows?",
+        arrayDeRespostas: [
+            { conteudo: "Conjunto de configurações, preferências e arquivos pessoais de um usuário.", correto: true },
+            { conteudo: "Uma conta administrativa oculta.", correto: false },
+            { conteudo: "Um grupo de usuários conectados.", correto: false },
+            { conteudo: "Um arquivo de log de login.", correto: false },
+            { conteudo: "Uma pasta temporária do sistema.", correto: false }
+        ],
+        justificativa: "O perfil mantém personalizações, documentos e configurações individuais de cada usuário.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Em sistemas corporativos, o que é a política de 'conta inativa'?",
+        arrayDeRespostas: [
+            { conteudo: "Procedimento que bloqueia ou desativa contas sem uso por determinado período.", correto: true },
+            { conteudo: "Atualização automática de senha de administrador.", correto: false },
+            { conteudo: "Remoção de permissões temporárias.", correto: false },
+            { conteudo: "Backup automático da pasta home.", correto: false },
+            { conteudo: "Criação de contas de convidados.", correto: false }
+        ],
+        justificativa: "Contas inativas representam risco de segurança, por isso políticas corporativas podem bloqueá-las.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que é autenticação de dois fatores (2FA) em administração de usuários?",
+        arrayDeRespostas: [
+            { conteudo: "Método de segurança que requer duas formas de verificação para acesso.", correto: true },
+            { conteudo: "Permite login em duas máquinas ao mesmo tempo.", correto: false },
+            { conteudo: "Cria duas contas iguais automaticamente.", correto: false },
+            { conteudo: "Desativa temporariamente a senha.", correto: false },
+            { conteudo: "Somente monitora atividades do usuário.", correto: false }
+        ],
+        justificativa: "O 2FA aumenta a segurança exigindo algo que o usuário sabe e algo que possui.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual é a finalidade de restringir privilégios de administrador aos usuários comuns?",
+        arrayDeRespostas: [
+            { conteudo: "Reduzir risco de alterações acidentais ou maliciosas no sistema.", correto: true },
+            { conteudo: "Evitar que usuários acessem arquivos temporários.", correto: false },
+            { conteudo: "Aumentar o desempenho do sistema.", correto: false },
+            { conteudo: "Permitir múltiplos logins simultâneos.", correto: false },
+            { conteudo: "Criar automaticamente backups de usuários.", correto: false }
+        ],
+        justificativa: "Limitar privilégios minimiza o impacto de erros ou ações maliciosas em contas comuns.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Qual comando Linux remove uma conta de usuário e seu diretório home?",
+        arrayDeRespostas: [
+            { conteudo: "userdel -r nomeusuario", correto: true },
+            { conteudo: "deluser nomeusuario", correto: false },
+            { conteudo: "rmuser nomeusuario", correto: false },
+            { conteudo: "removeuser -home nomeusuario", correto: false },
+            { conteudo: "delhome nomeusuario", correto: false }
+        ],
+        justificativa: "A opção '-r' do 'userdel' remove também o diretório home associado ao usuário.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que é um SID (Security Identifier) no Windows?",
+        arrayDeRespostas: [
+            { conteudo: "Identificador único que o sistema usa para gerenciar permissões de usuários.", correto: true },
+            { conteudo: "Senha temporária do usuário.", correto: false },
+            { conteudo: "Nome de grupo de usuários.", correto: false },
+            { conteudo: "Tipo de diretório protegido.", correto: false },
+            { conteudo: "Arquivo de configuração de rede.", correto: false }
+        ],
+        justificativa: "O SID é usado internamente pelo Windows para identificar contas e controlar permissões.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que é a política de 'senha expirada' em um ambiente corporativo?",
+        arrayDeRespostas: [
+            { conteudo: "Obrigar usuários a trocar a senha após um período determinado.", correto: true },
+            { conteudo: "Bloquear o usuário permanentemente.", correto: false },
+            { conteudo: "Resetar todas as senhas do sistema.", correto: false },
+            { conteudo: "Desativar autenticação de rede.", correto: false },
+            { conteudo: "Remover contas antigas automaticamente.", correto: false }
+        ],
+        justificativa: "Senhas expiram para reduzir risco de uso indevido de credenciais antigas.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Por que é importante auditar contas de usuário regularmente?",
+        arrayDeRespostas: [
+            { conteudo: "Para identificar contas inativas, permissões indevidas ou comportamentos suspeitos.", correto: true },
+            { conteudo: "Para acelerar o login dos usuários.", correto: false },
+            { conteudo: "Para reduzir o uso de memória RAM.", correto: false },
+            { conteudo: "Para criar perfis duplicados.", correto: false },
+            { conteudo: "Para eliminar arquivos temporários.", correto: false }
+        ],
+        justificativa: "Auditorias regulares ajudam a manter a segurança e conformidade do ambiente.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que é uma conta de serviço no Windows ou Linux?",
+        arrayDeRespostas: [
+            { conteudo: "Uma conta usada exclusivamente para executar aplicações ou serviços, não para usuários humanos.", correto: true },
+            { conteudo: "Uma conta administrativa padrão.", correto: false },
+            { conteudo: "Uma conta de convidado temporária.", correto: false },
+            { conteudo: "Uma conta bloqueada automaticamente.", correto: false },
+            { conteudo: "Uma conta que não possui SID.", correto: false }
+        ],
+        justificativa: "Contas de serviço permitem que programas rodem com permissões controladas sem vincular a um usuário real.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que é um home directory (diretório home) no Linux?",
+        arrayDeRespostas: [
+            { conteudo: "Pasta pessoal do usuário que contém arquivos e configurações.", correto: true },
+            { conteudo: "Diretório temporário do sistema.", correto: false },
+            { conteudo: "Pasta compartilhada entre todos os usuários.", correto: false },
+            { conteudo: "Arquivo de configuração de senhas.", correto: false },
+            { conteudo: "Área de swap do usuário.", correto: false }
+        ],
+        justificativa: "O diretório home mantém arquivos, documentos e configurações individuais de cada usuário.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "Por que a segmentação de usuários em grupos é considerada uma boa prática de administração?",
+        arrayDeRespostas: [
+            { conteudo: "Facilita atribuição de permissões e gerenciamento de recursos de forma organizada.", correto: true },
+            { conteudo: "Evita a criação de backups.", correto: false },
+            { conteudo: "Substitui a necessidade de senhas.", correto: false },
+            { conteudo: "Aumenta automaticamente a velocidade do sistema.", correto: false },
+            { conteudo: "Bloqueia contas temporárias sem motivo.", correto: false }
+        ],
+        justificativa: "Organizar usuários em grupos simplifica administração e reforça a segurança.",
+        categoriaDaPergunta: "tecnico-de-informatica-administracao-de-usuarios"
+    },
+    {
+        enunciado: "O que é uma rede sem fio (wireless)?",
+        arrayDeRespostas: [
+            { conteudo: "Rede que utiliza ondas de rádio para comunicação entre dispositivos.", correto: true },
+            { conteudo: "Rede que depende exclusivamente de cabos de cobre.", correto: false },
+            { conteudo: "Rede que só funciona via satélite.", correto: false },
+            { conteudo: "Rede usada apenas em ambientes industriais.", correto: false },
+            { conteudo: "Rede que opera apenas com fibra óptica.", correto: false }
+        ],
+        justificativa: "Redes sem fio utilizam ondas de rádio para transmitir dados entre dispositivos sem o uso de cabos.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual padrão IEEE define as redes Wi-Fi?",
+        arrayDeRespostas: [
+            { conteudo: "IEEE 802.11", correto: true },
+            { conteudo: "IEEE 802.3", correto: false },
+            { conteudo: "IEEE 802.15", correto: false },
+            { conteudo: "IEEE 802.16", correto: false },
+            { conteudo: "IEEE 802.1Q", correto: false }
+        ],
+        justificativa: "O padrão IEEE 802.11 define as especificações para redes locais sem fio (Wi-Fi).",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que significa a sigla SSID em uma rede Wi-Fi?",
+        arrayDeRespostas: [
+            { conteudo: "Service Set Identifier", correto: true },
+            { conteudo: "Secure Signal Identification", correto: false },
+            { conteudo: "System Server ID", correto: false },
+            { conteudo: "Signal Strength ID", correto: false },
+            { conteudo: "Service Signal Identifier", correto: false }
+        ],
+        justificativa: "SSID é o nome da rede sem fio que identifica um ponto de acesso para conexão.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual é a frequência de operação mais comum das redes Wi-Fi domésticas?",
+        arrayDeRespostas: [
+            { conteudo: "2,4 GHz e 5 GHz", correto: true },
+            { conteudo: "1,2 GHz e 3 GHz", correto: false },
+            { conteudo: "10 GHz e 12 GHz", correto: false },
+            { conteudo: "900 MHz e 1 GHz", correto: false },
+            { conteudo: "7 GHz e 8 GHz", correto: false }
+        ],
+        justificativa: "Redes Wi-Fi operam principalmente nas bandas de 2,4 GHz e 5 GHz, dependendo do padrão.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual tecnologia é usada para criptografar dados em uma rede Wi-Fi moderna?",
+        arrayDeRespostas: [
+            { conteudo: "WPA3", correto: true },
+            { conteudo: "WEP", correto: false },
+            { conteudo: "SSL 2.0", correto: false },
+            { conteudo: "TLS 1.0", correto: false },
+            { conteudo: "PPP", correto: false }
+        ],
+        justificativa: "O WPA3 é o protocolo de segurança mais recente e seguro para redes sem fio.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é um ponto de acesso (Access Point)?",
+        arrayDeRespostas: [
+            { conteudo: "Dispositivo que permite a conexão de clientes sem fio a uma rede cabeada.", correto: true },
+            { conteudo: "Roteador que apenas distribui endereços IP.", correto: false },
+            { conteudo: "Antena passiva de sinal.", correto: false },
+            { conteudo: "Firewall de rede local.", correto: false },
+            { conteudo: "Servidor DNS interno.", correto: false }
+        ],
+        justificativa: "O ponto de acesso faz a ponte entre dispositivos sem fio e a rede cabeada.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual é a principal diferença entre os padrões 802.11n e 802.11ac?",
+        arrayDeRespostas: [
+            { conteudo: "O 802.11ac opera apenas na faixa de 5 GHz e oferece maiores velocidades.", correto: true },
+            { conteudo: "O 802.11n é mais rápido que o 802.11ac.", correto: false },
+            { conteudo: "O 802.11ac utiliza apenas cabos de fibra óptica.", correto: false },
+            { conteudo: "O 802.11n é exclusivo para redes corporativas.", correto: false },
+            { conteudo: "O 802.11ac não suporta múltiplas antenas.", correto: false }
+        ],
+        justificativa: "O 802.11ac melhora a velocidade e desempenho usando 5 GHz e múltiplos fluxos de dados (MIMO).",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é o modo Ad-Hoc em redes sem fio?",
+        arrayDeRespostas: [
+            { conteudo: "Modo onde dispositivos se comunicam diretamente sem um ponto de acesso.", correto: true },
+            { conteudo: "Modo exclusivo de roteadores corporativos.", correto: false },
+            { conteudo: "Modo que requer autenticação WPA3 obrigatória.", correto: false },
+            { conteudo: "Modo usado apenas para repetidores Wi-Fi.", correto: false },
+            { conteudo: "Modo de operação via cabo Ethernet.", correto: false }
+        ],
+        justificativa: "No modo Ad-Hoc, os dispositivos se conectam diretamente uns aos outros sem precisar de um AP.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que significa a sigla WLAN?",
+        arrayDeRespostas: [
+            { conteudo: "Wireless Local Area Network", correto: true },
+            { conteudo: "Wide Local Access Network", correto: false },
+            { conteudo: "Wireless Link Access Node", correto: false },
+            { conteudo: "Wide Link Adapter Network", correto: false },
+            { conteudo: "Wireless LAN Access Name", correto: false }
+        ],
+        justificativa: "WLAN é uma rede local sem fio, equivalente à LAN, mas baseada em radiofrequência.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual protocolo é utilizado para obtenção automática de IP em redes Wi-Fi?",
+        arrayDeRespostas: [
+            { conteudo: "DHCP", correto: true },
+            { conteudo: "DNS", correto: false },
+            { conteudo: "FTP", correto: false },
+            { conteudo: "HTTP", correto: false },
+            { conteudo: "ICMP", correto: false }
+        ],
+        justificativa: "O protocolo DHCP fornece automaticamente endereços IP aos dispositivos conectados à rede.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é o Wi-Fi 6 (802.11ax)?",
+        arrayDeRespostas: [
+            { conteudo: "Padrão Wi-Fi que oferece maior velocidade, eficiência e menor latência.", correto: true },
+            { conteudo: "Protocolo de criptografia para redes sem fio.", correto: false },
+            { conteudo: "Nova versão do Bluetooth.", correto: false },
+            { conteudo: "Tecnologia usada apenas em cabos ópticos.", correto: false },
+            { conteudo: "Padrão de comunicação via satélite.", correto: false }
+        ],
+        justificativa: "O Wi-Fi 6 (802.11ax) melhora desempenho e estabilidade, mesmo com muitos dispositivos conectados.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é o MAC Filtering em um roteador sem fio?",
+        arrayDeRespostas: [
+            { conteudo: "Recurso que restringe o acesso à rede com base no endereço físico (MAC) dos dispositivos.", correto: true },
+            { conteudo: "Protocolo de segurança avançado.", correto: false },
+            { conteudo: "Método de compressão de pacotes de rede.", correto: false },
+            { conteudo: "Técnica de modulação de frequência.", correto: false },
+            { conteudo: "Serviço de distribuição automática de IP.", correto: false }
+        ],
+        justificativa: "O MAC Filtering controla quais dispositivos podem se conectar, usando o endereço físico de rede.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual é a função de um repetidor Wi-Fi?",
+        arrayDeRespostas: [
+            { conteudo: "Ampliar o alcance do sinal da rede sem fio existente.", correto: true },
+            { conteudo: "Bloquear interferências de outros sinais.", correto: false },
+            { conteudo: "Fornecer endereços IP automaticamente.", correto: false },
+            { conteudo: "Reduzir a potência do sinal de rádio.", correto: false },
+            { conteudo: "Transformar uma rede cabeada em rede sem fio.", correto: false }
+        ],
+        justificativa: "O repetidor retransmite o sinal do roteador, expandindo a cobertura da rede sem fio.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual é o principal tipo de interferência em redes Wi-Fi de 2,4 GHz?",
+        arrayDeRespostas: [
+            { conteudo: "Interferência de micro-ondas e telefones sem fio.", correto: true },
+            { conteudo: "Interferência de cabos de rede.", correto: false },
+            { conteudo: "Interferência de sinais de fibra óptica.", correto: false },
+            { conteudo: "Ruído de tensão elétrica alternada.", correto: false },
+            { conteudo: "Sinais de infravermelho.", correto: false }
+        ],
+        justificativa: "A faixa de 2,4 GHz é usada por diversos aparelhos domésticos, causando interferências.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que significa hotspot em redes sem fio?",
+        arrayDeRespostas: [
+            { conteudo: "Local onde há disponibilidade pública de conexão Wi-Fi.", correto: true },
+            { conteudo: "Equipamento de roteamento cabeado.", correto: false },
+            { conteudo: "Servidor de autenticação de rede.", correto: false },
+            { conteudo: "Firewall de rede sem fio.", correto: false },
+            { conteudo: "Modo de segurança WPA.", correto: false }
+        ],
+        justificativa: "Hotspot é uma área onde o acesso Wi-Fi é disponibilizado para usuários, como cafés e aeroportos.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é o protocolo WPS (Wi-Fi Protected Setup)?",
+        arrayDeRespostas: [
+            { conteudo: "Método de conexão rápida e simplificada a uma rede Wi-Fi segura.", correto: true },
+            { conteudo: "Protocolo de autenticação avançada via certificado digital.", correto: false },
+            { conteudo: "Sistema de criptografia WPA3.", correto: false },
+            { conteudo: "Serviço de roteamento estático.", correto: false },
+            { conteudo: "Aplicativo de monitoramento de rede.", correto: false }
+        ],
+        justificativa: "O WPS permite conectar dispositivos facilmente sem digitar a senha, mas pode ser vulnerável.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é o canal (channel) em uma rede Wi-Fi?",
+        arrayDeRespostas: [
+            { conteudo: "Faixa específica de frequência usada para transmissão de dados sem fio.", correto: true },
+            { conteudo: "Número de IP usado pelo roteador.", correto: false },
+            { conteudo: "Porta lógica usada para conexões HTTP.", correto: false },
+            { conteudo: "Endereço MAC do roteador.", correto: false },
+            { conteudo: "Nome da rede sem fio (SSID).", correto: false }
+        ],
+        justificativa: "Canais definem subdivisões da faixa de frequência Wi-Fi, usadas para reduzir interferências.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual é o alcance típico de uma rede Wi-Fi em ambiente interno?",
+        arrayDeRespostas: [
+            { conteudo: "Entre 30 e 50 metros, dependendo das barreiras físicas.", correto: true },
+            { conteudo: "Até 500 metros em qualquer condição.", correto: false },
+            { conteudo: "Apenas 5 metros em locais abertos.", correto: false },
+            { conteudo: "Mais de 1 quilômetro.", correto: false },
+            { conteudo: "Apenas 10 metros fixos.", correto: false }
+        ],
+        justificativa: "O alcance interno varia de acordo com o padrão Wi-Fi e obstáculos como paredes.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual é a principal vantagem do padrão 802.11ax (Wi-Fi 6) em relação ao 802.11ac?",
+        arrayDeRespostas: [
+            { conteudo: "Melhor desempenho em ambientes com muitos dispositivos conectados.", correto: true },
+            { conteudo: "Maior consumo de energia.", correto: false },
+            { conteudo: "Uso exclusivo da faixa de 2,4 GHz.", correto: false },
+            { conteudo: "Velocidade reduzida para estabilidade.", correto: false },
+            { conteudo: "Compatibilidade apenas com roteadores cabeados.", correto: false }
+        ],
+        justificativa: "O Wi-Fi 6 melhora a eficiência em locais com alta densidade de dispositivos.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é a autenticação 802.1X usada em redes sem fio corporativas?",
+        arrayDeRespostas: [
+            { conteudo: "Mecanismo que integra servidor RADIUS para controle de acesso à rede.", correto: true },
+            { conteudo: "Protocolo de roteamento dinâmico.", correto: false },
+            { conteudo: "Serviço de alocação de IP.", correto: false },
+            { conteudo: "Técnica de compressão de dados Wi-Fi.", correto: false },
+            { conteudo: "Método de criptografia WPA2.", correto: false }
+        ],
+        justificativa: "O 802.1X autentica usuários via servidor RADIUS, reforçando a segurança em redes corporativas.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que significa a sigla WPA em redes Wi-Fi?",
+        arrayDeRespostas: [
+            { conteudo: "Wi-Fi Protected Access", correto: true },
+            { conteudo: "Wireless Packet Adapter", correto: false },
+            { conteudo: "Wide Protected Area", correto: false },
+            { conteudo: "Wireless Privacy Algorithm", correto: false },
+            { conteudo: "Wi-Fi Public Access", correto: false }
+        ],
+        justificativa: "WPA é o protocolo de segurança que substituiu o WEP, oferecendo criptografia mais robusta.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual é a principal desvantagem do protocolo WEP?",
+        arrayDeRespostas: [
+            { conteudo: "Apresenta vulnerabilidades graves e pode ser facilmente quebrado.", correto: true },
+            { conteudo: "É incompatível com dispositivos modernos.", correto: false },
+            { conteudo: "Requer senha longa demais para configuração.", correto: false },
+            { conteudo: "Funciona apenas em redes 5G.", correto: false },
+            { conteudo: "Não permite compartilhamento de internet.", correto: false }
+        ],
+        justificativa: "O WEP usa criptografia fraca e não oferece proteção adequada contra invasões.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual é a função do modo 'bridge' em um roteador sem fio?",
+        arrayDeRespostas: [
+            { conteudo: "Conectar duas redes diferentes, permitindo comunicação entre elas.", correto: true },
+            { conteudo: "Bloquear dispositivos desconhecidos.", correto: false },
+            { conteudo: "Atuar como firewall da rede local.", correto: false },
+            { conteudo: "Distribuir endereços IP automaticamente.", correto: false },
+            { conteudo: "Aumentar o número de SSIDs disponíveis.", correto: false }
+        ],
+        justificativa: "O modo bridge conecta duas redes, permitindo que elas compartilhem recursos.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Em uma rede Wi-Fi, qual é a finalidade do modo 'repetidor'?",
+        arrayDeRespostas: [
+            { conteudo: "Ampliar o sinal de outra rede sem fio existente.", correto: true },
+            { conteudo: "Criar um novo SSID isolado.", correto: false },
+            { conteudo: "Desativar a transmissão de pacotes.", correto: false },
+            { conteudo: "Converter sinal Wi-Fi em Bluetooth.", correto: false },
+            { conteudo: "Alterar o canal de frequência.", correto: false }
+        ],
+        justificativa: "O repetidor estende o alcance do sinal original, melhorando cobertura.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual é a função do protocolo RADIUS em redes sem fio empresariais?",
+        arrayDeRespostas: [
+            { conteudo: "Autenticar e autorizar usuários centralizadamente.", correto: true },
+            { conteudo: "Atribuir endereços IP automaticamente.", correto: false },
+            { conteudo: "Definir rotas de comunicação entre APs.", correto: false },
+            { conteudo: "Gerar logs de tráfego HTTP.", correto: false },
+            { conteudo: "Bloquear acesso a sites não seguros.", correto: false }
+        ],
+        justificativa: "O RADIUS é amplamente usado para autenticação segura de usuários corporativos.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é 'roaming' em redes Wi-Fi corporativas?",
+        arrayDeRespostas: [
+            { conteudo: "Capacidade de um dispositivo mudar de ponto de acesso sem perder a conexão.", correto: true },
+            { conteudo: "Criação de redes paralelas de backup.", correto: false },
+            { conteudo: "Configuração de IPs estáticos.", correto: false },
+            { conteudo: "Conexão automática a redes públicas.", correto: false },
+            { conteudo: "Limitação de largura de banda.", correto: false }
+        ],
+        justificativa: "O roaming permite movimentação contínua do usuário entre diferentes pontos de acesso.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é o MIMO em redes Wi-Fi modernas?",
+        arrayDeRespostas: [
+            { conteudo: "Uso de múltiplas antenas para transmissão e recepção simultânea de dados.", correto: true },
+            { conteudo: "Método de compressão de pacotes.", correto: false },
+            { conteudo: "Sistema de backup automático de rede.", correto: false },
+            { conteudo: "Protocolo de autenticação de usuários.", correto: false },
+            { conteudo: "Algoritmo de segurança WPA.", correto: false }
+        ],
+        justificativa: "O MIMO (Multiple Input, Multiple Output) melhora velocidade e confiabilidade da comunicação sem fio.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é o QoS (Quality of Service) em redes Wi-Fi?",
+        arrayDeRespostas: [
+            { conteudo: "Mecanismo que prioriza determinados tipos de tráfego, como voz e vídeo.", correto: true },
+            { conteudo: "Protocolo de roteamento estático.", correto: false },
+            { conteudo: "Serviço de autenticação de usuários.", correto: false },
+            { conteudo: "Sistema de criptografia avançada.", correto: false },
+            { conteudo: "Técnica de economia de energia.", correto: false }
+        ],
+        justificativa: "O QoS assegura qualidade em aplicações sensíveis à latência, como chamadas e streaming.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Em redes Wi-Fi, o termo 'band steering' refere-se a:",
+        arrayDeRespostas: [
+            { conteudo: "Técnica que direciona dispositivos para a banda mais adequada (2,4 ou 5 GHz).", correto: true },
+            { conteudo: "Protocolo de roteamento dinâmico.", correto: false },
+            { conteudo: "Modo de operação do WPS.", correto: false },
+            { conteudo: "Sistema de autenticação dupla.", correto: false },
+            { conteudo: "Técnica de compressão de pacotes TCP.", correto: false }
+        ],
+        justificativa: "Band steering ajuda a balancear o uso entre as bandas de 2,4 GHz e 5 GHz, otimizando o desempenho.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Por que o WPA3 é considerado mais seguro que o WPA2?",
+        arrayDeRespostas: [
+            { conteudo: "Utiliza criptografia mais forte e proteção contra ataques de dicionário.", correto: true },
+            { conteudo: "Dispensa autenticação de usuários.", correto: false },
+            { conteudo: "Opera apenas na banda de 2,4 GHz.", correto: false },
+            { conteudo: "Funciona sem necessidade de senha.", correto: false },
+            { conteudo: "É compatível apenas com redes cabeadas.", correto: false }
+        ],
+        justificativa: "O WPA3 introduz criptografia individual e autenticação mais robusta, aumentando a segurança.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "O que é 'hidden SSID' em uma rede Wi-Fi?",
+        arrayDeRespostas: [
+            { conteudo: "Configuração que oculta o nome da rede, dificultando sua detecção.", correto: true },
+            { conteudo: "Protocolo de segurança avançado.", correto: false },
+            { conteudo: "Canal de transmissão exclusivo.", correto: false },
+            { conteudo: "Modo de conexão via cabo.", correto: false },
+            { conteudo: "Função que aumenta a potência do sinal.", correto: false }
+        ],
+        justificativa: "Ocultar o SSID pode adicionar uma camada básica de privacidade, embora não substitua a criptografia.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
+    },
+    {
+        enunciado: "Qual ferramenta é usada para analisar redes Wi-Fi e verificar canais disponíveis?",
+        arrayDeRespostas: [
+            { conteudo: "Wireshark", correto: true },
+            { conteudo: "PuTTY", correto: false },
+            { conteudo: "Nmap", correto: false },
+            { conteudo: "FileZilla", correto: false },
+            { conteudo: "VirtualBox", correto: false }
+        ],
+        justificativa: "O Wireshark permite capturar e analisar pacotes de rede, inclusive redes Wi-Fi.",
+        categoriaDaPergunta: "tecnico-de-informatica-redes-sem-fio"
     }
 ]
 

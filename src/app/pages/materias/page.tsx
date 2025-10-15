@@ -726,6 +726,16 @@ export default function PaginaMaterias() {
                                             slug: `/pages/materias/conhecimentoEspecifico/tecnicoDeInformatica/${tecnicoDeInformatica["correio-eletronico"].id}`,
                                             id: `tecnico-de-informatica-${tecnicoDeInformatica["correio-eletronico"].id}`
                                         },
+                                        {
+                                            nome: `${tecnicoDeInformatica["administracao-de-usuarios"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/tecnicoDeInformatica/${tecnicoDeInformatica["administracao-de-usuarios"].id}`,
+                                            id: `tecnico-de-informatica-${tecnicoDeInformatica["administracao-de-usuarios"].id}`
+                                        },
+                                        {
+                                            nome: `${tecnicoDeInformatica["redes-sem-fio"].titulo}`,
+                                            slug: `/pages/materias/conhecimentoEspecifico/tecnicoDeInformatica/${tecnicoDeInformatica["redes-sem-fio"].id}`,
+                                            id: `tecnico-de-informatica-${tecnicoDeInformatica["redes-sem-fio"].id}`
+                                        },
                                     ]}
                                     materiaConcluida={toggleMateriaCompleta}
                                     materiasCompletas={materiasCompletas}

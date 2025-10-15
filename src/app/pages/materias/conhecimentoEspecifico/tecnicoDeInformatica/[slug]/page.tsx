@@ -1,6 +1,8 @@
 'use client'
+import AdministracaoDeUsuarios from '@/components/materias/tecnicoDeInformatica/AdministracaoDeUsuarios'
 import CopiaDeSegurancaBackup from '@/components/materias/tecnicoDeInformatica/CopiaDeSegurancaBackup'
 import CorreioEletronico from '@/components/materias/tecnicoDeInformatica/CorreioEletronico'
+import RedesSemFio from '@/components/materias/tecnicoDeInformatica/RedesSemFio'
 import Virus from '@/components/materias/tecnicoDeInformatica/Virus'
 import Template from '@/components/template/Template'
 import { useParams } from 'next/navigation'
@@ -10,6 +12,8 @@ const componentesPorSlug: Record<string, JSX.Element> = {
     ['tecnico-de-informatica-virus']: <Virus />,
     ['tecnico-de-informatica-copia-de-seguranca-backup']: <CopiaDeSegurancaBackup />,
     ['tecnico-de-informatica-correio-eletronico']: <CorreioEletronico />,
+    ['tecnico-de-informatica-administracao-de-usuarios']: <AdministracaoDeUsuarios />,
+    ['tecnico-de-informatica-redes-sem-fio']: <RedesSemFio />,
 }
 
 export default function PaginaMateriaAssistenteAdministrativo() {
